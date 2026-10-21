@@ -74,5 +74,8 @@ w("## 8. Omar's rules in his words (learning/rules_core.csv)\n| id | rule | stat
 for r in csv.DictReader(open(P("learning", "rules_core.csv"))): w(f"| {r['id']} | {r['rule'].replace('|','/')} | {r['status']} | {(r.get('hookforge_resolution') or '').replace('|','/')[:160]} |")
 w("\n## 9. OMAR_FEEDBACK_LOG (verbatim copy of learning/OMAR_FEEDBACK_LOG.md)\n")
 w(open(P("learning", "OMAR_FEEDBACK_LOG.md")).read())
-open(P("docs", "RESUME.md"), "w").write("\n".join(L) + "\n")
+# D166: rewrite only when something other than the "Generated <time>" line changed, so regen and tests make no churn
+new = "\n".join(L) + "\n"; old = open(P("docs", "RESUME.md")).read() if os.path.exists(P("docs", "RESUME.md")) else ""
+_body = lambda t: "\n".join(x for x in t.splitlines() if not x.startswith("Generated "))
+if _body(new) != _body(old): open(P("docs", "RESUME.md"), "w").write(new)
 print("docs/RESUME.md", sum(1 for _ in L), "blocks")

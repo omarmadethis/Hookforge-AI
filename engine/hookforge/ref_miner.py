@@ -114,7 +114,7 @@ def build():
     for t in products.active():
         h = hooks(t); res[t] = dict(hooks=h[:15], sounds=sounds(t)[:8], hashtags=[x for x in hashtags(t) if x["score"] > 0][:12], cuts=cuts(t)[:6],
                                     format_boost=_format_boost(h))
-    os.makedirs(os.path.dirname(OUT), exist_ok=True); json.dump(res, open(OUT, "w"), indent=1, ensure_ascii=False); return res
+    os.makedirs(os.path.dirname(OUT), exist_ok=True); json.dump(res, open(OUT, "w"), indent=1, ensure_ascii=False, sort_keys=True); return res   # D166 deterministic
 
 F_RX = [(r"(?i)\bVS\b|last day|first day|then|last year", ["F04", "F18"]), (r"(?i)\bPOV\b", ["F15", "F09"]), (r"(?i)\bNEEDS?\b", ["F13"]),
         (r"(?i)don'?t show", ["F05"]), (r"(?i)\bRUN\b|walmart|target|costco", ["F17", "F02"]), (r"(?i)problem|solution", ["F19", "F02"]),

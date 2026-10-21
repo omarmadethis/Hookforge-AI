@@ -117,5 +117,5 @@ def write(weekly=None):
     w = weekly or concept_lab.weekly(write=False)
     out = {"standard": w["total_credits"], "lean": quote(w)}
     d = os.path.join(REPO, "learning", "weekly_batch"); os.makedirs(d, exist_ok=True)
-    json.dump(out, open(os.path.join(d, f"{w['start']}_lean.json"), "w"), indent=1, ensure_ascii=False, default=str)
+    json.dump(out, open(os.path.join(d, f"{w['start']}_lean.json"), "w"), indent=1, ensure_ascii=False, default=str, sort_keys=True)   # D166 deterministic
     return out
