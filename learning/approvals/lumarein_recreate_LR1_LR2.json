@@ -1,7 +1,7 @@
 {
  "approved_by": "Omar",
  "approved_at_pt": "2026-10-21T15:57:00-07:00",
- "status": "cap APPROVED; 8 frames done (58.5 spent); AWAITING Omar frame approval before 8 clips (224)",
+ "status": "finals built, NOT posted; awaiting Omar review",
  "run_id": "lumarein_recreate_LR1_LR2",
  "account": "user-Higgsfield--new-account",
  "credit_cap": 310.5,
@@ -17,8 +17,8 @@
   "cap approval",
   "frame approval (8 start frames shown to Omar)"
  ],
- "consumed": false,
- "spent": 58.5,
+ "consumed": true,
+ "spent": 282.5,
  "approval_quote": "approved LR1+LR2 plan, HARD 310.5 cap, POC'd to the max",
  "approval_channel": "relayed by parent agent",
  "hard_cap": true,
@@ -101,6 +101,54 @@
    "item": "LR2_B1 redo2",
    "job": "4e56f56f-2d4a-4980-b21b-72e8db72f1da",
    "credits": 6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:31",
+   "item": "LR1_B1 clip",
+   "job": "7573b6d0-a4e3-4aa2-8ca7-749cc95ffa2c",
+   "credits": 28
+  },
+  {
+   "ts_pt": "2026-10-21T16:31",
+   "item": "LR1_B3 clip",
+   "job": "9db8dd7d-a9c4-40c8-90ab-e6eb6b1ab304",
+   "credits": 28
+  },
+  {
+   "ts_pt": "2026-10-21T16:31",
+   "item": "LR2_B1 clip",
+   "job": "107a7f3a-8ab0-4edb-8b58-4ce9cc2ae8ca",
+   "credits": 28
+  },
+  {
+   "ts_pt": "2026-10-21T16:33",
+   "item": "LR1_H clip",
+   "job": "d99987c2-855a-4914-a72c-336225c4ee18",
+   "credits": 28
+  },
+  {
+   "ts_pt": "2026-10-21T16:33",
+   "item": "LR1_B2 clip",
+   "job": "448d60cf-2a43-4f5e-92ff-cb5b785a7f83",
+   "credits": 28
+  },
+  {
+   "ts_pt": "2026-10-21T16:33",
+   "item": "LR2_H clip",
+   "job": "71be8a55-5c50-4219-8f7b-8a2ec554f007",
+   "credits": 28
+  },
+  {
+   "ts_pt": "2026-10-21T16:33",
+   "item": "LR2_B2 clip",
+   "job": "ffa55cca-bda8-4015-a81e-0a111cfd9cb6",
+   "credits": 28
+  },
+  {
+   "ts_pt": "2026-10-21T16:33",
+   "item": "LR2_B3 clip",
+   "job": "63d189e2-8dbd-47e4-bdf3-62b4f998138b",
+   "credits": 28
   }
  ],
  "frames": {
@@ -123,7 +171,7 @@
   "LR2_B2": "c18eee6a-a681-47a9-857e-d8d6e6fb58ff",
   "LR2_B3": "41e05f44-870c-4879-9755-768de716b7d5"
  },
- "remaining": 252.0,
+ "remaining": 28.0,
  "card_plan_D188": {
   "LR1": [
    [
@@ -143,5 +191,24 @@
   ],
   "updated_pt": "2026-10-21T16:25-07:00",
   "note": "frames unchanged (card space only); clips still await Omar's frame approval"
+ },
+ "frames_approved": {
+  "by": "Omar",
+  "at_pt": "2026-10-21T16:23-07:00",
+  "change": "super glowy LEDs + motion blur/light trails like originals"
+ },
+ "clips": {
+  "LR1_H": "d99987c2-855a-4914-a72c-336225c4ee18",
+  "LR1_B1": "7573b6d0-a4e3-4aa2-8ca7-749cc95ffa2c",
+  "LR1_B2": "448d60cf-2a43-4f5e-92ff-cb5b785a7f83",
+  "LR1_B3": "9db8dd7d-a9c4-40c8-90ab-e6eb6b1ab304",
+  "LR2_H": "71be8a55-5c50-4219-8f7b-8a2ec554f007",
+  "LR2_B1": "107a7f3a-8ab0-4edb-8b58-4ce9cc2ae8ca",
+  "LR2_B2": "ffa55cca-bda8-4015-a81e-0a111cfd9cb6",
+  "LR2_B3": "63d189e2-8dbd-47e4-bdf3-62b4f998138b"
+ },
+ "finals": {
+  "LR1": "out/lumarein/final/LR1_clean.mp4",
+  "LR2": "out/lumarein/final/LR2_clean.mp4"
  }
 }

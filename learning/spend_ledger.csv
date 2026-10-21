@@ -153,3 +153,11 @@ ts_pt,run_id,item,job_ids,credits
 2026-10-21T16:14,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR2_B2 redo (card space),c18eee6a-a681-47a9-857e-d8d6e6fb58ff,6.5
 2026-10-21T16:16,lumarein_recreate_LR1_LR2,REFUND(expected) gpt_image_2 LR2_B1 redo nsfw-blocked,41438b67-8ba2-425d-801c-8250a25a1521,-6.5
 2026-10-21T16:17,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR2_B1 redo2 (product ref only),4e56f56f-2d4a-4980-b21b-72e8db72f1da,6.5
+2026-10-21T16:31,lumarein_recreate_LR1_LR2,seedance_2_5 LR1_B1 720p 4s,7573b6d0-a4e3-4aa2-8ca7-749cc95ffa2c,28
+2026-10-21T16:31,lumarein_recreate_LR1_LR2,seedance_2_5 LR1_B3 720p 4s,9db8dd7d-a9c4-40c8-90ab-e6eb6b1ab304,28
+2026-10-21T16:31,lumarein_recreate_LR1_LR2,seedance_2_5 LR2_B1 720p 4s,107a7f3a-8ab0-4edb-8b58-4ce9cc2ae8ca,28
+2026-10-21T16:33,lumarein_recreate_LR1_LR2,seedance_2_5 LR1_H 720p 4s,d99987c2-855a-4914-a72c-336225c4ee18,28
+2026-10-21T16:33,lumarein_recreate_LR1_LR2,seedance_2_5 LR1_B2 720p 4s,448d60cf-2a43-4f5e-92ff-cb5b785a7f83,28
+2026-10-21T16:33,lumarein_recreate_LR1_LR2,seedance_2_5 LR2_H 720p 4s,71be8a55-5c50-4219-8f7b-8a2ec554f007,28
+2026-10-21T16:33,lumarein_recreate_LR1_LR2,seedance_2_5 LR2_B2 720p 4s,ffa55cca-bda8-4015-a81e-0a111cfd9cb6,28
+2026-10-21T16:33,lumarein_recreate_LR1_LR2,seedance_2_5 LR2_B3 720p 4s,63d189e2-8dbd-47e4-bdf3-62b4f998138b,28
