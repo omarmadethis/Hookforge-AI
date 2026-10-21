@@ -1,0 +1,135 @@
+{
+ "id": "jollyglow_G01_needs_store",
+ "date": "2026-10-21",
+ "product": "jollyglow_curtain",
+ "page": "Jolly Glow (Buffer1 6ad7c7b6778b240e2f6eded2)",
+ "status": "PLAN ONLY - 0 credits spent",
+ "format": {
+  "key": "statement-needs-store (store hook), shape L",
+  "proof": [
+   "hollyglow27 'EVERY Christmas Mom NEEDS this' 5.2M / 39.5K shares (decor projector, shelf grab)",
+   "merry.made2 1.4M; tryglowmas 1.1M; carolvyl 892K",
+   "internal: HJ 'ALL mom's NEED this' 524K; Merry Carrier 'Every Christmas mom NEEDS this' 62.8K"
+  ],
+  "not_used_on_jollyglow_before": true
+ },
+ "hook": {
+  "gen": "H1",
+  "first_second": "night seasonal aisle, US flag bunting on shelf; two moms grab the LAST JollyGlow curtain box at the same instant and tug it",
+  "conflict_t_s": 0.3,
+  "card_visible_at_0": true
+ },
+ "gens": [
+  {
+   "id": "H1",
+   "kind": "hook",
+   "res": "720p",
+   "len_s": 4,
+   "start_frame": "F_H1",
+   "shots": [
+    "0.0-2.2 tug-of-war over last box, she wins and hugs it"
+   ]
+  },
+  {
+   "id": "B1",
+   "kind": "body",
+   "res": "720p",
+   "len_s": 4,
+   "start_frame": "F_B1",
+   "hard_cut_at_s": 2,
+   "shots": [
+    "2.2-4.0 box cut open on porch, US flag on porch post",
+    "4.0-5.8 curtain hung across front window"
+   ]
+  },
+  {
+   "id": "B2",
+   "kind": "body",
+   "res": "720p",
+   "len_s": 4,
+   "start_frame": "F_B2",
+   "hard_cut_at_s": 2,
+   "shots": [
+    "5.8-6.6 thumb clicks remote (macro)",
+    "6.6-8.4 AFTER 1: snowflakes fall down the window, wide house"
+   ]
+  },
+  {
+   "id": "B3",
+   "kind": "body",
+   "res": "720p",
+   "len_s": 4,
+   "start_frame": "F_B3",
+   "hard_cut_at_s": 2,
+   "shots": [
+    "8.4-10.4 AFTER 2: 'Merry Christmas' script writes across curtain, couple steps back on lawn",
+    "10.4-12.4 AFTER 3: red/green waves, wide from sidewalk, neighbours stop and stare, flag in frame; hard cut out"
+   ]
+  }
+ ],
+ "frames": "4 GPT Image 2 start frames, each with refs attached (product ref + flag ref); Seedance 2.5 start-frame only",
+ "cards": [
+  {
+   "text": "Every Christmas mom NEEDS this 😳🇺🇸",
+   "t0": 0.0,
+   "t1": 5.8,
+   "words": 6,
+   "place": "top third, off faces",
+   "why": "two moms fight over the box"
+  },
+  {
+   "text": "Christmas in 2026 hits different 🎄",
+   "t0": 5.8,
+   "t1": 8.4,
+   "words": 5,
+   "place": "top third, above window",
+   "why": "switch-on and first lit look"
+  },
+  {
+   "text": "Now the whole street stops 😏",
+   "t0": 8.4,
+   "t1": 12.4,
+   "words": 5,
+   "place": "lower sky area, off faces",
+   "why": "afters end with neighbours stopping on the sidewalk"
+  }
+ ],
+ "vs": "none (VS only allowed on middle card; not used)",
+ "song": {
+  "key": "last_christmas",
+  "track": "Wham! - Last Christmas (remastered)",
+  "start": "song 0:00 intro at reel 0.0, no loops/splices",
+  "proof": "Merry Carrier 62.8K NEEDS reel used intro at 0.0"
+ },
+ "caption": "Our street was NOT ready for this 😏🇺🇸\nSAY \"MOM\" and we'll send you the link\n#christmas #christmasmom #christmaslights",
+ "caption_checks": {
+  "has_SAY": true,
+  "no_Get_yours": true,
+  "no_Comment": true,
+  "differs_from": [
+   "The hottest decoration this year... 😍 (Oct 19)",
+   "Oct 10/20 Jolly Glow captions"
+  ]
+ },
+ "rules": {
+  "new_footage_only": true,
+  "no_reuse": [
+   "F06",
+   "321 A/B",
+   "Combo"
+  ],
+  "zero_metadata": true,
+  "flag": "aisle bunting H1, porch flag B1+B3"
+ },
+ "cost": {
+  "images": "4 x 6.5 = 26",
+  "clips": "4 x 28 = 112",
+  "total": 138,
+  "buffer": "1 frame + 1 clip retry = 34.5",
+  "cap": 172.5
+ },
+ "balance_new_account": {
+  "credits": 5320.14,
+  "checked": "2026-10-21 ~3:58 PM PT"
+ }
+}
