@@ -72,3 +72,28 @@ def _isolate():
         for f, b in perf.items(): open(os.path.join(_PERF, f), "wb").write(b)
         leaked.append("learning/perf/")
     if leaked: os.environ.setdefault("HOOKFORGE_TEST_LEAKS", ""); os.environ["HOOKFORGE_TEST_LEAKS"] += ";" + ",".join(leaked)
+
+
+# D171 (2026-10-21): repo-level output isolation. Some tests call real planners/reporters that write into the repo
+# (calendar, alerts, queues, RESUME). Snapshot those paths for the whole session and put them back exactly afterwards.
+_GUARDED = ["analytics/content_calendar.html", "docs/RESUME.md", "learning/alerts", "learning/approval_queue",
+            "learning/calendar", "learning/render_queue", "learning/weekly_batch", "learning/credit_ledger"]
+
+def _tree(rel):
+    p = os.path.join(REPO, rel)
+    if os.path.isfile(p): return {rel: open(p, "rb").read()}
+    out = {}
+    for d, _, fs in os.walk(p):
+        for f in fs:
+            fp = os.path.join(d, f); out[os.path.relpath(fp, REPO)] = open(fp, "rb").read()
+    return out
+
+@pytest.fixture(autouse=True, scope="session")
+def _isolate_repo_outputs():
+    before = {r: _tree(r) for r in _GUARDED}
+    yield
+    for r, files in before.items():
+        for rel in set(_tree(r)) - set(files): os.remove(os.path.join(REPO, rel))
+        for rel, b in files.items():
+            fp = os.path.join(REPO, rel); os.makedirs(os.path.dirname(fp), exist_ok=True)
+            if not os.path.exists(fp) or open(fp, "rb").read() != b: open(fp, "wb").write(b)

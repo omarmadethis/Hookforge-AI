@@ -37,4 +37,7 @@ def test_credit_ledger(tmp_path):
     finally: gates.LEDGER = old
 
 def test_backfill_today():
-    r = L.backfill(datetime.date(2026, 10, 20)); assert r["total"] == 645.5
+    day = datetime.date(2026, 10, 20)
+    exp = round(sum(r["credits"] for r in L._rows() if r["ts_pt"].startswith(day.isoformat())), 2)   # derived from the ledger, not a stale snapshot
+    r = L.backfill(day); assert r["total"] == exp and exp >= 645.5
+    assert L.daily()["day"] == L.today_pt().isoformat()                                           # 'today' is PT, not the box clock

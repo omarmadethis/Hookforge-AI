@@ -42,8 +42,13 @@ def _group_spent(c): return round(sum(spent(r) for r in c["runs"]), 2) if c.get(
 
 def spent(run_id): return round(sum(r["credits"] for r in _rows() if r["run_id"] == run_id), 2)
 
+def today_pt():
+    """Ledger days are Omar's days (America/Los_Angeles), never the box clock (which may be UTC)."""
+    from zoneinfo import ZoneInfo
+    return datetime.datetime.now(ZoneInfo("America/Los_Angeles")).date()
+
 def daily(day=None):
-    day = (day or datetime.date.today()).isoformat(); by = defaultdict(float)
+    day = (day or today_pt()).isoformat(); by = defaultdict(float)
     for r in _rows():
         if r["ts_pt"].startswith(day): by[r["run_id"]] += r["credits"]
     return dict(day=day, total=round(sum(by.values()), 2), by_run={k: round(v, 2) for k, v in by.items()})
