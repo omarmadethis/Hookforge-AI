@@ -3,7 +3,10 @@
  "folder_id": "19ijhI0u40-wzTYeFkVO21vT83dwtLLTi",
  "subfolders": {
   "refs": "1lxLMb_cn3XM0g6nPsyrIB2HI0eWbRVxf",
-  "music": "1QIE2PC44JeRskUbi9t8ZsGgrgjdv4qEz"
+  "music": "1QIE2PC44JeRskUbi9t8ZsGgrgjdv4qEz",
+  "out_deliver": "1O6p1U5ROPsR33-F9PuX9yOz3wwe8sIlv",
+  "learning": "1lI5HkHN6hICJPnfMe8KYR0TVROsknYgr",
+  "generations": "1fmUtKzurfIZ5oULOZEaBi2SXIdANyN2l"
  },
  "uploaded_pt": "2026-10-20 PT",
  "files": [
@@ -346,6 +349,892 @@
    "orig_size": 2333237,
    "sha256": "6fc39287cdf2c3767350c174135843d5c62bcf3d85e0f7ec1ebef415f6566504",
    "sanitized": true
+  },
+  {
+   "path": "out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v2.mp4",
+   "id": "1N6eBVK2lrRz0bdkx2BYGQtkpBQHBbLGm",
+   "name": "Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v2.mp4",
+   "folder": "out_deliver",
+   "size": 47871735,
+   "orig_size": 47871735,
+   "sha256": "434ce7988bee4282c1fb0652266f8fdd785ef0ce52ffb352396d3820cfe54049",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v3.mp4",
+   "id": "1gFboI47DxHUBY8JRH28pirq_2UEQkYBa",
+   "name": "Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v3.mp4",
+   "folder": "out_deliver",
+   "size": 50785675,
+   "orig_size": 50785675,
+   "sha256": "76dacc0eeaa0db5f4fab9e56173810d1f3ed6c7609f9aff4848ce5be95a2f75f",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - v1.mp4",
+   "id": "18KmGmA035qlsnpK5ogfqClY_PqwMwuUu",
+   "name": "Jolly Glow - 321 A - Dont Show Neighbors - v1.mp4",
+   "folder": "out_deliver",
+   "size": 45183758,
+   "orig_size": 45183758,
+   "sha256": "1a3cec388d2c7027bb9030140e98a11780c22544fdc075a73fb85218023b304a",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - 321 A - Holly Jolly Christmas - v2 - Caption.txt",
+   "id": "1Xq0oAPNFDWfsEOk9H7j5GHv5Jp2hQmF0",
+   "name": "Jolly Glow - 321 A - Holly Jolly Christmas - v2 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 191,
+   "orig_size": 191,
+   "sha256": "affb8bc843e85aa1f5d065e55cd0a18cf276b7b351d162e517bab0d097c3c9af",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - 321 A - Holly Jolly Christmas - v3 - Caption.txt",
+   "id": "1xxkYyjVwsRQ4T4T46FMIiWo9saGtemqP",
+   "name": "Jolly Glow - 321 A - Holly Jolly Christmas - v3 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 191,
+   "orig_size": 191,
+   "sha256": "affb8bc843e85aa1f5d065e55cd0a18cf276b7b351d162e517bab0d097c3c9af",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - 321 B - Holly Jolly Christmas - v2 - Caption.txt",
+   "id": "13fe7UfKgj1dMFbnxLcFzpVOLDmqDajBM",
+   "name": "Jolly Glow - 321 B - Holly Jolly Christmas - v2 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 187,
+   "orig_size": 187,
+   "sha256": "0bc8e39a4ae270ec13da1c59e0ed40567162c2fa5b2d6f8da91835cff1a30ca2",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - 321 B - Holly Jolly Christmas - v3 - Caption.txt",
+   "id": "1zJHXwG_aOezsoy4-ukqV5UlemDwObIdu",
+   "name": "Jolly Glow - 321 B - Holly Jolly Christmas - v3 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 187,
+   "orig_size": 187,
+   "sha256": "0bc8e39a4ae270ec13da1c59e0ed40567162c2fa5b2d6f8da91835cff1a30ca2",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v2.mp4",
+   "id": "1gXU-TnPq7z7QCp20xL_ObUukzlgBpnUf",
+   "name": "Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v2.mp4",
+   "folder": "out_deliver",
+   "size": 47887295,
+   "orig_size": 47887295,
+   "sha256": "9becec841862bc224a24a440833ea50b5b1f1f49b182e2eebc5d4ccaacb37d5b",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v3.mp4",
+   "id": "1cY-E8HNSYNnzUOM1ewBGFfTpOzGlc9e7",
+   "name": "Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v3.mp4",
+   "folder": "out_deliver",
+   "size": 50793115,
+   "orig_size": 50793115,
+   "sha256": "922022e67da7d5fa7b61af1d1bc473fb8b66adf45ad42070880f0be0d78337ee",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - 321 B - POV Jealous - v1.mp4",
+   "id": "1hLLFPHCjYWpG5tzRUAgJ8DByWYHSF3a2",
+   "name": "Jolly Glow - 321 B - POV Jealous - v1.mp4",
+   "folder": "out_deliver",
+   "size": 45204097,
+   "orig_size": 45204097,
+   "sha256": "f892752e56ff8a0fb7dc8dffdb2c2551e7a78994765e9ff6a164a8b3c17f14a1",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - Combo - Holly Jolly Christmas - v2 - Caption.txt",
+   "id": "1lLi4FSFUKYawulMLmekXIaEh7xmw5AYR",
+   "name": "Jolly Glow - Combo - Holly Jolly Christmas - v2 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 182,
+   "orig_size": 182,
+   "sha256": "1d403804654c196e02e2d155cca7e7bee4873860dbc20ae040d17e70c35d224c",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - Combo - Holly Jolly Christmas - v3 - Caption.txt",
+   "id": "1boi68JuUFSIhZPDL20ZBHzmoxUUMxISk",
+   "name": "Jolly Glow - Combo - Holly Jolly Christmas - v3 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 182,
+   "orig_size": 182,
+   "sha256": "1d403804654c196e02e2d155cca7e7bee4873860dbc20ae040d17e70c35d224c",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v2.mp4",
+   "id": "1QXHy2aGcEqVz4gZ1mbUPiSNXsBQs4igr",
+   "name": "Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v2.mp4",
+   "folder": "out_deliver",
+   "size": 45699650,
+   "orig_size": 45699650,
+   "sha256": "bc4f042061161169bc149bac0905cb782d2cc5389f591a60ab2536855dd5090c",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v3.mp4",
+   "id": "1C8lcw6ktvhdUbP8DuaCNofvhbgvZ5L_M",
+   "name": "Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v3.mp4",
+   "folder": "out_deliver",
+   "size": 42350134,
+   "orig_size": 42350134,
+   "sha256": "fe46fafec6023fd02266f66e9df230011195b4f151d8223efe581d75fea6c43c",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/Jolly Glow - Combo - Walmart - v1.mp4",
+   "id": "1u7vmmeYU0RtAbFSTt7rBzEtyIxCLiB2p",
+   "name": "Jolly Glow - Combo - Walmart - v1.mp4",
+   "folder": "out_deliver",
+   "size": 43941128,
+   "orig_size": 43941128,
+   "sha256": "0b7f5a1866a12d843943eacb6e6ac5773e4c449f9b50a92e5b74ca2244a99f17",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PatriotsGlow_cover.png",
+   "id": "1zVrmWvmC3jzdc1RCdLs0rXK7MS04bV8R",
+   "name": "PatriotsGlow_cover.png",
+   "folder": "out_deliver",
+   "size": 1546998,
+   "orig_size": 1546998,
+   "sha256": "77e21cec9900f7c8c78e0457feca85610759ba7c909efebf3668d21cd34648bf",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PatriotsGlow_profile.png",
+   "id": "1m0VBbwpCTtZuMWp9hrMM2Y7MHCMsylAl",
+   "name": "PatriotsGlow_profile.png",
+   "folder": "out_deliver",
+   "size": 1377333,
+   "orig_size": 1377333,
+   "sha256": "1d9dfddce61a41343205760edb15ab7b03b56bc62d11c292ae184f1969165f4d",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P1 - Pool Skim - Mambo No 5 - v1 - Caption FB.txt",
+   "id": "1RLfdDqjft7zLKzwc5JE3t5W64MPY2RuL",
+   "name": "PurrVenture - P1 - Pool Skim - Mambo No 5 - v1 - Caption FB.txt",
+   "folder": "out_deliver",
+   "size": 33,
+   "orig_size": 33,
+   "sha256": "c8b5f956dc4c56ae2d1ddc74f806f06bf6fb82d7a0203cb1083306b5c4e264a5",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P1 - Pool Skim - Mambo No 5 - v1 - Caption IG.txt",
+   "id": "1LJ9h3LsMIuGeF9dIV7zzmfHe3AI5Du7G",
+   "name": "PurrVenture - P1 - Pool Skim - Mambo No 5 - v1 - Caption IG.txt",
+   "folder": "out_deliver",
+   "size": 60,
+   "orig_size": 60,
+   "sha256": "c264e92079cea24052515b03c8c45a8d7c431d8ae3c0a7a15d5d26435dafe5d3",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P1 - Pool Skim - Mambo No 5 - v1.mp4",
+   "id": "1qjnmyowuXGPYE_43U-198qz6lM9vRIAE",
+   "name": "PurrVenture - P1 - Pool Skim - Mambo No 5 - v1.mp4",
+   "folder": "out_deliver",
+   "size": 65621053,
+   "orig_size": 65621053,
+   "sha256": "73ef20bab9fda4f988b7cb69a386df62042c606789a26709f0d907002c840137",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P1_SF1 - start frame v2.png",
+   "id": "15DhsaATQ0AUHAlxWmoTWpprqi-G8myvm",
+   "name": "PurrVenture - P1_SF1 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 6465066,
+   "orig_size": 6465066,
+   "sha256": "ae780c81d00978f17f2ebaef99296471c58fac85030dbeaccee376c29066482a",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P1_SF1 - start frame v4.png",
+   "id": "1RdSUifjduSe0q7X7HU2BrYBylf8WV19_",
+   "name": "PurrVenture - P1_SF1 - start frame v4.png",
+   "folder": "out_deliver",
+   "size": 6872401,
+   "orig_size": 6872401,
+   "sha256": "49b225d4048253da724dadab5b570ab589ff48a62147278be935c1d275391865",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P1_SF2 - start frame v2.png",
+   "id": "1293pYVV25dF-Nl4x8tJs0OkA4hQHV5Yx",
+   "name": "PurrVenture - P1_SF2 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 7447104,
+   "orig_size": 7447104,
+   "sha256": "9565bca93ba89097ac3f7d84bac0f51012d1a93e5d572e4310aeb06d643838c2",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P1_SF3 - start frame v2.png",
+   "id": "1IZzmk1HwBtyDWccCnuwBhlVrtYUJ0pI8",
+   "name": "PurrVenture - P1_SF3 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 7688185,
+   "orig_size": 7688185,
+   "sha256": "54c8d7a5b3d1d3bbfb5bbfb6bed7b50f71e47fccc2eefd3e6c4a9f3e6e2e07e1",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P1_SF3 - start frame v3.png",
+   "id": "1LD0T9LIRwVLiDCrVtmiaK1O93R1E9Vka",
+   "name": "PurrVenture - P1_SF3 - start frame v3.png",
+   "folder": "out_deliver",
+   "size": 7874994,
+   "orig_size": 7874994,
+   "sha256": "3760b07fd12ae3630a1dc6d078af981ad2e157d9951312c084faef5f14408538",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P1_SF4 - start frame v2.png",
+   "id": "1VI5BwNut3ogd_KlgcHgMm1jJZl3EsFzl",
+   "name": "PurrVenture - P1_SF4 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 7561146,
+   "orig_size": 7561146,
+   "sha256": "b544749fe9c49fdac2c0e33cfb291fb62ec0f62eae9d1d66be5ffc8d639c7162",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P1_SF4 - start frame v3.png",
+   "id": "1VuUpOhtUJ59Vy5G33sbz6f84zo1XEolH",
+   "name": "PurrVenture - P1_SF4 - start frame v3.png",
+   "folder": "out_deliver",
+   "size": 7889938,
+   "orig_size": 7889938,
+   "sha256": "cafd701810d3e051580b798dfa207d5ca66bce6800cc3c28ed36d00f97bb3355",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2 - Hedge Trim - Be My Baby - v1 - Caption FB.txt",
+   "id": "1GjtyFHwEXCPiVPK36PVZypFSpymuiQZ0",
+   "name": "PurrVenture - P2 - Hedge Trim - Be My Baby - v1 - Caption FB.txt",
+   "folder": "out_deliver",
+   "size": 33,
+   "orig_size": 33,
+   "sha256": "c8b5f956dc4c56ae2d1ddc74f806f06bf6fb82d7a0203cb1083306b5c4e264a5",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2 - Hedge Trim - Be My Baby - v1 - Caption IG.txt",
+   "id": "1zlcfrwbu2nBJ6tQVZ9ASsSWyK5cL3qRo",
+   "name": "PurrVenture - P2 - Hedge Trim - Be My Baby - v1 - Caption IG.txt",
+   "folder": "out_deliver",
+   "size": 60,
+   "orig_size": 60,
+   "sha256": "c264e92079cea24052515b03c8c45a8d7c431d8ae3c0a7a15d5d26435dafe5d3",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2 - Hedge Trim - Be My Baby - v1.mp4",
+   "id": "1bP31O4e-_OHZmI7ncMXTtu7zGqymIBbA",
+   "name": "PurrVenture - P2 - Hedge Trim - Be My Baby - v1.mp4",
+   "folder": "out_deliver",
+   "size": 24074636,
+   "orig_size": 24074636,
+   "sha256": "81ea8ccdb9a604bc8277827fe4286892ed941633a9ea0b8479ed31a1510c6550",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2 Hedge Trim - BeMyBaby v2.mp4",
+   "id": "1OIWtERuflP6ub9K-9HiY2oWWEKehwerB",
+   "name": "PurrVenture - P2 Hedge Trim - BeMyBaby v2.mp4",
+   "folder": "out_deliver",
+   "size": 39830798,
+   "orig_size": 39830798,
+   "sha256": "b7b77811184c38ea263e71803706f8be70b4c3b38e27adb63d228cc0b29dd095",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2_SF1 - start frame v2.png",
+   "id": "11bZjs4uozqsmP0dBnX1cahhyyt-82cnT",
+   "name": "PurrVenture - P2_SF1 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 7551672,
+   "orig_size": 7551672,
+   "sha256": "e6f50bc1b5a0e5f1a64fe1cfc56a5d684326f7666ace809d8ae43b83fdacd81c",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2_SF1 - start frame v3.png",
+   "id": "1SQOY2EJxZkN9F4eOhDHOcYX4FDwdULqO",
+   "name": "PurrVenture - P2_SF1 - start frame v3.png",
+   "folder": "out_deliver",
+   "size": 7440434,
+   "orig_size": 7440434,
+   "sha256": "012d42f5f5250a2438798648439fc595111e505a428f2393a72ddc95fe05d34e",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2_SF2 - start frame v2.png",
+   "id": "1JjiuNbPQmtRHNi_Yil6CNVNrih5ebUqv",
+   "name": "PurrVenture - P2_SF2 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 7291994,
+   "orig_size": 7291994,
+   "sha256": "e88e2318982243f4013527950d05d9601cec1c07ee4e40db54d35e98ed7b3107",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2_SF2 - start frame v3.png",
+   "id": "1adOsBEfTMrFyMb9i29lJYQo-UgWgoJE0",
+   "name": "PurrVenture - P2_SF2 - start frame v3.png",
+   "folder": "out_deliver",
+   "size": 8593598,
+   "orig_size": 8593598,
+   "sha256": "d6b84fda0a0a85019772e1ac9c65d98ab96d017cb152424774658d58e68dfb0f",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2_SF3 - start frame v2.png",
+   "id": "1JfDLuQDo__ocpqvSzFr-0T6xiWOyStWl",
+   "name": "PurrVenture - P2_SF3 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 7981117,
+   "orig_size": 7981117,
+   "sha256": "eda9ffb615fe3dda96e948155841367a39c9d29e8f0466797f4ffcf435ead906",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2_SF3 - start frame v3.png",
+   "id": "1Y5YCSYHLta3zVAlcA7aqa6y4XOaAZKsO",
+   "name": "PurrVenture - P2_SF3 - start frame v3.png",
+   "folder": "out_deliver",
+   "size": 8469760,
+   "orig_size": 8469760,
+   "sha256": "010a8fc2f9288e31a8ebdf82633d09499eeecb7b1f7a32e9a7dca2b03ee18ec6",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2_SF4 - start frame v2.png",
+   "id": "170v_UhEzbXRzZjNAhx8Ksrapv9Ro1Cbm",
+   "name": "PurrVenture - P2_SF4 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 8536838,
+   "orig_size": 8536838,
+   "sha256": "68cb6d02712862be63117394e6c96da77efc29697efc79ff86bfd017686593f8",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2_SF4 - start frame v3.png",
+   "id": "17Dj8_bo2AupXQ7C15X_bpR0Bp1BQggeW",
+   "name": "PurrVenture - P2_SF4 - start frame v3.png",
+   "folder": "out_deliver",
+   "size": 8914906,
+   "orig_size": 8914906,
+   "sha256": "26a951affe832ea4c997820aca15a79403d8780a8830bff010b10814a6c7b935",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P2_SF4 - start frame v4.png",
+   "id": "1mXnfNlwQU5F2OAlVKpolFCMCzJd2BYdM",
+   "name": "PurrVenture - P2_SF4 - start frame v4.png",
+   "folder": "out_deliver",
+   "size": 8396239,
+   "orig_size": 8396239,
+   "sha256": "0e025a20d0061c1f2e11fab379d4a43d9c8e321729ea048732b499a3a932f1b7",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1 - Caption FB.txt",
+   "id": "1YSfvslsl0Sj2kuzMpLlyT3S-h3Yiulj3",
+   "name": "PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1 - Caption FB.txt",
+   "folder": "out_deliver",
+   "size": 33,
+   "orig_size": 33,
+   "sha256": "c8b5f956dc4c56ae2d1ddc74f806f06bf6fb82d7a0203cb1083306b5c4e264a5",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1 - Caption IG.txt",
+   "id": "13ey-OFUgxQelRFPvXneCd7tuQeGxzQ2u",
+   "name": "PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1 - Caption IG.txt",
+   "folder": "out_deliver",
+   "size": 60,
+   "orig_size": 60,
+   "sha256": "c264e92079cea24052515b03c8c45a8d7c431d8ae3c0a7a15d5d26435dafe5d3",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1.mp4",
+   "id": "1tFcF2B7rHBuOjXN5UfEZKIrUrsUHdjzw",
+   "name": "PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1.mp4",
+   "folder": "out_deliver",
+   "size": 55486557,
+   "orig_size": 55486557,
+   "sha256": "535a69fc27f72647d5a5b9bcda68223fc9c6681304a0fffe098448f83d04f955",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P3_SF1 - start frame v2.png",
+   "id": "16XnzNGeSb3owhhn94R3qzoeFAr-Saoty",
+   "name": "PurrVenture - P3_SF1 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 8378247,
+   "orig_size": 8378247,
+   "sha256": "d2afa37a077d6a5fb1587225f06a521f0e75fbd48d954b03eb9cbf9eb8d56ebb",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P3_SF1 - start frame v3.png",
+   "id": "1lAeSMO2tRHPMDjj38C1cdBOfPLXXWrGL",
+   "name": "PurrVenture - P3_SF1 - start frame v3.png",
+   "folder": "out_deliver",
+   "size": 8090385,
+   "orig_size": 8090385,
+   "sha256": "304e57872c3ce79b9ed653bf56ee1b655d7cd62bdff987fa0c133a072bc6d120",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P3_SF2 - start frame v2.png",
+   "id": "1wL8lMEffRpNw1WG87QYRWhYj9yIewhzR",
+   "name": "PurrVenture - P3_SF2 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 7218021,
+   "orig_size": 7218021,
+   "sha256": "34f24122dbfaef6e5dd24dde41b92cf74b3db8d9bf6e4dceb3f0cc918f541957",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P3_SF2 - start frame v3.png",
+   "id": "1icAlNoNygKyBNjhICXAjQJiLRKr8YOc8",
+   "name": "PurrVenture - P3_SF2 - start frame v3.png",
+   "folder": "out_deliver",
+   "size": 7842294,
+   "orig_size": 7842294,
+   "sha256": "0b4436168f190e8cfc47217b99736dbea172c657fe739f871d6e743ed02bb832",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P3_SF3 - start frame v2.png",
+   "id": "1lt5rvclwdSOS-hDXYZcaCJRf9YyQO42t",
+   "name": "PurrVenture - P3_SF3 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 8097617,
+   "orig_size": 8097617,
+   "sha256": "7164afb45ec2ed1c9a8a8895ae27865b0095b14086c35f341ab5483b4a3eb756",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P3_SF3 - start frame v3.png",
+   "id": "1SEdHdGoWYHviMDIBbDWImcXJWYjVjTZJ",
+   "name": "PurrVenture - P3_SF3 - start frame v3.png",
+   "folder": "out_deliver",
+   "size": 7732619,
+   "orig_size": 7732619,
+   "sha256": "2998e3da198e139445fa1d8cdd51c1ed0e9399c2d5d27958258106a337346e9d",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P3_SF3 - start frame v4.png",
+   "id": "1EToa3YCNej260PZ0Qm1gqfxFkhjhiiV4",
+   "name": "PurrVenture - P3_SF3 - start frame v4.png",
+   "folder": "out_deliver",
+   "size": 7919871,
+   "orig_size": 7919871,
+   "sha256": "994cd0bfadc9e8c467a622e66f522841434c13f2b5c330b415798311ba96b535",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/PurrVenture - P3_SF4 - start frame v2.png",
+   "id": "1WZtpyGt7AXIQSUExQWHQy3D2-gvHekSd",
+   "name": "PurrVenture - P3_SF4 - start frame v2.png",
+   "folder": "out_deliver",
+   "size": 8253768,
+   "orig_size": 8253768,
+   "sha256": "18e66a8fb75a6d10266edd35ff3d9f4dfb01ab41e61b61c238d37613551a8f7e",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - A - ACDC - v7 - Caption.txt",
+   "id": "11x_SWNs-iZZbWJLLF4xucY7S7BSw7qCl",
+   "name": "TrumpGlow - A - ACDC - v7 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 168,
+   "orig_size": 168,
+   "sha256": "bdd7b1983c27def96dd9bc2704dbddc772df64fbb936c600df052aa66e10cd80",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - A - ACDC - v8 - Caption.txt",
+   "id": "1eBWpZKlB6J1-NWsoeHdkVFABFT5cUXXk",
+   "name": "TrumpGlow - A - ACDC - v8 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 164,
+   "orig_size": 164,
+   "sha256": "6c675e883243e0a07a46b8de733022b645f91c4f263d851f7d4670a5751baced",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v6.mp4",
+   "id": "1bcrpQBe1DfK1UXEGEWNM9Bb9vQ2Kl4hy",
+   "name": "TrumpGlow - A - Fake Trump Fans - ACDC - v6.mp4",
+   "folder": "out_deliver",
+   "size": 46853373,
+   "orig_size": 46853373,
+   "sha256": "87001757517855fa2fd798e081170898e1edc70ee0bd78f002efe76fc841e81f",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v7.mp4",
+   "id": "1wqo6gADQ5S66lMtWYr5RRQHNpslmcK4q",
+   "name": "TrumpGlow - A - Fake Trump Fans - ACDC - v7.mp4",
+   "folder": "out_deliver",
+   "size": 31633610,
+   "orig_size": 31633610,
+   "sha256": "b5d39c626e6bc8fd3d5f297fe2cd65242e55269d6a4cfdf24effd34f768d5574",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v8.mp4",
+   "id": "1ot0k6d5WVQSzkZ13fdrC13enTVjXNMbW",
+   "name": "TrumpGlow - A - Fake Trump Fans - ACDC - v8.mp4",
+   "folder": "out_deliver",
+   "size": 31663324,
+   "orig_size": 31663324,
+   "sha256": "847d6d4d9a0a794b8d9d549f56628ff8ff3375fe5960fc16367ffa224eeafa7f",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v6.mp4",
+   "id": "1gfT41DZtzG5s6HrYedPb6i-IXuLOjgbs",
+   "name": "TrumpGlow - A - Fake Trump Fans - FreeBird - v6.mp4",
+   "folder": "out_deliver",
+   "size": 46964391,
+   "orig_size": 46964391,
+   "sha256": "d91b9c7bbd29f77db625d90fe63ffc6d2db3af0e25d78d763fec5e6297d65d53",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v7.mp4",
+   "id": "1YaX9AKY6Nq9oEezZQW54BAYzYfd_YaXJ",
+   "name": "TrumpGlow - A - Fake Trump Fans - FreeBird - v7.mp4",
+   "folder": "out_deliver",
+   "size": 31631132,
+   "orig_size": 31631132,
+   "sha256": "58c5a1460adf528d6c660acab8a54831d85866a4521840a67e4574486cd21d71",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v8.mp4",
+   "id": "1A_9npw7nWkQJv0i77cGxCOQqiydnc_Jr",
+   "name": "TrumpGlow - A - Fake Trump Fans - FreeBird - v8.mp4",
+   "folder": "out_deliver",
+   "size": 31661529,
+   "orig_size": 31661529,
+   "sha256": "599fc823d865b3be4520bb17b245d9c200325704875eb53d9122dcca8d81d4a2",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - A - FreeBird - v7 - Caption.txt",
+   "id": "1JYlz6calbpTUJKAxUuwqZ3y8rznpro8a",
+   "name": "TrumpGlow - A - FreeBird - v7 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 168,
+   "orig_size": 168,
+   "sha256": "bdd7b1983c27def96dd9bc2704dbddc772df64fbb936c600df052aa66e10cd80",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - A - FreeBird - v8 - Caption.txt",
+   "id": "14vWhbFbrL9v_GMmXtO-a3kN1Jn4CB154",
+   "name": "TrumpGlow - A - FreeBird - v8 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 164,
+   "orig_size": 164,
+   "sha256": "6c675e883243e0a07a46b8de733022b645f91c4f263d851f7d4670a5751baced",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - B - ACDC - v4 - Caption.txt",
+   "id": "1g6WJ2_O99lBa_1NXtaeOxeY5L0mMXB4N",
+   "name": "TrumpGlow - B - ACDC - v4 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 143,
+   "orig_size": 143,
+   "sha256": "28e79ae86008708a7a7e991bfbaa4cccab2503ea9c545ca0286ad8724764a10d",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - B - Dont Show Liberal - ACDC - v3.mp4",
+   "id": "1hliUTgGL6rAybb6j9a4XTDU_B60zeK24",
+   "name": "TrumpGlow - B - Dont Show Liberal - ACDC - v3.mp4",
+   "folder": "out_deliver",
+   "size": 53271055,
+   "orig_size": 53271055,
+   "sha256": "6d7e43c0cddcf095abb5a2c4b10e774abd4da75ddf7f9d5a04cf46befe4f6e91",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - B - Dont Show Liberal - ACDC - v4.mp4",
+   "id": "1ZdkUJGzkm1WRWGetGuN5z7zxWFVowFiV",
+   "name": "TrumpGlow - B - Dont Show Liberal - ACDC - v4.mp4",
+   "folder": "out_deliver",
+   "size": 53324048,
+   "orig_size": 53324048,
+   "sha256": "87f2cc8b7b558ced2e2e9c8c9eddc798e4c0f3b9ab454653c9cd3e0ad52175d3",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - B - Dont Show Liberal - FreeBird - v3.mp4",
+   "id": "1opTbgS8FXK3KZ7uOM2XUQ-1ox_0mDcGo",
+   "name": "TrumpGlow - B - Dont Show Liberal - FreeBird - v3.mp4",
+   "folder": "out_deliver",
+   "size": 53367333,
+   "orig_size": 53367333,
+   "sha256": "ebf6465c60b5d4f7271210d2a42b91fee37cc2b531478265f88e29982c8d3617",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - B - Dont Show Liberal - FreeBird - v4.mp4",
+   "id": "1BLzuRCRozwnvC_oaIrtrjaVgSZfarPz4",
+   "name": "TrumpGlow - B - Dont Show Liberal - FreeBird - v4.mp4",
+   "folder": "out_deliver",
+   "size": 53321793,
+   "orig_size": 53321793,
+   "sha256": "c8977764ae0121afc7689437588d1b1a23e1d75d43508e7d27fef2b23702cd1b",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - B - FreeBird - v4 - Caption.txt",
+   "id": "1JLcOy8fHjGcM7DlxvsSYp6LOkSdb6lBj",
+   "name": "TrumpGlow - B - FreeBird - v4 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 143,
+   "orig_size": 143,
+   "sha256": "28e79ae86008708a7a7e991bfbaa4cccab2503ea9c545ca0286ad8724764a10d",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - C - ACDC - v4 - Caption.txt",
+   "id": "1KxsSZSlrhrSHDF4ILn2j-Pxp41q_x5BS",
+   "name": "TrumpGlow - C - ACDC - v4 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 126,
+   "orig_size": 126,
+   "sha256": "1288a2cb6861257294324e019e1a8a5f5b28ca0a2fed3b443112829d568b1622",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - C - ACDC - v5 - Caption.txt",
+   "id": "1u7UqKirq5a6jfDWmWARchiUy4SfYboWc",
+   "name": "TrumpGlow - C - ACDC - v5 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 122,
+   "orig_size": 122,
+   "sha256": "0b0fb9989327fedb7da14053f67481632fb55677cf9e0b70680c32a8aa1eddae",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - C - FreeBird - v4 - Caption.txt",
+   "id": "1G4vPA8OOPyYwZiQ8gfEO_kPEF46LH2LM",
+   "name": "TrumpGlow - C - FreeBird - v4 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 126,
+   "orig_size": 126,
+   "sha256": "1288a2cb6861257294324e019e1a8a5f5b28ca0a2fed3b443112829d568b1622",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - C - FreeBird - v5 - Caption.txt",
+   "id": "1arqZNQg_HeaJA5eC2D9dKnE9T7OgbD6n",
+   "name": "TrumpGlow - C - FreeBird - v5 - Caption.txt",
+   "folder": "out_deliver",
+   "size": 122,
+   "orig_size": 122,
+   "sha256": "0b0fb9989327fedb7da14053f67481632fb55677cf9e0b70680c32a8aa1eddae",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v3.mp4",
+   "id": "11jhmEBqIPz77mwvIMZbvBviCcJYyepi3",
+   "name": "TrumpGlow - C - Last Day vs First Day - ACDC - v3.mp4",
+   "folder": "out_deliver",
+   "size": 40736545,
+   "orig_size": 40736545,
+   "sha256": "3243b37364d1fc13350d60e579d53fe2040662ba3da0f1d0fcc81ade59f294a6",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v4.mp4",
+   "id": "1N2ZmrqWLJlaSMV0ncey0VsknCbEGHi0U",
+   "name": "TrumpGlow - C - Last Day vs First Day - ACDC - v4.mp4",
+   "folder": "out_deliver",
+   "size": 36091572,
+   "orig_size": 36091572,
+   "sha256": "08b1ec2ce21b6f2925562f000dc02649cdbee245ce8b69de2031c73f6839673d",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v5.mp4",
+   "id": "1KstNdSbdOaI2Kk7lolxMolugFTY8qTEy",
+   "name": "TrumpGlow - C - Last Day vs First Day - ACDC - v5.mp4",
+   "folder": "out_deliver",
+   "size": 36123357,
+   "orig_size": 36123357,
+   "sha256": "7a9f020717295dc57fec9eb9695efd97ef4113df1fa58ca46a82d7db8ecaf064",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v3.mp4",
+   "id": "11c_uD4lxQNeKJD13gLuXRlAaBMPRwszF",
+   "name": "TrumpGlow - C - Last Day vs First Day - FreeBird - v3.mp4",
+   "folder": "out_deliver",
+   "size": 40735148,
+   "orig_size": 40735148,
+   "sha256": "380dc927c8167252a49d139396b7a7a4a087d55fb1b5a0786aeea9cf4c9640e6",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v4.mp4",
+   "id": "1ZAIiSHrsK4Jj_6rIQlzyh1xEyA06q0QA",
+   "name": "TrumpGlow - C - Last Day vs First Day - FreeBird - v4.mp4",
+   "folder": "out_deliver",
+   "size": 36089398,
+   "orig_size": 36089398,
+   "sha256": "9d4870b25baa02db9456022552fcdd7c81a922fb82bb35c44e3e4a6a29c6e14c",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v5.mp4",
+   "id": "138FLVogPhNYKSUp6TMEvybJ40HiJefW_",
+   "name": "TrumpGlow - C - Last Day vs First Day - FreeBird - v5.mp4",
+   "folder": "out_deliver",
+   "size": 36120930,
+   "orig_size": 36120930,
+   "sha256": "8d5532b57cde5d1056bb8c25265e14bce6df121597e488a3ba283bc94508698c",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/TrumpGlow - Proof - Proven ACDC Ad vs A v4 (side by side).mp4",
+   "id": "1fCQ0BzQ0a8usJpkmjDQjFLG8EsSSrcKJ",
+   "name": "TrumpGlow - Proof - Proven ACDC Ad vs A v4 (side by side).mp4",
+   "folder": "out_deliver",
+   "size": 4907842,
+   "orig_size": 4907842,
+   "sha256": "80e9d0c89a8b2a33e257fd64ab01b6af8bfbf56128253e33701bed71af9de5f4",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/a.mp4",
+   "id": "16nScf1qkzVvpBA9uwAbKEb3upTUwTE5M",
+   "name": "a.mp4",
+   "folder": "out_deliver",
+   "size": 2210,
+   "orig_size": 2210,
+   "sha256": "7c1ea88ea36e7794007dcba2c9c790b6438548d008c3df30b51d6a602691c354",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/b.mp4",
+   "id": "1n_eu7k4JclKknwHV30NPgiQ7dPmkP4zN",
+   "name": "b.mp4",
+   "folder": "out_deliver",
+   "size": 2210,
+   "orig_size": 2210,
+   "sha256": "e8dc02e466f7326690c88fd25ebcaa56faa46791dcf2ba2ca0c41df17a576084",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/grinchmelt_cast_woman_v2.png",
+   "id": "1zgRq3x8uZPSBUjSxh5CpyvPqEEKSmbqu",
+   "name": "grinchmelt_cast_woman_v2.png",
+   "folder": "out_deliver",
+   "size": 191394,
+   "orig_size": 191394,
+   "sha256": "831406c9804d3d99fa718d31293d84e233a0a61c60d579749bc4d2d2edc55961",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/merryfire_cast_woman_family_v2.png",
+   "id": "1aOd3cHbtLUpvKhznsHDd3JLFJagQGMqb",
+   "name": "merryfire_cast_woman_family_v2.png",
+   "folder": "out_deliver",
+   "size": 216201,
+   "orig_size": 216201,
+   "sha256": "b76b8f5a80e03fea14553c7c6f0cbe83d667c38f971d34e4997a56c850d9ae03",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/merryfire_cast_woman_v2.png",
+   "id": "1WZF1T4PXW5dg9GloXxYt4kRx5j1Cm7q1",
+   "name": "merryfire_cast_woman_v2.png",
+   "folder": "out_deliver",
+   "size": 247190,
+   "orig_size": 247190,
+   "sha256": "54e5b1409742f256e7bb1e8501cb487e01d32ac501eb0c90796dcad0449ed9ec",
+   "sanitized": false
+  },
+  {
+   "path": "out/deliver/merryglow_cast_woman_v2.png",
+   "id": "1ade_fPXpJwaP3Epr0DxY_hYV1bGvckM_",
+   "name": "merryglow_cast_woman_v2.png",
+   "folder": "out_deliver",
+   "size": 79248,
+   "orig_size": 79248,
+   "sha256": "d5fa80ca4871e4586a9195440a83f1da804b094c570a8d6e5bb83079202fda84",
+   "sanitized": false
+  },
+  {
+   "path": "music/acdc_ysmanl_official_tc.m4a",
+   "id": "17yUhQnbb8QD3kpzrVyoYjOAIZP6N7Yyj",
+   "name": "acdc_ysmanl_official_tc.m4a",
+   "folder": "music",
+   "size": 6817721,
+   "orig_size": 6843639,
+   "sha256": "2c19026fd8b38bc763a9f59b776dfd790b56795fb7361cce7f6f6705b0fe1490",
+   "sanitized": true,
+   "reencoded": "AAC 256k, tags stripped (the gate refused a stream copy)"
+  },
+  {
+   "path": "music/freebird_mac.mp3",
+   "id": "1_hSgE5ypfus3xus24yjf2niutX5cpPa1",
+   "name": "freebird_mac.m4a",
+   "folder": "music",
+   "size": 3786446,
+   "orig_size": 5127738,
+   "sha256": "f06c2e922b32b9006358220eb5db2b7706bf1c57d26b57726c87d40fdb4332a1",
+   "sanitized": true,
+   "reencoded": "AAC 256k, tags stripped (the gate refused a stream copy)",
+   "restore_as": "music/freebird_mac.m4a"
+  },
+  {
+   "path": "music/holly_jolly_buble_official_hd.mp3",
+   "id": "1vlREJ_ZAUYqBSQJb0dRzE3PHUqTIPn4y",
+   "name": "holly_jolly_buble_official_hd.m4a",
+   "folder": "music",
+   "size": 3970505,
+   "orig_size": 4406618,
+   "sha256": "4b449b17b585919d5972d5d6ad9bc148a0bbaecc6c798dce1272cf69d59f8639",
+   "sanitized": true,
+   "reencoded": "AAC 256k, tags stripped (the gate refused a stream copy)",
+   "restore_as": "music/holly_jolly_buble_official_hd.m4a"
+  },
+  {
+   "path": "learning/audience_fit_log.csv",
+   "id": "1OaLpFsrgefKbB3A4AHQBGrIBFicqeVPe",
+   "name": "audience_fit_log.csv",
+   "folder": "learning",
+   "size": 9368761,
+   "orig_size": 9368761,
+   "sha256": "2d616c7387a4244ef56c16cf23fbb58dcdf49654eac884623c5ad8e3413b146c",
+   "sanitized": false
   }
- ]
+ ],
+ "updated_pt": "2026-10-20 PT (batch 2: out/deliver plus 3 re-encoded audio files)"
 }

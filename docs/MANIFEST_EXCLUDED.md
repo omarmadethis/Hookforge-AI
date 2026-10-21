@@ -1,12 +1,12 @@
 # MANIFEST of excluded assets (not in git)
-Generated 2026-10-20 5:44 PM PT by engine/scripts/build_manifest.py. Total 9968 files, 14.52 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
+Generated 2026-10-20 5:56 PM PT by engine/scripts/build_manifest.py. Total 9973 files, 14.54 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
 
 ## By directory
 | dir | files | size | why excluded |
 |---|---|---|---|
 | data/features/ | 7263 | 6.05 GB | features DB + reel proxies (shared features workstream, 5.7 GB) |
 | out/live/ | 544 | 3.56 GB | generated renders/runs (regenerable or delivered elsewhere) |
-| out/deliver/ | 119 | 1.61 GB | generated renders/runs (regenerable or delivered elsewhere) |
+| out/deliver/ | 122 | 1.62 GB | generated renders/runs (regenerable or delivered elsewhere) |
 | learning/results/ | 5 | 1.12 GB | large logs/registries |
 | out/pv_edit/ | 47 | 909.2 MB | generated renders/runs (regenerable or delivered elsewhere) |
 | out/purrventure_frames/ | 54 | 383.8 MB | generated renders/runs (regenerable or delivered elsewhere) |
@@ -21,10 +21,10 @@ Generated 2026-10-20 5:44 PM PT by engine/scripts/build_manifest.py. Total 9968 
 | out/purrventure_brand/ | 8 | 32.8 MB | generated renders/runs (regenerable or delivered elsewhere) |
 | out/trump_projector/ | 2 | 31.9 MB | generated renders/runs (regenerable or delivered elsewhere) |
 | refs/jollyglow/ | 1 | 24.9 MB | reference media |
+| learning/audience_fit_log.csv/ | 1 | 9.4 MB | large logs/registries |
 | out/trumpglow_product/ | 13 | 9.1 MB | generated renders/runs (regenerable or delivered elsewhere) |
 | refs/trumpglow/ | 9 | 9.1 MB | reference media |
 | music/freebird_official_audio.m4a/ | 1 | 8.9 MB | copyrighted songs (*.m4a) |
-| learning/audience_fit_log.csv/ | 1 | 8.2 MB | large logs/registries |
 | music/acdc_ysmanl_official_tc.m4a/ | 1 | 6.8 MB | copyrighted songs (*.m4a) |
 | analytics/dashboard.html/ | 1 | 5.2 MB | media / cache / lock |
 | music/freebird_mac.mp3/ | 1 | 5.1 MB | copyrighted songs (*.m4a) |
@@ -83,7 +83,7 @@ Generated 2026-10-20 5:44 PM PT by engine/scripts/build_manifest.py. Total 9968 
 | **out/live/trumpglow_A/final_v6/master_nosong.mp4** | 67.1 MB |  |
 | **data/features/proxies/ref_tiktok_7693671122256088334.mp4** | 65.7 MB |  |
 | **out/pv_edit/P1_pre.mp4** | 65.6 MB |  |
-| **out/deliver/PurrVenture - P1 - Pool Skim - Mambo No 5 - v1.mp4** | 65.6 MB |  |
+| **out/deliver/PurrVenture - P1 - Pool Skim - Mambo No 5 - v1.mp4** | 65.6 MB | 1qjnmyowuXGPYE_43U-198qz6lM9vRIAE |
 | **out/pv_edit/PurrVenture_P1_final.mp4** | 65.6 MB |  |
 | **data/features/proxies/ref_tiktok_7697005736974404877.mp4** | 63.7 MB |  |
 | **data/features/proxies/ref_tiktok_7694816146415045919.mp4** | 63.6 MB |  |
@@ -93,19 +93,19 @@ Generated 2026-10-20 5:44 PM PT by engine/scripts/build_manifest.py. Total 9968 
 | **refs/omar_ref_mg.mp4** | 59.2 MB | 1xWErtQQB_tLMP7ND4CZmjSNNGWxx1MKn |
 | **data/features/proxies/ref_tiktok_7692090528954961174.mp4** | 57.1 MB |  |
 | **out/pv_edit/P3_pre.mp4** | 55.5 MB |  |
-| **out/deliver/PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1.mp4** | 55.5 MB |  |
+| **out/deliver/PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1.mp4** | 55.5 MB | 1tFcF2B7rHBuOjXN5UfEZKIrUrsUHdjzw |
 | **out/pv_edit/PurrVenture_P3_final.mp4** | 55.5 MB |  |
 | **data/features/proxies/ref_tiktok_7687635388743077150.mp4** | 54.4 MB |  |
 | **out/live/trumpglow_B/final/trumpglow_B_ACDC_v2.mp4** | 54.2 MB |  |
 | **data/features/proxies/tt_7576758246338333983.mp4** | 53.5 MB |  |
 | **out/live/drive_up/TrumpGlow - Dont Show Liberal - Dont Show Liberal - Free Bird - v3.mp4** | 53.4 MB |  |
-| **out/deliver/TrumpGlow - B - Dont Show Liberal - FreeBird - v3.mp4** | 53.4 MB |  |
+| **out/deliver/TrumpGlow - B - Dont Show Liberal - FreeBird - v3.mp4** | 53.4 MB | 1opTbgS8FXK3KZ7uOM2XUQ-1ox_0mDcGo |
 | **out/live/trumpglow_B/final/trumpglow_B_FreeBird_v3.mp4** | 53.4 MB |  |
-| **out/deliver/TrumpGlow - B - Dont Show Liberal - ACDC - v4.mp4** | 53.3 MB |  |
+| **out/deliver/TrumpGlow - B - Dont Show Liberal - ACDC - v4.mp4** | 53.3 MB | 1ZdkUJGzkm1WRWGetGuN5z7zxWFVowFiV |
 | **out/live/trumpglow_B/final/trumpglow_B_ACDC_v4.mp4** | 53.3 MB |  |
-| **out/deliver/TrumpGlow - B - Dont Show Liberal - FreeBird - v4.mp4** | 53.3 MB |  |
+| **out/deliver/TrumpGlow - B - Dont Show Liberal - FreeBird - v4.mp4** | 53.3 MB | 1BLzuRCRozwnvC_oaIrtrjaVgSZfarPz4 |
 | **out/live/trumpglow_B/final/trumpglow_B_FreeBird_v4.mp4** | 53.3 MB |  |
-| **out/deliver/TrumpGlow - B - Dont Show Liberal - ACDC - v3.mp4** | 53.3 MB |  |
+| **out/deliver/TrumpGlow - B - Dont Show Liberal - ACDC - v3.mp4** | 53.3 MB | 1hliUTgGL6rAybb6j9a4XTDU_B60zeK24 |
 | **out/live/trumpglow_B/final/trumpglow_B_ACDC_v3.mp4** | 53.3 MB |  |
 | **out/live/drive_up/TrumpGlow - Dont Show Liberal - Dont Show Liberal - ACDC - v3.mp4** | 53.3 MB |  |
 | data/features/proxies/ref_tiktok_7694319328023317774.mp4 | 52.0 MB |  |
@@ -121,10 +121,10 @@ Generated 2026-10-20 5:44 PM PT by engine/scripts/build_manifest.py. Total 9968 
 | out/live/trumpglow_A/final_v7/master_nosong.mp4 | 51.7 MB |  |
 | out/live/trumpglow_C/final/master_nosong_v3.mp4 | 51.5 MB |  |
 | data/features/proxies/tt_7586992657927327031.mp4 | 51.1 MB |  |
-| out/deliver/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v3.mp4 | 50.8 MB |  |
+| out/deliver/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v3.mp4 | 50.8 MB | 1cY-E8HNSYNnzUOM1ewBGFfTpOzGlc9e7 |
 | out/live/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v3.mp4 | 50.8 MB |  |
 | out/live/jollyglow_321/final/jollyglow_321_B_pov_v3.mp4 | 50.8 MB |  |
-| out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v3.mp4 | 50.8 MB |  |
+| out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v3.mp4 | 50.8 MB | 1gFboI47DxHUBY8JRH28pirq_2UEQkYBa |
 | out/live/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v3.mp4 | 50.8 MB |  |
 | out/live/jollyglow_321/final/jollyglow_321_A_dontshow_v3.mp4 | 50.8 MB |  |
 | out/live/trumpglow_B/final/master_nosong_v4.mp4 | 49.9 MB |  |
@@ -136,57 +136,57 @@ Generated 2026-10-20 5:44 PM PT by engine/scripts/build_manifest.py. Total 9968 
 | out/live/trumpglow_C/final/trumpglow_C_ACDC.mp4 | 48.3 MB |  |
 | out/live/trumpglow_C/final/trumpglow_C_ACDC_v2.mp4 | 48.3 MB |  |
 | out/live/trumpglow_C/final/trumpglow_C_FreeBird_v2.mp4 | 48.3 MB |  |
-| out/deliver/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v2.mp4 | 47.9 MB |  |
+| out/deliver/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v2.mp4 | 47.9 MB | 1gXU-TnPq7z7QCp20xL_ObUukzlgBpnUf |
 | out/live/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v2.mp4 | 47.9 MB |  |
 | out/live/jollyglow_321/final/jollyglow_321_B_pov_v2.mp4 | 47.9 MB |  |
-| out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v2.mp4 | 47.9 MB |  |
+| out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v2.mp4 | 47.9 MB | 1N6eBVK2lrRz0bdkx2BYGQtkpBQHBbLGm |
 | out/live/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v2.mp4 | 47.9 MB |  |
 | out/live/jollyglow_321/final/jollyglow_321_A_dontshow_v2.mp4 | 47.9 MB |  |
 | out/live/trumpglow_C/final/master_nosong_v5.mp4 | 47.6 MB |  |
 | out/live/trumpglow_C/final/master_nosong_v4.mp4 | 47.5 MB |  |
 | out/live/drive_up/TrumpGlow - Fake Trump Fans - Fake Trump Fans - Free Bird - v6.mp4 | 47.0 MB |  |
-| out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v6.mp4 | 47.0 MB |  |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v6.mp4 | 47.0 MB | 1gfT41DZtzG5s6HrYedPb6i-IXuLOjgbs |
 | out/live/trumpglow_A/final_v6/trumpglow_A_v6_FreeBird.mp4 | 47.0 MB |  |
-| out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v6.mp4 | 46.9 MB |  |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v6.mp4 | 46.9 MB | 1bcrpQBe1DfK1UXEGEWNM9Bb9vQ2Kl4hy |
 | out/live/trumpglow_A/final_v6/trumpglow_A_v6_ACDC.mp4 | 46.9 MB |  |
 | out/live/drive_up/TrumpGlow - Fake Trump Fans - Fake Trump Fans - ACDC - v6.mp4 | 46.9 MB |  |
-| out/deliver/Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v2.mp4 | 45.7 MB |  |
+| out/deliver/Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v2.mp4 | 45.7 MB | 1QXHy2aGcEqVz4gZ1mbUPiSNXsBQs4igr |
 | out/live/Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v2.mp4 | 45.7 MB |  |
 | out/live/jollyglow_combo/final/jollyglow_combo_walmart_v2.mp4 | 45.7 MB |  |
 | out/live/jollyglow_321/final/jollyglow_321_B_pov.mp4 | 45.2 MB |  |
-| out/deliver/Jolly Glow - 321 B - POV Jealous - v1.mp4 | 45.2 MB |  |
+| out/deliver/Jolly Glow - 321 B - POV Jealous - v1.mp4 | 45.2 MB | 1hLLFPHCjYWpG5tzRUAgJ8DByWYHSF3a2 |
 | out/live/jollyglow_321/final/jollyglow_321_A_dontshow.mp4 | 45.2 MB |  |
-| out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - v1.mp4 | 45.2 MB |  |
+| out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - v1.mp4 | 45.2 MB | 18KmGmA035qlsnpK5ogfqClY_PqwMwuUu |
 | data/features/proxies/ref_tiktok_7692776428525407519.mp4 | 45.0 MB |  |
 | data/features/proxies/tt_7692776428525407519.mp4 | 45.0 MB |  |
 | data/features/proxies/ref_tiktok_7696680595925011725.mp4 | 44.7 MB |  |
-| out/deliver/Jolly Glow - Combo - Walmart - v1.mp4 | 43.9 MB |  |
+| out/deliver/Jolly Glow - Combo - Walmart - v1.mp4 | 43.9 MB | 1u7vmmeYU0RtAbFSTt7rBzEtyIxCLiB2p |
 | out/live/jollyglow_combo/final/jollyglow_combo_walmart.mp4 | 43.9 MB |  |
 | out/live/trumpglow_A/final/trumpglow_A_nomusic.mp4 | 43.4 MB |  |
 | data/features/proxies/ref_tiktok_7693267493879631117.mp4 | 43.1 MB |  |
-| out/deliver/Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v3.mp4 | 42.4 MB |  |
+| out/deliver/Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v3.mp4 | 42.4 MB | 1C8lcw6ktvhdUbP8DuaCNofvhbgvZ5L_M |
 | out/live/Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v3.mp4 | 42.4 MB |  |
 | out/live/jollyglow_combo/final/jollyglow_combo_walmart_v3.mp4 | 42.4 MB |  |
 | data/features/proxies/ref_tiktok_7681842836299336973.mp4 | 42.2 MB |  |
-| out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v3.mp4 | 40.7 MB |  |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v3.mp4 | 40.7 MB | 11jhmEBqIPz77mwvIMZbvBviCcJYyepi3 |
 | out/live/trumpglow_C/final/trumpglow_C_ACDC_v3.mp4 | 40.7 MB |  |
-| out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v3.mp4 | 40.7 MB |  |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v3.mp4 | 40.7 MB | 11c_uD4lxQNeKJD13gLuXRlAaBMPRwszF |
 | out/live/trumpglow_C/final/trumpglow_C_FreeBird_v3.mp4 | 40.7 MB |  |
 | data/features/proxies/ref_tiktok_7693651280635399438.mp4 | 40.5 MB |  |
 | data/features/proxies/ref_tiktok_7693141860994354446.mp4 | 40.0 MB |  |
 | out/pv_edit/P2_pre.mp4 | 39.8 MB |  |
-| out/deliver/PurrVenture - P2 Hedge Trim - BeMyBaby v2.mp4 | 39.8 MB |  |
+| out/deliver/PurrVenture - P2 Hedge Trim - BeMyBaby v2.mp4 | 39.8 MB | 1OIWtERuflP6ub9K-9HiY2oWWEKehwerB |
 | out/pv_edit/PurrVenture_P2_final.mp4 | 39.8 MB |  |
 | data/features/proxies/ref_tiktok_7695078699418406174.mp4 | 38.3 MB |  |
 | data/features/proxies/ref_instagram_DeMGFrAl4OG.mp4 | 38.0 MB |  |
 | data/features/proxies/ref_tiktok_7696638905973574943.mp4 | 37.2 MB |  |
-| out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v5.mp4 | 36.1 MB |  |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v5.mp4 | 36.1 MB | 1KstNdSbdOaI2Kk7lolxMolugFTY8qTEy |
 | out/live/trumpglow_C/final/trumpglow_C_ACDC_v5.mp4 | 36.1 MB |  |
-| out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v5.mp4 | 36.1 MB |  |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v5.mp4 | 36.1 MB | 138FLVogPhNYKSUp6TMEvybJ40HiJefW_ |
 | out/live/trumpglow_C/final/trumpglow_C_FreeBird_v5.mp4 | 36.1 MB |  |
-| out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v4.mp4 | 36.1 MB |  |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v4.mp4 | 36.1 MB | 1N2ZmrqWLJlaSMV0ncey0VsknCbEGHi0U |
 | out/live/trumpglow_C/final/trumpglow_C_ACDC_v4.mp4 | 36.1 MB |  |
-| out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v4.mp4 | 36.1 MB |  |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v4.mp4 | 36.1 MB | 1ZAIiSHrsK4Jj_6rIQlzyh1xEyA06q0QA |
 | out/live/trumpglow_C/final/trumpglow_C_FreeBird_v4.mp4 | 36.1 MB |  |
 | data/features/proxies/ref_tiktok_7693472262887853333.mp4 | 34.0 MB |  |
 | data/features/proxies/ref_tiktok_7697298204039056653.mp4 | 33.5 MB |  |
@@ -202,13 +202,13 @@ Generated 2026-10-20 5:44 PM PT by engine/scripts/build_manifest.py. Total 9968 
 | data/features/proxies/tt_7691232474877201695.mp4 | 31.9 MB |  |
 | data/features/proxies/ref_tiktok_7693348108738104589.mp4 | 31.9 MB |  |
 | data/features/proxies/ref_tiktok_7694954538612034838.mp4 | 31.7 MB |  |
-| out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v8.mp4 | 31.7 MB |  |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v8.mp4 | 31.7 MB | 1ot0k6d5WVQSzkZ13fdrC13enTVjXNMbW |
 | out/live/trumpglow_A/final_v8/trumpglow_A_v8_ACDC.mp4 | 31.7 MB |  |
-| out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v8.mp4 | 31.7 MB |  |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v8.mp4 | 31.7 MB | 1A_9npw7nWkQJv0i77cGxCOQqiydnc_Jr |
 | out/live/trumpglow_A/final_v8/trumpglow_A_v8_FreeBird.mp4 | 31.7 MB |  |
-| out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v7.mp4 | 31.6 MB |  |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v7.mp4 | 31.6 MB | 1wqo6gADQ5S66lMtWYr5RRQHNpslmcK4q |
 | out/live/trumpglow_A/final_v7/trumpglow_A_v7_ACDC.mp4 | 31.6 MB |  |
-| out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v7.mp4 | 31.6 MB |  |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v7.mp4 | 31.6 MB | 1YaX9AKY6Nq9oEezZQW54BAYzYfd_YaXJ |
 | out/live/trumpglow_A/final_v7/trumpglow_A_v7_FreeBird.mp4 | 31.6 MB |  |
 | out/trump_projector/trump_projector_sample_720p.mp4 | 31.1 MB |  |
 | data/features/proxies/ref_tiktok_7694483736196418846.mp4 | 30.8 MB |  |
@@ -226,7 +226,7 @@ Generated 2026-10-20 5:44 PM PT by engine/scripts/build_manifest.py. Total 9968 
 | refs/jollyglow/drive_jolly_glow.mp4 | 24.9 MB | 15GMJVi90UZ81hf7gbVMidqQQcTWgcrZz |
 | out/deliver/backup__refs__jollyglow__drive_jolly_glow.mp4 | 24.9 MB |  |
 | data/features/proxies/ref_tiktok_7694312033533103391.mp4 | 24.3 MB |  |
-| out/deliver/PurrVenture - P2 - Hedge Trim - Be My Baby - v1.mp4 | 24.1 MB |  |
+| out/deliver/PurrVenture - P2 - Hedge Trim - Be My Baby - v1.mp4 | 24.1 MB | 1bP31O4e-_OHZmI7ncMXTtu7zGqymIBbA |
 | data/features/proxies/ref_instagram_DeO_VrthvTy.mp4 | 24.0 MB |  |
 | data/features/proxies/ref_tiktok_7694967048677412126.mp4 | 23.8 MB |  |
 | data/features/proxies/ref_tiktok_7696306625191169294.mp4 | 23.5 MB |  |
@@ -374,11 +374,13 @@ Generated 2026-10-20 5:44 PM PT by engine/scripts/build_manifest.py. Total 9968 
 | out/capcut_test/HF_TEST_01/media/hf_20260826_050227_d8c2b489-ef9a-4be5-a866-67111b06a50c.mp4 | 10.6 MB |  |
 | out/purrventure_brand/raw/pfp_r1.png | 10.5 MB |  |
 
-## Backed up to Drive "Hookforge Backup" (34 files; docs/backup_drive_index.json)
+## Backed up to Drive "Hookforge Backup" (122 files; docs/backup_drive_index.json)
 | path | drive_id |
 |---|---|
+| learning/audience_fit_log.csv | 1OaLpFsrgefKbB3A4AHQBGrIBFicqeVPe |
 | music/acdc_preview_fightingforair.m4a | 1tQ5_QfwEs8Uq-Vloxrp0rZThSHtWcCVn |
 | music/acdc_ysmanl_official.m4a | 1gXUTUa5pPieoN4aens51mD1NVhtPrlz3 |
+| music/acdc_ysmanl_official_tc.m4a | 17yUhQnbb8QD3kpzrVyoYjOAIZP6N7Yyj |
 | music/acdc_ysmanl_topic.m4a | 1KGsl5yH3tHoVmOfjpUuH05SLBJCDiKVQ |
 | music/aiwfc_lyricvideo_NrGGIoDL6U4.m4a | 1j-msOCwNSrMHQvMgkzHks-dI6z12BD2u |
 | music/aiwfcixy_preview.m4a | 1YyN2YRzhsCvTfFBIq4Z0YY_ZraKD4wFy |
@@ -388,7 +390,9 @@ Generated 2026-10-20 5:44 PM PT by engine/scripts/build_manifest.py. Total 9968 
 | music/burl_ives_preview.m4a | 1KOBg11K67D4GSHzdHzFs--qS2xy6hkXs |
 | music/darlene_love_official_audio.m4a | 1sPuGKyypr_zkQjYe6qDLGnmMIrIiz6S5 |
 | music/darlene_love_preview.m4a | 1YNQ1NDWKthUCNjNv8aKW_8l6xSlmTITU |
+| music/freebird_mac.mp3 | 1_hSgE5ypfus3xus24yjf2niutX5cpPa1 |
 | music/freebird_official_audio.m4a | 1NJOV6ac0qTNr2sByvJPhbPA6zFLqxXlZ |
+| music/holly_jolly_buble_official_hd.mp3 | 1vlREJ_ZAUYqBSQJb0dRzE3PHUqTIPn4y |
 | music/holly_jolly_bublé_official.m4a | 1aNTV8Cm3tHbtGcw06Yj0Odbi5C6f-fEU |
 | music/holly_jolly_preview.m4a | 1MdXPagPg2SvWxUx83ygQi5653fdjqNNw |
 | music/jingle_bell_rock_preview.m4a | 1hv9goYQVKRWySQqx19ytMnnb-NEGN6dt |
@@ -400,6 +404,90 @@ Generated 2026-10-20 5:44 PM PT by engine/scripts/build_manifest.py. Total 9968 
 | music/mambo_no5_youtube.m4a | 1yy_k91XhGutDaxcyikdmebMWn7q8X8Ll |
 | music/winter_wonderland_preview.m4a | 1qf9ekPQh-i-XQP1oe39sZZl77W6kqCOK |
 | music/winter_wonderland_rem1992.m4a | 1nZZiSh8TBnKAtjEy2pyYO_bJgaXhXIlQ |
+| out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v2.mp4 | 1N6eBVK2lrRz0bdkx2BYGQtkpBQHBbLGm |
+| out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v3.mp4 | 1gFboI47DxHUBY8JRH28pirq_2UEQkYBa |
+| out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - v1.mp4 | 18KmGmA035qlsnpK5ogfqClY_PqwMwuUu |
+| out/deliver/Jolly Glow - 321 A - Holly Jolly Christmas - v2 - Caption.txt | 1Xq0oAPNFDWfsEOk9H7j5GHv5Jp2hQmF0 |
+| out/deliver/Jolly Glow - 321 A - Holly Jolly Christmas - v3 - Caption.txt | 1xxkYyjVwsRQ4T4T46FMIiWo9saGtemqP |
+| out/deliver/Jolly Glow - 321 B - Holly Jolly Christmas - v2 - Caption.txt | 13fe7UfKgj1dMFbnxLcFzpVOLDmqDajBM |
+| out/deliver/Jolly Glow - 321 B - Holly Jolly Christmas - v3 - Caption.txt | 1zJHXwG_aOezsoy4-ukqV5UlemDwObIdu |
+| out/deliver/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v2.mp4 | 1gXU-TnPq7z7QCp20xL_ObUukzlgBpnUf |
+| out/deliver/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v3.mp4 | 1cY-E8HNSYNnzUOM1ewBGFfTpOzGlc9e7 |
+| out/deliver/Jolly Glow - 321 B - POV Jealous - v1.mp4 | 1hLLFPHCjYWpG5tzRUAgJ8DByWYHSF3a2 |
+| out/deliver/Jolly Glow - Combo - Holly Jolly Christmas - v2 - Caption.txt | 1lLi4FSFUKYawulMLmekXIaEh7xmw5AYR |
+| out/deliver/Jolly Glow - Combo - Holly Jolly Christmas - v3 - Caption.txt | 1boi68JuUFSIhZPDL20ZBHzmoxUUMxISk |
+| out/deliver/Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v2.mp4 | 1QXHy2aGcEqVz4gZ1mbUPiSNXsBQs4igr |
+| out/deliver/Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v3.mp4 | 1C8lcw6ktvhdUbP8DuaCNofvhbgvZ5L_M |
+| out/deliver/Jolly Glow - Combo - Walmart - v1.mp4 | 1u7vmmeYU0RtAbFSTt7rBzEtyIxCLiB2p |
+| out/deliver/PatriotsGlow_cover.png | 1zVrmWvmC3jzdc1RCdLs0rXK7MS04bV8R |
+| out/deliver/PatriotsGlow_profile.png | 1m0VBbwpCTtZuMWp9hrMM2Y7MHCMsylAl |
+| out/deliver/PurrVenture - P1 - Pool Skim - Mambo No 5 - v1 - Caption FB.txt | 1RLfdDqjft7zLKzwc5JE3t5W64MPY2RuL |
+| out/deliver/PurrVenture - P1 - Pool Skim - Mambo No 5 - v1 - Caption IG.txt | 1LJ9h3LsMIuGeF9dIV7zzmfHe3AI5Du7G |
+| out/deliver/PurrVenture - P1 - Pool Skim - Mambo No 5 - v1.mp4 | 1qjnmyowuXGPYE_43U-198qz6lM9vRIAE |
+| out/deliver/PurrVenture - P1_SF1 - start frame v2.png | 15DhsaATQ0AUHAlxWmoTWpprqi-G8myvm |
+| out/deliver/PurrVenture - P1_SF1 - start frame v4.png | 1RdSUifjduSe0q7X7HU2BrYBylf8WV19_ |
+| out/deliver/PurrVenture - P1_SF2 - start frame v2.png | 1293pYVV25dF-Nl4x8tJs0OkA4hQHV5Yx |
+| out/deliver/PurrVenture - P1_SF3 - start frame v2.png | 1IZzmk1HwBtyDWccCnuwBhlVrtYUJ0pI8 |
+| out/deliver/PurrVenture - P1_SF3 - start frame v3.png | 1LD0T9LIRwVLiDCrVtmiaK1O93R1E9Vka |
+| out/deliver/PurrVenture - P1_SF4 - start frame v2.png | 1VI5BwNut3ogd_KlgcHgMm1jJZl3EsFzl |
+| out/deliver/PurrVenture - P1_SF4 - start frame v3.png | 1VuUpOhtUJ59Vy5G33sbz6f84zo1XEolH |
+| out/deliver/PurrVenture - P2 - Hedge Trim - Be My Baby - v1 - Caption FB.txt | 1GjtyFHwEXCPiVPK36PVZypFSpymuiQZ0 |
+| out/deliver/PurrVenture - P2 - Hedge Trim - Be My Baby - v1 - Caption IG.txt | 1zlcfrwbu2nBJ6tQVZ9ASsSWyK5cL3qRo |
+| out/deliver/PurrVenture - P2 - Hedge Trim - Be My Baby - v1.mp4 | 1bP31O4e-_OHZmI7ncMXTtu7zGqymIBbA |
+| out/deliver/PurrVenture - P2 Hedge Trim - BeMyBaby v2.mp4 | 1OIWtERuflP6ub9K-9HiY2oWWEKehwerB |
+| out/deliver/PurrVenture - P2_SF1 - start frame v2.png | 11bZjs4uozqsmP0dBnX1cahhyyt-82cnT |
+| out/deliver/PurrVenture - P2_SF1 - start frame v3.png | 1SQOY2EJxZkN9F4eOhDHOcYX4FDwdULqO |
+| out/deliver/PurrVenture - P2_SF2 - start frame v2.png | 1JjiuNbPQmtRHNi_Yil6CNVNrih5ebUqv |
+| out/deliver/PurrVenture - P2_SF2 - start frame v3.png | 1adOsBEfTMrFyMb9i29lJYQo-UgWgoJE0 |
+| out/deliver/PurrVenture - P2_SF3 - start frame v2.png | 1JfDLuQDo__ocpqvSzFr-0T6xiWOyStWl |
+| out/deliver/PurrVenture - P2_SF3 - start frame v3.png | 1Y5YCSYHLta3zVAlcA7aqa6y4XOaAZKsO |
+| out/deliver/PurrVenture - P2_SF4 - start frame v2.png | 170v_UhEzbXRzZjNAhx8Ksrapv9Ro1Cbm |
+| out/deliver/PurrVenture - P2_SF4 - start frame v3.png | 17Dj8_bo2AupXQ7C15X_bpR0Bp1BQggeW |
+| out/deliver/PurrVenture - P2_SF4 - start frame v4.png | 1mXnfNlwQU5F2OAlVKpolFCMCzJd2BYdM |
+| out/deliver/PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1 - Caption FB.txt | 1YSfvslsl0Sj2kuzMpLlyT3S-h3Yiulj3 |
+| out/deliver/PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1 - Caption IG.txt | 13ey-OFUgxQelRFPvXneCd7tuQeGxzQ2u |
+| out/deliver/PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1.mp4 | 1tFcF2B7rHBuOjXN5UfEZKIrUrsUHdjzw |
+| out/deliver/PurrVenture - P3_SF1 - start frame v2.png | 16XnzNGeSb3owhhn94R3qzoeFAr-Saoty |
+| out/deliver/PurrVenture - P3_SF1 - start frame v3.png | 1lAeSMO2tRHPMDjj38C1cdBOfPLXXWrGL |
+| out/deliver/PurrVenture - P3_SF2 - start frame v2.png | 1wL8lMEffRpNw1WG87QYRWhYj9yIewhzR |
+| out/deliver/PurrVenture - P3_SF2 - start frame v3.png | 1icAlNoNygKyBNjhICXAjQJiLRKr8YOc8 |
+| out/deliver/PurrVenture - P3_SF3 - start frame v2.png | 1lt5rvclwdSOS-hDXYZcaCJRf9YyQO42t |
+| out/deliver/PurrVenture - P3_SF3 - start frame v3.png | 1SEdHdGoWYHviMDIBbDWImcXJWYjVjTZJ |
+| out/deliver/PurrVenture - P3_SF3 - start frame v4.png | 1EToa3YCNej260PZ0Qm1gqfxFkhjhiiV4 |
+| out/deliver/PurrVenture - P3_SF4 - start frame v2.png | 1WZtpyGt7AXIQSUExQWHQy3D2-gvHekSd |
+| out/deliver/TrumpGlow - A - ACDC - v7 - Caption.txt | 11x_SWNs-iZZbWJLLF4xucY7S7BSw7qCl |
+| out/deliver/TrumpGlow - A - ACDC - v8 - Caption.txt | 1eBWpZKlB6J1-NWsoeHdkVFABFT5cUXXk |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v6.mp4 | 1bcrpQBe1DfK1UXEGEWNM9Bb9vQ2Kl4hy |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v7.mp4 | 1wqo6gADQ5S66lMtWYr5RRQHNpslmcK4q |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - ACDC - v8.mp4 | 1ot0k6d5WVQSzkZ13fdrC13enTVjXNMbW |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v6.mp4 | 1gfT41DZtzG5s6HrYedPb6i-IXuLOjgbs |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v7.mp4 | 1YaX9AKY6Nq9oEezZQW54BAYzYfd_YaXJ |
+| out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v8.mp4 | 1A_9npw7nWkQJv0i77cGxCOQqiydnc_Jr |
+| out/deliver/TrumpGlow - A - FreeBird - v7 - Caption.txt | 1JYlz6calbpTUJKAxUuwqZ3y8rznpro8a |
+| out/deliver/TrumpGlow - A - FreeBird - v8 - Caption.txt | 14vWhbFbrL9v_GMmXtO-a3kN1Jn4CB154 |
+| out/deliver/TrumpGlow - B - ACDC - v4 - Caption.txt | 1g6WJ2_O99lBa_1NXtaeOxeY5L0mMXB4N |
+| out/deliver/TrumpGlow - B - Dont Show Liberal - ACDC - v3.mp4 | 1hliUTgGL6rAybb6j9a4XTDU_B60zeK24 |
+| out/deliver/TrumpGlow - B - Dont Show Liberal - ACDC - v4.mp4 | 1ZdkUJGzkm1WRWGetGuN5z7zxWFVowFiV |
+| out/deliver/TrumpGlow - B - Dont Show Liberal - FreeBird - v3.mp4 | 1opTbgS8FXK3KZ7uOM2XUQ-1ox_0mDcGo |
+| out/deliver/TrumpGlow - B - Dont Show Liberal - FreeBird - v4.mp4 | 1BLzuRCRozwnvC_oaIrtrjaVgSZfarPz4 |
+| out/deliver/TrumpGlow - B - FreeBird - v4 - Caption.txt | 1JLcOy8fHjGcM7DlxvsSYp6LOkSdb6lBj |
+| out/deliver/TrumpGlow - C - ACDC - v4 - Caption.txt | 1KxsSZSlrhrSHDF4ILn2j-Pxp41q_x5BS |
+| out/deliver/TrumpGlow - C - ACDC - v5 - Caption.txt | 1u7UqKirq5a6jfDWmWARchiUy4SfYboWc |
+| out/deliver/TrumpGlow - C - FreeBird - v4 - Caption.txt | 1G4vPA8OOPyYwZiQ8gfEO_kPEF46LH2LM |
+| out/deliver/TrumpGlow - C - FreeBird - v5 - Caption.txt | 1arqZNQg_HeaJA5eC2D9dKnE9T7OgbD6n |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v3.mp4 | 11jhmEBqIPz77mwvIMZbvBviCcJYyepi3 |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v4.mp4 | 1N2ZmrqWLJlaSMV0ncey0VsknCbEGHi0U |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - ACDC - v5.mp4 | 1KstNdSbdOaI2Kk7lolxMolugFTY8qTEy |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v3.mp4 | 11c_uD4lxQNeKJD13gLuXRlAaBMPRwszF |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v4.mp4 | 1ZAIiSHrsK4Jj_6rIQlzyh1xEyA06q0QA |
+| out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v5.mp4 | 138FLVogPhNYKSUp6TMEvybJ40HiJefW_ |
+| out/deliver/TrumpGlow - Proof - Proven ACDC Ad vs A v4 (side by side).mp4 | 1fCQ0BzQ0a8usJpkmjDQjFLG8EsSSrcKJ |
+| out/deliver/a.mp4 | 16nScf1qkzVvpBA9uwAbKEb3upTUwTE5M |
+| out/deliver/b.mp4 | 1n_eu7k4JclKknwHV30NPgiQ7dPmkP4zN |
+| out/deliver/grinchmelt_cast_woman_v2.png | 1zgRq3x8uZPSBUjSxh5CpyvPqEEKSmbqu |
+| out/deliver/merryfire_cast_woman_family_v2.png | 1aOd3cHbtLUpvKhznsHDd3JLFJagQGMqb |
+| out/deliver/merryfire_cast_woman_v2.png | 1WZF1T4PXW5dg9GloXxYt4kRx5j1Cm7q1 |
+| out/deliver/merryglow_cast_woman_v2.png | 1ade_fPXpJwaP3Epr0DxY_hYV1bGvckM_ |
 | refs/jollyglow/drive_jolly_glow.mp4 | 15GMJVi90UZ81hf7gbVMidqQQcTWgcrZz |
 | refs/omar_ref_mg.mp4 | 1xWErtQQB_tLMP7ND4CZmjSNNGWxx1MKn |
 | refs/trumpglow/door.light.us_7377540093969550634.mp4 | 1PCJfMbt5NrUiAGwxUS4syV5YMbIQGF9X |
