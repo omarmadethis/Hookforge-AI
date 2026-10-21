@@ -52,6 +52,19 @@ def record(path, drive_id, folder=None):
     json.dump(idx, open(IDX, "w"), indent=1, ensure_ascii=False)
     os.remove(f["staged"]); f.update(status="uploaded", drive_id=drive_id); f.pop("staged", None); json.dump(st, open(STATE, "w"), indent=1)
 
+PRIO = {"mp4": 0, "mov": 0, "png": 1, "jpg": 1, "jpeg": 1, "webp": 1}       # D172: paid media first, rebuildable json/text last
+def stage_next(n):
+    """Stage the next n pending files across all chunks, mp4 first, then images, then everything else."""
+    from hookforge import deliver as D
+    st = load(STATE, None)
+    todo = sorted((p for p, f in st["files"].items() if f["status"] == "pending"), key=lambda p: (PRIO.get(p.rsplit(".", 1)[-1].lower(), 9), p))[:n]; out = []
+    for p in todo:
+        f = st["files"][p]
+        try: s = D.stage(os.path.join(R, p), staged_name(p)); D.verify_staged(s); f.update(status="staged", staged=s, sha256=sha(s)); out.append(s)
+        except Exception as e: f.update(status="refused", reason=str(e)[-200:])
+        json.dump(st, open(STATE, "w"), indent=1)
+    return out
+
 def dedupe():
     """D170: a pending file byte-identical (sha256) to one already on Drive is recorded under the existing drive id, with no re-upload."""
     st = load(STATE, None); idx = load(IDX, None); by = {f["sha256"]: f for f in idx["files"] if f.get("sha256")}; n = 0
@@ -80,6 +93,7 @@ if __name__ == "__main__":
         for ln in sys.stdin:
             if ln.strip(): n, i = ln.rstrip("\n").split("\t"); record(by[n], i)
         print(json.dumps(status()))
+    elif a.cmd == "next": [print(os.path.basename(x)) for x in stage_next(int(a.args[0]))]
     elif a.cmd == "dedupe": print("deduped", dedupe())
     elif a.cmd == "record": record(*a.args); print("recorded", a.args[0])
     else: print(json.dumps(status(), indent=1))

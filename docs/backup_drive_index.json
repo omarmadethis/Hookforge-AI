@@ -2241,6 +2241,398 @@
    "orig_size": 91554,
    "sha256": "9c2ac15e60f954ccb9d30c3ec7cf6416bfd6cb809731484bf555930f021fcf59",
    "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_321/clips/G5.mp4",
+   "id": "1468Gl_kqcUuAdLDB-WN3mr7xy2nEDqRZ",
+   "name": "G5.mp4",
+   "folder": "generations",
+   "size": 2376569,
+   "orig_size": 2398282,
+   "sha256": "6e8a294013f6d7effb782353c667203f2f9160579a06366c40e5783cb91d84b3",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_321/clips/G6.mp4",
+   "id": "1PnFQ78hyH_JIIAo50eJp2CkwyIdR2WSU",
+   "name": "G6.mp4",
+   "folder": "generations",
+   "size": 2349993,
+   "orig_size": 2371706,
+   "sha256": "eb08fdaa320663ba482e99521c3b19a5ec1f6b9cf1fdf9a25db9e2fd768916b7",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_321/final/jollyglow_321_A_dontshow.mp4",
+   "id": "15XQpEvf8RBLFhgP4du6CT-Qe3Ezq2ebT",
+   "name": "jollyglow_321_A_dontshow.mp4",
+   "folder": "generations",
+   "size": 45183758,
+   "orig_size": 45183786,
+   "sha256": "1a3cec388d2c7027bb9030140e98a11780c22544fdc075a73fb85218023b304a",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_321/final/jollyglow_321_B_pov.mp4",
+   "id": "11bh5TYO-l__UBWxkEmFFD6Yv9oekTQba",
+   "name": "jollyglow_321_B_pov.mp4",
+   "folder": "generations",
+   "size": 45204097,
+   "orig_size": 45204125,
+   "sha256": "f892752e56ff8a0fb7dc8dffdb2c2551e7a78994765e9ff6a164a8b3c17f14a1",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_combo/clips/G1.mp4",
+   "id": "1d7dzOBeR-r3IN8awy3w6RbcG3CJnX4DP",
+   "name": "G1.mp4",
+   "folder": "generations",
+   "size": 4699916,
+   "orig_size": 4721629,
+   "sha256": "f9757e9977c794d547ba9a5b10b317810348756ec5e01acdc5ed50d82e27f099",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_combo/clips/G2.mp4",
+   "id": "1FhB7WaReoCdQ6Uue-ubXW3utyGxqNtk5",
+   "name": "G2.mp4",
+   "folder": "generations",
+   "size": 1456967,
+   "orig_size": 1478680,
+   "sha256": "95efa6abfc015f67f7d7ab8cf23482a494e2d60d363c667abccfe6d402a9e4a7",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_combo/clips/G3.mp4",
+   "id": "1eqRkGmKaU6mdKZCLsbnq0EtLvRkFrXgb",
+   "name": "G3.mp4",
+   "folder": "generations",
+   "size": 2479497,
+   "orig_size": 2501210,
+   "sha256": "f062360e16adb75a334959d4338bf6c6bed7ea2377931a929e4cb86e61ead556",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_combo/clips/G4.mp4",
+   "id": "1_yO7aARjVCLe4Bcdeh1O1mR7Mm85Z4Gq",
+   "name": "G4.mp4",
+   "folder": "generations",
+   "size": 2285380,
+   "orig_size": 2307093,
+   "sha256": "46f48539688359120762204847073ed4f6fe77595d3f855d8c0191df5cabd63f",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_combo/final/jollyglow_combo_walmart.mp4",
+   "id": "1svTIMmtvJqW3S1LFAStmCgkvlExxovtu",
+   "name": "jollyglow_combo_walmart.mp4",
+   "folder": "generations",
+   "size": 43941128,
+   "orig_size": 43941108,
+   "sha256": "0b7f5a1866a12d843943eacb6e6ac5773e4c449f9b50a92e5b74ca2244a99f17",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001-b3/raw/B3_video.mp4",
+   "id": "1dSmN4atfmg9v12fb9Yul_TDMyKThURTM",
+   "name": "B3_video.mp4",
+   "folder": "generations",
+   "size": 2097416,
+   "orig_size": 2119129,
+   "sha256": "077c48f9eac9b9245b632a7ce5dd9ea2369eb09ff278972a7879c4dc830345f1",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001/capcut_dryrun_ref/DRY_THEN_VS_NOW_VIDEO_FOR_ME/media/mock_source.mp4",
+   "id": "1T3KXHVqj89F4pJmdnhHbX7P68vxPdg3D",
+   "name": "mock_source.mp4",
+   "folder": "generations",
+   "size": 6140262,
+   "orig_size": 6140290,
+   "sha256": "596af40b93ae36720c7d2abfc37f96f07ab232f264547b04c0586f6b41bb7bb8",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/media/B1_video.mp4",
+   "id": "1EA7MXCaLSYPAGCo686YQKjlLN-DjPXCh",
+   "name": "B1_video.mp4",
+   "folder": "generations",
+   "size": 1992177,
+   "orig_size": 2013890,
+   "sha256": "439bbb3605c839326cf9da8f7b032ec4a44ce5160147c8c04d74c535168fa309",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/media/B2_video.mp4",
+   "id": "1kq4XGbq_ki6kzHVxmbTjgYzjOz6X147O",
+   "name": "B2_video.mp4",
+   "folder": "generations",
+   "size": 1429768,
+   "orig_size": 1451481,
+   "sha256": "415b67b7540127de4e08c8151bc38c577cd583189c438f8e1a32396e2f3b4670",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/media/B3_video.mp4",
+   "id": "1NQIpT-zz8b7RGewegXOHN3_vxVKNhF0Z",
+   "name": "B3_video.mp4",
+   "folder": "generations",
+   "size": 2097416,
+   "orig_size": 2119129,
+   "sha256": "077c48f9eac9b9245b632a7ce5dd9ea2369eb09ff278972a7879c4dc830345f1",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/media/H_video.mp4",
+   "id": "10tDis_S92Ekj9OSIWTLFCL7Cr8fMLIne",
+   "name": "H_video.mp4",
+   "folder": "generations",
+   "size": 2991746,
+   "orig_size": 3013459,
+   "sha256": "27986a22827edecfce98cbc17f7f0a50d1cd9320105cf1518075a0a92125e874",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/mg-tvn-001_final_nomusic.mp4",
+   "id": "1qTYgMtS2hIV62_EzRz8utSl_k_7QgTsz",
+   "name": "mg-tvn-001_final_nomusic.mp4",
+   "folder": "generations",
+   "size": 48531399,
+   "orig_size": 48531399,
+   "sha256": "92358d68613efe1efee1c2e9766ca75fbf57329271a70df503acdffb4bf2d21b",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/raw_b3/B3_video.mp4",
+   "id": "1UDiKlbVhaf1v5LI6cdi6XQlK0j3jHoBT",
+   "name": "B3_video.mp4",
+   "folder": "generations",
+   "size": 2097416,
+   "orig_size": 2119129,
+   "sha256": "077c48f9eac9b9245b632a7ce5dd9ea2369eb09ff278972a7879c4dc830345f1",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001/raw/B1_video.mp4",
+   "id": "1UpdzxVv-yP1xTalf6Lx1QQ9wXgkp9RGR",
+   "name": "B1_video.mp4",
+   "folder": "generations",
+   "size": 1992177,
+   "orig_size": 2013890,
+   "sha256": "439bbb3605c839326cf9da8f7b032ec4a44ce5160147c8c04d74c535168fa309",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001/raw/B2_video.mp4",
+   "id": "1q0kM2B0jeGiWM_SvY4SckepZgywuLzzK",
+   "name": "B2_video.mp4",
+   "folder": "generations",
+   "size": 1429768,
+   "orig_size": 1451481,
+   "sha256": "415b67b7540127de4e08c8151bc38c577cd583189c438f8e1a32396e2f3b4670",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001/raw/H_video.mp4",
+   "id": "1s599BoUPB8x1xvPCUhni431hNDj_4nJO",
+   "name": "H_video.mp4",
+   "folder": "generations",
+   "size": 2991746,
+   "orig_size": 3013459,
+   "sha256": "27986a22827edecfce98cbc17f7f0a50d1cd9320105cf1518075a0a92125e874",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/clips/G1.mp4",
+   "id": "1vPqSs--bBgs-C6LV1AlOLSCucpE8ifl_",
+   "name": "G1.mp4",
+   "folder": "generations",
+   "size": 12625935,
+   "orig_size": 12647648,
+   "sha256": "fc3a28520d61f086d068b81a9cd603f4ea113c17f8d69499ca2d86b84211bd8e",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/clips/G2.mp4",
+   "id": "1qF9ti8Db6-504SP1_5K67IdblFtVaLPT",
+   "name": "G2.mp4",
+   "folder": "generations",
+   "size": 1540563,
+   "orig_size": 1562276,
+   "sha256": "ebad426176c4203884a97fd17c16c2027cf66711b045a7a180a625177273721b",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/clips/G3.mp4",
+   "id": "1qyKKt7WdlewSAli6DurzCJKpiJrlScjY",
+   "name": "G3.mp4",
+   "folder": "generations",
+   "size": 2623837,
+   "orig_size": 2645550,
+   "sha256": "f82894cc4f3e21a6b88f296fb2fbf96160a5a901f316fa9d12d6a7d982adbcac",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/clips/G4.mp4",
+   "id": "1BOEqsvGgVdS4lhqxq0hnCdsGNRVY3w61",
+   "name": "G4.mp4",
+   "folder": "generations",
+   "size": 2044857,
+   "orig_size": 2066570,
+   "sha256": "3f898a4760f9caf613fdaedac1b5e739bc5b0d0647507b10c21b77ea8167a0ac",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v4/proof/acdc_proven_ad_vs_v4.mp4",
+   "id": "1fCQ0BzQ0a8usJpkmjDQjFLG8EsSSrcKJ",
+   "name": "acdc_proven_ad_vs_v4.mp4",
+   "folder": "out_deliver",
+   "size": 4907842,
+   "orig_size": 4907918,
+   "sha256": "80e9d0c89a8b2a33e257fd64ab01b6af8bfbf56128253e33701bed71af9de5f4",
+   "sanitized": false,
+   "dedup_of": "out/deliver/TrumpGlow - Proof - Proven ACDC Ad vs A v4 (side by side).mp4"
+  },
+  {
+   "path": "out/live/trumpglow_B/final/trumpglow_B_ACDC_v2_caption.txt",
+   "id": "1PH7rQ2hHbyoUtTIFB-8Ym6Pgpc_Y-cJP",
+   "name": "trumpglow_B_ACDC_v2_caption.txt",
+   "folder": "generations",
+   "size": 147,
+   "orig_size": 147,
+   "sha256": "8ff301ab65e070834753c1304054ae54c13c5e908d16c75e2d03a367269d7f93",
+   "sanitized": false,
+   "dedup_of": "out/live/drive_up/TrumpGlow - Dont Show Liberal - Free Bird - v3 - Caption.txt"
+  },
+  {
+   "path": "out/live/trumpglow_A/clips/G5.mp4",
+   "id": "1eP8wEpTsWkkLBnaQhsrtjbXQ-kJOXtwn",
+   "name": "G5.mp4",
+   "folder": "generations",
+   "size": 2423248,
+   "orig_size": 2444961,
+   "sha256": "1bfe92081f34e93d44eec9697929f329850fe9d1e71e0590a9d0726e9dc6c3b1",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final/master_raw.mp4",
+   "id": "1RWs1YlImPGnvUFEDx30MAVRkknPYUQkn",
+   "name": "master_raw.mp4",
+   "folder": "generations",
+   "size": 69392957,
+   "orig_size": 69392985,
+   "sha256": "53e58c3751b2bbe4eb218d3713447db95c2f9496a618a1ee069bfa8a8d8f4455",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final/trumpglow_A_nomusic.mp4",
+   "id": "1HeR4-3qUBiWno6h-nsXkelDtm9W9LjIH",
+   "name": "trumpglow_A_nomusic.mp4",
+   "folder": "generations",
+   "size": 43400142,
+   "orig_size": 43400134,
+   "sha256": "1424a171927c2a8980349db43f84bf30f1d020dd863a917bc610e3111aef08be",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/master_nosong.mp4",
+   "id": "1A00CY6FwVLPc5Tm8kBlSHofbX1N8CeDJ",
+   "name": "master_nosong.mp4",
+   "folder": "generations",
+   "size": 76434829,
+   "orig_size": 76434865,
+   "sha256": "ee54d3306de4462703f2fc5b7004f62f56294c1ac6f41499a579ca84e161d6b5",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/trumpglow_A_v2_ACDC.mp4",
+   "id": "1tgOtfA4vr4R35BRKD3HwDcOdQv5vks_C",
+   "name": "trumpglow_A_v2_ACDC.mp4",
+   "folder": "generations",
+   "size": 51917568,
+   "orig_size": 51917560,
+   "sha256": "da3c81af59dd28f7924dd48b459d0472c9d5f1fe2d71966ce6d2289c66b5ff8d",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/trumpglow_A_v2_FreeBird.mp4",
+   "id": "1Qb-RWs7GV4e_78L4tjvf1AYr81B9_yhn",
+   "name": "trumpglow_A_v2_FreeBird.mp4",
+   "folder": "generations",
+   "size": 51917875,
+   "orig_size": 51917867,
+   "sha256": "e8299c9f5d0b95833fb83e09dae8e716992ae07179b34c784d5dfd7e84a91885",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v3/trumpglow_A_v3_ACDC.mp4",
+   "id": "1URqIm9Inhbkj5xfH0KnYD6_U-We-HXyN",
+   "name": "trumpglow_A_v3_ACDC.mp4",
+   "folder": "generations",
+   "size": 51917237,
+   "orig_size": 51917229,
+   "sha256": "270401fd22b35c9a52ae1bd2222e48b6d979b695f78d60ab24da0b9862f5f42f",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v3/trumpglow_A_v3_FreeBird.mp4",
+   "id": "1a0_U3IR9r674b_0H3opi0E86F5vZFXEB",
+   "name": "trumpglow_A_v3_FreeBird.mp4",
+   "folder": "generations",
+   "size": 51913306,
+   "orig_size": 51913298,
+   "sha256": "f4c20e90d6e23d588254f99576c9f5f2329e3dff4dba9054c1b5f66552db544b",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v4/trumpglow_A_v4_ACDC.mp4",
+   "id": "1QjOYx4akHQQjWnKhKyEkISDQtz3v7ler",
+   "name": "trumpglow_A_v4_ACDC.mp4",
+   "folder": "generations",
+   "size": 51914143,
+   "orig_size": 51914135,
+   "sha256": "41a1bcf720b3d7481761a930b0cff9f984997ee2ab1e49a6964b97df392c3ad2",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v4/trumpglow_A_v4_FreeBird.mp4",
+   "id": "12ZnnGYVgYdzUZEEH7vaKv7LZXpi5GaGf",
+   "name": "trumpglow_A_v4_FreeBird.mp4",
+   "folder": "generations",
+   "size": 51913314,
+   "orig_size": 51913306,
+   "sha256": "783bcf8dba5d3e7d5b296b0b39e81b7baef0f5d7be7db3178b371696490d0f65",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/master_nosong.mp4",
+   "id": "1GkG2rrIvxm2RJiafPoA72z5HvmA1Jqig",
+   "name": "master_nosong.mp4",
+   "folder": "generations",
+   "size": 76181200,
+   "orig_size": 76181236,
+   "sha256": "45cab80a3b3fb465df6700c93330320a303ab87cda0b56331ef09f65497c2c51",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/trumpglow_A_v5_ACDC.mp4",
+   "id": "1zhTPUxYuij4cNstOWBFcIWPobZODTla6",
+   "name": "trumpglow_A_v5_ACDC.mp4",
+   "folder": "generations",
+   "size": 51932557,
+   "orig_size": 51932549,
+   "sha256": "f715888e28b559bb183633d0053b8a576d5929a66b0835cac80b89b37b8642ef",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/trumpglow_A_v5_FreeBird.mp4",
+   "id": "1qKYbXL3UmLJt-WYImxt7QBnTAl5scaGt",
+   "name": "trumpglow_A_v5_FreeBird.mp4",
+   "folder": "generations",
+   "size": 51930174,
+   "orig_size": 51930166,
+   "sha256": "d1b69555e2be4d7918fdb12c0fe3152b04da97f621e72680feee4f9f11c5a81f",
+   "sanitized": true
   }
  ],
  "updated_pt": "2026-10-20 PT (batch 2: out/deliver plus 3 re-encoded audio files)"
