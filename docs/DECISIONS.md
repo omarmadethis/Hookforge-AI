@@ -855,3 +855,12 @@ automation/backup_chunks.py keeps a resumable state in learning/backup_state.jso
 There is no unattended background upload, because the box has no Drive token (by design) and only an agent's UploadFile call can upload. Each session runs stage n, then UploadFile per file into Hookforge Backup/generations (1fmUtKzurfIZ5oULOZEaBi2SXIdANyN2l) or learning (1lI5HkHN6hICJPnfMe8KYR0TVROsknYgr), then record.
 Chunk 0 is done: audience_fit_log.csv uploaded. learning/results/snapshot_loop.out was refused by the gate and is a log anyway.
 Watch Drive quota: the backup is about 1.6 GB now and Tier 2 adds 6.1 GB.
+
+## D168 (2026-10-20 PT) Regen keeps pending approval times
+Fixes a bug where every regen re-stamped pending items' created_pt and their 24 h approval_file_draft.expires_pt, which extended the approval window. approval_queue.preserve() now copies created_pt and expires_pt at every nesting level from the file as it was before this process first touched it (module cache _ORIG), but only while that file's status is still AWAITING_OMAR_APPROVAL. It is called in approval_queue.queue, in concept_lab's lean rewrite and in the weekly_batch item. Verified: a regen plus a full pytest run leave all 4 queue files byte-identical. Test: test_regen_keeps_pending_times. The times kept are the 17:11 PT stamps from the initial commit; the true originals were already lost to earlier regens.
+## D169 Why the trumpglow weekly pick flipped from F09 to F04: test leak, not a real signal
+test_d117_d120.test_perf_loop set `perf_feedback.DIR = tmp_path` by plain assignment, so the fixture perf weights (trumpglow hook F09 x1.5, F04 x0.867) stayed live for every later test in the same pytest process. That includes test_regen_one_command, which wrote learning/weekly_batch/2026-10-21.json with those fake weights: F09 POC 0.79×1.5 capped to 1.00, rank 1.143.
+The real learning/perf/ holds no weights.json, because no real posts have been ingested yet. Outside pytest, every weight is 1.0, both POCs are 0.79, and F04 wins on ref boost (1.0 vs 0.953): 1.047 vs 1.040.
+**F04 is the correct pick. The committed F09 file was contaminated.**
+Fixed: perf_loop and test_fb_caption_d93's SWAP_DIR now use monkeypatch. After a full pytest run the weekly file stays F04.
+The approval-queue concept item trumpglow_F09 is unaffected: it is the innovation slot (least-tried format) and doesn't depend on perf weights.

@@ -16,8 +16,9 @@ def test_no_duplicate_channels_and_spare_purr_routed():
     assert [p["page"] for p in routing.route("purrventure_carrier")["pages"]] == ["purrventures_fb", "purrventures2_fb"]
     c = routing.cfg(); c["pages"]["x"] = dict(c["pages"]["purrventures_fb"]); assert routing.duplicate_channels(c)
 
-def test_perf_loop(tmp_path):
-    P.DIR = str(tmp_path); ab_log.LOG = str(tmp_path / "ab.csv")
+def test_perf_loop(tmp_path, monkeypatch):
+    # D169: monkeypatch, not plain assignment. The old version leaked fixture perf weights (trumpglow F09 x1.5) into every later test, including regen.
+    monkeypatch.setattr(P, "DIR", str(tmp_path)); monkeypatch.setattr(ab_log, "LOG", str(tmp_path / "ab.csv"))
     rows = json.load(open(os.path.join(os.path.dirname(__file__), "fixtures", "perf_stats.json")))
     assert P.ingest(rows, "fixture")["new"] == 24 and P.ingest(rows, "fixture")["new"] == 0
     w = P.reweight()

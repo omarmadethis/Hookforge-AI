@@ -32,8 +32,8 @@ def test_traction_thresholds_d93_6():
     # 30K over 2h with no <=1h window showing 10K
     assert not F.traction(dict(views=30000, posted_pt="2026-10-10 12:00", snapshot_pt="2026-10-20 12:00"), [("2026-10-20 10:00", 25000)])["swap"]
 
-def test_swap_keeps_hashtags_and_is_approval_item(tmp_path, monkeypatch=None):
-    F.SWAP_DIR = str(tmp_path)
+def test_swap_keeps_hashtags_and_is_approval_item(tmp_path, monkeypatch):
+    monkeypatch.setattr(F, "SWAP_DIR", str(tmp_path))      # D169: no leak into later tests
     it = F.queue_swap(dict(reel_key="fb:t:x", product="grinch_robe", caption="All moms need this🎁 #christmas #mom", reason="test"))
     assert it["status"] == "AWAITING_OMAR_APPROVAL"
     assert it["new_caption"] == "Get it here 👉 https://merryjammies.com/products/merryjammies-festive-heating-robe\n#christmas #mom"
