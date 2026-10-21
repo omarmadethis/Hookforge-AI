@@ -12,3 +12,8 @@ Already posted (excluded): JollyGlow F06 v2, TrumpGlow A3, B3 (TrumpGlow + Patri
 | TrumpGlow C v3 (Last Day vs First Day) | SKIP | "VS" on card 1 (G14); end card "Comment \"VOTE\"" (G23) |
 | TrumpGlow A2/B2, JollyGlow F06 lawn v1/lean | SKIP | rejected/superseded |
 | LumaRein | SKIP | not built |
+
+## 3:27 PM PT follow-up (Omar: post JollyGlow Combo Walmart v3 with fresh SAY caption)
+STOPPED at step 1: Combo Walmart footage is ALREADY LIVE on Jolly Glow (Buffer1 channel 6ad7c7b6778b240e2f6eded2), sent 2026-10-19 11:49 PM PT
+(caption "The hottest decoration this year... 😍"). Frame at 6 s is pixel-identical (same card "Christmas moms, don't walk RUN to Walmart 🤩"); durations 11.47 s vs 11.38 s.
+Reposting would be a repost (shadowban rule) -> not posted, nothing hosted, 0 credits.
