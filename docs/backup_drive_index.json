@@ -1,0 +1,351 @@
+{
+ "drive_folder": "Hookforge Backup",
+ "folder_id": "19ijhI0u40-wzTYeFkVO21vT83dwtLLTi",
+ "subfolders": {
+  "refs": "1lxLMb_cn3XM0g6nPsyrIB2HI0eWbRVxf",
+  "music": "1QIE2PC44JeRskUbi9t8ZsGgrgjdv4qEz"
+ },
+ "uploaded_pt": "2026-10-20 PT",
+ "files": [
+  {
+   "path": "refs/jollyglow/drive_jolly_glow.mp4",
+   "id": "15GMJVi90UZ81hf7gbVMidqQQcTWgcrZz",
+   "name": "jollyglow__drive_jolly_glow.mp4",
+   "folder": "refs",
+   "size": 24917541,
+   "orig_size": 24918512,
+   "sha256": "27e78e355b67f2bdb1f52b4413b531b70789bee8260a0dc76935aa6fe52c1381",
+   "sanitized": true
+  },
+  {
+   "path": "refs/omar_ref_mg.mp4",
+   "id": "1xWErtQQB_tLMP7ND4CZmjSNNGWxx1MKn",
+   "name": "omar_ref_mg.mp4",
+   "folder": "refs",
+   "size": 59176852,
+   "orig_size": 59169755,
+   "sha256": "d65049f075503c86d17f6eac41bd6272d9407ecb4c6ef12c75c48f13b42e7971",
+   "sanitized": true
+  },
+  {
+   "path": "refs/trumpglow/door.light.us_7377540093969550634.mp4",
+   "id": "1PCJfMbt5NrUiAGwxUS4syV5YMbIQGF9X",
+   "name": "trumpglow__door.light.us_7377540093969550634.mp4",
+   "folder": "refs",
+   "size": 949971,
+   "orig_size": 950123,
+   "sha256": "92c9b1d8f08a24e706db726f535392fc7e4bee0e1bfba03882114d3078661530",
+   "sanitized": true
+  },
+  {
+   "path": "refs/trumpglow/doorbeam_7228378900186008878.mp4",
+   "id": "1JYCBaqcMGVcA-5qx0fkra6ndECA7F1nL",
+   "name": "trumpglow__doorbeam_7228378900186008878.mp4",
+   "folder": "refs",
+   "size": 1154375,
+   "orig_size": 1154464,
+   "sha256": "3019a727c459cd32a1bc6300be0f74359cae6617920e6e4cd0716da38c785378",
+   "sanitized": true
+  },
+  {
+   "path": "refs/trumpglow/endeavourshop_7438522013251013921.mp4",
+   "id": "1Y-GgxvyhpiHtfo_Luiiflv579fPkRw6h",
+   "name": "trumpglow__endeavourshop_7438522013251013921.mp4",
+   "folder": "refs",
+   "size": 487779,
+   "orig_size": 488001,
+   "sha256": "1c662126cce7dfd5bae8a97ce2cf8076d1acc78344541933386af1108390137f",
+   "sanitized": true
+  },
+  {
+   "path": "refs/trumpglow/ezekielf33_7486828472619355435.mp4",
+   "id": "1iPpCY5CdSYiT9JgplmtKORCZ7i15X0qm",
+   "name": "trumpglow__ezekielf33_7486828472619355435.mp4",
+   "folder": "refs",
+   "size": 2751238,
+   "orig_size": 2751460,
+   "sha256": "b757cfd38cac4de35a4d019a6ab8f93c439a618ecdcb8e832aa58e92915f1bb8",
+   "sanitized": true
+  },
+  {
+   "path": "refs/trumpglow/getledsy_7637748737196002591.mp4",
+   "id": "1Hm6zYhU8YIM8_BzS75n9CVlAKEVDv_zI",
+   "name": "trumpglow__getledsy_7637748737196002591.mp4",
+   "folder": "refs",
+   "size": 944942,
+   "orig_size": 945164,
+   "sha256": "c9fd46275ca0227c7f47e428e39bca89a821f913fa2cbdffd60acfe89852f869",
+   "sanitized": true
+  },
+  {
+   "path": "refs/trumpglow/getledsy_7645137984232213790.mp4",
+   "id": "1buWXs-cmalgYyfnx5mfV_SGNYw3xDMzq",
+   "name": "trumpglow__getledsy_7645137984232213790.mp4",
+   "folder": "refs",
+   "size": 570603,
+   "orig_size": 570825,
+   "sha256": "34cef97b697d97475b16867810921125f4e541358b8cf56302392497b3730ae8",
+   "sanitized": true
+  },
+  {
+   "path": "refs/trumpglow/getledsy_7655423706629459230.mp4",
+   "id": "1XaSxDmUtG-rvwlXqQ12-Ib2NHxAfXCR5",
+   "name": "trumpglow__getledsy_7655423706629459230.mp4",
+   "folder": "refs",
+   "size": 674925,
+   "orig_size": 675147,
+   "sha256": "01ede2e40b2729fd77d44d217f24da96cdb666c730e861608e6e0bba9316306a",
+   "sanitized": true
+  },
+  {
+   "path": "refs/trumpglow/lumi_door_7391285123561426208.mp4",
+   "id": "1jwIhpAQop1f43ceQw_VEwUigol2Q1Wnx",
+   "name": "trumpglow__lumi_door_7391285123561426208.mp4",
+   "folder": "refs",
+   "size": 706884,
+   "orig_size": 707107,
+   "sha256": "9599ab525163527a969c53c9217df34356f771b612d5bce9cbb24eabae2a8719",
+   "sanitized": true
+  },
+  {
+   "path": "refs/trumpglow/lumi_door_7395348939215588641.mp4",
+   "id": "1AVDpOws6bCluQEg4EPxX8SGKM0F7eLmk",
+   "name": "trumpglow__lumi_door_7395348939215588641.mp4",
+   "folder": "refs",
+   "size": 827067,
+   "orig_size": 827290,
+   "sha256": "654c7c0272e3f22373afd44955d8fe5ee2a587a64cc2a4294659af3ee18e5553",
+   "sanitized": true
+  },
+  {
+   "path": "music/acdc_preview_fightingforair.m4a",
+   "id": "1tQ5_QfwEs8Uq-Vloxrp0rZThSHtWcCVn",
+   "name": "acdc_preview_fightingforair.m4a",
+   "folder": "music",
+   "size": 1091003,
+   "orig_size": 1091342,
+   "sha256": "9926568c74158e760683bbf9ba71d72c6c30521f1aab0173f0d2af8be0993e17",
+   "sanitized": true
+  },
+  {
+   "path": "music/acdc_ysmanl_official.m4a",
+   "id": "1gXUTUa5pPieoN4aens51mD1NVhtPrlz3",
+   "name": "acdc_ysmanl_official.m4a",
+   "folder": "music",
+   "size": 3366200,
+   "orig_size": 3366282,
+   "sha256": "a4b34edaddcd3878820d9bfd9bac529c414e066585081b95fa158613a7c4b547",
+   "sanitized": true
+  },
+  {
+   "path": "music/acdc_ysmanl_topic.m4a",
+   "id": "1KGsl5yH3tHoVmOfjpUuH05SLBJCDiKVQ",
+   "name": "acdc_ysmanl_topic.m4a",
+   "folder": "music",
+   "size": 3403382,
+   "orig_size": 3403456,
+   "sha256": "ad7b2422f099fe94a70335b75aff82376910b6d5e4da9998fe29eea25c368cda",
+   "sanitized": true
+  },
+  {
+   "path": "music/aiwfc_lyricvideo_NrGGIoDL6U4.m4a",
+   "id": "1j-msOCwNSrMHQvMgkzHks-dI6z12BD2u",
+   "name": "aiwfc_lyricvideo_NrGGIoDL6U4.m4a",
+   "folder": "music",
+   "size": 3892690,
+   "orig_size": 3892772,
+   "sha256": "9aaff72fc3f96294100cb3fea6c782103e07c5cf755624893df78d666fe7bb6c",
+   "sanitized": true
+  },
+  {
+   "path": "music/aiwfcixy_preview.m4a",
+   "id": "1YyN2YRzhsCvTfFBIq4Z0YY_ZraKD4wFy",
+   "name": "aiwfcixy_preview.m4a",
+   "folder": "music",
+   "size": 1093756,
+   "orig_size": 1094095,
+   "sha256": "3489de891d308d8181c1f200825292c9b928880048ab215a6d80b59564054ce5",
+   "sanitized": true
+  },
+  {
+   "path": "music/be_my_baby_preview.m4a",
+   "id": "1bBBZJdRDwBURBP9QLJVaZMokq-GTKwZM",
+   "name": "be_my_baby_preview.m4a",
+   "folder": "music",
+   "size": 1017004,
+   "orig_size": 1017343,
+   "sha256": "b73d6e51a6be783747b1b2453faa25351088fa9a78972f35e2e1c9ee46af2916",
+   "sanitized": true
+  },
+  {
+   "path": "music/be_my_baby_youtube.m4a",
+   "id": "11gbi5GAuOAEJS6FM0WTKHNyZji0Uo-bC",
+   "name": "be_my_baby_youtube.m4a",
+   "folder": "music",
+   "size": 2621554,
+   "orig_size": 2621636,
+   "sha256": "302415ece1c92600789349fd662fa6ad9c401b4ca5bacfcd0c20f4bbd9441e82",
+   "sanitized": true
+  },
+  {
+   "path": "music/burl_ives_GoN2ojXl9jU.m4a",
+   "id": "1ozZlsB1s90bB2wHaplgHiBl6cbQKpSKF",
+   "name": "burl_ives_GoN2ojXl9jU.m4a",
+   "folder": "music",
+   "size": 2231372,
+   "orig_size": 2231446,
+   "sha256": "badeb4728b5bf651330623ae34de38cd7e9cdc09d998a1e6b69745e28fd25ed9",
+   "sanitized": true
+  },
+  {
+   "path": "music/burl_ives_preview.m4a",
+   "id": "1KOBg11K67D4GSHzdHzFs--qS2xy6hkXs",
+   "name": "burl_ives_preview.m4a",
+   "folder": "music",
+   "size": 1104855,
+   "orig_size": 1105194,
+   "sha256": "cc9ae0935c493282e038792126f7f26a474f0d090606bfc7bd86ffe88eebd052",
+   "sanitized": true
+  },
+  {
+   "path": "music/darlene_love_official_audio.m4a",
+   "id": "1sPuGKyypr_zkQjYe6qDLGnmMIrIiz6S5",
+   "name": "darlene_love_official_audio.m4a",
+   "folder": "music",
+   "size": 2660596,
+   "orig_size": 2660678,
+   "sha256": "db1cc9bc592a3886e51082b863156395911c66af39978032091c54b2076a256a",
+   "sanitized": true
+  },
+  {
+   "path": "music/darlene_love_preview.m4a",
+   "id": "1YNQ1NDWKthUCNjNv8aKW_8l6xSlmTITU",
+   "name": "darlene_love_preview.m4a",
+   "folder": "music",
+   "size": 1017654,
+   "orig_size": 1017993,
+   "sha256": "9f7ef3b735cb4c0d8546fbaebbd6fa5cdc5e3812870d90a70fb39854e8c12ae1",
+   "sanitized": true
+  },
+  {
+   "path": "music/freebird_official_audio.m4a",
+   "id": "1NJOV6ac0qTNr2sByvJPhbPA6zFLqxXlZ",
+   "name": "freebird_official_audio.m4a",
+   "folder": "music",
+   "size": 8901798,
+   "orig_size": 8901880,
+   "sha256": "f6e38de32dde65db4740f23bb18989037c5d220ad9d44131d2ff40e925137c6a",
+   "sanitized": true
+  },
+  {
+   "path": "music/holly_jolly_bublé_official.m4a",
+   "id": "1aNTV8Cm3tHbtGcw06Yj0Odbi5C6f-fEU",
+   "name": "holly_jolly_bublé_official.m4a",
+   "folder": "music",
+   "size": 1968134,
+   "orig_size": 1968216,
+   "sha256": "f3a0bd9704428ef2e5258c08ab886da46a6b69ab41ab2acdfb75fbe35e2bb903",
+   "sanitized": true
+  },
+  {
+   "path": "music/holly_jolly_preview.m4a",
+   "id": "1MdXPagPg2SvWxUx83ygQi5653fdjqNNw",
+   "name": "holly_jolly_preview.m4a",
+   "folder": "music",
+   "size": 992156,
+   "orig_size": 992503,
+   "sha256": "46e3412925ed8bb6036f56c9465827d81919a8b2f5a62b1f63237b5f39d0b5c4",
+   "sanitized": true
+  },
+  {
+   "path": "music/jingle_bell_rock_preview.m4a",
+   "id": "1hv9goYQVKRWySQqx19ytMnnb-NEGN6dt",
+   "name": "jingle_bell_rock_preview.m4a",
+   "folder": "music",
+   "size": 1032525,
+   "orig_size": 1032872,
+   "sha256": "a74e647ed29440f4c9231d45258709023b780f59157be829fc5fc72fc6a19e0b",
+   "sanitized": true
+  },
+  {
+   "path": "music/jingle_bell_rock_topic2.m4a",
+   "id": "1MA02Xwlfxx4wuFlFgUSUBBOtQaOj1u-v",
+   "name": "jingle_bell_rock_topic2.m4a",
+   "folder": "music",
+   "size": 2130382,
+   "orig_size": 2130456,
+   "sha256": "a2b2457dc8d759d40e857e3e36eea6a6253718ff9925939faad94e25f4866d6c",
+   "sanitized": true
+  },
+  {
+   "path": "music/last_christmas_preview.m4a",
+   "id": "1RO6SWauZ3INwl0-Fm1qytHGhVP5ybC-d",
+   "name": "last_christmas_preview.m4a",
+   "folder": "music",
+   "size": 988350,
+   "orig_size": 988689,
+   "sha256": "cf8576aef43a2910659d2b9828f223086eb1689be1088a6cb8ee17516c1eeb4f",
+   "sanitized": true
+  },
+  {
+   "path": "music/last_christmas_remastered.m4a",
+   "id": "1QgqLcGNW1Sw28mPKTsyO6XMn7wBV9Rjh",
+   "name": "last_christmas_remastered.m4a",
+   "folder": "music",
+   "size": 4322296,
+   "orig_size": 4322370,
+   "sha256": "f1d525b6dc08d591febb05fa5ce574878ec8918cfad724000acb346ec52ab361",
+   "sanitized": true
+  },
+  {
+   "path": "music/last_christmas_single_preview.m4a",
+   "id": "16aK-xd_H_jt1D_xxKyzQwY2wCJrxsRby",
+   "name": "last_christmas_single_preview.m4a",
+   "folder": "music",
+   "size": 1026345,
+   "orig_size": 1026684,
+   "sha256": "3d402bc07f3247ff6a72a7fdbcbd1931f4495f23929d4cdf9d73a6468c1053a7",
+   "sanitized": true
+  },
+  {
+   "path": "music/mambo_no5_preview.m4a",
+   "id": "1TLgCdsLqNV4dn3X7_6GGXRY-z6y4lijd",
+   "name": "mambo_no5_preview.m4a",
+   "folder": "music",
+   "size": 1121988,
+   "orig_size": 1122327,
+   "sha256": "40bc1dddf6d99b6eda63074cf397c633153c7e0ba8b3afdcd274b49278462263",
+   "sanitized": true
+  },
+  {
+   "path": "music/mambo_no5_youtube.m4a",
+   "id": "1yy_k91XhGutDaxcyikdmebMWn7q8X8Ll",
+   "name": "mambo_no5_youtube.m4a",
+   "folder": "music",
+   "size": 2234026,
+   "orig_size": 2234100,
+   "sha256": "40f5f1a6187896e776e0e6978f47503b83ba752187477b8760155dd231c4d5e3",
+   "sanitized": true
+  },
+  {
+   "path": "music/winter_wonderland_preview.m4a",
+   "id": "1qf9ekPQh-i-XQP1oe39sZZl77W6kqCOK",
+   "name": "winter_wonderland_preview.m4a",
+   "folder": "music",
+   "size": 1060291,
+   "orig_size": 1060630,
+   "sha256": "9d5415aa0a79edc6c9eaa4a939b597af6db8e6482f1ed9cc3a504f058b440aa4",
+   "sanitized": true
+  },
+  {
+   "path": "music/winter_wonderland_rem1992.m4a",
+   "id": "1nZZiSh8TBnKAtjEy2pyYO_bJgaXhXIlQ",
+   "name": "winter_wonderland_rem1992.m4a",
+   "folder": "music",
+   "size": 2333163,
+   "orig_size": 2333237,
+   "sha256": "6fc39287cdf2c3767350c174135843d5c62bcf3d85e0f7ec1ebef415f6566504",
+   "sanitized": true
+  }
+ ]
+}

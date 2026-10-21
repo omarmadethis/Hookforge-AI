@@ -15,6 +15,7 @@ import os, re, sys, json, argparse, datetime
 from zoneinfo import ZoneInfo
 R = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 MAN = os.path.join(R, "docs", "MANIFEST_EXCLUDED.md")
+IDX = os.path.join(R, "docs", "backup_drive_index.json")   # D164: written after each Drive backup upload
 SENSITIVE = re.compile(r"(^private/|\.env|secret|credential|cookie|token|bank|statement|tax|llc|rental|passport|license|vids w isaac|IMG_5172)", re.I)
 UNIT = {"KB": 1e3, "MB": 1e6, "GB": 1e9}
 
@@ -26,6 +27,7 @@ def parse(path=MAN):
     for ln in open(path):
         if ln.startswith("## By directory"): sec = "d"
         elif ln.startswith("## Every excluded file"): sec = "f"
+        elif ln.startswith("## "): sec = None                 # e.g. "Backed up to Drive" (read from the index)
         if re.match(r"\|\s*(dir|path|-+)\s*\|", ln): continue
         m = re.match(r"\|\s*(.+?)\s*\|\s*(.+?)\s*\|(?:\s*(.+?)\s*\|)?(?:\s*(.+?)\s*\|)?\s*$", ln)
         if not m or not sec: continue
@@ -34,7 +36,9 @@ def parse(path=MAN):
     return dirs, files
 
 def plan(index=None):
-    dirs, files = parse(); idx = index or []
+    dirs, files = parse()
+    if index is None and os.path.exists(IDX): index = json.load(open(IDX))
+    idx = index["files"] if isinstance(index, dict) else (index or [])
     by_path = {i.get("path"): i for i in idx if i.get("path")}
     items = []
     def match(rel, b):
@@ -42,17 +46,19 @@ def plan(index=None):
         nm = os.path.basename(rel)
         return next((i for i in idx if i.get("name") == nm and i.get("size") and abs(float(i["size"]) - b) <= 0.01 * b + 1e6), None)
     big = {f["path"] for f in files}
+    for i in idx:                                            # backed-up files that are below the manifest's 10 MB listing
+        if i.get("path") and i["path"] not in big: files.append(dict(path=i["path"], bytes=float(i.get("orig_size") or i["size"]))); big.add(i["path"])
     for f in files:
         rel, b, full = f["path"], f["bytes"], os.path.join(R, f["path"])
         it = dict(kind="file", path=rel, bytes=int(b))
         if SENSITIVE.search(rel): it.update(action="manual_only")
         elif os.path.exists(full) and abs(os.path.getsize(full) - b) <= 0.01 * b + 1e6: it.update(action="present")
-        elif (m := match(rel, b)): it.update(action="download", drive_id=m["id"], dest=rel)
+        elif (m := match(rel, b)): it.update(action="download", drive_id=m["id"], dest=rel, **({"sha256": m["sha256"]} if m.get("sha256") else {}))
         else: it.update(action="unresolved", hint="regenerate (renders)" if rel.startswith("out/") else "copy from the box /workspace/hookforge")
         items.append(it)
     for d in dirs:
         rel = d["dir"]; full = os.path.join(R, rel)
-        if rel in big: continue
+        if rel in big or any(b.startswith(rel + "/") for b in by_path): continue   # covered file by file
         it = dict(kind="dir", path=rel + "/", files=d["files"], bytes=int(d["bytes"]), why=d["why"])
         if SENSITIVE.search(rel + "/"): it.update(action="manual_only")
         elif os.path.isdir(full) and sum(len(fs) for _, _, fs in os.walk(full)) >= d["files"]: it.update(action="present")

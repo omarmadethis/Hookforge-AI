@@ -826,3 +826,15 @@ engine/pytest.ini registers the marker. engine/tests/conftest.py applies it to 3
 ## D163 (2026-10-20 PT) Asset restore plan, dry run only
 automation/restore_assets.py parses docs/MANIFEST_EXCLUDED.md (dir groups plus every file over 10 MB) and writes a plan JSON (default learning/restore_plan.json) with one action per item: present / download (Drive match from an optional --drive-index, by path or by name+size) / unresolved / manual_only (private/ and sensitive patterns, never restored automatically). It makes no API calls and writes nothing into data/ or out/. --execute exits 2.
 Drive search for "hookforge" (read-only) found no backup folder, so with no index every missing asset is unresolved. Today the source of truth is the box itself. Clean-clone plan: 306 files unresolved, 44 dirs unresolved, 7 dirs present, 3 private dirs manual_only.
+
+## D164 (2026-10-20 PT) Drive backup of excluded assets
+automation/backup_plan.py ranks git-excluded assets (docs/BACKUP_PLAN.md):
+| Tier | What | Size |
+|---|---|---|
+| 1 | refs 0.09 GB, audio 0.07 GB, final deliverables 1.46 GB | 1.62 GB |
+| 2 | learning registries 1.13 GB, paid Higgsfield generations 5.0 GB | 6.13 GB |
+| 3 | emoji font 0.12 GB, features DB/proxies 6.05 GB | 6.17 GB |
+Total 13.92 GB. Never backed up: caches, dry runs, cast audits and private/ or anything sensitive.
+Batch 1 went to the private Drive folder "Hookforge Backup" (id 19ijhI0u40-wzTYeFkVO21vT83dwtLLTi, subfolders refs and music): 34 files, 0.145 GB, every one through deliver.stage/verify_staged. The gate refused 3 audio files, which were not uploaded and not worked around. Drive IDs and sha256 are in docs/backup_drive_index.json. build_manifest adds a drive_id column and a "Backed up to Drive" section, and restore_assets reads the index by default. In a clean clone the 34 files now resolve to `download`.
+## D165 Derived outputs untracked
+approval_digest.html, buffer_preflight/, caption_library.json, hashtags_by_product.json, credit_ledger/<date>.json, ref_miner/transfer.json and backup_plan.json are rewritten by tests and regen, with only timestamps and key order changing. They are now gitignored and removed from the index (the files stay on the box). credit_ledger/reconcile_*.json stays tracked because it snapshots transaction data that can't be re-derived. A clean clone without these files still gives 104 passed, 30 deselected (they regenerate).
