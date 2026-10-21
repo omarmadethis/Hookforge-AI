@@ -290,3 +290,6 @@ Caveat: the reveal detector finds hard cuts and flashes. Steady "after" footage 
 - HANDOFF and DECISIONS live only in docs/.
 - Retro approval records: purrventure_3videos, purrventure_branding_v2, purrventure_p2_addshot.
 - Local git commit is in place. Not pushed: waiting for GitHub auth, and the repo should be private.
+- D161: the spend watch flags only Hookforge-model spend that the ledger doesn't cover. External spend is reported per model.
+- D162: CI is .github/workflows/test.yml, which runs `pytest -m "not needs_data"`.
+- D163: `python3 automation/restore_assets.py [--drive-index idx.json]` writes a dry-run restore plan only.
