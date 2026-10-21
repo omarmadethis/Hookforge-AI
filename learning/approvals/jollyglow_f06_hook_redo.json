@@ -1,1 +1,24 @@
-{"approved_by":"Omar","approved_at_pt":"2026-10-20T20:02:00-07:00","approval_quote":"Omar approved a cap of 35 (one GPT Image 2 start frame + one 720p Seedance clip) for the F06 hook redo","run_id":"jollyglow_f06_hook_redo","account":"user-Higgsfield--new-account","credit_cap":35,"phases":{"frame":{"credits":6.5,"status":"approved"},"clip":{"credits":28,"status":"BLOCKED until Omar OKs the frame"}},"approval_channel":"relayed by parent agent","consumed":false}
+{
+  "approved_by": "Omar",
+  "approved_at_pt": "2026-10-20T20:02:00-07:00",
+  "approval_quote": "Omar approved a cap of 35 (one GPT Image 2 start frame + one 720p Seedance clip) for the F06 hook redo",
+  "run_id": "jollyglow_f06_hook_redo",
+  "account": "user-Higgsfield--new-account",
+  "credit_cap": 35,
+  "phases": {
+    "frame": {
+      "credits": 6.5,
+      "status": "approved"
+    },
+    "clip": {
+      "credits": 28,
+      "status": "BLOCKED until Omar OKs the frame"
+    }
+  },
+  "approval_channel": "relayed by parent agent",
+  "consumed": false,
+  "total_spent": 6.5,
+  "h2_frame_job": "336c512f-804a-4d4e-9853-62323f015317",
+  "h2_frame_ok_by_omar_pt": "2026-10-20T23:45:00-07:00",
+  "clip_status": "approved by Omar (Run it), not yet submitted at the 11:46 PM PT box wipe; 28 remaining in cap"
+}
