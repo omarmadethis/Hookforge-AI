@@ -1,5 +1,5 @@
 # MANIFEST of excluded assets (not in git)
-Generated 2026-10-20 6:16 PM PT by engine/scripts/build_manifest.py. Total 9973 files, 14.54 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
+Generated 2026-10-20 6:18 PM PT by engine/scripts/build_manifest.py. Total 9973 files, 14.54 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
 
 ## By directory
 | dir | files | size | why excluded |
@@ -375,7 +375,7 @@ Generated 2026-10-20 6:16 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/capcut_test/HF_TEST_01/media/hf_20260826_050227_d8c2b489-ef9a-4be5-a866-67111b06a50c.mp4 | 10.6 MB |  |
 | out/purrventure_brand/raw/pfp_r1.png | 10.5 MB |  |
 
-## Backed up to Drive "Hookforge Backup" (326 files; docs/backup_drive_index.json)
+## Backed up to Drive "Hookforge Backup" (366 files; docs/backup_drive_index.json)
 | path | drive_id |
 |---|---|
 | learning/audience_fit_log.csv | 1OaLpFsrgefKbB3A4AHQBGrIBFicqeVPe |
@@ -555,20 +555,60 @@ Generated 2026-10-20 6:16 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/live/jollyglow_321/start_frames/F4_v1.png | 1RFRVPJfIjTaHGlRNsiw9v6pbAQ5Rh_GL |
 | out/live/jollyglow_321/start_frames/F4_v2.png | 1dbD-4m32Gq6qX6FQJKpe3MNcjtUpFD_u |
 | out/live/jollyglow_321/start_frames/F5_v1.png | 1wO-MDRT7Y8ED1nIpw-6HLZ-NzrRo4rJV |
+| out/live/jollyglow_321/start_frames/F5_v2.png | 1FGNpP71J1mLNujt00dBINXwPYmglpb4E |
+| out/live/jollyglow_321/start_frames/F6_v1.png | 15JcZLv4UZu-7qzYvfB7095aX0anZFK5d |
+| out/live/jollyglow_321/start_frames/F6_v2.png | 1FKncb2Jwv0VX-JciGeu6YB5y8gQEmSr5 |
+| out/live/jollyglow_combo/F1_reroll_sheet.jpg | 1wfKtXAcT2ebmq4FNp2aEciHMpstPjM3p |
 | out/live/jollyglow_combo/clips/G1.mp4 | 1d7dzOBeR-r3IN8awy3w6RbcG3CJnX4DP |
+| out/live/jollyglow_combo/clips/G1_sheet.jpg | 1q1Kmcle1Bjar8x5xR2N5kxJH9Im6e8Th |
 | out/live/jollyglow_combo/clips/G2.mp4 | 1FhB7WaReoCdQ6Uue-ubXW3utyGxqNtk5 |
+| out/live/jollyglow_combo/clips/G2_sheet.jpg | 1_krQv7lBD8kApAP6YfHsDGENKwa75mxc |
 | out/live/jollyglow_combo/clips/G3.mp4 | 1eqRkGmKaU6mdKZCLsbnq0EtLvRkFrXgb |
+| out/live/jollyglow_combo/clips/G3_sheet.jpg | 1EfbfUQCT93Gn8qugNt9FoIe4N_i5-YjL |
 | out/live/jollyglow_combo/clips/G4.mp4 | 1_yO7aARjVCLe4Bcdeh1O1mR7Mm85Z4Gq |
+| out/live/jollyglow_combo/clips/G4_sheet.jpg | 1z5Y33sjda8WZhE1Fa7vQIu9cM05wB9kX |
+| out/live/jollyglow_combo/contact_sheet_start_frames.jpg | 1edlIWIg7WdTAN6OsoeNG3C5Cd5Rtnu4Y |
 | out/live/jollyglow_combo/final/caption_walmart.txt | 1boi68JuUFSIhZPDL20ZBHzmoxUUMxISk |
 | out/live/jollyglow_combo/final/jollyglow_combo_walmart.mp4 | 1svTIMmtvJqW3S1LFAStmCgkvlExxovtu |
 | out/live/jollyglow_combo/final/jollyglow_combo_walmart_v2.mp4 | 1QXHy2aGcEqVz4gZ1mbUPiSNXsBQs4igr |
 | out/live/jollyglow_combo/final/jollyglow_combo_walmart_v3.mp4 | 1C8lcw6ktvhdUbP8DuaCNofvhbgvZ5L_M |
+| out/live/jollyglow_combo/final/preflight3_jollyglow_combo_walmart_v2/jollyglow_combo_walmart_v2_sheet.png | 1HxzMwyoGQox9ARUOCN9m9JnYcU61Efzv |
+| out/live/jollyglow_combo/final/preflight3_jollyglow_combo_walmart_v3/jollyglow_combo_walmart_v3_sheet.png | 19tRc0bq_klLY4ledr9AkrT2sw_ucs9G6 |
+| out/live/jollyglow_combo/final/preflight_jollyglow_combo_walmart/jollyglow_combo_walmart_sheet.png | 1Ctr76UPurNF6cCBAi9ONNt5LHidYoRF- |
+| out/live/jollyglow_combo/final/preflight_jollyglow_combo_walmart_v2/jollyglow_combo_walmart_v2_sheet.png | 15AX5HJSMd1YrycMoy9e8uPgKOWmuBmet |
+| out/live/jollyglow_combo/start_frames/F1_v1.png | 1yoNT-h2MGr4ikJh8grNguv47q1ZnzjXK |
+| out/live/jollyglow_combo/start_frames/F1_v2.png | 10Gu_L9lvLha0DUfc8_m3ZlLGLby9pn5E |
+| out/live/jollyglow_combo/start_frames/F1_v3.png | 1dzvziGAX619dtYYmS8R32b4g4JPBKB6- |
+| out/live/jollyglow_combo/start_frames/F1_v4.png | 1WdLsysWFh3dI1oZRmOB-eFuWBp7JDEiO |
+| out/live/jollyglow_combo/start_frames/F2_v1.png | 1cgb15-JM25WbdbTJ9bumtjS4AinDiD1A |
+| out/live/jollyglow_combo/start_frames/F2_v2.png | 1vHYDJoxsUV3F0Cz-lEHD6XiqC3P9Phxd |
+| out/live/jollyglow_combo/start_frames/F3_v1.png | 1MKg48_IO-d2gkIQUZxL8OFD-yxkDPvHp |
+| out/live/jollyglow_combo/start_frames/F3_v2.png | 1urJeIYnAn_CAfvwpDxDOt2bbaYFU2pVV |
+| out/live/jollyglow_combo/start_frames/F4_v1.png | 1AtM736BPbYNp4F0quPDPSJe5r9HQMavn |
+| out/live/jollyglow_combo/start_frames/F4_v2.png | 1DfXee6m01UIJLSlhUmD24Ru3mTX1T69F |
+| out/live/jollyglow_combo/start_frames/F5_v1.png | 1d6FuQZvy_PNl61I29ZUNdJxrXNDAw878 |
+| out/live/jollyglow_combo/start_frames/F5_v2.png | 1CzJCdxSG3rcce78S_UzC0VRprz6N_yRQ |
+| out/live/jollyglow_combo/start_frames/F6_v1.png | 1HTC77106dwBCyBPP3qHpslWZ_N9ZEp3y |
+| out/live/jollyglow_combo/start_frames/F6_v2.png | 1fJ5AvoOPeHfgZP90f2xf4SoHSXZKFXvb |
+| out/live/jollyglow_combo/start_frames/F7_v1.png | 1rQeRjBUGE1F7robfkB5chTA6urUlqSOX |
+| out/live/jollyglow_combo/start_frames/F7_v2.png | 1HZ4cIF0jc8F6Pz7rLhRarw3MSU07vu5S |
+| out/live/jollyglow_combo/start_frames/F8_v1.png | 17NlFiD7rhVf_DDW_0RjxFFolo3Wwjc-m |
+| out/live/jollyglow_combo/start_frames/F8_v2.png | 1_Znz-7_TN2LUYl2AG7Dc9XvskfAphBF0 |
+| out/live/mg-tvn-001-b3/raw/B3_still.png | 1TXcdPlBXy7503DdZ70xQPCqRD5MJrHhX |
 | out/live/mg-tvn-001-b3/raw/B3_video.mp4 | 1dSmN4atfmg9v12fb9Yul_TDMyKThURTM |
+| out/live/mg-tvn-001-b3/raw/preflight/B3_video_sheet.png | 1--UIdVvgiSmqNE4IsB6zb9z5MNwj4JXv |
 | out/live/mg-tvn-001/capcut_dryrun_ref/DRY_THEN_VS_NOW_VIDEO_FOR_ME/media/mock_source.mp4 | 1T3KXHVqj89F4pJmdnhHbX7P68vxPdg3D |
 | out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/media/B1_video.mp4 | 1EA7MXCaLSYPAGCo686YQKjlLN-DjPXCh |
 | out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/media/B2_video.mp4 | 1kq4XGbq_ki6kzHVxmbTjgYzjOz6X147O |
 | out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/media/B3_video.mp4 | 1NQIpT-zz8b7RGewegXOHN3_vxVKNhF0Z |
 | out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/media/H_video.mp4 | 10tDis_S92Ekj9OSIWTLFCL7Cr8fMLIne |
+| out/live/mg-tvn-001/final/cards/card0.png | 1QxGkpuPegkrKUq36mwpayqcAtkxINYub |
+| out/live/mg-tvn-001/final/cards/card1.png | 1WlUcH92JNHoh3m_puux-mEDZklO_b81D |
+| out/live/mg-tvn-001/final/cards/card2.png | 1gkqnWmlF0drW8Yn6dbYOjumFKm7yQ4sH |
+| out/live/mg-tvn-001/final/cards/card3.png | 1PmS7izwGNFZjEDfjvuc9UvG1bSQGY1rn |
+| out/live/mg-tvn-001/final/covers/cover_activation_8.25s.jpg | 1IQuIBBRf1xvXiikEsvHxi8ViLGDyA8TE |
+| out/live/mg-tvn-001/final/covers/cover_now_reveal_9.1s.jpg | 15VtVT-0E_SZQBmp-_KQ5_45dr9lod7jn |
+| out/live/mg-tvn-001/final/covers/cover_payoff_12.35s.jpg | 1rUw_xwIjmhxL0v7QqZrWdunfF1Ti9ASf |
 | out/live/mg-tvn-001/final/mg-tvn-001_final_nomusic.mp4 | 1qTYgMtS2hIV62_EzRz8utSl_k_7QgTsz |
 | out/live/mg-tvn-001/final/raw_b3/B3_video.mp4 | 1UDiKlbVhaf1v5LI6cdi6XQlK0j3jHoBT |
 | out/live/mg-tvn-001/raw/B1_video.mp4 | 1UpdzxVv-yP1xTalf6Lx1QQ9wXgkp9RGR |

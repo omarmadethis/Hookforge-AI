@@ -877,3 +877,6 @@ engine/tests/conftest.py now has an autouse fixture. Before every test it snapsh
 
 ## D173 (2026-10-20 6:20 PM PT) Tier 2 backup: all paid mp4s done
 All 49 remaining Tier 2 mp4s (trumpglow A/B/C finals and clips, pv_clips, pv_edit, trump_projector) uploaded to Hookforge Backup/generations through deliver.stage/verify_staged and recorded in docs/backup_drive_index.json. Images started: 23 of 336 uploaded (jollyglow_321 sheets, refs, start frames). 313 images remain; resume with `backup_chunks.py next N` -> UploadFile -> `recmany`. No refusals, no dedupe hits this round. video_registry.csv still deferred.
+
+## D174 (2026-10-20 6:25 PM PT) Tier 2 images: 40 more uploaded
+Two more `next 20` rounds (jollyglow_321 F5_v2-F6, jollyglow_combo sheets/preflights/start frames F1-F8, mg-tvn-001 B3 still, cards, covers) uploaded to Hookforge Backup/generations and recorded. 63/336 images done, 273 remain. No refusals, no dedupe hits.

@@ -3353,6 +3353,406 @@
    "orig_size": 1635805,
    "sha256": "702cab8fb6ccb1e55bdf195cd479996bac7d89d341697e979c5eb5a458946473",
    "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F5_v2.png",
+   "id": "1FGNpP71J1mLNujt00dBINXwPYmglpb4E",
+   "name": "F5_v2.png",
+   "folder": "generations",
+   "size": 1710208,
+   "orig_size": 1710208,
+   "sha256": "ae8165693bcdccbc9791651be2216316adfb19327a6c713bacfead2513db60d1",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F6_v1.png",
+   "id": "15JcZLv4UZu-7qzYvfB7095aX0anZFK5d",
+   "name": "F6_v1.png",
+   "folder": "generations",
+   "size": 1659163,
+   "orig_size": 1659163,
+   "sha256": "fac496051dbb38127c90ba8b77ba2a5d8e03cc25a38c7d518ba5d78a471d2e50",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F6_v2.png",
+   "id": "1FKncb2Jwv0VX-JciGeu6YB5y8gQEmSr5",
+   "name": "F6_v2.png",
+   "folder": "generations",
+   "size": 1646859,
+   "orig_size": 1646859,
+   "sha256": "9c1b7e16bf19f49017b1a8cf1c021a9a2a42b79a0c8f9697746ea3645d8e3c5d",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/F1_reroll_sheet.jpg",
+   "id": "1wfKtXAcT2ebmq4FNp2aEciHMpstPjM3p",
+   "name": "F1_reroll_sheet.jpg",
+   "folder": "generations",
+   "size": 300704,
+   "orig_size": 300704,
+   "sha256": "98de9a70cdcf07075a4fa0f79e0ef1d2cd88ab90c090ff47e9aa47a9fffaf54d",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/clips/G1_sheet.jpg",
+   "id": "1q1Kmcle1Bjar8x5xR2N5kxJH9Im6e8Th",
+   "name": "G1_sheet.jpg",
+   "folder": "generations",
+   "size": 263322,
+   "orig_size": 108403,
+   "sha256": "ca905fdc2b30b8562003111fde3f152cfbed67fec5e0a481e2eef176beb62b61",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_combo/clips/G2_sheet.jpg",
+   "id": "1_krQv7lBD8kApAP6YfHsDGENKwa75mxc",
+   "name": "G2_sheet.jpg",
+   "folder": "generations",
+   "size": 211005,
+   "orig_size": 86063,
+   "sha256": "a68bf25de514211e1c677460f24237e258c1b85133382aab3ddf8c6ff97ad23a",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_combo/clips/G3_sheet.jpg",
+   "id": "1EfbfUQCT93Gn8qugNt9FoIe4N_i5-YjL",
+   "name": "G3_sheet.jpg",
+   "folder": "generations",
+   "size": 261676,
+   "orig_size": 112069,
+   "sha256": "98bacc77abdef685252d4193cbfbf77e6586009fec2cb3197da30a27b2ebd4fd",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_combo/clips/G4_sheet.jpg",
+   "id": "1z5Y33sjda8WZhE1Fa7vQIu9cM05wB9kX",
+   "name": "G4_sheet.jpg",
+   "folder": "generations",
+   "size": 215151,
+   "orig_size": 89477,
+   "sha256": "8f29622e3b53abb70d02dd02dd3a1b4aab10779803276d995027cfd3abf7e51c",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_combo/contact_sheet_start_frames.jpg",
+   "id": "1edlIWIg7WdTAN6OsoeNG3C5Cd5Rtnu4Y",
+   "name": "contact_sheet_start_frames.jpg",
+   "folder": "generations",
+   "size": 1011367,
+   "orig_size": 1011367,
+   "sha256": "854f92205e2ca6e8dea6fd3c8e6c3676ff5d1afc302574968bf238c9580fc66d",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/final/preflight3_jollyglow_combo_walmart_v2/jollyglow_combo_walmart_v2_sheet.png",
+   "id": "1HxzMwyoGQox9ARUOCN9m9JnYcU61Efzv",
+   "name": "jollyglow_combo_walmart_v2_sheet.png",
+   "folder": "generations",
+   "size": 2420058,
+   "orig_size": 2420058,
+   "sha256": "c5c85a5495228b818eadd7b4c6f69ed8f52d182b6095178ad1308c85ef7b0664",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/final/preflight3_jollyglow_combo_walmart_v3/jollyglow_combo_walmart_v3_sheet.png",
+   "id": "19tRc0bq_klLY4ledr9AkrT2sw_ucs9G6",
+   "name": "jollyglow_combo_walmart_v3_sheet.png",
+   "folder": "generations",
+   "size": 2138555,
+   "orig_size": 2138555,
+   "sha256": "d6e13ad5ca34931c0f6f732a49abedabff8eba5d2009d96b9fd6af93cd6b43d8",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/final/preflight_jollyglow_combo_walmart/jollyglow_combo_walmart_sheet.png",
+   "id": "1Ctr76UPurNF6cCBAi9ONNt5LHidYoRF-",
+   "name": "jollyglow_combo_walmart_sheet.png",
+   "folder": "generations",
+   "size": 2427667,
+   "orig_size": 2427667,
+   "sha256": "69575441de2794fffd9946b44048d1866903364331aa1d3e69c0f75fcb5582ff",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/final/preflight_jollyglow_combo_walmart_v2/jollyglow_combo_walmart_v2_sheet.png",
+   "id": "15AX5HJSMd1YrycMoy9e8uPgKOWmuBmet",
+   "name": "jollyglow_combo_walmart_v2_sheet.png",
+   "folder": "generations",
+   "size": 2422421,
+   "orig_size": 2422421,
+   "sha256": "f1fdc8c3a9302e15366eaf455e69a9b3870547122ec609f11a6097f2fd0ea201",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F1_v1.png",
+   "id": "1yoNT-h2MGr4ikJh8grNguv47q1ZnzjXK",
+   "name": "F1_v1.png",
+   "folder": "generations",
+   "size": 1530922,
+   "orig_size": 1530922,
+   "sha256": "621753685f828c6ec82c7ebc5a8f7f17d6ebab0a39dd0522a4a917536de478c0",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F1_v2.png",
+   "id": "10Gu_L9lvLha0DUfc8_m3ZlLGLby9pn5E",
+   "name": "F1_v2.png",
+   "folder": "generations",
+   "size": 1574025,
+   "orig_size": 1574025,
+   "sha256": "135837e0dd9c122301144ef6eea30ca425577783bc970a8f2dcc163e81178648",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F1_v3.png",
+   "id": "1dzvziGAX619dtYYmS8R32b4g4JPBKB6-",
+   "name": "F1_v3.png",
+   "folder": "generations",
+   "size": 1582630,
+   "orig_size": 1582630,
+   "sha256": "d42695451716d5f4849686cd4bb77b61c1dfc2a49ec087400d2510a5cb2c5f54",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F1_v4.png",
+   "id": "1WdLsysWFh3dI1oZRmOB-eFuWBp7JDEiO",
+   "name": "F1_v4.png",
+   "folder": "generations",
+   "size": 1551070,
+   "orig_size": 1551070,
+   "sha256": "4aa73599741335903bd1d6c904d408b965bc03cbb143930c28c3c9061cd00f99",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F2_v1.png",
+   "id": "1cgb15-JM25WbdbTJ9bumtjS4AinDiD1A",
+   "name": "F2_v1.png",
+   "folder": "generations",
+   "size": 1541960,
+   "orig_size": 1541960,
+   "sha256": "07805e9862e6a39c3b725881ff44f5891b5a1d5306a8b36afedadb2aae401a4c",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F2_v2.png",
+   "id": "1vHYDJoxsUV3F0Cz-lEHD6XiqC3P9Phxd",
+   "name": "F2_v2.png",
+   "folder": "generations",
+   "size": 1576224,
+   "orig_size": 1576224,
+   "sha256": "d827fd6c813f913d903ecf5983070618d2652405302fcec083a5d44f5faac930",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F3_v1.png",
+   "id": "1MKg48_IO-d2gkIQUZxL8OFD-yxkDPvHp",
+   "name": "F3_v1.png",
+   "folder": "generations",
+   "size": 1551988,
+   "orig_size": 1551988,
+   "sha256": "2255374d9c342304d08afb54bda3ba47fd70846830e74e236ae93d595124be23",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F3_v2.png",
+   "id": "1urJeIYnAn_CAfvwpDxDOt2bbaYFU2pVV",
+   "name": "F3_v2.png",
+   "folder": "generations",
+   "size": 1454837,
+   "orig_size": 1454837,
+   "sha256": "a2fb411ebd0a269a76ea586023b50273524e8a07c0458b32ebe2b9637e2b3473",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F4_v1.png",
+   "id": "1AtM736BPbYNp4F0quPDPSJe5r9HQMavn",
+   "name": "F4_v1.png",
+   "folder": "generations",
+   "size": 1764707,
+   "orig_size": 1764707,
+   "sha256": "49710809dd173e66ae2f9d475e9fcb4ebbcf4c8ade736729d56e14ebb8d6536c",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F4_v2.png",
+   "id": "1DfXee6m01UIJLSlhUmD24Ru3mTX1T69F",
+   "name": "F4_v2.png",
+   "folder": "generations",
+   "size": 1759654,
+   "orig_size": 1759654,
+   "sha256": "4e02b7e35fdbef4bb7e7f8ff571d7643f8799c8dc4f34e7456c9683d6b09a2ee",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F5_v1.png",
+   "id": "1d6FuQZvy_PNl61I29ZUNdJxrXNDAw878",
+   "name": "F5_v1.png",
+   "folder": "generations",
+   "size": 1622874,
+   "orig_size": 1622874,
+   "sha256": "9003383845de71475d75eb3f2ceea50ad6709ebdf9fdc80bfe2eb73b452a4fca",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F5_v2.png",
+   "id": "1CzJCdxSG3rcce78S_UzC0VRprz6N_yRQ",
+   "name": "F5_v2.png",
+   "folder": "generations",
+   "size": 1422388,
+   "orig_size": 1422388,
+   "sha256": "f2e85507a8b54e5ec28d19516af2fce9f6e8417015273b79186deca9c9ff65cb",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F6_v1.png",
+   "id": "1HTC77106dwBCyBPP3qHpslWZ_N9ZEp3y",
+   "name": "F6_v1.png",
+   "folder": "generations",
+   "size": 1651220,
+   "orig_size": 1651220,
+   "sha256": "60c60ced0577015b111e25465f794a6fb474a5ab82386f18c1670e3fd4ee57eb",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F6_v2.png",
+   "id": "1fJ5AvoOPeHfgZP90f2xf4SoHSXZKFXvb",
+   "name": "F6_v2.png",
+   "folder": "generations",
+   "size": 1715056,
+   "orig_size": 1715056,
+   "sha256": "1411621808e2c3d794b07f928d6a279fafffdecac091906ad8536af879ccd2a0",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F7_v1.png",
+   "id": "1rQeRjBUGE1F7robfkB5chTA6urUlqSOX",
+   "name": "F7_v1.png",
+   "folder": "generations",
+   "size": 1341797,
+   "orig_size": 1341797,
+   "sha256": "c6543d7b77eed7b6bd21f145c1fe19874fb0b081d2e04ebd2c8567a22eef4f42",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F7_v2.png",
+   "id": "1HZ4cIF0jc8F6Pz7rLhRarw3MSU07vu5S",
+   "name": "F7_v2.png",
+   "folder": "generations",
+   "size": 1500760,
+   "orig_size": 1500760,
+   "sha256": "bf48298509809f51f79679f5b88bac1907d485a0c1f9a3cb3caf22c21cb47a8d",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F8_v1.png",
+   "id": "17NlFiD7rhVf_DDW_0RjxFFolo3Wwjc-m",
+   "name": "F8_v1.png",
+   "folder": "generations",
+   "size": 1594883,
+   "orig_size": 1594883,
+   "sha256": "d880ec08579b5e7ddeacfe58060f28f4eac222461ca5d218640d409653abebb0",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_combo/start_frames/F8_v2.png",
+   "id": "1_Znz-7_TN2LUYl2AG7Dc9XvskfAphBF0",
+   "name": "F8_v2.png",
+   "folder": "generations",
+   "size": 1679406,
+   "orig_size": 1679406,
+   "sha256": "00af855f03bf752a20f173d6220ac42ae91dfa5298abe0fc87a955162e70b0b5",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/mg-tvn-001-b3/raw/B3_still.png",
+   "id": "1TXcdPlBXy7503DdZ70xQPCqRD5MJrHhX",
+   "name": "B3_still.png",
+   "folder": "generations",
+   "size": 4354855,
+   "orig_size": 5002162,
+   "sha256": "40672d46d01f76efe8016c9f844ec6d077471487fefa16575dbe0329ffb87083",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001-b3/raw/preflight/B3_video_sheet.png",
+   "id": "1--UIdVvgiSmqNE4IsB6zb9z5MNwj4JXv",
+   "name": "B3_video_sheet.png",
+   "folder": "generations",
+   "size": 617406,
+   "orig_size": 617406,
+   "sha256": "cd42b51b63512338f49b2e70caedd4e0f20a59d81f6d6442f8a9c50cacbb53ef",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/cards/card0.png",
+   "id": "1QxGkpuPegkrKUq36mwpayqcAtkxINYub",
+   "name": "card0.png",
+   "folder": "generations",
+   "size": 111927,
+   "orig_size": 111927,
+   "sha256": "1e611b440cbbefb4bddfbce8c63aae4a15804f61e79cd3fa8289618f1314d592",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/cards/card1.png",
+   "id": "1WlUcH92JNHoh3m_puux-mEDZklO_b81D",
+   "name": "card1.png",
+   "folder": "generations",
+   "size": 112052,
+   "orig_size": 112052,
+   "sha256": "e5265b1758b8a1fd3c64bce3803bb1d6dc40f441df48e6a106133a74e6319d85",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/cards/card2.png",
+   "id": "1gkqnWmlF0drW8Yn6dbYOjumFKm7yQ4sH",
+   "name": "card2.png",
+   "folder": "generations",
+   "size": 88012,
+   "orig_size": 88012,
+   "sha256": "912801d9edb41e55f00bda0c06b1b9848402177b204905014ed455ebe28cf770",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/cards/card3.png",
+   "id": "1PmS7izwGNFZjEDfjvuc9UvG1bSQGY1rn",
+   "name": "card3.png",
+   "folder": "generations",
+   "size": 145072,
+   "orig_size": 145072,
+   "sha256": "e51f0811e0e394d68dad5da71021e94eb64688b41b760cdfd00f159f47475673",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/covers/cover_activation_8.25s.jpg",
+   "id": "1IQuIBBRf1xvXiikEsvHxi8ViLGDyA8TE",
+   "name": "cover_activation_8.25s.jpg",
+   "folder": "generations",
+   "size": 891054,
+   "orig_size": 519914,
+   "sha256": "465c2ef9ce3ed40fb4a018d2461e2e463b70a426d174f8a3b05ff6d7566216c4",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/covers/cover_now_reveal_9.1s.jpg",
+   "id": "15VtVT-0E_SZQBmp-_KQ5_45dr9lod7jn",
+   "name": "cover_now_reveal_9.1s.jpg",
+   "folder": "generations",
+   "size": 977552,
+   "orig_size": 584406,
+   "sha256": "efef6bceced5076dd4d0eae04ee0ee6994256b108d8076a9e0f1224b9eb164e6",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/mg-tvn-001/final/covers/cover_payoff_12.35s.jpg",
+   "id": "1rUw_xwIjmhxL0v7QqZrWdunfF1Ti9ASf",
+   "name": "cover_payoff_12.35s.jpg",
+   "folder": "generations",
+   "size": 868907,
+   "orig_size": 511906,
+   "sha256": "cb57fcb2a52e0ccbd3dc032ac29ea13179776a7d6cd61b16575330d0cee5c81d",
+   "sanitized": true
   }
  ],
  "updated_pt": "2026-10-20 PT (batch 2: out/deliver plus 3 re-encoded audio files)"
