@@ -38,3 +38,12 @@ def test_restore_plan_dry_run_only(tmp_path):
     p = json.load(open(o)); assert p["dry_run"] is True and p["items"] and all(i["action"] in ("download", "present", "unresolved", "manual_only") for i in p["items"])
     r = subprocess.run([sys.executable, os.path.join(root, "automation/restore_assets.py"), "--execute"], capture_output=True, text=True)
     assert r.returncode != 0
+
+def test_regen_keeps_pending_times(tmp_path):
+    from hookforge import approval_queue as Q
+    p = tmp_path / "x.json"; Q._ORIG.clear()
+    p.write_text(json.dumps(dict(status="AWAITING_OMAR_APPROVAL", created_pt="T0", approval_file_draft=dict(expires_pt="E0"), plan=dict(a=[dict(expires_pt="E1")]))))
+    it = Q.preserve(dict(status="AWAITING_OMAR_APPROVAL", created_pt="T9", approval_file_draft=dict(expires_pt="E9"), plan=dict(a=[dict(expires_pt="E9")])), str(p))
+    assert it["created_pt"] == "T0" and it["approval_file_draft"]["expires_pt"] == "E0" and it["plan"]["a"][0]["expires_pt"] == "E1"
+    p.write_text(json.dumps(dict(status="APPROVED", created_pt="T0"))); Q._ORIG.clear()
+    assert Q.preserve(dict(created_pt="T9"), str(p))["created_pt"] == "T9"

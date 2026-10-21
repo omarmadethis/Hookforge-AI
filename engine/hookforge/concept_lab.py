@@ -78,7 +78,7 @@ def daily(day=None, products=None):
     for i in items:
         if i.get("id"):
             i["recommended_today"] = i["id"] in rec; i["recommended_option"] = opt.get(i["id"])
-            path = os.path.join(approval_queue.DIR, i["id"] + ".json"); import json; json.dump(i, open(path, "w"), indent=1, ensure_ascii=False, default=str)
+            path = os.path.join(approval_queue.DIR, i["id"] + ".json"); import json; approval_queue.preserve(i, path); json.dump(i, open(path, "w"), indent=1, ensure_ascii=False, default=str)
     tot = sum(i.get("credits", 0) for i in items)
     return dict(items=items, ranking=[dict(id=i["id"], score=i["rank_score"], rationale=i["rationale"]) for i in ranked], proposed_credits=tot, innovation_budget=budget, recommended=rec, recommended_options=opt, recommended_credits=budget - left,
                 ready=sum(1 for i in items if i.get("ready_for_approval")))
@@ -253,5 +253,6 @@ def weekly(start=None, write=True):
             it.update(recommended_option="lean_1080p_hook", credits=lw["total_credits"], credit_cap=lw["total_credits"], standard_credits=total,
                       lean_file=f"learning/weekly_batch/{cal['start']}_lean.json")
         else: it.update(recommended_option="standard", lean_blocked=lw["near_duplicate_violations"])
+        approval_queue.preserve(it, os.path.join(approval_queue.DIR, it["id"] + ".json"))   # D168 keep original times
         json.dump(it, open(os.path.join(approval_queue.DIR, it["id"] + ".json"), "w"), indent=1, ensure_ascii=False)
     return out
