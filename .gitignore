@@ -39,3 +39,12 @@ learning/results/snapshot_loop.out
 /assets/emoji_apple/AppleColorEmoji-Linux.ttf
 /learning/audience_fit_log.csv
 *.m4a
+
+# D165: purely derived outputs, rewritten by tests and regen (timestamps and key order only). Rebuild with python3 -m hookforge.regen
+analytics/approval_digest.html
+learning/buffer_preflight/
+learning/captions/caption_library.json
+learning/captions/hashtags_by_product.json
+learning/credit_ledger/20??-??-??.json
+learning/ref_miner/transfer.json
+learning/backup_plan.json
