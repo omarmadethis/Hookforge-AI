@@ -1,5 +1,5 @@
 # MANIFEST of excluded assets (not in git)
-Generated 2026-10-20 6:18 PM PT by engine/scripts/build_manifest.py. Total 9973 files, 14.54 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
+Generated 2026-10-20 6:23 PM PT by engine/scripts/build_manifest.py. Total 9974 files, 14.54 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
 
 ## By directory
 | dir | files | size | why excluded |
@@ -375,7 +375,7 @@ Generated 2026-10-20 6:18 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/capcut_test/HF_TEST_01/media/hf_20260826_050227_d8c2b489-ef9a-4be5-a866-67111b06a50c.mp4 | 10.6 MB |  |
 | out/purrventure_brand/raw/pfp_r1.png | 10.5 MB |  |
 
-## Backed up to Drive "Hookforge Backup" (366 files; docs/backup_drive_index.json)
+## Backed up to Drive "Hookforge Backup" (406 files; docs/backup_drive_index.json)
 | path | drive_id |
 |---|---|
 | learning/audience_fit_log.csv | 1OaLpFsrgefKbB3A4AHQBGrIBFicqeVPe |
@@ -610,15 +610,55 @@ Generated 2026-10-20 6:18 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/live/mg-tvn-001/final/covers/cover_now_reveal_9.1s.jpg | 15VtVT-0E_SZQBmp-_KQ5_45dr9lod7jn |
 | out/live/mg-tvn-001/final/covers/cover_payoff_12.35s.jpg | 1rUw_xwIjmhxL0v7QqZrWdunfF1Ti9ASf |
 | out/live/mg-tvn-001/final/mg-tvn-001_final_nomusic.mp4 | 1qTYgMtS2hIV62_EzRz8utSl_k_7QgTsz |
+| out/live/mg-tvn-001/final/preflight/mg-tvn-001_final_nomusic_sheet.png | 18dm1NM8GR7iSk5EtsjMBz9WX1XB6Owbo |
+| out/live/mg-tvn-001/final/qa/mg-tvn-001_final_nomusic_sheet.png | 1jJxzff4AL1SbLl8qBYVXEoak6-RqiUUt |
+| out/live/mg-tvn-001/final/raw_b3/B3_still.png | 1ao53GxqxobRGfIT9jwAEfXrp37WkviIj |
 | out/live/mg-tvn-001/final/raw_b3/B3_video.mp4 | 1UDiKlbVhaf1v5LI6cdi6XQlK0j3jHoBT |
+| out/live/mg-tvn-001/final/raw_b3/B3_video_sheet.png | 1dmQawo_HcaH8SYpxGSDqIDGWuBShd962 |
+| out/live/mg-tvn-001/qa/B1_video_sheet.png | 1sVWLzacsVkcwjf83kNnKA4kww5sNqbi- |
+| out/live/mg-tvn-001/qa/B2_video_sheet.png | 1dWYrLTEL02TbT2jupS0Ok_baUfXS8bIj |
+| out/live/mg-tvn-001/qa/H_video_sheet.png | 1Nk9_YRtl5nd0RO_v1J8w63A6VmC89Fgd |
+| out/live/mg-tvn-001/raw/B1_still.png | 1QExfyffeSRZfX8-63Ip-MmfIVh06noCn |
 | out/live/mg-tvn-001/raw/B1_video.mp4 | 1UpdzxVv-yP1xTalf6Lx1QQ9wXgkp9RGR |
+| out/live/mg-tvn-001/raw/B2_still.png | 1qjqOz7Zhdjc8Cwwm0n_stQ1UPldw4sFA |
 | out/live/mg-tvn-001/raw/B2_video.mp4 | 1q0kM2B0jeGiWM_SvY4SckepZgywuLzzK |
+| out/live/mg-tvn-001/raw/B3_still.png | 121T8XJxYLCfw7r5M1a4wC7eOK5QXlpqb |
+| out/live/mg-tvn-001/raw/H_still.png | 1tYUU2MWabP6idUMxYnaPIVnFhzDCGR_q |
 | out/live/mg-tvn-001/raw/H_video.mp4 | 1s599BoUPB8x1xvPCUhni431hNDj_4nJO |
+| out/live/mg-tvn-001/raw/preflight/B1_video_sheet.png | 1MBKLyWLStg73-DJTzbf70rWexZcqN9xt |
+| out/live/mg-tvn-001/raw/preflight/B2_video_sheet.png | 1sQO6GNOeOP50FOgT5ny_kg3-X9HgkKJ5 |
+| out/live/mg-tvn-001/raw/preflight/H_video_sheet.png | 1WHOUJUPmfiLJ0-5vTmZC_RC0raGyjcy- |
+| out/live/refs/merryglow_lights.png | 1xyZfbB5iMFKpipLz4QrWiHgVP7y8wgMa |
+| out/live/refs/mg_candidates/mg01_10.5.png | 1Yyy4WkBjtMSdDCLGyrwpal3D17oqfLo8 |
+| out/live/refs/mg_candidates/mg01_11.5.png | 1OVcBpiO5QxfhyRNs7YXgll1Xa3Y6SqZi |
+| out/live/refs/mg_candidates/mg01_9.5.png | 1MLZPUYctQMPUgD1tQQT3ukIL4UjbUQq7 |
+| out/live/refs/mg_candidates/mg02_10.5.png | 1z__og9wdo1CZ4vfWOUJOxJ9Ljvqlc7tE |
+| out/live/refs/mg_candidates/mg02_11.5.png | 1nmY1PW6JW_EB3wAwBDdl8fuVTjjZM65i |
+| out/live/refs/mg_candidates/mg02_12.5.png | 1zruQkp1b6HFwlv7_Bn8UVCKu_Gz-azxK |
+| out/live/refs/mg_candidates/mg02_9.5.png | 1ldi--1jjNH2EQ21ufHblA7b3IfkxHFc3 |
+| out/live/refs/mg_candidates/mg04_10.5.png | 17oAtBVKAQsOQBv7puFxGXAjzKy69FFlJ |
+| out/live/refs/mg_candidates/mg04_11.5.png | 1vbcvXezMxQZ-KMV4EBq9IhzGZaKagG9N |
+| out/live/refs/mg_candidates/mg04_12.5.png | 1Jo83lF60bG4WZLrE4-smFI7DjhyKo4qL |
+| out/live/refs/mg_candidates/mg04_9.5.png | 1ul7XEvXcSloAsJaioJShatfGQ1_kNfLG |
+| out/live/refs/mg_candidates/shop_1.png | 1bk4ntogTSbgCYdPjs2LDc4eQaYRI7V8Q |
+| out/live/refs/mg_candidates/shop_2.png | 1WBY7tb6Vo8lb3otRZZOv6U18hDk7-t2A |
+| out/live/refs/mg_candidates/shop_3.png | 18w56WvPEu3Lh2LUnapp4LIl_y2_cZJDJ |
+| out/live/refs/mg_candidates/shop_4.png | 1sa97yc7VJ5hIksIOngsGoq8RGXMLEJ5A |
 | out/live/trumpglow_A/clips/G1.mp4 | 1vPqSs--bBgs-C6LV1AlOLSCucpE8ifl_ |
 | out/live/trumpglow_A/clips/G2.mp4 | 1qF9ti8Db6-504SP1_5K67IdblFtVaLPT |
 | out/live/trumpglow_A/clips/G3.mp4 | 1qyKKt7WdlewSAli6DurzCJKpiJrlScjY |
 | out/live/trumpglow_A/clips/G4.mp4 | 1BOEqsvGgVdS4lhqxq0hnCdsGNRVY3w61 |
 | out/live/trumpglow_A/clips/G5.mp4 | 1eP8wEpTsWkkLBnaQhsrtjbXQ-kJOXtwn |
+| out/live/trumpglow_A/clips/sheet_G1.jpg | 1hd8k9m839ir_EwBdVCjOMroew40Y0Nis |
+| out/live/trumpglow_A/clips/sheet_G2.jpg | 1AJd-wHBGSvRTkauc39wbGRmZwC3jYWfl |
+| out/live/trumpglow_A/clips/sheet_G3.jpg | 1atlkBMTGf3xL0RKB_9apOAibZC-iIn2x |
+| out/live/trumpglow_A/clips/sheet_G4.jpg | 10mNzx9iK4dUOMTDVTBfBK7yZUd161dha |
+| out/live/trumpglow_A/clips/sheet_G5.jpg | 1Tvj6TXZ_laXoPvwUashUbL1A8OK_vgjk |
+| out/live/trumpglow_A/contact_sheet_start_frames.jpg | 14wTf7Spu4122fDzHs3nOorq2pCq6aoNr |
+| out/live/trumpglow_A/final/QA_contact_sheet.png | 16TzsL0f7-2-Q6ff3Bfn40hyzV_fuU4q8 |
+| out/live/trumpglow_A/final/cards/card1.png | 1H_ZIdsSu1N1bssyT40hZE17maNWtf-Vr |
+| out/live/trumpglow_A/final/cards/card1_4k.png | 1EyLoVWABRMdUnvuxpVzJRJp3HvQ9HqA_ |
+| out/live/trumpglow_A/final/cards/card2.png | 1jJr_lerCJzV2jTQAHaEU3zbZB1thB3Vo |
 | out/live/trumpglow_A/final/master_raw.mp4 | 1RWs1YlImPGnvUFEDx30MAVRkknPYUQkn |
 | out/live/trumpglow_A/final/trumpglow_A_nomusic.mp4 | 1HeR4-3qUBiWno6h-nsXkelDtm9W9LjIH |
 | out/live/trumpglow_A/final_v2/master_nosong.mp4 | 1A00CY6FwVLPc5Tm8kBlSHofbX1N8CeDJ |
