@@ -901,3 +901,18 @@ Omar banned the lean reuse plan permanently. Every video is fully unique: its ow
 
 ## D181 (2026-10-20 8:02 PM PT) Hooks are 720p (Omar, permanent)
 Omar rejected the JollyGlow F06 hook ("nothing engaging happening, no point of conflict"). New permanent rule: hook generations are 720p 4 s (28 cr), replacing 1080p (64). config.HOOK_RES = "720p". Hooks must show real motion and a clear conflict or tension in the first second. F06 hook redo: cap 35 (1 still 6.5 + 1 clip 28), learning/approvals/jollyglow_f06_hook_redo.json.
+
+## D182 (2026-10-21 1:29 AM PT) Every card visible from the first frame of its shot (Omar F100)
+Omar rejected TrumpGlow A2: "the 3rd card is invisible for the first few seconds". Rule: every on-screen card starts exactly on its shot's first frame (±1 frame), stays up >= 1 s, and is checked on the final render 1 frame after its start (text pixels must stand out from their box by >= 60 gray levels). Cards render at house scale 1.0 (not 0.72). Gate: omar_gates_f100.card_timing (plan) + card_visible_render (final). Note: the box render of A2 showed card 3 present at 6.6 s, so the miss is likely the small 0.72 card on a low-res first-seconds stream; the bigger card + render check is the fix.
+
+## D183 (2026-10-21 1:29 AM PT) Card copy coherence (Omar F101)
+A2's "Fake Trump Fans.. vs What We ACTUALLY Sell" did not make literal sense (the hook showed a knockoff product, not fans). Every card needs a one-line `why` saying why the words literally match what is on screen, naming something in the shot's `shows`. Gate: omar_gates_f100.card_coherence (BLOCK).
+
+## D184 (2026-10-21 1:29 AM PT) Hook point of conflict in the first second (Omar F102, extends D181)
+B2's hook was "boring, no point of conflict". Every hook plan declares first_second_action and conflict, with the conflict landing by 1.0 s. Gate: omar_gates_f100.hook_gate (BLOCK).
+
+## D185 (2026-10-21 1:29 AM PT) Payoff has >= 2 hard cuts, no shot over 1.5 s (Omar F103)
+B2's after was "one single cinematic shot with no cuts". Payoff/after section: at least 3 shots (2 hard cuts), each <= 1.5 s, no same-take splice between adjacent payoff shots. Gate: omar_gates_f100.payoff_gate (BLOCK).
+
+## D186 (2026-10-21 1:30 AM PT) Hooks are proven formats or true scroll-stoppers (Omar F104)
+Every hook is EITHER a proven format from formats/index.json (3-2-1 countdown, statement-needs-store, problem-solution, then-vs-now, dont-show-recipient, ...) named with its POC, OR a scroll-stopping moment directly relevant to the video with a relevance line. Gate: omar_gates_f100.hook_gate (BLOCK). Fix plans: learning/plans/trumpglow_AB_fix_2026-10-21.json (A3 then-vs-now; B3 321-prop-reveal modeled on jollyglow_321).
