@@ -36,6 +36,7 @@ def animatic_cmd(plan, out_path, w=720, h=1280):
     # block centre ~19% from top, colour emoji) at the plan's per-card scale. No animations/transitions (STYLE_GUIDE).
     import sys; sys.path.insert(0, os.path.join(REPO, "style")); import render_text
     cdir = os.path.join(os.path.dirname(os.path.abspath(out_path)), "cards"); os.makedirs(cdir, exist_ok=True)
+    from .card_count import enforce as _cc; _cc(plan["text_cards"], (plan.get("hook") or {}).get("format") or plan.get("format"))   # D188
     last = "ov0"
     for k, c in enumerate(plan["text_cards"]):
         png = os.path.join(cdir, f"card{k}.png"); render_text.render_card(c["text"], w, h, scale=c.get("scale")).save(png)

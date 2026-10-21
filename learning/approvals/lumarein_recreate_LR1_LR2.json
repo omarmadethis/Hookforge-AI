@@ -123,5 +123,25 @@
   "LR2_B2": "c18eee6a-a681-47a9-857e-d8d6e6fb58ff",
   "LR2_B3": "41e05f44-870c-4879-9755-768de716b7d5"
  },
- "remaining": 252.0
+ "remaining": 252.0,
+ "card_plan_D188": {
+  "LR1": [
+   [
+    "0.0-8.5",
+    "The idea... 😭💡"
+   ],
+   [
+    "8.5-12.5",
+    "The result 😍🙈"
+   ]
+  ],
+  "LR2": [
+   [
+    "0.0-12.5",
+    "Do NOT show this to an equestrian... 😏"
+   ]
+  ],
+  "updated_pt": "2026-10-21T16:25-07:00",
+  "note": "frames unchanged (card space only); clips still await Omar's frame approval"
+ }
 }

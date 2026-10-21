@@ -77,6 +77,8 @@ def payoff_gate(shots):
 
 def plan_gates(plan):
     out = hook_gate(plan["hook"]) + card_timing(plan["shots"], plan["cards"]) + card_coherence(plan["cards"]) + payoff_gate(plan["shots"])
+    from .card_count import gate as _cc
+    out += _cc(plan["cards"], (plan.get("hook") or {}).get("format"))
     return out
 
 # D187 / F105: Omar's 3-2-1 countdown spec

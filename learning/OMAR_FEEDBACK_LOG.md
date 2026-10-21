@@ -112,3 +112,5 @@ Enforcement key: gates.py G1–G19 (`gates.run_all`), qa.final_checks gates, spe
 | F105 | 2026-10-21 1:33 AM | 3-2-1 spec: covered cue at 0 s, everyone counts, 'let's see how it comes out', split-second reveal, full payoff in the afters, count ~+8 LU over the song from frame 0 | all | **D187** | omar_gates_f100.count321_gate (BLOCK) |
 
 - 2026-10-21 02:27 PT run trumpglow_fix_A3B3: A3+B3 passed all gates, posted (B3 also to PatriotsGlow). D182 card_visible_render fixed to measure white fill vs background (old version averaged fill+black stroke and false-blocked readable cards). B3 3-2-1 reveal made in edit (0.3 s flash) because the generated clip never pulled the cloth.
+
+| F106 | 2026-10-21 4:21 PM | ONE on-screen card per video; 2nd only for problem-vs-solution/then-vs-now or a closing 'get it from the caption below 👇' card; never 3+ | all | **D188** | card_count.gate / gates.g26_card_count / autoedit enforce (BLOCK) |

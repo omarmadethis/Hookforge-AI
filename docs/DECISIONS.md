@@ -919,3 +919,6 @@ Every hook is EITHER a proven format from formats/index.json (3-2-1 countdown, s
 
 ## D187 (2026-10-21 1:33 AM PT) 3-2-1 countdown hook spec (Omar F105, permanent)
 Every 3-2-1 hook: (1) a covered product cue is visible at 0 s; (2) EVERYONE in the shot counts '3, 2, 1' together; (3) someone says "let's see how it comes out" during the reveal; (4) the reveal is a split second (<= 0.5 s) - the product is never shown in full in the hook, the full payoff is saved for the afters; (5) count voices sit ~+8 LU over the song, and the song still starts on frame 0. Gate: omar_gates_f100.count321_gate (BLOCK, runs inside hook_gate). TrumpGlow B3 hook revised to this spec (learning/plans/trumpglow_AB_fix_2026-10-21.json).
+
+## D188 (2026-10-21 4:21 PM PT) ONE on-screen card per video (Omar F106, permanent)
+Default is exactly 1 card. A 2nd card ONLY for a problem-vs-solution / then-vs-now hook (e.g. 1998 vs 2026, 'The idea... / The result') or a closing 'get it from the caption below 👇' card. Never 3+ cards. The CTA lives in the FB caption. Gates (BLOCK): hookforge/card_count.py via gates.g26_card_count (run_all), omar_gates_f100.plan_gates, autoedit (raises TooManyCards before rendering any edit), tools/preflight/card_count_check.py. Applied to LumaRein LR1 (2 cards) / LR2 (1 card).
