@@ -20,3 +20,9 @@ def test_payoff():
     assert g.payoff_gate(one)
     ok=[dict(gen="B3",t0=6,t1=7.4,role="payoff"),dict(gen="H",t0=7.4,t1=8.8,role="payoff"),dict(gen="B3",t0=8.8,t1=10.2,role="payoff")]
     assert not g.payoff_gate(ok)
+
+def test_count321():
+    good=dict(format="321-prop-reveal",first_second_action="count",conflict="suspense",count321=dict(covered_cue_at_0="pod under cloth",all_count=True,reveal_line="let's see how it comes out",reveal_flash_s=0.3,product_full_in_hook=False,vo_over_song_lu=8,song_from_frame0=True))
+    assert not g.hook_gate(good)
+    bad=dict(good,count321=dict(good["count321"],all_count=False,product_full_in_hook=True))
+    assert len(g.count321_gate(bad))==2

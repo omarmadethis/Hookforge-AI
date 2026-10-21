@@ -109,3 +109,4 @@ Enforcement key: gates.py G1–G19 (`gates.run_all`), qa.final_checks gates, spe
 | F102 | 2026-10-21 1:29 AM | B2: "opening hook is boring, no point of conflict" | TrumpGlow/all | **D184**: action + conflict by 1.0 s | omar_gates_f100.hook_gate (BLOCK) |
 | F103 | 2026-10-21 1:29 AM | B2: "the final after is one single cinematic shot with no cuts" (liked the rest of B) | TrumpGlow/all | **D185**: payoff >= 2 hard cuts, each shot <= 1.5 s | omar_gates_f100.payoff_gate (BLOCK) |
 | F104 | 2026-10-21 1:30 AM | every hook must be a proven POC format or a truly scroll-stopping, relevant moment; B2 -> 3-2-1 countdown like jollyglow_321 | all | **D186** | omar_gates_f100.hook_gate (BLOCK) |
+| F105 | 2026-10-21 1:33 AM | 3-2-1 spec: covered cue at 0 s, everyone counts, 'let's see how it comes out', split-second reveal, full payoff in the afters, count ~+8 LU over the song from frame 0 | all | **D187** | omar_gates_f100.count321_gate (BLOCK) |

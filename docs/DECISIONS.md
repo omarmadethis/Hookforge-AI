@@ -916,3 +916,6 @@ B2's after was "one single cinematic shot with no cuts". Payoff/after section: a
 
 ## D186 (2026-10-21 1:30 AM PT) Hooks are proven formats or true scroll-stoppers (Omar F104)
 Every hook is EITHER a proven format from formats/index.json (3-2-1 countdown, statement-needs-store, problem-solution, then-vs-now, dont-show-recipient, ...) named with its POC, OR a scroll-stopping moment directly relevant to the video with a relevance line. Gate: omar_gates_f100.hook_gate (BLOCK). Fix plans: learning/plans/trumpglow_AB_fix_2026-10-21.json (A3 then-vs-now; B3 321-prop-reveal modeled on jollyglow_321).
+
+## D187 (2026-10-21 1:33 AM PT) 3-2-1 countdown hook spec (Omar F105, permanent)
+Every 3-2-1 hook: (1) a covered product cue is visible at 0 s; (2) EVERYONE in the shot counts '3, 2, 1' together; (3) someone says "let's see how it comes out" during the reveal; (4) the reveal is a split second (<= 0.5 s) - the product is never shown in full in the hook, the full payoff is saved for the afters; (5) count voices sit ~+8 LU over the song, and the song still starts on frame 0. Gate: omar_gates_f100.count321_gate (BLOCK, runs inside hook_gate). TrumpGlow B3 hook revised to this spec (learning/plans/trumpglow_AB_fix_2026-10-21.json).

@@ -1,36 +1,193 @@
 {
  "A3": {
-  "hook": {"format": "then-vs-now", "based_on": "Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255); formats/then-vs-now",
-           "first_second_action": "he yanks the truck door open hard at night", "conflict": "the old cheap projector sputters, flickers and dies on the pavement; he slaps the door panel", "conflict_t_s": 0.6},
+  "hook": {
+   "format": "then-vs-now",
+   "based_on": "Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255); formats/then-vs-now",
+   "first_second_action": "he yanks the truck door open hard at night",
+   "conflict": "the old cheap projector sputters, flickers and dies on the pavement; he slaps the door panel",
+   "conflict_t_s": 0.6
+  },
   "shots": [
-   {"gen": "A_H3", "t0": 0.0, "t1": 2.4, "role": "hook", "new": true},
-   {"gen": "A_B1", "t0": 2.4, "t1": 4.2, "role": "install", "src": [0.3, 3.0], "speed": 1.5},
-   {"gen": "A_B2", "t0": 4.2, "t1": 6.0, "role": "trigger", "src": [0.6, 3.3], "speed": 1.5},
-   {"gen": "A_B3", "t0": 6.0, "t1": 7.4, "role": "payoff", "src": [0.0, 1.4]},
-   {"gen": "A_P2", "t0": 7.4, "t1": 8.8, "role": "payoff", "src": [1.6, 3.0], "new": true},
-   {"gen": "A_B3", "t0": 8.8, "t1": 10.2, "role": "payoff", "src": [2.6, 4.0]}
+   {
+    "gen": "A_H3",
+    "t0": 0.0,
+    "t1": 2.4,
+    "role": "hook",
+    "new": true
+   },
+   {
+    "gen": "A_B1",
+    "t0": 2.4,
+    "t1": 4.2,
+    "role": "install",
+    "src": [
+     0.3,
+     3.0
+    ],
+    "speed": 1.5
+   },
+   {
+    "gen": "A_B2",
+    "t0": 4.2,
+    "t1": 6.0,
+    "role": "trigger",
+    "src": [
+     0.6,
+     3.3
+    ],
+    "speed": 1.5
+   },
+   {
+    "gen": "A_B3",
+    "t0": 6.0,
+    "t1": 7.4,
+    "role": "payoff",
+    "src": [
+     0.0,
+     1.4
+    ]
+   },
+   {
+    "gen": "A_P2",
+    "t0": 7.4,
+    "t1": 8.8,
+    "role": "payoff",
+    "src": [
+     1.6,
+     3.0
+    ],
+    "new": true
+   },
+   {
+    "gen": "A_B3",
+    "t0": 8.8,
+    "t1": 10.2,
+    "role": "payoff",
+    "src": [
+     2.6,
+     4.0
+    ]
+   }
   ],
   "cards": [
-   {"text": "Old projector's last night.. 😔🇺🇸", "t0": 0.0, "t1": 2.4, "shows": "old cheap projector flickers dies", "why": "the hook literally shows his old cheap projector flickering and dying"},
-   {"text": "Vs...", "t0": 2.4, "t1": 6.0, "shows": "install new projector pod", "why": "the next shot is the new projector pod being installed, the other side of the comparison"},
-   {"text": "First night with the real one 😎🇺🇸", "t0": 6.0, "t1": 10.2, "shows": "real badge projected sharp first night", "why": "the payoff is the new real projector throwing a sharp badge on its first night"}
+   {
+    "text": "Old projector's last night.. 😔🇺🇸",
+    "t0": 0.0,
+    "t1": 2.4,
+    "shows": "old cheap projector flickers dies",
+    "why": "the hook literally shows his old cheap projector flickering and dying"
+   },
+   {
+    "text": "Vs...",
+    "t0": 2.4,
+    "t1": 6.0,
+    "shows": "install new projector pod",
+    "why": "the next shot is the new projector pod being installed, the other side of the comparison"
+   },
+   {
+    "text": "First night with the real one 😎🇺🇸",
+    "t0": 6.0,
+    "t1": 10.2,
+    "shows": "real badge projected sharp first night",
+    "why": "the payoff is the new real projector throwing a sharp badge on its first night"
+   }
   ],
-  "song": "free_bird_solo", "card_scale": 1.0
+  "song": "free_bird_solo",
+  "card_scale": 1.0
  },
  "B3": {
-  "hook": {"format": "321-prop-reveal", "based_on": "out/live/jollyglow_321 (Jolly Glow 321 A/B v3) + formats/321-prop-reveal (2.7M / 524K; product visible at 0.0 s)",
-           "first_second_action": "he holds the pod up at chest height in the lot and counts 'three' out loud", "conflict": "his wife beside him grabs his arm and shakes her head 'don't you dare' as he keeps counting", "conflict_t_s": 0.5},
+  "hook": {
+   "format": "321-prop-reveal",
+   "based_on": "out/live/jollyglow_321 (Jolly Glow 321 A/B v3) + formats/321-prop-reveal (2.7M / 524K)",
+   "first_second_action": "a group of 3 friends in a store parking lot at night huddle around the pod covered by a small cloth in his palm and start counting 'three' together",
+   "conflict": "countdown suspense: everyone leans in counting '3, 2, 1' over the covered pod; what's under the cloth?",
+   "conflict_t_s": 0.3,
+   "count321": {
+    "covered_cue_at_0": "black pod with round lens peeking from under a red cloth in his palm, legible at 0.0 s",
+    "all_count": true,
+    "reveal_line": "let's see how it comes out",
+    "reveal_flash_s": 0.3,
+    "product_full_in_hook": false,
+    "vo_over_song_lu": 8.0,
+    "song_from_frame0": true
+   },
+   "prompt_frame": "Photorealistic vertical phone frame, night, store parking lot under orange sodium lights, pickup truck with a US flag on a pole in the bed. Three friends (a man holding it, a woman and another man) huddle close; in his open palm a small black square car-door projector pod with a round lens peeks out from under a red cloth. All three look at the covered pod, mid-count, excited. No text, no watermark.",
+   "prompt_clip": "All three count out loud together 'three, two, one'; on 'one' he whips the cloth off and for a split second the pod flashes a round glowing badge onto the asphalt, then the woman says 'let's see how it comes out' as he closes his hand over it. Handheld, natural voices, parking-lot ambience. No text, no music."
+  },
   "shots": [
-   {"gen": "B_H3", "t0": 0.0, "t1": 3.4, "role": "hook", "new": true},
-   {"gen": "B_B1", "t0": 3.4, "t1": 5.2, "role": "unbox", "src": [0.0, 1.8]},
-   {"gen": "B_B2", "t0": 5.2, "t1": 7.0, "role": "install", "src": [0.5, 2.3]},
-   {"gen": "B_B3", "t0": 7.0, "t1": 8.4, "role": "payoff", "src": [0.0, 1.4]},
-   {"gen": "B_H", "t0": 8.4, "t1": 9.8, "role": "payoff", "src": [2.6, 4.0]},
-   {"gen": "B_B3", "t0": 9.8, "t1": 11.2, "role": "payoff", "src": [2.6, 4.0]}
+   {
+    "gen": "B_H3",
+    "t0": 0.0,
+    "t1": 3.0,
+    "role": "hook",
+    "new": true
+   },
+   {
+    "gen": "B_B1",
+    "t0": 3.0,
+    "t1": 4.8,
+    "role": "unbox",
+    "src": [
+     0.0,
+     1.8
+    ]
+   },
+   {
+    "gen": "B_B2",
+    "t0": 4.8,
+    "t1": 6.6,
+    "role": "install",
+    "src": [
+     0.5,
+     2.3
+    ]
+   },
+   {
+    "gen": "B_B3",
+    "t0": 6.6,
+    "t1": 8.0,
+    "role": "payoff",
+    "src": [
+     0.0,
+     1.4
+    ]
+   },
+   {
+    "gen": "B_H",
+    "t0": 8.0,
+    "t1": 9.4,
+    "role": "payoff",
+    "src": [
+     2.6,
+     4.0
+    ]
+   },
+   {
+    "gen": "B_B3",
+    "t0": 9.4,
+    "t1": 10.8,
+    "role": "payoff",
+    "src": [
+     2.6,
+     4.0
+    ]
+   }
   ],
   "cards": [
-   {"text": "Don't show this to a liberal 😎🦅", "t0": 0.0, "t1": 11.2, "shows": "pod badge projector he is about to show off", "why": "he is counting down to show off a Trump badge projector, the 'this' nobody on the other side wants to see"}
+   {
+    "text": "Don't show this to a liberal 😎🦅",
+    "t0": 0.0,
+    "t1": 10.8,
+    "shows": "pod badge projector he is about to show off",
+    "why": "he is counting down to show off a Trump badge projector, the 'this' nobody on the other side wants to see"
+   }
   ],
-  "song": "acdc_you_shook_me", "card_scale": 1.0
+  "song": "acdc_you_shook_me",
+  "card_scale": 1.0,
+  "credits": {
+   "hook_frame_gpt_image_2_2k": 6.5,
+   "hook_clip_seedance_720p_4s": 28,
+   "total": 34.5
+  }
  }
 }

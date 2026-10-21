@@ -72,3 +72,18 @@ def payoff_gate(shots):
 def plan_gates(plan):
     out = hook_gate(plan["hook"]) + card_timing(plan["shots"], plan["cards"]) + card_coherence(plan["cards"]) + payoff_gate(plan["shots"])
     return out
+
+# D187 / F105: Omar's 3-2-1 countdown spec
+def count321_gate(h):
+    """Applies when hook format == '321-prop-reveal'. Needs a hook['count321'] spec."""
+    if h.get("format") != "321-prop-reveal": return []
+    c = h.get("count321") or {}; f = []
+    if not (c.get("covered_cue_at_0") or "").strip(): f.append("BLOCK 3-2-1: covered product cue not visible at 0 s (D187)")
+    if not c.get("all_count"): f.append("BLOCK 3-2-1: everyone in the shot must count '3, 2, 1' together (D187)")
+    if "see how it comes out" not in (c.get("reveal_line") or "").lower(): f.append("BLOCK 3-2-1: someone must say 'let's see how it comes out' on the reveal (D187)")
+    if c.get("product_full_in_hook", True) or c.get("reveal_flash_s", 99) > 0.5: f.append("BLOCK 3-2-1: reveal must be a split second (<=0.5 s); full payoff saved for the afters (D187)")
+    if abs(c.get("vo_over_song_lu", 0) - 8.0) > 2.0 or not c.get("song_from_frame0"): f.append("BLOCK 3-2-1: count voices ~+8 LU over the song, song from frame 0 (D187)")
+    return f
+
+_hook_gate_base = hook_gate
+def hook_gate(h): return _hook_gate_base(h) + count321_gate(h)
