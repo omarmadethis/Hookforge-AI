@@ -35,3 +35,40 @@ def pytest_collection_modifyitems(config, items):
     for it in items:
         mod = os.path.basename(str(it.fspath))
         if f"{mod}::{it.name.split('[')[0]}" in NEEDS_DATA or mod in DATA_MODULES: it.add_marker(pytest.mark.needs_data)
+
+# D171 test-isolation guard. Before every test, snapshot each loaded hookforge module's UPPER_CASE globals
+# (paths such as perf_feedback.DIR, gates.LEDGER, ab_log.LOG, SWAP_DIR, and config dicts such as LIVE, deep-copied)
+# and the real learning/perf/ directory. Restore them after the test, so a plain `X.DIR = tmp_path` can never leak again.
+import copy, sys, shutil, pytest
+_PERF = os.path.join(REPO, "learning", "perf")
+
+def _snap():
+    s = {}
+    for name, m in list(sys.modules.items()):
+        if not name.startswith("hookforge") or m is None: continue
+        for k, v in list(vars(m).items()):
+            if k.isupper() and isinstance(v, (str, int, float, dict, list, tuple, set)):
+                try: s[(name, k)] = (v, copy.deepcopy(v))
+                except Exception: pass
+    return s
+
+def _perf_files():
+    return {f: open(os.path.join(_PERF, f), "rb").read() for f in os.listdir(_PERF)} if os.path.isdir(_PERF) else None
+
+@pytest.fixture(autouse=True)
+def _isolate():
+    snap, perf = _snap(), _perf_files()
+    yield
+    leaked = []
+    for (name, k), (orig, deep) in snap.items():
+        m = sys.modules.get(name)
+        if m is None: continue
+        cur = getattr(m, k, None)
+        if cur is not orig: setattr(m, k, orig); leaked.append(f"{name}.{k}")
+        elif isinstance(orig, (dict, list, set)) and orig != deep:
+            orig.clear(); (orig.update(deep) if isinstance(orig, (dict, set)) else orig.extend(deep)); leaked.append(f"{name}.{k} (mutated)")
+    if perf is not None and _perf_files() != perf:
+        shutil.rmtree(_PERF, ignore_errors=True); os.makedirs(_PERF, exist_ok=True)
+        for f, b in perf.items(): open(os.path.join(_PERF, f), "wb").write(b)
+        leaked.append("learning/perf/")
+    if leaked: os.environ.setdefault("HOOKFORGE_TEST_LEAKS", ""); os.environ["HOOKFORGE_TEST_LEAKS"] += ";" + ",".join(leaked)

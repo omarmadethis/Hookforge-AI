@@ -47,3 +47,11 @@ def test_regen_keeps_pending_times(tmp_path):
     assert it["created_pt"] == "T0" and it["approval_file_draft"]["expires_pt"] == "E0" and it["plan"]["a"][0]["expires_pt"] == "E1"
     p.write_text(json.dumps(dict(status="APPROVED", created_pt="T0"))); Q._ORIG.clear()
     assert Q.preserve(dict(created_pt="T9"), str(p))["created_pt"] == "T9"
+
+def test_isolation_guard_a_leaks():
+    from hookforge import perf_feedback as P
+    test_isolation_guard_a_leaks.orig = P.DIR; P.DIR = "/tmp/leak"          # deliberate leak, which the guard must undo
+
+def test_isolation_guard_b_restored():
+    from hookforge import perf_feedback as P
+    assert P.DIR == test_isolation_guard_a_leaks.orig
