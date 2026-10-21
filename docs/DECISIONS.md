@@ -808,3 +808,13 @@ automation/ensure.sh is idempotent and starts the supervisor only when its flock
 .gitignore excludes out/, data/, private/, media, *.m4a, files over 50 MB (video_registry.csv 1.1 GB, AppleColorEmoji 116 MB), large CSVs (audience_fit_log.csv), env and secret patterns, and lock/pid files.
 Secret scan before commit covered Meta EAA tokens, sk-, bearer, api_key/token/secret/password assignments, AWS keys and presign params, Shopify shpat, Slack xox, GitHub gh*_, Google AIza, private keys and sig/token query params. It found no real secrets: the only hits were a fake fixture in a test and base64 image data in the dashboards.
 docs/RESUME.md and docs/MANIFEST_EXCLUDED.md are both generated (engine/scripts/build_resume.py, build_manifest.py), and hookforge.regen rebuilds RESUME. config/buffer_routing.json carries Buffer org and channel IDs (not secrets, but D10-sensitive), so the GitHub repo should be private.
+
+## D161 (2026-10-20 PT) Spend watch attribution by model
+Transactions carry no job IDs, so spend_attrib tags each spend by model against the ledger's job rows: exact match ±15 min, otherwise a same-model pool ±45 min capped by the row's logged credits. Hookforge models (GPT Image 2.0, Seedance 2.5) that nothing in the ledger covers become `hookforge_unaccounted`, and only that tag alerts. Every other model is tagged `external` and reported per model, never alerted. test_spend_watch updated: a 25 cr Seed Audio spend no longer flags, a 28 cr unledgered Seedance spend does.
+Replay of today's 199 previously-unledgered transactions:
+| Tag | Credits |
+|---|---|
+| Hookforge (4×28 Seedance at 09:57, purrventure_video) | 112 |
+| External (Flare 44.25, Seed Audio 96.4, Sound Effects 37, Text to Music 22.75) | 200.4 |
+| Unaccounted (4×6.5 GPT Image 2.0 at 14:32–15:14 PT, 1×28 Seedance at 15:36 PT) | 54 |
+Not attributed to any run, possibly the branding_v2 run, whose spend is unknown. Omar to confirm.

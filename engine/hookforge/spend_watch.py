@@ -5,11 +5,14 @@ transaction it has already seen (learning/alerts/spend_watch_state.json), and wh
 check exceeds THRESHOLD credits it raises a flag:
   learning/alerts/unledgered_spend.json   latest status (flag true/false, new + cumulative unlogged, items)  <- surface this
   learning/alerts/unledgered_spend.jsonl  one line per check (history)
-No Buffer/Slack/email/chat is ever sent from here."""
+No Buffer/Slack/email/chat is ever sent from here.
+D161: every spend is tagged by spend_attrib (hookforge / hookforge_unaccounted / external). Only
+hookforge_unaccounted (a Hookforge model with no ledger row to cover it) counts toward the flag. External spend
+from other users of the shared account is reported per model in new_by_model, but it never raises the flag."""
 import os, re, json, datetime
 from zoneinfo import ZoneInfo
 from .config import REPO
-from . import credit_ledger
+from . import credit_ledger, spend_attrib
 
 PT = ZoneInfo("America/Los_Angeles")
 THRESHOLD = 20.0
@@ -28,22 +31,26 @@ def check(transactions, account="user-Higgsfield--new-account", now=None):
     rows = parse(transactions) if isinstance(transactions, str) else list(transactions)
     st = json.load(open(STATE)) if os.path.exists(STATE) else dict(seen=[], baseline_pt=None)
     seen = set(st["seen"]); days = sorted({credit_ledger._pt(r["created_at"]).date() for r in rows if r.get("action") == "spend"})
-    unl = []
-    for d in days:
-        for u in credit_ledger.reconcile([r for r in rows if credit_ledger._pt(r["created_at"]).date() == d], d)["unledgered"]: unl.append(u)
+    att = spend_attrib.attribute(rows)
+    unl = [r for r in att["rows"] if r["tag"] != "hookforge"]
     keyed = {f"{account}|{u['created_at']}|{u['what']}|{u['credits']}": u for u in unl}
     new = {k: v for k, v in keyed.items() if k not in seen}
     first = st["baseline_pt"] is None
-    new_cr = round(sum(v["credits"] for v in new.values()), 2)
+    unacc = {k: v for k, v in new.items() if v["tag"] == "hookforge_unaccounted"}
+    new_cr = round(sum(v["credits"] for v in unacc.values()), 2)
+    ext_cr = round(sum(v["credits"] for v in new.values() if v["tag"] == "external"), 2)
     flag = (not first) and new_cr > THRESHOLD
     by = {}
     for v in new.values(): by[v["what"]] = round(by.get(v["what"], 0) + v["credits"], 2)
     status = dict(checked_pt=now.isoformat(timespec="seconds"), account=account, flag=flag, threshold=THRESHOLD,
-                  new_unledgered_credits=new_cr, new_by_type=by, new_items=sorted(new.values(), key=lambda v: v["when_pt"])[-50:],
+                  new_unledgered_credits=new_cr, new_unaccounted_credits=new_cr, new_external_credits=ext_cr, new_by_type=by,
+                  new_by_model=spend_attrib.breakdown(list(new.values())), window_by_model=att["by_model"],
+                  new_items=sorted(unacc.values(), key=lambda v: v["when_pt"])[-50:],
+                  new_external_items=sorted((v for v in new.values() if v["tag"] == "external"), key=lambda v: v["when_pt"])[-20:],
                   cumulative_unledgered_in_window=round(sum(v["credits"] for v in keyed.values()), 2),
                   baseline=first, note=("baseline: existing unlogged spend recorded, not flagged" if first else
-                                        ("NEW UNLOGGED SPEND > %g cr since last check - surface to Omar" % THRESHOLD if flag else "ok")))
+                                        ("NEW HOOKFORGE-MODEL SPEND NOT IN LEDGER > %g cr since last check - surface to Omar" % THRESHOLD if flag else "ok")))
     st["seen"] = sorted(seen | set(keyed)); st["baseline_pt"] = st["baseline_pt"] or now.isoformat(timespec="seconds"); st["last_pt"] = now.isoformat(timespec="seconds")
     json.dump(st, open(STATE, "w"), indent=1); json.dump(status, open(STATUS, "w"), indent=1)
-    with open(HIST, "a") as fh: fh.write(json.dumps({k: status[k] for k in ("checked_pt", "account", "flag", "new_unledgered_credits", "new_by_type")}) + "\n")
+    with open(HIST, "a") as fh: fh.write(json.dumps({k: status[k] for k in ("checked_pt", "account", "flag", "new_unledgered_credits", "new_external_credits", "new_by_type")}) + "\n")
     return status

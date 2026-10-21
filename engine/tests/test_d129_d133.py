@@ -7,8 +7,9 @@ def test_spend_watch_flags_only_new_over_20(tmp_path, monkeypatch):
     monkeypatch.setattr(gates, "LEDGER", str(tmp_path / "l.csv"))
     t0 = '  Seedance 2.5,-64,spend,"2026-10-20T20:00:00.000001Z"\n'
     assert W.check(t0)["baseline"] and not W.check(t0)["flag"]                      # baseline, then nothing new
-    s = W.check(t0 + '  Seed Audio 1.0,-25,spend,"2026-10-20T21:00:00.000001Z"\n'); assert s["flag"] and s["new_unledgered_credits"] == 25
-    s = W.check(t0 + '  Seed Audio 1.0,-25,spend,"2026-10-20T21:00:00.000001Z"\n  Sound Effects,-5,spend,"2026-10-20T21:30:00.000001Z"\n'); assert not s["flag"]   # 5 <= 20
+    s = W.check(t0 + '  Seed Audio 1.0,-25,spend,"2026-10-20T21:00:00.000001Z"\n'); assert not s["flag"] and s["new_external_credits"] == 25   # D161 external
+    s = W.check(t0 + '  Seedance 2.5,-28,spend,"2026-10-20T21:10:00.000001Z"\n'); assert s["flag"] and s["new_unledgered_credits"] == 28     # Hookforge model, no ledger row
+    s = W.check(t0 + '  Seed Audio 1.0,-25,spend,"2026-10-20T21:00:00.000001Z"\n  Sound Effects,-5,spend,"2026-10-20T21:30:00.000001Z"\n  Seedance 2.5,-5,spend,"2026-10-20T21:31:00.000001Z"\n'); assert not s["flag"]   # 5 <= 20
     assert os.path.exists(W.STATUS)
 
 def test_render_queue_blocks_slots_without_video():
