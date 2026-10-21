@@ -26,3 +26,8 @@ jobs:
         env:
           PYTHONPATH: .
         run: python -m pytest -q -m "not needs_data"
+      - name: Script tests that need no excluded data
+        working-directory: engine
+        env:
+          PYTHONPATH: .
+        run: python tests/test_recreate_logic.py && python tests/test_omar_style.py

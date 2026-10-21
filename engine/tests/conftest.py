@@ -6,9 +6,11 @@ REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 HAVE_DATA = os.path.exists(os.path.join(REPO, "private", "corpus", "corpus.csv")) and os.path.isdir(os.path.join(REPO, "out"))
 
 # These modules load excluded data at import, so they are skipped at collection when the data is absent.
-DATA_MODULES = ["test_gates.py", "test_mock_source_nan.py", "test_d128_recovery.py",
-                "test_recreate_logic.py", "test_audience_fit.py", "test_edit_rules.py", "test_omar_style.py"]
-collect_ignore = [] if HAVE_DATA else DATA_MODULES
+DATA_MODULES = ["test_gates.py", "test_mock_source_nan.py", "test_d128_recovery.py"]
+# Script-style tests (they sys.exit at import) are run as `python3 tests/<f>` and never collected by pytest.
+# CI runs test_recreate_logic and test_omar_style; test_audience_fit and test_edit_rules need excluded data.
+SCRIPT_TESTS = ["test_recreate_logic.py", "test_audience_fit.py", "test_edit_rules.py", "test_omar_style.py"]
+collect_ignore = SCRIPT_TESTS + ([] if HAVE_DATA else DATA_MODULES)
 
 NEEDS_DATA = {
  "test_backend_d91.py::test_capcut_learn", "test_d104_d108.py::test_concept_and_redo_queue",
