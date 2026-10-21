@@ -1,7 +1,7 @@
 {
- "approved_by": null,
- "approved_at_pt": null,
- "status": "AWAITING OMAR: cap first, then frames before any clip",
+ "approved_by": "Omar",
+ "approved_at_pt": "2026-10-21T15:57:00-07:00",
+ "status": "cap APPROVED; 8 frames done (58.5 spent); AWAITING Omar frame approval before 8 clips (224)",
  "run_id": "lumarein_recreate_LR1_LR2",
  "account": "user-Higgsfield--new-account",
  "credit_cap": 310.5,
@@ -18,5 +18,110 @@
   "frame approval (8 start frames shown to Omar)"
  ],
  "consumed": false,
- "spent": 0
+ "spent": 58.5,
+ "approval_quote": "approved LR1+LR2 plan, HARD 310.5 cap, POC'd to the max",
+ "approval_channel": "relayed by parent agent",
+ "hard_cap": true,
+ "tighten_note": "re-checked vs refs/lumarein 2.6M + 383.5K: LR1 hook gets in-clip hard cut tape(0-2.2)->dusk LED fail(2.2-4); result card 'The result 😍🙈' as original; CTA 'SAY \"GALLOP\" if you need this 😍' (original wording, SAY swap); LR2 body re-ordered to original: unbox+leg / chest+switch-on / beach canter + 3-rider field CTA; LR2 box reveal held as original (no split-second, that is a 3-2-1 rule only); LR2 card persistent 0-11 as original",
+ "spend_log": [
+  {
+   "ts_pt": "2026-10-21T16:06",
+   "item": "LR1_H",
+   "job": "a433b31f-5ce0-4d41-a171-4fd46e7cb3d5",
+   "credits": 6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:06",
+   "item": "LR1_B1",
+   "job": "2e39371c-1696-4ad1-aafb-db0b3610eacd",
+   "credits": 6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:06",
+   "item": "LR1_B2",
+   "job": "cd740177-2299-4987-8afe-a3f95878d20b",
+   "credits": 6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:06",
+   "item": "LR1_B3",
+   "job": "0223b76f-5626-4a0f-b1b7-960d311af0ca",
+   "credits": 6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:06",
+   "item": "LR2_H",
+   "job": "155a7690-5f30-4eee-b1c6-5e1c013adcb2",
+   "credits": 6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:06",
+   "item": "LR2_B1",
+   "job": "7220cedf-64e3-4e64-907b-5cc2689a0888",
+   "credits": 6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:06",
+   "item": "LR2_B2",
+   "job": "52bbad7d-7152-45d6-b3fe-079bfa2156a8",
+   "credits": 6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:06",
+   "item": "LR2_B3",
+   "job": "41e05f44-870c-4879-9755-768de716b7d5",
+   "credits": 6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:03",
+   "item": "LR2_B1 refund (nsfw block)",
+   "job": "7220cedf-64e3-4e64-907b-5cc2689a0888",
+   "credits": -6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:14",
+   "item": "LR2_B1 redo",
+   "job": "41438b67-8ba2-425d-801c-8250a25a1521",
+   "credits": 6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:14",
+   "item": "LR2_B2 redo (card space)",
+   "job": "c18eee6a-a681-47a9-857e-d8d6e6fb58ff",
+   "credits": 6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:16",
+   "item": "LR2_B1 redo refund (nsfw)",
+   "job": "41438b67-8ba2-425d-801c-8250a25a1521",
+   "credits": -6.5
+  },
+  {
+   "ts_pt": "2026-10-21T16:17",
+   "item": "LR2_B1 redo2",
+   "job": "4e56f56f-2d4a-4980-b21b-72e8db72f1da",
+   "credits": 6.5
+  }
+ ],
+ "frames": {
+  "LR1_H": "out/lumarein/frames/LR1_H.png",
+  "LR1_B1": "out/lumarein/frames/LR1_B1.png",
+  "LR1_B2": "out/lumarein/frames/LR1_B2.png",
+  "LR1_B3": "out/lumarein/frames/LR1_B3.png",
+  "LR2_H": "out/lumarein/frames/LR2_H.png",
+  "LR2_B1": "out/lumarein/frames/LR2_B1.png",
+  "LR2_B2": "out/lumarein/frames/LR2_B2.png",
+  "LR2_B3": "out/lumarein/frames/LR2_B3.png"
+ },
+ "frame_jobs": {
+  "LR1_H": "a433b31f-5ce0-4d41-a171-4fd46e7cb3d5",
+  "LR1_B1": "2e39371c-1696-4ad1-aafb-db0b3610eacd",
+  "LR1_B2": "cd740177-2299-4987-8afe-a3f95878d20b",
+  "LR1_B3": "0223b76f-5626-4a0f-b1b7-960d311af0ca",
+  "LR2_H": "155a7690-5f30-4eee-b1c6-5e1c013adcb2",
+  "LR2_B1": "4e56f56f-2d4a-4980-b21b-72e8db72f1da",
+  "LR2_B2": "c18eee6a-a681-47a9-857e-d8d6e6fb58ff",
+  "LR2_B3": "41e05f44-870c-4879-9755-768de716b7d5"
+ },
+ "remaining": 252.0
 }

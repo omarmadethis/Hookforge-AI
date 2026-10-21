@@ -137,3 +137,19 @@ ts_pt,run_id,item,job_ids,credits
 2026-10-21T01:40,trumpglow_fix_A3B3,gpt_image_2 A_H3 start frame re-roll (door/physics fail),f5c9a2dd-ded3-466b-8227-23140dfc4cef,6.5
 2026-10-21T01:40,trumpglow_fix_A3B3,seedance_2_5 B_H3 720p 4s video,87f8fd21-8f3f-4f75-a159-cfe68333519a,28
 2026-10-21T01:44,trumpglow_fix_A3B3,seedance_2_5 A_H3 720p 4s video,0dfb6967-b796-4672-8594-84ec14f125b3,28
+2026-10-21T16:01,jollyglow_G01,gpt_image_2 1k medium x4 start frames H1/B1/B2/B3,a7a2a9d2-b835-4586-b1f8-e4a6eb735a74;d7b9c0d8-4f56-4f84-b651-5cb7f6163d28;10bb774a-3df9-488a-8703-fb1dc1c50af2;556c51b2-64fe-4b6e-9bf3-6bab8d9a091b,4
+2026-10-21T16:06,jollyglow_G01,seedance_2_5 720p 4s H1+B1 (B2/B3 not submitted: preset recommendation),055de9fa-57c3-4c5e-8de7-3a1e96f7adb7;6aa5b355-e268-4215-a03e-fb719f65906c,56
+2026-10-21T16:06,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR1_H start frame,a433b31f-5ce0-4d41-a171-4fd46e7cb3d5,6.5
+2026-10-21T16:06,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR1_B1 start frame,2e39371c-1696-4ad1-aafb-db0b3610eacd,6.5
+2026-10-21T16:06,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR1_B2 start frame,cd740177-2299-4987-8afe-a3f95878d20b,6.5
+2026-10-21T16:06,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR1_B3 start frame,0223b76f-5626-4a0f-b1b7-960d311af0ca,6.5
+2026-10-21T16:06,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR2_H start frame,155a7690-5f30-4eee-b1c6-5e1c013adcb2,6.5
+2026-10-21T16:06,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR2_B1 start frame,7220cedf-64e3-4e64-907b-5cc2689a0888,6.5
+2026-10-21T16:06,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR2_B2 start frame,52bbad7d-7152-45d6-b3fe-079bfa2156a8,6.5
+2026-10-21T16:06,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR2_B3 start frame,41e05f44-870c-4879-9755-768de716b7d5,6.5
+2026-10-21T16:07,jollyglow_G01,seedance_2_5 720p 4s B2+B3,83d759f3-9e2d-4233-99b1-872612d9fa14;9884b5f1-03f1-4cad-ac4a-da810b5419bf,56
+2026-10-21T16:03,lumarein_recreate_LR1_LR2,REFUND gpt_image_2 LR2_B1 nsfw-blocked,7220cedf-64e3-4e64-907b-5cc2689a0888,-6.5
+2026-10-21T16:14,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR2_B1 redo,41438b67-8ba2-425d-801c-8250a25a1521,6.5
+2026-10-21T16:14,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR2_B2 redo (card space),c18eee6a-a681-47a9-857e-d8d6e6fb58ff,6.5
+2026-10-21T16:16,lumarein_recreate_LR1_LR2,REFUND(expected) gpt_image_2 LR2_B1 redo nsfw-blocked,41438b67-8ba2-425d-801c-8250a25a1521,-6.5
+2026-10-21T16:17,lumarein_recreate_LR1_LR2,gpt_image_2 2k high LR2_B1 redo2 (product ref only),4e56f56f-2d4a-4980-b21b-72e8db72f1da,6.5
