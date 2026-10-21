@@ -52,6 +52,19 @@ def record(path, drive_id, folder=None):
     json.dump(idx, open(IDX, "w"), indent=1, ensure_ascii=False)
     os.remove(f["staged"]); f.update(status="uploaded", drive_id=drive_id); f.pop("staged", None); json.dump(st, open(STATE, "w"), indent=1)
 
+def dedupe():
+    """D170: a pending file byte-identical (sha256) to one already on Drive is recorded under the existing drive id, with no re-upload."""
+    st = load(STATE, None); idx = load(IDX, None); by = {f["sha256"]: f for f in idx["files"] if f.get("sha256")}; n = 0
+    for p, f in st["files"].items():
+        if f["status"] not in ("pending", "staged"): continue
+        h = f.get("sha256") or sha(os.path.join(R, p)); src = by.get(h)
+        if not src: continue
+        idx["files"].append(dict(path=p, id=src["id"], name=os.path.basename(p), folder=src["folder"], size=src["size"], orig_size=os.path.getsize(os.path.join(R, p)),
+                                 sha256=h, sanitized=src.get("sanitized", False), dedup_of=src["path"]))
+        if f.get("staged") and os.path.exists(f["staged"]): os.remove(f["staged"])
+        f.update(status="uploaded", drive_id=src["id"], dedup_of=src["path"]); f.pop("staged", None); n += 1
+    json.dump(idx, open(IDX, "w"), indent=1, ensure_ascii=False); json.dump(st, open(STATE, "w"), indent=1); return n
+
 def status():
     st = load(STATE, {"files": {}, "chunks": []}); c = {}
     for f in st["files"].values(): k = f["status"]; c.setdefault(k, [0, 0]); c[k][0] += 1; c[k][1] += f["bytes"]
@@ -62,5 +75,11 @@ if __name__ == "__main__":
     a = ap.parse_args()
     if a.cmd == "plan": s = plan(a.tier, a.chunk_mb); print(json.dumps(dict(status(), chunk_sizes_mb=[round(sum(s["files"][p]["bytes"] for p in c) / 1e6) for c in s["chunks"]])))
     elif a.cmd == "stage": print("\n".join(stage(int(a.args[0]))))
+    elif a.cmd == "recmany":                       # stdin lines: <staged basename>\t<drive_id>
+        st = load(STATE, None); by = {os.path.basename(f["staged"]): p for p, f in st["files"].items() if f.get("staged")}
+        for ln in sys.stdin:
+            if ln.strip(): n, i = ln.rstrip("\n").split("\t"); record(by[n], i)
+        print(json.dumps(status()))
+    elif a.cmd == "dedupe": print("deduped", dedupe())
     elif a.cmd == "record": record(*a.args); print("recorded", a.args[0])
     else: print(json.dumps(status(), indent=1))

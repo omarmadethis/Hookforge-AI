@@ -864,3 +864,9 @@ The real learning/perf/ holds no weights.json, because no real posts have been i
 **F04 is the correct pick. The committed F09 file was contaminated.**
 Fixed: perf_loop and test_fb_caption_d93's SWAP_DIR now use monkeypatch. After a full pytest run the weekly file stays F04.
 The approval-queue concept item trumpglow_F09 is unaffected: it is the innovation slot (least-tried format) and doesn't depend on perf weights.
+## D170 (2026-10-20 PT) Tier 2 progress, dedupe, video_registry
+- **video_registry.csv** (1.12 GB) gzips to only 1.06 GB (-5%), so it is skipped for now. It is a registry and can be rebuilt; it needs its own decision.
+- **dedupe:** `backup_chunks.py dedupe` records a pending file whose sha256 matches one already on Drive under the existing ID, with no re-upload. 77 out/live files (1.64 GB) were byte-identical to out/deliver finals.
+- **recmany:** records a batch of `<staged name>\t<id>` lines at once.
+- **Chunk 2** is complete: 16 files uploaded to Hookforge Backup/generations as live__<path>, 17 deduped. The gate refused 12 (build/run .py scripts with ffmpeg trace bytes, two old reports with c2pa bytes, CLIP_PLAN.md with "seedance"). Those are final, not worked around, and are small re-derivable files.
+- **Overall:** 94 Tier 2 files are uploaded or deduped (1.71 GB). Chunks 3–12 remain: 591 files, 4.42 GB (270 png, 87 mp4, 66 jpg, 119 json and some small text files). Resume with `status`, then `stage <n>`, then UploadFile per staged file, then `recmany`.
