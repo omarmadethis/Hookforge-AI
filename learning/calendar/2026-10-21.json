@@ -1,0 +1,453 @@
+{
+ "start": "2026-10-21",
+ "end": "2026-10-27",
+ "slots": [
+  {
+   "day": "2026-10-21",
+   "weekday": "Wed",
+   "page": "patriotsglow_fb",
+   "account": "buffer1",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 1.14,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 13,
+   "caption_draft": "Who needs one for the front porch? 🇺🇸 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "weekday": "Wed",
+   "page": "purrventures2_fb",
+   "account": "buffer2",
+   "service": "facebook",
+   "product": "purrventure_carrier",
+   "window_pt": "18-21",
+   "weight": 1.0,
+   "concept": "concept_2026-10-20_purrventure_carrier_F02",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": null,
+   "caption_draft": "Finally a way for kitties to explore outside safely! 🐈 SAY \"PURR\" if you want one!\n#cat #catmom #catlover",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_purrventure_carrier_F02",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "weekday": "Wed",
+   "page": "trumpglow_fb",
+   "account": "buffer2",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 1.14,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 13,
+   "caption_draft": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-22",
+   "weekday": "Thu",
+   "page": "patriotsglow_fb",
+   "account": "buffer1",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 1.29,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 12,
+   "caption_draft": "Who needs one for the front porch? 🇺🇸 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-22",
+   "weekday": "Thu",
+   "page": "purrventures_fb",
+   "account": "buffer1",
+   "service": "facebook",
+   "product": "purrventure_carrier",
+   "window_pt": "18-21",
+   "weight": 1.0,
+   "concept": "concept_2026-10-20_purrventure_carrier_F02",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": null,
+   "caption_draft": "SAY \"PURR\" if you want one!\n#cat #catmom #catlover",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_purrventure_carrier_F02",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-22",
+   "weekday": "Thu",
+   "page": "trumpglow_fb",
+   "account": "buffer2",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 1.29,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 12,
+   "caption_draft": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-23",
+   "weekday": "Fri",
+   "page": "jollyglow_fb",
+   "account": "buffer1",
+   "service": "facebook",
+   "product": "jollyglow_curtain",
+   "window_pt": "18-21",
+   "weight": 1.0,
+   "concept": "concept_2026-10-20_jollyglow_curtain_F06",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": null,
+   "caption_draft": "They'll be asking where you got it..\n#christmasdecor #christmasiscoming #christmasgifts",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_jollyglow_curtain_F06",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-23",
+   "weekday": "Fri",
+   "page": "purrventures2_fb",
+   "account": "buffer2",
+   "service": "facebook",
+   "product": "purrventure_carrier",
+   "window_pt": "18-21",
+   "weight": 1.0,
+   "concept": "concept_2026-10-20_purrventure_carrier_F02",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": null,
+   "caption_draft": "Finally a way for kitties to explore outside safely! 🐈 SAY \"PURR\" if you want one!\n#cat #catmom #catlover",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_purrventure_carrier_F02",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-23",
+   "weekday": "Fri",
+   "page": "trumpglow_fb",
+   "account": "buffer2",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 1.43,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 11,
+   "caption_draft": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-24",
+   "weekday": "Sat",
+   "page": "patriotsglow_fb",
+   "account": "buffer1",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 1.57,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 10,
+   "caption_draft": "Who needs one for the front porch? 🇺🇸 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-24",
+   "weekday": "Sat",
+   "page": "trumpglow_fb",
+   "account": "buffer2",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 1.57,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 10,
+   "caption_draft": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-25",
+   "weekday": "Sun",
+   "page": "jollyglow_fb",
+   "account": "buffer1",
+   "service": "facebook",
+   "product": "jollyglow_curtain",
+   "window_pt": "18-21",
+   "weight": 1.0,
+   "concept": "concept_2026-10-20_jollyglow_curtain_F06",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": null,
+   "caption_draft": "They'll be asking where you got it..\n#christmasdecor #christmasiscoming #christmasgifts",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_jollyglow_curtain_F06",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-25",
+   "weekday": "Sun",
+   "page": "patriotsglow_fb",
+   "account": "buffer1",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 1.71,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 9,
+   "caption_draft": "Who needs one for the front porch? 🇺🇸 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-25",
+   "weekday": "Sun",
+   "page": "purrventures_fb",
+   "account": "buffer1",
+   "service": "facebook",
+   "product": "purrventure_carrier",
+   "window_pt": "18-21",
+   "weight": 1.0,
+   "concept": "concept_2026-10-20_purrventure_carrier_F02",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": null,
+   "caption_draft": "SAY \"PURR\" if you want one!\n#cat #catmom #catlover",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_purrventure_carrier_F02",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-25",
+   "weekday": "Sun",
+   "page": "trumpglow_fb",
+   "account": "buffer2",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 1.71,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 9,
+   "caption_draft": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-26",
+   "weekday": "Mon",
+   "page": "jollyglow_fb",
+   "account": "buffer1",
+   "service": "facebook",
+   "product": "jollyglow_curtain",
+   "window_pt": "18-21",
+   "weight": 1.0,
+   "concept": "concept_2026-10-20_jollyglow_curtain_F06",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": null,
+   "caption_draft": "They'll be asking where you got it..\n#christmasdecor #christmasiscoming #christmasgifts",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_jollyglow_curtain_F06",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-26",
+   "weekday": "Mon",
+   "page": "purrventures2_fb",
+   "account": "buffer2",
+   "service": "facebook",
+   "product": "purrventure_carrier",
+   "window_pt": "18-21",
+   "weight": 1.0,
+   "concept": "concept_2026-10-20_purrventure_carrier_F02",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": null,
+   "caption_draft": "Finally a way for kitties to explore outside safely! 🐈 SAY \"PURR\" if you want one!\n#cat #catmom #catlover",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_purrventure_carrier_F02",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-26",
+   "weekday": "Mon",
+   "page": "trumpglow_fb",
+   "account": "buffer2",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 1.86,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 8,
+   "caption_draft": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-27",
+   "weekday": "Tue",
+   "page": "patriotsglow_fb",
+   "account": "buffer1",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 2.0,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 7,
+   "caption_draft": "Who needs one for the front porch? 🇺🇸 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  },
+  {
+   "day": "2026-10-27",
+   "weekday": "Tue",
+   "page": "trumpglow_fb",
+   "account": "buffer2",
+   "service": "facebook",
+   "product": "trumpglow",
+   "window_pt": "18-21",
+   "weight": 2.0,
+   "concept": "concept_2026-10-20_trumpglow_F09",
+   "status": "DRAFT - NEEDS_VIDEO",
+   "midterms_days": 7,
+   "caption_draft": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa",
+   "render_status": "NEEDS_VIDEO",
+   "publish_item": null,
+   "render_need": {
+    "concept": "concept_2026-10-20_trumpglow_F09",
+    "credits": 200.0,
+    "ready_for_approval": true
+   }
+  }
+ ],
+ "dropped": [
+  {
+   "day": "2026-10-21",
+   "weekday": "Wed",
+   "page": "jollyglow_fb",
+   "account": "buffer1",
+   "service": "facebook",
+   "product": "jollyglow_curtain",
+   "window_pt": "18-21",
+   "weight": 1.0,
+   "concept": "concept_2026-10-20_jollyglow_curtain_F06",
+   "status": "DRAFT - needs a rendered, Omar-approved video",
+   "midterms_days": null,
+   "why": "buffer1 free plan max 10 scheduled"
+  }
+ ],
+ "per_product": {
+  "jollyglow_curtain": 3,
+  "purrventure_carrier": 5,
+  "trumpglow": 12
+ },
+ "drafts_only": true,
+ "render_summary": {
+  "READY": 0,
+  "NEEDS_URL": 0,
+  "NEEDS_VIDEO": 20
+ }
+}

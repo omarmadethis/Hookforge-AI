@@ -1,0 +1,4 @@
+experiment_id,is_example,created_pt,product,page_code,arm,is_innovation,format,hook_family,variable_changed,hypothesis,proof_keys,reel_key,posted_pt,status,views_24h,views_7d,three_sec_rate,avg_watch_s,shares,profile_visits,orders_per_1k,decision,notes
+EXAMPLE-001,1,2026-10-19 09:00,EXAMPLE product,EX,control,0,F02,store_pallet,none (proven spec),EXAMPLE ROW - schema demo only,HJ-03;HJ-04,,,planned,,,,,,,,,EXAMPLE - not a real experiment; outcome fields stay empty until a real post
+EXAMPLE-001,1,2026-10-19 09:00,EXAMPLE product,EX,variant,1,F02,store_pallet,first-frame product share 30% -> 45%,EXAMPLE ROW - schema demo only,HJ-03;HJ-06,,,planned,,,,,,,,,EXAMPLE - not a real experiment
+EXAMPLE-002,1,2026-10-19 09:00,EXAMPLE product,EX,variant,1,F04,then_vs_now,retro year 1968 -> 1985,EXAMPLE ROW - schema demo only,MG-01;MGS-01,,,planned,,,,,,,,,EXAMPLE - not a real experiment

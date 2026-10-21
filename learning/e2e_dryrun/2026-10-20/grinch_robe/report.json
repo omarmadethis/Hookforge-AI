@@ -1,0 +1,63 @@
+{
+ "product": "grinch_robe",
+ "day": "2026-10-20",
+ "stages": {
+  "concept": {
+   "ok": true,
+   "id": "concept_2026-10-20_grinch_robe_F08",
+   "format": "F08",
+   "hook": "Period girls RUN don't walk to Target 🩸🙃"
+  },
+  "plan": {
+   "ok": true,
+   "gens": 4,
+   "setting": "bright living room with Christmas tree"
+  },
+  "gates": {
+   "ok": true,
+   "blocks": [],
+   "warns": [
+    "plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+    "opener H runs 3.50s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+    "'Period girls RUN don't walk to Target 🩸🙃': emoji 🩸 has no viral proof (cards.csv/POC) - pick a proven one",
+    "'Period girls RUN don't walk to Target 🩸🙃': emoji 🙃 has no viral proof (cards.csv/POC) - pick a proven one",
+    "'Period girls RUN don't walk to Target 🩸🙃': emoji 🩸 has no viral proof (cards.csv/POC) - pick a proven one",
+    "'Period girls RUN don't walk to Target 🩸🙃': emoji 🙃 has no viral proof (cards.csv/POC) - pick a proven one"
+   ],
+   "political": "n/a"
+  },
+  "quote": {
+   "ok": true,
+   "credits": 156.0,
+   "calls": 8,
+   "calls_credits": 156.0
+  },
+  "capcut": {
+   "ok": true,
+   "dir": "/workspace/hookforge/learning/e2e_dryrun/2026-10-20/grinch_robe/capcut/DRY_1020_grinch_robe_F08",
+   "problems": [],
+   "music": "last_christmas",
+   "music_missing": null
+  },
+  "route": {
+   "ok": true,
+   "pages": [
+    "merryjammies_ig_b2"
+   ],
+   "refused": []
+  },
+  "caption:merryjammies_ig_b2": {
+   "ok": true,
+   "text": "Get yours👉https://merryjammies.com/products/merryjammies-festive-heating-robe"
+  },
+  "payload": {
+   "ok": true,
+   "n": 1
+  },
+  "distinct_captions": {
+   "ok": true,
+   "n": 1
+  }
+ },
+ "breaks": []
+}

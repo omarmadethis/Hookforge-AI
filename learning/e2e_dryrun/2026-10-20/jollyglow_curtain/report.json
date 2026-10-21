@@ -1,0 +1,61 @@
+{
+ "product": "jollyglow_curtain",
+ "day": "2026-10-20",
+ "stages": {
+  "concept": {
+   "ok": true,
+   "id": "concept_2026-10-20_jollyglow_curtain_F06",
+   "format": "F06",
+   "hook": "\"Women are hard to gift..\""
+  },
+  "plan": {
+   "ok": true,
+   "gens": 4,
+   "setting": "front of a house at night"
+  },
+  "gates": {
+   "ok": true,
+   "blocks": [],
+   "warns": [
+    "hook not in a proven format (Don't show this to a ___ / POV street JEALOUS / don't walk RUN to [store])",
+    "plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+    "opener H runs 3.90s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+    "post caption 'They'll be asking where you got it.. 🤣🎄' [WEAK PROOF: no POC cite]"
+   ],
+   "political": "n/a"
+  },
+  "quote": {
+   "ok": true,
+   "credits": 156.0,
+   "calls": 8,
+   "calls_credits": 156.0
+  },
+  "capcut": {
+   "ok": true,
+   "dir": "/workspace/hookforge/learning/e2e_dryrun/2026-10-20/jollyglow_curtain/capcut/DRY_1020_jollyglow_curtain_F06",
+   "problems": [],
+   "music": "holly_jolly",
+   "music_missing": null
+  },
+  "route": {
+   "ok": true,
+   "pages": [
+    "jollyglow_fb"
+   ],
+   "refused": []
+  },
+  "caption:jollyglow_fb": {
+   "ok": true,
+   "text": "They'll be asking where you got it..\n#christmasdecor #christmasiscoming #christmasgifts"
+  },
+  "payload": {
+   "ok": true,
+   "n": 1
+  },
+  "distinct_captions": {
+   "ok": true,
+   "n": 1
+  }
+ },
+ "breaks": []
+}

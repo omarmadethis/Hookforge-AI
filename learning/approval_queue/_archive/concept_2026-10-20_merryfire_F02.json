@@ -1,0 +1,1418 @@
+{
+ "id": "concept_2026-10-20_merryfire_F02",
+ "kind": "concept_test",
+ "product": "merryfire",
+ "status": "RETIRED",
+ "created_pt": "2026-10-20T15:21:25-07:00",
+ "why": "innovation slot: F02 Fake Store Pallet Reveal (+JK twist) is this product's least-tried format (arms n=0)",
+ "poc": [
+  "HJ 1.4M 'Grinch X Target 😳🎄❄️' (HJ-03)",
+  "HJ 1.4M 'Christmas-HOLICS RUN, dont walk to Walmart' -> 'JK, We make them' at 8.33 s (HJ-04)",
+  "HJ 326K 'HeatedJammies at Target' -> 'JK, Get in bio' at 7.33 s; best buyers-per-view in the dataset (0.19 orders/1K)"
+ ],
+ "credits": 156.0,
+ "credit_cap": 156.0,
+ "quote": {
+  "lines": [
+   {
+    "gen": "H",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "H",
+    "item": "video 1080p 4s",
+    "credits": 64
+   },
+   {
+    "gen": "B1",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "B1",
+    "item": "video 720p 4s",
+    "credits": 28
+   },
+   {
+    "gen": "B2",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "B2",
+    "item": "video 720p 4s",
+    "credits": 28
+   },
+   {
+    "gen": "B3",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "B3",
+    "item": "video 720p 4s",
+    "credits": 28
+   }
+  ],
+  "stills": 8.0,
+  "video": 148,
+  "total": 156.0,
+  "basis": {
+   "still_gpt_image_2": 1.0,
+   "seedance_2_5_1080p_4s": 64,
+   "seedance_2_5_720p_4s": 28,
+   "per_s_1080p": 16,
+   "per_s_720p": 7
+  }
+ },
+ "gates": {
+  "ok": true,
+  "blocks": [],
+  "warns": [
+   "G1: song 'beginning_to_look' in-point 32.4s from own drafts; full track NOT fetched/verified yet -> run music/fetch_song.py before export",
+   "G5: plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+   "G11: opener H runs 2.90s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+   "G12: H: product-showcase shot with no action; prefer a toss, snap-on or install",
+   "G22: post caption 'Get it here: {url}' [WEAK PROOF: no POC cite]"
+  ]
+ },
+ "preflight": {
+  "ok": true,
+  "fix": []
+ },
+ "ready_for_approval": false,
+ "approval_file_draft": {
+  "approved_by": "",
+  "approved_at_pt": "",
+  "approval_quote": "",
+  "run_id": "concept_2026-10-20_merryfire_F02",
+  "plan_sha256": "5bab9c4b0783cba6092bc836bfc0521c1fc3b80515fb0321ea9409a8c40f0e5a",
+  "gens": [
+   "H",
+   "B1",
+   "B2",
+   "B3"
+  ],
+  "account": "user-Higgsfield--new-account",
+  "credit_cap": 156.0,
+  "expires_pt": "2026-10-21T15:21:25-07:00",
+  "consumed": false
+ },
+ "plan": {
+  "status": "PLANNED",
+  "brief": {
+   "brief": "Fake Store Pallet Reveal (+JK twist) video for the MerryFire",
+   "product_key": "merryfire",
+   "format": "F02",
+   "variant": false,
+   "hook_option": null,
+   "slot": "experiment"
+  },
+  "product": {
+   "key": "merryfire",
+   "display": "MerryFire tabletop fire pit",
+   "energy": 2,
+   "world": "cozy evening at home or on the patio: coffee table by the tree, patio table at dusk, s'mores, movie night"
+  },
+  "fit": {
+   "format": "F02",
+   "title": "Fake Store Pallet Reveal (+JK twist)",
+   "verdict": "WEAK",
+   "score": 0.0,
+   "video_energy": 4,
+   "reasons": [
+    "tried on this product without a hit: 1 reel(s), best 5,326",
+    "energy jump 2->4 (hype format on a calm product) without own proof",
+    "format tier A (Fake Store Pallet Reveal (+JK twist))"
+   ]
+  },
+  "why_this_format": [
+   "tried on this product without a hit: 1 reel(s), best 5,326",
+   "energy jump 2->4 (hype format on a calm product) without own proof",
+   "format tier A (Fake Store Pallet Reveal (+JK twist))"
+  ],
+  "alternatives": [
+   {
+    "format": "F04",
+    "title": "Then-vs-Now (recent & retro year)",
+    "verdict": "STRONG",
+    "score": 5.4
+   },
+   {
+    "format": "F12",
+    "title": "Cozy Ritual Payoff",
+    "verdict": "STRONG",
+    "score": 3.9
+   },
+   {
+    "format": "F01",
+    "title": "3-2-1 Countdown Reveal",
+    "verdict": "OK",
+    "score": 1.0
+   }
+  ],
+  "setting": "living room coffee table at night by the Christmas tree",
+  "adaptation": "none (format native)",
+  "hook_options_available": [
+   {
+    "format": "F01",
+    "option": "covered_glow",
+    "experiment_only": true,
+    "refs": null,
+    "why": "INNOVATION SLOT (20%): glow-under-cloth covered reveal for the fire pit - cue (glow + pattern) visible at 0 s"
+   }
+  ],
+  "hook_option": null,
+  "hook": {
+   "text": "Christmas-HOLICS RUN, dont walk to Walmart 🎅🎄",
+   "tag": "P",
+   "why": "HJ-04 1.4M"
+  },
+  "text_cards": [
+   {
+    "t": 0.0,
+    "dur": 7.6,
+    "text": "Christmas-HOLICS RUN, dont walk to Walmart 🎅🎄",
+    "scale": 0.72
+   },
+   {
+    "t": 7.6,
+    "dur": 5.6,
+    "text": "JK, We make them🎅🎄",
+    "scale": 1.0
+   }
+  ],
+  "text_style": {
+   "source": "style/capcut_text_preset.json (version 1.0)",
+   "font": "TikTok Sans / system",
+   "size": 15,
+   "stroke": 0.09,
+   "color": "#ffffff",
+   "stroke_color": "#000000",
+   "capcut_y": 0.62,
+   "center_y_frac": 0.19,
+   "animation_in": null,
+   "animation_out": null,
+   "scale": 0.93,
+   "font_render": "/usr/share/fonts/truetype/sand-box/google/Montserrat/Montserrat-VariableFont_wght.ttf"
+  },
+  "shots": [
+   {
+    "code": "THEN",
+    "t0": 0.0,
+    "t1": 2.9,
+    "desc": "'then' disaster (format-specific)",
+    "gen": "H"
+   },
+   {
+    "code": "BOX",
+    "t0": 2.9,
+    "t1": 4.7,
+    "desc": "POV MerryFire box on lap, tabletop fire pit lifted out",
+    "gen": "B1"
+   },
+   {
+    "code": "PLACE",
+    "t0": 4.7,
+    "t1": 6.6,
+    "desc": "high-angle POV, hands on the tabletop fire pit: tabletop fire pit set on the coffee/patio table, family gathering",
+    "gen": "B1"
+   },
+   {
+    "code": "POUR",
+    "t0": 6.6,
+    "t1": 7.6,
+    "desc": "quick setup insert: fuel poured into the steel cup only",
+    "gen": "B2"
+   },
+   {
+    "code": "IGNITE",
+    "t0": 7.6,
+    "t1": 9.2,
+    "desc": "ACTIVATION: a long lighter clicks over the steel cup and the flame catches and rises steadily",
+    "gen": "B2"
+   },
+   {
+    "code": "PROOF",
+    "t0": 9.2,
+    "t1": 11.3,
+    "desc": "AI-doubt proof: the real-size fire pit on a normal coffee table, family roasting s'mores around the steady flame, design identical to the reference",
+    "gen": "B3"
+   },
+   {
+    "code": "HERO",
+    "t0": 11.3,
+    "t1": 13.2,
+    "desc": "hero shot of the flame at night; hard cut out",
+    "gen": "B3"
+   }
+  ],
+  "gens": [
+   {
+    "id": "H",
+    "model": "seedance_2_5",
+    "res": "1080p",
+    "dur": 4,
+    "shots": [
+     "THEN"
+    ],
+    "prompt": "Static wide shot down a big-box store aisle that looks like a big US discount store (no logos, no readable store name), bright store lighting. A huge perfectly stacked cardboard pallet display printed with \"MerryFire\" holds a pyramid of identical folded round tabletop fire pits from <<<image_1>>> with the design facing out, the MerryFire box from <<<image_2>>> repeated on the display, and one actively working tabletop fire pit on top of the display. Very slow push-in toward the pallet, nobody in frame, store ambience. The pallet fills the middle of the frame; top 20% is store ceiling. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo down a wide big-box store aisle that looks like a big US discount store, with plain unbranded signage. Centre frame: a huge cardboard pallet display printed with \"MerryFire\" stacked in a perfect pyramid of folded round tabletop fire pits from the first image, the MerryFire box from the second image repeated around the base, one working tabletop fire pit displayed on top, a large American flag hanging overhead. Bright even store light, top 20% clear. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings; a thermostat on the wall showing 68°F. Sharp, clean, realistic phone photo. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.png",
+      "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.webp",
+      "/workspace/hookforge/refs/merryfire/product/product_01_white_hero.png",
+      "/workspace/hookforge/refs/merryfire/product/product_05_artwork_detail.png",
+      "/workspace/hookforge/refs/merryfire/cast/lifestyle_02_dramatic_red_studio.png",
+      "/workspace/hookforge/refs/merryfire/cast/lifestyle_03_snowy_porch.png"
+     ]
+    },
+    "credits": 65.0,
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.png",
+     "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.webp",
+     "/workspace/hookforge/refs/merryfire/product/product_01_white_hero.png",
+     "/workspace/hookforge/refs/merryfire/product/product_05_artwork_detail.png",
+     "/workspace/hookforge/refs/merryfire/cast/lifestyle_02_dramatic_red_studio.png",
+     "/workspace/hookforge/refs/merryfire/cast/lifestyle_03_snowy_porch.png"
+    ],
+    "ref_manifest": "refs/merryfire/manifest.json"
+   },
+   {
+    "id": "B1",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 2.0,
+    "shots": [
+     "BOX",
+     "PLACE"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a family of four and a golden retriever consistent throughout, in a cozy living room at night by the Christmas tree. Shot 1 (0-2s, BOX): POV MerryFire box on lap, tabletop fire pit lifted out. HARD CUT at 2s, no transition. Shot 2 (2-4s, PLACE): high-angle POV, hands on the tabletop fire pit: tabletop fire pit set on the coffee/patio table, family gathering. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo in a cozy living room at night by the Christmas tree: a family of four and a golden retriever, POV MerryFire box on lap, tabletop fire pit lifted out, the tabletop fire pit from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings; a thermostat on the wall showing 68°F. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.png",
+      "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.webp",
+      "/workspace/hookforge/refs/merryfire/product/product_01_white_hero.png",
+      "/workspace/hookforge/refs/merryfire/product/product_05_artwork_detail.png",
+      "/workspace/hookforge/refs/merryfire/cast/lifestyle_02_dramatic_red_studio.png",
+      "/workspace/hookforge/refs/merryfire/cast/lifestyle_03_snowy_porch.png"
+     ]
+    },
+    "credits": 29.0,
+    "trims": {
+     "BOX": [
+      0.2,
+      2.0
+     ],
+     "PLACE": [
+      2.0,
+      3.9
+     ]
+    },
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.png",
+     "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.webp",
+     "/workspace/hookforge/refs/merryfire/product/product_01_white_hero.png",
+     "/workspace/hookforge/refs/merryfire/product/product_05_artwork_detail.png",
+     "/workspace/hookforge/refs/merryfire/cast/lifestyle_02_dramatic_red_studio.png",
+     "/workspace/hookforge/refs/merryfire/cast/lifestyle_03_snowy_porch.png"
+    ],
+    "ref_manifest": "refs/merryfire/manifest.json"
+   },
+   {
+    "id": "B2",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 2.0,
+    "shots": [
+     "POUR",
+     "IGNITE"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a family of four and a golden retriever consistent throughout, in a cozy living room at night by the Christmas tree. Shot 1 (0-2s, POUR): quick setup insert: fuel poured into the steel cup only. HARD CUT at 2s, no transition. Shot 2 (2-4s, IGNITE): ACTIVATION: a long lighter clicks over the steel cup and the flame catches and rises steadily. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo in a cozy living room at night by the Christmas tree: a family of four and a golden retriever, quick setup insert: fuel poured into the steel cup only, the tabletop fire pit from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings; a thermostat on the wall showing 68°F. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.png",
+      "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.webp",
+      "/workspace/hookforge/refs/merryfire/product/product_01_white_hero.png",
+      "/workspace/hookforge/refs/merryfire/product/product_05_artwork_detail.png",
+      "/workspace/hookforge/refs/merryfire/cast/lifestyle_02_dramatic_red_studio.png",
+      "/workspace/hookforge/refs/merryfire/cast/lifestyle_03_snowy_porch.png"
+     ]
+    },
+    "credits": 29.0,
+    "trims": {
+     "POUR": [
+      1.0,
+      2.0
+     ],
+     "IGNITE": [
+      2.0,
+      3.6
+     ]
+    },
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.png",
+     "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.webp",
+     "/workspace/hookforge/refs/merryfire/product/product_01_white_hero.png",
+     "/workspace/hookforge/refs/merryfire/product/product_05_artwork_detail.png",
+     "/workspace/hookforge/refs/merryfire/cast/lifestyle_02_dramatic_red_studio.png",
+     "/workspace/hookforge/refs/merryfire/cast/lifestyle_03_snowy_porch.png"
+    ],
+    "ref_manifest": "refs/merryfire/manifest.json"
+   },
+   {
+    "id": "B3",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 2.1,
+    "shots": [
+     "PROOF",
+     "HERO"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a family of four and a golden retriever consistent throughout, in a cozy living room at night by the Christmas tree. Shot 1 (0-2.1s, PROOF): AI-doubt proof: the real-size fire pit on a normal coffee table, family roasting s'mores around the steady flame, design identical to the reference. HARD CUT at 2.1s, no transition. Shot 2 (2.1-4s, HERO): hero shot of the flame at night; hard cut out. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo in a cozy living room at night by the Christmas tree: a family of four and a golden retriever, AI-doubt proof: the real-size fire pit on a normal coffee table, family roasting s'mores around the steady flame, design identical to the reference, the tabletop fire pit from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings; a thermostat on the wall showing 68°F. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.png",
+      "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.webp",
+      "/workspace/hookforge/refs/merryfire/product/product_01_white_hero.png",
+      "/workspace/hookforge/refs/merryfire/product/product_05_artwork_detail.png",
+      "/workspace/hookforge/refs/merryfire/cast/lifestyle_02_dramatic_red_studio.png",
+      "/workspace/hookforge/refs/merryfire/cast/lifestyle_03_snowy_porch.png"
+     ]
+    },
+    "credits": 29.0,
+    "trims": {
+     "PROOF": [
+      -0.0,
+      2.1
+     ],
+     "HERO": [
+      2.1,
+      4.0
+     ]
+    },
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.png",
+     "/workspace/hookforge/assets/merryfire/product/01-lift-off-tray.webp",
+     "/workspace/hookforge/refs/merryfire/product/product_01_white_hero.png",
+     "/workspace/hookforge/refs/merryfire/product/product_05_artwork_detail.png",
+     "/workspace/hookforge/refs/merryfire/cast/lifestyle_02_dramatic_red_studio.png",
+     "/workspace/hookforge/refs/merryfire/cast/lifestyle_03_snowy_porch.png"
+    ],
+    "ref_manifest": "refs/merryfire/manifest.json"
+   }
+  ],
+  "duration": 13.2,
+  "hook_s": 2.9,
+  "music": {
+   "pick": {
+    "song": "beginning_to_look",
+    "version": "Michael Bublé It's Beginning to Look a Lot Like Christmas ~0:31.6",
+    "offset_s": 32.4,
+    "energy": 2,
+    "region": "unknown",
+    "score": 3.066,
+    "why": ""
+   },
+   "alternatives": [
+    {
+     "song": "last_christmas",
+     "version": "Wham! Last Christmas (official) ~2:50 chorus",
+     "offset_s": 170.5,
+     "energy": 4,
+     "region": "UK/EU-skewed",
+     "score": 3.05,
+     "why": ""
+    },
+    {
+     "song": "jingle_bells_viibez",
+     "version": "Viibez Jingle Bells remix 0:00",
+     "offset_s": NaN,
+     "energy": 4,
+     "region": "unknown",
+     "score": 2.112,
+     "why": "proven in niche (own best 112,000, ext best 0); energy gap 0"
+    }
+   ],
+   "rejected": [
+    {
+     "song": "free_bird",
+     "reason": "niche ski|funny != christmas"
+    },
+    {
+     "song": "boombastic_tiktok",
+     "reason": "niche ski|streetwear|funny != christmas"
+    },
+    {
+     "song": "let_it_snow",
+     "reason": "energy 2 vs video 4"
+    },
+    {
+     "song": "velvet_glow",
+     "reason": "energy 1 vs video 4"
+    },
+    {
+     "song": "family_christmas",
+     "reason": "energy 2 vs video 4"
+    },
+    {
+     "song": "be_my_baby",
+     "reason": "niche general != christmas"
+    },
+    {
+     "song": "give_it_up",
+     "reason": "niche ski|party != christmas"
+    }
+   ]
+  },
+  "caption": {
+   "text": "Get it here: {url}",
+   "why": "proven caption on this product (67,731 views)"
+  },
+  "banned_cta_found": [],
+  "posting": {
+   "page": "MF",
+   "exploit_windows_pt": [
+    "18-21",
+    "21-24"
+   ],
+   "explore_windows_pt": [
+    "04-08",
+    "08-12",
+    "12-15",
+    "00-04",
+    "15-18"
+   ],
+   "explore_share": 0.2
+  },
+  "credits": {
+   "total": 152.0,
+   "budget": 175,
+   "within_budget": true,
+   "reroll_reserve_max_1_shot": 64.0,
+   "breakdown": [
+    [
+     "H",
+     "1080p",
+     65.0
+    ],
+    [
+     "B1",
+     "720p",
+     29.0
+    ],
+    [
+     "B2",
+     "720p",
+     29.0
+    ],
+    [
+     "B3",
+     "720p",
+     29.0
+    ]
+   ],
+   "source": "inferred from Higgsfield transactions 2026-10-18 (read-only)"
+  },
+  "prompt_checks": [
+   "AUDIENCE-FIT AF3: Christmas-HOLICS RUN, dont walk to Walmart 🎅🎄: no proof for this line in the merryfire niche (caption_proof / proven hook needed)",
+   "AUDIENCE-FIT AF2: 🎅: not in merryfire emoji set (meaning in this niche unproven)",
+   "AUDIENCE-FIT AF3: JK, We make them🎅🎄: no proof for this line in the merryfire niche (caption_proof / proven hook needed)",
+   "AUDIENCE-FIT AF2: 🎅: not in merryfire emoji set (meaning in this niche unproven)"
+  ],
+  "us_cues": [
+   "a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings",
+   "a thermostat on the wall showing 68°F"
+  ],
+  "proof_shot": {
+   "present": true,
+   "spec": [
+    "PROOF",
+    "AI-doubt proof: wide shot showing the real size of the fire pit on a normal coffee table, steady flame, design identical to the reference"
+   ]
+  },
+  "hook_variants": [
+   {
+    "text": "Christmas-HOLICS RUN, dont walk to Walmart 🎅🎄",
+    "tag": "P",
+    "why": "HJ-04 1.4M",
+    "rank": 1,
+    "role": "control (proven)"
+   },
+   {
+    "text": "Moms RUN dont walk to Target 😳🎄",
+    "tag": "F",
+    "why": "HJ-04 (pallet required)",
+    "rank": 2,
+    "role": "variant",
+    "share_cta": false
+   },
+   {
+    "text": "Christmas moms, don't walk RUN to costco!🎄👀",
+    "tag": "T",
+    "why": "ext tryglowmas 246K",
+    "rank": 3,
+    "role": "experiment (transfer)",
+    "share_cta": false
+   },
+   {
+    "text": "PurrVenture X PetSmart 😳🐾",
+    "tag": "T",
+    "why": "HJ-03 transfer",
+    "rank": 4,
+    "role": "experiment (transfer)",
+    "share_cta": false
+   }
+  ],
+  "covers": [
+   {
+    "role": "hook",
+    "t": 0.3,
+    "why": "product legible at 0 s + hook text"
+   },
+   {
+    "role": "activation",
+    "t": 8.4,
+    "why": "IGNITE mid-shot"
+   },
+   {
+    "role": "payoff",
+    "t": 12.25,
+    "why": "HERO mid-shot"
+   }
+  ],
+  "season": {
+   "phase": "pre_season",
+   "levers": [
+    "gift formats ok",
+    "cozy/decor then-vs-now",
+    "Christmas music allowed (own Sep-Oct winners used it)"
+   ],
+   "gift_cutoff": null,
+   "delivery_claims_allowed": false,
+   "date": "2026-10-21",
+   "ly_season_prior": {
+    "format": {
+     "F09": {
+      "share": 0.354,
+      "prior_weight": 0.5,
+      "score": 0.0885,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     },
+     "F13": {
+      "share": 0.329,
+      "prior_weight": 0.5,
+      "score": 0.082,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     },
+     "F07": {
+      "share": 0.317,
+      "prior_weight": 0.5,
+      "score": 0.0795,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     }
+    },
+    "music": {
+     "no Shazam match (label: original sound)": {
+      "share": 0.218,
+      "prior_weight": 0.5,
+      "score": 0.109,
+      "n": 7,
+      "thin": false
+     },
+     "Fantasmic! (From Fantasmic!) [Disneyland] - Bruce Healey, Ned Washington, Sammy Cahn, Leigh Harline, Frank Churchill, Larry Morey, Alan Menken, Howard Ashman, Sammy Fain, Jack Wallace, Jack Lawrence, Oliver Wallace, Modest Mussorgsky, Barnette Ricci, Paul Dukas & Victor Young | in-point 41.3s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Total Eclipse of the Heart - Bonnie Tyler | in-point 46.7s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "All I Want for Christmas Is You - Mariah Carey | in-point 51.1s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Last Christmas (Single Version) - Wham! | in-point 34.8s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Oui, Oui, Oui, Oui - Sacha Distel | in-point -0.2s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Sleigh Ride - The Ronettes | in-point 48.2s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Rockin' Around The Christmas Tree - Brenda Lee | in-point -0.0s at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "no Shazam match (label: Elf - Main Theme)": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "Morning Bossa Nova - Bossa Nova Terrace | in-point unknowns at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "A Thousand Years - Christina Perri | in-point 18.9s at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "no Shazam match (label: Rockin’ Around The Christmas Tree)": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "Christmas (Baby Please Come Home) - Darlene Love | in-point 9.2s at video 0 | conf high": {
+      "share": 0.032,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Sleigh Ride - Ella Fitzgerald | in-point 10.8s at video 0 | conf high": {
+      "share": 0.032,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "last christmas": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Last Christmas (Single Version) - Wham! | in-point 74.1s at video 0 | conf high": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Rockin' Around The Christmas Tree - Brenda Lee | in-point 0.0s at video 0 | conf high": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Its Beginning to Look a Lot Like Christmas (2024 Remastered) - The Fontane Sisters | in-point 87.1s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Jingle Bell Rock - Bobby Helms | in-point 0.4s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "U Know What's Up (feat. Lisa \"Left Eye\" Lopes) - Donell Jones | in-point unknowns at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "All I Want for Christmas Is You - Mariah Carey | in-point 48.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Sakura - Lined Street - KCNX | in-point 0.0s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Upside Down - Jack Johnson | in-point 54.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Run It - Jelly Roll | in-point 37.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "original sound - demetra dias (platform label; not yet audio-ID'd) | Shazam: no match": {
+      "share": 0.029,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     }
+    },
+    "weight": 0.5
+   }
+  },
+  "posting_checklist": [
+   "FB: run the caption/thumbnail test with the hook variants + covers (up to 4)",
+   "IG: post experiment slots as Trial Reels",
+   "Final file: exported via autoedit.clean_export (metadata/C2PA stripped, D44); preflight asserts none remains"
+  ],
+  "mock_source": {
+   "key": "MJIG-06",
+   "file": "/workspace/merryjammies/videos/ig_5.3K_DePqPmbvWjL.mp4",
+   "views": 5326,
+   "same_format": true
+  },
+  "provenance": {
+   "text_style": "style/capcut_text_preset.json (version 1.0)",
+   "emojis": "engine default",
+   "shot_grammar": "style/shot_grammar.md",
+   "psych": "psychology/psych_codebook.csv",
+   "audience": [
+    "audience/lexicon.csv",
+    "audience/audience_rules.csv"
+   ],
+   "voice": "voice/voice_rules.csv"
+  },
+  "audience_fit": {
+   "ok": false,
+   "slug": "merryfire",
+   "rows": [
+    {
+     "kind": "song",
+     "item": "beginning_to_look",
+     "ok": true,
+     "reason": "genre 'christmas crooner' fits merryfire (cozy, warm evening, quiet wow)",
+     "tier": "a",
+     "in_point": "32.4",
+     "evidence": [
+      "own:learning/music_library.csv beginning_to_look on merryfire 67731(F04)",
+      "in-point: own: most-used start 32.4 s on the CapCut file across 10 own drafts (learning/music_library.csv)"
+     ]
+    },
+    {
+     "kind": "card",
+     "item": "Christmas-HOLICS RUN, dont walk to Walmart 🎅🎄",
+     "ok": false,
+     "score": 0.25,
+     "reason": "no proof for this line in the merryfire niche (caption_proof / proven hook needed)",
+     "evidence": []
+    },
+    {
+     "kind": "emoji",
+     "item": "🎅",
+     "ok": false,
+     "reason": "not in merryfire emoji set (meaning in this niche unproven)",
+     "evidence": []
+    },
+    {
+     "kind": "emoji",
+     "item": "🎄",
+     "ok": true,
+     "reason": "merryfire: Christmas",
+     "evidence": [
+      "profile:audience/merryfire.yaml emoji_allowed"
+     ]
+    },
+    {
+     "kind": "card",
+     "item": "JK, We make them🎅🎄",
+     "ok": false,
+     "score": 0.25,
+     "reason": "no proof for this line in the merryfire niche (caption_proof / proven hook needed)",
+     "evidence": []
+    },
+    {
+     "kind": "emoji",
+     "item": "🎅",
+     "ok": false,
+     "reason": "not in merryfire emoji set (meaning in this niche unproven)",
+     "evidence": []
+    },
+    {
+     "kind": "emoji",
+     "item": "🎄",
+     "ok": true,
+     "reason": "merryfire: Christmas",
+     "evidence": [
+      "profile:audience/merryfire.yaml emoji_allowed"
+     ]
+    },
+    {
+     "kind": "caption",
+     "item": "Get it here: {url}",
+     "ok": true,
+     "score": 0.9,
+     "reason": "voice: calm homeowner voice, 1-2 emoji; slang ['Get it here']",
+     "evidence": [
+      "own: Get it here: {url} 67,731 views (merryfire)",
+      "own: proven caption on this product (67,731 views)"
+     ]
+    }
+   ]
+  },
+  "edit_defaults": [
+   {
+    "gen": "H",
+    "src_in": 0.0,
+    "src_out": 3.7,
+    "speed": 1.0
+   },
+   {
+    "gen": "B1",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B1",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   },
+   {
+    "gen": "B2",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B2",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   },
+   {
+    "gen": "B3",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B3",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   }
+  ],
+  "edit_lint": {
+   "ok": true,
+   "rows": [
+    {
+     "gen": "-",
+     "kind": "edit",
+     "rule": "ER11",
+     "severity": "WARN",
+     "text": "2 cards",
+     "fix": "3-card structure: problem -> Vs... -> solution"
+    },
+    {
+     "gen": "-",
+     "kind": "edit",
+     "rule": "ER17",
+     "severity": "WARN",
+     "text": "no key real sound boosted",
+     "fix": "boost the key real sound (scissors, door, tape, sparks) 2-4x"
+    }
+   ],
+   "defaults": {
+    "head_trim_s": 1.05,
+    "tail_trim_s": 1.2,
+    "first_head_trim_s": 0.0,
+    "split_pieces": [
+     2,
+     3
+    ],
+    "split_gap_s": 0.4,
+    "median_shot_s": 1.5,
+    "max_shot_s": 3.3,
+    "target_len_s": [
+     11.3,
+     16.833
+    ],
+    "shots": [
+     5,
+     11
+    ],
+    "cards": 3,
+    "speed": 1.0,
+    "action_speed": [
+     1.2,
+     1.5
+    ],
+    "scale": 1.0,
+    "clip_audio_volume": 1.0,
+    "key_sound_gain": [
+     2.0,
+     4.0
+    ],
+    "song_intro_exceptions": [
+     "holly_jolly",
+     "holly jolly"
+    ],
+    "opener_max_s": 4.1,
+    "hook_speed_values": [
+     1.1,
+     1.15,
+     1.2,
+     1.3,
+     1.5
+    ],
+    "max_card_lines": 2
+   }
+  },
+  "notes": [
+   "D75: no real footage in /workspace/research/product_footage/merryfire yet; AI reveal kept"
+  ],
+  "resolution_fixes": [],
+  "quote": {
+   "lines": [
+    {
+     "gen": "H",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "H",
+     "item": "video 1080p 4s",
+     "credits": 64
+    },
+    {
+     "gen": "B1",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "B1",
+     "item": "video 720p 4s",
+     "credits": 28
+    },
+    {
+     "gen": "B2",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "B2",
+     "item": "video 720p 4s",
+     "credits": 28
+    },
+    {
+     "gen": "B3",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "B3",
+     "item": "video 720p 4s",
+     "credits": 28
+    }
+   ],
+   "stills": 8.0,
+   "video": 148,
+   "total": 156.0,
+   "basis": {
+    "still_gpt_image_2": 1.0,
+    "seedance_2_5_1080p_4s": 64,
+    "seedance_2_5_720p_4s": 28,
+    "per_s_1080p": 16,
+    "per_s_720p": 7
+   }
+  },
+  "gates": {
+   "ok": true,
+   "blocks": [],
+   "warns": [
+    {
+     "gate": "G1",
+     "ok": true,
+     "level": "WARN",
+     "msg": "song 'beginning_to_look' in-point 32.4s from own drafts; full track NOT fetched/verified yet -> run music/fetch_song.py before export",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "WARN",
+     "msg": "plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+     "poc": null
+    },
+    {
+     "gate": "G11",
+     "ok": true,
+     "level": "WARN",
+     "msg": "opener H runs 2.90s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+     "poc": null
+    },
+    {
+     "gate": "G12",
+     "ok": true,
+     "level": "WARN",
+     "msg": "H: product-showcase shot with no action; prefer a toss, snap-on or install",
+     "poc": null
+    },
+    {
+     "gate": "G22",
+     "ok": true,
+     "level": "WARN",
+     "msg": "post caption 'Get it here: {url}' [WEAK PROOF: no POC cite]",
+     "poc": null
+    }
+   ],
+   "rows": [
+    {
+     "gate": "G1",
+     "ok": true,
+     "level": "WARN",
+     "msg": "song 'beginning_to_look' in-point 32.4s from own drafts; full track NOT fetched/verified yet -> run music/fetch_song.py before export",
+     "poc": null
+    },
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 'Christmas-HOLICS RUN, dont walk to Walmart 🎅🎄' = 6 words (max 8)",
+     "poc": null
+    },
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "INFO",
+     "msg": "proven format ['store_x_brand']",
+     "poc": null
+    },
+    {
+     "gate": "G3",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no profile bans contradict own data",
+     "poc": null
+    },
+    {
+     "gate": "G4",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 1080p, rest 720p",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "INFO",
+     "msg": "quote 156.0 credits (stills 8.0 counted per image, video 148)",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "WARN",
+     "msg": "plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no phonk",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "emoji render apple_ios (Apple iOS PNGs only)",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "prompts ask for real ambient sound only",
+     "poc": null
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 'Christmas-HOLICS RUN, dont walk to Walmart 🎅🎄' <- own FB HeatedJammies https://www.facebook.com/reel/2121138075159387/",
+     "poc": "POC-0006"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "caption 'Get it here: {url}' <- proven caption on this product (67,731 views)",
+     "poc": "proven caption on this product (67,731 views)"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "song 'beginning_to_look' <- own drafts n=10, proven_on grinch_robe:304000(F05|F06|F99);grinchmelt_mug:6326(F99);merryf",
+     "poc": "POC-0240"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "format '['tried on this product without a hit: 1 reel(s), ' <- ['tried on this product without a hit: 1 reel(s), best 5,326', 'energy jump 2->4 (hype for",
+     "poc": "['tried on this product without a hit: 1 reel(s), best 5,326', 'energy jump 2->4 (hype format on a calm product) without own proof', 'format tier A (Fake Store Pallet Reveal (+JK twist))']"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen H 'H' <- {'key': 'MJIG-06', 'file': '/workspace/merryjammies/videos/ig_5.3K_DePqPmbvWjL.mp4', 'view",
+     "poc": "{'key': 'MJIG-06', 'file': '/workspace/merryjammies/videos/ig_5.3K_DePqPmbvWjL.mp4', 'views': 5326, 'same_format': True}"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B1 'B1' <- {'key': 'MJIG-06', 'file': '/workspace/merryjammies/videos/ig_5.3K_DePqPmbvWjL.mp4', 'view",
+     "poc": "{'key': 'MJIG-06', 'file': '/workspace/merryjammies/videos/ig_5.3K_DePqPmbvWjL.mp4', 'views': 5326, 'same_format': True}"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B2 'B2' <- {'key': 'MJIG-06', 'file': '/workspace/merryjammies/videos/ig_5.3K_DePqPmbvWjL.mp4', 'view",
+     "poc": "{'key': 'MJIG-06', 'file': '/workspace/merryjammies/videos/ig_5.3K_DePqPmbvWjL.mp4', 'views': 5326, 'same_format': True}"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B3 'B3' <- {'key': 'MJIG-06', 'file': '/workspace/merryjammies/videos/ig_5.3K_DePqPmbvWjL.mp4', 'view",
+     "poc": "{'key': 'MJIG-06', 'file': '/workspace/merryjammies/videos/ig_5.3K_DePqPmbvWjL.mp4', 'views': 5326, 'same_format': True}"
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "H: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B1: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B2: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B3: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G10",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no on-screen URL CTA",
+     "poc": null
+    },
+    {
+     "gate": "G11",
+     "ok": true,
+     "level": "WARN",
+     "msg": "opener H runs 2.90s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+     "poc": null
+    },
+    {
+     "gate": "G12",
+     "ok": true,
+     "level": "WARN",
+     "msg": "H: product-showcase shot with no action; prefer a toss, snap-on or install",
+     "poc": null
+    },
+    {
+     "gate": "G13",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all AI motions short and simple",
+     "poc": null
+    },
+    {
+     "gate": "G14",
+     "ok": true,
+     "level": "INFO",
+     "msg": "Vs not in first card",
+     "poc": null
+    },
+    {
+     "gate": "G15",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no lingering shots",
+     "poc": null
+    },
+    {
+     "gate": "G16",
+     "ok": true,
+     "level": "INFO",
+     "msg": "Seedance 2.5 / GPT Image 2 only, no end frames",
+     "poc": null
+    },
+    {
+     "gate": "G17",
+     "ok": true,
+     "level": "INFO",
+     "msg": "quote 156.0 cr vs budget 200",
+     "poc": null
+    },
+    {
+     "gate": "G18",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all gens <=5s",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "INFO",
+     "msg": "card emojis proven and paired",
+     "poc": null
+    },
+    {
+     "gate": "G20",
+     "ok": true,
+     "level": "INFO",
+     "msg": "afters animated and distinct",
+     "poc": null
+    },
+    {
+     "gate": "G21",
+     "ok": true,
+     "level": "INFO",
+     "msg": "not a vs format",
+     "poc": null
+    },
+    {
+     "gate": "G22",
+     "ok": true,
+     "level": "WARN",
+     "msg": "post caption 'Get it here: {url}' [WEAK PROOF: no POC cite]",
+     "poc": null
+    },
+    {
+     "gate": "G23",
+     "ok": true,
+     "level": "INFO",
+     "msg": "CTA uses SAY (no 'Comment')",
+     "poc": null
+    },
+    {
+     "gate": "G24",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all settings inside the product world",
+     "poc": null
+    },
+    {
+     "gate": "G25",
+     "ok": true,
+     "level": "INFO",
+     "msg": "not a political product",
+     "poc": null
+    }
+   ]
+  }
+ },
+ "format": "F02",
+ "day": "2026-10-20",
+ "rank_score": 0.637,
+ "rank_parts": {
+  "poc": 0.72,
+  "poc_views": 1400000,
+  "season": 0.55,
+  "gap": 0.57
+ },
+ "rationale": "merryfire F02: 0.637 = POC 0.72 (best cited 1,400,000 views) + season 0.55 (66 days to Christmas) + page gap 0.57 (last own post 8 days ago); 156.0 cr",
+ "recommended_today": false,
+ "status_before_retire": "AWAITING_OMAR_APPROVAL",
+ "retired_why": "D117: Omar retired this product 2026-10-20; kept as reference corpus, no new content",
+ "status_before": "RETIRED",
+ "archived_pt": "2026-10-20T15:59:00-07:00",
+ "archived_why": "D125: stale queue sweep (retired product / superseded concept); kept in _archive"
+}

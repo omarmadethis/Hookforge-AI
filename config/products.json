@@ -1,0 +1,54 @@
+{
+ "_note": "D117 (Omar 2026-10-20 3:37 PM PT): retired products are excluded from new concepts, ranking, builds, e2e and Buffer routing. Their videos/hooks/captions/stats STAY as virality reference corpus for learning (never delete).",
+ "products": {
+  "grinch_robe": {
+   "active": false,
+   "retired": "2026-10-20",
+   "retired_by": "Omar"
+  },
+  "heatjams": {
+   "active": false,
+   "retired": "2026-10-20",
+   "retired_by": "Omar"
+  },
+  "cozyjams": {
+   "active": false,
+   "retired": "2026-10-20",
+   "retired_by": "Omar"
+  },
+  "grinchmelt_mug": {
+   "active": false,
+   "retired": "2026-10-20",
+   "retired_by": "Omar"
+  },
+  "brickhood_mask": {
+   "active": false,
+   "retired": "2026-10-20",
+   "retired_by": "Omar"
+  },
+  "minionmask": {
+   "active": false,
+   "retired": "2026-10-20",
+   "retired_by": "Omar"
+  },
+  "merryfire": {
+   "active": false,
+   "retired": "2026-10-20",
+   "retired_by": "Omar"
+  },
+  "merryglow_lights": {
+   "active": false,
+   "retired": "2026-10-20",
+   "retired_by": "Omar"
+  },
+  "jollyglow_curtain": {
+   "active": true
+  },
+  "trumpglow": {
+   "active": true
+  },
+  "purrventure_carrier": {
+   "active": true
+  }
+ }
+}

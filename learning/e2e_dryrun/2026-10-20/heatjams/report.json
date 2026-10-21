@@ -1,0 +1,62 @@
+{
+ "product": "heatjams",
+ "day": "2026-10-20",
+ "stages": {
+  "concept": {
+   "ok": true,
+   "id": "concept_2026-10-20_heatjams_F07",
+   "format": "F07",
+   "hook": "Cold-aholics this is for you... 🥹💕"
+  },
+  "plan": {
+   "ok": true,
+   "gens": 4,
+   "setting": "couch with the Christmas tree behind"
+  },
+  "gates": {
+   "ok": true,
+   "blocks": [],
+   "warns": [
+    "hook not in a proven format (Don't show this to a ___ / POV street JEALOUS / don't walk RUN to [store])",
+    "plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+    "opener H runs 3.50s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+    "H: shot 1: 4 actions (max ~2)",
+    "post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]"
+   ],
+   "political": "n/a"
+  },
+  "quote": {
+   "ok": true,
+   "credits": 156.0,
+   "calls": 8,
+   "calls_credits": 156.0
+  },
+  "capcut": {
+   "ok": true,
+   "dir": "/workspace/hookforge/learning/e2e_dryrun/2026-10-20/heatjams/capcut/DRY_1020_heatjams_F07",
+   "problems": [],
+   "music": "last_christmas",
+   "music_missing": null
+  },
+  "route": {
+   "ok": true,
+   "pages": [
+    "merryjammies_ig_b2"
+   ],
+   "refused": []
+  },
+  "caption:merryjammies_ig_b2": {
+   "ok": true,
+   "text": "Get yours👉https://merryjammies.com/products/merryjammies-festive-heating-robe"
+  },
+  "payload": {
+   "ok": true,
+   "n": 1
+  },
+  "distinct_captions": {
+   "ok": true,
+   "n": 1
+  }
+ },
+ "breaks": []
+}

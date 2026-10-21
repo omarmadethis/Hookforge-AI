@@ -1,0 +1,580 @@
+{
+  "slug": "then-vs-now",
+  "name": "Then vs Now (\"Christmas last year.. → Vs.. → Christmas this year\")",
+  "tier": "A",
+  "status": "PROVEN on decor (FB): 7 winners 64.5K-152.9K across Merry Glow + Merry Glows. Retro-year '🤮' version is the external mega-winner (5.5M, 3.2M, 2.9M, 1.0M).",
+  "summary": "Open on a disaster 'then' scene with NO product (family + dog in a festive room; smoke, fire, a ladder fall), switch to 'Vs..' on the first body cut, show the box → install → activation, and switch to 'Christmas this year' exactly on the light-up cut.",
+  "why": [
+    "5 of the top 6 Merry Glow reels (70-153K) and both Merry Glows winners (67.7K, 64.5K) are then-vs-now (PLAYBOOK §2.1).",
+    "The identical fire-pit file did 40.3K on IG and 67.7K on FB (cross-platform carry).",
+    "External: merryglow.official 'Christmas Decor In 1950🤮' 5.5M (TikTok mirror 3.2M / 34.2K shares), '1965' 2.9M, tryglowmas '1995🤮' 1.0M, glowfall '1649' 520K (external §2, §3b).",
+    "Within decor pages retention tracks views (avg watch ρ=0.85) and more people in the opening frame → higher 3-s rate (hooks REPORT §1.6)."
+  ],
+  "product_fit": [
+    {
+      "type": "Decor that lights up (tree lights, curtain, projector)",
+      "fit": "PRIMARY",
+      "evidence": "MG 152.9K, 119K, 84K, 72.2K, 70.4K; MGS 64.5K; ext 5.5M, 3.2M, 2.9M, 1.0M"
+    },
+    {
+      "type": "Fire pit / heat",
+      "fit": "YES",
+      "evidence": "MGS 67.7K (= IG 40.3K)"
+    },
+    {
+      "type": "Mug",
+      "fit": "YES (IG)",
+      "evidence": "IG 'Christmas in 1958..' 23K"
+    },
+    {
+      "type": "Wearable",
+      "fit": "TRANSFER, untested",
+      "evidence": "'Robes in 1998 Vs Robes in 2026' sits unused (PLAYBOOK §10)"
+    }
+  ],
+  "timing": {
+    "length": "12.2-13.5 s (decor can run to ~15 s; ext projector winners 14.8-15.7)",
+    "basis": "Recycled exact template (MG 119K, MG 84K, MGS 64.5K): 3.067 | 4.067 | 7.133 | 9.900 | 10.633 | 12.000 | END 13.43, with BOX cut from 3.07 s to 2.0 s because the biggest drop-off sits in BOX/UNBOX on 6/7 reels.",
+    "shots": [
+      {
+        "t": "0.0 → 3.0",
+        "shot": "THEN (hook, no product)",
+        "content": "lit festive living room, 3-6 people + a dog; the disaster lands by 1-3 s (tree catches fire / dad falls off ladder / smoke)",
+        "camera": "locked wide",
+        "text": "\"Christmas last year..\" (or '{retro year}🤮')",
+        "gen": "H1 (trim 3.0)"
+      },
+      {
+        "t": "3.0 → 4.0",
+        "shot": "THEN2 / bridge",
+        "content": "second 'before' angle (bare / dark / failed setup), same room",
+        "camera": "locked",
+        "text": "\"Vs..\" switches ON at this cut and holds",
+        "gen": "B1·S1 (trim to 1.0 s)"
+      },
+      {
+        "t": "4.0 → 6.0",
+        "shot": "BOX (≤2.0 s, motion inside)",
+        "content": "branded box on lap, lid off, product lifted out in one motion",
+        "camera": "locked top-down",
+        "text": "\"Vs..\"",
+        "gen": "B1·S2"
+      },
+      {
+        "t": "6.0 → 8.0",
+        "shot": "INSTALL",
+        "content": "hanging / placing the product (tree, gutter, window, table)",
+        "camera": "locked wide",
+        "text": "\"Vs..\"",
+        "gen": "B2·S1"
+      },
+      {
+        "t": "8.0 → 9.2",
+        "shot": "LIT 1 (activation, ~66-73%)",
+        "content": "app tap / plug → the product lights up, room transforms",
+        "camera": "locked wide",
+        "text": "\"{Occasion} this year\" switches ON exactly on this cut",
+        "gen": "B2·S2 (trim to 1.2 s)"
+      },
+      {
+        "t": "9.2 → 10.4",
+        "shot": "LIT 2 (escalation)",
+        "content": "closer or lower angle, family reacts",
+        "camera": "locked",
+        "text": "held",
+        "gen": "B3·S1 (trim 1.2 s)"
+      },
+      {
+        "t": "10.4 → 12.4",
+        "shot": "LIT 3 (hero, payoff ~84%)",
+        "content": "full hero wide, product doing its thing; hard cut at full music level",
+        "camera": "locked hero wide",
+        "text": "held",
+        "gen": "B3·S2"
+      }
+    ],
+    "measured": [
+      "MG 119K: 3.067 | 4.067 | 7.133 | 9.900 (LIT, 74%) | 10.633 | 12.000 | END 13.45 · avg watch 9 s, 61%, completion 25.7%, drop-off 0:06.",
+      "MG 84K: 3.100 | 4.100 | 7.167 | 9.833 (text 'this year' at 9.833) | 11.200 | 12.600 | END 13.45 · drop-off 0:06.",
+      "MG 152.9K (3-step text): 0.533 | 2.033 | 4.267 | 6.100 | 8.600 (LIT/text, 70%) | 10.000 | 10.967 | END 12.24 · drop-off 0:05.",
+      "MGS 67.7K fire pit: 2.800 | 4.867 | 6.933 | 7.700 | 8.733 | 9.567 (lighter, 66%) | 11.233 ('this year') | END 14.51 · 10 s, 67%, completion 30.7%.",
+      "MGS 64.5K: 1.667 | 3.100 | 4.100 | 7.167 | 9.933 | 10.667 | 12.067 | END 13.45.",
+      "External 1950 5.5M: 6.50 | 8.23 | 9.47 | 11.83 | 13.67 | END 15.63; snowlit 3.2M: 3.17 | 5.80 | 7.53 | 8.77 | 10.90 | 12.37 | 13.70 | END 14.8 (XA)."
+    ],
+    "rules": [
+      "'Vs..' switches on at the first body cut (2.8-4.3 s) and holds until the payoff.",
+      "'Christmas this year' switches on EXACTLY on the first LIT/FAMILY cut (8.600-11.233 s).",
+      "BOX/UNBOX ≤2.0 s with motion inside; prep total ≤4.5 s (body REPORT §3). Or put the box in the hook (MG 98K moved drop-off to 0:11).",
+      "LIT at 66-74%, then a 3-shot escalating payoff, 1.0-1.4 s each, locked camera."
+    ]
+  },
+  "text": {
+    "style": "Card sequence, house placement. Each card change happens only on a cut.",
+    "patterns": [
+      {
+        "pattern": "Christmas last year.. 😩 → Vs.. → Christmas in 2026",
+        "tag": "P",
+        "source": "MG 119K, 84K"
+      },
+      {
+        "pattern": "Christmas 2024.. 😩 → And Christmas 2025.. → VS... → Christmas 2026",
+        "tag": "P",
+        "source": "MG 152.9K"
+      },
+      {
+        "pattern": "Christmas last year.. → VS... → Christmas this year",
+        "tag": "P",
+        "source": "MGS 67.7K, IG 40.3K"
+      },
+      {
+        "pattern": "Christmas in 2025.. 🤮 → Vs.. → Christmas in 2026",
+        "tag": "P",
+        "source": "MGS 64.5K"
+      },
+      {
+        "pattern": "Christmas last year😩 → VS CHRISTMAS THIS YEAR?",
+        "tag": "P",
+        "source": "MG 72.2K"
+      },
+      {
+        "pattern": "Christmas trees in 1968 😩💡 → VS.. → Christmas trees in 2026",
+        "tag": "P (high variance)",
+        "source": "MG 70.4K vs MGS 1.2K"
+      },
+      {
+        "pattern": "Christmas Decor In {1950}🤮 → Vs… → Christmas Decor In 2026",
+        "tag": "P (ext)",
+        "source": "5.5M, 3.2M, 2.9M (1965), 1.0M (1995)"
+      },
+      {
+        "pattern": "The idea 🤮 → Vs... → The result 🤩",
+        "tag": "P (IG)",
+        "source": "IG 30.9K; ext 933K"
+      }
+    ],
+    "rules": [
+      "Then-emoji: 😩 (our winners) or 🤮 (external retro winners).",
+      "Recent-year is the safer FB default (7 FB winners); retro is the higher-ceiling experiment (ext 5 winners, own 70.4K vs 2.6K/1.2K)."
+    ]
+  },
+  "caption": {
+    "template": "This year it's different 😏🎄\nSAY \"{KEYWORD}\" and we'll send you the link\n#christmasdecor #christmas2026 #{product_tag}",
+    "keywords": [
+      "TREE",
+      "LIGHTS",
+      "CHRISTMAS"
+    ],
+    "rules": [
+      "Envy/curiosity first lines held top tier on decor (64.5K 'Be the envy of your friends..', Merry Carrier 63.3K / 62.8K).",
+      "SAY not COMMENT."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": 1,
+        "track": "Last Christmas (Wham!) · ~2:48-2:52 of 4:27 master",
+        "start": "reel 0.0",
+        "evidence": "MG 152.9K (171.0 s), 119K (169.8), 84K (170.0); IG 23K"
+      },
+      {
+        "rank": 2,
+        "track": "It's Beginning to Look a Lot Like Christmas (Bublé) · ~0:31-0:33",
+        "start": "reel 0.0",
+        "evidence": "MGS 67.7K (32.6), 64.5K (31.25); IG 40.3K"
+      },
+      {
+        "rank": "ext",
+        "track": "AIWFCIY (jea7lous upload) / No Pique Do Natal (IG)",
+        "start": "reel 0.0",
+        "evidence": "snowlit 3.2M; merryglow.official 5.5M"
+      }
+    ],
+    "rules": []
+  },
+  "generation_plan": {
+    "summary": "4 gens: H1 disaster 'then' at 1080p from a T8 start still of the SAME room used for the 'now'; B1-B3 decor body at 720p.",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "Disaster 'then' (no product)",
+        "shots": "one locked wide shot, disaster by 1-3 s",
+        "feeds": "THEN",
+        "inputs": "start still (T8): the same living room as B1-B3 with the family + golden retriever + American flag",
+        "basis": "H-THEN (prompt_templates) + verified start-frame method; MG 70.4K first cut 0.933, 152.9K splits THEN into 0.53 + 1.50.",
+        "prompt": "Image-to-video from the start image. A family of five with a golden retriever relaxes in this festive American living room with a Christmas tree and an American flag on the wall. Within two seconds {disaster: the old string lights spark and the tree catches a small fire / dad slips off a ladder holding a tangle of lights}, and everyone jumps up and runs toward the camera. Static camera, real chaos, no product visible. Natural sound only: sparks, gasps, a dog barking. No music, no text.\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8",
+          "prompt": "iPhone photo, vertical 9:16, taken from a static wide angle in a festive but undecorated American living room in the evening: a family of five and a golden retriever relax on the sofa, a bare Christmas tree with a tangle of old string lights stands beside the TV, and an American flag hangs on the wall. This exact room is reused for every 'now' shot. No product visible. Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B1",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "THEN2 | BOX",
+        "shots": "S1 second 'before' angle · S2 box open + lift out",
+        "feeds": "THEN2, BOX",
+        "inputs": "start image = the SAME room as the hook (T9 edit pass of the hook still); <<<image_1>>> = product; <<<image_2>>> = branded box",
+        "basis": "Verified start-frame scene scripts behind Merry Glow 153K/119K, Merry Carrier 63K, MerryFires 63K (PLAYBOOK §15 rule 4; T4/T5). Same room in then and now (PLAYBOOK §7.5 rule 4, IG 40.3K).",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, the same dark, undecorated American living room as the start image, evening. SHOT 1 (0.0-2.0s), framed as the start image: a second angle of the bare, unlit Christmas tree in the dim room, a tangle of old bulbs on the floor, nobody moving. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: top-down on a lap: hands lift the lid off the {brand} box from <<<image_2>>> and pull the {product} from <<<image_1>>> out in one smooth motion. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: quiet room tone, cardboard lid sliding off, a soft rustle. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T9 edit of the hook (H1) start still",
+          "prompt": "Edit the hook start still (H1). Keep everything exactly the same: the room, camera angle, framing, lens perspective, every piece of furniture and decor in the identical position. Only change: move the camera framing to a second angle of the same bare, unlit Christmas tree, with a tangle of old bulbs on the floor and nobody in frame. Vertical 9:16, photographic, sharp and clean, no motion blur, no film grain, no text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B2",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "INSTALL | LIT 1",
+        "shots": "S1 install · S2 activation, dark → lit",
+        "feeds": "INSTALL, LIT 1",
+        "inputs": "start image = install framing still; <<<image_1>>> = product; reference video of the real product's lit animation if available (4dabfa47 pattern)",
+        "basis": "Verified 4dabfa47 (Merry Glow 152.9K @10.0 s): 'the tree's lights are defined ENTIRELY by the attached reference videos… Do not invent' — integrity guard against fake effects.",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room, room lights off, night outside the windows. SHOT 1 (0.0-2.0s), framed as the start image: a woman wraps the {product} from <<<image_1>>> around the tree from bottom to top, wires neat, everything still unlit. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: POV: a thumb taps the phone app and the {product} switches on instantly, showing exactly the animation in the reference video, the tree becomes the only light source and the room glows. The light artwork appears only on the {product} itself, exactly as in the reference video; nothing floats off it, no projections, no particles. Audio: rustle of branches, a soft phone tap, a delighted gasp from off camera. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T9 edit of the hook (H1) start still",
+          "prompt": "Edit the hook start still (H1). Keep everything exactly the same: the room, camera angle, framing, lens perspective, every piece of furniture and decor in the identical position. Only change: a woman stands beside the tree holding the start of the unlit {product} from <<<image_1>>> at the lowest branch, room lights off, night outside the windows. Vertical 9:16, photographic, sharp and clean, no motion blur, no film grain, no text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B3",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "LIT 2 | LIT 3",
+        "shots": "S1 lower/closer angle + family reaction · S2 hero wide",
+        "feeds": "LIT 2, LIT 3",
+        "inputs": "start image = hero still of the lit room (T9 edit: 'switch off the lamps so the tree is the only light source'); <<<image_1>>>",
+        "basis": "Decor payoff = 3-shot escalating block, 1.0-1.4 s each, locked camera (body REPORT §2; MG 152.9K, 119K, 84K).",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, the same lit living room at night, the {product} is the only light source, American flag on the wall. SHOT 1 (0.0-2.0s), framed as the start image: low angle from beside the sofa: two kids in Christmas pajamas kneel in front of the lit {product}, pointing and laughing, mom behind them with a mug. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: locked wide hero shot of the whole room glowing from the {product}, the family on the sofa, a golden retriever on the rug. The {product} keeps exactly the same lit pattern as the previous clip; no camera movement in shot 2. Audio: kids laughing, soft room tone. No background music, no text, no captions.\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T9 edit of the B2 install still",
+          "prompt": "Edit the B2 install start still. Keep everything exactly the same: the room, camera angle, framing, lens perspective, every piece of furniture and decor in the identical position. Only change: remove the woman, switch off the lamps so the lit {product} from <<<image_1>>> is the only light source, and add two kids in Christmas pajamas kneeling in front of it with mom behind them holding a mug. Vertical 9:16, photographic, sharp and clean, no motion blur, no film grain, no text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      }
+    ],
+    "rules": [
+      "Retro version wants a vintage look, which conflicts with the suffix's 'do not make the video grainy': keep the suffix (Omar) and add the vintage grade in CapCut (prompt_templates note).",
+      "Never fake an effect the product can't do (projectors are being fact-checked; V). Use the 4dabfa47 integrity guard."
+    ]
+  },
+  "evidence": [
+    {
+      "origin": "internal",
+      "id": "mg_post122113681893432799",
+      "page": "Merry Glow",
+      "platform": "FB",
+      "views": 152878,
+      "shares": null,
+      "role": "winner",
+      "note": "Christmas 2024.. → And 2025.. → VS... → 2026 · gen 4dabfa47 · 3s 46%, avg 8 s",
+      "src": "H,B,I,M",
+      "url": "https://www.facebook.com/reel/985708367871514/"
+    },
+    {
+      "origin": "internal",
+      "id": "mg_post122110427571432799",
+      "page": "Merry Glow",
+      "platform": "FB",
+      "views": 119070,
+      "shares": null,
+      "role": "winner",
+      "note": "Christmas last year.. → Vs.. → 2026 · 9 s, 61%",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "mg_post122114911347432799",
+      "page": "Merry Glow",
+      "platform": "FB",
+      "views": 84377,
+      "shares": null,
+      "role": "winner",
+      "note": "same template · 8 s, 60%",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "mg_post122113804773432799",
+      "page": "Merry Glow",
+      "platform": "FB",
+      "views": 72193,
+      "shares": null,
+      "role": "winner",
+      "note": "Christmas last year → VS CHRISTMAS THIS YEAR? · 63%",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "mg_post122112299217432799",
+      "page": "Merry Glow",
+      "platform": "FB",
+      "views": 70437,
+      "shares": null,
+      "role": "winner",
+      "note": "Christmas trees in 1968 → VS.. → 2026",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "mgs_6_67K_1703965718404034",
+      "page": "Merry Glows",
+      "platform": "FB",
+      "views": 67731,
+      "shares": null,
+      "role": "winner",
+      "note": "fire pit · last year → this year · 10 s, 67%, 3s 53%",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "mgs_9_64K_1606396270948395",
+      "page": "Merry Glows",
+      "platform": "FB",
+      "views": 64542,
+      "shares": null,
+      "role": "winner",
+      "note": "Christmas in 2025.. 🤮 → 2026 · 64%",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "ig_40.3K_DePucbFyXdY",
+      "page": "merry.jammies",
+      "platform": "IG",
+      "views": 40300,
+      "shares": null,
+      "role": "winner",
+      "note": "identical fire-pit file to 67.7K (IG first)",
+      "src": "H,B",
+      "url": "https://www.instagram.com/reel/DePucbFyXdY/"
+    },
+    {
+      "origin": "internal",
+      "id": "ig_30.9K_DeYZg4lKmeC",
+      "page": "merry.jammies",
+      "platform": "IG",
+      "views": 30900,
+      "shares": null,
+      "role": "winner",
+      "note": "The idea 🤮 → result (idea-vs-result)",
+      "src": "H,B",
+      "url": "https://www.instagram.com/reel/DeYZg4lKmeC/"
+    },
+    {
+      "origin": "internal",
+      "id": "ig_23K_DeGrL-XKMFp",
+      "page": "merry.jammies",
+      "platform": "IG",
+      "views": 23000,
+      "shares": null,
+      "role": "winner",
+      "note": "Christmas in 1958.. (mug)",
+      "src": "H,B",
+      "url": "https://www.instagram.com/reel/DeGrL-XKMFp/"
+    },
+    {
+      "origin": "internal",
+      "id": "mgs_11_12K_4679874755584582",
+      "page": "Merry Glows",
+      "platform": "FB",
+      "views": 12000,
+      "shares": null,
+      "role": "flop",
+      "note": "152.9K cut list re-rendered on day-0 page",
+      "src": "H,B",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "mgs_4_2.6K_1012581455204038",
+      "page": "Merry Glows",
+      "platform": "FB",
+      "views": 2603,
+      "shares": null,
+      "role": "flop",
+      "note": "Christmas in 1967 🤮 · retro on fire pit",
+      "src": "H,B",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "mgs_10_1.2K_1642636680825269",
+      "page": "Merry Glows",
+      "platform": "FB",
+      "views": 1211,
+      "shares": null,
+      "role": "flop",
+      "note": "1968 script re-render (1080p)",
+      "src": "H,B",
+      "url": null
+    },
+    {
+      "origin": "external",
+      "id": "merryglow.official/Zw3NszI6",
+      "page": "merryglow.official",
+      "platform": "IG",
+      "views": "5.5M",
+      "shares": null,
+      "flag": false,
+      "role": "external winner",
+      "note": "Christmas Decor In 1950🤮 → Vs… → 2026 · tree catches fire → projector",
+      "src": "X,V",
+      "url": "https://www.instagram.com/reel/DeEZw3NszI6/",
+      "posted": "2026-10-04"
+    },
+    {
+      "origin": "external",
+      "id": "snowlit.official/32826142",
+      "page": "snowlit.official",
+      "platform": "TikTok",
+      "views": 3200000.0,
+      "shares": "34.2K",
+      "flag": false,
+      "role": "external winner",
+      "note": "1965🤮 mirror · AI-labelled",
+      "src": "X",
+      "url": "https://www.tiktok.com/@snowlit.official/video/7693369514632826142",
+      "posted": "2026-10-05"
+    },
+    {
+      "origin": "external",
+      "id": "merryglow.official/xjkkMqGC",
+      "page": "merryglow.official",
+      "platform": "IG",
+      "views": "2.9M",
+      "shares": null,
+      "flag": false,
+      "role": "external winner",
+      "note": "Christmas Decor in 1965🤮 · ladder",
+      "src": "X",
+      "url": "https://www.instagram.com/reel/DdxxjkkMqGC/",
+      "posted": "2026-09-26"
+    },
+    {
+      "origin": "external",
+      "id": "tryglowmas/41673741",
+      "page": "tryglowmas",
+      "platform": "TikTok",
+      "views": 1000000.0,
+      "shares": "10.6K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Christmas Decor in 1995🤮 · man falls off ladder",
+      "src": "X",
+      "url": "https://www.tiktok.com/@tryglowmas/video/7688874183341673741",
+      "posted": "2026-09-23"
+    },
+    {
+      "origin": "external",
+      "id": "team.one.directio/97474079",
+      "page": "team.one.directio",
+      "platform": "TikTok",
+      "views": 932800.0,
+      "shares": "10.1K",
+      "flag": false,
+      "role": "external winner",
+      "note": "The first idea… 🤮👎 → result (idea-vs-result)",
+      "src": "X",
+      "url": "https://www.tiktok.com/@team.one.directio/video/7695928610397474079",
+      "posted": "2026-10-12"
+    },
+    {
+      "origin": "external",
+      "id": "glowfall.co/61547286",
+      "page": "glowfall.co",
+      "platform": "TikTok",
+      "views": 520100.0,
+      "shares": null,
+      "flag": false,
+      "role": "external winner",
+      "note": "Christmas in 1649 vs 2026",
+      "src": "X",
+      "url": "https://www.tiktok.com/@glowfall.co/video/7693695178661547286",
+      "posted": "2026-10-06"
+    }
+  ],
+  "failures": [
+    "Slow BOX/UNBOX holding 'Vs..' 0:04-0:07 is the #1 leak (6/7 reels).",
+    "Re-rendering a winning script on a brand-new page at day 0: 152.9K → 12K, 70.4K → 1.2K.",
+    "Late activation (>70%) and stretched runtime: MerryFires 33 views (15.7 s, activation 72%).",
+    "Different rooms for then and now break the contrast (PLAYBOOK §7.5 rule 4)."
+  ],
+  "variants": [
+    {
+      "name": "Retro 🤮 with family",
+      "rule": "'{Things} in {1950-1995}🤮' then-scene in a vintage room + modern payoff; keep our family-and-dog 'then' composition.",
+      "proof": "ext 5.5M, 3.2M, 2.9M, 1.0M; own 70.4K.",
+      "gate": "Run retro and recent on every decor product weekly; drop retro on a page after 3 renders < median."
+    },
+    {
+      "name": "Box-in-hook",
+      "rule": "THEN scene ends with someone carrying the box in at ~2.5 s; delete the BOX shot from the body.",
+      "proof": "MG 98K moved the drop-off from 0:04-0:06 to 0:11, 66% watched.",
+      "gate": "Compare avg watch vs the page's then-vs-now median."
+    },
+    {
+      "name": "Idea vs result",
+      "rule": "'The idea 🤮' = a DIY fail of the product's job, 'The result 🤩' = product.",
+      "proof": "IG 30.9K; ext 933K.",
+      "gate": "IG first."
+    }
+  ],
+  "checks": [
+    {
+      "id": "tvn.no_product_0s",
+      "rule": "product_visible_0 == False for THEN",
+      "cite": "decor then-vs-now winners"
+    },
+    {
+      "id": "tvn.vs_on_cut",
+      "rule": "'Vs' text event aligned to first cut (2.8-4.3 s)",
+      "cite": "body REPORT §7"
+    },
+    {
+      "id": "tvn.this_year_on_lit",
+      "rule": "payoff text event aligned to first LIT cut",
+      "cite": "84K 9.833, 67.7K 11.233, 152.9K 8.600"
+    },
+    {
+      "id": "tvn.box_le_2s",
+      "rule": "BOX/UNBOX shot ≤ 2.0 s",
+      "cite": "drop-off 0:04-0:06"
+    },
+    {
+      "id": "tvn.people_0s",
+      "rule": "people_n ≥ 3 in THEN",
+      "cite": "ρ≈0.55-0.60 people vs 3-s rate"
+    }
+  ],
+  "open": [
+    "Retro vs recent on FB is unresolved (n=1 retro winner).",
+    "Robe transfer untested."
+  ],
+  "review": [
+    "Fixed a weak spot from the old template: the 3.07 s UNBOX is now ≤2.0 s, because that exact shot is where viewers leave.",
+    "The 'then' has people + dog, matching the within-page retention correlation, not just a bare house."
+  ],
+  "rank": 1,
+  "evidence_strength": {
+    "score": 27.1,
+    "internal_hits_ge50k": 7,
+    "internal_tested": 13,
+    "external_organic_winners": 4
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

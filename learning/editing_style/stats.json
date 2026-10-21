@@ -1,0 +1,749 @@
+{
+ "n_drafts": 105,
+ "n_joined": 40,
+ "n_top": 17,
+ "top_threshold_views": 50000,
+ "weighting": "log10(views)-2 per draft (unjoined = 1K); wmedian = weighted median",
+ "timing": {
+  "total_duration": {
+   "n": 82,
+   "median": 13.367,
+   "wmedian": 13.1,
+   "p10": 11.3,
+   "p90": 16.833,
+   "min": 9.7,
+   "max": 20.8
+  },
+  "total_duration_top": {
+   "n": 14,
+   "median": 12.583,
+   "wmedian": 12.567,
+   "p10": 11.3,
+   "p90": 16.833,
+   "min": 10.733,
+   "max": 17.033
+  },
+  "shots_per_video": {
+   "n": 82,
+   "median": 7.0,
+   "wmedian": 7,
+   "p10": 5,
+   "p90": 11,
+   "min": 3,
+   "max": 13
+  },
+  "opener": {
+   "n": 82,
+   "median": 2.617,
+   "wmedian": 2.6,
+   "p10": 1.5,
+   "p90": 4.067,
+   "min": 0.333,
+   "max": 9.833
+  },
+  "opener_top": {
+   "n": 14,
+   "median": 2.583,
+   "wmedian": 2.367,
+   "p10": 1.5,
+   "p90": 4.833,
+   "min": 0.867,
+   "max": 9.833
+  },
+  "shot_len": {
+   "n": 608,
+   "median": 1.533,
+   "wmedian": 1.5,
+   "p10": 0.8,
+   "p90": 3.2,
+   "min": 0.133,
+   "max": 9.833
+  },
+  "shot_len_by_role": {
+   "hook": {
+    "n": 82,
+    "median": 2.617,
+    "wmedian": 2.6,
+    "p10": 1.5,
+    "p90": 4.067,
+    "min": 0.333,
+    "max": 9.833
+   },
+   "body": {
+    "n": 329,
+    "median": 1.5,
+    "wmedian": 1.467,
+    "p10": 0.867,
+    "p90": 3.2,
+    "min": 0.3,
+    "max": 6.7
+   },
+   "before": {
+    "n": 137,
+    "median": 1.3,
+    "wmedian": 1.233,
+    "p10": 0.667,
+    "p90": 2.333,
+    "min": 0.133,
+    "max": 5.467
+   },
+   "reveal": {
+    "n": 28,
+    "median": 2.3,
+    "wmedian": 2.233,
+    "p10": 1.233,
+    "p90": 3.4,
+    "min": 0.3,
+    "max": 6.467
+   },
+   "after": {
+    "n": 32,
+    "median": 1.283,
+    "wmedian": 1.267,
+    "p10": 0.8,
+    "p90": 1.833,
+    "min": 0.367,
+    "max": 3.433
+   }
+  },
+  "ending_shot": {
+   "n": 82,
+   "median": 1.883,
+   "wmedian": 1.733,
+   "p10": 1.067,
+   "p90": 3.5,
+   "min": 0.8,
+   "max": 6.7
+  },
+  "note": "timing/speed use the 82 drafts with >=3 shots (1-2 shot drafts are pre-cut exports)"
+ },
+ "speed": {
+  "share_shots_sped": 0.11,
+  "values": {
+   "n": 67,
+   "median": 1.3,
+   "wmedian": 1.3,
+   "p10": 1.1,
+   "p90": 1.8,
+   "min": 0.5,
+   "max": 2.9
+  },
+  "common": [
+   [
+    1.2,
+    15
+   ],
+   [
+    1.5,
+    10
+   ],
+   [
+    1.3,
+    10
+   ],
+   [
+    1.1,
+    9
+   ],
+   [
+    1.6,
+    4
+   ],
+   [
+    1.4,
+    4
+   ],
+   [
+    2.0,
+    3
+   ],
+   [
+    1.15,
+    3
+   ]
+  ],
+  "by_role": {
+   "hook": {
+    "sped": 16,
+    "of": 82,
+    "share": 0.195
+   },
+   "body": {
+    "sped": 26,
+    "of": 329,
+    "share": 0.079
+   },
+   "before": {
+    "sped": 21,
+    "of": 137,
+    "share": 0.153
+   },
+   "reveal": {
+    "sped": 2,
+    "of": 28,
+    "share": 0.071
+   },
+   "after": {
+    "sped": 2,
+    "of": 32,
+    "share": 0.062
+   }
+  },
+  "hook_speed": {
+   "n": 82,
+   "median": 1.0,
+   "wmedian": 1.0,
+   "p10": 1.0,
+   "p90": 1.2,
+   "min": 0.8,
+   "max": 2.0
+  },
+  "share_drafts_any_speed": 0.5,
+  "curve_or_ramp": "none seen (speed mode 0 only)"
+ },
+ "cuts": {
+  "transitions_total": 0,
+  "hard_cuts_only": true,
+  "head_trim": {
+   "n": 635,
+   "median": 0.9,
+   "wmedian": 0.9,
+   "p10": 0.0,
+   "p90": 4.867,
+   "min": 0.0,
+   "max": 363.133
+  },
+  "share_shots_head_trimmed": 0.666,
+  "tail_left": {
+   "n": 635,
+   "median": 1.233,
+   "wmedian": 1.233,
+   "p10": 0,
+   "p90": 4.9,
+   "min": 0,
+   "max": 10787.633
+  },
+  "overlays_per_video": {
+   "n": 105,
+   "median": 0,
+   "wmedian": 0,
+   "p10": 0,
+   "p90": 0,
+   "min": 0,
+   "max": 9
+  },
+  "color_adjust_share": 0.181
+ },
+ "text": {
+  "n_cards": 148,
+  "fonts": {
+   "en.ttf": 148
+  },
+  "size": {
+   "n": 148,
+   "median": 15.0,
+   "wmedian": 15,
+   "p10": 15,
+   "p90": 15,
+   "min": 15,
+   "max": 15
+  },
+  "scale": {
+   "n": 148,
+   "median": 0.928,
+   "wmedian": 0.919,
+   "p10": 0.723,
+   "p90": 1.0,
+   "min": 0.666,
+   "max": 1.209
+  },
+  "em_frac_of_width": {
+   "n": 148,
+   "median": 0.075,
+   "wmedian": 0.074,
+   "p10": 0.059,
+   "p90": 0.081,
+   "min": 0.054,
+   "max": 0.098
+  },
+  "stroke_width": {
+   "n": 148,
+   "median": 0.09,
+   "wmedian": 0.09,
+   "p10": 0.09,
+   "p90": 0.09,
+   "min": 0,
+   "max": 0.1
+  },
+  "colors": [
+   "#000000/#ffffff",
+   "#FFFFFF/",
+   "#ffffff/#000000"
+  ],
+  "line_max_width": {
+   "n": 148,
+   "median": 0.82,
+   "wmedian": 0.82,
+   "p10": 0.82,
+   "p90": 0.82,
+   "min": 0.82,
+   "max": 0.82
+  },
+  "y_center_frac_from_top": {
+   "n": 148,
+   "median": 0.199,
+   "wmedian": 0.2,
+   "p10": 0.152,
+   "p90": 0.237,
+   "min": 0.118,
+   "max": 0.747
+  },
+  "lines": {
+   "n": 148,
+   "median": 2.0,
+   "wmedian": 2,
+   "p10": 1,
+   "p90": 3,
+   "min": 1,
+   "max": 4
+  },
+  "explicit_lines": {
+   "n": 148,
+   "median": 1.0,
+   "wmedian": 1,
+   "p10": 1,
+   "p90": 2,
+   "min": 1,
+   "max": 3
+  },
+  "share_explicit_le2": 0.986,
+  "share_le2_lines": 0.764,
+  "chars_per_line": {
+   "n": 148,
+   "median": 18.0,
+   "wmedian": 18,
+   "p10": 8,
+   "p90": 24,
+   "min": 2,
+   "max": 27
+  },
+  "chars_total": {
+   "n": 148,
+   "median": 22.0,
+   "wmedian": 22,
+   "p10": 6,
+   "p90": 44,
+   "min": 0,
+   "max": 63
+  },
+  "card_on_at": {
+   "n": 148,
+   "median": 0.0,
+   "wmedian": 0.0,
+   "p10": 0.0,
+   "p90": 9.933,
+   "min": 0.0,
+   "max": 13.8
+  },
+  "first_card_starts_at_0": 0.989,
+  "card_dur": {
+   "n": 92,
+   "median": 3.967,
+   "wmedian": 3.967,
+   "p10": 2.5,
+   "p90": 9.7,
+   "min": 1.067,
+   "max": 11.833
+  },
+  "share_persistent_full_video": 0.378,
+  "cards_per_video": {
+   "n": 105,
+   "median": 1,
+   "wmedian": 1,
+   "p10": 0,
+   "p90": 3,
+   "min": 0,
+   "max": 4
+  },
+  "templates_used": 0,
+  "emoji_per_card": {
+   "n": 148,
+   "median": 1.0,
+   "wmedian": 1,
+   "p10": 0,
+   "p90": 2,
+   "min": 0,
+   "max": 4
+  },
+  "emoji_at_end_share": 0.926,
+  "card_vs_cut_sync": 0.831
+ },
+ "audio": {
+  "has_song_share": 0.79,
+  "song_starts_at": {
+   "n": 97,
+   "median": 0.0,
+   "wmedian": 0.0,
+   "p10": 0.0,
+   "p90": 4.067,
+   "min": 0.0,
+   "max": 12.2
+  },
+  "song_in_point": {
+   "n": 97,
+   "median": 21.6,
+   "wmedian": 21.6,
+   "p10": 0.267,
+   "p90": 170.233,
+   "min": 0.0,
+   "max": 175.0
+  },
+  "song_volume": {
+   "n": 97,
+   "median": 1.0,
+   "wmedian": 1.0,
+   "p10": 0.467,
+   "p90": 1.093,
+   "min": 0.202,
+   "max": 2.101
+  },
+  "song_volume_db": {
+   "n": 97,
+   "median": 0.0,
+   "wmedian": 0.0,
+   "p10": -6.61,
+   "p90": 0.77,
+   "min": -13.9,
+   "max": 6.45
+  },
+  "clip_volume": {
+   "n": 105,
+   "median": 1.0,
+   "wmedian": 1.0,
+   "p10": 0.323,
+   "p90": 1.714,
+   "min": 0.0,
+   "max": 4.614
+  },
+  "share_shots_muted": 0.137,
+  "audible_clip_vs_song_db": {
+   "n": 75,
+   "median": 0.0,
+   "wmedian": 0.0,
+   "p10": -0.77,
+   "p90": 7.31,
+   "min": -6.45,
+   "max": 19.51
+  },
+  "boosted_clip_share": 0.082,
+  "boosted_by_role": {
+   "hook": 12,
+   "before": 10,
+   "reveal": 1,
+   "after": 1,
+   "body": 26
+  },
+  "boosted_clip_volume": {
+   "n": 50,
+   "median": 2.954,
+   "wmedian": 2.954,
+   "p10": 1.789,
+   "p90": 4.361,
+   "min": 1.259,
+   "max": 10.0
+  },
+  "fade_in": {
+   "n": 97,
+   "median": 0,
+   "wmedian": 0,
+   "p10": 0.0,
+   "p90": 0,
+   "min": 0,
+   "max": 0
+  },
+  "fade_out": {
+   "n": 97,
+   "median": 0,
+   "wmedian": 0,
+   "p10": 0.0,
+   "p90": 0,
+   "min": 0,
+   "max": 0
+  },
+  "share_fade_out": 0.0,
+  "ducking_keyframes": 0,
+  "song_ends_with_video": 0.856,
+  "song_names": [
+   "1004 (3).MP3",
+   "Boombastic 0",
+   "Brenda Lee - Rockin' Around The Christmas Tree (Official Lyr",
+   "Dean Martin - Let It Snow! Let It Snow! Let It Snow! (Offici",
+   "Free Bird",
+   "Free Bird 0",
+   "Mariah Carey - All I Want for Christmas Is You (Make My Wish",
+   "Michael Bublé - Holly Jolly Christmas [Official HD]",
+   "Michael Bublé - It's Beginning To Look A Lot Like Christmas",
+   "Nat King Cole   Chestnuts roasting on an open fire 0",
+   "Sean Paul - Give It Up To Me (Lyrics) ft. Keyshia Cole 0",
+   "Shaggy - Boombastic (Sting remix) (Lyrics) (TikTok Song) _ I",
+   "Sixty Second Commercial 1- Michael Reynolds, Mmigo 0",
+   "Somewhere in my memory - John Williams (Home alone soundtrac",
+   "Wham! - Last Christmas (Official Video)",
+   "Y2Mate.is - The Ronettes - Be My Baby Official Audio",
+   "hf_20261012_182545_4fbf759d-507a-4eeb-8dd5-820ec2b0d430"
+  ]
+ },
+ "endings": {
+  "last_shot_role": {
+   "after": 16,
+   "reveal": 12,
+   "body": 58,
+   "before": 0
+  },
+  "last_card_covers_end": 0.989,
+  "end_card_text": [
+   "The solution 🤩💆🏼‍♀️",
+   "The result 🤩❄️",
+   "Christmas 2026 🤩🎄",
+   "\"The perfect gift \ndoesn't exi-\" 😳☃️",
+   "Christmas in 2026 😻",
+   "Christmas trees\nin 2026 🤩🎄",
+   "Christmas this year 😻✨",
+   "Christmas in 2026 😻🎄",
+   "POV: the whole street is \nJEALOUS of your house.. 🤭🏠",
+   "POV: Christmas movie night\nwill never be the same 🥹❄️"
+  ]
+ },
+ "top_drafts": [
+  {
+   "draft": "0920 (1)",
+   "views": 4626729.0,
+   "dur": 17.03,
+   "shots": 13,
+   "opener": 1.5,
+   "speeds": [],
+   "cards": [
+    "The problem 🤒❄️",
+    "Vs... ",
+    "The solution 🤩💆🏼‍♀️"
+   ],
+   "song": [
+    [
+     "Mariah Carey - All I Want for Christmas ",
+     42.4,
+     0.7079457640647888
+    ]
+   ]
+  },
+  {
+   "draft": "0913 (1)",
+   "views": 686895.0,
+   "dur": 16.3,
+   "shots": 10,
+   "opener": 3.13,
+   "speeds": [
+    1.2,
+    1.5,
+    1.5
+   ],
+   "cards": [
+    "The concept 🤮",
+    "Vs...",
+    "The result 🤩❄️"
+   ],
+   "song": [
+    [
+     "Michael Bublé - It's Beginning To Look ",
+     32.4,
+     1.6372044086456299
+    ]
+   ]
+  },
+  {
+   "draft": "0922",
+   "views": 152878.0,
+   "dur": 12.23,
+   "shots": 7,
+   "opener": 2.03,
+   "speeds": [
+    1.4
+   ],
+   "cards": [
+    "Christmas 2024.. 😬",
+    "And Christmas 2025.. 🤕",
+    "Vs... ⏳",
+    "Christmas 2026 🤩🎄"
+   ],
+   "song": [
+    [
+     "Wham! - Last Christmas (Official Video).",
+     171.2,
+     1.0
+    ]
+   ]
+  },
+  {
+   "draft": "0923",
+   "views": 152878.0,
+   "dur": 12.07,
+   "shots": 1,
+   "opener": 12.07,
+   "speeds": [],
+   "cards": [],
+   "song": []
+  },
+  {
+   "draft": "0920",
+   "views": 97955.0,
+   "dur": 12.57,
+   "shots": 7,
+   "opener": 3.77,
+   "speeds": [],
+   "cards": [],
+   "song": []
+  },
+  {
+   "draft": "0910",
+   "views": 91000.0,
+   "dur": 16.83,
+   "shots": 9,
+   "opener": 3.17,
+   "speeds": [],
+   "cards": [
+    "\"The perfect gift \ndoesn't exi-\" 😳☃️"
+   ],
+   "song": [
+    [
+     "Mariah Carey - All I Want for Christmas ",
+     53.2,
+     0.7943282127380371
+    ]
+   ]
+  },
+  {
+   "draft": "0924 (3)",
+   "views": 84377.0,
+   "dur": 13.43,
+   "shots": 3,
+   "opener": 9.83,
+   "speeds": [],
+   "cards": [
+    "Christmas last year.. 😬",
+    "Vs... ⏱️",
+    "Christmas in 2026 😻"
+   ],
+   "song": [
+    [
+     "Wham! - Last Christmas (Official Video).",
+     170.2,
+     1.0
+    ]
+   ]
+  },
+  {
+   "draft": "0920 (2)",
+   "views": 70437.0,
+   "dur": 12.8,
+   "shots": 11,
+   "opener": 0.87,
+   "speeds": [
+    1.6,
+    1.6,
+    1.6,
+    1.3,
+    1.2
+   ],
+   "cards": [
+    "Christmas trees\nin 1968 👴🤦‍♂️",
+    "Vs... ⏳",
+    "Christmas trees\nin 2026 🤩🎄"
+   ],
+   "song": [
+    [
+     "Mariah Carey - All I Want for Christmas ",
+     49.7,
+     0.6309573650360107
+    ]
+   ]
+  },
+  {
+   "draft": "1007",
+   "views": 67731.0,
+   "dur": 14.47,
+   "shots": 11,
+   "opener": 2.8,
+   "speeds": [],
+   "cards": [
+    "Christmas last year.. 🤕",
+    "Vs... ⏳",
+    "Christmas this year 😻✨"
+   ],
+   "song": [
+    [
+     "Michael Bublé - It's Beginning To Look ",
+     32.6,
+     1.6362377405166626
+    ]
+   ]
+  },
+  {
+   "draft": "0924 (1)",
+   "views": 64542.0,
+   "dur": 13.43,
+   "shots": 1,
+   "opener": 13.43,
+   "speeds": [],
+   "cards": [
+    "Christmas in 2025.. 🤮",
+    "Vs... ⏳",
+    "Christmas in 2026 😻🎄"
+   ],
+   "song": [
+    [
+     "Michael Bublé - It's Beginning To Look ",
+     31.3,
+     1.0
+    ]
+   ]
+  },
+  {
+   "draft": "1010",
+   "views": 63320.0,
+   "dur": 12.1,
+   "shots": 7,
+   "opener": 2.17,
+   "speeds": [
+    1.15,
+    1.15
+   ],
+   "cards": [
+    "POV: the whole street is \nJEALOUS of your house.. 🤭🏠"
+   ],
+   "song": [
+    [
+     "Michael Bublé - Holly Jolly Christmas [",
+     0.1,
+     0.7650607228279114
+    ]
+   ]
+  },
+  {
+   "draft": "1009 (4)",
+   "views": 62992.0,
+   "dur": 11.3,
+   "shots": 7,
+   "opener": 2.37,
+   "speeds": [],
+   "cards": [
+    "POV: Christmas movie night\nwill never be the same 🥹❄️"
+   ],
+   "song": [
+    [
+     "Wham! - Last Christmas (Official Video).",
+     0.4,
+     1.2241413593292236
+    ]
+   ]
+  }
+ ]
+}

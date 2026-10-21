@@ -1,0 +1,272 @@
+{
+  "slug": "silent-reveal",
+  "name": "Silent reveal (no hook text, plug-in → wow)",
+  "tier": "C",
+  "status": "EXPERIMENT. Huge external numbers (23.7M and 8.0M, both organic), but 63/63 of our FB reels had text at 0 s, so there is zero internal evidence. Max 1 test per decor/pet product per week.",
+  "summary": "No on-screen text at all. The first frame is a hand plugging in or switching on the product, and the transformation lands by ~4 s. It only works when the effect explains itself visually.",
+  "why": [
+    "sarvina450 silent plug-in projector, AIWFCIY, 12.14 s: 23.7M / 175.5K shares (no paid flag); a second reel did 2.5M (X).",
+    "pet.scanner.pk kitten in a carrier pouch, no text, 13 cuts: 8.0M / 98.3K shares (X).",
+    "Contradiction with our house rule: all 63 FB reels had hook text at 0.0 s (hooks REPORT §3). That is why this is Tier C."
+  ],
+  "product_fit": [
+    {
+      "type": "Decor with a dramatic visual effect (projector, animated lights)",
+      "fit": "TEST",
+      "evidence": "sarvina450 23.7M, 2.5M"
+    },
+    {
+      "type": "Pet (a cute animal carries it)",
+      "fit": "TEST",
+      "evidence": "pet.scanner 8.0M"
+    },
+    {
+      "type": "Wearable",
+      "fit": "NO",
+      "evidence": "the only wearable example (neilaswgza6 5.5M) is paid-flagged"
+    }
+  ],
+  "timing": {
+    "length": "12-15.5 s",
+    "basis": "sarvina450 23.7M: 3 long shots, cuts 4.70 | 8.97 | END 12.14; sarvina 2.5M: 3.20 | 5.73 | 9.10 | 10.97 | 12.03 | END 14.23 (XA).",
+    "shots": [
+      {
+        "t": "0.0 → 4.0",
+        "shot": "HOOK: plug-in",
+        "content": "hand plugs the product into a wall socket in a dark room; first light by 2 s",
+        "camera": "locked close",
+        "text": "none",
+        "gen": "H1"
+      },
+      {
+        "t": "4.0 → 6.0",
+        "shot": "WOW 1",
+        "content": "room transforms (exactly the real effect)",
+        "camera": "locked wide",
+        "text": "none",
+        "gen": "B1·S1"
+      },
+      {
+        "t": "6.0 → 8.0",
+        "shot": "WOW 2",
+        "content": "different angle / kid reacts",
+        "camera": "locked",
+        "text": "none",
+        "gen": "B1·S2"
+      },
+      {
+        "t": "8.0 → 10.0",
+        "shot": "WOW 3",
+        "content": "escalation",
+        "camera": "locked",
+        "text": "none",
+        "gen": "B2·S1"
+      },
+      {
+        "t": "10.0 → 12.0",
+        "shot": "HERO",
+        "content": "hero; hard cut",
+        "camera": "locked wide",
+        "text": "none",
+        "gen": "B2·S2"
+      }
+    ],
+    "measured": [
+      "sarvina450 23.7M: 4.70 | 8.97 | END 12.14.",
+      "pet.scanner 8.0M: 13 cuts in 15.54 s (~1.2 s shots)."
+    ],
+    "rules": [
+      "The effect must explain itself with the sound off."
+    ]
+  },
+  "text": {
+    "style": "No text. A/B it against the same body carrying the decor then-vs-now text.",
+    "patterns": [
+      {
+        "pattern": "(no text)",
+        "tag": "P (ext)",
+        "source": "sarvina450 23.7M, pet.scanner 8.0M"
+      }
+    ],
+    "rules": []
+  },
+  "caption": {
+    "template": "Wait for it 😳\nSAY \"{KEYWORD}\" and we'll send you the link",
+    "keywords": [
+      "MAGIC",
+      "LIGHTS"
+    ],
+    "rules": [
+      "SAY not COMMENT."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": 1,
+        "track": "All I Want for Christmas Is You · 0:00",
+        "start": "reel 0.0",
+        "evidence": "sarvina450 23.7M, 2.5M"
+      }
+    ],
+    "rules": []
+  },
+  "generation_plan": {
+    "summary": "3 gens.",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "Plug-in in the dark",
+        "shots": "one shot",
+        "feeds": "HOOK",
+        "inputs": "<<<image_1>>> product; reference video of the real effect",
+        "basis": "sarvina450 hook visual; 4dabfa47 integrity guard.",
+        "prompt": "Vertical 9:16 iPhone video in a dark bedroom at night. Close on a wall socket: a hand plugs in the {product} from <<<image_1>>>, and at two seconds it switches on and the first light of exactly the effect in the reference video spreads across the ceiling. Locked camera. Natural sound only: plug click, a soft hum. No music, no text. The effect is only what the real product does.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+      },
+      {
+        "id": "B1",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "WOW 1 | WOW 2",
+        "shots": "two angles",
+        "feeds": "WOW 1, WOW 2",
+        "inputs": "room still; effect reference",
+        "basis": "4dabfa47 locked multi-cut shots.",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, the same dark bedroom, the {product} switched on. SHOT 1 (0.0-2.0s), framed as the start image: locked wide: the whole room is filled with exactly the effect from the reference video. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: low angle: a child in pajamas sits up in bed looking up, mouth open. The effect matches the reference video exactly; nothing glows beyond the surfaces it really lights. Audio: soft hum, a child's gasp. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1)",
+          "prompt": "iPhone photo, vertical 9:16, the same dark bedroom, the {product} switched on. The first instant of this shot, as a single frame: locked wide: the whole room is filled with exactly the effect from the reference video. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B2",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "WOW 3 | HERO",
+        "shots": "escalation + hero",
+        "feeds": "WOW 3, HERO",
+        "inputs": "same",
+        "basis": "same",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same bedroom. SHOT 1 (0.0-2.0s), framed as the start image: the effect changes to its next scene exactly as in the reference video. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: locked hero wide of the room glowing, the child lying back smiling. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: soft hum. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1)",
+          "prompt": "iPhone photo, vertical 9:16, same bedroom. The first instant of this shot, as a single frame: the effect changes to its next scene exactly as in the reference video. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      }
+    ],
+    "rules": [
+      "Never exaggerate the effect (projector reels are being fact-checked, V)."
+    ]
+  },
+  "evidence": [
+    {
+      "origin": "external",
+      "id": "sarvina450/15397662",
+      "page": "sarvina450",
+      "platform": "TikTok",
+      "views": 23700000.0,
+      "shares": "175.5K",
+      "flag": false,
+      "role": "external winner",
+      "note": "silent plug-in projector reveal · AIWFCIY",
+      "src": "X",
+      "url": "https://www.tiktok.com/@sarvina450/video/7686197199415397662",
+      "posted": "2026-09-16"
+    },
+    {
+      "origin": "external",
+      "id": "pet.scanner.pk/28981013",
+      "page": "pet.scanner.pk",
+      "platform": "TikTok",
+      "views": 8000000.0,
+      "shares": "98.3K",
+      "flag": false,
+      "role": "external winner",
+      "note": "kitten in carrier pouch, no text",
+      "src": "X",
+      "url": "https://www.tiktok.com/@pet.scanner.pk/video/7687859112628981013",
+      "posted": "2026-09-20"
+    },
+    {
+      "origin": "external",
+      "id": "sarvina450/47704350",
+      "page": "sarvina450",
+      "platform": "TikTok",
+      "views": 2500000.0,
+      "shares": "15.1K",
+      "flag": false,
+      "role": "external winner",
+      "note": "same plug-in reveal",
+      "src": "X",
+      "url": "https://www.tiktok.com/@sarvina450/video/7686186954047704350",
+      "posted": "2026-09-16"
+    },
+    {
+      "origin": "external",
+      "id": "beamllyhome/69444118",
+      "page": "beamllyhome",
+      "platform": "TikTok",
+      "views": 48500000.0,
+      "shares": "510.7K",
+      "flag": true,
+      "role": "external winner",
+      "note": "fake-window panel, no text",
+      "src": "X",
+      "url": "https://www.tiktok.com/@beamllyhome/video/7571121863569444118",
+      "posted": "2025-11-10"
+    },
+    {
+      "origin": "external",
+      "id": "finds.worth.keeping/94539533",
+      "page": "finds.worth.keeping",
+      "platform": "TikTok",
+      "views": 1400000.0,
+      "shares": "12.6K",
+      "flag": true,
+      "role": "external winner",
+      "note": "wall-mounted train light scene, no text",
+      "src": "X",
+      "url": "https://www.tiktok.com/@finds.worth.keeping/video/7684203385494539533",
+      "posted": "2026-09-11"
+    }
+  ],
+  "failures": [
+    "Untested on FB; our 63/63 text-at-0 s pattern may be FB-specific."
+  ],
+  "variants": [
+    {
+      "name": "Text A/B",
+      "rule": "Post the same render twice on different days: once silent, once with then-vs-now text (re-render the hook so the files differ).",
+      "proof": "external REPORT §5 test plan.",
+      "gate": "If silent ≥ text on 2 of 3 pairs, promote to Tier B."
+    }
+  ],
+  "checks": [
+    {
+      "id": "sr.no_text",
+      "rule": "no OCR text in any frame",
+      "cite": "sarvina450"
+    }
+  ],
+  "open": [
+    "TikTok plays ≠ FB views (cross-platform swings up to 500×, external REPORT §1).",
+    "All the supporting reels are older than 14 days, so they count half weight under the external freshness rule."
+  ],
+  "review": [
+    "Labelled an experiment, not a default, because it contradicts 63/63 internal reels."
+  ],
+  "rank": 14,
+  "evidence_strength": {
+    "score": 0.9,
+    "internal_hits_ge50k": 0,
+    "internal_tested": 0,
+    "external_organic_winners": 0
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

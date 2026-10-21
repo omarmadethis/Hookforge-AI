@@ -1,0 +1,14 @@
+dataset,x,y,spearman_rho,n,note
+competitor/library videos (top comments),share_q_any,log10 views,0.009,46,top-ranked comments per video (TikTok relevance order); association only
+competitor/library videos (top comments),share_q_where_buy,log10 views,0.002,46,top-ranked comments per video (TikTok relevance order); association only
+competitor/library videos (top comments),share_q_price,log10 views,0.026,46,top-ranked comments per video (TikTok relevance order); association only
+competitor/library videos (top comments),share_tag_friend,log10 views,-0.113,46,top-ranked comments per video (TikTok relevance order); association only
+competitor/library videos (top comments),share_desire,log10 views,0.146,46,top-ranked comments per video (TikTok relevance order); association only
+competitor/library videos (top comments),share_objection,log10 views,0.059,46,top-ranked comments per video (TikTok relevance order); association only
+competitor/library videos (top comments),share_humor,log10 views,0.161,46,top-ranked comments per video (TikTok relevance order); association only
+competitor/library videos (top comments),share_complaint,log10 views,0.124,46,top-ranked comments per video (TikTok relevance order); association only
+competitor/library videos (top comments),share_comparison,log10 views,0.263,46,top-ranked comments per video (TikTok relevance order); association only
+"own reels, Meta Insights exports (MG/MGS/MF/MC/BH, views>=500)",comments_per_1k_views,log10 views,0.413,42,per-view rates; HJ/MJIG Insights not available yet (audit ask #1)
+"own reels, Meta Insights exports",comments_count,log10 views,0.799,42,raw counts scale with views (mechanical); see per-1K row for signal
+"own reels, Meta Insights exports (MG/MGS/MF/MC/BH, views>=500)",shares_per_1k_views,log10 views,0.671,16,per-view rates; HJ/MJIG Insights not available yet (audit ask #1)
+"own reels, Meta Insights exports",shares_count,log10 views,0.846,16,raw counts scale with views (mechanical); see per-1K row for signal

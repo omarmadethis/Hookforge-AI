@@ -1,0 +1,352 @@
+{
+  "slug": "unboxing-to-use",
+  "name": "Unbox-in-hook → use (the package opens inside the first 3 s, never later)",
+  "tier": "B",
+  "status": "MECHANIC. Proven as an opener (Brick Hood POV unbag ×2 at ~61K; MF 63K box carried in by 1 s; MG 98K box in hand) and externally (5.2M, 3.2M, 2.6M, 1.8M). As a BODY block, unboxing is the #1 retention leak.",
+  "summary": "The product comes out of its package during the hook (POV unbag, lid lift, box handed in), then goes straight into use. Pair it with any text family. The rule that makes it work: no unboxing after 3.8 s, and no box shot longer than 2.0 s.",
+  "why": [
+    "Box/unbox shots are where viewers leave: the biggest drop-off falls inside BOX/UNBOX on 6/7 then-vs-now reels (0:04-0:06) (body REPORT §3).",
+    "Moving the box into the hook moved the drop-off to 0:11, with 66% watched (MG 98K).",
+    "Openers that ARE an unbox: Brick Hood POV_UNBAG 61.3K / 61.1K; MF 63K; external zombie.crawler POV unpack 3.2M; jinglenap pulling a dog bed from its package 1.8M; hollyglow shelf-grab 5.2M; lockedlovestore 'Suprise them ❤️🥹' box on fur 2.6M."
+  ],
+  "product_fit": [
+    {
+      "type": "Any product with branded packaging",
+      "fit": "YES as an opener",
+      "evidence": "see 'why'"
+    },
+    {
+      "type": "Products with a slow unbox (assembly)",
+      "fit": "Only with metronomic 1.0-1.2 s beats",
+      "evidence": "PLAYBOOK §6.1 B (MerryTables [L])"
+    }
+  ],
+  "timing": {
+    "length": "9.2-13.5 s",
+    "basis": "jinglenap 1.8M: 2.33 | 4.07 | 6.37 | 8.10 | END 9.23; zombie.crawler 3.2M: 4.00 | 7.17 | 10.30 | END 12.07 (XA). Internal openers end the unbox at 2.4-3.8 s (MF 2.367, BH 2.733, MG 3.767).",
+    "shots": [
+      {
+        "t": "0.0 → 3.0",
+        "shot": "HOOK: unbox",
+        "content": "product out of the package by 2 s, product ≥25% of frame by 2 s",
+        "camera": "POV",
+        "text": "family line ON",
+        "gen": "H1 (trim 3.0)"
+      },
+      {
+        "t": "3.0 → 5.0",
+        "shot": "FIRST USE",
+        "content": "product placed/worn",
+        "camera": "locked",
+        "text": "held",
+        "gen": "B1·S1"
+      },
+      {
+        "t": "5.0 → 7.0",
+        "shot": "FEATURE",
+        "content": "key feature",
+        "camera": "locked",
+        "text": "held",
+        "gen": "B1·S2"
+      },
+      {
+        "t": "7.0 → 8.5",
+        "shot": "ACTIVATION (~66%)",
+        "content": "switch-on",
+        "camera": "handheld macro",
+        "text": "held",
+        "gen": "B2·S1 (1.5)"
+      },
+      {
+        "t": "8.5 → 10.5",
+        "shot": "REACTION",
+        "content": "recipient/pet/kids react",
+        "camera": "locked",
+        "text": "held",
+        "gen": "B2·S2"
+      },
+      {
+        "t": "10.5 → 12.5",
+        "shot": "PAYOFF (~84%)",
+        "content": "hero / cozy; hard cut",
+        "camera": "locked wide",
+        "text": "held",
+        "gen": "B3 (best 2 s of S1 or S2)"
+      }
+    ],
+    "measured": [
+      "MF 63K: box carried in by 1 s, HOOK 0-2.367.",
+      "MG 98K: box in hand 0-3.767.",
+      "BH 61.3K: unbag 0-2.733."
+    ],
+    "rules": [
+      "No box/unbox shot starting after 3.8 s; no box shot longer than 2.0 s anywhere."
+    ]
+  },
+  "text": {
+    "style": "Uses the paired family's line.",
+    "patterns": [
+      {
+        "pattern": "DO NOT let your {KIDS} see this..👀🎄",
+        "tag": "P (ext)",
+        "source": "zombie.crawler 3.2M"
+      },
+      {
+        "pattern": "{Dog MOMS}... This is for you 👀🐶",
+        "tag": "P (ext)",
+        "source": "jinglenap 1.8M"
+      },
+      {
+        "pattern": "Suprise them ❤️🥹",
+        "tag": "P (ext)",
+        "source": "lockedlovestore 2.6M"
+      }
+    ],
+    "rules": []
+  },
+  "caption": {
+    "template": "{paired family caption}\nSAY \"{KEYWORD}\" and we'll send you the link",
+    "keywords": [
+      "{PRODUCT}"
+    ],
+    "rules": [
+      "SAY not COMMENT."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": 1,
+        "track": "All I Want for Christmas Is You · 0:00",
+        "start": "reel 0.0",
+        "evidence": "jinglenap 1.8M"
+      }
+    ],
+    "rules": [
+      "Otherwise use the paired family's pick."
+    ]
+  },
+  "generation_plan": {
+    "summary": "4 gens.",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "POV unbox",
+        "shots": "one shot",
+        "feeds": "HOOK",
+        "inputs": "<<<image_1>>> product; <<<image_2>>> packaging",
+        "basis": "B-UNBOX-POV (prompt_templates) compressed into the hook; BH / zombie.crawler POV.",
+        "prompt": "POV: hands hold the {brand} box from <<<image_2>>> on denim-clad knees in a festive American living room, flip the lid open within the first second and lift the {product} from <<<image_1>>> up toward the camera so it fills a third of the frame by two seconds. A golden retriever watches. Handheld phone video. Natural sound only, no music, no text.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+      },
+      {
+        "id": "B1",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "FIRST USE | FEATURE",
+        "shots": "S1 place/wear · S2 feature",
+        "feeds": "FIRST USE, FEATURE",
+        "inputs": "<<<image_1>>>",
+        "basis": "T5 pattern.",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room. SHOT 1 (0.0-2.0s), framed as the start image: the {product} from <<<image_1>>> is set in place / put on. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: close on its key feature: {feature}. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: soft room tone. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1)",
+          "prompt": "iPhone photo, vertical 9:16, same living room. The first instant of this shot, as a single frame: the {product} from <<<image_1>>> is set in place / put on. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B2",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "ACTIVATION | REACTION",
+        "shots": "S1 switch on · S2 reaction",
+        "feeds": "ACTIVATION, REACTION",
+        "inputs": "<<<image_1>>>",
+        "basis": "body REPORT activation insert.",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room. SHOT 1 (0.0-2.0s), framed as the start image: macro: a finger switches the {product} on, {activation effect}. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: the recipient's face lights up, hands over mouth, laughing. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: click, gasp, laugh. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1)",
+          "prompt": "iPhone photo, vertical 9:16, same living room. The first instant of this shot, as a single frame: macro: a finger switches the {product} on, {activation effect}. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B3",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "PAYOFF A | PAYOFF B",
+        "shots": "two payoff takes",
+        "feeds": "PAYOFF",
+        "inputs": "<<<image_1>>>",
+        "basis": "Payoff locked, medium-wide (body REPORT §2).",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room at night. SHOT 1 (0.0-2.0s), framed as the start image: locked medium-wide: the family relaxes with the {product} working beside them. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: locked wide hero of the {product} working, tree lit. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: room tone. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1)",
+          "prompt": "iPhone photo, vertical 9:16, same living room at night. The first instant of this shot, as a single frame: locked medium-wide: the family relaxes with the {product} working beside them. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      }
+    ],
+    "rules": []
+  },
+  "evidence": [
+    {
+      "origin": "internal",
+      "id": "mg_post122111714343432799",
+      "page": "Merry Glow",
+      "platform": "FB",
+      "views": 97955,
+      "shares": null,
+      "role": "winner",
+      "note": "box in hook · drop-off 0:11",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "merryfires_1082602281322454",
+      "page": "MerryFires",
+      "platform": "FB",
+      "views": 62992,
+      "shares": null,
+      "role": "winner",
+      "note": "box carried in by 1 s",
+      "src": "H,B,I",
+      "url": "https://www.facebook.com/reel/1082602281322454/"
+    },
+    {
+      "origin": "internal",
+      "id": "bh_post122094925563500948",
+      "page": "Brick Hood",
+      "platform": "FB",
+      "views": 61290,
+      "shares": null,
+      "role": "winner",
+      "note": "POV unbag on lift",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "bh_post122094812265500948",
+      "page": "Brick Hood",
+      "platform": "FB",
+      "views": 61106,
+      "shares": null,
+      "role": "winner",
+      "note": "POV unbag",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "mg_post122110427571432799",
+      "page": "Merry Glow",
+      "platform": "FB",
+      "views": 119070,
+      "shares": null,
+      "role": "context",
+      "note": "UNBOX at 4.07-7.13 in the body = drop-off at 0:06 (the anti-pattern)",
+      "src": "B,I",
+      "url": null
+    },
+    {
+      "origin": "external",
+      "id": "hollyglow27/70879262",
+      "page": "hollyglow27",
+      "platform": "TikTok",
+      "views": 5200000.0,
+      "shares": "39.5K",
+      "flag": false,
+      "role": "external winner",
+      "note": "shelf grab → install, 7.85 s",
+      "src": "X",
+      "url": "https://www.tiktok.com/@hollyglow27/video/7684015670970879262",
+      "posted": "2026-09-10"
+    },
+    {
+      "origin": "external",
+      "id": "zombie.crawler/34270733",
+      "page": "zombie.crawler",
+      "platform": "TikTok",
+      "views": 3200000.0,
+      "shares": "39.8K",
+      "flag": false,
+      "role": "external winner",
+      "note": "POV unpacking crawling Grinch",
+      "src": "X",
+      "url": "https://www.tiktok.com/@zombie.crawler/video/7688711916734270733",
+      "posted": "2026-09-23"
+    },
+    {
+      "origin": "external",
+      "id": "lockedlovestore/95068950",
+      "page": "lockedlovestore",
+      "platform": "TikTok",
+      "views": 2600000.0,
+      "shares": "3.8K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Suprise them ❤️🥹 · box on fur, one shot",
+      "src": "X",
+      "url": "https://www.tiktok.com/@lockedlovestore/video/7687246647495068950",
+      "posted": "2026-09-19"
+    },
+    {
+      "origin": "external",
+      "id": "jinglenap.official/30941727",
+      "page": "jinglenap.official",
+      "platform": "TikTok",
+      "views": 1800000.0,
+      "shares": "38K",
+      "flag": false,
+      "role": "external winner",
+      "note": "pulling dog bed out of package",
+      "src": "X",
+      "url": "https://www.tiktok.com/@jinglenap.official/video/7676241754730941727",
+      "posted": "2026-08-20"
+    }
+  ],
+  "failures": [
+    "Unbox in the body: drop-off at 0:04-0:06 on 6/7 reels.",
+    "Static unbox >3 s (MerryFires, 33 views)."
+  ],
+  "variants": [
+    {
+      "name": "Single-shot surprise",
+      "rule": "One continuous 10 s shot: box opened, product revealed, reaction.",
+      "proof": "lockedlovestore 2.6M (0 cuts).",
+      "gate": "3 renders."
+    }
+  ],
+  "checks": [
+    {
+      "id": "ub.no_box_after",
+      "rule": "no BOX/UNBOX shot starts after 3.8 s",
+      "cite": "body REPORT §3"
+    },
+    {
+      "id": "ub.box_le_2s",
+      "rule": "box shots ≤2.0 s",
+      "cite": "same"
+    }
+  ],
+  "open": [
+    "The internal winners overlap with other formats (cutoff-word, pov-ritual-envy, friend-dare-group); this is a mechanic, not an independent hook family."
+  ],
+  "review": [
+    "Written as a guard-rail format: most of its value is stopping the most common body leak. Tier B, not A, because its internal winners are counted under other formats too."
+  ],
+  "rank": 7,
+  "evidence_strength": {
+    "score": 8.9,
+    "internal_hits_ge50k": 4,
+    "internal_tested": 4,
+    "external_organic_winners": 0
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

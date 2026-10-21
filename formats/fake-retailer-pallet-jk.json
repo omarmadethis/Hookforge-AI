@@ -1,0 +1,564 @@
+{
+  "slug": "fake-retailer-pallet-jk",
+  "name": "Fake retailer store reveal (pallet / unveil) + 'JK, we make them' twist",
+  "tier": "A",
+  "status": "PROVEN on FB (two 1.4M). Largest external decor reel (IKEA X Christmas 17.4M) is the crowd-unveil variant. JK twist mandatory (omar_decisions #2).",
+  "summary": "Open on an impossible-looking branded pallet of the product in a Target/Walmart-style aisle (slow push-in, no person), or staff pulling a cloth off it in front of a crowd. Hold the store claim through the try-on, then flip the text to 'JK, We make them🎅🎄' exactly on the activation cut.",
+  "why": [
+    "PALLET opener had the best hit rate of any HJ archetype: 5/6 fresh posts ≥50K (83%, CI 44-97%), median 206K, best 1.4M ×2 (hooks REPORT §1.4).",
+    "The pallet carries it, not the store word: store-named hooks WITHOUT a pallet got 6.2K (Costco), 3.9K (Walmart), 2.7K (MerryFires Target) (PLAYBOOK §1.1; hooks §1.4).",
+    "External: merryglow.official IKEA X Christmas 17.4M (26,987 comments); re-shoot with new talent 755K; deseos.del.polo.n COSTCO X Navidad 2.2M / 31.6K shares; tryglowmas Costco pallet 246K (V; external §2-3).",
+    "The JK flip resolves the false claim and is Omar's standing rule; AI 'stocked at Target/Costco' reels drew public scam accusations in Aug 2026 (V, retailer-name risk)."
+  ],
+  "product_fit": [
+    {
+      "type": "Cozy wearable gift",
+      "fit": "PRIMARY",
+      "evidence": "HJ 1.4M, 1.4M, 326K, 147K, 87K, 71K"
+    },
+    {
+      "type": "Decor / projector / lights",
+      "fit": "YES (crowd-unveil variant)",
+      "evidence": "ext IKEA X Christmas 17.4M + 755K, COSTCO X Navidad 2.2M; own Merry Carrier 62.0K used staff holding the LIT product (no pallet)"
+    },
+    {
+      "type": "Fire pit / tabletop",
+      "fit": "WEAK",
+      "evidence": "IG 'Christmas X Target' 5.3K vs 40.3K then-vs-now on the same body; MerryFires store gasp 2.7K"
+    },
+    {
+      "type": "Pet",
+      "fit": "TRANSFER",
+      "evidence": "Purrventure staff-unveil test had no data (3 views); pattern '{Brand} X PetSmart' is a transfer of 1.4M"
+    }
+  ],
+  "timing": {
+    "length": "12.7-13.0 s",
+    "basis": "Exact cut list of the 1.4M Walmart (2121138075159387), the cleanest JK reel; the 1.4M Target (1621118726207387) is identical to 8.43 s.",
+    "shots": [
+      {
+        "t": "0.0 → 3.0",
+        "shot": "HOOK: pallet push-in",
+        "content": "huge perfectly stacked {brand}-printed pallet of folded product in a big-box aisle, logo/signage visible, nobody in frame, slow push-in",
+        "camera": "locked → slow push-in",
+        "text": "store line ON at 0.0",
+        "gen": "H1 (trim to 3.0)"
+      },
+      {
+        "t": "3.0 → 5.0",
+        "shot": "PULL wide",
+        "content": "a hand in a beige sweater reaches into the stack",
+        "camera": "handheld",
+        "text": "held",
+        "gen": "B1·S1"
+      },
+      {
+        "t": "5.0 → 6.3",
+        "shot": "PULL close",
+        "content": "one folded unit pulled toward the lens",
+        "camera": "handheld",
+        "text": "held",
+        "gen": "B1·S2 (trim 1.3)"
+      },
+      {
+        "t": "6.3 → 8.33",
+        "shot": "PUT/FEAT",
+        "content": "man puts the hood on / opens the robe (foot pouch)",
+        "camera": "locked medium",
+        "text": "held",
+        "gen": "B2·S1 (2.0)"
+      },
+      {
+        "t": "8.33 → 9.13",
+        "shot": "PLUG (activation, 66%)",
+        "content": "connector clicks in",
+        "camera": "handheld macro",
+        "text": "FLIP to 'JK, We make them🎅🎄' exactly on this cut",
+        "gen": "B2·S2 (trim 0.8)"
+      },
+      {
+        "t": "9.13 → 10.6",
+        "shot": "REM",
+        "content": "remote LEDs climb",
+        "camera": "locked close",
+        "text": "JK line held",
+        "gen": "B3·S1 (trim 1.47)"
+      },
+      {
+        "t": "10.6 → 12.7",
+        "shot": "COZY (payoff 83%)",
+        "content": "Grinch-costume guy hugging on the couch; hard cut",
+        "camera": "locked medium-wide",
+        "text": "JK line held",
+        "gen": "B3·S2"
+      }
+    ],
+    "measured": [
+      "1.4M Walmart: 3.000 | 6.300 | 8.333 (JK) | 9.133 | 10.600 | END 12.70.",
+      "1.4M Target: 3.000 | 6.300 | 8.433 | 9.333 | 10.033 | 11.433 | END 12.98 (no flip; text held).",
+      "326K Target: 4.067 | 4.800 | 7.333 (JK 'Get in bio', 62%) | 7.967 | 9.733 | END 11.82.",
+      "147K staff unveil: 4.067 | 5.533 | 6.467 | 7.367 | 9.633 | 12.600 | END 14.56.",
+      "71K Target X Grinch: 2.000 | 4.967 | 6.500 (JK, 54%) | 9.767 | END 12.15.",
+      "External: IKEA 17.4M first cut 3.93, END 15.7; IKEA re-shoot 755K 4.73 / 16.51; Costco pallet 246K 4.70 / 15.37 (XA)."
+    ],
+    "rules": [
+      "Hold the pallet ~3 s with no person; then the hand pull (PLAYBOOK §5.5).",
+      "JK flip lands exactly on the activation-insert cut at 54-66% of runtime, never mid-shot (body REPORT §7).",
+      "Crowd-unveil variant may hold the hook 3.9-4.7 s (external winners) but the cloth must start moving by 2 s."
+    ]
+  },
+  "text": {
+    "style": "Same house style (top-centre 13-20%, white + outline). Two cards only: store claim 0 → activation cut; JK line activation cut → end.",
+    "patterns": [
+      {
+        "pattern": "{Character} X {Store} 😳🎄❄️",
+        "tag": "P",
+        "source": "HJ 1.4M (Grinch X Target), 147K"
+      },
+      {
+        "pattern": "{Holiday}-HOLICS RUN, dont walk to {Store} 🎅🎄 → JK, We make them🎅🎄",
+        "tag": "P",
+        "source": "HJ 1.4M Walmart"
+      },
+      {
+        "pattern": "{Brand} at {Store} 😳❄️ → JK, Get in bio",
+        "tag": "P",
+        "source": "HJ 326K"
+      },
+      {
+        "pattern": "{Store} X {Character} 😱 → Jk we make them:)",
+        "tag": "P",
+        "source": "HJ 71K"
+      },
+      {
+        "pattern": "{Product name} 😳 (unnamed aisle)",
+        "tag": "P",
+        "source": "HJ 87K"
+      },
+      {
+        "pattern": "{Store} X Christmas 🎄🎁",
+        "tag": "P (ext, crowd unveil)",
+        "source": "IKEA 17.4M, COSTCO X Navidad 2.2M"
+      },
+      {
+        "pattern": "Christmas Moms don't walk RUN to {Store}!🎄👀 (pallet mob)",
+        "tag": "P (ext)",
+        "source": "tryglowmas 246K"
+      }
+    ],
+    "rules": [
+      "ALWAYS add the JK flip (Omar). On reels whose proven version held the store text (1.4M Target), add the flip at the activation cut anyway.",
+      "Store-name without a pallet or lit product at 0 s is banned (6.2K, 3.9K, 2.7K).",
+      "Proven stores: Target, Walmart (internal); IKEA, Costco with pallet (external). A fictional store is the low-risk variant."
+    ]
+  },
+  "caption": {
+    "template": "Not at {Store} 😉 We make them.\nSAY \"{KEYWORD}\" and we'll send you the link 🎁\n#christmas #gift #{product_tag} #viral",
+    "keywords": [
+      "GRINCH",
+      "CHRISTMAS",
+      "JK"
+    ],
+    "rules": [
+      "Caption must not claim retail availability (scam-accusation risk, V).",
+      "SAY not COMMENT (Omar)."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": 1,
+        "track": "All I Want for Christmas Is You (Mariah Carey) · 0:00 slow intro",
+        "start": "reel 0.0",
+        "evidence": "HJ 1.4M ×2, 326K; ext COSTCO X Navidad 2.2M"
+      },
+      {
+        "rank": 2,
+        "track": "Last Christmas (Wham!) · ~2:48-2:52",
+        "start": "reel 0.0",
+        "evidence": "HJ 147K, 71K"
+      },
+      {
+        "rank": 3,
+        "track": "Jingle Bells (Viibez) · 0:00",
+        "start": "reel 0.0",
+        "evidence": "HJ 87K"
+      },
+      {
+        "rank": "IG",
+        "track": "No Pique Do Natal (Dj Sergel)",
+        "start": "reel 0.0",
+        "evidence": "every merryglow.official winner incl. IKEA 17.4M (V)"
+      }
+    ],
+    "rules": [
+      "No beat drop inside 13 s on AIWFCIY; it carries the 'event' feel of the reveal."
+    ]
+  },
+  "generation_plan": {
+    "summary": "5 generations: H1 pallet at 1080p (image-to-video from a generated start still), B1-B3 at 720p. B1 packs the two halves of the hand pull.",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "Pallet push-in from a start still",
+        "shots": "one continuous push-in",
+        "feeds": "HOOK",
+        "inputs": "start still made first with T8 (store aisle + {brand} pallet + US flag, top 20% clear); <<<image_1>>> = folded product; <<<image_2>>> = {brand} display box art",
+        "basis": "1.4M Walmart pallet body verified (656ee7be @1.75 s: 'replace the whole box with red clothes … with the box with green clothes'). Start-frame method for impossible sets (PLAYBOOK §7.3).",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly. Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: replace the whole display of red clothes in <<<video_1>>> with the {brand} pallet of folded {product} in <<<image_1>>>, the {brand} box art from <<<image_2>>> on every side.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Image-to-video from the start image. A wide shot down a bright {store}-style big-box aisle lined with Christmas trees: a huge cardboard pallet display printed with '{brand}' and Christmas trim, a perfect pyramid of identical folded {product}s from <<<image_1>>> with the emblem facing out. Nobody in frame. Hold still for one second, then a very slow push-in toward the pallet. Store ambience only, no music, no text.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (for alt_prompt)",
+          "prompt": "iPhone photo, vertical 9:16, taken at eye level in bright overhead store light, a wide view down a {store}-style big-box aisle lined with Christmas trees. In the centre stands a huge cardboard pallet display printed with '{brand}' and Christmas trim, holding a perfect pyramid of identical folded {product}s from the first image with the emblem facing out; use the second image for the exact box art on every side of the pallet. A small American flag hangs over the aisle. Nobody in frame. Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B1",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "PULL wide | PULL close",
+        "shots": "S1 hand reaches into stack · S2 unit pulled to lens",
+        "feeds": "PULL wide, PULL close",
+        "inputs": "start image = H1 last frame; <<<image_1>>>, <<<image_2>>>",
+        "basis": "aa03060d (1.4M Walmart @5.5 s) recreate-swap; PLAYBOOK §5.5 hand-pull mechanic.",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, the same big-box aisle and {brand} pallet as the start image, bright store light. SHOT 1 (0.0-2.0s), framed as the start image: a hand in a beige ribbed sweater reaches into the stack and grips one folded {product} from <<<image_1>>>. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: close on the pallet: the hand pulls that folded {product} off the stack straight toward the camera, the rest of the pyramid stays intact. The {brand} box art from <<<image_2>>> stays legible and unchanged. Audio: busy store ambience, fabric slide. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "chained",
+          "source": "start image = H1 last frame",
+          "prompt": null
+        }
+      },
+      {
+        "id": "B2",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "FEAT-b | PLUG",
+        "shots": "S1 feature continued (walk/turn/sit) 0-2 s · S2 connector macro 2-4 s (use 0.7 s)",
+        "feeds": "FEAT (second half), PLUG",
+        "inputs": "<<<video_1>>> = spliced reference (turn/sit + plug macro); <<<image_1>>> = product; <<<image_2>>> = connector/controller photo",
+        "basis": "Verified 3e6bcbbd (1.4M Walmart @10.25 s, blanket swap) + PLAYBOOK §7.5 'one action per clip: the plug is its own ≤0.63 s beat'.",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly, including its HARD CUT at 2s, no transition (shot 1 = the person in the red robe turning and sitting down; shot 2 = macro of fingers clicking the white connector into the red fur). Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the red blanket robe in both shots of <<<video_1>>> with the {product} in <<<image_1>>>, identical colour and details in both shots.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room as the start image. SHOT 1 (0.0-2.0s), framed as the start image: the woman in the {product} from <<<image_1>>>, hood up, turns slowly and sits on the couch arm, the full length and pockets visible. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: macro close-up: fingers click the white connector from <<<image_2>>> into the port hidden in the fur, Christmas tree bokeh behind. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: fabric rustle, a crisp plastic click. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1) · for alt_prompt",
+          "prompt": "iPhone photo, vertical 9:16, same living room as the start image. The first instant of this shot, as a single frame: the woman in the {product} from <<<image_1>>>, hood up, turns slowly and sits on the couch arm, the full length and pockets visible. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B3",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "REM | COZY",
+        "shots": "S1 remote LEDs climb 0-2 s · S2 cozy payoff 2-4 s",
+        "feeds": "REM, COZY",
+        "inputs": "<<<video_1>>> = spliced reference (remote press + recliner snuggle); <<<image_1>>>; <<<image_2>>> = controller",
+        "basis": "Verified 8f761a37 (147K: 'add a red glow around the edges of the remote when they press the button') + c0ede3c3 (cozy payoff in 1.4M ×2 and 16K).",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly, including its HARD CUT at 2s, no transition (shot 1 = POV thumb pressing the remote, heat LEDs stepping up; shot 2 = person reclined on the couch fully inside the red robe, hood up, snuggling deeper). Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the red blanket robe in both shots of <<<video_1>>> with the {product} in <<<image_1>>>, identical colour and details in both shots. In shot 1 the controller LEDs step up from level 3 to level 5 with a red glow.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room, lamps on, tree lit. SHOT 1 (0.0-2.0s), framed as the start image: POV: a thumb presses the white controller from <<<image_2>>> several times and the LED heat levels step up from 3 to 5, small click sounds. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: she is reclined on the couch fully inside the {product} with the hood up, shivers once, then snuggles deeper and pulls it to her chin, eyes closing, smiling. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: button clicks, a content sigh. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1) · for alt_prompt",
+          "prompt": "iPhone photo, vertical 9:16, same living room, lamps on, tree lit. The first instant of this shot, as a single frame: POV: a thumb presses the white controller from <<<image_2>>> several times and the LED heat levels step up from 3 to 5, small click sounds. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      }
+    ],
+    "rules": [
+      "Re-use B2/B3 from the wearable master; B1 replaces PUT/FEAT-a because the pull is the reveal.",
+      "Garbled signage is tolerated (the 326K showed 'TARGE'); keep signage brief and moving (PLAYBOOK §7.6).",
+      "Crowd-unveil variant: replace H1 with H-STORE-UNVEIL (prompt_templates) and keep the cloth moving by 2 s."
+    ]
+  },
+  "evidence": [
+    {
+      "origin": "internal",
+      "id": "1621118726207387",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 1400000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "Grinch X Target 😳🎄❄️ · pallet",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1621118726207387/"
+    },
+    {
+      "origin": "internal",
+      "id": "2121138075159387",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 1400000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "Christmas-HOLICS RUN… Walmart → JK at 8.333 · 5 clips verified (656ee7be, aa03060d, f7a6d1c3, 3e6bcbbd, c0ede3c3)",
+      "src": "H,B,M",
+      "url": "https://www.facebook.com/reel/2121138075159387/"
+    },
+    {
+      "origin": "internal",
+      "id": "1823842129037913",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 326000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "HeatedJammies at Target → JK, Get in bio at 7.333",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1823842129037913/"
+    },
+    {
+      "origin": "internal",
+      "id": "1792686372082535",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 147000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "Grinch X Target · staff unveil + 3-2-1 · clip 8f761a37",
+      "src": "H,B,M",
+      "url": "https://www.facebook.com/reel/1792686372082535/"
+    },
+    {
+      "origin": "internal",
+      "id": "1587386476415030",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 87000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "Heated Grinch Jammies 😳 · unnamed aisle",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1587386476415030/"
+    },
+    {
+      "origin": "internal",
+      "id": "1412008063611085",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 71000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "Target X Grinch 😱 → Jk we make them:) at 6.50",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1412008063611085/"
+    },
+    {
+      "origin": "internal",
+      "id": "mc_post122119170687475353",
+      "page": "Merry Carrier",
+      "platform": "FB",
+      "views": 62010,
+      "shares": null,
+      "role": "winner",
+      "note": "Christmas moms, don't walk RUN to Walmart 😏 · staff hold LIT curtain (no pallet) · 3s 48%, avg 7 s",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "1401894844690366",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 16000.0,
+      "shares": null,
+      "role": "flop",
+      "note": "identical file to 1.4M Target, 1.6 d later",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1401894844690366/"
+    },
+    {
+      "origin": "internal",
+      "id": "2549926868814181",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 1600.0,
+      "shares": null,
+      "role": "flop",
+      "note": "326K footage, new text 'Target has HEATED JAMMIES🎁', next day",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/2549926868814181/"
+    },
+    {
+      "origin": "internal",
+      "id": "1545536420637073",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 6200.0,
+      "shares": null,
+      "role": "flop",
+      "note": "Moms don't walk RUN to Costco · shopper reaction, no pallet",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1545536420637073/"
+    },
+    {
+      "origin": "internal",
+      "id": "2273374503423213",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 3900.0,
+      "shares": null,
+      "role": "flop",
+      "note": "Christmas moms RUN to Walmart · gasping woman, no pallet",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/2273374503423213/"
+    },
+    {
+      "origin": "internal",
+      "id": "merryfires_942707468486986",
+      "page": "MerryFires",
+      "platform": "FB",
+      "views": 2705,
+      "shares": null,
+      "role": "flop",
+      "note": "RUN to Target · FaceTime, no product at 0 s · 3s 30%",
+      "src": "H,B",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "ig_5.3K_DePqPmbvWjL",
+      "page": "merry.jammies",
+      "platform": "IG",
+      "views": 5326,
+      "shares": null,
+      "role": "flop",
+      "note": "Christmas X Target on fire pit (IG)",
+      "src": "H,B",
+      "url": "https://www.instagram.com/reel/DePqPmbvWjL/"
+    },
+    {
+      "origin": "external",
+      "id": "merryglow.official/yymGMHqb",
+      "page": "merryglow.official",
+      "platform": "IG",
+      "views": "17.4M",
+      "shares": null,
+      "flag": false,
+      "role": "external winner",
+      "note": "IKEA X Christmas 🎄🎁 · crowd + staff cloth unveil · 26,987 comments",
+      "src": "X,V",
+      "url": "https://www.instagram.com/reel/DdxyymGMHqb/",
+      "posted": "2026-09-26"
+    },
+    {
+      "origin": "external",
+      "id": "deseos.del.polo.n/81871126",
+      "page": "deseos.del.polo.n",
+      "platform": "TikTok",
+      "views": 2200000.0,
+      "shares": "31.6K",
+      "flag": false,
+      "role": "external winner",
+      "note": "COSTCO X Navidad 🎄🎁 · cloth pull, crowd · isAd false",
+      "src": "V",
+      "url": "https://www.tiktok.com/@deseos.del.polo.n/video/7694908890881871126",
+      "posted": "2026-10-10"
+    },
+    {
+      "origin": "external",
+      "id": "warmrobestore/21616141",
+      "page": "warmrobestore",
+      "platform": "TikTok",
+      "views": 833600.0,
+      "shares": "29K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Period girls RUN don't walk to Target 🩸🙃 → reveal end text; caption 'Jk link in bio'",
+      "src": "X",
+      "url": "https://www.tiktok.com/@warmrobestore/video/7584679343121616141",
+      "posted": "2025-12-16"
+    },
+    {
+      "origin": "external",
+      "id": "merryglow.official/GRHtMucS",
+      "page": "merryglow.official",
+      "platform": "IG",
+      "views": "755K",
+      "shares": null,
+      "flag": false,
+      "role": "external winner",
+      "note": "IKEA X Christmas re-shoot, new talent, 18 days later",
+      "src": "X,V",
+      "url": "https://www.instagram.com/reel/DegGRHtMucS/",
+      "posted": "2026-10-14"
+    },
+    {
+      "origin": "external",
+      "id": "tryglowmas/PW6tOt3o",
+      "page": "tryglowmas",
+      "platform": "IG",
+      "views": "246K",
+      "shares": null,
+      "flag": false,
+      "role": "external winner",
+      "note": "Christmas Moms don't walk RUN to costco! · crowd mobs Glowmas pallet",
+      "src": "X",
+      "url": "https://www.instagram.com/reel/DduPW6tOt3o/",
+      "posted": "2026-09-25"
+    }
+  ],
+  "failures": [
+    "Identical repost: 1.4M → 16K in 1.6 days; 326K → 1.6K next day with new text.",
+    "Store word with no pallet/lit product at 0 s: 6.2K, 3.9K, 2.7K.",
+    "Transplanted to a fire pit on IG: 5.3K vs 40.3K for then-vs-now on the same body.",
+    "Missing JK or a caption claiming retail stock: legal and report risk (V: Neon Cowboys vs Cowboy LED; Aldi/Target statements, Aug 2026)."
+  ],
+  "variants": [
+    {
+      "name": "Crowd cloth-pull unveil",
+      "rule": "Staff + phone-holding crowd pull a cloth off the pallet by 2 s; text '{Store} X Christmas 🎄🎁'; JK flip at activation.",
+      "proof": "IKEA 17.4M / 755K, COSTCO X Navidad 2.2M, own 147K staff unveil.",
+      "gate": "3 renders; promote at ≥3× page median."
+    },
+    {
+      "name": "Fictional store",
+      "rule": "Same pallet, a made-up store sign ('Whoville Mart'); keeps the impossible-pallet image without trademark risk.",
+      "proof": "87K unnamed-aisle pallet worked with no store name at all.",
+      "gate": "A/B against Target on the same body; keep if within 0.5× of it."
+    },
+    {
+      "name": "Costco pallet mob",
+      "rule": "Crowd grabbing boxes off a branded pallet + 'Christmas moms don't walk RUN to {Store}'.",
+      "proof": "tryglowmas 246K; our Costco test failed only without a pallet (6.2K).",
+      "gate": "1 test per product."
+    }
+  ],
+  "checks": [
+    {
+      "id": "frp.pallet_0s",
+      "rule": "opening_archetype in {PALLET, UNVEIL} and brand box art visible at 0 s",
+      "cite": "PALLET 5/6 ≥50K vs store-word-only 0/3"
+    },
+    {
+      "id": "frp.jk_on_activation",
+      "rule": "JK text event within ±1 frame of the activation cut, at 54-66%",
+      "cite": "8.333 / 7.333 / 6.50"
+    },
+    {
+      "id": "frp.no_person_hook",
+      "rule": "no face in H1 for the pallet variant",
+      "cite": "1.4M ×2"
+    }
+  ],
+  "open": [
+    "Whether the 1.4M Target would have done better with a JK flip is unknown (it had none).",
+    "No Insights retention for HJ store reels."
+  ],
+  "review": [
+    "Is the twist landing on a beat a viewer will see? The flip is pinned to the PLUG cut, the only handheld macro in the body, so it reads as a 'new scene'.",
+    "Is 5 gens too expensive? The pull is the reveal; cutting it to one gen drops the hand-pull mechanic that both 1.4M reels used."
+  ],
+  "rank": 3,
+  "evidence_strength": {
+    "score": 24.1,
+    "internal_hits_ge50k": 7,
+    "internal_tested": 13,
+    "external_organic_winners": 2
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

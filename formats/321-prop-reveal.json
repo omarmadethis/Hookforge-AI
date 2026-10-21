@@ -1,0 +1,525 @@
+{
+  "slug": "321-prop-reveal",
+  "name": "3-2-1 countdown prop reveal (\"One, two, three. Let's see how it comes out\")",
+  "tier": "A",
+  "status": "PROVEN mechanic: 11 of 18 FB reels with a 3-2-1 VO cleared 50K (2.7M, 524K, 147K, 112K, 98K, 97K, 90K, 88K, MG 98K, MC 63.3K, MC 62.0K). It is a hook MECHANIC layered under a text family (don't-show, NEEDS, store, cut-off, POV), so its reels also count in those specs.",
+  "summary": "Talent holds the product disguised as something else (folded on a baking tray, under a muffin tin, under a cloth) and counts '3, 2, 1… let's see how it comes out' in native AI audio, then flips/tosses/unveils the product on 'one'. The nonsense is the hook; the countdown gives the viewer a reason to stay to ~3 s.",
+  "why": [
+    "FB hit rate with the VO: 11/18 ≥50K (61%) vs HJ base rate median ~59K (hooks_features vo_321 column).",
+    "Decisive condition: product visible at 0.0 s. Every 3-2-1 reel with product_pct_0 = 0 flopped (IG 9K, 3.3K, 1.1K; HJ 6.2K; MerryFires 3.1K; Merry Glows 457), while 11/15 with the product visible won (hook_features.csv product_pct_0).",
+    "2.7M (tray, 'One, two, three. Let's see how it comes out', loaf 35% of frame) and 524K (muffin tin, '3, 2, 1', 40%).",
+    "External: nocturne.robes0 'I made this for the Goths... 🥹' on a muffin-tin tray, 1.3M / 14.9K shares (X)."
+  ],
+  "product_fit": [
+    {
+      "type": "Soft/foldable wearable (robe, blanket, hoodie)",
+      "fit": "PRIMARY",
+      "evidence": "2.7M, 524K, 112K, 98K, 97K, 90K, 88K"
+    },
+    {
+      "type": "Decor that can be held lit or boxed",
+      "fit": "YES if the product (lit) is visible at 0 s",
+      "evidence": "MC 63.3K / 62.0K (product 10%, lit curtain), MG 98K (box in hand 15%)"
+    },
+    {
+      "type": "Fire pit / anything that becomes an unreadable lump",
+      "fit": "NO",
+      "evidence": "MerryFires 3.1K, Merry Glows 457 (cloth-covered / loaf, 0% legible)"
+    },
+    {
+      "type": "Ski mask",
+      "fit": "NO",
+      "evidence": "IG 3.3K, 2.7K, 1.1K"
+    }
+  ],
+  "timing": {
+    "length": "12.9-13.8 s",
+    "basis": "VO occupies ~0-3.8 s (2.7M first cut 3.800; MC 63.3K hook runs to 5.000 with the VO). Song enters on the first body cut (2.7M Holly Jolly at ~3.8-4.0).",
+    "shots": [
+      {
+        "t": "0.0 → 3.6",
+        "shot": "HOOK: 3-2-1 prop",
+        "content": "talent holds tray/tin with the product legible; 'three' ~0.6 s, 'two' ~1.4 s, 'one' ~2.2 s, flip/toss on 'one'; 'let's see how it comes out' to ~3.4 s",
+        "camera": "locked medium, waist-up",
+        "text": "family line ON at 0.0",
+        "gen": "H1 (trim 3.6)"
+      },
+      {
+        "t": "3.6 → 5.1",
+        "shot": "PUT",
+        "content": "talent slips the {product} on, turned away with her back to the phone, hood up so the hood design is what the phone sees",
+        "camera": "locked medium, eye level",
+        "text": "hook line held",
+        "gen": "B1·S1"
+      },
+      {
+        "t": "5.1 → 8.7",
+        "shot": "FEAT",
+        "content": "open it wide: white sherpa lining, step into the foot pouch (legs view); the B1→B2 boundary is the jump cut",
+        "camera": "locked medium-wide, 1 jump cut",
+        "text": "hook line held",
+        "gen": "B1·S2 + B2·S1"
+      },
+      {
+        "t": "8.7 → 9.4",
+        "shot": "PLUG (activation 1)",
+        "content": "macro: USB / power-bank clicks into the port in the fur",
+        "camera": "handheld close-up (the only handheld shot)",
+        "text": "JK flip lands exactly here on store hooks",
+        "gen": "B2·S2 (trim to 0.7 s)"
+      },
+      {
+        "t": "9.4 → 11.0",
+        "shot": "REM (activation 2)",
+        "content": "POV thumb presses the controller, LED heat levels climb",
+        "camera": "locked close",
+        "text": "held",
+        "gen": "B3·S1 (trim to 1.6 s)"
+      },
+      {
+        "t": "11.0 → 13.05",
+        "shot": "COZY (payoff)",
+        "content": "reclined on couch/bed, fully inside, hood up, eyes close / smile, tree lights behind; CUT MID-ACTION",
+        "camera": "locked medium-wide",
+        "text": "held (no CTA card)",
+        "gen": "B3·S2"
+      }
+    ],
+    "measured": [
+      "2.7M: 3.800 | 6.033 | 10.100 | 10.633 | 11.467 | END 13.77 (VO + Holly Jolly from the first cut).",
+      "524K: 2.633 | 3.100 | 4.900 | 8.967 | 9.433 | 11.133 | END 12.94 (toss lands at the 3.100 cut).",
+      "97K: 3.467 | 4.067 | 5.000 | 6.200 | 8.867 | 9.500 | 11.333 | END 13.07.",
+      "MC 63.3K (curtain): HOOK 0-5.000 | BOX -5.967 | INSTALL -7.367 | FACADE ×3 → END 12.15; 3s 44%, avg 7 s, drop-off 0:02."
+    ],
+    "rules": [
+      "Reveal on 'one' by ≤2.6 s; first cut 2.6-3.9 s.",
+      "Native audio ON for H1 (Seedance generates the countdown voice); mute non-English drift."
+    ]
+  },
+  "text": {
+    "style": "House style. Text is the paired family's line, not the countdown (never caption the numbers).",
+    "patterns": [
+      {
+        "pattern": "DO NOT let your {mom} see this ❄️😳 (+ 3-2-1)",
+        "tag": "P",
+        "source": "2.7M"
+      },
+      {
+        "pattern": "ALL {mom}'s NEED this 😳❄️ (+ 3-2-1)",
+        "tag": "P",
+        "source": "524K"
+      },
+      {
+        "pattern": "{Character} X {Store} 😂🎁❄️ (+ 3-2-1 staff unveil)",
+        "tag": "P",
+        "source": "147K"
+      },
+      {
+        "pattern": "POV: the whole street is JEALOUS of your house.. 😏🏠 (+ 3-2-1)",
+        "tag": "P",
+        "source": "MC 63.3K"
+      },
+      {
+        "pattern": "The perfect {decor noun} doesn't exi- (+ 3-2-1)",
+        "tag": "P",
+        "source": "MG 98K"
+      }
+    ],
+    "rules": [
+      "Pair with a family line that names a recipient or envy; 'For my Christmas Lovers' (5.9K) and 'A grinch heated blanket?' (6.2K) flopped."
+    ]
+  },
+  "caption": {
+    "template": "It came out perfect 😳\nSAY \"{KEYWORD}\" and we'll send you the link 🎁\n#christmas #{recipient} #{product_tag}",
+    "keywords": [
+      "MOM",
+      "WARM",
+      "GIFT"
+    ],
+    "rules": [
+      "SAY not COMMENT."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": 1,
+        "track": "Native VO (0-~3.8 s) then Holly Jolly Christmas (Bublé) from its opening line",
+        "start": "song at first body cut",
+        "evidence": "2.7M, MC 63.3K"
+      },
+      {
+        "rank": 2,
+        "track": "Last Christmas (Wham!) · ~2:48",
+        "start": "reel 0.0 under the VO",
+        "evidence": "524K (offset 168.1 s), 147K"
+      },
+      {
+        "rank": 3,
+        "track": "Jingle Bells (Viibez) · 0:00 (carries the countdown)",
+        "start": "reel 0.0",
+        "evidence": "112K, 98K"
+      }
+    ],
+    "rules": [
+      "Keep VO intelligible over music: duck music −8 to −10 dB until the first cut [I]."
+    ]
+  },
+  "generation_plan": {
+    "summary": "4 gens: H1 (1080p, native audio ON, 3-4 rolls: countdown timing is the most failure-prone part), then the wearable body at 720p.",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "Tray / muffin-tin 3-2-1",
+        "shots": "one continuous shot",
+        "feeds": "HOOK",
+        "inputs": "<<<video_1>>> = viral muffin-tin / tray 3-2-1 trend clip; <<<image_1>>> = folded product; cast + room images optional",
+        "basis": "Verified T6 trend-beat scripting [696efce7, ee9d5b8a, 717982da, a54d9455]; the 524K opener copies a viral muffin-tin trend clip (PLAYBOOK §7.1).",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly. Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the {source_object} on the tray in <<<video_1>>> with the folded {product} in <<<image_1>>>, emblem facing the camera.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly, including the voice counting.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Vertical 9:16 iPhone video in a white bedroom with a red-plaid bed and Christmas garland. A young woman in grey loungewear stands waist-up holding a metal baking tray at chest height with the folded {product} from <<<image_1>>> sitting on it like a baked green lump, emblem facing the camera, filling a third of the frame. She says loudly in American English, about one word per second: \"One… two… three… let's see how it comes out!\" and on \"three\" flips the folded {product} off the tray toward the lens. Locked camera. Native audio on: her voice and room tone only, no music, no text.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+      },
+      {
+        "id": "B1",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "PUT | FEAT-a",
+        "shots": "S1 put-on from behind 0-2 s · S2 feature reveal 2-4 s",
+        "feeds": "PUT, FEAT (first half)",
+        "inputs": "<<<video_1>>> = spliced 2+2 s reference (library try-on + lining reveal); <<<image_1>>> = product front; optional <<<image_2>>> = lining",
+        "basis": "Verified T1/T7 recreate-swap (gens c0ede3c3, f7a6d1c3 in the 1.4M Walmart; 26282071 in the 6.6M). Multi-shot inside one gen is verified (hf_20260826_063252 lining→belt→remote, PLAYBOOK §7.2).",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly, including its HARD CUT at 2s, no transition (shot 1 = a person putting the red robe on from behind, hood up; shot 2 = the red robe opened wide to show the white lining and foot pouch, legs view). Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the red blanket robe in both shots of <<<video_1>>> with the {product} in <<<image_1>>>, identical colour and details in both shots. Make sure the hood is up in shot 1.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, cozy American living room with a lit Christmas tree, daytime window light. SHOT 1 (0.0-2.0s), framed as the start image: from behind, a woman swings the {product} from <<<image_1>>> over her shoulders and pulls the hood up; the hood design faces the camera; fabric swoosh. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: low frame from the waist down on a grey carpet: she opens the {product} wide to show the white fluffy lining and steps into the sealed foot pouch, bouncing one leg. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: fabric swoosh, soft footsteps on carpet. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1) · for alt_prompt",
+          "prompt": "iPhone photo, vertical 9:16, cozy American living room with a lit Christmas tree, daytime window light. The first instant of this shot, as a single frame: from behind, a woman swings the {product} from <<<image_1>>> over her shoulders and pulls the hood up; the hood design faces the camera; fabric swoosh. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B2",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "FEAT-b | PLUG",
+        "shots": "S1 feature continued (walk/turn/sit) 0-2 s · S2 connector macro 2-4 s (use 0.7 s)",
+        "feeds": "FEAT (second half), PLUG",
+        "inputs": "<<<video_1>>> = spliced reference (turn/sit + plug macro); <<<image_1>>> = product; <<<image_2>>> = connector/controller photo",
+        "basis": "Verified 3e6bcbbd (1.4M Walmart @10.25 s, blanket swap) + PLAYBOOK §7.5 'one action per clip: the plug is its own ≤0.63 s beat'.",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly, including its HARD CUT at 2s, no transition (shot 1 = the person in the red robe turning and sitting down; shot 2 = macro of fingers clicking the white connector into the red fur). Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the red blanket robe in both shots of <<<video_1>>> with the {product} in <<<image_1>>>, identical colour and details in both shots.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room as the start image. SHOT 1 (0.0-2.0s), framed as the start image: the woman in the {product} from <<<image_1>>>, hood up, turns slowly and sits on the couch arm, the full length and pockets visible. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: macro close-up: fingers click the white connector from <<<image_2>>> into the port hidden in the fur, Christmas tree bokeh behind. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: fabric rustle, a crisp plastic click. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1) · for alt_prompt",
+          "prompt": "iPhone photo, vertical 9:16, same living room as the start image. The first instant of this shot, as a single frame: the woman in the {product} from <<<image_1>>>, hood up, turns slowly and sits on the couch arm, the full length and pockets visible. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B3",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "REM | COZY",
+        "shots": "S1 remote LEDs climb 0-2 s · S2 cozy payoff 2-4 s",
+        "feeds": "REM, COZY",
+        "inputs": "<<<video_1>>> = spliced reference (remote press + recliner snuggle); <<<image_1>>>; <<<image_2>>> = controller",
+        "basis": "Verified 8f761a37 (147K: 'add a red glow around the edges of the remote when they press the button') + c0ede3c3 (cozy payoff in 1.4M ×2 and 16K).",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly, including its HARD CUT at 2s, no transition (shot 1 = POV thumb pressing the remote, heat LEDs stepping up; shot 2 = person reclined on the couch fully inside the red robe, hood up, snuggling deeper). Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the red blanket robe in both shots of <<<video_1>>> with the {product} in <<<image_1>>>, identical colour and details in both shots. In shot 1 the controller LEDs step up from level 3 to level 5 with a red glow.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room, lamps on, tree lit. SHOT 1 (0.0-2.0s), framed as the start image: POV: a thumb presses the white controller from <<<image_2>>> several times and the LED heat levels step up from 3 to 5, small click sounds. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: she is reclined on the couch fully inside the {product} with the hood up, shivers once, then snuggles deeper and pulls it to her chin, eyes closing, smiling. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: button clicks, a content sigh. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1) · for alt_prompt",
+          "prompt": "iPhone photo, vertical 9:16, same living room, lamps on, tree lit. The first instant of this shot, as a single frame: POV: a thumb presses the white controller from <<<image_2>>> several times and the LED heat levels step up from 3 to 5, small click sounds. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      }
+    ],
+    "rules": [
+      "Reject any H1 roll where the product is not legible at 0.0 s (the 0%-share 3-2-1 reels went 0/6).",
+      "Prop bank: muffin tin, baking tray, bundt pan, silver platter, cake tin (prompt_templates H-321)."
+    ]
+  },
+  "evidence": [
+    {
+      "origin": "internal",
+      "id": "1381141263599559",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 2700000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "tray · 'One, two, three. Let's see how it comes out' · 35%",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1381141263599559/"
+    },
+    {
+      "origin": "internal",
+      "id": "38670473745933796",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 524000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "muffin tin · '3, 2, 1' · 40% · ALL mom's NEED this",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/38670473745933796/"
+    },
+    {
+      "origin": "internal",
+      "id": "1792686372082535",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 147000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "staff unveil · '3, 2, 1' · 20%",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1792686372082535/"
+    },
+    {
+      "origin": "internal",
+      "id": "1091813756570236",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 112000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "wear/hold · 25%",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1091813756570236/"
+    },
+    {
+      "origin": "internal",
+      "id": "1570987517305626",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 98000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "wear/hold · 'Three, two, one.' · 25%",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1570987517305626/"
+    },
+    {
+      "origin": "internal",
+      "id": "mg_post122111714343432799",
+      "page": "Merry Glow",
+      "platform": "FB",
+      "views": 97955,
+      "shares": null,
+      "role": "winner",
+      "note": "box in hand · 'Two, one. So this is how it comes out' · 66% watched",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "1410783157651567",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 97000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "muffin tin · 60%",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1410783157651567/"
+    },
+    {
+      "origin": "internal",
+      "id": "952384320521622",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 90000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "'One, two, three.' · 30%",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/952384320521622/"
+    },
+    {
+      "origin": "internal",
+      "id": "1316823017056392",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 88000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "'3 / 2 / 1' · 35%",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1316823017056392/"
+    },
+    {
+      "origin": "internal",
+      "id": "mc_post122118620919475353",
+      "page": "Merry Carrier",
+      "platform": "FB",
+      "views": 63320,
+      "shares": null,
+      "role": "winner",
+      "note": "lit curtain · full VO · gen d72dabc1",
+      "src": "H,B,I,M",
+      "url": "https://www.facebook.com/reel/28305014139198128/"
+    },
+    {
+      "origin": "internal",
+      "id": "mc_post122119170687475353",
+      "page": "Merry Carrier",
+      "platform": "FB",
+      "views": 62010,
+      "shares": null,
+      "role": "winner",
+      "note": "Walmart staff hold lit curtain · full VO",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "1655048449619269",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 16000.0,
+      "shares": null,
+      "role": "flop",
+      "note": "tray, full-body, 15%",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1655048449619269/"
+    },
+    {
+      "origin": "internal",
+      "id": "28206279789000326",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 6200.0,
+      "shares": null,
+      "role": "flop",
+      "note": "sheet unveil, 0% product at 0 s",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/28206279789000326/"
+    },
+    {
+      "origin": "internal",
+      "id": "1606892301089465",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 5900.0,
+      "shares": null,
+      "role": "flop",
+      "note": "For my Christmas Lovers · 30%",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1606892301089465/"
+    },
+    {
+      "origin": "internal",
+      "id": "1696343398581029",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 3900.0,
+      "shares": null,
+      "role": "flop",
+      "note": "cut-off line at home, 15.4 s",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1696343398581029/"
+    },
+    {
+      "origin": "internal",
+      "id": "merryfires_1101086242506423",
+      "page": "MerryFires",
+      "platform": "FB",
+      "views": 3084,
+      "shares": null,
+      "role": "flop",
+      "note": "loaf on fire pit · 0%",
+      "src": "H,B",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "mgs_8_2.1K_1908200570557125",
+      "page": "Merry Glows",
+      "platform": "FB",
+      "views": 2191,
+      "shares": null,
+      "role": "flop",
+      "note": "POV tree contest · 12% · 3s 27%",
+      "src": "H,B",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "mgs_3_455_28876831118647366",
+      "page": "Merry Glows",
+      "platform": "FB",
+      "views": 457,
+      "shares": null,
+      "role": "flop",
+      "note": "cloth-covered fire pit · 0%",
+      "src": "H,B",
+      "url": null
+    },
+    {
+      "origin": "external",
+      "id": "nocturne.robes0/48411679",
+      "page": "nocturne.robes0",
+      "platform": "TikTok",
+      "views": 1300000.0,
+      "shares": "14.9K",
+      "flag": false,
+      "role": "external winner",
+      "note": "I made this for the Goths... 🥹 · folded robe on muffin tin",
+      "src": "X",
+      "url": "https://www.tiktok.com/@nocturne.robes0/video/7684104805748411679",
+      "posted": "2026-09-10"
+    }
+  ],
+  "failures": [
+    "Product not legible at 0 s (0/6).",
+    "Weak/no-recipient text line (5.9K, 6.2K).",
+    "Robe prop transplanted to a non-foldable product (fire pit 3.1K, 457).",
+    "Countdown in the wrong language or garbled (mute; PLAYBOOK §7.6)."
+  ],
+  "variants": [
+    {
+      "name": "Tribe callout + tin",
+      "rule": "Callout line ('{Tribe}... this is for you 🥹') over the tin reveal.",
+      "proof": "nocturne.robes0 1.3M (Goths + muffin tin).",
+      "gate": "3 renders."
+    },
+    {
+      "name": "Lit-decor countdown",
+      "rule": "Staff/couple hold the LIT product, count down, then the house lights up.",
+      "proof": "MC 63.3K and 62.0K.",
+      "gate": "1 per decor product per week."
+    }
+  ],
+  "checks": [
+    {
+      "id": "321.product_visible_0s",
+      "rule": "product_pct_0 > 0 (target ≥25)",
+      "cite": "0/6 with 0%; 11/15 with >0%"
+    },
+    {
+      "id": "321.vo_detected",
+      "rule": "Whisper finds a countdown in 0-3 s",
+      "cite": "vo_first_words"
+    },
+    {
+      "id": "321.reveal_by",
+      "rule": "reveal motion peak ≤ 2.6 s",
+      "cite": "524K 2.633 cut"
+    }
+  ],
+  "open": [
+    "The 3-2-1 effect cannot be separated from the paired text family with n=18."
+  ],
+  "review": [
+    "Kept as its own spec because Omar orders '3-2-1 videos' by name; the INDEX explains that its reels overlap with other formats."
+  ],
+  "rank": 2,
+  "evidence_strength": {
+    "score": 27.1,
+    "internal_hits_ge50k": 11,
+    "internal_tested": 18,
+    "external_organic_winners": 0
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

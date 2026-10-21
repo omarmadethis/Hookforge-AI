@@ -1,0 +1,37 @@
+{
+ "_note": "D120: caps Omar approved in chat (no approvals/<run>.json). Fill only from Omar's explicit approval: {\"runs\": {\"<run_id>\": {\"cap\": N, \"approved_by\": \"Omar\", \"approved_pt\": \"...\"}}}",
+ "runs": {
+  "purrventure_branding_v2": {
+   "cap": 40,
+   "approved_by": "Omar",
+   "approved_pt": "2026-10-20 (chat)",
+   "status": "closed",
+   "closed_pt": "2026-10-20T15:50:00-07:00",
+   "note": "chat-approved; no spend_ledger rows found - actual spend unknown, add job rows if the worker logged them elsewhere"
+  },
+  "purrventure_p2_addshot": {
+   "cap": 35,
+   "approved_by": "Omar",
+   "approved_pt": "2026-10-20 (chat)",
+   "status": "closed",
+   "closed_pt": "2026-10-20T15:50:00-07:00",
+   "reported_spent": 34.5,
+   "note": "chat-approved; 34.5 used per Omar; no spend_ledger rows/job ids found"
+  }
+ },
+ "groups": {
+  "purrventure_3videos": {
+   "cap": 650,
+   "approx": true,
+   "approved_by": "Omar",
+   "approved_pt": "2026-10-20 (chat)",
+   "runs": [
+    "purrventure_frames",
+    "purrventure_video"
+   ],
+   "status": "closed",
+   "closed_pt": "2026-10-20T15:50:00-07:00",
+   "note": "'about 650 total' for the 3 PurrVenture videos (frames + video)"
+  }
+ }
+}

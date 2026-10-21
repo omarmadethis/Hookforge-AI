@@ -1,0 +1,203 @@
+{
+ "slug": "minionmask",
+ "product_keys": [
+  "minionmask"
+ ],
+ "assets_dir": "assets/minionmask",
+ "approved_cast": "MASKED RIDER: snowboarder in an orange jacket, 4.4K IG DeAurrvvndh",
+ "approved_cast_status": "locked (F94)",
+ "higgsfield_media_ids": null,
+ "built_pt": "2026-10-20T09:56:22",
+ "refs": [
+  {
+   "path": "refs/minionmask/product/product_evil_purple_v1.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/evil_purple_v1.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_evil_purple_v2.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/evil_purple_v2.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_evil_purple_v3_ski_goggles.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/evil_purple_v3_ski_goggles.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_evil_purple_v4_forehead.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/evil_purple_v4_forehead.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_forehead_one_eye_v1.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/forehead_one_eye_v1.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_forehead_one_eye_v2_hidden_strap.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/forehead_one_eye_v2_hidden_strap.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_forehead_one_eye_v3_mouth.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/forehead_one_eye_v3_mouth.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_forehead_one_eye_v4_tucked.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/forehead_one_eye_v4_tucked.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_forehead_two_eye_v1.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/forehead_two_eye_v1.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_forehead_two_eye_v2_hidden_strap.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/forehead_two_eye_v2_hidden_strap.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_forehead_two_eye_v3_mouth.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/forehead_two_eye_v3_mouth.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_tall_sprout_smirk_v1.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/tall_sprout_smirk_v1.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_tall_sprout_smirk_v2_low.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/tall_sprout_smirk_v2_low.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_tall_sprout_smirk_v3_low.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/tall_sprout_smirk_v3_low.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_tall_sprout_smirk_v4_lower.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/tall_sprout_smirk_v4_lower.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_yellow_bald_grin_v1.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/yellow_bald_grin_v1.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_yellow_bald_v2.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/yellow_bald_v2.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_yellow_combover_v2.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/yellow_combover_v2.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_yellow_o_mouth_v1.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/yellow_o_mouth_v1.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/product/product_yellow_sprout_v1.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MinionMask yellow-character ski mask (BrickHood sub-line)",
+   "source": "~/Documents/BrickHood/MinionMask/product_shots/yellow_sprout_v1.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/minionmask/cast/cast_masked_rider_top.png",
+   "kind": "cast",
+   "what": "cast_masked_rider_top.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  }
+ ],
+ "refused": [],
+ "rule": "F88: no generation without product AND cast refs; F87: every file passes deliver.scan"
+}

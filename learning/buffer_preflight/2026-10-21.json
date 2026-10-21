@@ -1,0 +1,238 @@
+{
+ "at_pt": "2026-10-20T17:28:11-07:00",
+ "schema": "config/buffer_create_post.schema.json",
+ "slots": 20,
+ "passed": 20,
+ "per_product": {
+  "trumpglow": "12/12",
+  "purrventure_carrier": "5/5",
+  "jollyglow_curtain": "3/3"
+ },
+ "remaining_before_first_push": [
+  "stage each rendered video (deliver.stage/verify_staged) and pass its public URL",
+  "Omar approval per post (publish.approve)"
+ ],
+ "rows": [
+  {
+   "day": "2026-10-21",
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V1",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer",
+   "ok": true
+  },
+  {
+   "day": "2026-10-21",
+   "page": "purrventures2_fb",
+   "product": "purrventure_carrier",
+   "video": "purrventure_carrier_V1",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer--buffer2",
+   "ok": true
+  },
+  {
+   "day": "2026-10-21",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V1",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer--buffer2",
+   "ok": true
+  },
+  {
+   "day": "2026-10-22",
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V2",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer",
+   "ok": true
+  },
+  {
+   "day": "2026-10-22",
+   "page": "purrventures_fb",
+   "product": "purrventure_carrier",
+   "video": "purrventure_carrier_V1",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer",
+   "ok": true
+  },
+  {
+   "day": "2026-10-22",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V2",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer--buffer2",
+   "ok": true
+  },
+  {
+   "day": "2026-10-23",
+   "page": "jollyglow_fb",
+   "product": "jollyglow_curtain",
+   "video": "jollyglow_curtain_V1",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer",
+   "ok": true
+  },
+  {
+   "day": "2026-10-23",
+   "page": "purrventures2_fb",
+   "product": "purrventure_carrier",
+   "video": "purrventure_carrier_V2",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer--buffer2",
+   "ok": true
+  },
+  {
+   "day": "2026-10-23",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V3",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer--buffer2",
+   "ok": true
+  },
+  {
+   "day": "2026-10-24",
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V3",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer",
+   "ok": true
+  },
+  {
+   "day": "2026-10-24",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V4",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer--buffer2",
+   "ok": true
+  },
+  {
+   "day": "2026-10-25",
+   "page": "jollyglow_fb",
+   "product": "jollyglow_curtain",
+   "video": "jollyglow_curtain_V2",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer",
+   "ok": true
+  },
+  {
+   "day": "2026-10-25",
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V4",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer",
+   "ok": true
+  },
+  {
+   "day": "2026-10-25",
+   "page": "purrventures_fb",
+   "product": "purrventure_carrier",
+   "video": "purrventure_carrier_V2",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer",
+   "ok": true
+  },
+  {
+   "day": "2026-10-25",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V5",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer--buffer2",
+   "ok": true
+  },
+  {
+   "day": "2026-10-26",
+   "page": "jollyglow_fb",
+   "product": "jollyglow_curtain",
+   "video": "jollyglow_curtain_V3",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer",
+   "ok": true
+  },
+  {
+   "day": "2026-10-26",
+   "page": "purrventures2_fb",
+   "product": "purrventure_carrier",
+   "video": "purrventure_carrier_V3",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer--buffer2",
+   "ok": true
+  },
+  {
+   "day": "2026-10-26",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V6",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer--buffer2",
+   "ok": true
+  },
+  {
+   "day": "2026-10-27",
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V5",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer",
+   "ok": true
+  },
+  {
+   "day": "2026-10-27",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V7",
+   "service": "facebook",
+   "url": "stand-in (video not staged yet)",
+   "problems": [],
+   "namespace": "user-Buffer--buffer2",
+   "ok": true
+  }
+ ],
+ "nothing_sent": true
+}

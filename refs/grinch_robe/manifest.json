@@ -1,0 +1,167 @@
+{
+ "slug": "grinch_robe",
+ "product_keys": [
+  "grinch_robe"
+ ],
+ "assets_dir": "assets/grinch_robe",
+ "approved_cast": "WOMAN: brown-haired woman in the Grinch robe from the 6.6M FB reel 1624473615929591 (refs/grinch_robe/cast/cast_woman_top.png)",
+ "approved_cast_status": "locked (F94)",
+ "higgsfield_media_ids": null,
+ "built_pt": "2026-10-20T09:55:35",
+ "refs": [
+  {
+   "path": "refs/grinch_robe/product/box_box.png",
+   "kind": "product",
+   "type": "box",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/box.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/product/product_grinchrobe.png.png",
+   "kind": "product",
+   "type": "product",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/grinchrobe.png.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/product/product_grinchrobe2.png",
+   "kind": "product",
+   "type": "product",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/grinchrobe2.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/product/product_mean-one-robe-views.png",
+   "kind": "product",
+   "type": "product",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/mean-one-robe-views.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/cast/lifestyle_4be8ddd0-e300-467e-88fb-aee0c9d0d8c2.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/4be8ddd0-e300-467e-88fb-aee0c9d0d8c2.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/product/product_ChatGPT_Image_Aug_31_2026_05_28_37_AM.png.png",
+   "kind": "product",
+   "type": "product",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/ChatGPT_Image_Aug_31_2026_05_28_37_AM.png.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/cast/lifestyle_d0301ca6-a6ec-4ec4-95b6-34adbf470fc5.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/d0301ca6-a6ec-4ec4-95b6-34adbf470fc5.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/product/box_df9d52ad-d6b2-405f-8979-ee2b775edc76.png",
+   "kind": "product",
+   "type": "box",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/df9d52ad-d6b2-405f-8979-ee2b775edc76.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/cast/lifestyle_e8621b0d-43cc-4214-b94c-97ca7ce8aa8b.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/e8621b0d-43cc-4214-b94c-97ca7ce8aa8b.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/cast/lifestyle_fce87c21-030f-43e6-b493-f155d485bd6b.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/fce87c21-030f-43e6-b493-f155d485bd6b.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/cast/lifestyle_hf_20260913_200718_a7cc953f-c5a9-4de1-8ba7-d9170851795b.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/hf_20260913_200718_a7cc953f-c5a9-4de1-8ba7-d9170851795b.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/cast/lifestyle_hf_20260927_205359_6a65b6d2-2df2-477a-947c-9904bd57dca8.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/hf_20260927_205359_6a65b6d2-2df2-477a-947c-9904bd57dca8.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/cast/lifestyle_image-2.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/image-2.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/cast/lifestyle_image-4.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/image-4.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/cast/lifestyle_scene1_start_frame.jpg",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "Heated Grinch robe",
+   "source": "~/Downloads/scene1_start_frame.jpg",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/product/box_grinch robe box.png",
+   "kind": "product",
+   "type": "box",
+   "what": "Heated Grinch robe",
+   "source": "~/Library/CloudStorage/GoogleDrive-contact@merryjammies.com/My Drive/vids w isaac/christmas clips/grinch robe box.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinch_robe/cast/cast_woman_top.png",
+   "kind": "cast",
+   "what": "cast_woman_top.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  }
+ ],
+ "refused": [],
+ "rule": "F88: no generation without product AND cast refs; F87: every file passes deliver.scan"
+}

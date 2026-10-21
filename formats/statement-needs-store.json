@@ -1,0 +1,351 @@
+{
+  "slug": "statement-needs-store",
+  "name": "\"Every Christmas {mom} NEEDS this\" + store-shelf reaction",
+  "tier": "B",
+  "status": "PROVEN externally (5.2M, 1.4M, 1.1M, 892K organic) and internally (524K, Merry Carrier 62.8K). Internal n=2 winners, so Tier B.",
+  "summary": "A declarative 'every {identity} NEEDS this' line over a shocked shopper in an aisle (or a POV hand grabbing the box off a shelf), then the fastest possible product demo.",
+  "why": [
+    "hollyglow27 'EVERY Christmas Mom NEEDS this 🎄😱' 5.2M / 39.5K shares in only 7.85 s (POV hand grabs boxed projector off a red shelf) (X).",
+    "merry.made2 'Every Christmas mom NEEDS this 😳❄️' 1.4M / 24.7K shares on a robe in a Target-style aisle; tryglowmas 1.1M; carolvyl 892K (X).",
+    "Internal: 524K 'ALL mom's NEED this 😳❄️' (muffin tin) and Merry Carrier 62.8K 'Every Christmas mom NEEDS this 😏❄️' (Insights 3s 34%, avg 6 s).",
+    "Same text family failed when re-texted onto don't-show footage: 'EVERY Grandma NEEDS this..' 4.2K on the 183K footage."
+  ],
+  "product_fit": [
+    {
+      "type": "Decor / projector / lights",
+      "fit": "PRIMARY",
+      "evidence": "ext 5.2M, 1.1M, 892K; MC 62.8K"
+    },
+    {
+      "type": "Wearable gift",
+      "fit": "YES",
+      "evidence": "524K; ext merry.made2 1.4M"
+    },
+    {
+      "type": "Pet",
+      "fit": "TRANSFER",
+      "evidence": "'Every cat mom NEEDS this 😏🐾' (hooks REPORT §5.4)"
+    }
+  ],
+  "timing": {
+    "length": "7.9-14.5 s (two proven shapes)",
+    "basis": "Shape S (short): hollyglow 5.2M cuts 2.02 | 3.62 | 4.50 | 4.90 | 6.95 | END 7.85. Shape L (standard): merry.made2 1.4M cuts 1.37 | 3.67 | 5.88 | 10.73 | 11.70 | 12.65 | END 14.51; MC 62.8K 2.333 | 4.333 | 5.767 | 9.033 | END 12.61.",
+    "shots": [
+      {
+        "t": "0.0 → 2.0",
+        "shot": "HOOK: shelf grab / shopper gasp",
+        "content": "POV hand pulls the branded box off a store shelf (S) or a woman gasps at a shelf of boxes (L), boxes legible at 0 s",
+        "camera": "POV handheld",
+        "text": "NEEDS line ON",
+        "gen": "H1 (use 2.0 of 4.06)"
+      },
+      {
+        "t": "2.0 → 3.6",
+        "shot": "BOX→HOME",
+        "content": "box on lap at home, lid off",
+        "camera": "locked top-down",
+        "text": "held",
+        "gen": "B1·S1"
+      },
+      {
+        "t": "3.6 → 5.6",
+        "shot": "INSTALL / PUT",
+        "content": "product placed / put on",
+        "camera": "locked",
+        "text": "held",
+        "gen": "B1·S2"
+      },
+      {
+        "t": "5.6 → 6.4",
+        "shot": "ACTIVATION (S: 57-72%)",
+        "content": "plug / app tap → lights / heat",
+        "camera": "handheld macro",
+        "text": "held",
+        "gen": "B2·S1 (trim 0.8)"
+      },
+      {
+        "t": "6.4 → 7.9",
+        "shot": "PAYOFF (end, S)",
+        "content": "room transformed / cozy; hard cut. For shape L continue with B2·S2 + B3 (wearable or decor master)",
+        "camera": "locked wide",
+        "text": "held",
+        "gen": "B2·S2 (1.5)"
+      }
+    ],
+    "measured": [
+      "hollyglow 5.2M END 7.85 s (shortest 1M+ reel in the dataset).",
+      "524K: 2.633 | 3.100 | 4.900 | 8.967 | 9.433 | 11.133 | END 12.94.",
+      "MC 62.8K: drop-off 0:02 — the hook visual must change by 2 s."
+    ],
+    "rules": [
+      "Default to shape L on FB (our pages' winners are 12-14.5 s); run shape S as the experiment (it also tests sub-10 s length).",
+      "Shopper reaction must peak by 2 s (SHOCK_STORE median 6.2K without a striking reaction, hooks REPORT §1.4)."
+    ]
+  },
+  "text": {
+    "style": "House style; 'NEEDS' in caps.",
+    "patterns": [
+      {
+        "pattern": "EVERY Christmas {Mom} NEEDS this 🎄😱",
+        "tag": "P (ext)",
+        "source": "hollyglow27 5.2M"
+      },
+      {
+        "pattern": "Every Christmas {mom} NEEDS this 😳❄️",
+        "tag": "P",
+        "source": "merry.made2 1.4M; MC 62.8K (😏❄️)"
+      },
+      {
+        "pattern": "Every Christmas lover Needs this...🎄🎅",
+        "tag": "P (ext)",
+        "source": "tryglowmas 1.1M; carolvyl 892K"
+      },
+      {
+        "pattern": "ALL {mom}'s NEED this 😳❄️",
+        "tag": "P",
+        "source": "HJ 524K"
+      }
+    ],
+    "rules": [
+      "Do not re-text other families' winning footage into NEEDS (4.2K)."
+    ]
+  },
+  "caption": {
+    "template": "Every single one of them 😏\nSAY \"{KEYWORD}\" and we'll send you the link\n#christmas #christmasmom #{product_tag}",
+    "keywords": [
+      "MOM",
+      "CHRISTMAS"
+    ],
+    "rules": [
+      "Merry Carrier 62.8K caption 'Your neighbors are gonna be jealous... 🤭❄️' (no link) is the proven envy alternative.",
+      "SAY not COMMENT."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": 1,
+        "track": "Last Christmas (Wham!) · 0:00 intro",
+        "start": "reel 0.0",
+        "evidence": "MC 62.8K (offset 0.12 s)"
+      },
+      {
+        "rank": 2,
+        "track": "Last Christmas · ~2:48",
+        "start": "reel 0.0",
+        "evidence": "524K"
+      },
+      {
+        "rank": 3,
+        "track": "Let It Snow · 0:00",
+        "start": "reel 0.0",
+        "evidence": "merry.made2 1.4M"
+      }
+    ],
+    "rules": []
+  },
+  "generation_plan": {
+    "summary": "Shape S: 3 gens (H1 + B1 + B2). Shape L: H1 + the 3-gen wearable or decor master.",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "POV shelf grab",
+        "shots": "one continuous POV shot",
+        "feeds": "HOOK",
+        "inputs": "start still (T8): red store shelf of {brand} boxes, US flag overhead; <<<image_1>>> = box art",
+        "basis": "H-STORE-POV (326K/87K hook family) + hollyglow 5.2M visual.",
+        "prompt": "Image-to-video from the start image. POV handheld in a bright big-box store aisle: a woman's hand in a beige sweater reaches up to a red shelf stacked with {brand} boxes from <<<image_1>>> and pulls one box off toward the camera within the first second, slight push-in, busy store ambience, an American flag hanging overhead. No music, no text.\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8",
+          "prompt": "iPhone photo, vertical 9:16, handheld POV in a bright big-box store aisle: a red shelf fully stacked with identical {brand} boxes using the exact box art from the first image, and a woman's hand in a beige sweater just entering the frame from the bottom, reaching toward the shelf. An American flag hangs overhead. Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B1",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "BOX→HOME | INSTALL",
+        "shots": "S1 lid off on lap · S2 product placed",
+        "feeds": "BOX→HOME, INSTALL",
+        "inputs": "home start still; <<<image_1>>> box; <<<image_2>>> product",
+        "basis": "Box ≤2.0 s with motion (body REPORT §3).",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, cozy American living room at night, Christmas tree unlit. SHOT 1 (0.0-2.0s), framed as the start image: top-down on a lap: hands pull the lid off the {brand} box from <<<image_1>>> and lift the {product} from <<<image_2>>> out in one motion. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: she sets the {product} in place on the side table facing the empty wall. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: cardboard slide, soft rustle. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1)",
+          "prompt": "iPhone photo, vertical 9:16, cozy American living room at night, Christmas tree unlit. The first instant of this shot, as a single frame: top-down on a lap: hands pull the lid off the {brand} box from <<<image_1>>> and lift the {product} from <<<image_2>>> out in one motion. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B2",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "ACTIVATION | PAYOFF",
+        "shots": "S1 switch-on macro · S2 transformed room",
+        "feeds": "ACTIVATION, PAYOFF",
+        "inputs": "same room still; <<<image_2>>>; real effect reference video",
+        "basis": "Integrity guard from 4dabfa47.",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room, lamps off. SHOT 1 (0.0-2.0s), framed as the start image: macro: a finger presses the button on the {product} from <<<image_2>>> and it switches on. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: wide: the room is transformed exactly as in the reference video, two kids on the rug look up amazed. The effect matches the reference video exactly; nothing the real product cannot do. Audio: button click, kids gasp. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1)",
+          "prompt": "iPhone photo, vertical 9:16, same living room, lamps off. The first instant of this shot, as a single frame: macro: a finger presses the button on the {product} from <<<image_2>>> and it switches on. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      }
+    ],
+    "rules": [
+      "For wearables use H1 with a shocked woman in a Target-style aisle (merry.made2 1.4M) and the wearable master body."
+    ]
+  },
+  "evidence": [
+    {
+      "origin": "internal",
+      "id": "38670473745933796",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 524000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "ALL mom's NEED this 😳❄️ · muffin tin",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/38670473745933796/"
+    },
+    {
+      "origin": "internal",
+      "id": "mc_post122118390723475353",
+      "page": "Merry Carrier",
+      "platform": "FB",
+      "views": 62813,
+      "shares": null,
+      "role": "winner",
+      "note": "Every Christmas mom NEEDS this 😏❄️ · 3s 34%, avg 6 s, drop-off 0:02",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "941323882373159",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 4200.0,
+      "shares": null,
+      "role": "flop",
+      "note": "EVERY Grandma NEEDS this.. · 183K footage re-texted",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/941323882373159/"
+    },
+    {
+      "origin": "external",
+      "id": "hollyglow27/70879262",
+      "page": "hollyglow27",
+      "platform": "TikTok",
+      "views": 5200000.0,
+      "shares": "39.5K",
+      "flag": false,
+      "role": "external winner",
+      "note": "EVERY Christmas Mom NEEDS this 🎄😱 · POV shelf grab · 7.85 s",
+      "src": "X",
+      "url": "https://www.tiktok.com/@hollyglow27/video/7684015670970879262",
+      "posted": "2026-09-10"
+    },
+    {
+      "origin": "external",
+      "id": "merry.made2/48695841",
+      "page": "merry.made2",
+      "platform": "TikTok",
+      "views": 1400000.0,
+      "shares": "24.7K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Every Christmas mom NEEDS this 😳❄️ · robe · Target-style aisle",
+      "src": "X",
+      "url": "https://www.tiktok.com/@merry.made2/video/7682366595548695841",
+      "posted": "2026-09-06"
+    },
+    {
+      "origin": "external",
+      "id": "tryglowmas/20709646",
+      "page": "tryglowmas",
+      "platform": "TikTok",
+      "views": 1100000.0,
+      "shares": "7.8K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Every Christmas lover Needs this... · shocked woman with cart",
+      "src": "X",
+      "url": "https://www.tiktok.com/@tryglowmas/video/7687847463620709646",
+      "posted": "2026-09-20"
+    },
+    {
+      "origin": "external",
+      "id": "carolvyl/00775190",
+      "page": "carolvyl",
+      "platform": "TikTok",
+      "views": 891700.0,
+      "shares": "12.6K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Every Christmas lover NEEDS THIS... · Target aisle",
+      "src": "X",
+      "url": "https://www.tiktok.com/@carolvyl/video/7676601180100775190",
+      "posted": "2026-08-21"
+    },
+    {
+      "origin": "external",
+      "id": "homebeyond8386/89081607",
+      "page": "homebeyond8386",
+      "platform": "TikTok",
+      "views": 563800.0,
+      "shares": "7.2K",
+      "flag": true,
+      "role": "external winner",
+      "note": "Every Christmas Parents NEEDS this! · animated tree lights",
+      "src": "X",
+      "url": "https://www.tiktok.com/@homebeyond8386/video/7685372487089081607",
+      "posted": "2026-09-14"
+    }
+  ],
+  "failures": [
+    "Re-texting another family's footage (4.2K).",
+    "Shopper with no strong reaction by 2 s (SHOCK_STORE median 6.2K).",
+    "Hook-level leak at 0:02 on MC 62.8K (3s 34%, the lowest of the MC winners)."
+  ],
+  "variants": [
+    {
+      "name": "Sub-8 s cut",
+      "rule": "Shape S end-to-end in 7.9 s.",
+      "proof": "hollyglow 5.2M.",
+      "gate": "3 renders; compare avg-watch % (not seconds) to page median."
+    }
+  ],
+  "checks": [
+    {
+      "id": "needs.caps",
+      "rule": "hook contains 'NEED' in caps",
+      "cite": "all 5 winners"
+    },
+    {
+      "id": "needs.box_0s",
+      "rule": "branded box or product visible at 0 s",
+      "cite": "5.2M, 1.4M"
+    }
+  ],
+  "open": [
+    "Internal n=2; 7.85 s length untested on FB."
+  ],
+  "review": [
+    "Promoted from the playbook's tier 'A statement' because the external winners (4 organic ≥892K) are stronger than its internal rank suggested."
+  ],
+  "rank": 9,
+  "evidence_strength": {
+    "score": 5.6,
+    "internal_hits_ge50k": 2,
+    "internal_tested": 3,
+    "external_organic_winners": 0
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

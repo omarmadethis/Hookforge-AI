@@ -1,0 +1,40 @@
+{
+ "trumpglow_projector_rally_a": {
+  "passed": true,
+  "fails": [],
+  "checks": {
+   "physics_no_clipping": true,
+   "inside_or_outside": true,
+   "ground_contact": true,
+   "cat_matches_ref": true,
+   "product_matches_ref": true,
+   "cast_outfit_match": true,
+   "flag_tiny": true,
+   "gaze_ok": true,
+   "no_ai_tells": true
+  },
+  "notes": "N/A checks (cat/ball/cast/gaze) pass by absence. Carbon weave, focus wheel, -/+/power buttons and lens match ref; Trump portrait + flag projection; rally stage + flags; no NFL/corner logos, no text. Note: projection is a bit large and less light-cone-consistent than B; flag_tiny not applicable (patriotic hero shot uses flag backdrop by brief).",
+  "reviewer": "agent-fullres",
+  "file_sha": "322ccf086f223359c966a0509ccfdad4f9e424e1ba27ce542871c9248f32b44a",
+  "at": "2026-10-20T09:51:31"
+ },
+ "trumpglow_projector_rally_b": {
+  "passed": true,
+  "fails": [],
+  "checks": {
+   "physics_no_clipping": true,
+   "inside_or_outside": true,
+   "ground_contact": true,
+   "cat_matches_ref": true,
+   "product_matches_ref": true,
+   "cast_outfit_match": true,
+   "flag_tiny": true,
+   "gaze_ok": true,
+   "no_ai_tells": true
+  },
+  "notes": "N/A checks pass by absence. Best of the two: beam lands on the projected circle on grass, product matches ref, no logos/text. Pick B.",
+  "reviewer": "agent-fullres",
+  "file_sha": "817754881439221bfacf911b9f9ef408b1d3b649d7411042acb92def0767993e",
+  "at": "2026-10-20T09:51:31"
+ }
+}

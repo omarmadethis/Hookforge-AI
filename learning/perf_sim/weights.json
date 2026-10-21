@@ -1,0 +1,70 @@
+{
+ "_meta": {
+  "updated_pt": "2026-10-20T15:39:15-07:00",
+  "posts": 24,
+  "reference_products": [
+   "brickhood_mask"
+  ],
+  "note": "retired products feed the pooled prior only"
+ },
+ "grinch_robe": {
+  "hook": {
+   "F02": {
+    "weight": 0.897,
+    "n": 4
+   },
+   "F08": {
+    "weight": 1.21,
+    "n": 4
+   }
+  },
+  "caption": {
+   "SAY \"ROBE\" for the link": {
+    "weight": 1.21,
+    "n": 4
+   },
+   "Which one would you pick? \ud83d\udc40": {
+    "weight": 0.897,
+    "n": 4
+   }
+  },
+  "song": {
+   "holly_jolly": {
+    "weight": 0.886,
+    "n": 2
+   },
+   "last_christmas": {
+    "weight": 1.154,
+    "n": 6
+   }
+  }
+ },
+ "trumpglow": {
+  "hook": {
+   "F04": {
+    "weight": 0.867,
+    "n": 5
+   },
+   "F09": {
+    "weight": 1.5,
+    "n": 3
+   }
+  },
+  "caption": {
+   "Don't show this to a liberal \ud83d\ude02": {
+    "weight": 1.5,
+    "n": 2
+   },
+   "SAY \"GLOW\"": {
+    "weight": 1.202,
+    "n": 6
+   }
+  },
+  "song": {
+   "free_bird_solo": {
+    "weight": 1.423,
+    "n": 8
+   }
+  }
+ }
+}

@@ -1,0 +1,1322 @@
+{
+ "id": "concept_2026-10-20_cozyjams_F13",
+ "kind": "concept_test",
+ "product": "cozyjams",
+ "status": "AWAITING_OMAR_APPROVAL",
+ "created_pt": "2026-10-20T15:40:57-07:00",
+ "why": "innovation slot: F13 Statement NEEDS is this product's least-tried format (arms n=0)",
+ "poc": [
+  "MC 62.8K 'Every Christmas mom NEEDS this 😳❄️' (MC-02)",
+  "ext hollyglow 'EVERY Christmas Mom NEEDS this 🎄😱' 5.2M; merry.made2 1.4M; tryglowmas 1.1M; carolvyl 892K",
+  "HJ 524K 'ALL mom's NEED this' but 0.02 orders/1K (views without buyers, shopify MJ)"
+ ],
+ "credits": 156.0,
+ "credit_cap": 156.0,
+ "quote": {
+  "lines": [
+   {
+    "gen": "H",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "H",
+    "item": "video 1080p 4s",
+    "credits": 64
+   },
+   {
+    "gen": "B1",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "B1",
+    "item": "video 720p 4s",
+    "credits": 28
+   },
+   {
+    "gen": "B2",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "B2",
+    "item": "video 720p 4s",
+    "credits": 28
+   },
+   {
+    "gen": "B3",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "B3",
+    "item": "video 720p 4s",
+    "credits": 28
+   }
+  ],
+  "stills": 8.0,
+  "video": 148,
+  "total": 156.0,
+  "basis": {
+   "still_gpt_image_2": 1.0,
+   "seedance_2_5_1080p_4s": 64,
+   "seedance_2_5_720p_4s": 28,
+   "per_s_1080p": 16,
+   "per_s_720p": 7
+  }
+ },
+ "gates": {
+  "ok": true,
+  "blocks": [],
+  "warns": [
+   "G2: hook not in a proven format (Don't show this to a ___ / POV street JEALOUS / don't walk RUN to [store])",
+   "G5: plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+   "G11: opener H runs 3.50s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+   "G22: post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]"
+  ]
+ },
+ "preflight": {
+  "ok": true,
+  "fix": []
+ },
+ "ready_for_approval": true,
+ "approval_file_draft": {
+  "approved_by": "",
+  "approved_at_pt": "",
+  "approval_quote": "",
+  "run_id": "concept_2026-10-20_cozyjams_F13",
+  "plan_sha256": "d58dd5cc369a21936cefc111d0b41c60b09a198db9dd2729c43c220a44575ba0",
+  "gens": [
+   "H",
+   "B1",
+   "B2",
+   "B3"
+  ],
+  "account": "user-Higgsfield--new-account",
+  "credit_cap": 156.0,
+  "expires_pt": "2026-10-21T15:40:57-07:00",
+  "consumed": false
+ },
+ "plan": {
+  "status": "PLANNED",
+  "brief": {
+   "brief": "Statement NEEDS video for the CozyJams",
+   "product_key": "cozyjams",
+   "format": "F13",
+   "variant": false,
+   "hook_option": null,
+   "slot": "experiment"
+  },
+  "product": {
+   "key": "cozyjams",
+   "display": "CozyJams Christmas pajama set",
+   "energy": 2,
+   "world": "Christmas at home: bedroom mirror, living room with tree, Christmas-morning couch; store-drop excitement"
+  },
+  "fit": {
+   "format": "F13",
+   "title": "Statement NEEDS",
+   "verdict": "WEAK",
+   "score": 0.5,
+   "video_energy": 3,
+   "reasons": [
+    "no own evidence on this product (transfer)",
+    "format tier B (Statement NEEDS)"
+   ]
+  },
+  "why_this_format": [
+   "no own evidence on this product (transfer)",
+   "format tier B (Statement NEEDS)"
+  ],
+  "alternatives": [
+   {
+    "format": "F01",
+    "title": "3-2-1 Countdown Reveal",
+    "verdict": "OK",
+    "score": 1.0
+   },
+   {
+    "format": "F04",
+    "title": "Then-vs-Now (recent & retro year)",
+    "verdict": "OK",
+    "score": 1.0
+   },
+   {
+    "format": "F05",
+    "title": "Don't Show This To...",
+    "verdict": "OK",
+    "score": 1.0
+   }
+  ],
+  "setting": "bedroom full-length mirror",
+  "adaptation": "none (format native)",
+  "hook_options_available": [],
+  "hook_option": null,
+  "hook": {
+   "text": "Every Christmas mom NEEDS this 😳❄️",
+   "tag": "P",
+   "why": "ext merry.made2 1.4M views; own MC-02 62.8K",
+   "cards": null,
+   "cards_source": null
+  },
+  "text_cards": [
+   {
+    "t": 0.0,
+    "dur": 13.0,
+    "text": "Every Christmas mom NEEDS this 😳❄️",
+    "scale": 0.72
+   }
+  ],
+  "text_style": {
+   "source": "style/capcut_text_preset.json (version 1.0)",
+   "font": "TikTok Sans / system",
+   "size": 15,
+   "stroke": 0.09,
+   "color": "#ffffff",
+   "stroke_color": "#000000",
+   "capcut_y": 0.62,
+   "center_y_frac": 0.19,
+   "animation_in": null,
+   "animation_out": null,
+   "scale": 0.93,
+   "font_render": "/usr/share/fonts/truetype/sand-box/google/Montserrat/Montserrat-VariableFont_wght.ttf"
+  },
+  "shots": [
+   {
+    "code": "HOOK",
+    "t0": 0.0,
+    "t1": 3.5,
+    "desc": "hook visual (format-specific); product legible and >=30% of frame at 0.0 s",
+    "gen": "H"
+   },
+   {
+    "code": "PUT",
+    "t0": 3.5,
+    "t1": 5.0,
+    "desc": "high-angle POV, hands on the Christmas pajama set: puts Christmas pajama set on, turned away with her back to the phone, hood up so the hood design is what the phone sees",
+    "gen": "B1"
+   },
+   {
+    "code": "FEAT_A",
+    "t0": 5.0,
+    "t1": 6.9,
+    "desc": "high-angle POV, hands on the Christmas pajama set: feature reveal: opens it wide to show the Fair Isle reindeer pattern on the top",
+    "gen": "B1"
+   },
+   {
+    "code": "PROOF",
+    "t0": 6.9,
+    "t1": 8.3,
+    "desc": "AI-doubt proof: handheld close-up of the knit pattern and plaid in natural window light, the print exactly as in the reference, natural fabric folds",
+    "gen": "B2"
+   },
+   {
+    "code": "MATCH",
+    "t0": 8.3,
+    "t1": 9.1,
+    "desc": "her sister walks in wearing the same Christmas pajama set and they both laugh",
+    "gen": "B2"
+   },
+   {
+    "code": "MIRROR",
+    "t0": 9.1,
+    "t1": 10.6,
+    "desc": "both stand side by side in the mirror showing the red tartan plaid pants down to the ankles",
+    "gen": "B3"
+   },
+   {
+    "code": "COZY",
+    "t0": 10.6,
+    "t1": 13.0,
+    "desc": "cozy payoff, locked medium-wide: she curls up on the couch by the tree in the set with a mug of cocoa, smiling; cut mid-action",
+    "gen": "B3"
+   }
+  ],
+  "gens": [
+   {
+    "id": "H",
+    "model": "seedance_2_5",
+    "res": "1080p",
+    "dur": 4,
+    "shots": [
+     "HOOK"
+    ],
+    "prompt": "POV in a store aisle that looks like {store_look} (no logos): a hand pulls the CozyJams box from <<<image_2>>> off a shelf stacked with them, a working red-and-green Fair Isle Christmas pajama set: knit-look reindeer sweater top and red tartan plaid pants displayed on top of the shelf. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo POV in a store aisle that looks like {store_look}, a shelf stacked with CozyJams boxes, one working Christmas pajama set on top, American flag overhead. Sharp, clean, realistic phone photo. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/cozyjams/cast/lifestyle_ee906825-d2b1-45d4-ace4-90d3f51e7e61.png",
+      "/workspace/hookforge/refs/cozyjams/cast/lifestyle_image-5.png"
+     ]
+    },
+    "credits": 65.0,
+    "poc": "ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv); ext sally70958 VS Christmas pajamas 3.5M",
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/cozyjams/cast/lifestyle_ee906825-d2b1-45d4-ace4-90d3f51e7e61.png",
+     "/workspace/hookforge/refs/cozyjams/cast/lifestyle_image-5.png"
+    ],
+    "ref_manifest": "refs/cozyjams/manifest.json"
+   },
+   {
+    "id": "B1",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 2.0,
+    "shots": [
+     "PUT",
+     "FEAT_A"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a young woman with long blonde hair consistent throughout, in a bright bedroom with a Christmas tree in the corner. Shot 1 (0-2s, PUT): high-angle POV, hands on the Christmas pajama set: puts Christmas pajama set on, turned away with her back to the phone, hood up so the hood design is what the phone sees. HARD CUT at 2s, no transition. Shot 2 (2-4s, FEAT_A): high-angle POV, hands on the Christmas pajama set: feature reveal: opens it wide to show the Fair Isle reindeer pattern on the top. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo in a bright bedroom with a Christmas tree in the corner: a young woman with long blonde hair, high-angle POV, hands on the Christmas pajama set: puts Christmas pajama set on, turned away with her back to the phone, hood up so the hood design is what the phone sees, the Christmas pajama set from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/cozyjams/cast/lifestyle_ee906825-d2b1-45d4-ace4-90d3f51e7e61.png",
+      "/workspace/hookforge/refs/cozyjams/cast/lifestyle_image-5.png"
+     ]
+    },
+    "credits": 29.0,
+    "trims": {
+     "PUT": [
+      0.5,
+      2.0
+     ],
+     "FEAT_A": [
+      2.0,
+      3.9
+     ]
+    },
+    "poc": "ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv); ext sally70958 VS Christmas pajamas 3.5M",
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/cozyjams/cast/lifestyle_ee906825-d2b1-45d4-ace4-90d3f51e7e61.png",
+     "/workspace/hookforge/refs/cozyjams/cast/lifestyle_image-5.png"
+    ],
+    "ref_manifest": "refs/cozyjams/manifest.json"
+   },
+   {
+    "id": "B2",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 2.0,
+    "shots": [
+     "PROOF",
+     "MATCH"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a young woman with long blonde hair consistent throughout, in a bright bedroom with a Christmas tree in the corner. Shot 1 (0-2s, PROOF): AI-doubt proof: handheld close-up of the knit pattern and plaid in natural window light, the print exactly as in the reference, natural fabric folds. HARD CUT at 2s, no transition. Shot 2 (2-4s, MATCH): her sister walks in wearing the same Christmas pajama set and they both laugh. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo in a bright bedroom with a Christmas tree in the corner: a young woman with long blonde hair, AI-doubt proof: handheld close-up of the knit pattern and plaid in natural window light, the print exactly as in the reference, natural fabric folds, the Christmas pajama set from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/cozyjams/cast/lifestyle_ee906825-d2b1-45d4-ace4-90d3f51e7e61.png",
+      "/workspace/hookforge/refs/cozyjams/cast/lifestyle_image-5.png"
+     ]
+    },
+    "credits": 29.0,
+    "trims": {
+     "PROOF": [
+      0.6,
+      2.0
+     ],
+     "MATCH": [
+      2.0,
+      2.8
+     ]
+    },
+    "poc": "ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv); ext sally70958 VS Christmas pajamas 3.5M",
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/cozyjams/cast/lifestyle_ee906825-d2b1-45d4-ace4-90d3f51e7e61.png",
+     "/workspace/hookforge/refs/cozyjams/cast/lifestyle_image-5.png"
+    ],
+    "ref_manifest": "refs/cozyjams/manifest.json"
+   },
+   {
+    "id": "B3",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 1.6,
+    "shots": [
+     "MIRROR",
+     "COZY"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a young woman with long blonde hair consistent throughout, in a bright bedroom with a Christmas tree in the corner. Shot 1 (0-1.6s, MIRROR): both stand side by side in the mirror showing the red tartan plaid pants down to the ankles. HARD CUT at 1.6s, no transition. Shot 2 (1.6-4s, COZY): cozy payoff, locked medium-wide: she curls up on the couch by the tree in the set with a mug of cocoa, smiling; cut mid-action. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo in a bright bedroom with a Christmas tree in the corner: a young woman with long blonde hair, both stand side by side in the mirror showing the red tartan plaid pants down to the ankles, the Christmas pajama set from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/cozyjams/cast/lifestyle_ee906825-d2b1-45d4-ace4-90d3f51e7e61.png",
+      "/workspace/hookforge/refs/cozyjams/cast/lifestyle_image-5.png"
+     ]
+    },
+    "credits": 29.0,
+    "trims": {
+     "MIRROR": [
+      0.1,
+      1.6
+     ],
+     "COZY": [
+      1.6,
+      4.0
+     ]
+    },
+    "poc": "ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv); ext sally70958 VS Christmas pajamas 3.5M",
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/cozyjams/cast/lifestyle_ee906825-d2b1-45d4-ace4-90d3f51e7e61.png",
+     "/workspace/hookforge/refs/cozyjams/cast/lifestyle_image-5.png"
+    ],
+    "ref_manifest": "refs/cozyjams/manifest.json"
+   }
+  ],
+  "duration": 13.0,
+  "hook_s": 3.5,
+  "music": {
+   "pick": {
+    "song": "last_christmas",
+    "version": "Wham! Last Christmas (official) ~2:50 chorus",
+    "offset_s": 170.5,
+    "energy": 4,
+    "region": "UK/EU-skewed",
+    "score": 2.2,
+    "why": "proven in niche (own best 524,000, ext best 2,700,000); energy gap 1"
+   },
+   "alternatives": [
+    {
+     "song": "aiwfc_intro",
+     "version": "Mariah Carey AIWFC, slow intro (Make My Wish Come True ed. ~0:49.6)",
+     "offset_s": 49.6,
+     "energy": 3,
+     "region": "tier1_global",
+     "score": 2.191,
+     "why": "proven in niche (own best 91,000, ext best 23,700,000); energy gap 0; region tier1_global"
+    },
+    {
+     "song": "holly_jolly",
+     "version": "Michael Bublé Holly Jolly Christmas from 0:00",
+     "offset_s": 0.1,
+     "energy": 3,
+     "region": "unknown",
+     "score": 2.063,
+     "why": "proven in niche (own best 63,320, ext best 0); energy gap 0"
+    }
+   ],
+   "rejected": [
+    {
+     "song": "free_bird",
+     "reason": "niche ski|funny != christmas"
+    },
+    {
+     "song": "boombastic_tiktok",
+     "reason": "niche ski|streetwear|funny != christmas"
+    },
+    {
+     "song": "velvet_glow",
+     "reason": "energy 1 vs video 3"
+    },
+    {
+     "song": "be_my_baby",
+     "reason": "niche general != christmas"
+    },
+    {
+     "song": "give_it_up",
+     "reason": "niche ski|party != christmas"
+    }
+   ]
+  },
+  "caption": {
+   "text": "Get yours👉{url}",
+   "why": "proven caption on sibling product grinch_robe of the same page (6,600,000 views) - niche-proven"
+  },
+  "banned_cta_found": [],
+  "posting": {
+   "page": "MJIG",
+   "exploit_windows_pt": [
+    "18-21",
+    "21-24"
+   ],
+   "explore_windows_pt": [
+    "00-04",
+    "04-08",
+    "08-12"
+   ],
+   "explore_share": 0.2
+  },
+  "credits": {
+   "total": 152.0,
+   "budget": 175,
+   "within_budget": true,
+   "reroll_reserve_max_1_shot": 64.0,
+   "breakdown": [
+    [
+     "H",
+     "1080p",
+     65.0
+    ],
+    [
+     "B1",
+     "720p",
+     29.0
+    ],
+    [
+     "B2",
+     "720p",
+     29.0
+    ],
+    [
+     "B3",
+     "720p",
+     29.0
+    ]
+   ],
+   "source": "inferred from Higgsfield transactions 2026-10-18 (read-only)"
+  },
+  "prompt_checks": [
+   "hook H: unfilled placeholder ['{store_look}']",
+   "still H: unfilled placeholder ['{store_look}']"
+  ],
+  "us_cues": [],
+  "proof_shot": {
+   "present": true,
+   "spec": null
+  },
+  "hook_variants": [
+   {
+    "text": "Every Christmas mom NEEDS this 😳❄️",
+    "tag": "P",
+    "why": "ext merry.made2 1.4M views; own MC-02 62.8K",
+    "cards": null,
+    "cards_source": null,
+    "rank": 1,
+    "role": "control (proven)"
+   },
+   {
+    "text": "Every Christmas lover NEEDS THIS...😳🎄",
+    "tag": "P",
+    "why": "ext 892K",
+    "rank": 2,
+    "role": "variant",
+    "share_cta": false
+   },
+   {
+    "text": "Every Christmas Parents NEEDS this!",
+    "tag": "P",
+    "why": "ext 564K paid",
+    "rank": 3,
+    "role": "variant",
+    "share_cta": false
+   },
+   {
+    "text": "Every Christmas-aholic NEEDS this 😏🎄",
+    "tag": "F",
+    "why": "MC-02 x MGS-03",
+    "rank": 4,
+    "role": "variant",
+    "share_cta": false
+   }
+  ],
+  "covers": [
+   {
+    "role": "hook",
+    "t": 0.3,
+    "why": "product legible at 0 s + hook text"
+   },
+   {
+    "role": "activation",
+    "t": 8.7,
+    "why": "MATCH mid-shot"
+   },
+   {
+    "role": "payoff",
+    "t": 11.8,
+    "why": "COZY mid-shot"
+   }
+  ],
+  "season": {
+   "phase": "pre_season",
+   "levers": [
+    "gift formats ok",
+    "cozy/decor then-vs-now",
+    "Christmas music allowed (own Sep-Oct winners used it)"
+   ],
+   "gift_cutoff": null,
+   "delivery_claims_allowed": false,
+   "date": "2026-10-21",
+   "ly_season_prior": {
+    "format": {
+     "F09": {
+      "share": 0.354,
+      "prior_weight": 0.5,
+      "score": 0.0885,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     },
+     "F13": {
+      "share": 0.329,
+      "prior_weight": 0.5,
+      "score": 0.082,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     },
+     "F07": {
+      "share": 0.317,
+      "prior_weight": 0.5,
+      "score": 0.0795,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     }
+    },
+    "music": {
+     "no Shazam match (label: original sound)": {
+      "share": 0.218,
+      "prior_weight": 0.5,
+      "score": 0.109,
+      "n": 7,
+      "thin": false
+     },
+     "Fantasmic! (From Fantasmic!) [Disneyland] - Bruce Healey, Ned Washington, Sammy Cahn, Leigh Harline, Frank Churchill, Larry Morey, Alan Menken, Howard Ashman, Sammy Fain, Jack Wallace, Jack Lawrence, Oliver Wallace, Modest Mussorgsky, Barnette Ricci, Paul Dukas & Victor Young | in-point 41.3s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Total Eclipse of the Heart - Bonnie Tyler | in-point 46.7s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "All I Want for Christmas Is You - Mariah Carey | in-point 51.1s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Last Christmas (Single Version) - Wham! | in-point 34.8s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Oui, Oui, Oui, Oui - Sacha Distel | in-point -0.2s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Sleigh Ride - The Ronettes | in-point 48.2s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Rockin' Around The Christmas Tree - Brenda Lee | in-point -0.0s at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "no Shazam match (label: Elf - Main Theme)": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "Morning Bossa Nova - Bossa Nova Terrace | in-point unknowns at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "A Thousand Years - Christina Perri | in-point 18.9s at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "no Shazam match (label: Rockin’ Around The Christmas Tree)": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "Christmas (Baby Please Come Home) - Darlene Love | in-point 9.2s at video 0 | conf high": {
+      "share": 0.032,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Sleigh Ride - Ella Fitzgerald | in-point 10.8s at video 0 | conf high": {
+      "share": 0.032,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "last christmas": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Last Christmas (Single Version) - Wham! | in-point 74.1s at video 0 | conf high": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Rockin' Around The Christmas Tree - Brenda Lee | in-point 0.0s at video 0 | conf high": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Its Beginning to Look a Lot Like Christmas (2024 Remastered) - The Fontane Sisters | in-point 87.1s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Jingle Bell Rock - Bobby Helms | in-point 0.4s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "U Know What's Up (feat. Lisa \"Left Eye\" Lopes) - Donell Jones | in-point unknowns at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "All I Want for Christmas Is You - Mariah Carey | in-point 48.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Sakura - Lined Street - KCNX | in-point 0.0s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Upside Down - Jack Johnson | in-point 54.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Run It - Jelly Roll | in-point 37.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "original sound - demetra dias (platform label; not yet audio-ID'd) | Shazam: no match": {
+      "share": 0.029,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     }
+    },
+    "weight": 0.5
+   }
+  },
+  "posting_checklist": [
+   "FB: run the caption/thumbnail test with the hook variants + covers (up to 4)",
+   "IG: post experiment slots as Trial Reels",
+   "Final file: exported via autoedit.clean_export (metadata/C2PA stripped, D44); preflight asserts none remains"
+  ],
+  "mock_source": null,
+  "provenance": {
+   "text_style": "style/capcut_text_preset.json (version 1.0)",
+   "emojis": "engine default",
+   "shot_grammar": "style/shot_grammar.md",
+   "psych": "psychology/psych_codebook.csv",
+   "audience": [
+    "audience/lexicon.csv",
+    "audience/audience_rules.csv"
+   ],
+   "voice": "voice/voice_rules.csv"
+  },
+  "audience_fit": {
+   "ok": true,
+   "slug": "cozyjams",
+   "rows": [
+    {
+     "kind": "song",
+     "item": "last_christmas",
+     "ok": true,
+     "reason": "genre 'christmas pop' fits cozyjams (festive, girls-trip excitement, store-drop FOMO, cozy)",
+     "tier": "a",
+     "in_point": "170.5",
+     "evidence": [
+      "own:learning/music_library.csv last_christmas on grinch_robe 524000(F01|F02|F03|F05|F07|F13|F19)",
+      "in-point: own: most-used start 170.5 s on the CapCut file across 14 own drafts (learning/music_library.csv)"
+     ]
+    },
+    {
+     "kind": "card",
+     "item": "Every Christmas mom NEEDS this 😳❄️",
+     "ok": true,
+     "score": 0.75,
+     "reason": "voice: Post caption = 'Get yours👉{url}' + 3-4 hashtags (#christmas ; slang -",
+     "evidence": [
+      "own/ext hook: ext merry.made2 1.4M views; own MC-02 62.8K"
+     ]
+    },
+    {
+     "kind": "emoji",
+     "item": "😳",
+     "ok": true,
+     "reason": "cozyjams: shock",
+     "evidence": [
+      "profile:audience/cozyjams.yaml emoji_allowed"
+     ]
+    },
+    {
+     "kind": "emoji",
+     "item": "❄️",
+     "ok": true,
+     "reason": "cozyjams: winter",
+     "evidence": [
+      "profile:audience/cozyjams.yaml emoji_allowed"
+     ]
+    },
+    {
+     "kind": "caption",
+     "item": "Get yours👉{url}",
+     "ok": true,
+     "score": 1.0,
+     "reason": "voice: Post caption = 'Get yours👉{url}' + 3-4 hashtags (#christmas ; slang ['Get yours']",
+     "evidence": [
+      "own grinch_robe (same buyer): Get yours👉{url} 6,600,000 views",
+      "own: proven caption on sibling product grinch_robe of the same page (6,600,000 views) - niche-proven"
+     ]
+    },
+    {
+     "kind": "emoji",
+     "item": "👉",
+     "ok": true,
+     "reason": "cozyjams: CTA",
+     "evidence": [
+      "profile:audience/cozyjams.yaml emoji_allowed"
+     ]
+    }
+   ]
+  },
+  "edit_defaults": [
+   {
+    "gen": "H",
+    "src_in": 0.0,
+    "src_out": 3.7,
+    "speed": 1.0
+   },
+   {
+    "gen": "B1",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B1",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   },
+   {
+    "gen": "B2",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B2",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   },
+   {
+    "gen": "B3",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B3",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   }
+  ],
+  "edit_lint": {
+   "ok": true,
+   "rows": [
+    {
+     "gen": "-",
+     "kind": "edit",
+     "rule": "ER11",
+     "severity": "WARN",
+     "text": "1 cards",
+     "fix": "3-card structure: problem -> Vs... -> solution"
+    },
+    {
+     "gen": "-",
+     "kind": "edit",
+     "rule": "ER17",
+     "severity": "WARN",
+     "text": "no key real sound boosted",
+     "fix": "boost the key real sound (scissors, door, tape, sparks) 2-4x"
+    }
+   ],
+   "defaults": {
+    "head_trim_s": 1.05,
+    "tail_trim_s": 1.2,
+    "first_head_trim_s": 0.0,
+    "split_pieces": [
+     2,
+     3
+    ],
+    "split_gap_s": 0.4,
+    "median_shot_s": 1.5,
+    "max_shot_s": 3.3,
+    "target_len_s": [
+     11.3,
+     16.833
+    ],
+    "shots": [
+     5,
+     11
+    ],
+    "cards": 3,
+    "speed": 1.0,
+    "action_speed": [
+     1.2,
+     1.5
+    ],
+    "scale": 1.0,
+    "clip_audio_volume": 1.0,
+    "key_sound_gain": [
+     2.0,
+     4.0
+    ],
+    "song_intro_exceptions": [
+     "holly_jolly",
+     "holly jolly"
+    ],
+    "opener_max_s": 4.1,
+    "hook_speed_values": [
+     1.1,
+     1.15,
+     1.2,
+     1.3,
+     1.5
+    ],
+    "max_card_lines": 2
+   }
+  },
+  "notes": [
+   "D75: no real footage in /workspace/research/product_footage/cozyjams yet; AI reveal kept"
+  ],
+  "resolution_fixes": [],
+  "quote": {
+   "lines": [
+    {
+     "gen": "H",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "H",
+     "item": "video 1080p 4s",
+     "credits": 64
+    },
+    {
+     "gen": "B1",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "B1",
+     "item": "video 720p 4s",
+     "credits": 28
+    },
+    {
+     "gen": "B2",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "B2",
+     "item": "video 720p 4s",
+     "credits": 28
+    },
+    {
+     "gen": "B3",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "B3",
+     "item": "video 720p 4s",
+     "credits": 28
+    }
+   ],
+   "stills": 8.0,
+   "video": 148,
+   "total": 156.0,
+   "basis": {
+    "still_gpt_image_2": 1.0,
+    "seedance_2_5_1080p_4s": 64,
+    "seedance_2_5_720p_4s": 28,
+    "per_s_1080p": 16,
+    "per_s_720p": 7
+   }
+  },
+  "gates": {
+   "ok": true,
+   "blocks": [],
+   "warns": [
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "WARN",
+     "msg": "hook not in a proven format (Don't show this to a ___ / POV street JEALOUS / don't walk RUN to [store])",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "WARN",
+     "msg": "plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+     "poc": null
+    },
+    {
+     "gate": "G11",
+     "ok": true,
+     "level": "WARN",
+     "msg": "opener H runs 3.50s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+     "poc": null
+    },
+    {
+     "gate": "G22",
+     "ok": true,
+     "level": "WARN",
+     "msg": "post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]",
+     "poc": null
+    }
+   ],
+   "rows": [
+    {
+     "gate": "G1",
+     "ok": true,
+     "level": "INFO",
+     "msg": "in-point 170.5s (own drafts: CapCut ~2:50 chorus (robe 524K, 14 dra), verify xcorr 0.995",
+     "poc": "YouTube T0T9GyM28tg (WHAM! official, Remastered) via Mac"
+    },
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 'Every Christmas mom NEEDS this 😳❄️' = 5 words (max 8)",
+     "poc": null
+    },
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "WARN",
+     "msg": "hook not in a proven format (Don't show this to a ___ / POV street JEALOUS / don't walk RUN to [store])",
+     "poc": null
+    },
+    {
+     "gate": "G3",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no profile bans contradict own data",
+     "poc": null
+    },
+    {
+     "gate": "G4",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 1080p, rest 720p",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "INFO",
+     "msg": "quote 156.0 credits (stills 8.0 counted per image, video 148)",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "WARN",
+     "msg": "plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no phonk",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "emoji render apple_ios (Apple iOS PNGs only)",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "prompts ask for real ambient sound only",
+     "poc": null
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 'Every Christmas mom NEEDS this 😳❄️' <- own FB Merry Carrier https://www.facebook.com/reel/1351508813587525/",
+     "poc": "POC-0063"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "caption 'Get yours👉{url}' <- own FB HeatedJammies insights fb_1624473615929591",
+     "poc": "POC-0298"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "song 'last_christmas' <- own drafts n=14, proven_on grinch_robe:524000(F01|F02|F03|F05|F07|F13|F19);jollyglow_curta",
+     "poc": "POC-0239"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "format '['no own evidence on this product (transfer)', 'fo' <- ['no own evidence on this product (transfer)', 'format tier B (Statement NEEDS)']",
+     "poc": "['no own evidence on this product (transfer)', 'format tier B (Statement NEEDS)']"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen H 'H' <- ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv",
+     "poc": "ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv); ext sally70958 VS Christmas"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B1 'B1' <- ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv",
+     "poc": "ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv); ext sally70958 VS Christmas"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B2 'B2' <- ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv",
+     "poc": "ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv); ext sally70958 VS Christmas"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B3 'B3' <- ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv",
+     "poc": "ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv); ext sally70958 VS Christmas"
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "H: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B1: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B2: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B3: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G10",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no on-screen URL CTA",
+     "poc": null
+    },
+    {
+     "gate": "G11",
+     "ok": true,
+     "level": "WARN",
+     "msg": "opener H runs 3.50s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+     "poc": null
+    },
+    {
+     "gate": "G12",
+     "ok": true,
+     "level": "INFO",
+     "msg": "every product shot has an action",
+     "poc": null
+    },
+    {
+     "gate": "G13",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all AI motions short and simple",
+     "poc": null
+    },
+    {
+     "gate": "G14",
+     "ok": true,
+     "level": "INFO",
+     "msg": "Vs not in first card",
+     "poc": null
+    },
+    {
+     "gate": "G15",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no lingering shots",
+     "poc": null
+    },
+    {
+     "gate": "G16",
+     "ok": true,
+     "level": "INFO",
+     "msg": "Seedance 2.5 / GPT Image 2 only, no end frames",
+     "poc": null
+    },
+    {
+     "gate": "G17",
+     "ok": true,
+     "level": "INFO",
+     "msg": "quote 156.0 cr vs budget 200",
+     "poc": null
+    },
+    {
+     "gate": "G18",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all gens <=5s",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "INFO",
+     "msg": "card emojis proven and paired",
+     "poc": null
+    },
+    {
+     "gate": "G20",
+     "ok": true,
+     "level": "INFO",
+     "msg": "afters animated and distinct",
+     "poc": null
+    },
+    {
+     "gate": "G21",
+     "ok": true,
+     "level": "INFO",
+     "msg": "not a vs format",
+     "poc": null
+    },
+    {
+     "gate": "G22",
+     "ok": true,
+     "level": "WARN",
+     "msg": "post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]",
+     "poc": null
+    },
+    {
+     "gate": "G23",
+     "ok": true,
+     "level": "INFO",
+     "msg": "CTA uses SAY (no 'Comment')",
+     "poc": null
+    },
+    {
+     "gate": "G24",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all settings inside the product world",
+     "poc": null
+    },
+    {
+     "gate": "G25",
+     "ok": true,
+     "level": "INFO",
+     "msg": "not a political product",
+     "poc": null
+    }
+   ]
+  }
+ },
+ "format": "F13",
+ "day": "2026-10-20"
+}

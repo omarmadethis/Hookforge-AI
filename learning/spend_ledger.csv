@@ -1,0 +1,104 @@
+ts_pt,run_id,item,job_ids,credits
+2026-10-19T21:06,jollyglow_frames,gpt_image_2 1k medium x28 start frames,"(28 image jobs, see approvals)",28
+2026-10-19T21:12,jollyglow_combo,gpt_image_2 F1 reroll x2,c3d9a056-04d9-4db9-a168-b1fe74684fcc;8b5f6474-ec1f-4f83-8bef-d3e5d62f5153,2
+2026-10-19T21:16,jollyglow_321,seedance_2_5 1080p 6s G1 hook,b12411e4-67a3-4855-93e4-4ebcb4de3329,96
+2026-10-19T21:16,jollyglow_321,seedance_2_5 720p 4s G2 box,6ed66511-cde0-4c84-993d-bd65fa217226,28
+2026-10-19T21:16,jollyglow_321,seedance_2_5 720p 4s G3 install,6fa1d57f-f3e1-4622-b27f-2ce896aa386d,28
+2026-10-19T21:16,jollyglow_321,seedance_2_5 720p 4s G4 snowman,18ed71a5-ba9d-4fdc-bad3-5467cf93352e,28
+2026-10-19T21:16,jollyglow_321,seedance_2_5 720p 4s G5 train,64a5af48-8bc1-40d5-b0e1-05a50f4c1f2a,28
+2026-10-19T21:16,jollyglow_321,seedance_2_5 720p 4s G6 gingerbread,f4d4d2c8-37c0-4446-bb30-7e6bf14e1e53,28
+2026-10-19T21:19,jollyglow_combo,seedance_2_5 1080p 4s G1 hook,e5a74076-715b-4291-9a57-0f376b4dc3d6,64
+2026-10-19T21:19,jollyglow_combo,"seedance_2_5 720p 4s G2 box+install (NSFW false-flag, REFUNDED +28)",e3f0b23e-4dff-4757-9b8a-9012b8df0c5d,0
+2026-10-19T21:19,jollyglow_combo,seedance_2_5 720p 6s G3 garage afters x3,046465f9-a817-4122-9502-0a875d005f5c,42
+2026-10-19T21:19,jollyglow_combo,seedance_2_5 720p 4s G4 balcony afters x2,920a0292-8aa8-44e0-9009-302aa26579d5,28
+2026-10-19T21:19,trumpglow_A,gpt_image_2 start_frame image; backfill; output id from trumpglow_A/start_frames/urls.txt,7b4a08ca-6006-41ae-a680-cd88cc620abe,1.0
+2026-10-19T21:19,trumpglow_A,gpt_image_2 start_frame image; backfill; output id from trumpglow_A/start_frames/urls.txt,f673f0ec-cbf3-42e5-be70-ba9999bbdbc0,1.0
+2026-10-19T21:19,trumpglow_A,gpt_image_2 start_frame image; backfill; output id from trumpglow_A/start_frames/urls.txt,f3ccf27e-6aff-4cb5-b4fc-23710e5e9f7f,1.0
+2026-10-19T21:19,trumpglow_A,gpt_image_2 start_frame image; backfill; output id from trumpglow_A/start_frames/urls.txt,8e258d4d-825a-4486-b3cc-2b28ef2140f9,1.0
+2026-10-19T21:19,trumpglow_A,gpt_image_2 start_frame image; backfill; output id from trumpglow_A/start_frames/urls.txt,33f15cd3-da2c-40b7-982f-50b52f8d04ed,1.0
+2026-10-19T21:19,trumpglow_A,gpt_image_2 start_frame image; backfill; output id from trumpglow_A/start_frames/urls.txt,b9c7e7e3-e922-4a31-b52e-882afe68ea99,1.0
+2026-10-19T21:19,trumpglow_A,gpt_image_2 start_frame image; backfill; output id from trumpglow_A/start_frames/urls.txt,2f218a2f-d030-409b-b904-5ad848a97769,1.0
+2026-10-19T21:19,trumpglow_A,gpt_image_2 start_frame image; backfill; output id from trumpglow_A/start_frames/urls.txt,2fd8c258-d516-4cf8-8ca0-4ddac5b87834,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,f3499e6f-3b24-47d4-b343-894cd7af6edc,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,b4bc7489-d534-4287-9192-2a25ce2a2f3c,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,c7ce3798-6947-46fe-9db8-3fe231860cd0,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,3d83dc6d-5012-456a-9967-c9b0c0eff803,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,42a9e2e5-f152-4ee9-a737-037c5493a8fd,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,453c446c-6399-41a3-bb9e-bd6a58464371,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,250dcc1b-cbc9-4180-8843-fc6190d2c082,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,9fd4d62c-b019-4074-849b-8302742ab891,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,cc73c214-6b92-43b6-8578-81ca59f9abab,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,3f94baee-2fc9-4d67-a0d9-665c32708efa,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,5f54ad91-7b47-4ab5-849e-d9bf2dc12481,1.0
+2026-10-19T21:19,trumpglow_B,gpt_image_2 start_frame image; backfill; output id from trumpglow_B/start_frames/urls.txt,06f10926-7c0e-4620-96c3-d77fe34e01eb,1.0
+2026-10-19T21:19,trumpglow_C,gpt_image_2 start_frame image; backfill; output id from trumpglow_C/start_frames/urls.txt,77ab1644-1119-4ac9-9ba5-2202a01d0e16,1.0
+2026-10-19T21:19,trumpglow_C,gpt_image_2 start_frame image; backfill; output id from trumpglow_C/start_frames/urls.txt,2a507edc-1a6a-4e92-a7d2-19cce4dcd1aa,1.0
+2026-10-19T21:19,trumpglow_C,gpt_image_2 start_frame image; backfill; output id from trumpglow_C/start_frames/urls.txt,e32af722-6a7b-47d7-8038-03ecb75f7a12,1.0
+2026-10-19T21:19,trumpglow_C,gpt_image_2 start_frame image; backfill; output id from trumpglow_C/start_frames/urls.txt,0776c1d7-8043-42bc-80ea-a65fdfceb649,1.0
+2026-10-19T21:19,trumpglow_C,gpt_image_2 start_frame image; backfill; output id from trumpglow_C/start_frames/urls.txt,62204f2c-22aa-476c-af2e-ff32730d6563,1.0
+2026-10-19T21:19,trumpglow_C,gpt_image_2 start_frame image; backfill; output id from trumpglow_C/start_frames/urls.txt,2ec3e269-9330-4355-bc2d-10005b6b0d0e,1.0
+2026-10-19T21:19,trumpglow_C,gpt_image_2 start_frame image; backfill; output id from trumpglow_C/start_frames/urls.txt,d91935ac-4b9d-451d-a7df-0ed6130dd3c4,1.0
+2026-10-19T21:19,trumpglow_C,gpt_image_2 start_frame image; backfill; output id from trumpglow_C/start_frames/urls.txt,6125407d-6be0-4638-ada0-b07ee9e174c3,1.0
+2026-10-19T21:19,trumpglow_A,seedance_2_5 G1 video; backfill; clip 1080p; start frame 639cee4c-f97b-405d-88bc-2067bafe3cab; no clip job id in files,noid:trumpglow_A/G1,64
+2026-10-19T21:19,trumpglow_A,seedance_2_5 G2 video; backfill; clip 720p; start frame 9a1bfb56-7bb6-4425-b0f4-6bc085bd27ab; no clip job id in files,noid:trumpglow_A/G2,28
+2026-10-19T21:19,trumpglow_A,seedance_2_5 G3 video; backfill; clip 720p; start frame 8d3139cc-9fef-44cb-8cc5-8604e5036c75; no clip job id in files,noid:trumpglow_A/G3,28
+2026-10-19T21:19,trumpglow_A,seedance_2_5 G4 video; backfill; clip 720p; start frame 507518ec-8064-4a21-b033-45af740bf031; no clip job id in files,noid:trumpglow_A/G4,28
+2026-10-19T21:19,trumpglow_A,"seedance_2_5 G5 video; backfill; G5 continuous door->reveal fix, 28 billed; no job id in files",noid:trumpglow_A/G5,28
+2026-10-19T21:19,trumpglow_B,seedance_2_5 BG1 video; backfill; 6s 1080p per CLIP_PLAN get_cost; clip exists; no job id in files,noid:trumpglow_B/BG1,96.0
+2026-10-19T21:19,trumpglow_B,seedance_2_5 BG2 video; backfill; 4s 720p per CLIP_PLAN get_cost; clip exists; no job id in files,noid:trumpglow_B/BG2,28.0
+2026-10-19T21:19,trumpglow_B,seedance_2_5 BG3 video; backfill; 4s 720p per CLIP_PLAN get_cost; clip exists; no job id in files,noid:trumpglow_B/BG3,28.0
+2026-10-19T21:19,trumpglow_B,seedance_2_5 BG4 video; backfill; 4s 720p per CLIP_PLAN get_cost; clip exists; no job id in files,noid:trumpglow_B/BG4,28.0
+2026-10-19T21:19,trumpglow_B,seedance_2_5 BG5 video; backfill; 4s 720p per CLIP_PLAN get_cost; clip exists; no job id in files,noid:trumpglow_B/BG5,28.0
+2026-10-19T21:19,trumpglow_B,seedance_2_5 BG6 video; backfill; 4s 720p per CLIP_PLAN get_cost; clip exists; no job id in files,noid:trumpglow_B/BG6,28.0
+2026-10-19T21:19,trumpglow_C,seedance_2_5 CG1 video; backfill; 6s 1080p per CLIP_PLAN get_cost; clip exists; no job id in files,noid:trumpglow_C/CG1,96.0
+2026-10-19T21:19,trumpglow_C,seedance_2_5 CG2 video; backfill; 4s 720p per CLIP_PLAN get_cost; clip exists; no job id in files,noid:trumpglow_C/CG2,28.0
+2026-10-19T21:19,trumpglow_C,seedance_2_5 CG3 video; backfill; 4s 720p per CLIP_PLAN get_cost; clip exists; no job id in files,noid:trumpglow_C/CG3,28.0
+2026-10-19T21:19,trumpglow_C,seedance_2_5 CG4 video; backfill; 4s 720p per CLIP_PLAN get_cost; clip exists; no job id in files,noid:trumpglow_C/CG4,28.0
+2026-10-19T21:22,jollyglow_combo,seedance_2_5 720p 4s G2 box+install retry,363bdc76-22e5-4be4-b0fd-b2cb69dc3381,28
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P1_SF1,93f51dda-b6fc-42b1-b563-2f2733dea1da,6.5
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P1_SF2,b31b1882-5797-4d18-8fa9-13322fdef7ac,6.5
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P1_SF3,3d2635da-2b50-414b-a31c-a7a3a5223a66,6.5
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P1_SF4,040c6311-56f1-4f8c-9e0c-f59e4627c3ae,6.5
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P2_SF1,7bf0d083-bd36-4427-8560-a2d1c97559ba,6.5
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P2_SF2,0b7c8f11-e44a-42c6-86ca-aaf9e2c6c133,6.5
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P2_SF3,05e9dc9e-e621-4265-8df0-3034852235dc,6.5
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P2_SF4,69daabf6-7a0e-4a0d-8a5e-06f3a7933417,6.5
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P3_SF1,5f1f0708-8d32-4bf7-9281-fa07a52e641f,6.5
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P3_SF2,3a23a93c-4adf-4ffe-98d8-ce7f1b2df974,6.5
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P3_SF3,d9492d45-1b51-4486-b6d1-595712bbd926,6.5
+2026-10-20T09:07,purrventure_frames,gpt_image_2 2k high start frame P3_SF4,cce95c08-fa00-4386-b3bf-c1d88aed4b27,6.5
+2026-10-20T09:21,purrventure_frames,gpt_image_2 2k high start frame v2 (refs) P1_SF2,6c4ff9b6-fca0-496e-b124-e40e993d73b0,6.5
+2026-10-20T09:21,purrventure_frames,gpt_image_2 2k high start frame v2 (refs) P1_SF3,cfecabef-833e-4270-8ad8-52ee931063ce,6.5
+2026-10-20T09:21,purrventure_frames,gpt_image_2 2k high start frame v2 (refs) P1_SF4,7026ae61-f9e8-4618-b4f3-e2a55aeeef77,6.5
+2026-10-20T09:21,purrventure_frames,gpt_image_2 2k high start frame v2 (refs) P2_SF3,8855b94e-6e44-49ef-bc9d-a62fcfa2cdd9,6.5
+2026-10-20T09:21,purrventure_frames,gpt_image_2 2k high start frame v2 (refs) P2_SF4,62e7979a-2f43-4f64-a3fc-5f295d695fd3,6.5
+2026-10-20T09:21,purrventure_frames,gpt_image_2 2k high start frame v2 (refs) P3_SF3,61d99196-50dc-4487-910b-76ad4b278354,6.5
+2026-10-20T09:21,purrventure_frames,gpt_image_2 2k high start frame v2 (refs) P3_SF4,a945342e-d3fa-49da-a45b-cbedabbee3a7,6.5
+2026-10-20T09:30,purrventure_frames,gpt_image_2 2k high start frame v3 (strict QA redo) P1_SF3,454c8341-5c57-4e77-985b-7b55b447a69b,6.5
+2026-10-20T09:30,purrventure_frames,gpt_image_2 2k high start frame v3 (strict QA redo) P1_SF4,597aac66-3512-41db-8eff-0be217e441b7,6.5
+2026-10-20T09:30,purrventure_frames,gpt_image_2 2k high start frame v3 (strict QA redo) P2_SF1,e02daa76-d1ed-49e6-beb2-845408aa3bee,6.5
+2026-10-20T09:30,purrventure_frames,gpt_image_2 2k high start frame v3 (strict QA redo) P2_SF2,f9935759-103d-421d-95ee-9cc2127e4bc8,6.5
+2026-10-20T09:30,purrventure_frames,gpt_image_2 2k high start frame v3 (strict QA redo) P2_SF3,35b1c434-6f55-41b0-9d91-ecb8d5fcc1ca,6.5
+2026-10-20T09:30,purrventure_frames,gpt_image_2 2k high start frame v3 (strict QA redo) P2_SF4,78debd05-9191-4011-bb07-542b5da0dd4e,6.5
+2026-10-20T09:30,purrventure_frames,gpt_image_2 2k high start frame v3 (strict QA redo) P3_SF1,b25e7102-1baf-45b0-aed5-956083ed080a,6.5
+2026-10-20T09:30,purrventure_frames,gpt_image_2 2k high start frame v3 (strict QA redo) P3_SF2,5f51fd77-343a-450c-a56a-876419fa35c8,6.5
+2026-10-20T09:30,purrventure_frames,gpt_image_2 2k high start frame v3 (strict QA redo) P3_SF3,4304a8fc-cf24-4340-8821-3c631bb1768e,6.5
+2026-10-20T09:51,purrventure_frames,gpt_image_2 2k high start frame v4 P1_SF1,8a171d88-4d65-49d1-b20a-eab421d36c91,6.5
+2026-10-20T09:51,purrventure_frames,gpt_image_2 2k high start frame v4 P2_SF4,c94e4aa5-3ec0-4a95-956e-64d862612e7a,6.5
+2026-10-20T09:51,purrventure_frames,gpt_image_2 2k high start frame v4 P3_SF3,dd25754a-f313-49c4-880f-d265779e7d72,6.5
+2026-10-20T09:58:15,purrventure_video,P1_G1,13454352-a782-4afd-a587-dee38282695c,64
+2026-10-20T09:58:15,purrventure_video,P1_G2,ca5eab1e-bf77-4836-89dc-c8edeacd8ac8,28
+2026-10-20T09:58:15,purrventure_video,P1_G3,1f2351a2-03e8-4781-95d6-889af47ac9ed,28
+2026-10-20T09:58:15,purrventure_video,P1_G4,2f123e98-f4ab-4977-80be-f5526923c547,28
+2026-10-20T09:58:15,purrventure_video,P2_G1,a4cae43d-14b9-4ee5-9f0d-6f9b1500c418,64
+2026-10-20T09:58:15,purrventure_video,P2_G2,cbe02cdd-3a37-47de-8dd7-64c420d7a090,28
+2026-10-20T09:58:15,purrventure_video,"P2_G3 [nsfw false-flag, refunded]",126ec4e1-d066-4a55-94b8-5705a1a73067,0
+2026-10-20T09:58:15,purrventure_video,P3_G1,43b68700-9a06-40a1-adbe-e9467d99b3b7,64
+2026-10-20T09:58:15,purrventure_video,P3_G2,5c09e072-2144-4088-b128-10902cd31e47,28
+2026-10-20T09:58:15,purrventure_video,P3_G3,1349b27c-af06-4d9e-bdf8-007ec3177ea7,28
+2026-10-20T09:58:15,purrventure_video,P3_G4,e2aa131d-7ff0-4381-a4c4-2bdb835f8165,28
+2026-10-20T09:58:51,purrventure_video,"P2_G3 resubmit (prior 126ec4e1 nsfw false-flag; charge TBC) [nsfw false-flag, refunded]",291644d8-f1fa-4d88-a82d-cd2a2b1090f2,0
+2026-10-20T10:01:55,purrventure_video,P2_G3 try3 (frame as ref) [nsfw flag],1303cc03-52da-4403-b989-82ac4267a6d8,0
+2026-10-20T10:04:01,purrventure_video,P2_G3 try4 (cat-only) [FAIL: Siamese not Bengal; unused],fa4426b9-72ee-49a5-9710-b21f678d107d,28
+2026-10-20T10:12:11,purrventure_video,"P2_G3 try5 (SF3 start, cat-only) [nsfw flag]",a8efec9d-837f-4e4f-b81a-72438693ef65,0
+2026-10-20T10:15:55,purrventure_video,P2_G3 try6 (start=P2_G2 last frame),441ac420-d37d-4dc5-8dbe-0244cf29556b,28

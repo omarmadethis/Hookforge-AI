@@ -1,0 +1,17 @@
+slug: jollyglow
+product_keys: [jollyglow_curtain]
+buyers: "US homeowners who decorate the house front; neighbour-envy crowd"
+main_platform: facebook
+secondary_platforms: [instagram]
+markets: [US, CA]
+tone: "wow, neighbour envy, festive brag"
+music_allowed_genres: [christmas classic, christmas crooner, christmas pop]
+music_banned_genres: [phonk, edm]
+music_preferred: [holly_jolly, last_christmas]
+emoji_allowed: {"🤣": "brag humour", "🎄": "Christmas", "🤭": "cheeky envy", "❄️": "winter", "✨": "lights", "🏡": "house front", "🤩": "reveal", "😍": "want", "👉": "CTA", "😬": "problem", "⏰": "Vs", "⏳": "Vs", "🏠": "house front", "😳": "shock/secret (own: HJ 2.7M, 1.4M, 524K; D68)", "🎅": "Santa/JK flip (own: HJ 1.4M Walmart JK; D68)"}
+slang: ["your neighbors are gonna be jealous", "they'll be asking where you got it"]
+caption_voice: "US homeowner brag, two-dot ellipsis, emoji pair at end"
+caption_proof:
+  - {pattern: '(?i)asking where you got', evidence: "own: 63,320 views (jollyglow_curtain)"}
+  - {pattern: '(?i)neighbo(u)?rs.*jealous', evidence: "own: 62,813 views (jollyglow_curtain)"}
+banned: ['(?i)neighbours']

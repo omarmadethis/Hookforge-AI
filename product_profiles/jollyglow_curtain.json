@@ -1,0 +1,170 @@
+{
+ "product_key": "jollyglow_curtain",
+ "display": "JollyGlow curtain lights",
+ "brand": "JollyGlow",
+ "category": "decor_light",
+ "corpus_products": [
+  "JollyGlow curtain"
+ ],
+ "pages": [
+  "MC"
+ ],
+ "energy": 3,
+ "mood": [
+  "wow",
+  "envy",
+  "festive"
+ ],
+ "audience": "US homeowners who decorate the house front",
+ "world": "the house at night: windows, porch, front yard, neighbours",
+ "settings": [
+  "front of a house at night",
+  "living room window"
+ ],
+ "actions": [
+  "hang the curtain",
+  "plug in",
+  "house lights up",
+  "neighbours stare"
+ ],
+ "forbidden_settings": [
+  "ski slope"
+ ],
+ "product_look": "curtain lights",
+ "product": "curtain lights",
+ "subject": "a couple",
+ "body_setting": "at the front of a suburban house at night",
+ "activation_action": "the remote clicks",
+ "activation_result": "the curtain lights up with snowflakes falling down the window",
+ "body_override": {
+  "LIT2": [
+   "LIT2",
+   "second after, a different animation: closer angle, a Merry Christmas script writes itself across the curtain while the couple steps back on the lawn and reacts"
+  ],
+  "LIT3": [
+   "LIT3",
+   "final after, a third animation: red and green waves ripple across the curtain, wide from the sidewalk with the neighbours' houses in frame; hard cut out"
+  ]
+ },
+ "payoff_scene": "the whole street looking at the house",
+ "room": "front window",
+ "sounds": "click, gasps",
+ "source_object": "plain curtain",
+ "music_forbidden": [],
+ "caption_forbidden": [
+  "hard to gift"
+ ],
+ "poc_hooks": {
+  "F06": [
+   "POV: the whole street is JEALOUS 😏🏠",
+   "P",
+   "own JollyGlow curtain reel fb_28305014139198128 63,320 views, cut to 6 words (D149 8-word hard rule; D146 curtain-fit, replaces 'Women are hard to gift..')"
+  ]
+ },
+ "caption_extra": [
+  "Your window is boring. Fix it 🎄 SAY \"LIGHTS\""
+ ],
+ "keyword": "LIGHTS",
+ "processing_days": null,
+ "ship_days": null,
+ "proven_formats": [
+  {
+   "format": "F01",
+   "n": 1,
+   "hits": 1,
+   "median_views": 63320,
+   "best_views": 63320,
+   "reels": [
+    "MC-01"
+   ]
+  },
+  {
+   "format": "F13",
+   "n": 1,
+   "hits": 1,
+   "median_views": 62813,
+   "best_views": 62813,
+   "reels": [
+    "MC-02"
+   ]
+  },
+  {
+   "format": "F05",
+   "n": 1,
+   "hits": 1,
+   "median_views": 62010,
+   "best_views": 62010,
+   "reels": [
+    "MC-03"
+   ]
+  }
+ ],
+ "proven_music": [
+  {
+   "song": "holly_jolly",
+   "version": "Michael Bublé Holly Jolly Christmas from 0:00",
+   "offset_s": 0.1,
+   "energy": 3,
+   "best_views": 63320,
+   "formats": "F01|F05"
+  },
+  {
+   "song": "last_christmas",
+   "version": "Wham! Last Christmas (official) ~2:50 chorus",
+   "offset_s": 170.5,
+   "energy": 4,
+   "best_views": 62813,
+   "formats": "F13"
+  }
+ ],
+ "proven_captions": [
+  {
+   "caption": "They'll be asking where you got it.. 🤣🎄",
+   "views": 63320
+  },
+  {
+   "caption": "Your neighbors are gonna be jealous... 🤭❄️",
+   "views": 62813
+  },
+  {
+   "caption": "Get it here 👉 grinchmelt.store/…jollyglow",
+   "views": 62010
+  }
+ ],
+ "proven_hooks": [
+  {
+   "hook": "POV: the whole street is JEALOUS of your house.. 🤭🏠",
+   "format": "F01",
+   "views": 63320,
+   "reel": "MC-01",
+   "capcut_cards": [
+    "POV: the whole street is  JEALOUS of your house.. 🤭🏠"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 1.00)"
+  },
+  {
+   "hook": "Every Christmas mom NEEDS this 😳❄️",
+   "format": "F13",
+   "views": 62813,
+   "reel": "MC-02",
+   "capcut_cards": [
+    "Every Christmas mom NEEDS this 😳❄️"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 1.00)"
+  },
+  {
+   "hook": "Christmas moms, don't walk RUN to Walmart 🤩",
+   "format": "F05",
+   "views": 62010,
+   "reel": "MC-03",
+   "capcut_cards": [
+    "Christmas moms, don't walk RUN to Walmart 🤩"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 1.00)"
+  }
+ ],
+ "n_own_reels": 3,
+ "own_hits": 3,
+ "product_look_status": "description from Omar's prompts; <<<image_1>>> product photo is the ground truth",
+ "sources": "corpus own reels (FB+IG), CapCut drafts (edits.csv), music_library.csv, Omar transcripts (rules_core), worlds.py"
+}

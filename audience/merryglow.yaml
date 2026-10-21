@@ -1,0 +1,29 @@
+slug: merryglow
+product_keys: [merryglow_lights]
+buyers: "US families (mostly moms 28-55) decorating the tree for Christmas; tech-light curious dads"
+main_platform: facebook
+secondary_platforms: [instagram]
+markets: [US, CA, UK, AU]
+tone: "festive wow, transformation, family warmth; light self-deprecating humour about tangled lights"
+music_allowed_genres: [christmas classic, christmas pop, christmas crooner]
+music_banned_genres: [phonk, hip-hop, edm, latin]
+music_preferred: [holly_jolly, last_christmas, beginning_to_look, aiwfc_intro]
+emoji_allowed:
+  "🤩": "the reveal / wow"
+  "🎄": "Christmas tree, the niche itself"
+  "😬": "awkward old-year problem"
+  "🤕": "the painful problem scene"
+  "⏰": "Vs / time jump card"
+  "⏳": "Vs / time jump card"
+  "🤭": "cheeky envy line"
+  "✨": "lights sparkle"
+  "❄️": "winter"
+  "👉": "CTA to link"
+  "🙄": "eye-roll at the problem"
+slang: ["Christmas 2024..", "Vs...", "The problem...", "The solution", "Be the envy of your friends..", "Get it here"]
+caption_voice: "short family-friendly American lines, two dots ellipsis, 1-2 emoji at the end, no hard sell words"
+caption_proof:
+  - {pattern: '(?i)get it here', evidence: "own: Get it here 👉 {url} 152,878 views (merryglow_lights proven_captions)"}
+  - {pattern: '(?i)envy of your friends', evidence: "own: 64,542 views (merryglow_lights)"}
+  - {pattern: '(?i)^(the problem|the solution|vs)\b|^christmas 20\d\d', evidence: "own: MG-01 / Omar 0924 (2) draft cards (refs/recreate/merryglow_lights.json)"}
+banned: [robot staring at camera, generated SFX/YAY, Noto emoji]

@@ -1,0 +1,16 @@
+slug: grinchmelt
+product_keys: [grinchmelt_mug]
+buyers: "US women 22-50, hot-cocoa and cozy-night lovers, Grinch fans"
+main_platform: instagram
+secondary_platforms: [facebook, tiktok]
+markets: [US, CA, UK]
+tone: "calm, cozy, satisfying ASMR"
+music_allowed_genres: [christmas crooner, cozy lofi christmas, christmas classic slow]
+music_banned_genres: [phonk, hype, meme rock]
+music_preferred: [beginning_to_look, velvet_glow, family_christmas]
+emoji_allowed: {"☕": "cocoa", "💚": "Grinch green", "🎄": "Christmas", "🤤": "satisfying", "😍": "want", "✨": "magic", "🥰": "cozy", "👉": "CTA", "🤍": "soft cozy"}
+slang: ["cozy night", "hot cocoa", "so satisfying"]
+caption_voice: "soft cozy voice, 1-2 emoji"
+caption_proof:
+  - {pattern: '(?i)get (it|yours)', evidence: "own sibling: grinch_robe 'Get yours👉' 6.6M (same Grinch audience)"}
+banned: [Last Christmas, Boombastic, Free Bird, Jingle Bells (Viibez)]

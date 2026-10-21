@@ -1,0 +1,238 @@
+{
+ "product_key": "merryfire",
+ "display": "MerryFire tabletop fire pit",
+ "brand": "MerryFire",
+ "category": "decor_fire",
+ "corpus_products": [
+  "tabletop fire pit",
+  "fire pit",
+  "MerryFire tabletop fire bowl"
+ ],
+ "pages": [
+  "MF",
+  "MGS",
+  "MJIG"
+ ],
+ "energy": 2,
+ "mood": [
+  "cozy",
+  "evening",
+  "family",
+  "warm"
+ ],
+ "audience": "US homeowners and families 28-60 who host; cozy-decor lovers; patio people",
+ "world": "cozy evening at home or on the patio: coffee table by the tree, patio table at dusk, s'mores, movie night",
+ "settings": [
+  "living room coffee table at night by the Christmas tree",
+  "backyard patio table at dusk",
+  "balcony at night",
+  "kitchen island during a family evening"
+ ],
+ "actions": [
+  "box on lap, lift it out",
+  "set it on the table",
+  "pour fuel into the steel cup only",
+  "long-lighter ignition",
+  "roast s'mores",
+  "family gathers around the flame"
+ ],
+ "forbidden_settings": [
+  "ski slope",
+  "gym",
+  "daytime beach",
+  "office"
+ ],
+ "product_look": "round tabletop fire pit",
+ "product": "tabletop fire pit",
+ "subject": "a family of four and a golden retriever",
+ "body_setting": "in a cozy living room at night by the Christmas tree",
+ "feature_1": "the steel fuel cup inside the bowl",
+ "feature_2": "the stones around the flame",
+ "activation_action": "a long lighter clicks over the steel cup and the flame catches and rises steadily",
+ "activation_result": "a tall clean flame dancing in the bowl, warm light on everyone's faces",
+ "payoff_scene": "the family roasting marshmallows around the flame, golden retriever beside them",
+ "room": "living room",
+ "sounds": "crackle, gasps, laughter, dog bark",
+ "source_object": "candle centrepiece",
+ "disaster": "a pine-scented candle tips over and the paper decorations catch a small harmless flicker that is blown out",
+ "then_state": "a sad unlit candle centrepiece on the coffee table and everyone bored on their phones",
+ "n_people": "four",
+ "house": "a suburban house",
+ "store_look": "a big US discount store",
+ "proof_shot": [
+  "PROOF",
+  "AI-doubt proof: wide shot showing the real size of the fire pit on a normal coffee table, steady flame, design identical to the reference"
+ ],
+ "body_override": {
+  "FAMILY": [
+   "PROOF",
+   "AI-doubt proof: the real-size fire pit on a normal coffee table, family roasting s'mores around the steady flame, design identical to the reference"
+  ]
+ },
+ "music_forbidden": [],
+ "keyword": "FIRE",
+ "processing_days": null,
+ "ship_days": null,
+ "caption_forbidden": [
+  "outdoor fire pit",
+  "\\b\\d{2}\\s?(\\\"|”|''|in(ch)?\\b)"
+ ],
+ "proven_formats": [
+  {
+   "format": "F04",
+   "n": 3,
+   "hits": 1,
+   "median_views": 40300,
+   "best_views": 67731,
+   "reels": [
+    "MGS-01",
+    "MGS-06",
+    "MJIG-01"
+   ]
+  },
+  {
+   "format": "F12",
+   "n": 1,
+   "hits": 1,
+   "median_views": 62992,
+   "best_views": 62992,
+   "reels": [
+    "MF-01"
+   ]
+  },
+  {
+   "format": "F07",
+   "n": 1,
+   "hits": 0,
+   "median_views": 35390,
+   "best_views": 35390,
+   "reels": [
+    "MGS-03"
+   ]
+  },
+  {
+   "format": "F18",
+   "n": 1,
+   "hits": 0,
+   "median_views": 30900,
+   "best_views": 30900,
+   "reels": [
+    "MJIG-02"
+   ]
+  },
+  {
+   "format": "F05",
+   "n": 5,
+   "hits": 0,
+   "median_views": 3048,
+   "best_views": 9007,
+   "reels": [
+    "MF-02",
+    "MF-04",
+    "MGS-05",
+    "MGS-09",
+    "MJIG-04"
+   ]
+  },
+  {
+   "format": "F02",
+   "n": 1,
+   "hits": 0,
+   "median_views": 5326,
+   "best_views": 5326,
+   "reels": [
+    "MJIG-06"
+   ]
+  },
+  {
+   "format": "F17",
+   "n": 1,
+   "hits": 0,
+   "median_views": 2705,
+   "best_views": 2705,
+   "reels": [
+    "MF-03"
+   ]
+  }
+ ],
+ "proven_music": [
+  {
+   "song": "beginning_to_look",
+   "version": "Michael Bublé It's Beginning to Look a Lot Like Christmas ~0:31.6",
+   "offset_s": 32.4,
+   "energy": 2,
+   "best_views": 67731,
+   "formats": "F04"
+  },
+  {
+   "song": "last_christmas",
+   "version": "Wham! Last Christmas (official) ~2:50 chorus",
+   "offset_s": 170.5,
+   "energy": 4,
+   "best_views": 62992,
+   "formats": "F05|F07|F12|F18"
+  },
+  {
+   "song": "holly_jolly",
+   "version": "Michael Bublé Holly Jolly Christmas from 0:00",
+   "offset_s": 0.1,
+   "energy": 3,
+   "best_views": 40300,
+   "formats": "F04|F05"
+  },
+  {
+   "song": "let_it_snow",
+   "version": "Dean Martin Let It Snow from 0:00.9",
+   "offset_s": 0.9,
+   "energy": 2,
+   "best_views": 5326,
+   "formats": "F02|F05|F17"
+  },
+  {
+   "song": "aiwfc_intro",
+   "version": "Mariah Carey AIWFC, slow intro (Make My Wish Come True ed. ~0:49.6)",
+   "offset_s": 49.6,
+   "energy": 3,
+   "best_views": 3048,
+   "formats": "F04|F05"
+  }
+ ],
+ "proven_captions": [
+  {
+   "caption": "Get it here: {url}",
+   "views": 67731
+  },
+  {
+   "caption": "Get it here 👉 {url}",
+   "views": 62992
+  }
+ ],
+ "proven_hooks": [
+  {
+   "hook": "Christmas last year.. 🤕",
+   "format": "F04",
+   "views": 67731,
+   "reel": "MGS-01",
+   "capcut_cards": [
+    "Christmas last year.. 🤕",
+    "Vs... ⏳",
+    "Christmas this year 😻✨"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 1.00)"
+  },
+  {
+   "hook": "POV: Christmas movie night will never be the same 🥹❄️",
+   "format": "F12",
+   "views": 62992,
+   "reel": "MF-01",
+   "capcut_cards": [
+    "POV: Christmas movie night will never be the same 🥹❄️"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 1.00)"
+  }
+ ],
+ "n_own_reels": 13,
+ "own_hits": 2,
+ "product_look_status": "description from Omar's prompts; <<<image_1>>> product photo is the ground truth",
+ "sources": "corpus own reels (FB+IG), CapCut drafts (edits.csv), music_library.csv, Omar transcripts (rules_core), worlds.py"
+}

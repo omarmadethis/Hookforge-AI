@@ -1,0 +1,306 @@
+{
+ "start": "2026-10-21",
+ "slots": 20,
+ "new_videos": 13,
+ "total_credits": 2600.0,
+ "per_video_credits": [
+  200.0
+ ],
+ "batch": [
+  {
+   "product": "trumpglow",
+   "videos_needed": 7,
+   "slots": 12,
+   "videos": [
+    {
+     "video": "trumpglow_V1",
+     "concept": "wk_2026-10-21_trumpglow_F09",
+     "format": "F09",
+     "hook_override": "POV: your wife got this for your truck 😂🇺🇸",
+     "hook_source": "concept",
+     "credits": 200.0,
+     "rank_score": 1.143,
+     "rationale": "trumpglow F09: 1.143 = POC 1.00 (best cited 2,400,000 views) + season 1.0 (13 days to the Nov 3 midterms) + page gap 1.0 (never posted) + ref 0.953; 200.0 cr; perf weight x1.5"
+    },
+    {
+     "video": "trumpglow_V2",
+     "concept": "wk_2026-10-21_trumpglow_F04",
+     "format": "F04",
+     "hook_override": "Fake Trump Fans.. 🤢👎",
+     "hook_source": "concept",
+     "credits": 200.0,
+     "rank_score": 0.994,
+     "rationale": "trumpglow F04: 0.994 = POC 0.69 (best cited 2,400,000 views) + season 1.0 (13 days to the Nov 3 midterms) + page gap 1.0 (never posted) + ref 1.0; 200.0 cr; perf weight x0.867"
+    },
+    {
+     "video": "trumpglow_V3",
+     "concept": "wk_2026-10-21_trumpglow_F09",
+     "format": "F09",
+     "hook_override": "Their porch.. VS... my porch 🇺🇸",
+     "hook_source": "hook_variant",
+     "credits": 200.0,
+     "rank_score": 1.143,
+     "rationale": "trumpglow F09: 1.143 = POC 1.00 (best cited 2,400,000 views) + season 1.0 (13 days to the Nov 3 midterms) + page gap 1.0 (never posted) + ref 0.953; 200.0 cr; perf weight x1.5"
+    },
+    {
+     "video": "trumpglow_V4",
+     "concept": "wk_2026-10-21_trumpglow_F09",
+     "format": "F09",
+     "hook_override": "Don't show this to a liberal 😂",
+     "hook_source": "hook_variant",
+     "credits": 200.0,
+     "rank_score": 1.143,
+     "rationale": "trumpglow F09: 1.143 = POC 1.00 (best cited 2,400,000 views) + season 1.0 (13 days to the Nov 3 midterms) + page gap 1.0 (never posted) + ref 0.953; 200.0 cr; perf weight x1.5"
+    },
+    {
+     "video": "trumpglow_V5",
+     "concept": "wk_2026-10-21_trumpglow_F09",
+     "format": "F09",
+     "hook_override": "They'll be asking where you got it.. 🤣",
+     "hook_source": "hook_variant",
+     "credits": 200.0,
+     "rank_score": 1.143,
+     "rationale": "trumpglow F09: 1.143 = POC 1.00 (best cited 2,400,000 views) + season 1.0 (13 days to the Nov 3 midterms) + page gap 1.0 (never posted) + ref 0.953; 200.0 cr; perf weight x1.5"
+    },
+    {
+     "video": "trumpglow_V6",
+     "concept": "wk_2026-10-21_trumpglow_F09",
+     "format": "F09",
+     "hook_override": "Every Trump fan NEEDS this 😏",
+     "hook_source": "hook_variant",
+     "credits": 200.0,
+     "rank_score": 1.143,
+     "rationale": "trumpglow F09: 1.143 = POC 1.00 (best cited 2,400,000 views) + season 1.0 (13 days to the Nov 3 midterms) + page gap 1.0 (never posted) + ref 0.953; 200.0 cr; perf weight x1.5"
+    },
+    {
+     "video": "trumpglow_V7",
+     "concept": "wk_2026-10-21_trumpglow_F09",
+     "format": "F09",
+     "hook_override": "If you buy one, I'll buy one too 😂",
+     "hook_source": "hook_variant",
+     "credits": 200.0,
+     "rank_score": 1.143,
+     "rationale": "trumpglow F09: 1.143 = POC 1.00 (best cited 2,400,000 views) + season 1.0 (13 days to the Nov 3 midterms) + page gap 1.0 (never posted) + ref 0.953; 200.0 cr; perf weight x1.5"
+    }
+   ]
+  },
+  {
+   "product": "purrventure_carrier",
+   "videos_needed": 3,
+   "slots": 5,
+   "videos": [
+    {
+     "video": "purrventure_carrier_V1",
+     "concept": "wk_2026-10-21_purrventure_carrier_F04",
+     "format": "F04",
+     "hook_override": "The problem 😕",
+     "hook_source": "concept",
+     "credits": 200.0,
+     "rank_score": 0.842,
+     "rationale": "purrventure_carrier F04: 0.842 = POC 1.00 (best cited 22,000,000 views) + season 0.5 (evergreen) + page gap 0.21 (last own post 3 days ago) + ref 1.0; 200.0 cr"
+    },
+    {
+     "video": "purrventure_carrier_V2",
+     "concept": "wk_2026-10-21_purrventure_carrier_F04",
+     "format": "F04",
+     "hook_override": "POV: your cat finally gets outside 😂",
+     "hook_source": "hook_variant",
+     "credits": 200.0,
+     "rank_score": 0.842,
+     "rationale": "purrventure_carrier F04: 0.842 = POC 1.00 (best cited 22,000,000 views) + season 0.5 (evergreen) + page gap 0.21 (last own post 3 days ago) + ref 1.0; 200.0 cr"
+    },
+    {
+     "video": "purrventure_carrier_V3",
+     "concept": "wk_2026-10-21_purrventure_carrier_F04",
+     "format": "F04",
+     "hook_override": "Don't show this to your cat 😂",
+     "hook_source": "hook_variant",
+     "credits": 200.0,
+     "rank_score": 0.842,
+     "rationale": "purrventure_carrier F04: 0.842 = POC 1.00 (best cited 22,000,000 views) + season 0.5 (evergreen) + page gap 0.21 (last own post 3 days ago) + ref 1.0; 200.0 cr"
+    }
+   ]
+  },
+  {
+   "product": "jollyglow_curtain",
+   "videos_needed": 3,
+   "slots": 3,
+   "videos": [
+    {
+     "video": "jollyglow_curtain_V1",
+     "concept": "wk_2026-10-21_jollyglow_curtain_F06",
+     "format": "F06",
+     "hook_override": "POV: the whole street is JEALOUS 😏🏠",
+     "hook_source": "concept",
+     "credits": 200.0,
+     "rank_score": 0.358,
+     "rationale": "jollyglow_curtain F06: 0.358 = POC 0.00 (best cited 0 views) + season 0.56 (65 days to Christmas) + page gap 0.71 (last own post 10 days ago) + ref 0.317; 200.0 cr"
+    },
+    {
+     "video": "jollyglow_curtain_V2",
+     "concept": "wk_2026-10-21_jollyglow_curtain_F06",
+     "format": "F06",
+     "hook_override": "Your lights.. VS... my curtain",
+     "hook_source": "hook_variant",
+     "credits": 200.0,
+     "rank_score": 0.358,
+     "rationale": "jollyglow_curtain F06: 0.358 = POC 0.00 (best cited 0 views) + season 0.56 (65 days to Christmas) + page gap 0.71 (last own post 10 days ago) + ref 0.317; 200.0 cr"
+    },
+    {
+     "video": "jollyglow_curtain_V3",
+     "concept": "wk_2026-10-21_jollyglow_curtain_F06",
+     "format": "F06",
+     "hook_override": "Don't show this to your neighbors 😂",
+     "hook_source": "hook_variant",
+     "credits": 200.0,
+     "rank_score": 0.358,
+     "rationale": "jollyglow_curtain F06: 0.358 = POC 0.00 (best cited 0 views) + season 0.56 (65 days to Christmas) + page gap 0.71 (last own post 10 days ago) + ref 0.317; 200.0 cr"
+    }
+   ]
+  }
+ ],
+ "slot_map": [
+  {
+   "day": "2026-10-21",
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V1",
+   "caption": "Who needs one for the front porch? 🇺🇸 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa"
+  },
+  {
+   "day": "2026-10-21",
+   "page": "purrventures2_fb",
+   "product": "purrventure_carrier",
+   "video": "purrventure_carrier_V1",
+   "caption": "Finally a way for kitties to explore outside safely! 🐈 SAY \"PURR\" if you want one!\n#cat #catmom #catlover"
+  },
+  {
+   "day": "2026-10-21",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V1",
+   "caption": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa"
+  },
+  {
+   "day": "2026-10-22",
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V2",
+   "caption": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa"
+  },
+  {
+   "day": "2026-10-22",
+   "page": "purrventures_fb",
+   "product": "purrventure_carrier",
+   "video": "purrventure_carrier_V1",
+   "caption": "SAY \"PURR\" if you want one!\n#cat #catmom #catlover"
+  },
+  {
+   "day": "2026-10-22",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V2",
+   "caption": "Who needs one for the front porch? 🇺🇸 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa"
+  },
+  {
+   "day": "2026-10-23",
+   "page": "jollyglow_fb",
+   "product": "jollyglow_curtain",
+   "video": "jollyglow_curtain_V1",
+   "caption": "They'll be asking where you got it.. SAY \"LIGHTS\"\n#christmasdecor #christmasiscoming #christmasgifts"
+  },
+  {
+   "day": "2026-10-23",
+   "page": "purrventures2_fb",
+   "product": "purrventure_carrier",
+   "video": "purrventure_carrier_V2",
+   "caption": "SAY \"PURR\" if you want one!\n#cat #catmom #catlover"
+  },
+  {
+   "day": "2026-10-23",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V3",
+   "caption": "Their porch.. VS... my porch 🇺🇸 SAY \"VOTE\""
+  },
+  {
+   "day": "2026-10-24",
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V3",
+   "caption": "POV: your wife got this for your truck 😂🇺🇸 SAY \"VOTE\""
+  },
+  {
+   "day": "2026-10-24",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V4",
+   "caption": "POV: your wife got this for your truck 😂🇺🇸 SAY \"VOTE\""
+  },
+  {
+   "day": "2026-10-25",
+   "page": "jollyglow_fb",
+   "product": "jollyglow_curtain",
+   "video": "jollyglow_curtain_V2",
+   "caption": "Your window is boring. Fix it 🎄 SAY \"LIGHTS\""
+  },
+  {
+   "day": "2026-10-25",
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V4",
+   "caption": "Their porch.. VS... my porch 🇺🇸 SAY \"VOTE\""
+  },
+  {
+   "day": "2026-10-25",
+   "page": "purrventures_fb",
+   "product": "purrventure_carrier",
+   "video": "purrventure_carrier_V2",
+   "caption": "Finally a way for kitties to explore outside safely! 🐈 SAY \"PURR\" if you want one!\n#cat #catmom #catlover"
+  },
+  {
+   "day": "2026-10-25",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V5",
+   "caption": "Every Trump fan NEEDS this 😏 SAY \"VOTE\""
+  },
+  {
+   "day": "2026-10-26",
+   "page": "jollyglow_fb",
+   "product": "jollyglow_curtain",
+   "video": "jollyglow_curtain_V3",
+   "caption": "Your neighbors are gonna be jealous... SAY \"LIGHTS\"\n#christmasdecor #christmasiscoming #christmasgifts"
+  },
+  {
+   "day": "2026-10-26",
+   "page": "purrventures2_fb",
+   "product": "purrventure_carrier",
+   "video": "purrventure_carrier_V3",
+   "caption": "The problem 😕 SAY \"PURR\""
+  },
+  {
+   "day": "2026-10-26",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V6",
+   "caption": "They'll be asking where you got it.. 🤣 SAY \"VOTE\""
+  },
+  {
+   "day": "2026-10-27",
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V5",
+   "caption": "They'll be asking where you got it.. 🤣 SAY \"VOTE\""
+  },
+  {
+   "day": "2026-10-27",
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "video": "trumpglow_V7",
+   "caption": "If you buy one, I'll buy one too 😂 SAY \"VOTE\""
+  }
+ ],
+ "repeated_captions_on_a_page": [],
+ "nothing_generated": true
+}

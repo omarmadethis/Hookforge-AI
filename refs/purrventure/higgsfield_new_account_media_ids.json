@@ -1,0 +1,10 @@
+{
+ "ref_ball_black.png": "2001b911-3882-411b-81b7-863213a8e967",
+ "ref_ball_greycat.png": "06a825cd-eed9-4ecd-887f-95299d912f14",
+ "ref_bengal_cream.png": "f14b458e-bbb1-4ee8-870e-dc710d42d7b2",
+ "ref_cast_man_P1SF1.png": "3b4299c0-6447-48f9-ab4c-ce5d5fd75184",
+ "ref_cast_woman_P2SF1.png": "b9257835-b81f-4715-9a08-a41859cdb21a",
+ "ref_disc_folded_P3SF2.png": "3ccb9efb-5df9-4d8f-8b05-81cfa5821060",
+ "_stale": {},
+ "_note_bengal": "f14b458e = D100 crop of P3_SF2 (uploaded 2026-10-20 D105); old 0dc63ff9 was the grass crop"
+}

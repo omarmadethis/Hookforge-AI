@@ -1,0 +1,80 @@
+"""Tier B: POV ritual / envy."""
+from _common import SUFFIX
+from _ev import I, X
+from _blocks import script_pack, still_t8
+
+F = []
+F.append({
+"slug": "pov-ritual-envy", "name": "POV ritual / envy (\"POV: Christmas movie night will never be the same\" · \"the whole street is JEALOUS\")", "tier": "B",
+"status": "PROVEN at ~63K on two decor pages (MerryFires, Merry Carrier). External ritual winners: 1.7M, plus a 437K re-shoot of the same set-up.",
+"summary": "A POV line about a seasonal ritual being upgraded, or the neighbours being jealous, over a cozy family scene. The product arrives fast, followed by activation and a family payoff.",
+"why": [
+ "MerryFires 'POV: Christmas movie night will never be the same 😳❄️' 63.0K: 3s 51%, avg 8 s (65%), completion 24.4%. The box is carried into the cozy couch scene by 1 s (hooks REPORT §3; body §1C).",
+ "Merry Carrier 'POV: the whole street is JEALOUS of your house.. 😏🏠' 63.3K (3s 44%, avg 7 s), clip d72dabc1 verified.",
+ "External: meltiemug 'Me this Christmas night 🎄' 1.7M (+437K re-shoot of the same set-up); ccreamyco IG 'you + me oct 1st…' 2.5M; smartfinds500⚑ 7.3M (X).",
+ "Failure: 'POV: You just won the tree contest with this' 2.1K, 3s 27%, avg 5 s (a brag with no ritual).",
+],
+"product_fit": [
+ {"type": "Fire pit / mug / cozy decor", "fit": "PRIMARY", "evidence": "MF 63K; ext meltiemug 1.7M"},
+ {"type": "Exterior lights / curtain", "fit": "YES (envy variant)", "evidence": "MC 63.3K"},
+ {"type": "Wearable", "fit": "TRANSFER", "evidence": "'POV: Christmas mornings will never be the same' (hooks REPORT §5.2 F)"},
+],
+"timing": {"length": "11.3-12.2 s",
+ "basis": "MerryFires 63K exact: HOOK 0-2.367 | UNBOX -4.433 | INSTALL -5.900 | ACT -6.800 (52%) | LIT -8.300 | FAMILY -9.800 | LIT -11.31. Early activation is what this winner did; it sits inside the 52-74% range of decor winners.",
+ "shots": [
+  {"t": "0.0 → 2.4", "shot": "HOOK: cozy ritual", "content": "dim family couch scene with a Christmas movie on; the box is carried in by 1 s", "camera": "locked", "text": "POV line ON", "gen": "H1 (trim 2.4)"},
+  {"t": "2.4 → 4.4", "shot": "UNBOX", "content": "box opened on the coffee table", "camera": "locked top-down", "text": "held", "gen": "B1·S1"},
+  {"t": "4.4 → 5.9", "shot": "INSTALL", "content": "product set in place", "camera": "locked", "text": "held", "gen": "B1·S2 (trim 1.5)"},
+  {"t": "5.9 → 6.8", "shot": "POUR / SETUP", "content": "fuel poured / plug-in", "camera": "locked close", "text": "held", "gen": "B2·S1 (trim 0.9)"},
+  {"t": "6.8 → 8.3", "shot": "ACT → LIT", "content": "lighter ignites / lights on; family leans in", "camera": "low angle", "text": "held", "gen": "B2·S2 (1.5)"},
+  {"t": "8.3 → 9.8", "shot": "FAMILY", "content": "family roasting s'mores / sipping, golden retriever", "camera": "locked medium", "text": "held", "gen": "B3·S1 (1.5)"},
+  {"t": "9.8 → 11.8", "shot": "LIT hero (payoff 83%)", "content": "hero of the lit product; hard cut", "camera": "locked wide", "text": "held", "gen": "B3·S2"},
+ ],
+ "measured": ["MF 63K: 2.367 | 4.433 | 5.900 | 6.800 | 8.300 | 9.800 | END 11.31.", "MC 63.3K: HOOK 0-5.000 (VO 3-2-1) | BOX -5.967 | INSTALL -7.367 | FACADE 7.367-8.933 | -10.533 | -12.10 (three 1.5 s payoffs).", "meltiemug 1.7M: 2.33 | 5.63 | 6.40 | 7.45 | END 10.5 (XA)."],
+ "rules": ["Box in the hook by 1 s (avoids the 0:04-0:06 prep-block leak).", "No single static setup shot >3 s (a MerryFires reel with a 4.7 s SETUP got 33 views)."]},
+"text": {"style": "House placement.",
+ "patterns": [
+  {"pattern": "POV: {Christmas movie night} will never be the same 😳❄️", "tag": "P", "source": "MF 63K"},
+  {"pattern": "POV: the whole street is JEALOUS of your {house}.. 😏🏠", "tag": "P", "source": "MC 63.3K"},
+  {"pattern": "Me this {Christmas night} 🎄", "tag": "P (ext)", "source": "meltiemug 1.7M"},
+  {"pattern": "When the nights get colder, this comes back out {emoji}", "tag": "P (ext, flagged)", "source": "smartfinds500 7.3M⚑"},
+ ],
+ "rules": ["Brag POVs without a ritual ('You just won the tree contest') flopped (2.1K)."]},
+"caption": {"template": "They'll be asking where you got it.. 🤣🎄\nSAY \"{KEYWORD}\" and we'll send you the link", "keywords": ["FIRE", "COZY", "LIGHTS"], "rules": ["The envy line is MC 63.3K's own caption.", "SAY not COMMENT."]},
+"music": {"picks": [
+  {"rank": 1, "track": "Last Christmas (Wham!) · 0:00 intro", "start": "reel 0.0", "evidence": "MF 63K (offset 0.19 s)"},
+  {"rank": 2, "track": "Native 3-2-1 VO, no song", "start": "—", "evidence": "MC 63.3K"},
+  {"rank": "ext", "track": "It's Beginning to Look a Lot Like Christmas", "start": "reel 0.0", "evidence": "meltiemug 1.7M"},
+ ], "rules": []},
+"generation_plan": {"summary": "4 gens. B2 is the verified MerryFires two-shot clip (4ca058a5), re-skinned.",
+ "generations": [
+  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "Cozy ritual + box arrives",
+   "shots": "one locked shot", "feeds": "HOOK", "inputs": "T8 start still: dim living room, family on couch, movie on TV, US flag",
+   "basis": "MF 63K opening (hooks REPORT §3 decor alternative: 'cosy dim family couch scene with the box carried in by 1 s').",
+   "prompt": "Image-to-video from the start image. A dim, cozy American living room at night, a family of four on the couch under a blanket watching a Christmas movie, a golden retriever on the rug, an American flag on the wall. Within the first second dad walks in from the left carrying the {brand} box and sets it on the coffee table; the kids sit up. Locked camera. Natural sound only: TV dialogue murmur, footsteps. No music, no text.\n" + SUFFIX,
+   "start_frame": {"template": "T8", "prompt": still_t8("at night from a locked angle facing the sofa, a dim, cozy American living room lit by the TV and a few lamps: a family of four on the couch under a blanket watching a Christmas movie, an empty coffee table in front of them, a golden retriever on the rug, an American flag on the wall.")}},
+  {"id": "B1", "kind": "body", "resolution": "720p", "duration_s": 4, "title": "UNBOX | INSTALL", "shots": "S1 open box · S2 place product", "feeds": "UNBOX, INSTALL",
+   "inputs": "same room still; <<<image_1>>> product; <<<image_2>>> box", "basis": "MF 63K body.",
+   "prompt": script_pack("same living room at night", "top-down: hands open the {brand} box from <<<image_2>>> on the coffee table and lift out the {product} from <<<image_1>>>.", "she sets the {product} in the centre of the coffee table, the family watching from the couch.", "cardboard, a soft thud")},
+  {"id": "B2", "kind": "body", "resolution": "720p", "duration_s": 4, "title": "POUR | IGNITE (verified 4ca058a5)", "shots": "S1 pour · S2 ignite + family leans in", "feeds": "POUR, ACT → LIT",
+   "inputs": "start image = B1 last frame; <<<image_1>>>", "basis": "Same structure as 4ca058a5 (MerryFires 63K @6.75 s).",
+   "prompt": script_pack("living room at night", "she pours a thin stream of clear fuel into the steel cup of the {product} and tips the bottle upright; behind her the family shivers and pulls the blanket tighter, watching the cup, not the camera. Liquid only into the steel cup; the tray stays empty.", "new low angle from across the coffee table facing the couch: she touches the red-and-white striped lighter to the rim of the cup and real orange flames whoosh up, the room glows, and the family leans in with their hands out.", "liquid pouring into metal, lighter click, ignition whoosh, crackling fire, relieved sighs", guard="The {product} body stays intact.")},
+  {"id": "B3", "kind": "body", "resolution": "720p", "duration_s": 4, "title": "FAMILY | LIT hero", "shots": "S1 family s'mores · S2 hero", "feeds": "FAMILY, LIT hero",
+   "inputs": "same room; <<<image_1>>>", "basis": "B-PAYOFF-FAMILY; a two-person/family payoff sells multiples (PLAYBOOK §6).",
+   "prompt": script_pack("same living room, the {product} burning", "the family roasts marshmallows over the {product}, the kids laughing, the golden retriever watching.", "locked wide hero of the {product} burning on the coffee table with the family relaxed on the couch behind it.", "fire crackle, laughter")},
+ ], "rules": ["For lights (envy variant), use H1 = driveway dusk push-in (d72dabc1, T4) and the decor master body."]},
+"evidence": [
+ I("merryfires_1082602281322454", "MerryFires", 62992, "winner", "POV: Christmas movie night will never be the same · gen 4ca058a5 · 3s 51%, avg 8 s", src="H,B,I,M", url="https://www.facebook.com/reel/1082602281322454/"),
+ I("mc_post122118620919475353", "Merry Carrier", 63320, "winner", "POV: the whole street is JEALOUS of your house.. · gen d72dabc1", src="H,B,I,M", url="https://www.facebook.com/reel/28305014139198128/"),
+ I("bh_post122094852045500948", "Brick Hood", 43223, "context", "POV: You finally found the perfect ski mask 😂 (moderate; below 50K)", src="H,B,I", url=None),
+ I("mgs_8_2.1K_1908200570557125", "Merry Glows", 2191, "flop", "POV: You just won the tree contest · 3s 27%", url="https://www.facebook.com/reel/1908200570557125/"),
+ X("meltiemug", 1.7e6, "https://www.tiktok.com/@meltiemug/video/7696255762070326558", "Me this Christmas night 🎄 · candle mug", shares="22.3K"),
+ X("meltiemug", 437.5e3, "https://www.tiktok.com/@meltiemug/video/7697016077632474398", "same set-up re-shot", shares="3.9K"),
+ X("ccreamyco", "2.5M", "https://www.instagram.com/reel/Dd9vQd9ywE0/", "you + me oct 1st making ice cream"),
+ X("smartfinds500", 7.3e6, "https://www.tiktok.com/@smartfinds500/video/7685851145981414678", "When the nights get dark and colder, this comes back out 🤍", shares="31.6K", flag=True),
+],
+"failures": ["Brag POV with no ritual (2.1K).", "Long static setup plus late activation (MerryFires, 33 views)."],
+"variants": [{"name": "Ritual self-POV mug", "rule": "'Me this Christmas night 🎄': laptop playing a Christmas movie, mug lit, 10.5 s.", "proof": "meltiemug 1.7M + 437K.", "gate": "GrinchMelt first; 3 renders."}],
+"checks": [{"id": "pov.box_by_1s", "rule": "box/product enters frame ≤1.0 s", "cite": "MF 63K"}, {"id": "pov.no_static_gt3", "rule": "no static shot >3 s in the body", "cite": "MF 33 views"}],
+"open": ["Both internal winners sit at the ~63K page ceiling; the format's own ceiling is unknown."],
+"review": ["Activation at ~52% deviates from the 66% house rule. Kept because it is the measured winner and it hit 65% avg-watch."]})

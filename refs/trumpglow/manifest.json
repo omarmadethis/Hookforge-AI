@@ -1,0 +1,1063 @@
+{
+ "slug": "trumpglow",
+ "product_keys": [
+  "trumpglow"
+ ],
+ "assets_dir": "assets/patriotglow",
+ "approved_cast": "MAN (F94 Trump/car/patriotic -> man). Approved A v7 is hands-only POV (man's hands, car door): no face ref exists yet",
+ "approved_cast_status": "locked (F94)",
+ "higgsfield_media_ids": null,
+ "built_pt": "2026-10-20T09:56:35",
+ "refs": [
+  {
+   "path": "refs/trumpglow/cast/cast_man_hands_top.png",
+   "kind": "cast",
+   "what": "cast_man_hands_top.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/trumpglow/door.light.us_7377540093969550634.mp4",
+   "kind": "poc_reference",
+   "what": "door.light.us_7377540093969550634.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/doorbeam_7228378900186008878.mp4",
+   "kind": "poc_reference",
+   "what": "doorbeam_7228378900186008878.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/endeavourshop_7438522013251013921.mp4",
+   "kind": "poc_reference",
+   "what": "endeavourshop_7438522013251013921.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/ezekielf33_7486828472619355435.mp4",
+   "kind": "poc_reference",
+   "what": "ezekielf33_7486828472619355435.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/getledsy_7637748737196002591.mp4",
+   "kind": "poc_reference",
+   "what": "getledsy_7637748737196002591.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/getledsy_7645137984232213790.mp4",
+   "kind": "poc_reference",
+   "what": "getledsy_7645137984232213790.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/getledsy_7655423706629459230.mp4",
+   "kind": "poc_reference",
+   "what": "getledsy_7655423706629459230.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/door.light.us_7377540093969550634/01.jpg",
+   "kind": "poc_reference",
+   "what": "01.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/door.light.us_7377540093969550634/02.jpg",
+   "kind": "poc_reference",
+   "what": "02.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/door.light.us_7377540093969550634/03.jpg",
+   "kind": "poc_reference",
+   "what": "03.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/door.light.us_7377540093969550634/04.jpg",
+   "kind": "poc_reference",
+   "what": "04.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/door.light.us_7377540093969550634/05.jpg",
+   "kind": "poc_reference",
+   "what": "05.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/door.light.us_7377540093969550634/06.jpg",
+   "kind": "poc_reference",
+   "what": "06.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/door.light.us_7377540093969550634/07.jpg",
+   "kind": "poc_reference",
+   "what": "07.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/door.light.us_7377540093969550634/08.jpg",
+   "kind": "poc_reference",
+   "what": "08.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/door.light.us_7377540093969550634/09.jpg",
+   "kind": "poc_reference",
+   "what": "09.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/01.jpg",
+   "kind": "poc_reference",
+   "what": "01.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/02.jpg",
+   "kind": "poc_reference",
+   "what": "02.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/03.jpg",
+   "kind": "poc_reference",
+   "what": "03.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/04.jpg",
+   "kind": "poc_reference",
+   "what": "04.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/05.jpg",
+   "kind": "poc_reference",
+   "what": "05.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/06.jpg",
+   "kind": "poc_reference",
+   "what": "06.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/07.jpg",
+   "kind": "poc_reference",
+   "what": "07.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/08.jpg",
+   "kind": "poc_reference",
+   "what": "08.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/09.jpg",
+   "kind": "poc_reference",
+   "what": "09.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/10.jpg",
+   "kind": "poc_reference",
+   "what": "10.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/11.jpg",
+   "kind": "poc_reference",
+   "what": "11.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/12.jpg",
+   "kind": "poc_reference",
+   "what": "12.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/doorbeam_7228378900186008878/13.jpg",
+   "kind": "poc_reference",
+   "what": "13.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/endeavourshop_7438522013251013921/01.jpg",
+   "kind": "poc_reference",
+   "what": "01.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/endeavourshop_7438522013251013921/02.jpg",
+   "kind": "poc_reference",
+   "what": "02.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/endeavourshop_7438522013251013921/03.jpg",
+   "kind": "poc_reference",
+   "what": "03.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/endeavourshop_7438522013251013921/04.jpg",
+   "kind": "poc_reference",
+   "what": "04.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/endeavourshop_7438522013251013921/05.jpg",
+   "kind": "poc_reference",
+   "what": "05.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/endeavourshop_7438522013251013921/06.jpg",
+   "kind": "poc_reference",
+   "what": "06.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/endeavourshop_7438522013251013921/07.jpg",
+   "kind": "poc_reference",
+   "what": "07.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/endeavourshop_7438522013251013921/08.jpg",
+   "kind": "poc_reference",
+   "what": "08.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/01.jpg",
+   "kind": "poc_reference",
+   "what": "01.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/02.jpg",
+   "kind": "poc_reference",
+   "what": "02.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/03.jpg",
+   "kind": "poc_reference",
+   "what": "03.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/04.jpg",
+   "kind": "poc_reference",
+   "what": "04.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/05.jpg",
+   "kind": "poc_reference",
+   "what": "05.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/06.jpg",
+   "kind": "poc_reference",
+   "what": "06.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/07.jpg",
+   "kind": "poc_reference",
+   "what": "07.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/08.jpg",
+   "kind": "poc_reference",
+   "what": "08.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/09.jpg",
+   "kind": "poc_reference",
+   "what": "09.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/10.jpg",
+   "kind": "poc_reference",
+   "what": "10.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/11.jpg",
+   "kind": "poc_reference",
+   "what": "11.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/12.jpg",
+   "kind": "poc_reference",
+   "what": "12.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/13.jpg",
+   "kind": "poc_reference",
+   "what": "13.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/14.jpg",
+   "kind": "poc_reference",
+   "what": "14.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/15.jpg",
+   "kind": "poc_reference",
+   "what": "15.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/16.jpg",
+   "kind": "poc_reference",
+   "what": "16.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/17.jpg",
+   "kind": "poc_reference",
+   "what": "17.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/18.jpg",
+   "kind": "poc_reference",
+   "what": "18.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/19.jpg",
+   "kind": "poc_reference",
+   "what": "19.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/20.jpg",
+   "kind": "poc_reference",
+   "what": "20.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/21.jpg",
+   "kind": "poc_reference",
+   "what": "21.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/22.jpg",
+   "kind": "poc_reference",
+   "what": "22.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/ezekielf33_7486828472619355435/23.jpg",
+   "kind": "poc_reference",
+   "what": "23.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/01.jpg",
+   "kind": "poc_reference",
+   "what": "01.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/02.jpg",
+   "kind": "poc_reference",
+   "what": "02.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/03.jpg",
+   "kind": "poc_reference",
+   "what": "03.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/04.jpg",
+   "kind": "poc_reference",
+   "what": "04.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/05.jpg",
+   "kind": "poc_reference",
+   "what": "05.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/06.jpg",
+   "kind": "poc_reference",
+   "what": "06.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/07.jpg",
+   "kind": "poc_reference",
+   "what": "07.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/08.jpg",
+   "kind": "poc_reference",
+   "what": "08.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/09.jpg",
+   "kind": "poc_reference",
+   "what": "09.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/10.jpg",
+   "kind": "poc_reference",
+   "what": "10.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/11.jpg",
+   "kind": "poc_reference",
+   "what": "11.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/12.jpg",
+   "kind": "poc_reference",
+   "what": "12.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7637748737196002591/13.jpg",
+   "kind": "poc_reference",
+   "what": "13.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/01.jpg",
+   "kind": "poc_reference",
+   "what": "01.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/02.jpg",
+   "kind": "poc_reference",
+   "what": "02.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/03.jpg",
+   "kind": "poc_reference",
+   "what": "03.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/04.jpg",
+   "kind": "poc_reference",
+   "what": "04.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/05.jpg",
+   "kind": "poc_reference",
+   "what": "05.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/06.jpg",
+   "kind": "poc_reference",
+   "what": "06.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/07.jpg",
+   "kind": "poc_reference",
+   "what": "07.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/08.jpg",
+   "kind": "poc_reference",
+   "what": "08.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/09.jpg",
+   "kind": "poc_reference",
+   "what": "09.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/10.jpg",
+   "kind": "poc_reference",
+   "what": "10.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/11.jpg",
+   "kind": "poc_reference",
+   "what": "11.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/12.jpg",
+   "kind": "poc_reference",
+   "what": "12.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7645137984232213790/13.jpg",
+   "kind": "poc_reference",
+   "what": "13.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7655423706629459230/01.jpg",
+   "kind": "poc_reference",
+   "what": "01.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7655423706629459230/02.jpg",
+   "kind": "poc_reference",
+   "what": "02.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7655423706629459230/03.jpg",
+   "kind": "poc_reference",
+   "what": "03.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7655423706629459230/04.jpg",
+   "kind": "poc_reference",
+   "what": "04.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7655423706629459230/05.jpg",
+   "kind": "poc_reference",
+   "what": "05.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7655423706629459230/06.jpg",
+   "kind": "poc_reference",
+   "what": "06.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7655423706629459230/07.jpg",
+   "kind": "poc_reference",
+   "what": "07.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7655423706629459230/08.jpg",
+   "kind": "poc_reference",
+   "what": "08.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7655423706629459230/09.jpg",
+   "kind": "poc_reference",
+   "what": "09.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7655423706629459230/10.jpg",
+   "kind": "poc_reference",
+   "what": "10.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/getledsy_7655423706629459230/11.jpg",
+   "kind": "poc_reference",
+   "what": "11.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7391285123561426208/01.jpg",
+   "kind": "poc_reference",
+   "what": "01.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7391285123561426208/02.jpg",
+   "kind": "poc_reference",
+   "what": "02.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7391285123561426208/03.jpg",
+   "kind": "poc_reference",
+   "what": "03.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7391285123561426208/04.jpg",
+   "kind": "poc_reference",
+   "what": "04.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7391285123561426208/05.jpg",
+   "kind": "poc_reference",
+   "what": "05.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7391285123561426208/06.jpg",
+   "kind": "poc_reference",
+   "what": "06.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7391285123561426208/07.jpg",
+   "kind": "poc_reference",
+   "what": "07.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7391285123561426208/08.jpg",
+   "kind": "poc_reference",
+   "what": "08.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7391285123561426208/09.jpg",
+   "kind": "poc_reference",
+   "what": "09.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7391285123561426208/10.jpg",
+   "kind": "poc_reference",
+   "what": "10.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7391285123561426208/11.jpg",
+   "kind": "poc_reference",
+   "what": "11.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7395348939215588641/01.jpg",
+   "kind": "poc_reference",
+   "what": "01.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7395348939215588641/02.jpg",
+   "kind": "poc_reference",
+   "what": "02.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7395348939215588641/03.jpg",
+   "kind": "poc_reference",
+   "what": "03.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7395348939215588641/04.jpg",
+   "kind": "poc_reference",
+   "what": "04.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7395348939215588641/05.jpg",
+   "kind": "poc_reference",
+   "what": "05.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7395348939215588641/06.jpg",
+   "kind": "poc_reference",
+   "what": "06.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7395348939215588641/07.jpg",
+   "kind": "poc_reference",
+   "what": "07.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7395348939215588641/08.jpg",
+   "kind": "poc_reference",
+   "what": "08.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/kf/lumi_door_7395348939215588641/09.jpg",
+   "kind": "poc_reference",
+   "what": "09.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/lumi_door_7391285123561426208.mp4",
+   "kind": "poc_reference",
+   "what": "lumi_door_7391285123561426208.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/lumi_door_7395348939215588641.mp4",
+   "kind": "poc_reference",
+   "what": "lumi_door_7395348939215588641.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/product/trumpglow_projector_rally_a.png",
+   "kind": "product",
+   "what": "trumpglow_projector_rally_a.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/trumpglow/product/trumpglow_projector_rally_b.png",
+   "kind": "product",
+   "what": "trumpglow_projector_rally_b.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/trumpglow/sheet_door.light.us_7377540093969550634.jpg",
+   "kind": "poc_reference",
+   "what": "sheet_door.light.us_7377540093969550634.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/sheet_doorbeam_7228378900186008878.jpg",
+   "kind": "poc_reference",
+   "what": "sheet_doorbeam_7228378900186008878.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/sheet_endeavourshop_7438522013251013921.jpg",
+   "kind": "poc_reference",
+   "what": "sheet_endeavourshop_7438522013251013921.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/sheet_ezekielf33_7486828472619355435.jpg",
+   "kind": "poc_reference",
+   "what": "sheet_ezekielf33_7486828472619355435.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/sheet_getledsy_7637748737196002591.jpg",
+   "kind": "poc_reference",
+   "what": "sheet_getledsy_7637748737196002591.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/sheet_getledsy_7645137984232213790.jpg",
+   "kind": "poc_reference",
+   "what": "sheet_getledsy_7645137984232213790.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/sheet_getledsy_7655423706629459230.jpg",
+   "kind": "poc_reference",
+   "what": "sheet_getledsy_7655423706629459230.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/sheet_lumi_door_7391285123561426208.jpg",
+   "kind": "poc_reference",
+   "what": "sheet_lumi_door_7391285123561426208.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/trumpglow/sheet_lumi_door_7395348939215588641.jpg",
+   "kind": "poc_reference",
+   "what": "sheet_lumi_door_7395348939215588641.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  }
+ ],
+ "refused": [],
+ "rule": "F88: no generation without product AND cast refs; F87: every file passes deliver.scan"
+}

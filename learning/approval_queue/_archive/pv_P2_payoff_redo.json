@@ -1,0 +1,233 @@
+{
+ "id": "pv_P2_payoff_redo",
+ "kind": "redo",
+ "product": "purrventure_carrier",
+ "status": "SUPERSEDED",
+ "created_pt": "2026-10-20T14:48:14-07:00",
+ "why": "P2 payoff was weak: P2_G3 filter-blocked 3x, used fallback from P2_G2's last frame, only 0.75 s + 0.85 s physics-clean, P2 = 8.2 s < 11.3 s (D82)",
+ "poc": [
+  "PurrVenture POC: RollyMew gardening-woman winners 7.6M/6.4M/5.4M (F94 cast rule, refs/purrventure/manifest.json)",
+  "Omar FB 1131865399523539 ball-roll payoff (proof video)"
+ ],
+ "credits": 30.0,
+ "credit_cap": 35,
+ "quote": {
+  "lines": [
+   {
+    "gen": "P2_G3R",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "P2_G3R",
+    "item": "video 720p 4s",
+    "credits": 28
+   }
+  ],
+  "stills": 2.0,
+  "video": 28,
+  "total": 30.0,
+  "basis": {
+   "still_gpt_image_2": 1.0,
+   "seedance_2_5_1080p_4s": 64,
+   "seedance_2_5_720p_4s": 28,
+   "per_s_1080p": 16,
+   "per_s_720p": 7
+  }
+ },
+ "gates": {
+  "ok": true,
+  "blocks": [],
+  "warns": []
+ },
+ "preflight": {
+  "ok": true,
+  "fix": []
+ },
+ "ready_for_approval": true,
+ "approval_file_draft": {
+  "approved_by": "",
+  "approved_at_pt": "",
+  "approval_quote": "",
+  "run_id": "pv_P2_payoff_redo",
+  "plan_sha256": "cf4fc10ac58bad1f12cf245a020927dd8698a40615a35d00f8163234386bdb9b",
+  "gens": [
+   "P2_G3R"
+  ],
+  "account": "user-Higgsfield--new-account",
+  "credit_cap": 35,
+  "expires_pt": "2026-10-21T14:48:14-07:00",
+  "consumed": false
+ },
+ "plan": {
+  "brief": {
+   "brief": "PurrVenture P2 payoff redo (payoff shot only)",
+   "product_key": "purrventure_carrier",
+   "format": "F04"
+  },
+  "gens": [
+   {
+    "id": "P2_G3R",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "scene_type": "organic",
+    "prompt": "Single shot, handheld iPhone at hip height in a sunny backyard garden. A cream snow Bengal cat with blue eyes rides in the black mesh pet ball as it rolls slowly across the lawn, paws on the mesh floor, the ball rolling as one rigid sphere. In the background a woman gardener in a sun hat, long-sleeve shirt, jeans and green gardening gloves kneels by a flower bed holding a hand trowel, turns her head and smiles at the rolling ball. Real-world physics: nothing passes through the mesh, the cat never clips through the ball or the ground. Same cream snow Bengal and same black mesh ball as the references. Native ambient garden sound only, birds and the ball on grass, no music, no added sound effects, no speech. Her eyes stay on the ball. No text on screen.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "prompt": "Photo, handheld iPhone at hip height, sunny backyard lawn with flower beds. A cream snow Bengal cat with blue eyes in the black mesh pet ball on the grass in the foreground. In the background a woman gardener in a sun hat, long-sleeve shirt, jeans and green gardening gloves kneels by a flower bed holding a hand trowel, her eyes on the ball. No text.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+    },
+    "shots": [
+     {
+      "code": "PAYOFF",
+      "t0": 0,
+      "t1": 4
+     }
+    ],
+    "source": "ai"
+   }
+  ],
+  "quote": {
+   "lines": [
+    {
+     "gen": "P2_G3R",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "P2_G3R",
+     "item": "video 720p 4s",
+     "credits": 28
+    }
+   ],
+   "stills": 2.0,
+   "video": 28,
+   "total": 30.0,
+   "basis": {
+    "still_gpt_image_2": 1.0,
+    "seedance_2_5_1080p_4s": 64,
+    "seedance_2_5_720p_4s": 28,
+    "per_s_1080p": 16,
+    "per_s_720p": 7
+   }
+  },
+  "gates": {
+   "ok": true,
+   "blocks": [],
+   "warns": [],
+   "rows": [
+    {
+     "gate": "G4",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 1080p, rest 720p",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no phonk",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "emoji render apple_ios (Apple iOS PNGs only)",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "prompts ask for real ambient sound only",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "P2_G3R: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G13",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all AI motions short and simple",
+     "poc": null
+    },
+    {
+     "gate": "G16",
+     "ok": true,
+     "level": "INFO",
+     "msg": "Seedance 2.5 / GPT Image 2 only, no end frames",
+     "poc": null
+    },
+    {
+     "gate": "G18",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all gens <=5s",
+     "poc": null
+    }
+   ],
+   "note": "payoff-only insert: hook/song/caption/card gates (G1-G3, G7, G10-G12, G14-G15, G19-G23) apply to the P2 edit, which keeps its approved hook/cards/song"
+  },
+  "calls_preview": [
+   {
+    "step": "P2_G3R_still",
+    "tool": "generate_image",
+    "expected_credits": 1.0,
+    "medias": [
+     {
+      "value": "2001b911-3882-411b-81b7-863213a8e967",
+      "role": "image"
+     },
+     {
+      "value": "f14b458e-bbb1-4ee8-870e-dc710d42d7b2",
+      "role": "image"
+     },
+     {
+      "value": "b9257835-b81f-4715-9a08-a41859cdb21a",
+      "role": "image"
+     }
+    ]
+   },
+   {
+    "step": "P2_G3R_video",
+    "tool": "generate_video",
+    "expected_credits": 28,
+    "medias": [
+     {
+      "value": "{job:P2_G3R_still}",
+      "role": "start_image"
+     },
+     {
+      "value": "2001b911-3882-411b-81b7-863213a8e967",
+      "role": "image_references"
+     },
+     {
+      "value": "f14b458e-bbb1-4ee8-870e-dc710d42d7b2",
+      "role": "image_references"
+     },
+     {
+      "value": "b9257835-b81f-4715-9a08-a41859cdb21a",
+      "role": "image_references"
+     }
+    ]
+   }
+  ]
+ },
+ "cost_note": "quote uses config 1.0/still; gpt_image_2 2k high quoted 6.5 on get_cost -> cap 35 covers it (1 still + 28 video)",
+ "filter_safety": [
+  "no body-position words",
+  "woman ref not start image",
+  "fresh start frame",
+  "task + clothing described",
+  "no 'inside' repetition"
+ ],
+ "status_before": "AWAITING_OMAR_APPROVAL",
+ "archived_pt": "2026-10-20T15:59:00-07:00",
+ "archived_why": "D125: P2 v2 shipped (Omar 3:58 PM PT); 30 cr redo no longer needed"
+}

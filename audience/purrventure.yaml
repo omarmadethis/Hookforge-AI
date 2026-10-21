@@ -1,0 +1,19 @@
+slug: purrventure
+product_keys: [purrventure_carrier]
+buyers: "US cat moms 22-50"
+main_platform: instagram
+secondary_platforms: [tiktok, facebook]
+markets: [US, CA, UK, AU]
+tone: "cute, funny pet humour"
+music_allowed_genres: [cute pop, playful acoustic, meme pop, oldies, oldies mambo]
+music_banned_genres: [phonk, christmas]
+music_preferred: [mambo_no_5, be_my_baby]   # D84: RollyMew proof (20.8M Mambo No. 5 @1.2 s; 19.4M Be My Baby @31.9 s)
+emoji_allowed: {"😻": "cat love", "🐱": "cat", "😹": "funny cat", "🐾": "paws", "💖": "love", "🥺": "cute", "👉": "CTA", "😂": "funny", "😕": "problem card (RollyMew 22M / 20.8M)", "😊": "solution card (RollyMew 22M)", "🐈": "caption + solution card (RollyMew caption, 20 IG reels)"}
+slang: ["cat mom", "my cat", "adventure"]
+caption_voice: "cat-mom voice, 1-3 emoji"
+caption_proof:   # D84
+  - {pattern: '(?i)^say "?purr"? if you want one', evidence: "ext: RollyMew caption 'Comment \"rolly\" if you want one! 🐈 #cat #catmom #catlover' on all 20 IG reels, top 20.8M https://www.instagram.com/rollymewofficial/reel/Dehx805u5wn/ (POC-PV-CAP1)"}
+  - {pattern: '(?i)^the problem', evidence: "ext: RollyMew card 'The problem 😕' on 22M FB 3010652202601079 + 20.8M IG Dehx805u5wn"}
+  - {pattern: '(?i)^vs\.*$', evidence: "ext: RollyMew mid card 'VS' (22M FB, 20.8M IG); F64 Vs only on the middle card"}
+  - {pattern: '(?i)^the (solution|result)', evidence: "ext: RollyMew card 'The solution 😊🐈' / 'The result' (22M FB, 1.6M FB)"}
+banned: []

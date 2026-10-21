@@ -1,0 +1,23 @@
+# Vision judge calibration (D56), 2026-10-18 ~10:55 PM PT. Private.
+- **Reference banks:** CLIP ViT-B-32 frame embeddings at 2 fps from Omar's own posted reels.
+  - 78 reels, read-only from the features worker's proxies.
+  - Up to 8 top-viewed reels per product: `refs_<product>.npz`.
+- **Genuine distribution:** leave-one-reel-out on all 78 own reels (`genuine_loo.csv`).
+  - own-product p90 similarity: median 0.87, min 0.49 (one robe outlier)
+  - margin vs the best other product: median 0.21
+  - scene: median 0.87
+- **Thresholds (`calibration.json`, per product):** min(product's genuine min, global 5th percentile) - 0.03.
+  - Robe (n=38): missing < 0.461, scene < 0.561
+  - Other products: missing < 0.672, scene < 0.70
+  - wrong_product needs a negative margin below the threshold.
+- **Genuine own reels judged "certain": 0/78.** A real winner would never be re-rolled.
+- **Non-own reference reels** (research library, 30 videos × 3 target products = 90 judgements): 65 judged certain.
+  - 50 scene_unrelated + product_missing
+  - 10 wrong_product
+  - 5 scene_unrelated
+  - Some of these are legitimately the same product type, so this is a flag rate, not a measured recall.
+- **Spot check on 6 real past Higgsfield generations:**
+  - 5 judged clean (robe 0.90–0.995 own similarity).
+  - 1 judged wrong_product 0.95: it was keyword-labelled "fire pit", but it is really the garage curtain-lights video (looks like the curtain bank, sim 0.97). I confirmed this visually on the frame, so the judge was right.
+- **Pixel checks:** genuine own reels have frame motion 22–33 and no blank frames. Thresholds: frozen < 0.4, blank share ≥ 50%.
+- **Not certifiable** (confidence capped at 0.6, so never an automatic re-roll): mangled limbs, product deformed, wrong colour, burned-in text (minor).

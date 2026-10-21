@@ -1,0 +1,186 @@
+"""Curated recommendations (edit HERE, then run: python3 voice/make_recommendations.py && python3 voice/report.py).
+Every item cites the counts from voice_stats.json / comments.csv / support_themes.csv it rests on (snapshot 2026-10-18 PT).
+Hard rules respected: CTA = SAY "<KEYWORD>" (D5), JK flip on fake-retailer hooks (D4), Brick Hood = slopes only (D37),
+GrinchMelt = calm (D37/D38), re-rolls only for absurd failures (D33), so AI 'tells' are LOGGED + fixed in prompts, not re-rolled.
+"""
+import json, os
+HERE = os.path.dirname(os.path.abspath(__file__))
+R = {}
+R["alerts"] = [
+ {"title": "Robe: what ships does not match what the reels and page promise.",
+  "body": "164 customer threads in the MerryJammies inbox (Sep 13 to Oct 19 PT) break down as: 106 (65%) not received or late, 50 (30%) asking for a refund, return or cancel, "
+          "16+ 'no heat controller / USB-only / doesn't heat' (snippet-only count, so the real number is higher), 14 'not as pictured', 8 quality defects (holes, thin, tiny), 5 wrong character, and 8 scam/trust messages including 1-star Loox reviews. The page says the "
+          "5-level controller 'comes in the box' and leads with 'Free International Shipping, tracked', but 'allow up to 2 months' making time is buried in the FAQ. Fix the supplier "
+          "and the page before scaling robe reels: every new viral reel adds orders that come back as refunds, chargebacks and 1-star reviews, and that drags on Meta page quality.",
+  "evidence": "voice/support_themes.csv; merryjammies.com product page (fetched 2026-10-18)"},
+ {"title": "MerryFire: pour-in liquid-fuel tabletop fire pits are under a US CPSC consumer alert.",
+  "body": "In a Dec 2024 alert, CPSC told consumers to stop using, and sellers to stop selling, fire pits that burn pooled alcohol or other liquid fuel, including bioethanol. Such "
+          "products violate ASTM F3363-19, and CPSC links them to 2 deaths and 60+ injuries (the Colsen tabletop pits were recalled). The MerryFire page says it 'runs on liquid "
+          "bio-ethanol', is 'safe to use indoors' and 'toasts marshmallows indoors'. worlds.py lists 'pour fuel into the steel cup' as a natural action. Omar should check with the "
+          "supplier and a compliance adviser before making more MerryFire content. Until then, the engine should drop fuel-pouring shots and indoor-safety claims. This is not legal advice.",
+  "evidence": "cpsc.gov consumer alert (Dec 19 2024) + Colsen recall; merryfire.com page (fetched 2026-10-18)"},
+ {"title": "Testimonials repeat across stores.",
+  "body": "The MerryJammies and MerryGlow pages show the same four reviewer names (Danielle P., Rachel T., Bree T., Morgan W.) with templated text. Meanwhile, one-star Loox reviews keep "
+          "arriving in the inbox. The FTC's 2024 rule on consumer reviews (16 CFR Part 465) carries civil penalties for fake or misattributed reviews. Replace these blocks with genuine "
+          "Loox reviews. The MerryGlow line 'our social media … contains AI-generated content that has no correlation to our products' also feeds the 'not as advertised' complaints.",
+  "evidence": "merryjammies.com + merryglows.com pages (fetched 2026-10-18); support_themes.csv scam_trust/not_as_pictured"},
+ {"title": "Viewers call out AI, and some say it cost a sale.",
+  "body": "102 AI call-outs in 8,475 competitor comments. Examples: 'pls tell me its not AI' (199 likes), 'I would of purchased it if wasn't integrated with AI' (52), 'I can't see "
+          "the real product so it could literally just be a string', and 'Can you stop using ai and show us what it actually looks like'. The tells they name are: foot pockets that "
+          "change between shots, the bag ripping, a USB that 'magically fit into the port', and a too-perfect store aisle. The QA gate should log these tells (not re-roll them, per D33) "
+          "and prompts should prevent them. The 20% experiment slot should test one real-proof shot per product.",
+  "evidence": "comments.csv code ai_callout: robe 33, MerryGlow 45, mask 9, carrier 12"},
+]
+R["cross_product"] = [
+ "**'Where do I buy it?' and 'How much?' are the #1 comment on every decor/gift video.** Combined share: projectors/lights 28% (1,000 of 3,572), window/curtain lights 42% (357 of 849), cat carrier 22%, robe 11%. Viewers get angry when an ad never says where to buy ('why advertise when we can't buy it', 'no good advertising if ya can't buy it'). Every reel needs a where-to-buy answer: a final card 'SAY \"<KEYWORD>\" for the link' plus the link caption (D5/D6). Never leave it implicit.",
+ "**Disbelief is the strongest buying question.** 'No way that little candle melts all that chocolate' (781 likes), 'I'd like to see what it really looks like' and 'If this don't look like hers when I buy it…' / 'it won't..I got it and it sucks'. Answer the doubt on screen with a proof shot in real time (timer card), shot on a normal-sized tree, room or window, not a mansion ('Step one have a massive house with a huge ceiling').",
+ "**The most-liked comments are jokes and wordplay, not questions:** 'cold alcoholics' misread (7,945 likes), 'tripping to your death has never been easier' (4,056), 'Clam Cooker 3000' (993), 'sorry I can't go out, I'm charging my hoodie' (1,021). Hooks that invite a pun or roast drive comment volume. Use customers' jokes as hook or caption lines, especially jokes that also answer an objection (charging, tripping).",
+ "**'Too early for Christmas' backlash is real and it drives comments.** On mug videos 70 of 751 comments (9%) mention Halloween/October, and the defence 'IM SO READY FOR CHRISTMAS' has 3,337 likes. In October, a calm, on-purpose line ('I don't care that it's October 🎄') turns the backlash into a debate in our favour. Test it in the experiment slot.",
+ "Store fakery gets noticed: 'Why say it's from Target if it's not?', 'It's $134 and not at Target', 'price labels… shelves smh'. This supports D4 (keep the JK flip) and D12/D26 (no logos).",
+ "A large share of competitor commenters write in Spanish or Portuguese (TikTok's international distribution). Our FB/IG audience is US-first, so treat non-English intent as a demand signal, not a targeting change.",
+]
+R["correlation_read"] = ("Read: on 47 competitor videos, no comment-mix share tracks views reliably (all |rho| ≤ 0.27; at n=47, |rho| needs about 0.29 for p<0.05). Comparisons (0.27), desire (0.16) and humour (0.13) lean positive; "
+    "tag-a-friend leans negative (−0.10). On our own pages (Meta Insights, MG/MGS/MF/MC/BH), comments per 1K views (rho 0.41, n=42) and shares per 1K views (rho 0.67, n=16) rise with reach. That fits engagement-weighted "
+    "distribution, but the causation runs both ways. Use comment mix as a diagnostic, not a predictor (consistent with D35). Re-run once HJ/MJIG Insights and the browser-captured comments on our own reels land.")
+R["products"] = {
+ "grinch_robe": {
+  "gaps": [
+   {"text": "Competitor owners complain about power, durability and delivery: 'I own it and it sucks!', 'didn't work after a few months and needs a Powerbank', 'stopped working the next day', 'Never got it, pretty sure it's a scam'. Our plug-in, 5-level design beats USB power-bank robes, but only if we actually ship the controller (see alert).", "evidence": "complaint 9 + power/charge 37 mentions"},
+   {"text": "Price objection framed as a comparison: 'Almost the same as the Westinghouse heated wearable blanket which is half the cost. Can I ask what makes yours better?', 'Costco heated throw $29.99 with a forever warranty'. Answer what makes ours different (character design, foot pocket, 5 levels + timer) on screen.", "evidence": "price_obj 27, comparison 6"},
+   {"text": "Floor length and foot pockets scare people: 'tripping to your death' (4,056 likes) and 28 trip/fall mentions. No competitor answers it. We can.", "evidence": "trip 28"},
+  ],
+  "video": [
+   {"text": "Body card answering the top question (cord/charging, 37): 'Plugs in = actually gets HOT 🔥 (5 levels)'. Shot: the controller dial clicking 1→5. Only use it once the controller ships in the box.", "evidence": "power/charge 37; support missing_heat_controller 16+"},
+   {"text": "Show the robe going in the washing machine after the controller detaches. Text: 'Yes, it's machine washable 🧺' (31 wash questions; 'is it safe to wash?' 87 likes).", "evidence": "wash 31"},
+   {"text": "Anti-trip shot: step out of the foot pocket and walk to the kitchen. Customers wrote this joke themselves ('How do I walk back to the fridge…'), so it lands as humour plus proof.", "evidence": "trip 28; top comment 4,056 likes"},
+   {"text": "Casting proof for 'man size' (20) and 'tall' (14) asks: one packed body shot of a tall adult or husband wearing it with the hem at the ankle. Text: 'Fits up to 5'10\"'.", "evidence": "man/guy 20, tall/length 14"},
+   {"text": "Hook lines in customers' words: 'Forget my mom, I want this 😳' (2,316 likes), 'Sorry I can't go out… I'm charging my robe 😂' (1,021+65+8 likes, also handles the plug objection), 'Women are hard to gift..' (HJ-01 proven).", "evidence": "desire top examples"},
+   {"text": "Prompt QA: the foot pocket must stay the same across cuts and the bag must open naturally. Commenters cite both as AI tells ('first it is connected to the robe, than not'). Log, don't re-roll (D33).", "evidence": "ai_callout 33"},
+  ],
+  "site": [
+   {"text": "Put making time plus shipping next to the price and the Add to Cart button (e.g. 'Made to order: ships in X weeks. Order by <date> for Christmas'). Remove the 'Free International Shipping, tracked' headline that sets a 1–2-week expectation. 106 of 164 support threads are 'where is my order'.", "evidence": "support never_received_or_late 106"},
+   {"text": "Add a 'What's in the box' photo showing the robe, the 5-level controller and the plug, and make sure it matches the supplier's shipment. Add 'Plug-in, not battery: no power bank needed'.", "evidence": "support missing_heat_controller 16+, not_as_pictured 14"},
+   {"text": "FAQ additions: 'Will I trip in the foot pocket?', 'Men's / tall fit?' (one size to about 5'10\", say so in inches next to the size), 'How long is the cord?' (15 likes), 'Other characters/colours?' (29).", "evidence": "trip 28, man/guy 20, colours 29"},
+   {"text": "Replace the templated testimonials with real Loox reviews (alert 3).", "evidence": "page fetch"},
+  ]},
+ "merryfire": {
+  "gaps": [
+   {"text": "Public comment data is thin (1 on-topic competitor video, 32 comments). Market reviews (Amazon Colsen 4.6★ from 1,632 reviews, bobvila test) praise 'no smoke, no smell'. Their pain points: soot builds up, the bowl stays hot about 30 min after the flame dies, burn time is 30–50 min, a fire marshal advised ventilation, and concrete edges crumble. Ceramic plus a snuffer rim answers several of these, but see the CPSC alert first.", "evidence": "web reviews 2026-10-18; comments.csv merryfire 32"},
+  ],
+  "video": [
+   {"text": "Blocked pending alert 2: no fuel-pouring shots and no indoor-safety claims. If cleared, show the snuffer rim putting the flame out in one second, the flame next to a s'mores tray, and a heat-safe tray underneath. Text: 'Out in 1 second 🔥→💨'.", "evidence": "CPSC alert; competitor reviews"},
+   {"text": "Capture comments on our own MerryFire reels (browser queue P1/P2) before writing more hook lines. There is no customer-language evidence yet.", "evidence": "browser_queue.csv"},
+  ],
+  "site": [
+   {"text": "State the exact burn time in minutes (currently 'a long evening'), the weight and dimensions, and 'hot for ~30 min after: let it cool'. Re-check every indoor claim against the CPSC alert.", "evidence": "competitor review pain points"},
+  ]},
+ "brickhood_mask": {
+  "gaps": [
+   {"text": "Competitor balaclavas get a 'criminal' stigma: 'People always scared of you… thinking you're up to no good', 'now the robbers will be warm', 'Michael Scofield?' (12). Their street and lifestyle settings invite it. Our slopes-only world (D37) avoids it, so keep it strict.", "evidence": "stigma 12"},
+   {"text": "Lost sales over AI: 'I would of purchased it if wasn't integrated with AI' (52 likes); 'get a wildson hood!! same product… no AI'. Also 'it ain't even that cold' / 'no winters in Midland TX' (warm-climate viewers).", "evidence": "ai_callout 9"},
+  ],
+  "video": [
+   {"text": "Shots: the mask under goggles and a helmet on the chairlift; a close-up of the double-knit texture; a stretch pull over the head. This answers 'stretchy or tight?' and 'cotton or plastic?'.", "evidence": "fit/material 5"},
+   {"text": "Hook/caption in customers' words: 'I don't need a mask to look that good 😂' (roast bait). Expect a lot of 'where did you get that?' Use squad shots (55% of orders are multi-packs).", "evidence": "humor 42; Shopify brickhood report"},
+  ],
+  "site": [
+   {"text": "Add a product FAQ (the store has none): stretch and fit (one size? kids?), material ('double-knit acrylic', so not cotton), 'windproof, not waterproof', washing, shipping time to US/EU, and multi-pack pricing.", "evidence": "q_sizing/q_material questions; page fetch 2026-10-18"},
+  ]},
+ "merryglow_lights": {
+  "gaps": [
+   {"text": "Expectation gap on light products: 'I'd like to see what it really looks like', 'If this don't look like hers when I buy it…' → 'it won't..I got it and it sucks', 'yo lo compre y no me sirvió porque mi techo…', 'AI vs reality'. Real-proof footage is the gap competitors leave open.", "evidence": "real vs ai 57; complaint 6"},
+   {"text": "Cheaper-elsewhere comments: 'They're under firecracker lights on TT shop', 'Costco', 'Amazon USB projector'. Price anchoring has to show what's different (app, 12 designs, pixels).", "evidence": "costco/amazon 50"},
+  ],
+  "video": [
+   {"text": "Final card on EVERY reel: 'SAY \"TREE\" for the link 🎄' (MG proven 'Say \"tree\"'). Where-to-buy is 18% and price 10% of competitor comments.", "evidence": "q_where_buy 654, q_price 346 of 3,572"},
+   {"text": "Proof shot: a phone screen tapping through designs while the tree changes (one packed body shot), on a normal 6 ft tree in a normal living room.", "evidence": "real vs ai 57; 'massive house' objection"},
+   {"text": "Hook in customers' words: 'I like this idea better than putting up a Christmas tree 🎄' (381 likes), adapted as 'Better than rewrapping your tree every year'. Also 'Absolutely no way would I be wrapping lights' → 'Up in 10 minutes ⏱️'.", "evidence": "comparison top example; LED tree video"},
+  ],
+  "site": [
+   {"text": "Keep the strong FAQ. Remove the 'AI-generated content that has no correlation to our products' line and replace it with real photos and video of the kit on a tree. Add a 1-line tree-height picker above Add to Cart (the 'get the taller one' review).", "evidence": "page fetch; alert 3"},
+  ]},
+ "jollyglow_curtain": {
+  "gaps": [
+   {"text": "Competitors don't say where to buy or how big it is: where+price = 42% of comments. 'What are the measurements??', 'is Lukakaka.com a real store', 'esto fue lo que me llegó' (got something different), 'AI killing these ads'.", "evidence": "q_where_buy 249, q_price 108 of 849"},
+   {"text": "'Main question is: is the projector noisy?' (2,369 likes). Nobody answers it.", "evidence": "q_other top example"},
+  ],
+  "video": [
+   {"text": "Show the curtain on a normal window, filmed from the street at night (D37 world). Text card: size, e.g. 'Fits a 6 ft window'. End card: 'SAY \"GLOW\" for the link'.", "evidence": "measurements 8; where/price 42%"},
+   {"text": "If the unit is silent (no fan), add text: 'Silent: no fan 🤫'.", "evidence": "noise question 2,369 likes"},
+  ],
+  "site": [
+   {"text": "Window-size table (W×H per variant), a 'silent / no fan' statement if true, real night photos, and trust signals (store contact, return policy) above the fold.", "evidence": "measurements, trust comments"},
+  ]},
+ "grinchmelt_mug": {
+  "gaps": [
+   {"text": "Disbelief and slowness: 'No way that little candle melts all that chocolate' (781 likes), 'Do people not own microwaves' (131), 'You'll be waiting a while'. Safety: 'Does the cup get really hot?', 'isn't this a safety hazard?', 'chocolate burns quick' → 'just blow out the candle' (2,110 likes). Competitors never show the timing.", "evidence": "candle doubt 38, microwave 4 (131 likes), safe/hot/burn 24"},
+  ],
+  "video": [
+   {"text": "Calm proof (D37 calm world): a real-time melt with a small timer card ('melted in X min'; measure it, never invent), then a dip. Hook in their words: 'No way that tiny candle melts all this… 🕯️🍫'.", "evidence": "skeptic top example 781 likes"},
+   {"text": "Show it doubling as a normal mug once the candle is out ('can the mug be used as a normal drinking mug?', 95 likes) and the candle included in the box ('does it come with the candle?', 3).", "evidence": "reuse mug 95 likes; come w candle 3"},
+   {"text": "October experiment: text 'I don't care that it's October 🎄☕' to turn the too-early debate (9% of comments) into comments.", "evidence": "too_early 70 of 751"},
+  ],
+  "site": [
+   {"text": "FAQ: candles included (how many, burn time), minutes to melt, 'does the handle get hot?', dishwasher safe, 'use as a normal mug'.", "evidence": "q_how_it_works / safety questions"},
+  ]},
+ "purrventure_carrier": {
+  "gaps": [
+   {"text": "Welfare objections on competitor carrier videos: 'poor cat', 'that hurts its neck/spine', 'the cats will tear right through that mesh' (19), plus 'oh this is AI' (12). A calm cat walking in by itself answers both.", "evidence": "welfare 19, ai 12"},
+  ],
+  "video": [
+   {"text": "Shots: the cat walks in voluntarily; inside view showing room to turn; mesh close-up. Hook in their words: 'I need it' (2,560 likes). End card where-to-buy (22% of comments).", "evidence": "desire top example; where 61+22"},
+  ],
+  "site": [
+   {"text": "Weight/size limit in kg and lb ('extra extra grande para mi gordo' 37 likes), ventilation, mesh strength, airline fit.", "evidence": "q_sizing / desire examples"},
+  ]},
+}
+R["rules"] = [
+ {"id": "V01", "scope": "all", "rule_type": "onscreen_text", "plugin_type": "caption", "engine_slot": "text_cards.end", "evidence_n": "1,000/3,572 lights; 357/849 curtain; 284/2,654 robe",
+  "rule": "Every reel ends with an explicit where-to-buy card in SAY form: SAY \"<KEYWORD>\" for the link (plus the link caption per D6). Never leave it implicit.",
+  "quote": "why won't they say where we can purchase these / no good advertising if ya can't buy it", "resolution": "format_defaults captions + end card; QA warns if missing"},
+ {"id": "V02", "scope": "all", "rule_type": "shot", "engine_slot": "body_shot_overrides.PROOF", "evidence_n": "skeptic+real-vs-ai 100+; top 781 likes",
+  "rule": "Include one PROOF shot that answers the product's #1 disbelief in real time (melt, heat dial, app tap, flame out), in a normal-sized home.",
+  "quote": "No way that little candle melts all that chocolate / I'd like to see what it really looks like", "resolution": "planner adds PROOF beat to body; per-product proof in product_profiles"},
+ {"id": "V03", "scope": "all", "rule_type": "qa_check", "engine_slot": "qa.ai_tells (log only, D33)", "evidence_n": "102 AI call-outs",
+  "rule": "QA logs the AI tells viewers name: product parts that change between cuts (foot pocket, mask face), impossible actions (bag ripping, USB 'magically' fitting), too-perfect store shelves and labels. Fix them in the prompt for the next gen. Never auto re-roll for these (D33).",
+  "quote": "That's just AI. Look at the feet's, first it is connected to the robe, than not", "resolution": "qa.py checklist + prompt negatives in positive form"},
+ {"id": "V04", "scope": "all", "rule_type": "hook_line", "engine_slot": "hook_lines (tag=V)", "evidence_n": "top-liked comments 1K–8K likes",
+  "rule": "Hook and caption candidates may come verbatim from top-liked customer comments (de-identified, ≤10 words), tagged source=voice. Prefer jokes that also handle an objection.",
+  "quote": "Sorry I can't go out, I'm charging my hoodie", "resolution": "formats hook_lines get voice candidates; experiment slot first"},
+ {"id": "V05", "scope": "seasonal (Sep–Oct)", "rule_type": "hook_line", "engine_slot": "experiment slot", "evidence_n": "70/751 mug comments; defence 3,337 likes",
+  "rule": "Before Halloween, test one 'I don't care that it's October 🎄' text variant per product as an experiment (debate bait).", "quote": "IM SO READY FOR CHRISTMAS", "status": "experiment"},
+ {"id": "V06", "scope": "all (store hooks)", "rule_type": "onscreen_text", "engine_slot": "text_cards (D4)", "evidence_n": "store/target mentions 34 (robe)",
+  "rule": "Keep the JK flip on every fake-retailer hook. Viewers call out 'not at Target'.", "quote": "Why say it's from Target if it's not?", "resolution": "reaffirms D4"},
+ {"id": "V07", "scope": "grinch_robe", "rule_type": "block", "engine_slot": "plan gate", "evidence_n": "support 164 threads: 106 late, 50 refund/cancel, 16+ no controller",
+  "rule": "Do not show the 5-level controller (or claim 'plug-in heat') in robe reels until the shipment includes it. Planner prints a WARN on every robe plan until Omar clears it.",
+  "quote": "I FINALLY RECEIVED THE ROBE BUT … THERE IS NO HEAT CONTROL WITH IT", "status": "proposed (needs Omar)"},
+ {"id": "V08", "scope": "grinch_robe", "rule_type": "shot", "engine_slot": "body_shot_overrides", "evidence_n": "wash 31, trip 28, tall/man 34",
+  "rule": "Robe bodies rotate answer-shots: washing machine (controller detached), stepping out of the foot pocket and walking, a tall adult wearing it to the ankle.", "quote": "what about washing?? is it safe to wash? (87 likes)"},
+ {"id": "V09", "scope": "grinch_robe", "rule_type": "hook_line", "engine_slot": "hook_lines", "evidence_n": "2,316 likes",
+  "rule": "Hook candidate: 'Forget my mom, I want this 😳' (self-gift twist on the recipient hook).", "quote": "forget my mom i want this"},
+ {"id": "V10", "scope": "merryfire", "rule_type": "block", "engine_slot": "prompt linter + plan gate", "evidence_n": "CPSC alert Dec 2024",
+  "rule": "No fuel-pouring shots, no 'safe indoors' or indoor-marshmallow claims in MerryFire text or prompts until Omar clears compliance. Remove 'pour fuel into the steel cup' from worlds.py actions.",
+  "quote": "", "status": "proposed (needs Omar)", "note": "conflicts with worlds.py MerryFire action list"},
+ {"id": "V11", "scope": "brickhood_mask", "rule_type": "shot", "engine_slot": "body_shot_overrides", "evidence_n": "stigma 12, fit/material 5",
+  "rule": "Brick Hood shows goggles+helmet fit on the lift and a stretch pull. Never street or urban settings (criminal stigma in comments); reaffirms D37.", "quote": "People always scared of you… thinking you're up to no good"},
+ {"id": "V12", "scope": "grinchmelt_mug", "rule_type": "onscreen_text", "engine_slot": "text_cards.body", "evidence_n": "skeptic 781 likes; reuse 95 likes",
+  "rule": "Mug body text answers the doubt with a measured melt time ('melted in X min'), and the payoff shows the mug used as a normal mug. Calm energy (D37).", "quote": "No way that little candle melts all that chocolate"},
+ {"id": "V13", "scope": "merryglow_lights", "rule_type": "shot", "engine_slot": "body_shot_overrides", "evidence_n": "real vs ai 57; 'massive house' objection",
+  "rule": "MerryGlow includes a phone-app tap shot on a normal 6 ft tree in a normal living room. End card SAY \"TREE\".", "quote": "I would like to see what it really looks like"},
+ {"id": "V14", "scope": "jollyglow_curtain", "rule_type": "onscreen_text", "engine_slot": "text_cards.body", "evidence_n": "measurements 8; noise question 2,369 likes",
+  "rule": "JollyGlow states the window size it fits (and 'silent' only if verified) on screen.", "quote": "What are the measurements?? / is the projector noisy?"},
+ {"id": "V15", "scope": "purrventure_carrier", "rule_type": "shot", "engine_slot": "body_shot_overrides", "evidence_n": "welfare 19",
+  "rule": "Carrier reels show the cat entering calmly by itself and room inside. No squeezing or handling shots.", "quote": "poor cat / that hurts its neck"},
+ {"id": "V16", "scope": "all", "rule_type": "site_fix", "engine_slot": "none (store task list)", "evidence_n": "see INSIGHTS site sections",
+  "rule": "Store fixes from voice (shipping time next to price, what's-in-the-box photo, size/fit FAQ, genuine reviews) are tracked in INSIGHTS.md. The engine does not act on them.", "quote": ""},
+]
+R["limits"] = [
+ "Competitor comments are TikTok's top ~150–350 comments per video (relevance order = most-liked first), so they are biased toward jokes and popular takes. Questions are under-represented compared with the full thread.",
+ "FB/IG comments (our reels plus IG competitors) need a logged-in browser. They are queued in voice/browser_queue.csv. Our own-reel comment data is still 0 until that queue runs.",
+ "YouTube is blocked from the box ('Sign in to confirm you're not a bot'; cookies would mean using a credential, so we didn't). Reddit's JSON API returns 403 without OAuth. Amazon reviews: only web-search summaries were used, no scraping.",
+ "Gmail: read-only search_threads snippets only (no bodies), 298 threads from 6 queries (Sep 13 to Oct 19). Snippets are short, so 'missing controller' is undercounted. Raw results were deleted after aggregation; only themes and short name-checked quotes are kept.",
+ "The rules-and-keywords codebook is multi-label and transparent. About 50% of comments stay 'uncoded' (emoji, reactions, off-topic), which is normal for comment sections. Precision was spot-checked by reading top examples, not formally measured.",
+ "One corpus label error found and excluded: EXT stonebrook.home 'portable fire pit' is actually a portable TV.",
+]
+json.dump(R, open(os.path.join(HERE, "recommendations.json"), "w"), indent=1, ensure_ascii=False)
+print("ok", len(R["rules"]), "rules")

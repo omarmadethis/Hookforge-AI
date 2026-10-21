@@ -1,0 +1,48 @@
+slug: patriotglow
+aliases: [trumpglow]
+product_keys: [patriotglow, trumpglow, trumpglow_projector]
+buyers: "US Trump supporters, mostly men and women 35-70, truck/SUV owners, rural and suburban; gift buyers for a MAGA dad/husband"
+main_platform: facebook
+secondary_platforms: [instagram]
+markets: [US]
+tone: "patriotic pride + trolling the other side; irreverent, 'own the libs', fake-fan jab; never mean about the buyer"
+music_allowed_genres: [southern rock, classic rock, country, patriotic country, rally anthem, disco rally anthem]
+music_banned_genres: [phonk, drill, latin, edm, k-pop, hip-hop]
+music_preferred: []      # filled from research/trumpglow/SONGS.md via audience_fit.trumpglow_songs()
+songs_source: research/trumpglow/SONGS.md
+emoji_allowed:
+  "🇺🇸": "US flag, core identity"
+  "🦅": "eagle, patriotic"
+  "😎": "cool / we win"
+  "🔥": "hype"
+  "💪": "strength"
+  "🤢": "disgust at the fake fan"
+  "🤮": "disgust at the fake fan"
+  "👎": "thumbs down at the fake"
+  "😂": "trolling laugh"
+  "🤣": "trolling laugh"
+  "⏳": "Vs card"
+  "⏰": "Vs card"
+  "🚗": "car"
+  "🛻": "truck"
+  "👉": "CTA"
+  "🏆": "winning"
+slang: ["Fake Trump Fans..", "What We ACTUALLY Sell...", "MAGA", "real patriots", "Make your truck great again", "Vs..."]
+caption_voice: "punchy all-American, a dig at fakes, ALL-CAPS emphasis on one word, US flag emoji; no slurs, no violence"
+caption_proof:
+  - {pattern: "(?i)^do(n'?t|nt| not) show this to", evidence: "own: 'Don't show this to a ____' 14 reels, peak 183K 'DONT show this to your Grandma' + 112K/98K/97K/88K '...your mom' (HeatedJammies FB, learning/raw_vs_final/performance_all.csv); Omar-approved TrumpGlow B hook 'Don't show this to a liberal 😎🦅' (D67)"}
+  - {pattern: '(?i)^fake .* fans', evidence: "ref: Hello Kitty projector reels 'Fake Hello Kitty Fans.. 🤮👎' (Omar's attached reference clips, research/trumpglow/RESEARCH.md)"}
+  - {pattern: '(?i)what we actually sell', evidence: "ref: 'What We ACTUALLY Sell...😻💖' same reference format (research/trumpglow/RESEARCH.md)"}
+  - {pattern: '(?i)^vs\b', evidence: "own: house Vs card (refs/recreate, MG-01)"}
+  - {pattern: '(?i)get (it|yours)', evidence: "own: Get yours👉 6.6M (grinch_robe) / Get it here 152.9K (merryglow) - US FB pages"}
+banned: ['(?i)\bphonk\b', '(?i)\bbiden\b', '(?i)\bkill\b', 'third-party IP (Hello Kitty, Real Madrid) in prompts or text']
+
+# POC song in-points (2026-10-19, research/trumpglow/SONG_INPOINTS.md)
+song_inpoints:
+  - {song: "AC/DC - You Shook Me All Night Long", poc: "3 Trump-product FB ads", start: "~0:38 'had me fighting for air' (Apple preview 0:00)", chorus_offset_s: 14.5}
+  - {song: "KALEO - Way Down We Go", poc: "2 Trump-product FB ads (VO bed)", start: "chorus 'Oh, way down we go' (Apple preview 0:00)"}
+  - {song: "Lynyrd Skynyrd - Free Bird", poc: "Omar reel + TikTok sound 50.8M views", start: "guitar solo kick-in ~4:57 album", alt_start: "'won't you fly, free bird' line"}
+
+# D67 hook rules (Omar 2026-10-19)
+hook_preferred_formats: ["Don't show this to a ____ + 2 emoji"]
+hook_max_words: 8

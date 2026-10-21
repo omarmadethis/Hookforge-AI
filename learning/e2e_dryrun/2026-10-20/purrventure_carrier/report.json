@@ -1,0 +1,68 @@
+{
+ "product": "purrventure_carrier",
+ "day": "2026-10-20",
+ "stages": {
+  "concept": {
+   "ok": true,
+   "id": "concept_2026-10-20_purrventure_carrier_F02",
+   "format": "F02",
+   "hook": "The problem 😕"
+  },
+  "plan": {
+   "ok": true,
+   "gens": 4,
+   "setting": "sunny suburban backyard"
+  },
+  "gates": {
+   "ok": true,
+   "blocks": [],
+   "warns": [
+    "song 'mambo_no_5' in-point 1.2s from own drafts; full track NOT fetched/verified yet -> run music/fetch_song.py before export",
+    "hook not in a proven format (Don't show this to a ___ / POV street JEALOUS / don't walk RUN to [store])",
+    "plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+    "hook 'The problem 😕' <- own FB HeatedJammies https://www.facebook.com/reel/1800372894614638/ [WEAK PROOF]",
+    "opener H runs 3.50s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+    "H: product-showcase shot with no action; prefer a toss, snap-on or install"
+   ],
+   "political": "n/a"
+  },
+  "quote": {
+   "ok": true,
+   "credits": 156.0,
+   "calls": 8,
+   "calls_credits": 156.0
+  },
+  "capcut": {
+   "ok": true,
+   "dir": "/workspace/hookforge/learning/e2e_dryrun/2026-10-20/purrventure_carrier/capcut/DRY_1020_purrventure_carrier_F02",
+   "problems": [],
+   "music": "mambo_no5",
+   "music_missing": null
+  },
+  "route": {
+   "ok": true,
+   "pages": [
+    "purrventures_fb",
+    "purrventures2_fb"
+   ],
+   "refused": []
+  },
+  "caption:purrventures_fb": {
+   "ok": true,
+   "text": "SAY \"PURR\" if you want one!\n#cat #catmom #catlover"
+  },
+  "caption:purrventures2_fb": {
+   "ok": true,
+   "text": "Finally a way for kitties to explore outside safely! 🐈 SAY \"PURR\" if you want one!\n#cat #catmom #catlover"
+  },
+  "payload": {
+   "ok": true,
+   "n": 2
+  },
+  "distinct_captions": {
+   "ok": true,
+   "n": 2
+  }
+ },
+ "breaks": []
+}

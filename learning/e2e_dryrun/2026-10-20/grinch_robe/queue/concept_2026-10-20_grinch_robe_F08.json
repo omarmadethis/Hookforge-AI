@@ -1,0 +1,1414 @@
+{
+ "id": "concept_2026-10-20_grinch_robe_F08",
+ "kind": "concept_test",
+ "product": "grinch_robe",
+ "status": "AWAITING_OMAR_APPROVAL",
+ "created_pt": "2026-10-20T15:40:49-07:00",
+ "why": "innovation slot: F08 Same Footage, New Audience (niche re-skin) is this product's least-tried format (arms n=0)",
+ "poc": [
+  "ext warmrobestore 'Period girls RUN don't walk to Target' 834K; obsidianrobes 509K; thecozybts BTS 417K; goth/nocturne 1.3M each",
+  "Re-shoot with new talent of the 17.4M body did 755K; identical reposts collapse (6.6M→2.2K, 1.4M→16K) — re-render, never re-upload"
+ ],
+ "credits": 156.0,
+ "credit_cap": 156.0,
+ "quote": {
+  "lines": [
+   {
+    "gen": "H",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "H",
+    "item": "video 1080p 4s",
+    "credits": 64
+   },
+   {
+    "gen": "B1",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "B1",
+    "item": "video 720p 4s",
+    "credits": 28
+   },
+   {
+    "gen": "B2",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "B2",
+    "item": "video 720p 4s",
+    "credits": 28
+   },
+   {
+    "gen": "B3",
+    "item": "start frame x2 images",
+    "credits": 2.0
+   },
+   {
+    "gen": "B3",
+    "item": "video 720p 4s",
+    "credits": 28
+   }
+  ],
+  "stills": 8.0,
+  "video": 148,
+  "total": 156.0,
+  "basis": {
+   "still_gpt_image_2": 1.0,
+   "seedance_2_5_1080p_4s": 64,
+   "seedance_2_5_720p_4s": 28,
+   "per_s_1080p": 16,
+   "per_s_720p": 7
+  }
+ },
+ "gates": {
+  "ok": true,
+  "blocks": [],
+  "warns": [
+   "G5: plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+   "G11: opener H runs 3.50s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+   "G19: 'Period girls RUN don't walk to Target 🩸🙃': emoji 🩸 has no viral proof (cards.csv/POC) - pick a proven one",
+   "G19: 'Period girls RUN don't walk to Target 🩸🙃': emoji 🙃 has no viral proof (cards.csv/POC) - pick a proven one",
+   "G19: 'Period girls RUN don't walk to Target 🩸🙃': emoji 🩸 has no viral proof (cards.csv/POC) - pick a proven one",
+   "G19: 'Period girls RUN don't walk to Target 🩸🙃': emoji 🙃 has no viral proof (cards.csv/POC) - pick a proven one",
+   "G22: post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]"
+  ]
+ },
+ "preflight": {
+  "ok": true,
+  "fix": []
+ },
+ "ready_for_approval": true,
+ "approval_file_draft": {
+  "approved_by": "",
+  "approved_at_pt": "",
+  "approval_quote": "",
+  "run_id": "concept_2026-10-20_grinch_robe_F08",
+  "plan_sha256": "aac62dde22136060886a939ed1cdb102224974b66f491cfd1bb7d8974fe4a2ac",
+  "gens": [
+   "H",
+   "B1",
+   "B2",
+   "B3"
+  ],
+  "account": "user-Higgsfield--new-account",
+  "credit_cap": 156.0,
+  "expires_pt": "2026-10-21T15:40:49-07:00",
+  "consumed": false
+ },
+ "plan": {
+  "status": "PLANNED",
+  "brief": {
+   "brief": "Same Footage, New Audience (niche re-skin) video for the Grinch Robe (MerryJammies)",
+   "product_key": "grinch_robe",
+   "format": "F08",
+   "variant": false,
+   "hook_option": null,
+   "slot": "experiment"
+  },
+  "product": {
+   "key": "grinch_robe",
+   "display": "Heated Grinch robe",
+   "energy": 2,
+   "world": "cozy home at Christmas: living room with tree, kitchen, couch, bedroom; gifting moments; family"
+  },
+  "fit": {
+   "format": "F08",
+   "title": "Same Footage, New Audience (niche re-skin)",
+   "verdict": "WEAK",
+   "score": 0.5,
+   "video_energy": 2,
+   "reasons": [
+    "no own evidence on this product (transfer)",
+    "format tier B (Same Footage, New Audience (niche re-skin))"
+   ]
+  },
+  "why_this_format": [
+   "no own evidence on this product (transfer)",
+   "format tier B (Same Footage, New Audience (niche re-skin))"
+  ],
+  "alternatives": [
+   {
+    "format": "F02",
+    "title": "Fake Store Pallet Reveal (+JK twist)",
+    "verdict": "STRONG",
+    "score": 6.0
+   },
+   {
+    "format": "F05",
+    "title": "Don't Show This To...",
+    "verdict": "STRONG",
+    "score": 6.0
+   },
+   {
+    "format": "F01",
+    "title": "3-2-1 Countdown Reveal",
+    "verdict": "STRONG",
+    "score": 5.8
+   }
+  ],
+  "setting": "bright living room with Christmas tree",
+  "adaptation": "none (format native)",
+  "hook_options_available": [
+   {
+    "format": "F05",
+    "option": "covered_reveal",
+    "experiment_only": false,
+    "refs": [
+     "HJ-02 2.7M (robe folded into a 'baked loaf' on a tray, reveal 3.0 s)",
+     "HJ-05 524K (muffin tin on folded robe, 2.6 s)",
+     "HJ-14 97K (muffin tin on Grinch-face robe, 3.0 s)"
+    ],
+    "why": "covered-reveal hook option (HJ-02 / HJ-05 / HJ-14): product cue visible at 0 s, reveal on 'three' by 3.0 s"
+   },
+   {
+    "format": "F03",
+    "option": "covered_drape",
+    "experiment_only": false,
+    "refs": [
+     "MJIG-17 240.7K IG (lime fur drape = the robe fabric over a store pallet, staff line-up, reveal 1.2 s)",
+     "HJ-10 147K (Grinch-green drape over a store display, 12 staff, 2.3 s)"
+    ],
+    "why": "store drape unveil variant (MJIG-17, HJ-10): the drape IS the product's fur/colour (cue visible at 0 s), reveal by 2.3 s"
+   }
+  ],
+  "hook_option": null,
+  "hook": {
+   "text": "Period girls RUN don't walk to Target 🩸🙃",
+   "tag": "P",
+   "why": "ext 834K"
+  },
+  "text_cards": [
+   {
+    "t": 0.0,
+    "dur": 13.0,
+    "text": "Period girls RUN don't walk to Target 🩸🙃",
+    "scale": 0.72
+   }
+  ],
+  "text_style": {
+   "source": "style/capcut_text_preset.json (version 1.0)",
+   "font": "TikTok Sans / system",
+   "size": 15,
+   "stroke": 0.09,
+   "color": "#ffffff",
+   "stroke_color": "#000000",
+   "capcut_y": 0.62,
+   "center_y_frac": 0.19,
+   "animation_in": null,
+   "animation_out": null,
+   "scale": 0.93,
+   "font_render": "/usr/share/fonts/truetype/sand-box/google/Montserrat/Montserrat-VariableFont_wght.ttf"
+  },
+  "shots": [
+   {
+    "code": "HOOK",
+    "t0": 0.0,
+    "t1": 3.5,
+    "desc": "hook visual (format-specific); product legible and >=30% of frame at 0.0 s",
+    "gen": "H"
+   },
+   {
+    "code": "PUT",
+    "t0": 3.5,
+    "t1": 5.0,
+    "desc": "high-angle POV, hands on the Grinch robe: puts Grinch robe on, turned away with her back to the phone, hood up so the hood design is what the phone sees",
+    "gen": "B1"
+   },
+   {
+    "code": "FEAT_A",
+    "t0": 5.0,
+    "t1": 6.9,
+    "desc": "feature reveal: opens it wide to show the plush Grinch face hood",
+    "gen": "B1"
+   },
+   {
+    "code": "PROOF",
+    "t0": 6.9,
+    "t1": 8.3,
+    "desc": "AI-doubt proof: handheld close-up as she adjusts the robe in natural light, the hood face, foot pockets and lining exactly as in the reference, natural fabric folds",
+    "gen": "B2"
+   },
+   {
+    "code": "PLUG",
+    "t0": 8.3,
+    "t1": 9.1,
+    "desc": "ACTIVATION insert, handheld macro: the power bank clicks into the hidden pocket and the controller light turns on",
+    "gen": "B2"
+   },
+   {
+    "code": "REM",
+    "t0": 9.1,
+    "t1": 10.6,
+    "desc": "POV thumb on the controller: the heat controller set to high, warm glow on the screen",
+    "gen": "B3"
+   },
+   {
+    "code": "COZY",
+    "t0": 10.6,
+    "t1": 13.0,
+    "desc": "cozy payoff, locked medium-wide: she curls up on the couch by the tree in the robe, hood up, smiling with a mug; cut mid-action",
+    "gen": "B3"
+   }
+  ],
+  "gens": [
+   {
+    "id": "H",
+    "model": "seedance_2_5",
+    "res": "1080p",
+    "dur": 4,
+    "shots": [
+     "HOOK"
+    ],
+    "prompt": "(re-render the proven hook with one change: talent or room — T3/T7 pattern; never change >1 thing) Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo of (reuse the proven start frame; T9 edit pass: 'Edit this photo. Keep everything exactly the same... Only change {one thing}.'). Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings; a thermostat on the wall showing 68°F. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/grinch_robe/product/box_box.png",
+      "/workspace/hookforge/refs/grinch_robe/product/product_grinchrobe.png.png",
+      "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_4be8ddd0-e300-467e-88fb-aee0c9d0d8c2.png",
+      "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_d0301ca6-a6ec-4ec4-95b6-34adbf470fc5.png"
+     ]
+    },
+    "credits": 65.0,
+    "alt_recreate": {
+     "prompt": "Recreate <<<video_1>>> 1:1 perfectly. Do not change her movements, do not change the camera angles or movements at all, There are only 3 change you are going to make. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nChange 1: Replace the couch and the background in <<<video_1>>> with the couch and background in <<<image_2>>>. Make sure she maintains the natural way of sitting and relaxing on the couch as she does in <<<video_1>>>\nChange 2: Replace the grey robe in <<<video_1>>> to the grinch robe in <<<image_1>>>. Make sure subject 1 in <<<video_1>>> is also wearing the grinch hood.\nChange 3: Remove the caption from <<<video_1>>>\n\nOther than change 1, change 2, and change 3, replicate <<<video_1>>> 1:1 perfectly. A small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "source": "d7bf7598 (verbatim family behind fb 165K 'DO NOT let your wife see this'; sibling c30309c1)",
+     "refs": {
+      "video_1": "own winner source clip (HJ-01)",
+      "image_1": "product photo",
+      "image_2": "background still (GPT Image 2 start frame)"
+     },
+     "checks": [],
+     "rolls": 1,
+     "note": "video-reference billing may differ from 64 cr; confirm on first live run"
+    },
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/grinch_robe/product/box_box.png",
+     "/workspace/hookforge/refs/grinch_robe/product/product_grinchrobe.png.png",
+     "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_4be8ddd0-e300-467e-88fb-aee0c9d0d8c2.png",
+     "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_d0301ca6-a6ec-4ec4-95b6-34adbf470fc5.png"
+    ],
+    "ref_manifest": "refs/grinch_robe/manifest.json"
+   },
+   {
+    "id": "B1",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 2.0,
+    "shots": [
+     "PUT",
+     "FEAT_A"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a young woman in grey loungewear consistent throughout, in a bright cozy living room with a Christmas tree. Shot 1 (0-2s, PUT): high-angle POV, hands on the Grinch robe: puts Grinch robe on, turned away with her back to the phone, hood up so the hood design is what the phone sees. HARD CUT at 2s, no transition. Shot 2 (2-4s, FEAT_A): feature reveal: opens it wide to show the plush Grinch face hood. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo in a bright cozy living room with a Christmas tree: a young woman in grey loungewear, high-angle POV, hands on the Grinch robe: puts Grinch robe on, turned away with her back to the phone, hood up so the hood design is what the phone sees, the Grinch robe from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings; a thermostat on the wall showing 68°F. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/grinch_robe/product/box_box.png",
+      "/workspace/hookforge/refs/grinch_robe/product/product_grinchrobe.png.png",
+      "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_4be8ddd0-e300-467e-88fb-aee0c9d0d8c2.png",
+      "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_d0301ca6-a6ec-4ec4-95b6-34adbf470fc5.png"
+     ]
+    },
+    "credits": 29.0,
+    "trims": {
+     "PUT": [
+      0.5,
+      2.0
+     ],
+     "FEAT_A": [
+      2.0,
+      3.9
+     ]
+    },
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/grinch_robe/product/box_box.png",
+     "/workspace/hookforge/refs/grinch_robe/product/product_grinchrobe.png.png",
+     "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_4be8ddd0-e300-467e-88fb-aee0c9d0d8c2.png",
+     "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_d0301ca6-a6ec-4ec4-95b6-34adbf470fc5.png"
+    ],
+    "ref_manifest": "refs/grinch_robe/manifest.json"
+   },
+   {
+    "id": "B2",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 2.0,
+    "shots": [
+     "PROOF",
+     "PLUG"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a young woman in grey loungewear consistent throughout, in a bright cozy living room with a Christmas tree. Shot 1 (0-2s, PROOF): AI-doubt proof: handheld close-up as she adjusts the robe in natural light, the hood face, foot pockets and lining exactly as in the reference, natural fabric folds. HARD CUT at 2s, no transition. Shot 2 (2-4s, PLUG): ACTIVATION insert, handheld macro: the power bank clicks into the hidden pocket and the controller light turns on. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo in a bright cozy living room with a Christmas tree: a young woman in grey loungewear, AI-doubt proof: handheld close-up as she adjusts the robe in natural light, the hood face, foot pockets and lining exactly as in the reference, natural fabric folds, the Grinch robe from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings; a thermostat on the wall showing 68°F. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/grinch_robe/product/box_box.png",
+      "/workspace/hookforge/refs/grinch_robe/product/product_grinchrobe.png.png",
+      "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_4be8ddd0-e300-467e-88fb-aee0c9d0d8c2.png",
+      "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_d0301ca6-a6ec-4ec4-95b6-34adbf470fc5.png"
+     ]
+    },
+    "credits": 29.0,
+    "trims": {
+     "PROOF": [
+      0.6,
+      2.0
+     ],
+     "PLUG": [
+      2.0,
+      2.8
+     ]
+    },
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/grinch_robe/product/box_box.png",
+     "/workspace/hookforge/refs/grinch_robe/product/product_grinchrobe.png.png",
+     "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_4be8ddd0-e300-467e-88fb-aee0c9d0d8c2.png",
+     "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_d0301ca6-a6ec-4ec4-95b6-34adbf470fc5.png"
+    ],
+    "ref_manifest": "refs/grinch_robe/manifest.json"
+   },
+   {
+    "id": "B3",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 1.6,
+    "shots": [
+     "REM",
+     "COZY"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a young woman in grey loungewear consistent throughout, in a bright cozy living room with a Christmas tree. Shot 1 (0-1.6s, REM): POV thumb on the controller: the heat controller set to high, warm glow on the screen. HARD CUT at 1.6s, no transition. Shot 2 (1.6-4s, COZY): cozy payoff, locked medium-wide: she curls up on the couch by the tree in the robe, hood up, smiling with a mug; cut mid-action. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo in a bright cozy living room with a Christmas tree: a young woman in grey loungewear, POV thumb on the controller: the heat controller set to high, warm glow on the screen, the Grinch robe from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Background details: a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings; a thermostat on the wall showing 68°F. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/grinch_robe/product/box_box.png",
+      "/workspace/hookforge/refs/grinch_robe/product/product_grinchrobe.png.png",
+      "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_4be8ddd0-e300-467e-88fb-aee0c9d0d8c2.png",
+      "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_d0301ca6-a6ec-4ec4-95b6-34adbf470fc5.png"
+     ]
+    },
+    "credits": 29.0,
+    "trims": {
+     "REM": [
+      0.1,
+      1.6
+     ],
+     "COZY": [
+      1.6,
+      4.0
+     ]
+    },
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/grinch_robe/product/box_box.png",
+     "/workspace/hookforge/refs/grinch_robe/product/product_grinchrobe.png.png",
+     "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_4be8ddd0-e300-467e-88fb-aee0c9d0d8c2.png",
+     "/workspace/hookforge/refs/grinch_robe/cast/lifestyle_d0301ca6-a6ec-4ec4-95b6-34adbf470fc5.png"
+    ],
+    "ref_manifest": "refs/grinch_robe/manifest.json"
+   }
+  ],
+  "duration": 13.0,
+  "hook_s": 3.5,
+  "music": {
+   "pick": {
+    "song": "last_christmas",
+    "version": "Wham! Last Christmas (official) ~2:50 chorus",
+    "offset_s": 170.5,
+    "energy": 4,
+    "region": "UK/EU-skewed",
+    "score": 3.51,
+    "why": ""
+   },
+   "alternatives": [
+    {
+     "song": "beginning_to_look",
+     "version": "Michael Bublé It's Beginning to Look a Lot Like Christmas ~0:31.6",
+     "offset_s": 32.4,
+     "energy": 2,
+     "region": "unknown",
+     "score": 3.392,
+     "why": ""
+    },
+    {
+     "song": "aiwfc_intro",
+     "version": "Mariah Carey AIWFC, slow intro (Make My Wish Come True ed. ~0:49.6)",
+     "offset_s": 49.6,
+     "energy": 3,
+     "region": "tier1_global",
+     "score": 3.23,
+     "why": "region tier1_global"
+    }
+   ],
+   "rejected": [
+    {
+     "song": "free_bird",
+     "reason": "niche ski|funny != christmas"
+    },
+    {
+     "song": "boombastic_tiktok",
+     "reason": "niche ski|streetwear|funny != christmas"
+    },
+    {
+     "song": "baby_please",
+     "reason": "energy 4 vs video 2"
+    },
+    {
+     "song": "be_my_baby",
+     "reason": "niche general != christmas"
+    },
+    {
+     "song": "give_it_up",
+     "reason": "niche ski|party != christmas"
+    }
+   ]
+  },
+  "caption": {
+   "text": "Get yours👉{url}",
+   "why": "proven caption on this product (6,600,000 views)"
+  },
+  "banned_cta_found": [],
+  "posting": {
+   "page": "HJ",
+   "exploit_windows_pt": [
+    "00-04",
+    "04-08"
+   ],
+   "explore_windows_pt": [
+    "18-21"
+   ],
+   "explore_share": 0.2
+  },
+  "credits": {
+   "total": 152.0,
+   "budget": 175,
+   "within_budget": true,
+   "reroll_reserve_max_1_shot": 64.0,
+   "breakdown": [
+    [
+     "H",
+     "1080p",
+     65.0
+    ],
+    [
+     "B1",
+     "720p",
+     29.0
+    ],
+    [
+     "B2",
+     "720p",
+     29.0
+    ],
+    [
+     "B3",
+     "720p",
+     29.0
+    ]
+   ],
+   "source": "inferred from Higgsfield transactions 2026-10-18 (read-only)"
+  },
+  "prompt_checks": [
+   "AUDIENCE-FIT AF3: Period girls RUN don't walk to Target 🩸🙃: no proof for this line in the grinch_robe niche (caption_proof / proven hook needed)",
+   "AUDIENCE-FIT AF2: 🩸: not in grinch_robe emoji set (meaning in this niche unproven)",
+   "AUDIENCE-FIT AF2: 🙃: not in grinch_robe emoji set (meaning in this niche unproven)"
+  ],
+  "us_cues": [
+   "a living room with a sectional couch, a big flat-screen TV, a fireplace mantel with stockings",
+   "a thermostat on the wall showing 68°F"
+  ],
+  "proof_shot": {
+   "present": true,
+   "spec": [
+    "PROOF",
+    "AI-doubt proof: close-up as she adjusts the robe in natural light - hood face, foot pockets and lining identical to <<<image_1>>>, natural fabric folds"
+   ]
+  },
+  "hook_variants": [
+   {
+    "text": "Period girls RUN don't walk to Target 🩸🙃",
+    "tag": "P",
+    "why": "ext 834K",
+    "rank": 1,
+    "role": "control (proven)"
+   },
+   {
+    "text": "DO NOT show this to a BTS army😱😂",
+    "tag": "P",
+    "why": "ext 417K",
+    "rank": 2,
+    "role": "variant",
+    "share_cta": false
+   },
+   {
+    "text": "I made this for the Goths... 🥹",
+    "tag": "P",
+    "why": "ext 1.3M",
+    "rank": 3,
+    "role": "variant",
+    "share_cta": false
+   },
+   {
+    "text": "\"Just wear slippers\"🙄",
+    "tag": "P",
+    "why": "ext 509K",
+    "rank": 4,
+    "role": "variant",
+    "share_cta": false
+   }
+  ],
+  "covers": [
+   {
+    "role": "hook",
+    "t": 0.3,
+    "why": "product legible at 0 s + hook text"
+   },
+   {
+    "role": "activation",
+    "t": 8.7,
+    "why": "PLUG mid-shot"
+   },
+   {
+    "role": "payoff",
+    "t": 11.8,
+    "why": "COZY mid-shot"
+   }
+  ],
+  "season": {
+   "phase": "pre_season",
+   "levers": [
+    "gift formats ok",
+    "cozy/decor then-vs-now",
+    "Christmas music allowed (own Sep-Oct winners used it)"
+   ],
+   "gift_cutoff": null,
+   "delivery_claims_allowed": false,
+   "date": "2026-10-21",
+   "ly_season_prior": {
+    "format": {
+     "F09": {
+      "share": 0.354,
+      "prior_weight": 0.5,
+      "score": 0.0885,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     },
+     "F13": {
+      "share": 0.329,
+      "prior_weight": 0.5,
+      "score": 0.082,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     },
+     "F07": {
+      "share": 0.317,
+      "prior_weight": 0.5,
+      "score": 0.0795,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     }
+    },
+    "music": {
+     "no Shazam match (label: original sound)": {
+      "share": 0.218,
+      "prior_weight": 0.5,
+      "score": 0.109,
+      "n": 7,
+      "thin": false
+     },
+     "Fantasmic! (From Fantasmic!) [Disneyland] - Bruce Healey, Ned Washington, Sammy Cahn, Leigh Harline, Frank Churchill, Larry Morey, Alan Menken, Howard Ashman, Sammy Fain, Jack Wallace, Jack Lawrence, Oliver Wallace, Modest Mussorgsky, Barnette Ricci, Paul Dukas & Victor Young | in-point 41.3s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Total Eclipse of the Heart - Bonnie Tyler | in-point 46.7s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "All I Want for Christmas Is You - Mariah Carey | in-point 51.1s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Last Christmas (Single Version) - Wham! | in-point 34.8s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Oui, Oui, Oui, Oui - Sacha Distel | in-point -0.2s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Sleigh Ride - The Ronettes | in-point 48.2s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Rockin' Around The Christmas Tree - Brenda Lee | in-point -0.0s at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "no Shazam match (label: Elf - Main Theme)": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "Morning Bossa Nova - Bossa Nova Terrace | in-point unknowns at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "A Thousand Years - Christina Perri | in-point 18.9s at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "no Shazam match (label: Rockin’ Around The Christmas Tree)": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "Christmas (Baby Please Come Home) - Darlene Love | in-point 9.2s at video 0 | conf high": {
+      "share": 0.032,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Sleigh Ride - Ella Fitzgerald | in-point 10.8s at video 0 | conf high": {
+      "share": 0.032,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "last christmas": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Last Christmas (Single Version) - Wham! | in-point 74.1s at video 0 | conf high": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Rockin' Around The Christmas Tree - Brenda Lee | in-point 0.0s at video 0 | conf high": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Its Beginning to Look a Lot Like Christmas (2024 Remastered) - The Fontane Sisters | in-point 87.1s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Jingle Bell Rock - Bobby Helms | in-point 0.4s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "U Know What's Up (feat. Lisa \"Left Eye\" Lopes) - Donell Jones | in-point unknowns at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "All I Want for Christmas Is You - Mariah Carey | in-point 48.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Sakura - Lined Street - KCNX | in-point 0.0s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Upside Down - Jack Johnson | in-point 54.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Run It - Jelly Roll | in-point 37.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "original sound - demetra dias (platform label; not yet audio-ID'd) | Shazam: no match": {
+      "share": 0.029,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     }
+    },
+    "weight": 0.5
+   }
+  },
+  "posting_checklist": [
+   "FB: run the caption/thumbnail test with the hook variants + covers (up to 4)",
+   "IG: post experiment slots as Trial Reels",
+   "Final file: exported via autoedit.clean_export (metadata/C2PA stripped, D44); preflight asserts none remains"
+  ],
+  "mock_source": {
+   "key": "HJ-01",
+   "file": "/workspace/merryjammies/videos/fb_6.6M_1624473615929591.mp4",
+   "views": 6600000,
+   "same_format": false
+  },
+  "provenance": {
+   "text_style": "style/capcut_text_preset.json (version 1.0)",
+   "emojis": "engine default",
+   "shot_grammar": "style/shot_grammar.md",
+   "psych": "psychology/psych_codebook.csv",
+   "audience": [
+    "audience/lexicon.csv",
+    "audience/audience_rules.csv"
+   ],
+   "voice": "voice/voice_rules.csv"
+  },
+  "audience_fit": {
+   "ok": false,
+   "slug": "grinch_robe",
+   "rows": [
+    {
+     "kind": "song",
+     "item": "last_christmas",
+     "ok": true,
+     "reason": "genre 'christmas pop' fits grinch_robe (cozy, giftable, funny-mom humour ('every mom needs this'))",
+     "tier": "a",
+     "in_point": "170.5",
+     "evidence": [
+      "own:learning/music_library.csv last_christmas on grinch_robe 524000(F01|F02|F03|F05|F07|F13|F19)",
+      "in-point: own: most-used start 170.5 s on the CapCut file across 14 own drafts (learning/music_library.csv)"
+     ]
+    },
+    {
+     "kind": "card",
+     "item": "Period girls RUN don't walk to Target 🩸🙃",
+     "ok": false,
+     "score": 0.25,
+     "reason": "no proof for this line in the grinch_robe niche (caption_proof / proven hook needed)",
+     "evidence": []
+    },
+    {
+     "kind": "emoji",
+     "item": "🩸",
+     "ok": false,
+     "reason": "not in grinch_robe emoji set (meaning in this niche unproven)",
+     "evidence": []
+    },
+    {
+     "kind": "emoji",
+     "item": "🙃",
+     "ok": false,
+     "reason": "not in grinch_robe emoji set (meaning in this niche unproven)",
+     "evidence": []
+    },
+    {
+     "kind": "caption",
+     "item": "Get yours👉{url}",
+     "ok": true,
+     "score": 1.0,
+     "reason": "voice: Post caption = 'Get yours👉{url}' + 3-4 hashtags (#christmas ; slang ['Get yours']",
+     "evidence": [
+      "own: Get yours👉{url} 6,600,000 views (grinch_robe)",
+      "own: proven caption on this product (6,600,000 views)",
+      "FB insights: 6 Get-yours reels, median 1.44M views, 0.93 link clicks/1K (D63)",
+      "FB insights: only URL captions drove link clicks (12,395 of 12,396)"
+     ]
+    },
+    {
+     "kind": "emoji",
+     "item": "👉",
+     "ok": true,
+     "reason": "grinch_robe: CTA",
+     "evidence": [
+      "profile:audience/grinch_robe.yaml emoji_allowed"
+     ]
+    }
+   ]
+  },
+  "edit_defaults": [
+   {
+    "gen": "H",
+    "src_in": 0.0,
+    "src_out": 3.7,
+    "speed": 1.0
+   },
+   {
+    "gen": "B1",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B1",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   },
+   {
+    "gen": "B2",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B2",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   },
+   {
+    "gen": "B3",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B3",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   }
+  ],
+  "edit_lint": {
+   "ok": true,
+   "rows": [
+    {
+     "gen": "-",
+     "kind": "edit",
+     "rule": "ER11",
+     "severity": "WARN",
+     "text": "1 cards",
+     "fix": "3-card structure: problem -> Vs... -> solution"
+    },
+    {
+     "gen": "-",
+     "kind": "edit",
+     "rule": "ER17",
+     "severity": "WARN",
+     "text": "no key real sound boosted",
+     "fix": "boost the key real sound (scissors, door, tape, sparks) 2-4x"
+    }
+   ],
+   "defaults": {
+    "head_trim_s": 1.05,
+    "tail_trim_s": 1.2,
+    "first_head_trim_s": 0.0,
+    "split_pieces": [
+     2,
+     3
+    ],
+    "split_gap_s": 0.4,
+    "median_shot_s": 1.5,
+    "max_shot_s": 3.3,
+    "target_len_s": [
+     11.3,
+     16.833
+    ],
+    "shots": [
+     5,
+     11
+    ],
+    "cards": 3,
+    "speed": 1.0,
+    "action_speed": [
+     1.2,
+     1.5
+    ],
+    "scale": 1.0,
+    "clip_audio_volume": 1.0,
+    "key_sound_gain": [
+     2.0,
+     4.0
+    ],
+    "song_intro_exceptions": [
+     "holly_jolly",
+     "holly jolly"
+    ],
+    "opener_max_s": 4.1,
+    "hook_speed_values": [
+     1.1,
+     1.15,
+     1.2,
+     1.3,
+     1.5
+    ],
+    "max_card_lines": 2
+   }
+  },
+  "notes": [
+   "D75: no real footage in /workspace/research/product_footage/grinch_robe yet; AI reveal kept"
+  ],
+  "resolution_fixes": [],
+  "quote": {
+   "lines": [
+    {
+     "gen": "H",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "H",
+     "item": "video 1080p 4s",
+     "credits": 64
+    },
+    {
+     "gen": "B1",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "B1",
+     "item": "video 720p 4s",
+     "credits": 28
+    },
+    {
+     "gen": "B2",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "B2",
+     "item": "video 720p 4s",
+     "credits": 28
+    },
+    {
+     "gen": "B3",
+     "item": "start frame x2 images",
+     "credits": 2.0
+    },
+    {
+     "gen": "B3",
+     "item": "video 720p 4s",
+     "credits": 28
+    }
+   ],
+   "stills": 8.0,
+   "video": 148,
+   "total": 156.0,
+   "basis": {
+    "still_gpt_image_2": 1.0,
+    "seedance_2_5_1080p_4s": 64,
+    "seedance_2_5_720p_4s": 28,
+    "per_s_1080p": 16,
+    "per_s_720p": 7
+   }
+  },
+  "gates": {
+   "ok": true,
+   "blocks": [],
+   "warns": [
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "WARN",
+     "msg": "plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+     "poc": null
+    },
+    {
+     "gate": "G11",
+     "ok": true,
+     "level": "WARN",
+     "msg": "opener H runs 3.50s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "WARN",
+     "msg": "'Period girls RUN don't walk to Target 🩸🙃': emoji 🩸 has no viral proof (cards.csv/POC) - pick a proven one",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "WARN",
+     "msg": "'Period girls RUN don't walk to Target 🩸🙃': emoji 🙃 has no viral proof (cards.csv/POC) - pick a proven one",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "WARN",
+     "msg": "'Period girls RUN don't walk to Target 🩸🙃': emoji 🩸 has no viral proof (cards.csv/POC) - pick a proven one",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "WARN",
+     "msg": "'Period girls RUN don't walk to Target 🩸🙃': emoji 🙃 has no viral proof (cards.csv/POC) - pick a proven one",
+     "poc": null
+    },
+    {
+     "gate": "G22",
+     "ok": true,
+     "level": "WARN",
+     "msg": "post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]",
+     "poc": null
+    }
+   ],
+   "rows": [
+    {
+     "gate": "G1",
+     "ok": true,
+     "level": "INFO",
+     "msg": "in-point 170.5s (own drafts: CapCut ~2:50 chorus (robe 524K, 14 dra), verify xcorr 0.995",
+     "poc": "YouTube T0T9GyM28tg (WHAM! official, Remastered) via Mac"
+    },
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 'Period girls RUN don't walk to Target 🩸🙃' = 7 words (max 8)",
+     "poc": null
+    },
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "INFO",
+     "msg": "proven format ['store_x_brand']",
+     "poc": null
+    },
+    {
+     "gate": "G3",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no profile bans contradict own data",
+     "poc": null
+    },
+    {
+     "gate": "G4",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 1080p, rest 720p",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "INFO",
+     "msg": "quote 156.0 credits (stills 8.0 counted per image, video 148)",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "WARN",
+     "msg": "plan.credits 152.0 differs from per-output quote 156.0; use the quote",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no phonk",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "emoji render apple_ios (Apple iOS PNGs only)",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "prompts ask for real ambient sound only",
+     "poc": null
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 'Period girls RUN don't walk to Target 🩸🙃' <- own FB HeatedJammies https://www.facebook.com/reel/1621118726207387/",
+     "poc": "POC-0297"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "caption 'Get yours👉{url}' <- own FB HeatedJammies insights fb_1624473615929591",
+     "poc": "POC-0298"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "song 'last_christmas' <- own drafts n=14, proven_on grinch_robe:524000(F01|F02|F03|F05|F07|F13|F19);jollyglow_curta",
+     "poc": "POC-0239"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "format '['no own evidence on this product (transfer)', 'fo' <- ['no own evidence on this product (transfer)', 'format tier B (Same Footage, New Audience ",
+     "poc": "['no own evidence on this product (transfer)', 'format tier B (Same Footage, New Audience (niche re-skin))']"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen H 'H' <- {'key': 'HJ-01', 'file': '/workspace/merryjammies/videos/fb_6.6M_1624473615929591.mp4', 'v",
+     "poc": "{'key': 'HJ-01', 'file': '/workspace/merryjammies/videos/fb_6.6M_1624473615929591.mp4', 'views': 6600000, 'same_format':"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B1 'B1' <- {'key': 'HJ-01', 'file': '/workspace/merryjammies/videos/fb_6.6M_1624473615929591.mp4', 'v",
+     "poc": "{'key': 'HJ-01', 'file': '/workspace/merryjammies/videos/fb_6.6M_1624473615929591.mp4', 'views': 6600000, 'same_format':"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B2 'B2' <- {'key': 'HJ-01', 'file': '/workspace/merryjammies/videos/fb_6.6M_1624473615929591.mp4', 'v",
+     "poc": "{'key': 'HJ-01', 'file': '/workspace/merryjammies/videos/fb_6.6M_1624473615929591.mp4', 'views': 6600000, 'same_format':"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B3 'B3' <- {'key': 'HJ-01', 'file': '/workspace/merryjammies/videos/fb_6.6M_1624473615929591.mp4', 'v",
+     "poc": "{'key': 'HJ-01', 'file': '/workspace/merryjammies/videos/fb_6.6M_1624473615929591.mp4', 'views': 6600000, 'same_format':"
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "H: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B1: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B2: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B3: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G10",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no on-screen URL CTA",
+     "poc": null
+    },
+    {
+     "gate": "G11",
+     "ok": true,
+     "level": "WARN",
+     "msg": "opener H runs 3.50s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+     "poc": null
+    },
+    {
+     "gate": "G12",
+     "ok": true,
+     "level": "INFO",
+     "msg": "every product shot has an action",
+     "poc": null
+    },
+    {
+     "gate": "G13",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all AI motions short and simple",
+     "poc": null
+    },
+    {
+     "gate": "G14",
+     "ok": true,
+     "level": "INFO",
+     "msg": "Vs not in first card",
+     "poc": null
+    },
+    {
+     "gate": "G15",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no lingering shots",
+     "poc": null
+    },
+    {
+     "gate": "G16",
+     "ok": true,
+     "level": "INFO",
+     "msg": "Seedance 2.5 / GPT Image 2 only, no end frames",
+     "poc": null
+    },
+    {
+     "gate": "G17",
+     "ok": true,
+     "level": "INFO",
+     "msg": "quote 156.0 cr vs budget 200",
+     "poc": null
+    },
+    {
+     "gate": "G18",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all gens <=5s",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "WARN",
+     "msg": "'Period girls RUN don't walk to Target 🩸🙃': emoji 🩸 has no viral proof (cards.csv/POC) - pick a proven one",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "WARN",
+     "msg": "'Period girls RUN don't walk to Target 🩸🙃': emoji 🙃 has no viral proof (cards.csv/POC) - pick a proven one",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "WARN",
+     "msg": "'Period girls RUN don't walk to Target 🩸🙃': emoji 🩸 has no viral proof (cards.csv/POC) - pick a proven one",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "WARN",
+     "msg": "'Period girls RUN don't walk to Target 🩸🙃': emoji 🙃 has no viral proof (cards.csv/POC) - pick a proven one",
+     "poc": null
+    },
+    {
+     "gate": "G20",
+     "ok": true,
+     "level": "INFO",
+     "msg": "afters animated and distinct",
+     "poc": null
+    },
+    {
+     "gate": "G21",
+     "ok": true,
+     "level": "INFO",
+     "msg": "not a vs format",
+     "poc": null
+    },
+    {
+     "gate": "G22",
+     "ok": true,
+     "level": "WARN",
+     "msg": "post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]",
+     "poc": null
+    },
+    {
+     "gate": "G23",
+     "ok": true,
+     "level": "INFO",
+     "msg": "CTA uses SAY (no 'Comment')",
+     "poc": null
+    },
+    {
+     "gate": "G24",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all settings inside the product world",
+     "poc": null
+    },
+    {
+     "gate": "G25",
+     "ok": true,
+     "level": "INFO",
+     "msg": "not a political product",
+     "poc": null
+    }
+   ]
+  }
+ },
+ "format": "F08",
+ "day": "2026-10-20"
+}

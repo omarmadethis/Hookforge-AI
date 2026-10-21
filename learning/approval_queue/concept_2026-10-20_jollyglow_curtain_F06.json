@@ -1,0 +1,2687 @@
+{
+ "id": "concept_2026-10-20_jollyglow_curtain_F06",
+ "kind": "concept_test",
+ "product": "jollyglow_curtain",
+ "status": "AWAITING_OMAR_APPROVAL",
+ "created_pt": "2026-10-20T17:11:06-07:00",
+ "why": "innovation slot: F06 Gift-Difficulty POV Handoff is this product's least-tried format (arms n=0)",
+ "poc": [
+  "HJ 6.6M '\"Women are hard to gift..\"' POV handoff (HJ-01, Let It Snow, cuts 3.3/4.8/7.0/7.9/9.07/10.67)",
+  "HJ 304K/101K (same file), 90K",
+  "VR-03 '\"Kids are hard to gift\"' 374K from a 553-follower account"
+ ],
+ "credits": 200.0,
+ "credit_cap": 200.0,
+ "quote": {
+  "lines": [
+   {
+    "gen": "H",
+    "item": "start frame x2 images",
+    "credits": 13.0
+   },
+   {
+    "gen": "H",
+    "item": "video 1080p 4s",
+    "credits": 64
+   },
+   {
+    "gen": "B1",
+    "item": "start frame x2 images",
+    "credits": 13.0
+   },
+   {
+    "gen": "B1",
+    "item": "video 720p 4s",
+    "credits": 28
+   },
+   {
+    "gen": "B2",
+    "item": "start frame x2 images",
+    "credits": 13.0
+   },
+   {
+    "gen": "B2",
+    "item": "video 720p 4s",
+    "credits": 28
+   },
+   {
+    "gen": "B3",
+    "item": "start frame x2 images",
+    "credits": 13.0
+   },
+   {
+    "gen": "B3",
+    "item": "video 720p 4s",
+    "credits": 28
+   }
+  ],
+  "stills": 52.0,
+  "video": 148,
+  "total": 200.0,
+  "basis": {
+   "still_gpt_image_2": 6.5,
+   "seedance_2_5_1080p_4s": 64,
+   "seedance_2_5_720p_4s": 28,
+   "per_s_1080p": 16,
+   "per_s_720p": 7
+  }
+ },
+ "gates": {
+  "ok": true,
+  "blocks": [],
+  "warns": [
+   "G5: plan.credits 174.0 differs from per-output quote 200.0; use the quote",
+   "G11: opener H runs 3.90s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+   "G22: post caption 'They'll be asking where you got it.. 🤣🎄' [WEAK PROOF: no POC cite]"
+  ]
+ },
+ "preflight": {
+  "ok": true,
+  "fix": []
+ },
+ "ready_for_approval": true,
+ "approval_file_draft": {
+  "approved_by": "",
+  "approved_at_pt": "",
+  "approval_quote": "",
+  "run_id": "concept_2026-10-20_jollyglow_curtain_F06",
+  "plan_sha256": "4e2097e12be4fb0c66d0c0d1c8788b0fe3b8a544267df5753b511f2865f3a6a3",
+  "gens": [
+   "H",
+   "B1",
+   "B2",
+   "B3"
+  ],
+  "account": "user-Higgsfield--new-account",
+  "credit_cap": 200.0,
+  "expires_pt": "2026-10-21T17:11:06-07:00",
+  "consumed": false
+ },
+ "plan": {
+  "status": "PLANNED",
+  "brief": {
+   "brief": "Gift-Difficulty POV Handoff video for the Jolly Glow",
+   "product_key": "jollyglow_curtain",
+   "format": "F06",
+   "variant": false,
+   "hook_option": null,
+   "slot": "core"
+  },
+  "product": {
+   "key": "jollyglow_curtain",
+   "display": "JollyGlow curtain lights",
+   "energy": 3,
+   "world": "the house at night: windows, porch, front yard, neighbours"
+  },
+  "fit": {
+   "format": "F06",
+   "title": "Gift-Difficulty POV Handoff",
+   "verdict": "OK",
+   "score": 1.0,
+   "video_energy": 3,
+   "reasons": [
+    "no own evidence on this product (transfer)",
+    "format tier A (Gift-Difficulty POV Handoff)"
+   ]
+  },
+  "why_this_format": [
+   "no own evidence on this product (transfer)",
+   "format tier A (Gift-Difficulty POV Handoff)"
+  ],
+  "alternatives": [
+   {
+    "format": "F01",
+    "title": "3-2-1 Countdown Reveal",
+    "verdict": "STRONG",
+    "score": 4.4
+   },
+   {
+    "format": "F13",
+    "title": "Statement NEEDS",
+    "verdict": "STRONG",
+    "score": 3.9
+   },
+   {
+    "format": "F05",
+    "title": "Don't Show This To...",
+    "verdict": "OK",
+    "score": 3.4
+   }
+  ],
+  "setting": "front of a house at night",
+  "adaptation": "none (format native)",
+  "hook_options_available": [],
+  "hook_option": null,
+  "hook": {
+   "text": "POV: the whole street is JEALOUS 😏🏠",
+   "tag": "P",
+   "why": "own JollyGlow curtain reel fb_28305014139198128 63,320 views, cut to 6 words (D149 8-word hard rule; D146 curtain-fit, replaces 'Women are hard to gift..')",
+   "cards": null,
+   "cards_source": null
+  },
+  "text_cards": [
+   {
+    "t": 0.0,
+    "dur": 13.2,
+    "text": "POV: the whole street is JEALOUS 😏🏠",
+    "scale": 0.72
+   }
+  ],
+  "text_style": {
+   "source": "style/capcut_text_preset.json (version 1.0)",
+   "font": "TikTok Sans / system",
+   "size": 15,
+   "stroke": 0.09,
+   "color": "#ffffff",
+   "stroke_color": "#000000",
+   "capcut_y": 0.62,
+   "center_y_frac": 0.19,
+   "animation_in": null,
+   "animation_out": null,
+   "scale": 0.93,
+   "font_render": "/usr/share/fonts/truetype/sand-box/google/Montserrat/Montserrat-VariableFont_wght.ttf"
+  },
+  "shots": [
+   {
+    "code": "THEN",
+    "t0": 0.0,
+    "t1": 2.9,
+    "desc": "'then' scene (format-specific): busy lit living room / bare house, 3-6 people + dog, disaster lands by 1-3 s",
+    "gen": "H"
+   },
+   {
+    "code": "THEN2",
+    "t0": 2.9,
+    "t1": 3.9,
+    "desc": "second 'before' angle inside the same hook gen (internal hard cut)",
+    "gen": "H"
+   },
+   {
+    "code": "BOX",
+    "t0": 3.9,
+    "t1": 5.8,
+    "desc": "JollyGlow box already in hands, lid off, curtain lights lifted out (never a slow unbox)",
+    "gen": "B1"
+   },
+   {
+    "code": "INSTALL",
+    "t0": 5.8,
+    "t1": 7.9,
+    "desc": "high-angle POV, hands on the curtain lights: installing curtain lights in front window the way our own reels show it, locked wide, motion in frame",
+    "gen": "B1"
+   },
+   {
+    "code": "ACT",
+    "t0": 7.9,
+    "t1": 8.6,
+    "desc": "ACTIVATION insert: the remote clicks",
+    "gen": "B2"
+   },
+   {
+    "code": "LIT1",
+    "t0": 8.6,
+    "t1": 10.0,
+    "desc": "first after: the curtain lights up with snowflakes falling down the window, locked wide",
+    "gen": "B2"
+   },
+   {
+    "code": "LIT2",
+    "t0": 10.0,
+    "t1": 11.5,
+    "desc": "second after, a different animation: closer angle, a Merry Christmas script writes itself across the curtain while the couple steps back on the lawn and reacts",
+    "gen": "B3"
+   },
+   {
+    "code": "LIT3",
+    "t0": 11.5,
+    "t1": 13.2,
+    "desc": "final after, a third animation: red and green waves ripple across the curtain, wide from the sidewalk with the neighbours' houses in frame; hard cut out",
+    "gen": "B3"
+   }
+  ],
+  "gens": [
+   {
+    "id": "H",
+    "model": "seedance_2_5",
+    "res": "1080p",
+    "dur": 4,
+    "shots": [
+     "THEN",
+     "THEN2"
+    ],
+    "prompt": "POV from a couch in a front window: a woman's legs in light pants stretched toward the camera in the lower third. A smiling bearded man in a sweater steps in and hands the JollyGlow gift box from <<<image_2>>> down toward the camera; her hands reach in from the bottom of the frame and take it. Gentle push-in. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo, POV from a couch: a woman's legs in light pants in the lower third, a smiling bearded man in a sweater holding the JollyGlow gift box from the second image out toward the camera, Christmas tree, small American flag. Box fills a third of the frame. Top 20% clear. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn; a cul-de-sac with neighbors' houses decorated with Christmas lights in the background. Sharp, clean, realistic phone photo. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/assets/jollyglow/box/p1.png",
+      "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+     ]
+    },
+    "credits": 70.5,
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/assets/jollyglow/box/p1.png",
+     "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+     "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+     "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+    ],
+    "ref_manifest": "refs/jollyglow/manifest.json"
+   },
+   {
+    "id": "B1",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 1.9,
+    "shots": [
+     "BOX",
+     "INSTALL"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a couple consistent throughout, at the front of a suburban house at night. Shot 1 (0-1.9s, BOX): JollyGlow box already in hands, lid off, curtain lights lifted out (never a slow unbox). HARD CUT at 1.9s, no transition. Shot 2 (1.9-4s, INSTALL): high-angle POV, hands on the curtain lights: installing curtain lights in front window the way our own reels show it, locked wide, motion in frame. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo at the front of a suburban house at night: a couple, JollyGlow box already in hands, lid off, curtain lights lifted out (never a slow unbox), the curtain lights from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn; a cul-de-sac with neighbors' houses decorated with Christmas lights in the background. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/assets/jollyglow/box/p1.png",
+      "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+     ]
+    },
+    "credits": 34.5,
+    "trims": {
+     "BOX": [
+      0.0,
+      1.9
+     ],
+     "INSTALL": [
+      1.9,
+      4.0
+     ]
+    },
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/assets/jollyglow/box/p1.png",
+     "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+     "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+     "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+    ],
+    "ref_manifest": "refs/jollyglow/manifest.json"
+   },
+   {
+    "id": "B2",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 2.0,
+    "shots": [
+     "ACT",
+     "LIT1"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a couple consistent throughout, at the front of a suburban house at night. Shot 1 (0-2s, ACT): ACTIVATION insert: the remote clicks. HARD CUT at 2s, no transition. Shot 2 (2-4s, LIT1): first after: the curtain lights up with snowflakes falling down the window, locked wide. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo at the front of a suburban house at night: a couple, ACTIVATION insert: the remote clicks, the curtain lights from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn; a cul-de-sac with neighbors' houses decorated with Christmas lights in the background. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/assets/jollyglow/box/p1.png",
+      "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+     ]
+    },
+    "credits": 34.5,
+    "trims": {
+     "ACT": [
+      1.3,
+      2.0
+     ],
+     "LIT1": [
+      2.0,
+      3.4
+     ]
+    },
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/assets/jollyglow/box/p1.png",
+     "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+     "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+     "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+    ],
+    "ref_manifest": "refs/jollyglow/manifest.json"
+   },
+   {
+    "id": "B3",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 2.0,
+    "shots": [
+     "LIT2",
+     "LIT3"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a couple consistent throughout, at the front of a suburban house at night. Shot 1 (0-2s, LIT2): second after, a different animation: closer angle, a Merry Christmas script writes itself across the curtain while the couple steps back on the lawn and reacts. HARD CUT at 2s, no transition. Shot 2 (2-4s, LIT3): final after, a third animation: red and green waves ripple across the curtain, wide from the sidewalk with the neighbours' houses in frame; hard cut out. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo at the front of a suburban house at night: a couple, second after, a different animation: closer angle, a Merry Christmas script writes itself across the curtain while the couple steps back on the lawn and reacts, the curtain lights from the first image clearly visible. Top 20% clear for text. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn; a cul-de-sac with neighbors' houses decorated with Christmas lights in the background. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/assets/jollyglow/box/p1.png",
+      "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+     ]
+    },
+    "credits": 34.5,
+    "trims": {
+     "LIT2": [
+      0.5,
+      2.0
+     ],
+     "LIT3": [
+      2.0,
+      3.7
+     ]
+    },
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/assets/jollyglow/box/p1.png",
+     "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+     "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+     "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+    ],
+    "ref_manifest": "refs/jollyglow/manifest.json"
+   }
+  ],
+  "duration": 13.2,
+  "hook_s": 3.9,
+  "music": {
+   "pick": {
+    "song": "holly_jolly",
+    "version": "Michael Bublé Holly Jolly Christmas from 0:00",
+    "offset_s": 0.1,
+    "energy": 3,
+    "region": "unknown",
+    "score": 3.051,
+    "why": ""
+   },
+   "alternatives": [
+    {
+     "song": "last_christmas",
+     "version": "Wham! Last Christmas (official) ~2:50 chorus",
+     "offset_s": 170.5,
+     "energy": 4,
+     "region": "UK/EU-skewed",
+     "score": 3.05,
+     "why": ""
+    },
+    {
+     "song": "aiwfc_intro",
+     "version": "Mariah Carey AIWFC, slow intro (Make My Wish Come True ed. ~0:49.6)",
+     "offset_s": 49.6,
+     "energy": 3,
+     "region": "tier1_global",
+     "score": 2.191,
+     "why": "proven in niche (own best 91,000, ext best 23,700,000); energy gap 0; region tier1_global"
+    }
+   ],
+   "rejected": [
+    {
+     "song": "free_bird",
+     "reason": "niche ski|funny != christmas"
+    },
+    {
+     "song": "boombastic_tiktok",
+     "reason": "niche ski|streetwear|funny != christmas"
+    },
+    {
+     "song": "velvet_glow",
+     "reason": "energy 1 vs video 3"
+    },
+    {
+     "song": "chestnuts",
+     "reason": "unproven (experiment slots only)"
+    },
+    {
+     "song": "somewhere_memory",
+     "reason": "unproven (experiment slots only)"
+    },
+    {
+     "song": "rockin_around",
+     "reason": "unproven (experiment slots only)"
+    },
+    {
+     "song": "be_my_baby",
+     "reason": "niche general != christmas"
+    },
+    {
+     "song": "give_it_up",
+     "reason": "niche ski|party != christmas"
+    }
+   ]
+  },
+  "caption": {
+   "text": "They'll be asking where you got it.. 🤣🎄",
+   "why": "proven caption on this product (63,320 views)"
+  },
+  "banned_cta_found": [],
+  "posting": {
+   "page": "MC",
+   "exploit_windows_pt": [
+    "18-21",
+    "21-24"
+   ],
+   "explore_windows_pt": [
+    "00-04",
+    "04-08",
+    "08-12",
+    "12-15",
+    "15-18"
+   ],
+   "explore_share": 0.2
+  },
+  "credits": {
+   "total": 174.0,
+   "budget": 175,
+   "within_budget": true,
+   "reroll_reserve_max_1_shot": 64.0,
+   "breakdown": [
+    [
+     "H",
+     "1080p",
+     70.5
+    ],
+    [
+     "B1",
+     "720p",
+     34.5
+    ],
+    [
+     "B2",
+     "720p",
+     34.5
+    ],
+    [
+     "B3",
+     "720p",
+     34.5
+    ]
+   ],
+   "source": "inferred from Higgsfield transactions 2026-10-18 (read-only)"
+  },
+  "prompt_checks": [],
+  "us_cues": [
+   "a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn",
+   "a cul-de-sac with neighbors' houses decorated with Christmas lights in the background"
+  ],
+  "proof_shot": {
+   "present": false,
+   "spec": null
+  },
+  "hook_variants": [
+   {
+    "text": "POV: the whole street is JEALOUS 😏🏠",
+    "tag": "P",
+    "why": "own JollyGlow curtain reel fb_28305014139198128 63,320 views, cut to 6 words (D149 8-word hard rule; D146 curtain-fit, replaces 'Women are hard to gift..')",
+    "cards": null,
+    "cards_source": null,
+    "rank": 1,
+    "role": "control (proven)"
+   },
+   {
+    "text": "\"Women are hard to gift..\"",
+    "tag": "P",
+    "why": "HJ-01 6.6M",
+    "rank": 2,
+    "role": "variant",
+    "share_cta": false
+   },
+   {
+    "text": "\"Moms are so hard to gift 🥺❄️🎅\"",
+    "tag": "P",
+    "why": "HJ 90K",
+    "rank": 3,
+    "role": "variant",
+    "share_cta": false
+   },
+   {
+    "text": "\"Kids are hard to gift\" 🎄",
+    "tag": "P",
+    "why": "VR-03 374K",
+    "rank": 4,
+    "role": "variant",
+    "share_cta": false
+   }
+  ],
+  "covers": [
+   {
+    "role": "hook",
+    "t": 0.3,
+    "why": "product legible at 0 s + hook text"
+   },
+   {
+    "role": "activation",
+    "t": 8.25,
+    "why": "ACT mid-shot"
+   },
+   {
+    "role": "payoff",
+    "t": 12.35,
+    "why": "LIT3 mid-shot"
+   }
+  ],
+  "season": {
+   "phase": "pre_season",
+   "levers": [
+    "gift formats ok",
+    "cozy/decor then-vs-now",
+    "Christmas music allowed (own Sep-Oct winners used it)"
+   ],
+   "gift_cutoff": null,
+   "delivery_claims_allowed": false,
+   "date": "2026-10-21",
+   "ly_season_prior": {
+    "format": {
+     "F09": {
+      "share": 0.354,
+      "prior_weight": 0.5,
+      "score": 0.0885,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     },
+     "F13": {
+      "share": 0.329,
+      "prior_weight": 0.5,
+      "score": 0.082,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     },
+     "F07": {
+      "share": 0.317,
+      "prior_weight": 0.5,
+      "score": 0.0795,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     }
+    },
+    "music": {
+     "no Shazam match (label: original sound)": {
+      "share": 0.218,
+      "prior_weight": 0.5,
+      "score": 0.109,
+      "n": 7,
+      "thin": false
+     },
+     "Fantasmic! (From Fantasmic!) [Disneyland] - Bruce Healey, Ned Washington, Sammy Cahn, Leigh Harline, Frank Churchill, Larry Morey, Alan Menken, Howard Ashman, Sammy Fain, Jack Wallace, Jack Lawrence, Oliver Wallace, Modest Mussorgsky, Barnette Ricci, Paul Dukas & Victor Young | in-point 41.3s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Total Eclipse of the Heart - Bonnie Tyler | in-point 46.7s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "All I Want for Christmas Is You - Mariah Carey | in-point 51.1s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Last Christmas (Single Version) - Wham! | in-point 34.8s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Oui, Oui, Oui, Oui - Sacha Distel | in-point -0.2s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Sleigh Ride - The Ronettes | in-point 48.2s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Rockin' Around The Christmas Tree - Brenda Lee | in-point -0.0s at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "no Shazam match (label: Elf - Main Theme)": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "Morning Bossa Nova - Bossa Nova Terrace | in-point unknowns at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "A Thousand Years - Christina Perri | in-point 18.9s at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "no Shazam match (label: Rockin’ Around The Christmas Tree)": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "Christmas (Baby Please Come Home) - Darlene Love | in-point 9.2s at video 0 | conf high": {
+      "share": 0.032,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Sleigh Ride - Ella Fitzgerald | in-point 10.8s at video 0 | conf high": {
+      "share": 0.032,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "last christmas": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Last Christmas (Single Version) - Wham! | in-point 74.1s at video 0 | conf high": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Rockin' Around The Christmas Tree - Brenda Lee | in-point 0.0s at video 0 | conf high": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Its Beginning to Look a Lot Like Christmas (2024 Remastered) - The Fontane Sisters | in-point 87.1s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Jingle Bell Rock - Bobby Helms | in-point 0.4s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "U Know What's Up (feat. Lisa \"Left Eye\" Lopes) - Donell Jones | in-point unknowns at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "All I Want for Christmas Is You - Mariah Carey | in-point 48.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Sakura - Lined Street - KCNX | in-point 0.0s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Upside Down - Jack Johnson | in-point 54.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Run It - Jelly Roll | in-point 37.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "original sound - demetra dias (platform label; not yet audio-ID'd) | Shazam: no match": {
+      "share": 0.029,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     }
+    },
+    "weight": 0.5
+   }
+  },
+  "posting_checklist": [
+   "FB: run the caption/thumbnail test with the hook variants + covers (up to 4)",
+   "IG: post experiment slots as Trial Reels",
+   "Final file: exported via autoedit.clean_export (metadata/C2PA stripped, D44); preflight asserts none remains"
+  ],
+  "mock_source": {
+   "key": "MC-01",
+   "file": "/workspace/merryglow/videos/mc_post122118620919475353.mp4",
+   "views": 63320,
+   "same_format": false
+  },
+  "provenance": {
+   "text_style": "style/capcut_text_preset.json (version 1.0)",
+   "emojis": "engine default",
+   "shot_grammar": "style/shot_grammar.md",
+   "psych": "psychology/psych_codebook.csv",
+   "audience": [
+    "audience/lexicon.csv",
+    "audience/audience_rules.csv"
+   ],
+   "voice": "voice/voice_rules.csv"
+  },
+  "audience_fit": {
+   "ok": true,
+   "slug": "jollyglow",
+   "rows": [
+    {
+     "kind": "song",
+     "item": "holly_jolly",
+     "ok": true,
+     "reason": "genre 'christmas crooner' fits jollyglow (wow, neighbour envy, festive brag)",
+     "tier": "a",
+     "in_point": "0.1",
+     "evidence": [
+      "own:learning/music_library.csv holly_jolly on jollyglow_curtain 63320(F01|F05)",
+      "in-point: own: most-used start 0.1 s on the CapCut file across 10 own drafts (learning/music_library.csv)"
+     ]
+    },
+    {
+     "kind": "card",
+     "item": "POV: the whole street is JEALOUS 😏🏠",
+     "ok": true,
+     "score": 0.75,
+     "reason": "voice: US homeowner brag, two-dot ellipsis, emoji pair at end; slang -",
+     "evidence": [
+      "own/ext hook: own JollyGlow curtain reel fb_28305014139198128 63,320 views, cut to 6 words (D149 8-word hard rule; D146 curtain-fit, replaces 'Women are hard to gift..')"
+     ]
+    },
+    {
+     "kind": "emoji",
+     "item": "😏",
+     "ok": true,
+     "reason": "not in jollyglow set but proven in own data (D68 guard)",
+     "evidence": [
+      "own:MC-01 63,320",
+      "own:MC-02 62,813",
+      "own:MC-03 62,010"
+     ]
+    },
+    {
+     "kind": "emoji",
+     "item": "🏠",
+     "ok": true,
+     "reason": "jollyglow: house front",
+     "evidence": [
+      "profile:audience/jollyglow.yaml emoji_allowed"
+     ]
+    },
+    {
+     "kind": "caption",
+     "item": "They'll be asking where you got it.. 🤣🎄",
+     "ok": true,
+     "score": 1.0,
+     "reason": "voice: US homeowner brag, two-dot ellipsis, emoji pair at end; slang [\"they'll be asking where you got it\"]",
+     "evidence": [
+      "own: 63,320 views (jollyglow_curtain)",
+      "own: proven caption on this product (63,320 views)"
+     ]
+    },
+    {
+     "kind": "emoji",
+     "item": "🤣",
+     "ok": true,
+     "reason": "jollyglow: brag humour",
+     "evidence": [
+      "profile:audience/jollyglow.yaml emoji_allowed"
+     ]
+    },
+    {
+     "kind": "emoji",
+     "item": "🎄",
+     "ok": true,
+     "reason": "jollyglow: Christmas",
+     "evidence": [
+      "profile:audience/jollyglow.yaml emoji_allowed"
+     ]
+    }
+   ]
+  },
+  "edit_defaults": [
+   {
+    "gen": "H",
+    "src_in": 0.0,
+    "src_out": 3.7,
+    "speed": 1.0
+   },
+   {
+    "gen": "B1",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B1",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   },
+   {
+    "gen": "B2",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B2",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   },
+   {
+    "gen": "B3",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B3",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   }
+  ],
+  "edit_lint": {
+   "ok": true,
+   "rows": [
+    {
+     "gen": "-",
+     "kind": "edit",
+     "rule": "ER11",
+     "severity": "WARN",
+     "text": "1 cards",
+     "fix": "3-card structure: problem -> Vs... -> solution"
+    },
+    {
+     "gen": "-",
+     "kind": "edit",
+     "rule": "ER17",
+     "severity": "WARN",
+     "text": "no key real sound boosted",
+     "fix": "boost the key real sound (scissors, door, tape, sparks) 2-4x"
+    }
+   ],
+   "defaults": {
+    "head_trim_s": 1.05,
+    "tail_trim_s": 1.2,
+    "first_head_trim_s": 0.0,
+    "split_pieces": [
+     2,
+     3
+    ],
+    "split_gap_s": 0.4,
+    "median_shot_s": 1.5,
+    "max_shot_s": 3.3,
+    "target_len_s": [
+     11.3,
+     16.833
+    ],
+    "shots": [
+     5,
+     11
+    ],
+    "cards": 3,
+    "speed": 1.0,
+    "action_speed": [
+     1.2,
+     1.5
+    ],
+    "scale": 1.0,
+    "clip_audio_volume": 1.0,
+    "key_sound_gain": [
+     2.0,
+     4.0
+    ],
+    "song_intro_exceptions": [
+     "holly_jolly",
+     "holly jolly"
+    ],
+    "opener_max_s": 4.1,
+    "hook_speed_values": [
+     1.1,
+     1.15,
+     1.2,
+     1.3,
+     1.5
+    ],
+    "max_card_lines": 2
+   }
+  },
+  "real_shots": [
+   {
+    "role": "reveal",
+    "source": "real",
+    "kind": "footage",
+    "path": "/workspace/research/product_footage/jollyglow_curtain_lights/jg04_window_curtain_color_cycle.mp4",
+    "t_in": 0.0,
+    "dur": 2.2,
+    "credits": 0,
+    "crop": null,
+    "reframe": "9:16",
+    "needs_composite": false,
+    "note": "window curtain, clean"
+   }
+  ],
+  "resolution_fixes": [],
+  "quote": {
+   "lines": [
+    {
+     "gen": "H",
+     "item": "start frame x2 images",
+     "credits": 13.0
+    },
+    {
+     "gen": "H",
+     "item": "video 1080p 4s",
+     "credits": 64
+    },
+    {
+     "gen": "B1",
+     "item": "start frame x2 images",
+     "credits": 13.0
+    },
+    {
+     "gen": "B1",
+     "item": "video 720p 4s",
+     "credits": 28
+    },
+    {
+     "gen": "B2",
+     "item": "start frame x2 images",
+     "credits": 13.0
+    },
+    {
+     "gen": "B2",
+     "item": "video 720p 4s",
+     "credits": 28
+    },
+    {
+     "gen": "B3",
+     "item": "start frame x2 images",
+     "credits": 13.0
+    },
+    {
+     "gen": "B3",
+     "item": "video 720p 4s",
+     "credits": 28
+    }
+   ],
+   "stills": 52.0,
+   "video": 148,
+   "total": 200.0,
+   "basis": {
+    "still_gpt_image_2": 6.5,
+    "seedance_2_5_1080p_4s": 64,
+    "seedance_2_5_720p_4s": 28,
+    "per_s_1080p": 16,
+    "per_s_720p": 7
+   }
+  },
+  "gates": {
+   "ok": true,
+   "blocks": [],
+   "warns": [
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "WARN",
+     "msg": "plan.credits 174.0 differs from per-output quote 200.0; use the quote",
+     "poc": null
+    },
+    {
+     "gate": "G11",
+     "ok": true,
+     "level": "WARN",
+     "msg": "opener H runs 3.90s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+     "poc": null
+    },
+    {
+     "gate": "G22",
+     "ok": true,
+     "level": "WARN",
+     "msg": "post caption 'They'll be asking where you got it.. 🤣🎄' [WEAK PROOF: no POC cite]",
+     "poc": null
+    }
+   ],
+   "rows": [
+    {
+     "gate": "G1",
+     "ok": true,
+     "level": "INFO",
+     "msg": "in-point 0.1s (own drafts: CapCut offset 0.1 s (MC-01 63K, Omar M), verify xcorr 0.997",
+     "poc": "YouTube Dkq3LD-4pmM (Michael Bublé official channel, Official HD) via Mac"
+    },
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 'POV: the whole street is JEALOUS 😏🏠' = 6 words (max 8, no exceptions)",
+     "poc": null
+    },
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "INFO",
+     "msg": "proven format ['pov_street_jealous']",
+     "poc": null
+    },
+    {
+     "gate": "G3",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no profile bans contradict own data",
+     "poc": null
+    },
+    {
+     "gate": "G4",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 1080p, rest 720p",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "INFO",
+     "msg": "quote 200.0 credits (stills 52.0 counted per image, video 148)",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "WARN",
+     "msg": "plan.credits 174.0 differs from per-output quote 200.0; use the quote",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no phonk",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "emoji render apple_ios (Apple iOS PNGs only)",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "prompts ask for real ambient sound only",
+     "poc": null
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 'POV: the whole street is JEALOUS 😏🏠' <- own FB Merry Carrier https://www.facebook.com/reel/28305014139198128/",
+     "poc": "POC-0295"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "caption 'They'll be asking where you got it.. 🤣🎄' <- own FB Merry Carrier https://www.facebook.com/reel/28305014139198128/",
+     "poc": "POC-0060"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "song 'holly_jolly' <- own drafts n=10, proven_on grinch_robe:2700(F19);jollyglow_curtain:63320(F01|F05);merryfir",
+     "poc": "POC-0243"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "format '['no own evidence on this product (transfer)', 'fo' <- ['no own evidence on this product (transfer)', 'format tier A (Gift-Difficulty POV Handoff",
+     "poc": "['no own evidence on this product (transfer)', 'format tier A (Gift-Difficulty POV Handoff)']"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen H 'H' <- {'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'vie",
+     "poc": "{'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'views': 63320, 'same_format': Fal"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B1 'B1' <- {'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'vie",
+     "poc": "{'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'views': 63320, 'same_format': Fal"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B2 'B2' <- {'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'vie",
+     "poc": "{'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'views': 63320, 'same_format': Fal"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B3 'B3' <- {'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'vie",
+     "poc": "{'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'views': 63320, 'same_format': Fal"
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "H: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B1: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B2: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B3: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G10",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no on-screen URL CTA",
+     "poc": null
+    },
+    {
+     "gate": "G11",
+     "ok": true,
+     "level": "WARN",
+     "msg": "opener H runs 3.90s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+     "poc": null
+    },
+    {
+     "gate": "G12",
+     "ok": true,
+     "level": "INFO",
+     "msg": "every product shot has an action",
+     "poc": null
+    },
+    {
+     "gate": "G13",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all AI motions short and simple",
+     "poc": null
+    },
+    {
+     "gate": "G14",
+     "ok": true,
+     "level": "INFO",
+     "msg": "Vs not in first card",
+     "poc": null
+    },
+    {
+     "gate": "G15",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no lingering shots",
+     "poc": null
+    },
+    {
+     "gate": "G16",
+     "ok": true,
+     "level": "INFO",
+     "msg": "Seedance 2.5 / GPT Image 2 only, no end frames",
+     "poc": null
+    },
+    {
+     "gate": "G17",
+     "ok": true,
+     "level": "INFO",
+     "msg": "quote 200.0 cr vs budget 200",
+     "poc": null
+    },
+    {
+     "gate": "G18",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all gens <=5s",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "INFO",
+     "msg": "card emojis proven and paired",
+     "poc": null
+    },
+    {
+     "gate": "G20",
+     "ok": true,
+     "level": "INFO",
+     "msg": "afters animated and distinct",
+     "poc": null
+    },
+    {
+     "gate": "G21",
+     "ok": true,
+     "level": "INFO",
+     "msg": "not a vs format",
+     "poc": null
+    },
+    {
+     "gate": "G22",
+     "ok": true,
+     "level": "WARN",
+     "msg": "post caption 'They'll be asking where you got it.. 🤣🎄' [WEAK PROOF: no POC cite]",
+     "poc": null
+    },
+    {
+     "gate": "G23",
+     "ok": true,
+     "level": "INFO",
+     "msg": "CTA uses SAY (no 'Comment')",
+     "poc": null
+    },
+    {
+     "gate": "G24",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all settings inside the product world",
+     "poc": null
+    },
+    {
+     "gate": "G25",
+     "ok": true,
+     "level": "INFO",
+     "msg": "not a political product",
+     "poc": null
+    }
+   ]
+  }
+ },
+ "format": "F06",
+ "day": "2026-10-20",
+ "rank_score": 0.76,
+ "rank_parts": {
+  "poc": 0.84,
+  "poc_views": 3300000,
+  "season": 0.55,
+  "gap": 0.64,
+  "ref": 0.317
+ },
+ "rationale": "jollyglow_curtain F06: 0.76 = POC 0.84 (best cited 3,300,000 views) + season 0.55 (66 days to Christmas) + page gap 0.64 (last own post 9 days ago) + ref 0.317; 200.0 cr",
+ "lean": {
+  "option": "lean_1_still",
+  "still_variants": 1,
+  "credits": 174.0,
+  "plan": {
+   "status": "PLANNED",
+   "brief": {
+    "brief": "Gift-Difficulty POV Handoff video for the Jolly Glow",
+    "product_key": "jollyglow_curtain",
+    "format": "F06",
+    "variant": false,
+    "hook_option": null,
+    "slot": "core"
+   },
+   "product": {
+    "key": "jollyglow_curtain",
+    "display": "JollyGlow curtain lights",
+    "energy": 3,
+    "world": "the house at night: windows, porch, front yard, neighbours"
+   },
+   "fit": {
+    "format": "F06",
+    "title": "Gift-Difficulty POV Handoff",
+    "verdict": "OK",
+    "score": 1.0,
+    "video_energy": 3,
+    "reasons": [
+     "no own evidence on this product (transfer)",
+     "format tier A (Gift-Difficulty POV Handoff)"
+    ]
+   },
+   "why_this_format": [
+    "no own evidence on this product (transfer)",
+    "format tier A (Gift-Difficulty POV Handoff)"
+   ],
+   "alternatives": [
+    {
+     "format": "F01",
+     "title": "3-2-1 Countdown Reveal",
+     "verdict": "STRONG",
+     "score": 4.4
+    },
+    {
+     "format": "F13",
+     "title": "Statement NEEDS",
+     "verdict": "STRONG",
+     "score": 3.9
+    },
+    {
+     "format": "F05",
+     "title": "Don't Show This To...",
+     "verdict": "OK",
+     "score": 3.4
+    }
+   ],
+   "setting": "front of a house at night",
+   "adaptation": "none (format native)",
+   "hook_options_available": [],
+   "hook_option": null,
+   "hook": {
+    "text": "POV: the whole street is JEALOUS 😏🏠",
+    "tag": "P",
+    "why": "own JollyGlow curtain reel fb_28305014139198128 63,320 views, cut to 6 words (D149 8-word hard rule; D146 curtain-fit, replaces 'Women are hard to gift..')",
+    "cards": null,
+    "cards_source": null
+   },
+   "text_cards": [
+    {
+     "t": 0.0,
+     "dur": 13.2,
+     "text": "POV: the whole street is JEALOUS 😏🏠",
+     "scale": 0.72
+    }
+   ],
+   "text_style": {
+    "source": "style/capcut_text_preset.json (version 1.0)",
+    "font": "TikTok Sans / system",
+    "size": 15,
+    "stroke": 0.09,
+    "color": "#ffffff",
+    "stroke_color": "#000000",
+    "capcut_y": 0.62,
+    "center_y_frac": 0.19,
+    "animation_in": null,
+    "animation_out": null,
+    "scale": 0.93,
+    "font_render": "/usr/share/fonts/truetype/sand-box/google/Montserrat/Montserrat-VariableFont_wght.ttf"
+   },
+   "shots": [
+    {
+     "code": "THEN",
+     "t0": 0.0,
+     "t1": 2.9,
+     "desc": "'then' scene (format-specific): busy lit living room / bare house, 3-6 people + dog, disaster lands by 1-3 s",
+     "gen": "H"
+    },
+    {
+     "code": "THEN2",
+     "t0": 2.9,
+     "t1": 3.9,
+     "desc": "second 'before' angle inside the same hook gen (internal hard cut)",
+     "gen": "H"
+    },
+    {
+     "code": "BOX",
+     "t0": 3.9,
+     "t1": 5.8,
+     "desc": "JollyGlow box already in hands, lid off, curtain lights lifted out (never a slow unbox)",
+     "gen": "B1"
+    },
+    {
+     "code": "INSTALL",
+     "t0": 5.8,
+     "t1": 7.9,
+     "desc": "high-angle POV, hands on the curtain lights: installing curtain lights in front window the way our own reels show it, locked wide, motion in frame",
+     "gen": "B1"
+    },
+    {
+     "code": "ACT",
+     "t0": 7.9,
+     "t1": 8.6,
+     "desc": "ACTIVATION insert: the remote clicks",
+     "gen": "B2"
+    },
+    {
+     "code": "LIT1",
+     "t0": 8.6,
+     "t1": 10.0,
+     "desc": "first after: the curtain lights up with snowflakes falling down the window, locked wide",
+     "gen": "B2"
+    },
+    {
+     "code": "LIT2",
+     "t0": 10.0,
+     "t1": 11.5,
+     "desc": "second after, a different animation: closer angle, a Merry Christmas script writes itself across the curtain while the couple steps back on the lawn and reacts",
+     "gen": "B3"
+    },
+    {
+     "code": "LIT3",
+     "t0": 11.5,
+     "t1": 13.2,
+     "desc": "final after, a third animation: red and green waves ripple across the curtain, wide from the sidewalk with the neighbours' houses in frame; hard cut out",
+     "gen": "B3"
+    }
+   ],
+   "gens": [
+    {
+     "id": "H",
+     "model": "seedance_2_5",
+     "res": "1080p",
+     "dur": 4,
+     "shots": [
+      "THEN",
+      "THEN2"
+     ],
+     "prompt": "POV from a couch in a front window: a woman's legs in light pants stretched toward the camera in the lower third. A smiling bearded man in a sweater steps in and hands the JollyGlow gift box from <<<image_2>>> down toward the camera; her hands reach in from the bottom of the frame and take it. Gentle push-in. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "start_frame": {
+      "model": "gpt_image_2",
+      "prompt": "iPhone photo, POV from a couch: a woman's legs in light pants in the lower third, a smiling bearded man in a sweater holding the JollyGlow gift box from the second image out toward the camera, Christmas tree, small American flag. Box fills a third of the frame. Top 20% clear. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn; a cul-de-sac with neighbors' houses decorated with Christmas lights in the background. Sharp, clean, realistic phone photo. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+      "refs": [
+       "/workspace/hookforge/assets/jollyglow/box/p1.png",
+       "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+       "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+       "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+      ],
+      "n": 1
+     },
+     "credits": 70.5,
+     "recreate_checks": [],
+     "source": "ai",
+     "grade": "iphone_subtle",
+     "reference_image_paths": [
+      "/workspace/hookforge/assets/jollyglow/box/p1.png",
+      "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+     ],
+     "ref_manifest": "refs/jollyglow/manifest.json"
+    },
+    {
+     "id": "B1",
+     "model": "seedance_2_5",
+     "res": "720p",
+     "dur": 4,
+     "cut": 1.9,
+     "shots": [
+      "BOX",
+      "INSTALL"
+     ],
+     "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a couple consistent throughout, at the front of a suburban house at night. Shot 1 (0-1.9s, BOX): JollyGlow box already in hands, lid off, curtain lights lifted out (never a slow unbox). HARD CUT at 1.9s, no transition. Shot 2 (1.9-4s, INSTALL): high-angle POV, hands on the curtain lights: installing curtain lights in front window the way our own reels show it, locked wide, motion in frame. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "start_frame": {
+      "model": "gpt_image_2",
+      "prompt": "iPhone photo at the front of a suburban house at night: a couple, JollyGlow box already in hands, lid off, curtain lights lifted out (never a slow unbox), the curtain lights from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn; a cul-de-sac with neighbors' houses decorated with Christmas lights in the background. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+      "refs": [
+       "/workspace/hookforge/assets/jollyglow/box/p1.png",
+       "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+       "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+       "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+      ],
+      "n": 1
+     },
+     "credits": 34.5,
+     "trims": {
+      "BOX": [
+       0.0,
+       1.9
+      ],
+      "INSTALL": [
+       1.9,
+       4.0
+      ]
+     },
+     "recreate_checks": [],
+     "source": "ai",
+     "grade": "iphone_subtle",
+     "reference_image_paths": [
+      "/workspace/hookforge/assets/jollyglow/box/p1.png",
+      "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+     ],
+     "ref_manifest": "refs/jollyglow/manifest.json"
+    },
+    {
+     "id": "B2",
+     "model": "seedance_2_5",
+     "res": "720p",
+     "dur": 4,
+     "cut": 2.0,
+     "shots": [
+      "ACT",
+      "LIT1"
+     ],
+     "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a couple consistent throughout, at the front of a suburban house at night. Shot 1 (0-2s, ACT): ACTIVATION insert: the remote clicks. HARD CUT at 2s, no transition. Shot 2 (2-4s, LIT1): first after: the curtain lights up with snowflakes falling down the window, locked wide. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "start_frame": {
+      "model": "gpt_image_2",
+      "prompt": "iPhone photo at the front of a suburban house at night: a couple, ACTIVATION insert: the remote clicks, the curtain lights from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn; a cul-de-sac with neighbors' houses decorated with Christmas lights in the background. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+      "refs": [
+       "/workspace/hookforge/assets/jollyglow/box/p1.png",
+       "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+       "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+       "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+      ],
+      "n": 1
+     },
+     "credits": 34.5,
+     "trims": {
+      "ACT": [
+       1.3,
+       2.0
+      ],
+      "LIT1": [
+       2.0,
+       3.4
+      ]
+     },
+     "recreate_checks": [],
+     "source": "ai",
+     "grade": "iphone_subtle",
+     "reference_image_paths": [
+      "/workspace/hookforge/assets/jollyglow/box/p1.png",
+      "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+     ],
+     "ref_manifest": "refs/jollyglow/manifest.json"
+    },
+    {
+     "id": "B3",
+     "model": "seedance_2_5",
+     "res": "720p",
+     "dur": 4,
+     "cut": 2.0,
+     "shots": [
+      "LIT2",
+      "LIT3"
+     ],
+     "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a couple consistent throughout, at the front of a suburban house at night. Shot 1 (0-2s, LIT2): second after, a different animation: closer angle, a Merry Christmas script writes itself across the curtain while the couple steps back on the lawn and reacts. HARD CUT at 2s, no transition. Shot 2 (2-4s, LIT3): final after, a third animation: red and green waves ripple across the curtain, wide from the sidewalk with the neighbours' houses in frame; hard cut out. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "start_frame": {
+      "model": "gpt_image_2",
+      "prompt": "iPhone photo at the front of a suburban house at night: a couple, second after, a different animation: closer angle, a Merry Christmas script writes itself across the curtain while the couple steps back on the lawn and reacts, the curtain lights from the first image clearly visible. Top 20% clear for text. Background details: a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn; a cul-de-sac with neighbors' houses decorated with Christmas lights in the background. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+      "refs": [
+       "/workspace/hookforge/assets/jollyglow/box/p1.png",
+       "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+       "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+       "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+      ],
+      "n": 1
+     },
+     "credits": 34.5,
+     "trims": {
+      "LIT2": [
+       0.5,
+       2.0
+      ],
+      "LIT3": [
+       2.0,
+       3.7
+      ]
+     },
+     "recreate_checks": [],
+     "source": "ai",
+     "grade": "iphone_subtle",
+     "reference_image_paths": [
+      "/workspace/hookforge/assets/jollyglow/box/p1.png",
+      "/workspace/hookforge/assets/jollyglow/other/p3.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_hook_ref_nocaption.jpg",
+      "/workspace/hookforge/refs/jollyglow/cast/lifestyle_ref_s5_reveal.jpg"
+     ],
+     "ref_manifest": "refs/jollyglow/manifest.json"
+    }
+   ],
+   "duration": 13.2,
+   "hook_s": 3.9,
+   "music": {
+    "pick": {
+     "song": "holly_jolly",
+     "version": "Michael Bublé Holly Jolly Christmas from 0:00",
+     "offset_s": 0.1,
+     "energy": 3,
+     "region": "unknown",
+     "score": 3.051,
+     "why": ""
+    },
+    "alternatives": [
+     {
+      "song": "last_christmas",
+      "version": "Wham! Last Christmas (official) ~2:50 chorus",
+      "offset_s": 170.5,
+      "energy": 4,
+      "region": "UK/EU-skewed",
+      "score": 3.05,
+      "why": ""
+     },
+     {
+      "song": "aiwfc_intro",
+      "version": "Mariah Carey AIWFC, slow intro (Make My Wish Come True ed. ~0:49.6)",
+      "offset_s": 49.6,
+      "energy": 3,
+      "region": "tier1_global",
+      "score": 2.191,
+      "why": "proven in niche (own best 91,000, ext best 23,700,000); energy gap 0; region tier1_global"
+     }
+    ],
+    "rejected": [
+     {
+      "song": "free_bird",
+      "reason": "niche ski|funny != christmas"
+     },
+     {
+      "song": "boombastic_tiktok",
+      "reason": "niche ski|streetwear|funny != christmas"
+     },
+     {
+      "song": "velvet_glow",
+      "reason": "energy 1 vs video 3"
+     },
+     {
+      "song": "chestnuts",
+      "reason": "unproven (experiment slots only)"
+     },
+     {
+      "song": "somewhere_memory",
+      "reason": "unproven (experiment slots only)"
+     },
+     {
+      "song": "rockin_around",
+      "reason": "unproven (experiment slots only)"
+     },
+     {
+      "song": "be_my_baby",
+      "reason": "niche general != christmas"
+     },
+     {
+      "song": "give_it_up",
+      "reason": "niche ski|party != christmas"
+     }
+    ]
+   },
+   "caption": {
+    "text": "They'll be asking where you got it.. 🤣🎄",
+    "why": "proven caption on this product (63,320 views)"
+   },
+   "banned_cta_found": [],
+   "posting": {
+    "page": "MC",
+    "exploit_windows_pt": [
+     "18-21",
+     "21-24"
+    ],
+    "explore_windows_pt": [
+     "00-04",
+     "04-08",
+     "08-12",
+     "12-15",
+     "15-18"
+    ],
+    "explore_share": 0.2
+   },
+   "credits": {
+    "total": 174.0,
+    "budget": 175,
+    "within_budget": true,
+    "reroll_reserve_max_1_shot": 64.0,
+    "breakdown": [
+     [
+      "H",
+      "1080p",
+      70.5
+     ],
+     [
+      "B1",
+      "720p",
+      34.5
+     ],
+     [
+      "B2",
+      "720p",
+      34.5
+     ],
+     [
+      "B3",
+      "720p",
+      34.5
+     ]
+    ],
+    "source": "inferred from Higgsfield transactions 2026-10-18 (read-only)"
+   },
+   "prompt_checks": [],
+   "us_cues": [
+    "a typical American suburban two-story house with vinyl siding, a front porch, a two-car garage and a lawn",
+    "a cul-de-sac with neighbors' houses decorated with Christmas lights in the background"
+   ],
+   "proof_shot": {
+    "present": false,
+    "spec": null
+   },
+   "hook_variants": [
+    {
+     "text": "POV: the whole street is JEALOUS 😏🏠",
+     "tag": "P",
+     "why": "own JollyGlow curtain reel fb_28305014139198128 63,320 views, cut to 6 words (D149 8-word hard rule; D146 curtain-fit, replaces 'Women are hard to gift..')",
+     "cards": null,
+     "cards_source": null,
+     "rank": 1,
+     "role": "control (proven)"
+    },
+    {
+     "text": "\"Women are hard to gift..\"",
+     "tag": "P",
+     "why": "HJ-01 6.6M",
+     "rank": 2,
+     "role": "variant",
+     "share_cta": false
+    },
+    {
+     "text": "\"Moms are so hard to gift 🥺❄️🎅\"",
+     "tag": "P",
+     "why": "HJ 90K",
+     "rank": 3,
+     "role": "variant",
+     "share_cta": false
+    },
+    {
+     "text": "\"Kids are hard to gift\" 🎄",
+     "tag": "P",
+     "why": "VR-03 374K",
+     "rank": 4,
+     "role": "variant",
+     "share_cta": false
+    }
+   ],
+   "covers": [
+    {
+     "role": "hook",
+     "t": 0.3,
+     "why": "product legible at 0 s + hook text"
+    },
+    {
+     "role": "activation",
+     "t": 8.25,
+     "why": "ACT mid-shot"
+    },
+    {
+     "role": "payoff",
+     "t": 12.35,
+     "why": "LIT3 mid-shot"
+    }
+   ],
+   "season": {
+    "phase": "pre_season",
+    "levers": [
+     "gift formats ok",
+     "cozy/decor then-vs-now",
+     "Christmas music allowed (own Sep-Oct winners used it)"
+    ],
+    "gift_cutoff": null,
+    "delivery_claims_allowed": false,
+    "date": "2026-10-21",
+    "ly_season_prior": {
+     "format": {
+      "F09": {
+       "share": 0.354,
+       "prior_weight": 0.5,
+       "score": 0.0885,
+       "n": 1,
+       "thin": true,
+       "confidence": "low"
+      },
+      "F13": {
+       "share": 0.329,
+       "prior_weight": 0.5,
+       "score": 0.082,
+       "n": 1,
+       "thin": true,
+       "confidence": "low"
+      },
+      "F07": {
+       "share": 0.317,
+       "prior_weight": 0.5,
+       "score": 0.0795,
+       "n": 1,
+       "thin": true,
+       "confidence": "low"
+      }
+     },
+     "music": {
+      "no Shazam match (label: original sound)": {
+       "share": 0.218,
+       "prior_weight": 0.5,
+       "score": 0.109,
+       "n": 7,
+       "thin": false
+      },
+      "Fantasmic! (From Fantasmic!) [Disneyland] - Bruce Healey, Ned Washington, Sammy Cahn, Leigh Harline, Frank Churchill, Larry Morey, Alan Menken, Howard Ashman, Sammy Fain, Jack Wallace, Jack Lawrence, Oliver Wallace, Modest Mussorgsky, Barnette Ricci, Paul Dukas & Victor Young | in-point 41.3s at video 0 | conf high": {
+       "share": 0.036,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "Total Eclipse of the Heart - Bonnie Tyler | in-point 46.7s at video 0 | conf high": {
+       "share": 0.036,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "All I Want for Christmas Is You - Mariah Carey | in-point 51.1s at video 0 | conf high": {
+       "share": 0.036,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "Last Christmas (Single Version) - Wham! | in-point 34.8s at video 0 | conf high": {
+       "share": 0.035,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "Oui, Oui, Oui, Oui - Sacha Distel | in-point -0.2s at video 0 | conf high": {
+       "share": 0.035,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "Sleigh Ride - The Ronettes | in-point 48.2s at video 0 | conf high": {
+       "share": 0.035,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "Rockin' Around The Christmas Tree - Brenda Lee | in-point -0.0s at video 0 | conf high": {
+       "share": 0.034,
+       "prior_weight": 0.5,
+       "score": 0.017,
+       "n": 1,
+       "thin": false
+      },
+      "no Shazam match (label: Elf - Main Theme)": {
+       "share": 0.034,
+       "prior_weight": 0.5,
+       "score": 0.017,
+       "n": 1,
+       "thin": false
+      },
+      "Morning Bossa Nova - Bossa Nova Terrace | in-point unknowns at video 0 | conf high": {
+       "share": 0.034,
+       "prior_weight": 0.5,
+       "score": 0.017,
+       "n": 1,
+       "thin": false
+      },
+      "A Thousand Years - Christina Perri | in-point 18.9s at video 0 | conf high": {
+       "share": 0.034,
+       "prior_weight": 0.5,
+       "score": 0.017,
+       "n": 1,
+       "thin": false
+      },
+      "no Shazam match (label: Rockin’ Around The Christmas Tree)": {
+       "share": 0.034,
+       "prior_weight": 0.5,
+       "score": 0.017,
+       "n": 1,
+       "thin": false
+      },
+      "Christmas (Baby Please Come Home) - Darlene Love | in-point 9.2s at video 0 | conf high": {
+       "share": 0.032,
+       "prior_weight": 0.5,
+       "score": 0.016,
+       "n": 1,
+       "thin": false
+      },
+      "Sleigh Ride - Ella Fitzgerald | in-point 10.8s at video 0 | conf high": {
+       "share": 0.032,
+       "prior_weight": 0.5,
+       "score": 0.016,
+       "n": 1,
+       "thin": false
+      },
+      "last christmas": {
+       "share": 0.031,
+       "prior_weight": 0.5,
+       "score": 0.016,
+       "n": 1,
+       "thin": false
+      },
+      "Last Christmas (Single Version) - Wham! | in-point 74.1s at video 0 | conf high": {
+       "share": 0.031,
+       "prior_weight": 0.5,
+       "score": 0.016,
+       "n": 1,
+       "thin": false
+      },
+      "Rockin' Around The Christmas Tree - Brenda Lee | in-point 0.0s at video 0 | conf high": {
+       "share": 0.031,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "Its Beginning to Look a Lot Like Christmas (2024 Remastered) - The Fontane Sisters | in-point 87.1s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "Jingle Bell Rock - Bobby Helms | in-point 0.4s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "U Know What's Up (feat. Lisa \"Left Eye\" Lopes) - Donell Jones | in-point unknowns at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "All I Want for Christmas Is You - Mariah Carey | in-point 48.3s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "Sakura - Lined Street - KCNX | in-point 0.0s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "Upside Down - Jack Johnson | in-point 54.3s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "Run It - Jelly Roll | in-point 37.3s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "original sound - demetra dias (platform label; not yet audio-ID'd) | Shazam: no match": {
+       "share": 0.029,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      }
+     },
+     "weight": 0.5
+    }
+   },
+   "posting_checklist": [
+    "FB: run the caption/thumbnail test with the hook variants + covers (up to 4)",
+    "IG: post experiment slots as Trial Reels",
+    "Final file: exported via autoedit.clean_export (metadata/C2PA stripped, D44); preflight asserts none remains"
+   ],
+   "mock_source": {
+    "key": "MC-01",
+    "file": "/workspace/merryglow/videos/mc_post122118620919475353.mp4",
+    "views": 63320,
+    "same_format": false
+   },
+   "provenance": {
+    "text_style": "style/capcut_text_preset.json (version 1.0)",
+    "emojis": "engine default",
+    "shot_grammar": "style/shot_grammar.md",
+    "psych": "psychology/psych_codebook.csv",
+    "audience": [
+     "audience/lexicon.csv",
+     "audience/audience_rules.csv"
+    ],
+    "voice": "voice/voice_rules.csv"
+   },
+   "audience_fit": {
+    "ok": true,
+    "slug": "jollyglow",
+    "rows": [
+     {
+      "kind": "song",
+      "item": "holly_jolly",
+      "ok": true,
+      "reason": "genre 'christmas crooner' fits jollyglow (wow, neighbour envy, festive brag)",
+      "tier": "a",
+      "in_point": "0.1",
+      "evidence": [
+       "own:learning/music_library.csv holly_jolly on jollyglow_curtain 63320(F01|F05)",
+       "in-point: own: most-used start 0.1 s on the CapCut file across 10 own drafts (learning/music_library.csv)"
+      ]
+     },
+     {
+      "kind": "card",
+      "item": "POV: the whole street is JEALOUS 😏🏠",
+      "ok": true,
+      "score": 0.75,
+      "reason": "voice: US homeowner brag, two-dot ellipsis, emoji pair at end; slang -",
+      "evidence": [
+       "own/ext hook: own JollyGlow curtain reel fb_28305014139198128 63,320 views, cut to 6 words (D149 8-word hard rule; D146 curtain-fit, replaces 'Women are hard to gift..')"
+      ]
+     },
+     {
+      "kind": "emoji",
+      "item": "😏",
+      "ok": true,
+      "reason": "not in jollyglow set but proven in own data (D68 guard)",
+      "evidence": [
+       "own:MC-01 63,320",
+       "own:MC-02 62,813",
+       "own:MC-03 62,010"
+      ]
+     },
+     {
+      "kind": "emoji",
+      "item": "🏠",
+      "ok": true,
+      "reason": "jollyglow: house front",
+      "evidence": [
+       "profile:audience/jollyglow.yaml emoji_allowed"
+      ]
+     },
+     {
+      "kind": "caption",
+      "item": "They'll be asking where you got it.. 🤣🎄",
+      "ok": true,
+      "score": 1.0,
+      "reason": "voice: US homeowner brag, two-dot ellipsis, emoji pair at end; slang [\"they'll be asking where you got it\"]",
+      "evidence": [
+       "own: 63,320 views (jollyglow_curtain)",
+       "own: proven caption on this product (63,320 views)"
+      ]
+     },
+     {
+      "kind": "emoji",
+      "item": "🤣",
+      "ok": true,
+      "reason": "jollyglow: brag humour",
+      "evidence": [
+       "profile:audience/jollyglow.yaml emoji_allowed"
+      ]
+     },
+     {
+      "kind": "emoji",
+      "item": "🎄",
+      "ok": true,
+      "reason": "jollyglow: Christmas",
+      "evidence": [
+       "profile:audience/jollyglow.yaml emoji_allowed"
+      ]
+     }
+    ]
+   },
+   "edit_defaults": [
+    {
+     "gen": "H",
+     "src_in": 0.0,
+     "src_out": 3.7,
+     "speed": 1.0
+    },
+    {
+     "gen": "B1",
+     "src_in": 1.05,
+     "src_out": 1.72,
+     "speed": 1.0
+    },
+    {
+     "gen": "B1",
+     "src_in": 2.12,
+     "src_out": 2.8,
+     "speed": 1.0
+    },
+    {
+     "gen": "B2",
+     "src_in": 1.05,
+     "src_out": 1.72,
+     "speed": 1.0
+    },
+    {
+     "gen": "B2",
+     "src_in": 2.12,
+     "src_out": 2.8,
+     "speed": 1.0
+    },
+    {
+     "gen": "B3",
+     "src_in": 1.05,
+     "src_out": 1.72,
+     "speed": 1.0
+    },
+    {
+     "gen": "B3",
+     "src_in": 2.12,
+     "src_out": 2.8,
+     "speed": 1.0
+    }
+   ],
+   "edit_lint": {
+    "ok": true,
+    "rows": [
+     {
+      "gen": "-",
+      "kind": "edit",
+      "rule": "ER11",
+      "severity": "WARN",
+      "text": "1 cards",
+      "fix": "3-card structure: problem -> Vs... -> solution"
+     },
+     {
+      "gen": "-",
+      "kind": "edit",
+      "rule": "ER17",
+      "severity": "WARN",
+      "text": "no key real sound boosted",
+      "fix": "boost the key real sound (scissors, door, tape, sparks) 2-4x"
+     }
+    ],
+    "defaults": {
+     "head_trim_s": 1.05,
+     "tail_trim_s": 1.2,
+     "first_head_trim_s": 0.0,
+     "split_pieces": [
+      2,
+      3
+     ],
+     "split_gap_s": 0.4,
+     "median_shot_s": 1.5,
+     "max_shot_s": 3.3,
+     "target_len_s": [
+      11.3,
+      16.833
+     ],
+     "shots": [
+      5,
+      11
+     ],
+     "cards": 3,
+     "speed": 1.0,
+     "action_speed": [
+      1.2,
+      1.5
+     ],
+     "scale": 1.0,
+     "clip_audio_volume": 1.0,
+     "key_sound_gain": [
+      2.0,
+      4.0
+     ],
+     "song_intro_exceptions": [
+      "holly_jolly",
+      "holly jolly"
+     ],
+     "opener_max_s": 4.1,
+     "hook_speed_values": [
+      1.1,
+      1.15,
+      1.2,
+      1.3,
+      1.5
+     ],
+     "max_card_lines": 2
+    }
+   },
+   "real_shots": [
+    {
+     "role": "reveal",
+     "source": "real",
+     "kind": "footage",
+     "path": "/workspace/research/product_footage/jollyglow_curtain_lights/jg04_window_curtain_color_cycle.mp4",
+     "t_in": 0.0,
+     "dur": 2.2,
+     "credits": 0,
+     "crop": null,
+     "reframe": "9:16",
+     "needs_composite": false,
+     "note": "window curtain, clean"
+    }
+   ],
+   "resolution_fixes": [],
+   "quote": {
+    "lines": [
+     {
+      "gen": "H",
+      "item": "start frame x1 images",
+      "credits": 6.5
+     },
+     {
+      "gen": "H",
+      "item": "video 1080p 4s",
+      "credits": 64
+     },
+     {
+      "gen": "B1",
+      "item": "start frame x1 images",
+      "credits": 6.5
+     },
+     {
+      "gen": "B1",
+      "item": "video 720p 4s",
+      "credits": 28
+     },
+     {
+      "gen": "B2",
+      "item": "start frame x1 images",
+      "credits": 6.5
+     },
+     {
+      "gen": "B2",
+      "item": "video 720p 4s",
+      "credits": 28
+     },
+     {
+      "gen": "B3",
+      "item": "start frame x1 images",
+      "credits": 6.5
+     },
+     {
+      "gen": "B3",
+      "item": "video 720p 4s",
+      "credits": 28
+     }
+    ],
+    "stills": 26.0,
+    "video": 148,
+    "total": 174.0,
+    "basis": {
+     "still_gpt_image_2": 6.5,
+     "seedance_2_5_1080p_4s": 64,
+     "seedance_2_5_720p_4s": 28,
+     "per_s_1080p": 16,
+     "per_s_720p": 7
+    }
+   },
+   "gates": {
+    "ok": true,
+    "blocks": [],
+    "warns": [
+     {
+      "gate": "G5",
+      "ok": true,
+      "level": "WARN",
+      "msg": "plan.credits 174.0 differs from per-output quote 200.0; use the quote",
+      "poc": null
+     },
+     {
+      "gate": "G11",
+      "ok": true,
+      "level": "WARN",
+      "msg": "opener H runs 3.90s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+      "poc": null
+     },
+     {
+      "gate": "G22",
+      "ok": true,
+      "level": "WARN",
+      "msg": "post caption 'They'll be asking where you got it.. 🤣🎄' [WEAK PROOF: no POC cite]",
+      "poc": null
+     }
+    ],
+    "rows": [
+     {
+      "gate": "G1",
+      "ok": true,
+      "level": "INFO",
+      "msg": "in-point 0.1s (own drafts: CapCut offset 0.1 s (MC-01 63K, Omar M), verify xcorr 0.997",
+      "poc": "YouTube Dkq3LD-4pmM (Michael Bublé official channel, Official HD) via Mac"
+     },
+     {
+      "gate": "G2",
+      "ok": true,
+      "level": "INFO",
+      "msg": "hook 'POV: the whole street is JEALOUS 😏🏠' = 6 words (max 8, no exceptions)",
+      "poc": null
+     },
+     {
+      "gate": "G2",
+      "ok": true,
+      "level": "INFO",
+      "msg": "proven format ['pov_street_jealous']",
+      "poc": null
+     },
+     {
+      "gate": "G3",
+      "ok": true,
+      "level": "INFO",
+      "msg": "no profile bans contradict own data",
+      "poc": null
+     },
+     {
+      "gate": "G4",
+      "ok": true,
+      "level": "INFO",
+      "msg": "hook 1080p, rest 720p",
+      "poc": null
+     },
+     {
+      "gate": "G5",
+      "ok": true,
+      "level": "INFO",
+      "msg": "quote 200.0 credits (stills 52.0 counted per image, video 148)",
+      "poc": null
+     },
+     {
+      "gate": "G5",
+      "ok": true,
+      "level": "WARN",
+      "msg": "plan.credits 174.0 differs from per-output quote 200.0; use the quote",
+      "poc": null
+     },
+     {
+      "gate": "G6",
+      "ok": true,
+      "level": "INFO",
+      "msg": "no phonk",
+      "poc": null
+     },
+     {
+      "gate": "G6",
+      "ok": true,
+      "level": "INFO",
+      "msg": "emoji render apple_ios (Apple iOS PNGs only)",
+      "poc": null
+     },
+     {
+      "gate": "G6",
+      "ok": true,
+      "level": "INFO",
+      "msg": "prompts ask for real ambient sound only",
+      "poc": null
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "hook 'POV: the whole street is JEALOUS 😏🏠' <- own FB Merry Carrier https://www.facebook.com/reel/28305014139198128/",
+      "poc": "POC-0295"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "caption 'They'll be asking where you got it.. 🤣🎄' <- own FB Merry Carrier https://www.facebook.com/reel/28305014139198128/",
+      "poc": "POC-0060"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "song 'holly_jolly' <- own drafts n=10, proven_on grinch_robe:2700(F19);jollyglow_curtain:63320(F01|F05);merryfir",
+      "poc": "POC-0243"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "format '['no own evidence on this product (transfer)', 'fo' <- ['no own evidence on this product (transfer)', 'format tier A (Gift-Difficulty POV Handoff",
+      "poc": "['no own evidence on this product (transfer)', 'format tier A (Gift-Difficulty POV Handoff)']"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "gen H 'H' <- {'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'vie",
+      "poc": "{'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'views': 63320, 'same_format': Fal"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "gen B1 'B1' <- {'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'vie",
+      "poc": "{'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'views': 63320, 'same_format': Fal"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "gen B2 'B2' <- {'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'vie",
+      "poc": "{'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'views': 63320, 'same_format': Fal"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "gen B3 'B3' <- {'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'vie",
+      "poc": "{'key': 'MC-01', 'file': '/workspace/merryglow/videos/mc_post122118620919475353.mp4', 'views': 63320, 'same_format': Fal"
+     },
+     {
+      "gate": "G9",
+      "ok": true,
+      "level": "INFO",
+      "msg": "H: gaze OK for scene_type=organic",
+      "poc": null
+     },
+     {
+      "gate": "G9",
+      "ok": true,
+      "level": "INFO",
+      "msg": "B1: gaze OK for scene_type=organic",
+      "poc": null
+     },
+     {
+      "gate": "G9",
+      "ok": true,
+      "level": "INFO",
+      "msg": "B2: gaze OK for scene_type=organic",
+      "poc": null
+     },
+     {
+      "gate": "G9",
+      "ok": true,
+      "level": "INFO",
+      "msg": "B3: gaze OK for scene_type=organic",
+      "poc": null
+     },
+     {
+      "gate": "G10",
+      "ok": true,
+      "level": "INFO",
+      "msg": "no on-screen URL CTA",
+      "poc": null
+     },
+     {
+      "gate": "G11",
+      "ok": true,
+      "level": "WARN",
+      "msg": "opener H runs 3.90s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+      "poc": null
+     },
+     {
+      "gate": "G12",
+      "ok": true,
+      "level": "INFO",
+      "msg": "every product shot has an action",
+      "poc": null
+     },
+     {
+      "gate": "G13",
+      "ok": true,
+      "level": "INFO",
+      "msg": "all AI motions short and simple",
+      "poc": null
+     },
+     {
+      "gate": "G14",
+      "ok": true,
+      "level": "INFO",
+      "msg": "Vs not in first card",
+      "poc": null
+     },
+     {
+      "gate": "G15",
+      "ok": true,
+      "level": "INFO",
+      "msg": "no lingering shots",
+      "poc": null
+     },
+     {
+      "gate": "G16",
+      "ok": true,
+      "level": "INFO",
+      "msg": "Seedance 2.5 / GPT Image 2 only, no end frames",
+      "poc": null
+     },
+     {
+      "gate": "G17",
+      "ok": true,
+      "level": "INFO",
+      "msg": "quote 200.0 cr vs budget 200",
+      "poc": null
+     },
+     {
+      "gate": "G18",
+      "ok": true,
+      "level": "INFO",
+      "msg": "all gens <=5s",
+      "poc": null
+     },
+     {
+      "gate": "G19",
+      "ok": true,
+      "level": "INFO",
+      "msg": "card emojis proven and paired",
+      "poc": null
+     },
+     {
+      "gate": "G20",
+      "ok": true,
+      "level": "INFO",
+      "msg": "afters animated and distinct",
+      "poc": null
+     },
+     {
+      "gate": "G21",
+      "ok": true,
+      "level": "INFO",
+      "msg": "not a vs format",
+      "poc": null
+     },
+     {
+      "gate": "G22",
+      "ok": true,
+      "level": "WARN",
+      "msg": "post caption 'They'll be asking where you got it.. 🤣🎄' [WEAK PROOF: no POC cite]",
+      "poc": null
+     },
+     {
+      "gate": "G23",
+      "ok": true,
+      "level": "INFO",
+      "msg": "CTA uses SAY (no 'Comment')",
+      "poc": null
+     },
+     {
+      "gate": "G24",
+      "ok": true,
+      "level": "INFO",
+      "msg": "all settings inside the product world",
+      "poc": null
+     },
+     {
+      "gate": "G25",
+      "ok": true,
+      "level": "INFO",
+      "msg": "not a political product",
+      "poc": null
+     }
+    ]
+   }
+  },
+  "approval_file_draft": {
+   "approved_by": "",
+   "approved_at_pt": "",
+   "approval_quote": "",
+   "run_id": "concept_2026-10-20_jollyglow_curtain_F06_lean",
+   "plan_sha256": "4e2097e12be4fb0c66d0c0d1c8788b0fe3b8a544267df5753b511f2865f3a6a3",
+   "gens": [
+    "H",
+    "B1",
+    "B2",
+    "B3"
+   ],
+   "account": "user-Higgsfield--new-account",
+   "credit_cap": 174.0,
+   "expires_pt": "2026-10-21T17:11:06-07:00",
+   "consumed": false
+  }
+ },
+ "recommended_today": false,
+ "recommended_option": null
+}

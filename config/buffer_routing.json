@@ -1,0 +1,121 @@
+{
+ "_doc": "D94 Buffer multi-account routing. IDs only (no tokens). Target: 8 FB pages + 1 IG. locked=true -> never routed. plan=free -> 10 scheduled posts per account (drafts counted too, conservative).",
+ "target": {
+  "facebook": 8,
+  "instagram": 1
+ },
+ "accounts": {
+  "buffer1": {
+   "namespace": "user-Buffer",
+   "org": "6ad7108f7a26bda7eb714973",
+   "plan": "free",
+   "max_scheduled": 10,
+   "connected": true
+  },
+  "buffer2": {
+   "namespace": "user-Buffer--buffer2",
+   "org": "6ad7d4f3d9fb9bac41dd9d22",
+   "plan": "free",
+   "max_scheduled": 10,
+   "connected": true
+  },
+  "buffer3": {
+   "namespace": null,
+   "org": null,
+   "plan": "free",
+   "max_scheduled": 10,
+   "connected": false,
+   "note": "reserved slot, not connected yet"
+  }
+ },
+ "pages": {
+  "jollyglow_fb": {
+   "name": "Jolly Glow",
+   "service": "facebook",
+   "account": "buffer1",
+   "channel": "6ad7c7b6778b240e2f6eded2",
+   "windows": "_default",
+   "family": "christmas_lights"
+  },
+  "patriotsglow_fb": {
+   "name": "PatriotsGlow",
+   "service": "facebook",
+   "account": "buffer1",
+   "channel": "6ad7c63f778b240e2f6ed4e6",
+   "windows": "_default",
+   "family": "trump"
+  },
+  "purrventures_fb": {
+   "name": "PurrVentures",
+   "service": "facebook",
+   "account": "buffer1",
+   "channel": "6ad7c63f778b240e2f6ed4e5",
+   "windows": "_default",
+   "family": "cat",
+   "external_page": "facebook.com/1321043027768770"
+  },
+  "merryjammies_ig": {
+   "name": "merry.jammies",
+   "service": "instagram",
+   "account": "buffer1",
+   "channel": "6ad7c950778b240e2f6f0cfd",
+   "windows": "MJIG",
+   "family": "robe",
+   "locked": true,
+   "lock_reason": "stale: buffer1 channel 6ad7c950... no longer listed in buffer1 (read-only list_channels 2026-10-20 3:30 PM PT); superseded by merryjammies_ig_b2"
+  },
+  "trumpglow_fb": {
+   "name": "TrumpGlow",
+   "service": "facebook",
+   "account": "buffer2",
+   "channel": "6ad7d610778b240e2f6f8b6c",
+   "windows": "_default",
+   "family": "trump"
+  },
+  "merryjammies_ig_b2": {
+   "name": "merry.jammies",
+   "service": "instagram",
+   "account": "buffer2",
+   "channel": "6ad7d94a778b240e2f6ffc72",
+   "windows": "MJIG",
+   "family": "robe",
+   "source": "D115: read-only Buffer list_channels (buffer2) 2026-10-20 3:30 PM PT: connected, not locked",
+   "external_page": "instagram:merry.jammies",
+   "note": "D131: no active product routes here (robe family retired)"
+  },
+  "purrventures2_fb": {
+   "name": "PurrVentures (page 2)",
+   "service": "facebook",
+   "account": "buffer2",
+   "channel": "6ad7e3e8778b240e2f706dfd",
+   "windows": "_default",
+   "family": "cat",
+   "external_page": "facebook.com/1438161289374321",
+   "source": "D118: read-only get_channel 2026-10-20 3:40 PM PT: connected, not locked, distinct FB page from purrventures_fb (1321043027768770)"
+  }
+ },
+ "products": {
+  "trumpglow": [
+   "trumpglow_fb",
+   "patriotsglow_fb"
+  ],
+  "jollyglow_curtain": [
+   "jollyglow_fb"
+  ],
+  "purrventure_carrier": [
+   "purrventures_fb",
+   "purrventures2_fb"
+  ]
+ },
+ "unmapped_note": "D131: active products jollyglow_curtain, trumpglow, purrventure_carrier all routed; merryjammies_ig_b2 idle.",
+ "retired_products": [
+  "brickhood_mask",
+  "cozyjams",
+  "grinch_robe",
+  "grinchmelt_mug",
+  "heatjams",
+  "merryfire",
+  "merryglow_lights",
+  "minionmask"
+ ]
+}

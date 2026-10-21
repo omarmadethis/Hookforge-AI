@@ -1,0 +1,5059 @@
+{
+ "generated": "2026-10-18 21:42 PT",
+ "products": {
+  "grinchmelt_mug": {
+   "n_comments": 751,
+   "n_videos": 5,
+   "sources": {
+    "tiktok_public": 751
+   },
+   "audience": {
+    "competitor": 751
+   },
+   "codes": {
+    "ai_callout": {
+     "n": 1,
+     "share": 0.0013,
+     "like_weighted_share": 0.0007,
+     "n_videos": 1,
+     "likes_sum": 0,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "@friend j’ai acheté",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "comparison": {
+     "n": 1,
+     "share": 0.0013,
+     "like_weighted_share": 0.0007,
+     "n_videos": 1,
+     "likes_sum": 0,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "found cheaper on shien…",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "desire": {
+     "n": 46,
+     "share": 0.0613,
+     "like_weighted_share": 0.0559,
+     "n_videos": 5,
+     "likes_sum": 237,
+     "subtopics": [
+      [
+       "need",
+       13
+      ],
+      [
+       "want",
+       6
+      ],
+      [
+       "friend",
+       4
+      ],
+      [
+       "friend we need",
+       3
+      ],
+      [
+       "friend want",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Uuuo I need THIS 😋😋",
+       "likes": 157,
+       "audience": "competitor"
+      },
+      {
+       "text": "I need that mug thingy nowwww",
+       "likes": 5,
+       "audience": "competitor"
+      },
+      {
+       "text": "I already finished my Christmas list😭😭",
+       "likes": 5,
+       "audience": "competitor"
+      },
+      {
+       "text": "i watched this and now i want it to ne Christmas. ugh I can't wait",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "Damn I want one 😅😂🥰",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "Great gonna be getting this on my fyp like last year",
+       "likes": 3,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "humor": {
+     "n": 48,
+     "share": 0.0639,
+     "like_weighted_share": 0.0699,
+     "n_videos": 4,
+     "likes_sum": 933,
+     "subtopics": [
+      [
+       "chocolate",
+       4
+      ],
+      [
+       "halloween",
+       3
+      ],
+      [
+       "b m",
+       2
+      ],
+      [
+       "friend",
+       2
+      ],
+      [
+       "gonna lie",
+       2
+      ],
+      [
+       "white chocolate",
+       2
+      ],
+      [
+       "halloween yet",
+       2
+      ],
+      [
+       "even halloween",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "this but white chocolate makes me sick 😭",
+       "likes": 318,
+       "audience": "competitor"
+      },
+      {
+       "text": "Can’t lie that looks banging I think I gotta buy this 😭",
+       "likes": 273,
+       "audience": "competitor"
+      },
+      {
+       "text": "i have this but the chocolate burns way too fast😭",
+       "likes": 198,
+       "audience": "competitor"
+      },
+      {
+       "text": "I’d be filling it with cheese 🫕 not chocolate 😂",
+       "likes": 23,
+       "audience": "competitor"
+      },
+      {
+       "text": "Idk why everyone is mad some people just don't like Halloween 😭",
+       "likes": 23,
+       "audience": "competitor"
+      },
+      {
+       "text": "can’t you just do this with a normal was burner for like £2 at b&m..?😂",
+       "likes": 22,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "objection": {
+     "n": 10,
+     "share": 0.0133,
+     "like_weighted_share": 0.0173,
+     "n_videos": 3,
+     "likes_sum": 172,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Do people not own microwaves",
+       "likes": 131,
+       "audience": "competitor"
+      },
+      {
+       "text": "I'd just stick it in the microwave rather than wait for however long that would take",
+       "likes": 25,
+       "audience": "competitor"
+      },
+      {
+       "text": "I have a microwave",
+       "likes": 5,
+       "audience": "competitor"
+      },
+      {
+       "text": "Or just get a brand new wax melt holder and use that lol. £4 b&m",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "they are so expensive",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "Why not just use a stove",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "other": {
+     "n": 395,
+     "share": 0.526,
+     "like_weighted_share": 0.516,
+     "n_videos": 5,
+     "likes_sum": 23932,
+     "subtopics": [
+      [
+       "chocolate",
+       15
+      ],
+      [
+       "christmas",
+       12
+      ],
+      [
+       "halloween",
+       10
+      ],
+      [
+       "wait",
+       8
+      ],
+      [
+       "good",
+       6
+      ],
+      [
+       "october",
+       6
+      ],
+      [
+       "don t",
+       5
+      ],
+      [
+       "white chocolate",
+       5
+      ]
+     ],
+     "examples": [
+      {
+       "text": "ykw it’s actually not to bad for £7",
+       "likes": 6155,
+       "audience": "competitor"
+      },
+      {
+       "text": "Ngl I’m too fat to wait",
+       "likes": 5989,
+       "audience": "competitor"
+      },
+      {
+       "text": "dunno why everyone’s hating IM SO READY FOR CHRISTMAS",
+       "likes": 3337,
+       "audience": "competitor"
+      },
+      {
+       "text": "And then you accidentally stick your finger into the candle when you pick it up",
+       "likes": 2462,
+       "audience": "competitor"
+      },
+      {
+       "text": "Had one chocolate burnt even when I stirred it",
+       "likes": 1634,
+       "audience": "competitor"
+      },
+      {
+       "text": "I have nothing skinny to say",
+       "likes": 1197,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "praise": {
+     "n": 40,
+     "share": 0.0533,
+     "like_weighted_share": 0.0574,
+     "n_videos": 5,
+     "likes_sum": 870,
+     "subtopics": [
+      [
+       "love",
+       8
+      ],
+      [
+       "cute",
+       2
+      ],
+      [
+       "amazing",
+       2
+      ],
+      [
+       "christmas",
+       2
+      ],
+      [
+       "love christmas",
+       2
+      ],
+      [
+       "beautiful",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "this is really cute omg",
+       "likes": 702,
+       "audience": "competitor"
+      },
+      {
+       "text": "Love mine. My mum got me it for Christmas last year",
+       "likes": 53,
+       "audience": "competitor"
+      },
+      {
+       "text": "i'm muslim but i love this vibe",
+       "likes": 19,
+       "audience": "competitor"
+      },
+      {
+       "text": "Ok I know it’s not been Halloween yet but like…that does look pretty cozy lol",
+       "likes": 18,
+       "audience": "competitor"
+      },
+      {
+       "text": "These are amazing!!",
+       "likes": 17,
+       "audience": "competitor"
+      },
+      {
+       "text": "My dad brought me and my mum one of these each last week and they are amazing",
+       "likes": 16,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_how_it_works": {
+     "n": 5,
+     "share": 0.0067,
+     "like_weighted_share": 0.006,
+     "n_videos": 2,
+     "likes_sum": 7,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "does it come w the candle",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "Does it come with a candle?",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "Wait does it come with candles?",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "does it work for cheese",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "the fact its got a handle is already worrying... theres some dumb fuckers on this app that will definitely burn their house down with it 😂",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_material_safety": {
+     "n": 7,
+     "share": 0.0093,
+     "like_weighted_share": 0.0173,
+     "n_videos": 2,
+     "likes_sum": 2224,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "If everyone keeps saying the chocolate burns quick just blow out the candle?",
+       "likes": 2110,
+       "audience": "competitor"
+      },
+      {
+       "text": "This looks cool! Once the candle has burned down, can the mug be safely cleaned and used as a normal drinking mug?",
+       "likes": 95,
+       "audience": "competitor"
+      },
+      {
+       "text": "Can u teach me how to smell comments??",
+       "likes": 13,
+       "audience": "competitor"
+      },
+      {
+       "text": "Why are you smelling the comments",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "does the chocolate not burn ? @friend🤷‍♀️ do i sound stupid ?",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "It’s cute, but isn’t this a safety hazard?",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_other": {
+     "n": 21,
+     "share": 0.028,
+     "like_weighted_share": 0.0278,
+     "n_videos": 5,
+     "likes_sum": 50,
+     "subtopics": [
+      [
+       "melt",
+       2
+      ],
+      [
+       "halloween",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "can we actually pay attention to halloween for once?",
+       "likes": 15,
+       "audience": "competitor"
+      },
+      {
+       "text": "HALLOWEEN ISN'T EVEN HERE YET??",
+       "likes": 6,
+       "audience": "competitor"
+      },
+      {
+       "text": "Do y’all think a TINY CANDLE is going to melt your stuff? You’ll be waiting a while",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend//saw//me? I can make fondue",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "Can we have halloween first please?",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "Can someone get this, dip some Cheetos puffs and report back to me? I wanna see sumn😅",
+       "likes": 4,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_price": {
+     "n": 3,
+     "share": 0.004,
+     "like_weighted_share": 0.0045,
+     "n_videos": 1,
+     "likes_sum": 7,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "The price acc really good ngl",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "What price? It’s basically free!",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "cheap the price is perfect",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_shipping": {
+     "n": 2,
+     "share": 0.0027,
+     "like_weighted_share": 0.0028,
+     "n_videos": 2,
+     "likes_sum": 7,
+     "subtopics": [
+      [
+       "take to melt",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "How long does it take to melt",
+       "likes": 7,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_sizing": {
+     "n": 1,
+     "share": 0.0013,
+     "like_weighted_share": 0.0007,
+     "n_videos": 1,
+     "likes_sum": 0,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Does not fit normal size tea light candles and they just don’t stay lit? Absolutely useless rubbish",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_where_buy": {
+     "n": 12,
+     "share": 0.016,
+     "like_weighted_share": 0.0163,
+     "n_videos": 4,
+     "likes_sum": 100,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "where i can get this??",
+       "likes": 51,
+       "audience": "competitor"
+      },
+      {
+       "text": "Donde venden eses baso",
+       "likes": 6,
+       "audience": "competitor"
+      },
+      {
+       "text": "Where can I get this",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "I see this everywhere",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "where ro get this mug pls",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "sometimes i actually wanna buy something off tiktok shop and this is one of them 😔",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "skeptic": {
+     "n": 3,
+     "share": 0.004,
+     "like_weighted_share": 0.0088,
+     "n_videos": 3,
+     "likes_sum": 806,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "No way that little candle melts all that chocolate",
+       "likes": 781,
+       "audience": "competitor"
+      },
+      {
+       "text": "I'd just stick it in the microwave rather than wait for however long that would take",
+       "likes": 25,
+       "audience": "competitor"
+      },
+      {
+       "text": "there's no way that works",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "tag_friend": {
+     "n": 154,
+     "share": 0.2051,
+     "like_weighted_share": 0.176,
+     "n_videos": 5,
+     "likes_sum": 180,
+     "subtopics": [
+      [
+       "friend",
+       76
+      ],
+      [
+       "friend we need",
+       4
+      ],
+      [
+       "need",
+       4
+      ],
+      [
+       "chocolate",
+       2
+      ],
+      [
+       "don t",
+       2
+      ],
+      [
+       "friend us",
+       2
+      ],
+      [
+       "us xx",
+       2
+      ],
+      [
+       "friend us xx",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "@friend//saw//me? I can make fondue",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend: Omg me and my mum will loveee!!! How many likes to get one free please😋",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend we should’ve don’t this omg",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend ur Xmas sorted",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend we should get one each",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend here you go :)",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "too_early": {
+     "n": 37,
+     "share": 0.0493,
+     "like_weighted_share": 0.0686,
+     "n_videos": 3,
+     "likes_sum": 1140,
+     "subtopics": [
+      [
+       "halloween",
+       12
+      ],
+      [
+       "even",
+       10
+      ],
+      [
+       "even halloween",
+       7
+      ],
+      [
+       "halloween yet",
+       7
+      ],
+      [
+       "even been halloween",
+       6
+      ],
+      [
+       "october",
+       6
+      ],
+      [
+       "s october",
+       5
+      ],
+      [
+       "hasn t",
+       4
+      ]
+     ],
+     "examples": [
+      {
+       "text": "im moreso focused on how halloween isnt even over yet",
+       "likes": 722,
+       "audience": "competitor"
+      },
+      {
+       "text": "its not even Halloween",
+       "likes": 117,
+       "audience": "competitor"
+      },
+      {
+       "text": "it hasn't even been halloween yet calm down",
+       "likes": 63,
+       "audience": "competitor"
+      },
+      {
+       "text": "LISTEN I LLOOVVEE CHRISTMAS BUT WHY DOES IT FEEL LIKE IT'S COME SOOOOOOOOOO SUPER EARLY",
+       "likes": 44,
+       "audience": "competitor"
+      },
+      {
+       "text": "Hasn’t even been Halloween btw",
+       "likes": 42,
+       "audience": "competitor"
+      },
+      {
+       "text": "It’s literally October….",
+       "likes": 28,
+       "audience": "competitor"
+      }
+     ]
+    }
+   }
+  },
+  "grinch_robe": {
+   "n_comments": 2654,
+   "n_videos": 16,
+   "sources": {
+    "tiktok_public": 2654
+   },
+   "audience": {
+    "competitor": 2654
+   },
+   "codes": {
+    "ai_callout": {
+     "n": 33,
+     "share": 0.0124,
+     "like_weighted_share": 0.016,
+     "n_videos": 5,
+     "likes_sum": 461,
+     "subtopics": [
+      [
+       "ai look",
+       4
+      ],
+      [
+       "s ai",
+       3
+      ],
+      [
+       "look",
+       2
+      ],
+      [
+       "definitely ai",
+       2
+      ],
+      [
+       "price labels",
+       2
+      ],
+      [
+       "shelves smh",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "pls tell me its not AI",
+       "likes": 199,
+       "audience": "competitor"
+      },
+      {
+       "text": "i know ai when i smell it.",
+       "likes": 88,
+       "audience": "competitor"
+      },
+      {
+       "text": "Odio los comerciales de IA",
+       "likes": 35,
+       "audience": "competitor"
+      },
+      {
+       "text": "It’s AI! You can tell as soon as she puts it in the cart! And if you don’t notice, they you’ll defy notice when she rips the bag open. 🙄🙄🙄",
+       "likes": 23,
+       "audience": "competitor"
+      },
+      {
+       "text": "Can you stop using ai and show us what it actually looks like in real life instead of ai",
+       "likes": 22,
+       "audience": "competitor"
+      },
+      {
+       "text": "That’s just AI. Look at the feet’s, first it is connected to the robe, than not. Cheap",
+       "likes": 20,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "comparison": {
+     "n": 6,
+     "share": 0.0023,
+     "like_weighted_share": 0.0032,
+     "n_videos": 4,
+     "likes_sum": 34,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "hoodie are better than blankets and hoodie blankets they make u look like a dork",
+       "likes": 18,
+       "audience": "competitor"
+      },
+      {
+       "text": "no Target for me",
+       "likes": 5,
+       "audience": "competitor"
+      },
+      {
+       "text": "Almost the same as the Westinghose heated wearable blanket which is half the cost. Can I ask what makes yours better?",
+       "likes": 5,
+       "audience": "competitor"
+      },
+      {
+       "text": "Got mine from Walmart for $69 I love it omg",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "yep. seen these on walmart and amazon too",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "no target for me!!",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "complaint": {
+     "n": 9,
+     "share": 0.0034,
+     "like_weighted_share": 0.0023,
+     "n_videos": 6,
+     "likes_sum": 3,
+     "subtopics": [
+      [
+       "didn't work",
+       2
+      ],
+      [
+       "work after",
+       2
+      ],
+      [
+       "few months",
+       2
+      ],
+      [
+       "powerbank while",
+       2
+      ],
+      [
+       "while using",
+       2
+      ],
+      [
+       "didn't work after",
+       2
+      ],
+      [
+       "after a few",
+       2
+      ],
+      [
+       "months and needs",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Don't buy it my daughter got one for Christmas stopped working the next day and now coming out",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Never got it, pretty sure it's a scam 😳",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "why so many ppl saying never got it. many comments not good.",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Mine didnt come with a hoodie",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "I had one, didn't work after a few months and needs a Powerbank while using it",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "W electricity waste🥀",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "desire": {
+     "n": 320,
+     "share": 0.1206,
+     "like_weighted_share": 0.1265,
+     "n_videos": 16,
+     "likes_sum": 5110,
+     "subtopics": [
+      [
+       "need",
+       83
+      ],
+      [
+       "want",
+       36
+      ],
+      [
+       "quiero",
+       13
+      ],
+      [
+       "yo quiero",
+       8
+      ],
+      [
+       "cold",
+       7
+      ],
+      [
+       "necesito",
+       6
+      ],
+      [
+       "always cold",
+       6
+      ],
+      [
+       "quiero uno",
+       6
+      ]
+     ],
+     "examples": [
+      {
+       "text": "forget my mom i want this",
+       "likes": 2316,
+       "audience": "competitor"
+      },
+      {
+       "text": "Wouldn't a coldaholic want it to be cold not warm?",
+       "likes": 1616,
+       "audience": "competitor"
+      },
+      {
+       "text": "I would forget my feet were in there, stand up, step, and...trip and land on my face....but I still want one!😁🤣",
+       "likes": 231,
+       "audience": "competitor"
+      },
+      {
+       "text": "U after buying this",
+       "likes": 75,
+       "audience": "competitor"
+      },
+      {
+       "text": "sorry I can't go out I need to charge my sweater",
+       "likes": 65,
+       "audience": "competitor"
+      },
+      {
+       "text": "I need this not my mom",
+       "likes": 61,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "emotional": {
+     "n": 2,
+     "share": 0.0008,
+     "like_weighted_share": 0.0006,
+     "n_videos": 2,
+     "likes_sum": 2,
+     "subtopics": [],
+     "examples": []
+    },
+    "humor": {
+     "n": 171,
+     "share": 0.0644,
+     "like_weighted_share": 0.0635,
+     "n_videos": 16,
+     "likes_sum": 2094,
+     "subtopics": [
+      [
+       "need",
+       8
+      ],
+      [
+       "feet",
+       4
+      ],
+      [
+       "friend",
+       4
+      ],
+      [
+       "cold",
+       3
+      ],
+      [
+       "time",
+       3
+      ],
+      [
+       "knowing my luck",
+       3
+      ],
+      [
+       "live in texas",
+       3
+      ],
+      [
+       "people",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "I read it as cold alcoholics😭",
+       "likes": 1200,
+       "audience": "competitor"
+      },
+      {
+       "text": "And we never left the house again… 🤣",
+       "likes": 322,
+       "audience": "competitor"
+      },
+      {
+       "text": "I would forget my feet were in there, stand up, step, and...trip and land on my face....but I still want one!😁🤣",
+       "likes": 231,
+       "audience": "competitor"
+      },
+      {
+       "text": "lol I see people falling down stairs",
+       "likes": 37,
+       "audience": "competitor"
+      },
+      {
+       "text": "τι βλέπω με 40 βαθμούς....😂😂😂😂",
+       "likes": 27,
+       "audience": "competitor"
+      },
+      {
+       "text": "i need this for my period😭😭😭😭",
+       "likes": 24,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "objection": {
+     "n": 56,
+     "share": 0.0211,
+     "like_weighted_share": 0.0261,
+     "n_videos": 11,
+     "likes_sum": 4551,
+     "subtopics": [
+      [
+       "fake",
+       4
+      ],
+      [
+       "ai look",
+       4
+      ],
+      [
+       "s ai",
+       3
+      ],
+      [
+       "scam",
+       2
+      ],
+      [
+       "look",
+       2
+      ],
+      [
+       "tripping",
+       2
+      ],
+      [
+       "don t",
+       2
+      ],
+      [
+       "expensive",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "tripping to your death has never been easier",
+       "likes": 4056,
+       "audience": "competitor"
+      },
+      {
+       "text": "pls tell me its not AI",
+       "likes": 199,
+       "audience": "competitor"
+      },
+      {
+       "text": "i know ai when i smell it.",
+       "likes": 88,
+       "audience": "competitor"
+      },
+      {
+       "text": "£84 😲 that’s a bit expensive for a heated robe to be honest",
+       "likes": 25,
+       "audience": "competitor"
+      },
+      {
+       "text": "It’s AI! You can tell as soon as she puts it in the cart! And if you don’t notice, they you’ll defy notice when she rips the bag open. 🙄🙄🙄",
+       "likes": 23,
+       "audience": "competitor"
+      },
+      {
+       "text": "Can you stop using ai and show us what it actually looks like in real life instead of ai",
+       "likes": 22,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "other": {
+     "n": 1258,
+     "share": 0.474,
+     "like_weighted_share": 0.4508,
+     "n_videos": 16,
+     "likes_sum": 7470,
+     "subtopics": [
+      [
+       "robe",
+       60
+      ],
+      [
+       "cold",
+       24
+      ],
+      [
+       "cozy",
+       19
+      ],
+      [
+       "want",
+       12
+      ],
+      [
+       "don t",
+       12
+      ],
+      [
+       "cool",
+       10
+      ],
+      [
+       "blanket",
+       8
+      ],
+      [
+       "need",
+       7
+      ]
+     ],
+     "examples": [
+      {
+       "text": "For public flashings when it’s chilly",
+       "likes": 1282,
+       "audience": "competitor"
+      },
+      {
+       "text": "Clam Cooker 3000.",
+       "likes": 993,
+       "audience": "competitor"
+      },
+      {
+       "text": "“first ever” i had one of these 10 years ago",
+       "likes": 393,
+       "audience": "competitor"
+      },
+      {
+       "text": "Flying squirrel blanket",
+       "likes": 256,
+       "audience": "competitor"
+      },
+      {
+       "text": "I know a sugar glider fursuit when I see one",
+       "likes": 203,
+       "audience": "competitor"
+      },
+      {
+       "text": "ya sé que voy a pedir para esta Navidad😅😅😅",
+       "likes": 185,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "praise": {
+     "n": 270,
+     "share": 0.1017,
+     "like_weighted_share": 0.1226,
+     "n_videos": 16,
+     "likes_sum": 1127,
+     "subtopics": [
+      [
+       "love",
+       58
+      ],
+      [
+       "beautiful",
+       18
+      ],
+      [
+       "nice",
+       16
+      ],
+      [
+       "awesome",
+       16
+      ],
+      [
+       "amazing",
+       12
+      ],
+      [
+       "cute",
+       4
+      ],
+      [
+       "i'd love",
+       4
+      ],
+      [
+       "pretty",
+       4
+      ]
+     ],
+     "examples": [
+      {
+       "text": "se ve diferente al final los zapatos . pero el diseño es lindo",
+       "likes": 72,
+       "audience": "competitor"
+      },
+      {
+       "text": "cute, but it did remind me of a flying squirrel when you popped open",
+       "likes": 69,
+       "audience": "competitor"
+      },
+      {
+       "text": "That's the most beautiful thing I've ever seen",
+       "likes": 30,
+       "audience": "competitor"
+      },
+      {
+       "text": "beautiful sweetheart 💖 💕",
+       "likes": 19,
+       "audience": "competitor"
+      },
+      {
+       "text": "That's actually a pretty cool idea",
+       "likes": 15,
+       "audience": "competitor"
+      },
+      {
+       "text": "wow you make some beautiful beautiful clothing",
+       "likes": 15,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_how_it_works": {
+     "n": 35,
+     "share": 0.0132,
+     "like_weighted_share": 0.0129,
+     "n_videos": 10,
+     "likes_sum": 125,
+     "subtopics": [
+      [
+       "battery",
+       4
+      ],
+      [
+       "charge",
+       3
+      ],
+      [
+       "come",
+       2
+      ],
+      [
+       "into",
+       2
+      ],
+      [
+       "portable battery",
+       2
+      ],
+      [
+       "battery pack",
+       2
+      ],
+      [
+       "portable battery pack",
+       2
+      ],
+      [
+       "don t",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "sorry I can't go out I need to charge my sweater",
+       "likes": 65,
+       "audience": "competitor"
+      },
+      {
+       "text": "It needs to be rechargeable so you can use it in a car. A house allready has heat.",
+       "likes": 12,
+       "audience": "competitor"
+      },
+      {
+       "text": "I'm a skinny 67 year old that spends all winters in Mexico and summers in Northern Canada...does it come in blue?",
+       "likes": 12,
+       "audience": "competitor"
+      },
+      {
+       "text": "Can’t go out rn have to charge my hoodie 🙏🙏",
+       "likes": 8,
+       "audience": "competitor"
+      },
+      {
+       "text": "Do you have one with rechargable heating power instead of plug in?",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "if this is real does it need to stay plugged in?",
+       "likes": 3,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_material_safety": {
+     "n": 43,
+     "share": 0.0162,
+     "like_weighted_share": 0.0177,
+     "n_videos": 12,
+     "likes_sum": 319,
+     "subtopics": [
+      [
+       "wash",
+       12
+      ],
+      [
+       "safe",
+       4
+      ],
+      [
+       "am i supposed",
+       2
+      ],
+      [
+       "supposed to wash",
+       2
+      ],
+      [
+       "someone say",
+       2
+      ],
+      [
+       "know",
+       2
+      ],
+      [
+       "fire hazard",
+       2
+      ],
+      [
+       "know a fire",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "i know ai when i smell it.",
+       "likes": 88,
+       "audience": "competitor"
+      },
+      {
+       "text": "what about washing?? is it safe to wash?",
+       "likes": 87,
+       "audience": "competitor"
+      },
+      {
+       "text": "how do you wash it",
+       "likes": 36,
+       "audience": "competitor"
+      },
+      {
+       "text": "Gosh no. That means I have to wash my floors every day OR you have to give it self cleaning instructions.",
+       "likes": 26,
+       "audience": "competitor"
+      },
+      {
+       "text": "how to wash bro",
+       "likes": 11,
+       "audience": "competitor"
+      },
+      {
+       "text": "Looks polyester",
+       "likes": 9,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_other": {
+     "n": 134,
+     "share": 0.0505,
+     "like_weighted_share": 0.0566,
+     "n_videos": 15,
+     "likes_sum": 11411,
+     "subtopics": [
+      [
+       "cold",
+       6
+      ],
+      [
+       "want",
+       4
+      ],
+      [
+       "make",
+       3
+      ],
+      [
+       "need",
+       2
+      ],
+      [
+       "walk",
+       2
+      ],
+      [
+       "foot pockets",
+       2
+      ],
+      [
+       "pockets heated",
+       2
+      ],
+      [
+       "come",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Who else misread that as cold alcoholics?! You're my people!",
+       "likes": 7945,
+       "audience": "competitor"
+      },
+      {
+       "text": "Wouldn't a coldaholic want it to be cold not warm?",
+       "likes": 1616,
+       "audience": "competitor"
+      },
+      {
+       "text": "Wanna hang out? Yeah. 1 sec im charnging my hoodie.",
+       "likes": 1021,
+       "audience": "competitor"
+      },
+      {
+       "text": "Wouldn’t it be “warm” - aholics? 🤔",
+       "likes": 450,
+       "audience": "competitor"
+      },
+      {
+       "text": "£83? Ha that’s way too much",
+       "likes": 42,
+       "audience": "competitor"
+      },
+      {
+       "text": "WHERE DO WE BUY?? INQUIRING MINDS WANT TO KNOW 😍😍😍 #INEED",
+       "likes": 23,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_price": {
+     "n": 78,
+     "share": 0.0294,
+     "like_weighted_share": 0.0267,
+     "n_videos": 14,
+     "likes_sum": 166,
+     "subtopics": [
+      [
+       "much",
+       20
+      ],
+      [
+       "price",
+       6
+      ],
+      [
+       "precio",
+       5
+      ],
+      [
+       "cost",
+       4
+      ],
+      [
+       "them",
+       3
+      ],
+      [
+       "cuanto cuesta",
+       3
+      ],
+      [
+       "didn t",
+       3
+      ],
+      [
+       "costco",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "I thought it was a flying squirrel costume!",
+       "likes": 27,
+       "audience": "competitor"
+      },
+      {
+       "text": "¿Donde se consigue? ¿Qué precio tiene?",
+       "likes": 26,
+       "audience": "competitor"
+      },
+      {
+       "text": "How much I do like that I need to get me one of those and where can I get it?",
+       "likes": 15,
+       "audience": "competitor"
+      },
+      {
+       "text": "they are beautiful and I love them sweetheart and how much do they cost",
+       "likes": 14,
+       "audience": "competitor"
+      },
+      {
+       "text": "where can you get them and how much does it cost $$ what a great Christmas gift 🥰🥰",
+       "likes": 8,
+       "audience": "competitor"
+      },
+      {
+       "text": "also, great for your sugarglider costume",
+       "likes": 6,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_shipping": {
+     "n": 10,
+     "share": 0.0038,
+     "like_weighted_share": 0.0036,
+     "n_videos": 5,
+     "likes_sum": 22,
+     "subtopics": [
+      [
+       "s sooooo",
+       2
+      ],
+      [
+       "sooooo hot",
+       2
+      ],
+      [
+       "christmas time",
+       2
+      ],
+      [
+       "australia it s",
+       2
+      ],
+      [
+       "s sooooo hot",
+       2
+      ],
+      [
+       "hot at christmas",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "I'm a skinny 67 year old that spends all winters in Mexico and summers in Northern Canada...does it come in blue?",
+       "likes": 12,
+       "audience": "competitor"
+      },
+      {
+       "text": "how much are they and do you take payments and do you deliver. I want 2 of them",
+       "likes": 5,
+       "audience": "competitor"
+      },
+      {
+       "text": "Is there shipping to all countries?",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "Ship to Canada?",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Do you deliver to South Africa?",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "And where does it Ship from?",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_sizing": {
+     "n": 27,
+     "share": 0.0102,
+     "like_weighted_share": 0.0115,
+     "n_videos": 11,
+     "likes_sum": 98,
+     "subtopics": [
+      [
+       "size",
+       4
+      ],
+      [
+       "tall",
+       4
+      ],
+      [
+       "long",
+       2
+      ],
+      [
+       "adult money",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Got a brown one so I can be a tall jawa",
+       "likes": 23,
+       "audience": "competitor"
+      },
+      {
+       "text": "How long is the cord?",
+       "likes": 15,
+       "audience": "competitor"
+      },
+      {
+       "text": "I don’t get the fit feet thing because I would totally trip. Like I would forget my feet were in there, and I would trip and break my face.😂",
+       "likes": 9,
+       "audience": "competitor"
+      },
+      {
+       "text": "b u t I'm not 4' 11\" 😝 so I'm not going to fit😝😒😟😟😟😟😟",
+       "likes": 8,
+       "audience": "competitor"
+      },
+      {
+       "text": "i am 5'11\". Do these come in tall people sizes?",
+       "likes": 7,
+       "audience": "competitor"
+      },
+      {
+       "text": "But is it long enough to comfortably cover a 5' 10\" human? The model.looks to be about 5 foot tall.",
+       "likes": 7,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_where_buy": {
+     "n": 223,
+     "share": 0.084,
+     "like_weighted_share": 0.09,
+     "n_videos": 16,
+     "likes_sum": 1680,
+     "subtopics": [
+      [
+       "link",
+       47
+      ],
+      [
+       "donde",
+       10
+      ],
+      [
+       "send",
+       5
+      ],
+      [
+       "comprar",
+       4
+      ],
+      [
+       "need",
+       4
+      ],
+      [
+       "quiero uno",
+       4
+      ],
+      [
+       "puedo",
+       4
+      ],
+      [
+       "donde lo puedo",
+       4
+      ]
+     ],
+     "examples": [
+      {
+       "text": "You shouldn’t have properly showed me to where can I get one?",
+       "likes": 795,
+       "audience": "competitor"
+      },
+      {
+       "text": "How can I get this nonsense🥹",
+       "likes": 315,
+       "audience": "competitor"
+      },
+      {
+       "text": "Donde se vende esa manta maravillosa?",
+       "likes": 65,
+       "audience": "competitor"
+      },
+      {
+       "text": "Donde la puedo conseguir lo quiero para mi novia",
+       "likes": 28,
+       "audience": "competitor"
+      },
+      {
+       "text": "¿Donde se consigue? ¿Qué precio tiene?",
+       "likes": 26,
+       "audience": "competitor"
+      },
+      {
+       "text": "OMG! Where can you get that?!!!!!",
+       "likes": 16,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "skeptic": {
+     "n": 3,
+     "share": 0.0011,
+     "like_weighted_share": 0.0014,
+     "n_videos": 2,
+     "likes_sum": 7,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Is this real? I just have this",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "I need this. Is it real!??",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "is this real and if it is i really want one !",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "tag_friend": {
+     "n": 158,
+     "share": 0.0595,
+     "like_weighted_share": 0.0487,
+     "n_videos": 9,
+     "likes_sum": 131,
+     "subtopics": [
+      [
+       "friend",
+       78
+      ],
+      [
+       "friend friend",
+       3
+      ],
+      [
+       "need",
+       2
+      ],
+      [
+       "friend we need",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "@friend for Tyler 😂😂😂",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend mize @friend mize",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend💀💀💀💀 i neeeeeedd!😂",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend @friend deze past beter bij mijn mood....",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend 🥰🧑🏻‍🎄🧑🏻‍🎄🎄",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend grandmother ever",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "too_early": {
+     "n": 3,
+     "share": 0.0011,
+     "like_weighted_share": 0.0008,
+     "n_videos": 2,
+     "likes_sum": 1,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Fuck it can we get through Halloween first and then Thanksgiving?",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "fuck off too early",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "WHY CHRISTMAS …!!!!!! It’s September - this is traumatizing",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    }
+   }
+  },
+  "jollyglow_curtain": {
+   "n_comments": 849,
+   "n_videos": 4,
+   "sources": {
+    "tiktok_public": 849
+   },
+   "audience": {
+    "competitor": 849
+   },
+   "codes": {
+    "ai_callout": {
+     "n": 2,
+     "share": 0.0024,
+     "like_weighted_share": 0.0067,
+     "n_videos": 2,
+     "likes_sum": 6752,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "I can't have that, cause I'd sit with my nose on the wall trying to look out that window, knowing perfectly well that's not real. My delulu would win this one",
+       "likes": 6751,
+       "audience": "competitor"
+      },
+      {
+       "text": "AI killing these ads.",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "comparison": {
+     "n": 1,
+     "share": 0.0012,
+     "like_weighted_share": 0.0015,
+     "n_videos": 1,
+     "likes_sum": 4,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "u can get a decent projector on temu or Amazon for like $50 and get the same effect",
+       "likes": 4,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "desire": {
+     "n": 81,
+     "share": 0.0954,
+     "like_weighted_share": 0.0759,
+     "n_videos": 4,
+     "likes_sum": 162,
+     "subtopics": [
+      [
+       "eu quero",
+       17
+      ],
+      [
+       "quiero",
+       15
+      ],
+      [
+       "quero",
+       15
+      ],
+      [
+       "comprar",
+       8
+      ],
+      [
+       "quero comprar",
+       7
+      ],
+      [
+       "como",
+       6
+      ],
+      [
+       "yo quiero",
+       6
+      ],
+      [
+       "como fa",
+       5
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Lo quiero, cómo hago para comprarla?",
+       "likes": 28,
+       "audience": "competitor"
+      },
+      {
+       "text": "I want This so bad , it’s crazy how I could imagine overthinking at night with this view 😍",
+       "likes": 20,
+       "audience": "competitor"
+      },
+      {
+       "text": "quiero está lámpara angel como hago para comprarla",
+       "likes": 18,
+       "audience": "competitor"
+      },
+      {
+       "text": "I NEED THISSSSSS😭😭😭",
+       "likes": 17,
+       "audience": "competitor"
+      },
+      {
+       "text": "Take my money 😂😂😂😂",
+       "likes": 15,
+       "audience": "competitor"
+      },
+      {
+       "text": "dónde lo comprooooo no lo quiero lo necesito 🙏🙏🙏🙏",
+       "likes": 4,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "humor": {
+     "n": 20,
+     "share": 0.0236,
+     "like_weighted_share": 0.0494,
+     "n_videos": 2,
+     "likes_sum": 9412,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Golden brown. All about her*in lol",
+       "likes": 4569,
+       "audience": "competitor"
+      },
+      {
+       "text": "Harry Potter vibe 😭",
+       "likes": 1699,
+       "audience": "competitor"
+      },
+      {
+       "text": "stop posting this😭",
+       "likes": 213,
+       "audience": "competitor"
+      },
+      {
+       "text": "I don’t need Nosferatu pulling up to the crib 🤣🤣🤣",
+       "likes": 76,
+       "audience": "competitor"
+      },
+      {
+       "text": "donde lo consigo 😭",
+       "likes": 55,
+       "audience": "competitor"
+      },
+      {
+       "text": "Am I the only one that would be scared imma see a ghost or sum out the fake window😭",
+       "likes": 38,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "objection": {
+     "n": 4,
+     "share": 0.0047,
+     "like_weighted_share": 0.0058,
+     "n_videos": 2,
+     "likes_sum": 43,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Am I the only one that would be scared imma see a ghost or sum out the fake window😭",
+       "likes": 38,
+       "audience": "competitor"
+      },
+      {
+       "text": "u can get a decent projector on temu or Amazon for like $50 and get the same effect",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "AI killing these ads.",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "yes use fake snow as we dont get any ahahahha",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "other": {
+     "n": 357,
+     "share": 0.4205,
+     "like_weighted_share": 0.5046,
+     "n_videos": 4,
+     "likes_sum": 533281,
+     "subtopics": [
+      [
+       "decor",
+       52
+      ],
+      [
+       "prezzo",
+       7
+      ],
+      [
+       "window",
+       6
+      ],
+      [
+       "como",
+       5
+      ],
+      [
+       "prezzo grazie",
+       5
+      ],
+      [
+       "grazie",
+       5
+      ],
+      [
+       "wystrój",
+       4
+      ],
+      [
+       "imagine",
+       3
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Crazy how someone at one point in history, probably experience this",
+       "likes": 325199,
+       "audience": "competitor"
+      },
+      {
+       "text": "need movies with that vibe",
+       "likes": 68856,
+       "audience": "competitor"
+      },
+      {
+       "text": "stop cuz the song makes it so much more magical 😮‍💨",
+       "likes": 47533,
+       "audience": "competitor"
+      },
+      {
+       "text": "Imagine there is something is watching u from projector window",
+       "likes": 13674,
+       "audience": "competitor"
+      },
+      {
+       "text": "The view from my window: I live in Matera, Italy :)",
+       "likes": 10710,
+       "audience": "competitor"
+      },
+      {
+       "text": "My window. Even cozier in real life",
+       "likes": 10113,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "praise": {
+     "n": 54,
+     "share": 0.0636,
+     "like_weighted_share": 0.0523,
+     "n_videos": 3,
+     "likes_sum": 91,
+     "subtopics": [
+      [
+       "lindo",
+       7
+      ],
+      [
+       "beautiful",
+       4
+      ],
+      [
+       "lindo onde",
+       4
+      ],
+      [
+       "love",
+       4
+      ],
+      [
+       "hermoso",
+       4
+      ],
+      [
+       "donde",
+       3
+      ],
+      [
+       "comprar",
+       3
+      ],
+      [
+       "absolutely love",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "I have this projector from amazon. its pretty good for a budget one",
+       "likes": 26,
+       "audience": "competitor"
+      },
+      {
+       "text": "Omg absolutely love this where do I buy one from?",
+       "likes": 6,
+       "audience": "competitor"
+      },
+      {
+       "text": "I love that absolutely love it",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "Ojú uuuuuuuuuu.....que bonito !!!",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "I love this Beautiful 🙏❤️💐🦋👏👏👏👏",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "lindo onde comprar",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_how_it_works": {
+     "n": 5,
+     "share": 0.0059,
+     "like_weighted_share": 0.0099,
+     "n_videos": 2,
+     "likes_sum": 2382,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Main question is: is the projector noisy?",
+       "likes": 2369,
+       "audience": "competitor"
+      },
+      {
+       "text": "tried it. but the projector was so loud. destroyed the piece I wanted to create",
+       "likes": 9,
+       "audience": "competitor"
+      },
+      {
+       "text": "does it work on triangle roof",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "hola quisiera uno me envías las medidas como funciona y precio por favor gracias",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "es recargable o requiere pilas, el ángel es de plástico?",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_other": {
+     "n": 44,
+     "share": 0.0518,
+     "like_weighted_share": 0.0612,
+     "n_videos": 4,
+     "likes_sum": 514,
+     "subtopics": [
+      [
+       "projector",
+       2
+      ],
+      [
+       "cómo hago",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "so you dont have a window in a room?",
+       "likes": 150,
+       "audience": "competitor"
+      },
+      {
+       "text": "напишите кто знает, как называется и где можно купить?",
+       "likes": 125,
+       "audience": "competitor"
+      },
+      {
+       "text": "alguien en Español???",
+       "likes": 37,
+       "audience": "competitor"
+      },
+      {
+       "text": "oh? I have this projector already but how to make it looks like this?",
+       "likes": 28,
+       "audience": "competitor"
+      },
+      {
+       "text": "Lo quiero, cómo hago para comprarla?",
+       "likes": 28,
+       "audience": "competitor"
+      },
+      {
+       "text": "Before bed? I’m sound asleep at 3am",
+       "likes": 22,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_price": {
+     "n": 108,
+     "share": 0.1272,
+     "like_weighted_share": 0.0767,
+     "n_videos": 4,
+     "likes_sum": 42,
+     "subtopics": [
+      [
+       "precio",
+       28
+      ],
+      [
+       "precio tiene",
+       13
+      ],
+      [
+       "donde",
+       8
+      ],
+      [
+       "tiene",
+       7
+      ],
+      [
+       "favor",
+       7
+      ],
+      [
+       "comprar",
+       6
+      ],
+      [
+       "valor",
+       6
+      ],
+      [
+       "qual valor",
+       6
+      ]
+     ],
+     "examples": [
+      {
+       "text": "È BELLISSIMO COME SI PER COMPRARLO E DI QUANTO IL COSTO.FATE SAPERE.GRAZIE.",
+       "likes": 5,
+       "audience": "competitor"
+      },
+      {
+       "text": "cuánto cuesta y dónde se consigue.",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "Soy de la CDMX en donde la puedo conseguir y que precio tiene",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "how much r they?",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "precio porfavor",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "how can I by this and how much please",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_shipping": {
+     "n": 28,
+     "share": 0.033,
+     "like_weighted_share": 0.0193,
+     "n_videos": 2,
+     "likes_sum": 11,
+     "subtopics": [
+      [
+       "hacen",
+       6
+      ],
+      [
+       "envíos",
+       6
+      ],
+      [
+       "hacen envíos",
+       5
+      ],
+      [
+       "hacen envios",
+       4
+      ],
+      [
+       "colombia",
+       3
+      ],
+      [
+       "envios",
+       3
+      ],
+      [
+       "hacen envío",
+       3
+      ],
+      [
+       "envío",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "donde los puedo conseguir. hacen envios a Colombia",
+       "likes": 6,
+       "audience": "competitor"
+      },
+      {
+       "text": "How long does delivery take to the United Kingdom ?",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "dónde lo puedo conseguir soy de ecuador hacen envío",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Quirooo por favor envíos a Boliviano?",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "hancen envíos a Colombia gracias",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "a colombia hacen envíos",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_sizing": {
+     "n": 7,
+     "share": 0.0082,
+     "like_weighted_share": 0.0053,
+     "n_videos": 1,
+     "likes_sum": 3,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "What are the dimensions?",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "looks nice but no mention of size!",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "How does it go on the wall? Dimensions?",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "How big is this???",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "How long is it! Made of what!",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "how tall is it ? does not say on website.",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_where_buy": {
+     "n": 249,
+     "share": 0.2933,
+     "like_weighted_share": 0.2268,
+     "n_videos": 4,
+     "likes_sum": 503,
+     "subtopics": [
+      [
+       "comprar",
+       42
+      ],
+      [
+       "donde",
+       32
+      ],
+      [
+       "dónde",
+       22
+      ],
+      [
+       "puedo comprar",
+       20
+      ],
+      [
+       "puedo",
+       17
+      ],
+      [
+       "o link",
+       12
+      ],
+      [
+       "onde",
+       12
+      ],
+      [
+       "link",
+       12
+      ]
+     ],
+     "examples": [
+      {
+       "text": "where to buy it?",
+       "likes": 78,
+       "audience": "competitor"
+      },
+      {
+       "text": "Gente! onde compra isso? pelo amor de Deus, eu necessito disso kkk",
+       "likes": 75,
+       "audience": "competitor"
+      },
+      {
+       "text": "donde lo consigo 😭",
+       "likes": 55,
+       "audience": "competitor"
+      },
+      {
+       "text": "how can I get this",
+       "likes": 42,
+       "audience": "competitor"
+      },
+      {
+       "text": "Can you. Send me the link",
+       "likes": 10,
+       "audience": "competitor"
+      },
+      {
+       "text": "Estoy en Colombia donde las puedo comprar",
+       "likes": 9,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "skeptic": {
+     "n": 1,
+     "share": 0.0012,
+     "like_weighted_share": 0.0006,
+     "n_videos": 1,
+     "likes_sum": 0,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Does the actually work",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "tag_friend": {
+     "n": 1,
+     "share": 0.0012,
+     "like_weighted_share": 0.001,
+     "n_videos": 1,
+     "likes_sum": 1,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "@friend faço pra comprar",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    }
+   }
+  },
+  "purrventure_carrier": {
+   "n_comments": 380,
+   "n_videos": 3,
+   "sources": {
+    "tiktok_public": 380
+   },
+   "audience": {
+    "competitor": 380
+   },
+   "codes": {
+    "ai_callout": {
+     "n": 12,
+     "share": 0.0316,
+     "like_weighted_share": 0.0619,
+     "n_videos": 2,
+     "likes_sum": 4380,
+     "subtopics": [
+      [
+       "about ai",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "using ai makes you look hella untrustworthy, by the way..",
+       "likes": 3052,
+       "audience": "competitor"
+      },
+      {
+       "text": "I dont believe you the rest of your videos are ai",
+       "likes": 620,
+       "audience": "competitor"
+      },
+      {
+       "text": "I hate ai guys, but they’re right 😓 I own a cat rescue and mesh bags are 100% the best",
+       "likes": 524,
+       "audience": "competitor"
+      },
+      {
+       "text": "“Oh this is Ai” WHERE??",
+       "likes": 131,
+       "audience": "competitor"
+      },
+      {
+       "text": "dont believe you, you used ai",
+       "likes": 45,
+       "audience": "competitor"
+      },
+      {
+       "text": "J’ai cru qu’il avait plié le chat en deux",
+       "likes": 4,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "desire": {
+     "n": 36,
+     "share": 0.0947,
+     "like_weighted_share": 0.0918,
+     "n_videos": 2,
+     "likes_sum": 2646,
+     "subtopics": [
+      [
+       "quiero",
+       10
+      ],
+      [
+       "yo quiero",
+       9
+      ],
+      [
+       "necesito",
+       6
+      ],
+      [
+       "quiero uno",
+       5
+      ],
+      [
+       "necesito uno",
+       3
+      ],
+      [
+       "yo quiero uno",
+       3
+      ],
+      [
+       "uno para mí",
+       2
+      ],
+      [
+       "quiero dos",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Necesito uno extra extra grande para mi Gordo Tilín de 6 meses 😁",
+       "likes": 37,
+       "audience": "competitor"
+      },
+      {
+       "text": "Necesito, me urge, que hay que hacer para conseguirlo.",
+       "likes": 16,
+       "audience": "competitor"
+      },
+      {
+       "text": "necesito uno para mí gato, talla grande xD",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "lo quiero yaaa ese cangurin lo es todo",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "lo quierooooooooooooooo",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "dónde lo compraste lo necesito",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "humor": {
+     "n": 13,
+     "share": 0.0342,
+     "like_weighted_share": 0.0481,
+     "n_videos": 2,
+     "likes_sum": 1655,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "mi gato me saca un ojo antes de meterlo hay 😂",
+       "likes": 1187,
+       "audience": "competitor"
+      },
+      {
+       "text": "какой это спокойный питомец мой бешеный😂",
+       "likes": 390,
+       "audience": "competitor"
+      },
+      {
+       "text": "So annoying when they don't post where they got the product 💀",
+       "likes": 67,
+       "audience": "competitor"
+      },
+      {
+       "text": "Мой бы всё равно сбёг😂",
+       "likes": 6,
+       "audience": "competitor"
+      },
+      {
+       "text": "i have 3 adult cats how can i going ??😂😂",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "aku tak suka sama ank bulus ni😩tapi skrg kat rmh aku ada satu anak bulus dah bomohkan aku 😭 keluar je ingat kat dia kasihan dia tak ada kawan kat rumah 🤦",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "objection": {
+     "n": 12,
+     "share": 0.0316,
+     "like_weighted_share": 0.0619,
+     "n_videos": 2,
+     "likes_sum": 4380,
+     "subtopics": [
+      [
+       "about ai",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "using ai makes you look hella untrustworthy, by the way..",
+       "likes": 3052,
+       "audience": "competitor"
+      },
+      {
+       "text": "I dont believe you the rest of your videos are ai",
+       "likes": 620,
+       "audience": "competitor"
+      },
+      {
+       "text": "I hate ai guys, but they’re right 😓 I own a cat rescue and mesh bags are 100% the best",
+       "likes": 524,
+       "audience": "competitor"
+      },
+      {
+       "text": "“Oh this is Ai” WHERE??",
+       "likes": 131,
+       "audience": "competitor"
+      },
+      {
+       "text": "dont believe you, you used ai",
+       "likes": 45,
+       "audience": "competitor"
+      },
+      {
+       "text": "J’ai cru qu’il avait plié le chat en deux",
+       "likes": 4,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "other": {
+     "n": 201,
+     "share": 0.5289,
+     "like_weighted_share": 0.5124,
+     "n_videos": 3,
+     "likes_sum": 1118,
+     "subtopics": [
+      [
+       "corazón ojos",
+       4
+      ],
+      [
+       "ojos de corazón",
+       4
+      ],
+      [
+       "gato",
+       3
+      ],
+      [
+       "mesh",
+       2
+      ],
+      [
+       "pobre",
+       2
+      ],
+      [
+       "cats",
+       2
+      ],
+      [
+       "small fan",
+       2
+      ],
+      [
+       "pobre gatito",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "tapi leher nya bisa gak jangan terlalu kenceng. sakit tau leher nya. kasian.",
+       "likes": 168,
+       "audience": "competitor"
+      },
+      {
+       "text": "10 secondes ... et le mien a déjà réussi à s'échapper !!! [Hilare][Hilare][Hilare]",
+       "likes": 87,
+       "audience": "competitor"
+      },
+      {
+       "text": "Animals aren't toy's",
+       "likes": 71,
+       "audience": "competitor"
+      },
+      {
+       "text": "no le pongan eso eso les duele aunque no parezca",
+       "likes": 54,
+       "audience": "competitor"
+      },
+      {
+       "text": "mana keranjang kuning nyaa Kaka ☺️",
+       "likes": 43,
+       "audience": "competitor"
+      },
+      {
+       "text": "si supieras cómo le dañas su columna tenieneolo en esa posición",
+       "likes": 36,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "praise": {
+     "n": 28,
+     "share": 0.0737,
+     "like_weighted_share": 0.0709,
+     "n_videos": 2,
+     "likes_sum": 204,
+     "subtopics": [
+      [
+       "lindo",
+       2
+      ],
+      [
+       "donde",
+       2
+      ],
+      [
+       "precios",
+       2
+      ],
+      [
+       "corazón rojo",
+       2
+      ],
+      [
+       "rojo corazón",
+       2
+      ],
+      [
+       "corazón rojo corazón",
+       2
+      ],
+      [
+       "rojo corazón rojo",
+       2
+      ],
+      [
+       "hermosos donde",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "cuteness aggression",
+       "likes": 121,
+       "audience": "competitor"
+      },
+      {
+       "text": "waoo yar so beautiful ❤️",
+       "likes": 31,
+       "audience": "competitor"
+      },
+      {
+       "text": "es tan bonito este gatito",
+       "likes": 20,
+       "audience": "competitor"
+      },
+      {
+       "text": "q manera de subir y no desir donde conseguir y ni precios dan",
+       "likes": 7,
+       "audience": "competitor"
+      },
+      {
+       "text": "Awwwwww so cute 🩷🙊",
+       "likes": 5,
+       "audience": "competitor"
+      },
+      {
+       "text": "wooo lindo , útil y genial, neko-chan kawaii 😁",
+       "likes": 3,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_other": {
+     "n": 18,
+     "share": 0.0474,
+     "like_weighted_share": 0.0559,
+     "n_videos": 3,
+     "likes_sum": 164,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Pk son chat il est calme? La mienne elle court et saute partout j’crois je l’es jamais vue calme la mienne …",
+       "likes": 104,
+       "audience": "competitor"
+      },
+      {
+       "text": "Ой... где, где купить такой рюкзачок???",
+       "likes": 27,
+       "audience": "competitor"
+      },
+      {
+       "text": "por qué les cortan las uñas a los gatos? eso nunca se hace. Yo jamás se las corto a los míos.",
+       "likes": 7,
+       "audience": "competitor"
+      },
+      {
+       "text": "por que humanizan a los animales??",
+       "likes": 5,
+       "audience": "competitor"
+      },
+      {
+       "text": "was it the second clip?",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "Это сколько в царапинах?",
+       "likes": 3,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_price": {
+     "n": 22,
+     "share": 0.0579,
+     "like_weighted_share": 0.0599,
+     "n_videos": 2,
+     "likes_sum": 50,
+     "subtopics": [
+      [
+       "price",
+       5
+      ],
+      [
+       "precio",
+       2
+      ],
+      [
+       "precios",
+       2
+      ],
+      [
+       "precio tienen",
+       2
+      ],
+      [
+       "precios y tamaños",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "q manera de subir y no desir donde conseguir y ni precios dan",
+       "likes": 7,
+       "audience": "competitor"
+      },
+      {
+       "text": "en donde se consigue y que precio tiene",
+       "likes": 6,
+       "audience": "competitor"
+      },
+      {
+       "text": "mojy ya bag chiye Kiya price ha iski",
+       "likes": 5,
+       "audience": "competitor"
+      },
+      {
+       "text": "precio y si hacen envíos",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "Combien sa coûte est comment y acheter",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "que costó tienen donde las puedo adquirir",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_shipping": {
+     "n": 1,
+     "share": 0.0026,
+     "like_weighted_share": 0.0029,
+     "n_videos": 1,
+     "likes_sum": 2,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "precio y si hacen envíos",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_sizing": {
+     "n": 3,
+     "share": 0.0079,
+     "like_weighted_share": 0.0087,
+     "n_videos": 1,
+     "likes_sum": 7,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "necesito uno para mí gato, talla grande xD",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "i have 3 adult cats how can i going ??😂😂",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "Do you guys sell these in jumbo sizes",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_where_buy": {
+     "n": 61,
+     "share": 0.1605,
+     "like_weighted_share": 0.1345,
+     "n_videos": 3,
+     "likes_sum": 211,
+     "subtopics": [
+      [
+       "donde",
+       14
+      ],
+      [
+       "dónde",
+       8
+      ],
+      [
+       "compro",
+       5
+      ],
+      [
+       "información",
+       5
+      ],
+      [
+       "donde lo compro",
+       4
+      ],
+      [
+       "venden",
+       4
+      ],
+      [
+       "consigo",
+       4
+      ],
+      [
+       "puedo comprar",
+       3
+      ]
+     ],
+     "examples": [
+      {
+       "text": "“Oh this is Ai” WHERE??",
+       "likes": 131,
+       "audience": "competitor"
+      },
+      {
+       "text": "DONDE LO COMPRO DÍGANME",
+       "likes": 11,
+       "audience": "competitor"
+      },
+      {
+       "text": "Por eso es que yo veo los videos y sigo de largo porque me da mal genio que no den información completa",
+       "likes": 11,
+       "audience": "competitor"
+      },
+      {
+       "text": "q manera de subir y no desir donde conseguir y ni precios dan",
+       "likes": 7,
+       "audience": "competitor"
+      },
+      {
+       "text": "en donde se consigue y que precio tiene",
+       "likes": 6,
+       "audience": "competitor"
+      },
+      {
+       "text": "Y dónde lo venden",
+       "likes": 4,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "tag_friend": {
+     "n": 7,
+     "share": 0.0184,
+     "like_weighted_share": 0.0123,
+     "n_videos": 2,
+     "likes_sum": 3,
+     "subtopics": [
+      [
+       "friend",
+       4
+      ]
+     ],
+     "examples": [
+      {
+       "text": "@friend uno así para tu michis 😁",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend para mascotas MASCOTODO",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    }
+   }
+  },
+  "merryfire": {
+   "n_comments": 32,
+   "n_videos": 1,
+   "sources": {
+    "tiktok_public": 32
+   },
+   "audience": {
+    "competitor": 32
+   },
+   "codes": {
+    "desire": {
+     "n": 6,
+     "share": 0.1875,
+     "like_weighted_share": 0.1421,
+     "n_videos": 1,
+     "likes_sum": 0,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "I need it for the children since they love to do marshmallows",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "must have it's amazing 🥰",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Getting this next week 🥰🥰🥰",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "This year I must have my fireplace to roast marshmallows 😍",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "The price is amazing!! Adding to my cart 😍",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Hay la quiero ya llega completamente armada es pesada??",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "other": {
+     "n": 9,
+     "share": 0.2812,
+     "like_weighted_share": 0.2884,
+     "n_videos": 1,
+     "likes_sum": 5,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "there out of this one",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "Thanks boo I just got mine!!",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Can I leave this outdoor year round",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Está súper padre",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Para este verano súper para tostar bombones 🤩",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Tengo una duda es difícil de armar para mi patio es ideal",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "praise": {
+     "n": 12,
+     "share": 0.375,
+     "like_weighted_share": 0.3827,
+     "n_videos": 1,
+     "likes_sum": 11,
+     "subtopics": [
+      [
+       "amazing",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Omg the price us amazing 😍😍😍",
+       "likes": 7,
+       "audience": "competitor"
+      },
+      {
+       "text": "Omg this is pretty 🤩 ✨",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "Wou que hermoso de que es el material ? No es muy pesado",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "I need it for the children since they love to do marshmallows",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "must have it's amazing 🥰",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Wooo, besides being beautiful, is practical and easy to use.",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_how_it_works": {
+     "n": 1,
+     "share": 0.0312,
+     "like_weighted_share": 0.0497,
+     "n_videos": 1,
+     "likes_sum": 2,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "When does it come back ?",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_material_safety": {
+     "n": 2,
+     "share": 0.0625,
+     "like_weighted_share": 0.0638,
+     "n_videos": 1,
+     "likes_sum": 1,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Wou que hermoso de que es el material ? No es muy pesado",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Amiga de qué material es el asador m refiero q si es pesado o lijero",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_other": {
+     "n": 5,
+     "share": 0.1562,
+     "like_weighted_share": 0.1348,
+     "n_videos": 1,
+     "likes_sum": 1,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Wow es perfecto 🤩 oye trae algo para cubrirlo o como lo protejes ?",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Woo. Seve súper padre. Viene todo incluido. Es fácil de. Armar ?",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Viene con todos los accesorios que muestras en el video?",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Me súper encanta ya viene armada ?",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Hay la quiero ya llega completamente armada es pesada??",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_price": {
+     "n": 2,
+     "share": 0.0625,
+     "like_weighted_share": 0.0966,
+     "n_videos": 1,
+     "likes_sum": 7,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Omg the price us amazing 😍😍😍",
+       "likes": 7,
+       "audience": "competitor"
+      },
+      {
+       "text": "The price is amazing!! Adding to my cart 😍",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_sizing": {
+     "n": 1,
+     "share": 0.0312,
+     "like_weighted_share": 0.0237,
+     "n_videos": 1,
+     "likes_sum": 0,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Es facil armar amiga es no me gusta andar batallando 😅",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_where_buy": {
+     "n": 1,
+     "share": 0.0312,
+     "like_weighted_share": 0.0497,
+     "n_videos": 1,
+     "likes_sum": 2,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Am I stupid? I can’t find the link",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    }
+   }
+  },
+  "merryglow_lights": {
+   "n_comments": 3572,
+   "n_videos": 16,
+   "sources": {
+    "tiktok_public": 3572
+   },
+   "audience": {
+    "competitor": 3572
+   },
+   "codes": {
+    "ai_callout": {
+     "n": 45,
+     "share": 0.0126,
+     "like_weighted_share": 0.0139,
+     "n_videos": 10,
+     "likes_sum": 849,
+     "subtopics": [
+      [
+       "pura ia",
+       7
+      ],
+      [
+       "inteligencia artificial",
+       4
+      ],
+      [
+       "pura",
+       4
+      ],
+      [
+       "inteligencia",
+       2
+      ],
+      [
+       "artificial",
+       2
+      ],
+      [
+       "ai vs",
+       2
+      ],
+      [
+       "eso es ia",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "solo pongan proyector navideño usb en Amazon ai sale",
+       "likes": 442,
+       "audience": "competitor"
+      },
+      {
+       "text": "the AI is insane . The huge usb magically fit into the port LOL",
+       "likes": 255,
+       "audience": "competitor"
+      },
+      {
+       "text": "alguien siquiera se ha fijado que es IA",
+       "likes": 7,
+       "audience": "competitor"
+      },
+      {
+       "text": "Esto debe de ser inteligencia artificial no se encuentra en ningún lado",
+       "likes": 6,
+       "audience": "competitor"
+      },
+      {
+       "text": "Dice abajo derecha en letras chiquitas:Contenido generado por AI.",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "not sold in stores... it's ai",
+       "likes": 3,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "comparison": {
+     "n": 4,
+     "share": 0.0011,
+     "like_weighted_share": 0.0018,
+     "n_videos": 3,
+     "likes_sum": 384,
+     "subtopics": [
+      [
+       "ai vs",
+       2
+      ],
+      [
+       "vs reality",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "I like this idea better than putting up a Christmas tree 🎄",
+       "likes": 381,
+       "audience": "competitor"
+      },
+      {
+       "text": "Expectation vs. reality nga dyan hahah",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "ai vs reality na nmn yan[Tears of joy][Tears of joy][Tears of joy]",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "complaint": {
+     "n": 6,
+     "share": 0.0017,
+     "like_weighted_share": 0.0032,
+     "n_videos": 4,
+     "likes_sum": 1095,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "eso no funciona en Venezuela casi siempre no hay luz 🤣",
+       "likes": 851,
+       "audience": "competitor"
+      },
+      {
+       "text": "it won't..I got it and it sucks",
+       "likes": 233,
+       "audience": "competitor"
+      },
+      {
+       "text": "You folks are going to be Sooooo disappointed….thinking they really project like that….lol. Good luck!",
+       "likes": 10,
+       "audience": "competitor"
+      },
+      {
+       "text": "That garbage doesn’t work like that so stop with the false advertising.",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "at this price point. I wouldn't be disappointed.",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "desire": {
+     "n": 330,
+     "share": 0.0924,
+     "like_weighted_share": 0.0967,
+     "n_videos": 13,
+     "likes_sum": 1124,
+     "subtopics": [
+      [
+       "quiero",
+       58
+      ],
+      [
+       "eu quero",
+       55
+      ],
+      [
+       "need",
+       42
+      ],
+      [
+       "quero",
+       40
+      ],
+      [
+       "yo quiero",
+       38
+      ],
+      [
+       "quiero uno",
+       38
+      ],
+      [
+       "want",
+       18
+      ],
+      [
+       "comprar",
+       17
+      ]
+     ],
+     "examples": [
+      {
+       "text": "yo quiero comprar una dónde la consigo 😊",
+       "likes": 269,
+       "audience": "competitor"
+      },
+      {
+       "text": "yo quiero uno.. me encanta la navidad 🎄😊.. soy feliz decorandoi casita ...",
+       "likes": 41,
+       "audience": "competitor"
+      },
+      {
+       "text": "I need someone to buy this, try this, and report back",
+       "likes": 41,
+       "audience": "competitor"
+      },
+      {
+       "text": "yo quiero comprar uno dónde lo venden?",
+       "likes": 24,
+       "audience": "competitor"
+      },
+      {
+       "text": "Mi mami murio el 2 d diciembre y le encantaba la navidad y nosotras lo celebramos x ella asi q yo si lo pongo quiero uno",
+       "likes": 24,
+       "audience": "competitor"
+      },
+      {
+       "text": "where do I get this i want one",
+       "likes": 22,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "emotional": {
+     "n": 6,
+     "share": 0.0017,
+     "like_weighted_share": 0.0044,
+     "n_videos": 2,
+     "likes_sum": 1410,
+     "subtopics": [
+      [
+       "navidad",
+       2
+      ]
+     ],
+     "examples": []
+    },
+    "humor": {
+     "n": 101,
+     "share": 0.0283,
+     "like_weighted_share": 0.0358,
+     "n_videos": 14,
+     "likes_sum": 2933,
+     "subtopics": [
+      [
+       "aquí en venezuela",
+       4
+      ],
+      [
+       "jajaja jamás",
+       4
+      ],
+      [
+       "ve así",
+       4
+      ],
+      [
+       "jamás se ve",
+       4
+      ],
+      [
+       "venezuela",
+       4
+      ],
+      [
+       "jajaja",
+       4
+      ],
+      [
+       "uffff caramba",
+       3
+      ],
+      [
+       "estos altos",
+       3
+      ]
+     ],
+     "examples": [
+      {
+       "text": "eso no funciona en Venezuela casi siempre no hay luz 🤣",
+       "likes": 851,
+       "audience": "competitor"
+      },
+      {
+       "text": "вот заставили идти искать. теперь смотрю на озоне😂.",
+       "likes": 420,
+       "audience": "competitor"
+      },
+      {
+       "text": "the AI is insane . The huge usb magically fit into the port LOL",
+       "likes": 255,
+       "audience": "competitor"
+      },
+      {
+       "text": "how did it turn into a flocked tree 😂",
+       "likes": 227,
+       "audience": "competitor"
+      },
+      {
+       "text": "Я в августе повесила на шторы гирлянды, муж говорит ёлку доставать😂🤣?",
+       "likes": 221,
+       "audience": "competitor"
+      },
+      {
+       "text": "“Don’t show this to a Christmas mum” DON’T SHOW THIS TO ME! 😭",
+       "likes": 208,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "objection": {
+     "n": 44,
+     "share": 0.0123,
+     "like_weighted_share": 0.0146,
+     "n_videos": 10,
+     "likes_sum": 892,
+     "subtopics": [
+      [
+       "fake",
+       2
+      ],
+      [
+       "temu",
+       2
+      ],
+      [
+       "christmas tree",
+       2
+      ],
+      [
+       "ai vs",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "solo pongan proyector navideño usb en Amazon ai sale",
+       "likes": 442,
+       "audience": "competitor"
+      },
+      {
+       "text": "the AI is insane . The huge usb magically fit into the port LOL",
+       "likes": 255,
+       "audience": "competitor"
+      },
+      {
+       "text": "Me running to Temu to see if they have this 🤣",
+       "likes": 31,
+       "audience": "competitor"
+      },
+      {
+       "text": "Call me lazy but I think just white lights and a bow on top is BEAUTIFUL on a Christmas tree. Simple is elegant. ❤️",
+       "likes": 13,
+       "audience": "competitor"
+      },
+      {
+       "text": "who needs a Christmas tree,if u hve this😁",
+       "likes": 9,
+       "audience": "competitor"
+      },
+      {
+       "text": "Vallan a TEMU para la navidad hay muchísimas cosas",
+       "likes": 7,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "other": {
+     "n": 1883,
+     "share": 0.5272,
+     "like_weighted_share": 0.4984,
+     "n_videos": 16,
+     "likes_sum": 11912,
+     "subtopics": [
+      [
+       "christmas",
+       267
+      ],
+      [
+       "need",
+       60
+      ],
+      [
+       "santa",
+       35
+      ],
+      [
+       "order",
+       26
+      ],
+      [
+       "ganda",
+       14
+      ],
+      [
+       "ang ganda",
+       12
+      ],
+      [
+       "navidad",
+       12
+      ],
+      [
+       "lights",
+       9
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Что делать когда новогоднее настроение появилось в сентябре ))",
+       "likes": 3368,
+       "audience": "competitor"
+      },
+      {
+       "text": "damn tick tock is going to make me broke😩",
+       "likes": 675,
+       "audience": "competitor"
+      },
+      {
+       "text": "If this shi don’t look like hers when I buy it I WILL BE RETURNING IT",
+       "likes": 668,
+       "audience": "competitor"
+      },
+      {
+       "text": "Mi madre murió para navidad pero ella amaba estas fechas y yo decoro todo de navidad y disfruto estas fiestas por ella y por mi",
+       "likes": 383,
+       "audience": "competitor"
+      },
+      {
+       "text": "I'VE NEVER HAD A GOOD CHRISTMAS 😇🙏 GOD, PLEASE LET THIS CHRISTMAS BE A GOOD ONE 😇🙏♥️♥️",
+       "likes": 348,
+       "audience": "competitor"
+      },
+      {
+       "text": "La navidad no tiene la culpa de estar todos llevamos algún dolor en el alma",
+       "likes": 339,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "praise": {
+     "n": 215,
+     "share": 0.0602,
+     "like_weighted_share": 0.063,
+     "n_videos": 15,
+     "likes_sum": 1690,
+     "subtopics": [
+      [
+       "love",
+       21
+      ],
+      [
+       "nice",
+       19
+      ],
+      [
+       "beautiful",
+       16
+      ],
+      [
+       "lindo",
+       10
+      ],
+      [
+       "hermoso",
+       8
+      ],
+      [
+       "christmas",
+       6
+      ],
+      [
+       "cute",
+       6
+      ],
+      [
+       "awesome",
+       6
+      ]
+     ],
+     "examples": [
+      {
+       "text": "siempre ponen esas cosas hermosa y nunca dicen donde lo venden no se para que lo ponen[Risita]",
+       "likes": 264,
+       "audience": "competitor"
+      },
+      {
+       "text": "yo quiero uno.. me encanta la navidad 🎄😊.. soy feliz decorandoi casita ...",
+       "likes": 41,
+       "audience": "competitor"
+      },
+      {
+       "text": "donde se piden precios gracias",
+       "likes": 36,
+       "audience": "competitor"
+      },
+      {
+       "text": "Que lindo a época mais linda do ano tá chegando só falta alguns mêses.",
+       "likes": 36,
+       "audience": "competitor"
+      },
+      {
+       "text": "Guys you can find this amazing Christmas projector light at amazon 🥰",
+       "likes": 28,
+       "audience": "competitor"
+      },
+      {
+       "text": "está muy bonito por favor dirección y precio para comprar.",
+       "likes": 18,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_how_it_works": {
+     "n": 12,
+     "share": 0.0034,
+     "like_weighted_share": 0.0066,
+     "n_videos": 5,
+     "likes_sum": 926,
+     "subtopics": [
+      [
+       "proyector navideño",
+       3
+      ],
+      [
+       "navideño usb",
+       3
+      ],
+      [
+       "proyector navideño usb",
+       3
+      ],
+      [
+       "proyector",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "solo pongan proyector navideño usb en Amazon ai sale",
+       "likes": 442,
+       "audience": "competitor"
+      },
+      {
+       "text": "the AI is insane . The huge usb magically fit into the port LOL",
+       "likes": 255,
+       "audience": "competitor"
+      },
+      {
+       "text": "proyector navideño USB",
+       "likes": 120,
+       "audience": "competitor"
+      },
+      {
+       "text": "Tienen fabricarlo con batería recargable por en Venezuela ay luz cada 2 días con los cortes todos los dias",
+       "likes": 25,
+       "audience": "competitor"
+      },
+      {
+       "text": "PROYECTOR NAVIDEÑOS USB ESTAN EN WALTMAR, PERO QUE ALGUIEN ME DIGA SI YA LO COMPRÓ Y SI SE VE COMO EN EL VIDEO POR FAVOR.",
+       "likes": 16,
+       "audience": "competitor"
+      },
+      {
+       "text": "En Amazon está como: Christmas Projector Light Plug and Play",
+       "likes": 11,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_material_safety": {
+     "n": 3,
+     "share": 0.0008,
+     "like_weighted_share": 0.0006,
+     "n_videos": 1,
+     "likes_sum": 1,
+     "subtopics": [
+      [
+       "asi desde",
+       2
+      ],
+      [
+       "co pro",
+       2
+      ],
+      [
+       "pongan lo co",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "pongamos a prueba seguro ni un metro cuadrado alumbra",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "si es asi desde que lo pongan,lo co.pro🥰",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_other": {
+     "n": 141,
+     "share": 0.0395,
+     "like_weighted_share": 0.0437,
+     "n_videos": 15,
+     "likes_sum": 693,
+     "subtopics": [
+      [
+       "buy them",
+       3
+      ],
+      [
+       "order",
+       3
+      ],
+      [
+       "peut",
+       2
+      ],
+      [
+       "como",
+       2
+      ],
+      [
+       "ang ganda",
+       2
+      ],
+      [
+       "lights",
+       2
+      ],
+      [
+       "mo na",
+       2
+      ],
+      [
+       "na kupi",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Qui regarde cette vidéo dimanche ❤️?",
+       "likes": 100,
+       "audience": "competitor"
+      },
+      {
+       "text": "То, что в розетке ,только на стену отдаёт , а на потолке откуда, да ещё вращается?",
+       "likes": 52,
+       "audience": "competitor"
+      },
+      {
+       "text": "Какая красота 😍 где можно купить?",
+       "likes": 47,
+       "audience": "competitor"
+      },
+      {
+       "text": "¿Este proyector de luces tiene una versión de Halloween?",
+       "likes": 43,
+       "audience": "competitor"
+      },
+      {
+       "text": "No se puede pagar contra reembolso ?",
+       "likes": 26,
+       "audience": "competitor"
+      },
+      {
+       "text": "cadê o carinho laranja?😁😁😁😁😁😁😁 novidades é com nos né amigas??",
+       "likes": 20,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_price": {
+     "n": 346,
+     "share": 0.0969,
+     "like_weighted_share": 0.0943,
+     "n_videos": 14,
+     "likes_sum": 878,
+     "subtopics": [
+      [
+       "much",
+       56
+      ],
+      [
+       "precio",
+       51
+      ],
+      [
+       "donde",
+       16
+      ],
+      [
+       "price",
+       15
+      ],
+      [
+       "costco",
+       12
+      ],
+      [
+       "venden",
+       9
+      ],
+      [
+       "much po",
+       8
+      ],
+      [
+       "c'est combien",
+       8
+      ]
+     ],
+     "examples": [
+      {
+       "text": "cuánto vale gracias",
+       "likes": 44,
+       "audience": "competitor"
+      },
+      {
+       "text": "proyector navideño dónde se consigue y precio???",
+       "likes": 42,
+       "audience": "competitor"
+      },
+      {
+       "text": "donde se piden precios gracias",
+       "likes": 36,
+       "audience": "competitor"
+      },
+      {
+       "text": "me puede dar el precio y como compro",
+       "likes": 35,
+       "audience": "competitor"
+      },
+      {
+       "text": "cual es el costo y donde se ubican ?",
+       "likes": 24,
+       "audience": "competitor"
+      },
+      {
+       "text": "está muy bonito por favor dirección y precio para comprar.",
+       "likes": 18,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_shipping": {
+     "n": 9,
+     "share": 0.0025,
+     "like_weighted_share": 0.0026,
+     "n_videos": 7,
+     "likes_sum": 23,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "delivery address",
+       "likes": 10,
+       "audience": "competitor"
+      },
+      {
+       "text": "$19.99 Canada Amazon",
+       "likes": 8,
+       "audience": "competitor"
+      },
+      {
+       "text": "can u deliver in Georgia (Europe) ?",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "hi location an price an you do deliver",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "location or u deliver",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "how them get yo Jamaica before Christmas",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_sizing": {
+     "n": 2,
+     "share": 0.0006,
+     "like_weighted_share": 0.0011,
+     "n_videos": 2,
+     "likes_sum": 255,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "the AI is insane . The huge usb magically fit into the port LOL",
+       "likes": 255,
+       "audience": "competitor"
+      },
+      {
+       "text": "I have a 12ft tree will it work for that? Or better yet what the larger tree it will fit perfectly?",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_where_buy": {
+     "n": 654,
+     "share": 0.1831,
+     "like_weighted_share": 0.2022,
+     "n_videos": 14,
+     "likes_sum": 2926,
+     "subtopics": [
+      [
+       "donde",
+       109
+      ],
+      [
+       "comprar",
+       66
+      ],
+      [
+       "dónde",
+       44
+      ],
+      [
+       "venden",
+       42
+      ],
+      [
+       "puedo",
+       35
+      ],
+      [
+       "donde lo venden",
+       30
+      ],
+      [
+       "puedo comprar",
+       30
+      ],
+      [
+       "link",
+       25
+      ]
+     ],
+     "examples": [
+      {
+       "text": "yo quiero comprar una dónde la consigo 😊",
+       "likes": 269,
+       "audience": "competitor"
+      },
+      {
+       "text": "siempre ponen esas cosas hermosa y nunca dicen donde lo venden no se para que lo ponen[Risita]",
+       "likes": 264,
+       "audience": "competitor"
+      },
+      {
+       "text": "Donde lo puedo comprar ???",
+       "likes": 115,
+       "audience": "competitor"
+      },
+      {
+       "text": "lo venden en CAPITOLIO 2 por 5 $ y 1 x 3 $",
+       "likes": 86,
+       "audience": "competitor"
+      },
+      {
+       "text": "para que ponen eso si no dicen donde los puede uno comprar",
+       "likes": 81,
+       "audience": "competitor"
+      },
+      {
+       "text": "Hola donde lo puedo comprar",
+       "likes": 54,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "skeptic": {
+     "n": 7,
+     "share": 0.002,
+     "like_weighted_share": 0.0027,
+     "n_videos": 5,
+     "likes_sum": 274,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "да не будет оно так светить 100%",
+       "likes": 263,
+       "audience": "competitor"
+      },
+      {
+       "text": "that's dope but I doubt it looks hard as good",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "How does it really look?",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "Does it really work?",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "Does it really look like that though?",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "The seller should pay double when you return this. No way it looks like that. There should be a penalty for misleading people.",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "tag_friend": {
+     "n": 11,
+     "share": 0.0031,
+     "like_weighted_share": 0.0025,
+     "n_videos": 6,
+     "likes_sum": 8,
+     "subtopics": [
+      [
+       "friend",
+       6
+      ]
+     ],
+     "examples": [
+      {
+       "text": "I wan‘t buy it@friend",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend a tua cara 😂",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Link to purchase Christmas LED string lights@friend",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend @friend 🫧 these lights!! 😍😍",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "@friend you should try this and can you shout me out on next vid",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "mmm @friend a Prueba",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "too_early": {
+     "n": 5,
+     "share": 0.0014,
+     "like_weighted_share": 0.0015,
+     "n_videos": 3,
+     "likes_sum": 74,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "ITS SEPTEMBER LEAVE ME ALONE FOR NOW",
+       "likes": 73,
+       "audience": "competitor"
+      },
+      {
+       "text": "It’s September. SEPTEMBER",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Can we just get through Halloween first please?",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "It’s October, why am I seeing this??? NO CHRISTMAS BEFORE HALLOWEEN!!! Definitely marking this video as not interested! 👎🏻",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    }
+   }
+  },
+  "brickhood_mask": {
+   "n_comments": 237,
+   "n_videos": 3,
+   "sources": {
+    "tiktok_public": 237
+   },
+   "audience": {
+    "competitor": 237
+   },
+   "codes": {
+    "ai_callout": {
+     "n": 9,
+     "share": 0.038,
+     "like_weighted_share": 0.0579,
+     "n_videos": 3,
+     "likes_sum": 62,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "I would of purchased it if wasn’t integrated with AI🙄",
+       "likes": 52,
+       "audience": "competitor"
+      },
+      {
+       "text": "get a wildson hood!! same product, but a small business and no AI!!!",
+       "likes": 7,
+       "audience": "competitor"
+      },
+      {
+       "text": "I would literally buy this, but now I won’t because of the ai I can’t see the real product so it could literally just be a string.",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "So no real people to advertise it? I am just tired of AI",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "comparison": {
+     "n": 1,
+     "share": 0.0042,
+     "like_weighted_share": 0.0058,
+     "n_videos": 1,
+     "likes_sum": 1,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "I saw these on Shark Tank",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "complaint": {
+     "n": 1,
+     "share": 0.0042,
+     "like_weighted_share": 0.0058,
+     "n_videos": 1,
+     "likes_sum": 1,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "I guess they improve it cause I bought one last year and it had me sweating",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "desire": {
+     "n": 14,
+     "share": 0.0591,
+     "like_weighted_share": 0.0689,
+     "n_videos": 2,
+     "likes_sum": 55,
+     "subtopics": [
+      [
+       "need",
+       6
+      ],
+      [
+       "family need",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "I would of purchased it if wasn’t integrated with AI🙄",
+       "likes": 52,
+       "audience": "competitor"
+      },
+      {
+       "text": "Beautiful! Perfect hijab . Need one of those",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "I guess they improve it cause I bought one last year and it had me sweating",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Ya.. I don't need a mask to look that good!😂",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "everyone in my family need this",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "I need to get me one of them,and it also has it's on build in mask 😷 that's a plus 💯🥰",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "humor": {
+     "n": 42,
+     "share": 0.1772,
+     "like_weighted_share": 0.1632,
+     "n_videos": 3,
+     "likes_sum": 18,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "oh my goodness..this is hilarious 😂",
+       "likes": 14,
+       "audience": "competitor"
+      },
+      {
+       "text": "Klau nk tngok nsemm ke x, tngok mata dia,,,😂😂😂",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Ya.. I don't need a mask to look that good!😂",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Just like in Trinidad 😂😂😂",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "pa pa if you're in Chicago 😂",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "She is I want her😂😂😂",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "objection": {
+     "n": 19,
+     "share": 0.0802,
+     "like_weighted_share": 0.1182,
+     "n_videos": 3,
+     "likes_sum": 91,
+     "subtopics": [
+      [
+       "people",
+       2
+      ],
+      [
+       "expensive for bucks",
+       2
+      ],
+      [
+       "bank robbers",
+       2
+      ],
+      [
+       "robbers dream",
+       2
+      ],
+      [
+       "bank robbers dream",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "I would of purchased it if wasn’t integrated with AI🙄",
+       "likes": 52,
+       "audience": "competitor"
+      },
+      {
+       "text": "Nope! I'll pass. People always scared of you when you walk around them. They always thinking you're up to no good",
+       "likes": 18,
+       "audience": "competitor"
+      },
+      {
+       "text": "get a wildson hood!! same product, but a small business and no AI!!!",
+       "likes": 7,
+       "audience": "competitor"
+      },
+      {
+       "text": "wow now the robbers will be warm",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "Um this reminds me of head cover .. I see the practicality for warmth, but just gives me an uneasy feeling",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "Too expensive for 20 bucks",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "other": {
+     "n": 133,
+     "share": 0.5612,
+     "like_weighted_share": 0.5293,
+     "n_videos": 3,
+     "likes_sum": 47,
+     "subtopics": [
+      [
+       "hood",
+       3
+      ],
+      [
+       "joy tears",
+       3
+      ],
+      [
+       "tears of joy",
+       3
+      ],
+      [
+       "cold",
+       2
+      ],
+      [
+       "good",
+       2
+      ],
+      [
+       "make",
+       2
+      ],
+      [
+       "doesn t",
+       2
+      ],
+      [
+       "winter fun",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "It aint even that cold",
+       "likes": 8,
+       "audience": "competitor"
+      },
+      {
+       "text": "Why they look like maga",
+       "likes": 6,
+       "audience": "competitor"
+      },
+      {
+       "text": "Never buy something on TT that doesn’t post their reviews.",
+       "likes": 6,
+       "audience": "competitor"
+      },
+      {
+       "text": "In Midland Tx there’s no winters , there’s only two seasons summer and hotter 🥵😡",
+       "likes": 4,
+       "audience": "competitor"
+      },
+      {
+       "text": "make some for brown people like us hispanics",
+       "likes": 3,
+       "audience": "competitor"
+      },
+      {
+       "text": "but what is it made of I don't want to be breathing in micro plastics",
+       "likes": 3,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "praise": {
+     "n": 21,
+     "share": 0.0886,
+     "like_weighted_share": 0.0836,
+     "n_videos": 3,
+     "likes_sum": 8,
+     "subtopics": [
+      [
+       "love",
+       5
+      ],
+      [
+       "awesome",
+       3
+      ],
+      [
+       "wow that's",
+       2
+      ],
+      [
+       "that's awesome",
+       2
+      ],
+      [
+       "wow that's awesome",
+       2
+      ],
+      [
+       "last year",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Beautiful! Perfect hijab . Need one of those",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "WOW THAT'S AWESOME 💖 👌",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "I love these had one last year",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Got one love it",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Great idea I love it",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "Awesome ❄️☃️❄️How Much",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_how_it_works": {
+     "n": 1,
+     "share": 0.0042,
+     "like_weighted_share": 0.0082,
+     "n_videos": 1,
+     "likes_sum": 3,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "if only the outside was waterproof",
+       "likes": 3,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_material_safety": {
+     "n": 3,
+     "share": 0.0127,
+     "like_weighted_share": 0.0127,
+     "n_videos": 1,
+     "likes_sum": 1,
+     "subtopics": [
+      [
+       "still cheap",
+       2
+      ],
+      [
+       "cheap material",
+       2
+      ],
+      [
+       "still cheap material",
+       2
+      ]
+     ],
+     "examples": [
+      {
+       "text": "Is this made with 100% cotton and linen or are they plastics involved?",
+       "likes": 1,
+       "audience": "competitor"
+      },
+      {
+       "text": "Still cheap material on a 0• day",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_other": {
+     "n": 3,
+     "share": 0.0127,
+     "like_weighted_share": 0.0141,
+     "n_videos": 2,
+     "likes_sum": 2,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Michael Scofield?",
+       "likes": 0,
+       "audience": "competitor"
+      },
+      {
+       "text": "so how long until somebody starts using it for robbing banks and stores?",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_price": {
+     "n": 3,
+     "share": 0.0127,
+     "like_weighted_share": 0.017,
+     "n_videos": 1,
+     "likes_sum": 6,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "Awesome ❄️☃️❄️How Much",
+       "likes": 0,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_sizing": {
+     "n": 1,
+     "share": 0.0042,
+     "like_weighted_share": 0.0072,
+     "n_videos": 1,
+     "likes_sum": 2,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "are these stretchy or are they a tight fit?",
+       "likes": 2,
+       "audience": "competitor"
+      }
+     ]
+    },
+    "q_where_buy": {
+     "n": 2,
+     "share": 0.0084,
+     "like_weighted_share": 0.013,
+     "n_videos": 1,
+     "likes_sum": 3,
+     "subtopics": [],
+     "examples": [
+      {
+       "text": "where can I get one",
+       "likes": 2,
+       "audience": "competitor"
+      },
+      {
+       "text": "where can I get it",
+       "likes": 1,
+       "audience": "competitor"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "correlations": [
+  {
+   "dataset": "competitor/library videos (top comments)",
+   "x": "share_q_any",
+   "y": "log10 views",
+   "spearman_rho": 0.009,
+   "n": 46,
+   "note": "top-ranked comments per video (TikTok relevance order); association only"
+  },
+  {
+   "dataset": "competitor/library videos (top comments)",
+   "x": "share_q_where_buy",
+   "y": "log10 views",
+   "spearman_rho": 0.002,
+   "n": 46,
+   "note": "top-ranked comments per video (TikTok relevance order); association only"
+  },
+  {
+   "dataset": "competitor/library videos (top comments)",
+   "x": "share_q_price",
+   "y": "log10 views",
+   "spearman_rho": 0.026,
+   "n": 46,
+   "note": "top-ranked comments per video (TikTok relevance order); association only"
+  },
+  {
+   "dataset": "competitor/library videos (top comments)",
+   "x": "share_tag_friend",
+   "y": "log10 views",
+   "spearman_rho": -0.113,
+   "n": 46,
+   "note": "top-ranked comments per video (TikTok relevance order); association only"
+  },
+  {
+   "dataset": "competitor/library videos (top comments)",
+   "x": "share_desire",
+   "y": "log10 views",
+   "spearman_rho": 0.146,
+   "n": 46,
+   "note": "top-ranked comments per video (TikTok relevance order); association only"
+  },
+  {
+   "dataset": "competitor/library videos (top comments)",
+   "x": "share_objection",
+   "y": "log10 views",
+   "spearman_rho": 0.059,
+   "n": 46,
+   "note": "top-ranked comments per video (TikTok relevance order); association only"
+  },
+  {
+   "dataset": "competitor/library videos (top comments)",
+   "x": "share_humor",
+   "y": "log10 views",
+   "spearman_rho": 0.161,
+   "n": 46,
+   "note": "top-ranked comments per video (TikTok relevance order); association only"
+  },
+  {
+   "dataset": "competitor/library videos (top comments)",
+   "x": "share_complaint",
+   "y": "log10 views",
+   "spearman_rho": 0.124,
+   "n": 46,
+   "note": "top-ranked comments per video (TikTok relevance order); association only"
+  },
+  {
+   "dataset": "competitor/library videos (top comments)",
+   "x": "share_comparison",
+   "y": "log10 views",
+   "spearman_rho": 0.263,
+   "n": 46,
+   "note": "top-ranked comments per video (TikTok relevance order); association only"
+  },
+  {
+   "dataset": "own reels, Meta Insights exports (MG/MGS/MF/MC/BH, views>=500)",
+   "x": "comments_per_1k_views",
+   "y": "log10 views",
+   "spearman_rho": 0.413,
+   "n": 42,
+   "note": "per-view rates; HJ/MJIG Insights not available yet (audit ask #1)"
+  },
+  {
+   "dataset": "own reels, Meta Insights exports",
+   "x": "comments_count",
+   "y": "log10 views",
+   "spearman_rho": 0.799,
+   "n": 42,
+   "note": "raw counts scale with views (mechanical); see per-1K row for signal"
+  },
+  {
+   "dataset": "own reels, Meta Insights exports (MG/MGS/MF/MC/BH, views>=500)",
+   "x": "shares_per_1k_views",
+   "y": "log10 views",
+   "spearman_rho": 0.671,
+   "n": 16,
+   "note": "per-view rates; HJ/MJIG Insights not available yet (audit ask #1)"
+  },
+  {
+   "dataset": "own reels, Meta Insights exports",
+   "x": "shares_count",
+   "y": "log10 views",
+   "spearman_rho": 0.846,
+   "n": 16,
+   "note": "raw counts scale with views (mechanical); see per-1K row for signal"
+  }
+ ]
+}

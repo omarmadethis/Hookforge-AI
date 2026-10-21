@@ -1,0 +1,346 @@
+{
+ "acdc_you_shook_me": {
+  "song": "AC/DC - You Shook Me All Night Long",
+  "file": "/workspace/hookforge/music/acdc_ysmanl_official_tc.m4a",
+  "source": "YouTube Lo2qQmj0_h4, channel AC/DC (official), \"AC/DC - You Shook Me All Night Long (Official 4K Video)\", bestaudio AAC 128k, fetched on Omar Mac 2026-10-19; time-stretch corrected atempo 0.987 to album timing",
+  "in_point_s": 48.29,
+  "in_point_label": "had me fighting for air (= Apple preview 0 s = start of all 3 Red First Trump ads)",
+  "markers": {
+   "walls start shaking": 6.2,
+   "earth was quaking": 8.1
+  },
+  "sync_marker": "walls start shaking",
+  "music_gain_db": 0.0,
+  "slug": [
+   "patriotglow"
+  ],
+  "verify": {
+   "preview": "music/acdc_preview_fightingforair.m4a",
+   "xcorr": 0.975,
+   "median": 0.263,
+   "tempo_correction": 0.987,
+   "preview_at_s": 48.29,
+   "checked": "2026-10-19 16:10 PT"
+  },
+  "rejected": [
+   {
+    "id": "-dZm8LFFqto",
+    "channel": "Back in Black - Topic",
+    "xcorr": 0.545,
+    "why": "different master / not same recording as Apple preview"
+   }
+  ],
+  "title": "You Shook Me All Night Long",
+  "artist": "AC/DC"
+ },
+ "free_bird_solo": {
+  "song": "Lynyrd Skynyrd - Free Bird (album, solo)",
+  "file": "/workspace/hookforge/music/freebird_official_audio.m4a",
+  "source": "YouTube 0LwcvjNJTuM, channel Lynyrd Skynyrd (official), \"Lynyrd Skynyrd - Free Bird (Audio)\" 9:10 album version, AAC 128k, fetched on Omar Mac 2026-10-19",
+  "in_point_s": 290.72,
+  "in_point_label": "solo kick-in: Omar drafts 15.0 s on MOONLGHT file -> official album; mapped via Apple preview (MOONLGHT 15.0 = preview 14.07) and direct xcorr MOONLGHT->official = 290.65",
+  "markers": {},
+  "sync_marker": null,
+  "music_gain_db": 0.0,
+  "slug": [
+   "patriotglow"
+  ],
+  "verify": {
+   "preview": "/workspace/ref/freebird.m4a",
+   "xcorr": 0.961,
+   "median": 0.454,
+   "tempo_correction": 1.0,
+   "preview_at_s": 276.65,
+   "checked": "2026-10-19 16:10 PT"
+  },
+  "replaces": "freebird_mac.mp3 (MOONLGHT 114.5 s edit)",
+  "title": "Free Bird",
+  "artist": "Lynyrd Skynyrd"
+ },
+ "free_bird_vocal": {
+  "song": "Lynyrd Skynyrd - Free Bird (album, 'won't you fly free bird' vocal line)",
+  "file": "/workspace/hookforge/music/freebird_official_audio.m4a",
+  "source": "YouTube 0LwcvjNJTuM, channel Lynyrd Skynyrd (official), \"Lynyrd Skynyrd - Free Bird (Audio)\" 9:10 album version, AAC 128k, fetched on Omar Mac 2026-10-19",
+  "in_point_s": 276.65,
+  "in_point_label": "Apple preview 0 s = 'Lord help me... won't you fly free bird' (alt in-point, SONG_INPOINTS.md). WEAK PROOF: no Trump ad measured at this line",
+  "markers": {},
+  "sync_marker": null,
+  "music_gain_db": 0.0,
+  "slug": [
+   "patriotglow"
+  ],
+  "verify": {
+   "preview": "/workspace/ref/freebird.m4a",
+   "xcorr": 0.961,
+   "median": 0.454,
+   "tempo_correction": 1.0,
+   "preview_at_s": 276.65,
+   "checked": "2026-10-19 16:10 PT"
+  },
+  "replaces": "freebird_mac.mp3 (MOONLGHT 114.5 s edit)",
+  "title": "Free Bird",
+  "artist": "Lynyrd Skynyrd"
+ },
+ "holly_jolly_mc01": {
+  "song": "Michael Bublé - Holly Jolly Christmas (Official HD)",
+  "title": "Holly Jolly Christmas",
+  "artist": "Michael Bublé",
+  "file": "/workspace/hookforge/music/holly_jolly_buble_official_hd.mp3",
+  "source": "Exact file used in Omar's CapCut drafts 1010/1011 (/Users/omar/Downloads/Michael Bublé - Holly Jolly Christmas [Official HD].mp3, 4,406,618 bytes), copied from Omar's Mac 2026-10-19 9:18 PM PT",
+  "markers": {},
+  "sync_marker": null,
+  "music_gain_db": 0.0,
+  "slug": [
+   "jollyglow"
+  ],
+  "verify": {
+   "method": "byte-identical to the draft's source file",
+   "checked": "2026-10-19 21:18 PT"
+  },
+  "in_point_s": 0.133,
+  "in_point_label": "MC-01 63.3K draft 1010: src 0.133 at reel 0.0"
+ },
+ "holly_jolly_mc03": {
+  "song": "Michael Bublé - Holly Jolly Christmas (Official HD)",
+  "title": "Holly Jolly Christmas",
+  "artist": "Michael Bublé",
+  "file": "/workspace/hookforge/music/holly_jolly_buble_official_hd.mp3",
+  "source": "Exact file used in Omar's CapCut drafts 1010/1011 (/Users/omar/Downloads/Michael Bublé - Holly Jolly Christmas [Official HD].mp3, 4,406,618 bytes), copied from Omar's Mac 2026-10-19 9:18 PM PT",
+  "markers": {},
+  "sync_marker": null,
+  "music_gain_db": 0.0,
+  "slug": [
+   "jollyglow"
+  ],
+  "verify": {
+   "method": "byte-identical to the draft's source file",
+   "checked": "2026-10-19 21:18 PT"
+  },
+  "in_point_s": 2.3,
+  "in_point_label": "MC-03 62.0K draft 1011: src 2.30 at reel 0.0 (continuous)"
+ },
+ "holly_jolly": {
+  "song": "Michael Bublé - Holly Jolly Christmas",
+  "file": "/workspace/hookforge/music/holly_jolly_bublé_official.m4a",
+  "source": "YouTube Dkq3LD-4pmM (Michael Bublé official channel, Official HD) via Mac",
+  "in_point_s": 0.1,
+  "in_point_label": "own drafts: CapCut offset 0.1 s (MC-01 63K, Omar MG draft)",
+  "poc_tier": "niche",
+  "slug": [
+   "jollyglow",
+   "merryglow",
+   "grinch_robe",
+   "merryfire",
+   "grinchmelt",
+   "purrventure",
+   "brickhood"
+  ],
+  "verify": {
+   "preview": "music/holly_jolly_preview.m4a",
+   "xcorr": 0.997,
+   "tempo_correction": 1.0,
+   "preview_at_s": 0.09,
+   "checked": "2026-10-19 21:24 PT",
+   "note": "Apple iTunes 30 s preview, fetch_song._score"
+  },
+  "music_gain_db": 0.0
+ },
+ "holly_jolly_burl_ives": {
+  "song": "Burl Ives - A Holly Jolly Christmas",
+  "file": "/workspace/hookforge/music/burl_ives_GoN2ojXl9jU.m4a",
+  "source": "YouTube GoN2ojXl9jU (Burl Ives - Topic) via Mac",
+  "in_point_s": 0.0,
+  "in_point_label": "song start (NO in-point proof yet: not in own drafts or 7-day trend list)",
+  "poc_tier": "weak",
+  "slug": [
+   "jollyglow",
+   "merryglow",
+   "grinch_robe",
+   "merryfire",
+   "grinchmelt",
+   "purrventure",
+   "brickhood"
+  ],
+  "verify": {
+   "preview": "music/burl_ives_preview.m4a",
+   "xcorr": 0.986,
+   "tempo_correction": 1.0,
+   "preview_at_s": 13.02,
+   "checked": "2026-10-19 21:24 PT",
+   "note": "Apple iTunes 30 s preview, fetch_song._score"
+  },
+  "music_gain_db": 0.0
+ },
+ "last_christmas": {
+  "song": "Wham! - Last Christmas",
+  "file": "/workspace/hookforge/music/last_christmas_remastered.m4a",
+  "source": "YouTube T0T9GyM28tg (WHAM! official, Remastered) via Mac",
+  "in_point_s": 170.5,
+  "in_point_label": "own drafts: CapCut ~2:50 chorus (robe 524K, 14 drafts); alt trend in-point 13.0 s (lip duo 1.4M)",
+  "poc_tier": "niche",
+  "slug": [
+   "jollyglow",
+   "merryglow",
+   "grinch_robe",
+   "merryfire",
+   "grinchmelt",
+   "purrventure",
+   "brickhood"
+  ],
+  "verify": {
+   "preview": "music/last_christmas_preview.m4a",
+   "xcorr": 0.995,
+   "tempo_correction": 1.0,
+   "preview_at_s": 48.0,
+   "checked": "2026-10-19 21:24 PT",
+   "note": "Apple iTunes 30 s preview, fetch_song._score"
+  },
+  "music_gain_db": 0.0
+ },
+ "aiwfc": {
+  "song": "Mariah Carey - All I Want for Christmas Is You",
+  "file": "/workspace/hookforge/music/aiwfc_lyricvideo_NrGGIoDL6U4.m4a",
+  "source": "YouTube NrGGIoDL6U4 (Mariah Carey official lyric video) via Mac; 'Official Audio' bXlk2q_kt3I rejected 0.741 (longer edit)",
+  "in_point_s": 57.0,
+  "in_point_label": "trend: 0:57 on stealsdude 8.7M (alt 0:34.3 projector 1.0M); own aiwfc_intro 49.6 s is a DIFFERENT edition (Make My Wish Come True)",
+  "poc_tier": "trend",
+  "slug": [
+   "jollyglow",
+   "merryglow",
+   "grinch_robe",
+   "merryfire",
+   "grinchmelt",
+   "purrventure",
+   "brickhood"
+  ],
+  "verify": {
+   "preview": "music/aiwfcixy_preview.m4a",
+   "xcorr": 0.994,
+   "tempo_correction": 1.0,
+   "preview_at_s": 48.53,
+   "checked": "2026-10-19 21:24 PT",
+   "note": "Apple iTunes 30 s preview, fetch_song._score"
+  },
+  "music_gain_db": 0.0,
+  "trend_expires": "2026-11-02"
+ },
+ "darlene_love_baby_please": {
+  "song": "Darlene Love - Christmas (Baby Please Come Home)",
+  "file": "/workspace/hookforge/music/darlene_love_official_audio.m4a",
+  "source": "YouTube 4EvZOXEoJ84 (Darlene Love official audio) via Mac",
+  "in_point_s": 14.9,
+  "in_point_label": "trend: 0:14.9 in 5 of 7 videos (ccreamyco 2.6M), shared TikTok sound",
+  "poc_tier": "trend",
+  "slug": [
+   "jollyglow",
+   "merryglow",
+   "grinch_robe",
+   "merryfire",
+   "grinchmelt",
+   "purrventure",
+   "brickhood"
+  ],
+  "verify": {
+   "preview": "music/darlene_love_preview.m4a",
+   "xcorr": 0.998,
+   "tempo_correction": 1.0,
+   "preview_at_s": 48.36,
+   "checked": "2026-10-19 21:24 PT",
+   "note": "Apple iTunes 30 s preview, fetch_song._score"
+  },
+  "music_gain_db": 0.0,
+  "trend_expires": "2026-11-02"
+ },
+ "winter_wonderland": {
+  "song": "Bing Crosby - Winter Wonderland",
+  "file": "/workspace/hookforge/music/winter_wonderland_rem1992.m4a",
+  "source": "YouTube jUFKKim6_hQ (Bing Crosby official, Remastered 1992) via Mac",
+  "in_point_s": 5.8,
+  "in_point_label": "trend: ~0:05.8 (lauri__b ornaments 1.9M); note 1 of 2 examples used the LSO version",
+  "poc_tier": "trend",
+  "slug": [
+   "jollyglow",
+   "merryglow",
+   "grinch_robe",
+   "merryfire",
+   "grinchmelt",
+   "purrventure",
+   "brickhood"
+  ],
+  "verify": {
+   "preview": "music/winter_wonderland_preview.m4a",
+   "xcorr": 0.996,
+   "tempo_correction": 1.0,
+   "preview_at_s": 44.98,
+   "checked": "2026-10-19 21:24 PT",
+   "note": "Apple iTunes 30 s preview, fetch_song._score"
+  },
+  "music_gain_db": 0.0,
+  "trend_expires": "2026-11-02"
+ },
+ "jingle_bell_rock": {
+  "song": "Bobby Helms - Jingle Bell Rock",
+  "file": "/workspace/hookforge/music/jingle_bell_rock_topic2.m4a",
+  "source": "YouTube 0UTjq3ipd5g (Bobby Helms - Topic) via Mac; uAolgbXsge0 rejected 0.656",
+  "in_point_s": 23.4,
+  "in_point_label": "trend: 0:23.4 (momfinds123 musical lights 526K); that video has a silent open",
+  "poc_tier": "trend",
+  "slug": [
+   "jollyglow",
+   "merryglow",
+   "grinch_robe",
+   "merryfire",
+   "grinchmelt",
+   "purrventure",
+   "brickhood"
+  ],
+  "verify": {
+   "preview": "music/jingle_bell_rock_preview.m4a",
+   "xcorr": 0.975,
+   "tempo_correction": 1.0,
+   "preview_at_s": 0.3,
+   "checked": "2026-10-19 21:24 PT",
+   "note": "Apple iTunes 30 s preview, fetch_song._score"
+  },
+  "music_gain_db": 0.0,
+  "trend_expires": "2026-11-02"
+ },
+ "mambo_no5": {
+  "title": "Mambo No. 5",
+  "artist": "Perez Prado",
+  "song": "Perez Prado - Mambo No. 5",
+  "in_point_s": 0.0,
+  "in_point_label": "POC: measured xcorr vs RollyMew IG Dehx805u5wn 20.8M (song t=4.95 at reel t=5.0 -> in-point 0.0) and DeSZcazJiCY 4.8M (in-point 0.2)",
+  "poc_tier": "competitor",
+  "slug": [
+   "purrventure"
+  ],
+  "file": "/workspace/hookforge/music/mambo_no5_youtube.m4a",
+  "source": "YouTube 7E9O0udSdOw (Perez Prado - Topic) from the box",
+  "verify": {
+   "preview": "RollyMew reels Dehx805u5wn/DeSZcazJiCY audio 5-14 s (Apple preview is a different Prado recording, xcorr 0.51)",
+   "xcorr": 0.919,
+   "preview_at_s": 4.95,
+   "tempo_correction": 1.0
+  }
+ },
+ "be_my_baby": {
+  "title": "Be My Baby",
+  "artist": "The Ronettes",
+  "song": "The Ronettes - Be My Baby",
+  "in_point_s": 31.9,
+  "in_point_label": "POC: RollyMew IG DeSyZivMTz- 7.6M / Dec26kbMGB7 5.4M @31.9s",
+  "poc_tier": "competitor",
+  "slug": [
+   "purrventure"
+  ],
+  "file": "/workspace/hookforge/music/be_my_baby_youtube.m4a",
+  "source": "youtube https://www.youtube.com/watch?v=jSPpbOGnFgk (The Ronettes | The Ronettes - Be My Baby (Official Audio), client default) from the box",
+  "verify": {
+   "preview": "/workspace/hookforge/music/be_my_baby_preview.m4a",
+   "xcorr": 0.998,
+   "preview_at_s": 48.58,
+   "tempo_correction": 1.0
+  }
+ }
+}

@@ -1,0 +1,5 @@
+# Private build (absolute store sales, page names) - share dashboard_public.html instead
+dashboard.html
+data/crosschecks.csv
+# Ingested Insights contain reel URLs and captions; regenerate with ingest_insights.py
+data/insights/

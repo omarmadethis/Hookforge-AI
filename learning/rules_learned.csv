@@ -1,0 +1,12 @@
+rule_id,rule_type,rule,status,n,p_within_page,p_within_page_format,pages_same_direction,evidence_source,updated,p_holm
+PT-night,posting_time,posted 18:00-04:00 PT: +0.51 log10 views (x3.24),supported-hypothesis,75,0.0195,0.0575,3,"own reels (full weight, D28)",2026-10-18,0.0975
+PT-weekend,posting_time,posted Sat/Sun: +0.54 log10 views (x3.47),supported-hypothesis,75,0.047,0.0175,2,"own reels (full weight, D28)",2026-10-18,0.188
+PT-gap_lt12,posting_time,<12 h since page's previous post: -0.28 log10 views (x0.52),hypothesis,68,0.1799,0.1694,2,"own reels (full weight, D28)",2026-10-18,0.5397
+PT-multi_post_day,posting_time,>=2 posts that day on the page: -0.04 log10 views (x0.92),hypothesis,75,0.8366,0.3253,4,"own reels (full weight, D28)",2026-10-18,1.0
+PT-young_page,posting_time,page age <=7 days at posting: +0.11 log10 views (x1.28),hypothesis,75,0.5517,0.9075,2,"own reels (full weight, D28)",2026-10-18,1.0
+FBHJ-caption-link,caption,"FB HeatedJammies: caption 'Get yours👉{url}' (6 reels) median 1.44M views & 0.93 link clicks/1K vs 6.8K & 0 for others; non-URL captions drove 1 click total",supported-hypothesis,38,,,1,"FB page insights CSV (D63)",2026-10-19,
+FBHJ-retention,retention,"top 8 by views avg 9.7s watched / 69% of duration vs 7.2s / 52% for the rest; Spearman views~retention% 0.24",hypothesis,38,,,1,"FB page insights CSV (D63)",2026-10-19,
+FBHJ-duration,duration,"12-14s reels median 79K views vs 4.3K for 15-17s (n=24 vs 9)",hypothesis,38,,,1,"FB page insights CSV (D63)",2026-10-19,
+FBHJ-time,posting_time,"posted 18:00-05:59 PT median 71-99K vs 4-12K 06:00-17:59; Sat median 798K (n=6) — confirms PT-night/PT-weekend",supported-hypothesis,38,,,1,"FB page insights CSV (D63)",2026-10-19,
+FBHJ-song,music,"all top 20 FB reels carry a licensed Christmas track or original audio (Mariah AIWFCIY x5 in top 20, Wham Last Christmas, Dean Martin Let It Snow); ranks 21-38 have no song label",hypothesis,38,,,1,"FB page insights CSV + reels.audio_label (D63)",2026-10-19,
+FBHJ-hook-not-enough,hook,"same on-screen hooks (Women are hard to gift.., DO NOT let your mom see this, Grinch X Target) appear in both top 10 and bottom 18 — hook text is necessary not sufficient; caption link, song and posting time separate them",supported-hypothesis,38,,,1,"FB page insights CSV + reels.hook_text_ref (D63)",2026-10-19,

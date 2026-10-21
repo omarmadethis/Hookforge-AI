@@ -1,0 +1,17 @@
+slug: minionmask
+product_keys: [minionmask]
+inherits_from: brickhood
+buyers: "US skiers/snowboarders 16-30 who want the funniest mask on the mountain (Brick Hood sub-line)"
+main_platform: instagram
+secondary_platforms: [tiktok, facebook]
+markets: [US, CA]
+tone: "goofy, absurd, meme"
+music_allowed_genres: [meme classic rock, reggae dancehall, party pop]
+music_banned_genres: [phonk, christmas]
+music_preferred: [boombastic_tiktok, free_bird]
+emoji_allowed: {"😂": "meme", "🤣": "meme", "💀": "dead laughing", "🍌": "Minion in-joke", "💛": "yellow", "🏂": "snowboard", "⛷️": "ski", "👉": "CTA"}
+slang: ["send it", "the squad"]
+caption_voice: "deadpan meme, 0-2 emoji; never name Minions/Illumination (third-party IP)"
+caption_proof:
+  - {pattern: '(?i)get it here', evidence: "own: brickhood sibling 61,290 views (same page/audience)"}
+banned: ['(?i)minion', '(?i)illumination', '(?i)despicable']

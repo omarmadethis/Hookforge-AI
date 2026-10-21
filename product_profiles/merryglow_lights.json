@@ -1,0 +1,229 @@
+{
+ "product_key": "merryglow_lights",
+ "display": "MerryGlow tree lights",
+ "brand": "MerryGlow",
+ "category": "decor_light",
+ "corpus_products": [
+  "tree lights"
+ ],
+ "pages": [
+  "MG",
+  "MGS"
+ ],
+ "energy": 3,
+ "mood": [
+  "wow",
+  "transformation",
+  "family",
+  "festive"
+ ],
+ "audience": "US families decorating for Christmas",
+ "world": "decorating the home: tree, living room, front of house at night",
+ "settings": [
+  "living room with tree at night",
+  "front yard of a house at night"
+ ],
+ "actions": [
+  "hang lights",
+  "plug in",
+  "lights burst on",
+  "kids react"
+ ],
+ "forbidden_settings": [
+  "ski slope",
+  "gym"
+ ],
+ "product_look": "programmable pixel LED tree lights: strands of tiny LEDs hanging from the star down the whole tree, showing animated colour pictures (a snowman, a train, snowflakes) across the tree",
+ "product": "tree lights",
+ "hands_word": "LED strands and controller",
+ "subject": "a family with two kids",
+ "body_setting": "in a living room at night with a Christmas tree",
+ "activation_action": "the plug clicks in",
+ "activation_result": "the tree lights up and an animated snowman picture slides across the LED strands",
+ "proof_shot": [
+  "PROOF",
+  "AI-doubt proof: the plug going into a normal US wall outlet, then the lights on a normal 6 ft tree in a normal-size living room"
+ ],
+ "body_override": {
+  "LIT2": [
+   "PROOF",
+   "AI-doubt proof: the lights on a normal 6 ft tree in a normal-size living room, realistic wire and plug, kids react"
+  ],
+  "BOX": [
+   "BOX",
+   "a plain unbranded gift box already in hands, lid off, the coiled LED light strands with their small controller lifted out (never a slow unbox)"
+  ],
+  "INSTALL": [
+   "INSTALL",
+   "the dad on a silver step ladder drops the star topper and ring stack onto the tip of the tree and the LED strands unfold slowly down around it, locked wide"
+  ],
+  "LIT3": [
+   "LIT3",
+   "final after, a different animation: a little train picture chugs in a spiral around the tree while snowflakes drift down the strands; hard cut out"
+  ]
+ },
+ "payoff_scene": "family in front of the glowing tree",
+ "room": "living room",
+ "sounds": "click, gasps, kids cheering",
+ "source_object": "old tree lights",
+ "music_forbidden": [],
+ "keyword": "LIGHTS",
+ "processing_days": null,
+ "ship_days": null,
+ "disaster": "the dad yanks a knot of old tangled string lights, they spark and short out, the tree lights die and the whole room goes dark",
+ "then_state": "a heap of tangled old string lights on the rug and a half-lit tree with dead bulbs",
+ "n_people": "five",
+ "proven_formats": [
+  {
+   "format": "F04",
+   "n": 8,
+   "hits": 6,
+   "median_views": 71315,
+   "best_views": 152878,
+   "reels": [
+    "MG-01",
+    "MG-02",
+    "MG-04",
+    "MG-05",
+    "MG-06",
+    "MGS-02",
+    "MGS-04",
+    "MGS-08"
+   ]
+  },
+  {
+   "format": "F01",
+   "n": 2,
+   "hits": 1,
+   "median_views": 50073,
+   "best_views": 97955,
+   "reels": [
+    "MG-03",
+    "MGS-07"
+   ]
+  }
+ ],
+ "proven_music": [
+  {
+   "song": "last_christmas",
+   "version": "Wham! Last Christmas (official) ~2:50 chorus",
+   "offset_s": 170.5,
+   "energy": 4,
+   "best_views": 152878,
+   "formats": "F01|F04"
+  },
+  {
+   "song": "aiwfc_intro",
+   "version": "Mariah Carey AIWFC, slow intro (Make My Wish Come True ed. ~0:49.6)",
+   "offset_s": 49.6,
+   "energy": 3,
+   "best_views": 70437,
+   "formats": "F04"
+  },
+  {
+   "song": "beginning_to_look",
+   "version": "Michael Bublé It's Beginning to Look a Lot Like Christmas ~0:31.6",
+   "offset_s": 32.4,
+   "energy": 2,
+   "best_views": 64542,
+   "formats": "F04"
+  },
+  {
+   "song": "holly_jolly",
+   "version": "Michael Bublé Holly Jolly Christmas from 0:00",
+   "offset_s": 0.1,
+   "energy": 3,
+   "best_views": 2191,
+   "formats": "F01"
+  }
+ ],
+ "proven_captions": [
+  {
+   "caption": "Get it here 👉 {url}",
+   "views": 152878
+  },
+  {
+   "caption": "Be the envy of your friends.. 🤭🎄 (no link)",
+   "views": 64542
+  }
+ ],
+ "proven_hooks": [
+  {
+   "hook": "Christmas 2024.. 😬",
+   "format": "F04",
+   "views": 152878,
+   "reel": "MG-01",
+   "capcut_cards": [
+    "Christmas 2024.. 😬",
+    "And Christmas 2025.. 🤕",
+    "Vs... ⏳",
+    "Christmas 2026 🤩🎄"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 1.00)"
+  },
+  {
+   "hook": "Christmas last year.. 😩",
+   "format": "F04",
+   "views": 119070,
+   "reel": "MG-02",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "The perfect christmas decor doesn't exi-",
+   "format": "F01",
+   "views": 97955,
+   "reel": "MG-03",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "Christmas last year.. 😬",
+   "format": "F04",
+   "views": 84377,
+   "reel": "MG-04",
+   "capcut_cards": [
+    "Christmas last year.. 😬",
+    "Vs... ⏱️",
+    "Christmas in 2026 😻"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 1.00)"
+  },
+  {
+   "hook": "Christmas last year😩",
+   "format": "F04",
+   "views": 72193,
+   "reel": "MG-05",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "Christmas trees in 1968 👴🤦‍♂️",
+   "format": "F04",
+   "views": 70437,
+   "reel": "MG-06",
+   "capcut_cards": [
+    "Christmas trees in 1968 👴🤦‍♂️",
+    "Vs... ⏳",
+    "Christmas trees in 2026 🤩🎄"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 1.00)"
+  },
+  {
+   "hook": "Christmas in 2025.. 🤮",
+   "format": "F04",
+   "views": 64542,
+   "reel": "MGS-02",
+   "capcut_cards": [
+    "Christmas in 2025.. 🤮",
+    "Vs... ⏳",
+    "Christmas in 2026 😻🎄"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 1.00)"
+  }
+ ],
+ "n_own_reels": 10,
+ "own_hits": 7,
+ "product_look_status": "description from Omar's prompts; <<<image_1>>> product photo is the ground truth",
+ "sources": "corpus own reels (FB+IG), CapCut drafts (edits.csv), music_library.csv, Omar transcripts (rules_core), worlds.py"
+}

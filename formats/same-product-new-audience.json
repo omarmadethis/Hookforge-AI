@@ -1,0 +1,279 @@
+{
+  "slug": "same-product-new-audience",
+  "name": "Same product, new audience (re-target a proven body to a new tribe or use-case)",
+  "tier": "B",
+  "status": "STRATEGY FORMAT. Proven externally on one product category (heated robes: 834K, 509K, 417K, 1.3M ×2). Internally, the same robe body carried 4 different recipients to 165K-6.6M. The cheapest format: 1 new generation per video.",
+  "summary": "Keep a proven body's generations and replace only the hook generation and text with a new tribe or use-case ('period cramps', 'BTS army', 'Goths', 'grandma', 'nurses'). New first frames make it a new video to Meta's similarity matcher, at a quarter of the credit cost.",
+  "why": [
+    "warmrobestore 'Period girls RUN don't walk to Target 🩸🙃' 834K / 29K shares: the same robe sold as cramp relief (X).",
+    "obsidianrobes '“Just wear slippers”🙄' 509K; thecozybts 417K; goth.robes 1.3M; nocturne.robes0 1.3M: one product category, five tribes (external REPORT §4 #2).",
+    "Internal: one robe body under women (6.6M), mom (2.7M), grandma (183K) and wife (165K) recipients.",
+    "Reusing body clips is safe when the hook changes: gen c0ede3c3 sits in both the 1.4M Walmart and the 1.4M Target reels, and 13 generations were reused across 2-3 reels (PLAYBOOK §15.6). Only identical FILES collapse (6.6M → 2.2K)."
+  ],
+  "product_fit": [
+    {
+      "type": "Any product with a proven body on file",
+      "fit": "PRIMARY",
+      "evidence": "robe (4 recipients internally; 5 tribes externally)"
+    },
+    {
+      "type": "New product with no proven body",
+      "fit": "NO (build a body with an A-tier format first)",
+      "evidence": "—"
+    }
+  ],
+  "timing": {
+    "length": "identical to the source body's format",
+    "basis": "Copy the source reel's cut list exactly. Bodies are never the limiting factor: identical bodies ran from 2.2K to 6.6M (body REPORT §4). Only 0 s → first cut changes.",
+    "shots": [
+      {
+        "t": "0.0 → first cut (2.7-3.9)",
+        "shot": "NEW HOOK",
+        "content": "talent/props signal the tribe (wardrobe, room, prop) while the product stays ≥30% of frame",
+        "camera": "as source",
+        "text": "tribe line ON",
+        "gen": "H1"
+      },
+      {
+        "t": "first cut → END",
+        "shot": "REUSED BODY",
+        "content": "the source winner's body renders (re-ordering is allowed; never the same file)",
+        "camera": "as source",
+        "text": "as source family",
+        "gen": "reuse B1-B3 renders"
+      }
+    ],
+    "measured": [
+      "warmrobestore 834K: 1.42 | 2.50 | 3.90 | 4.73 | 7.40 | 9.03 | 9.63 | 10.40 | 12.73 | END 15.70.",
+      "thecozybts 417K: 3.37 | 8.20 | 9.20 | 10.03 | 11.10 | END 12.54.",
+      "obsidianrobes 509K: 3.57 | 4.73 | 6.40 | 7.32 | 10.48 | 11.13 | 11.97 | END 14.75."
+    ],
+    "rules": [
+      "Change at least the H1 render, the hook text, the song or song offset, and the caption. Never upload a file whose first 3 s match an earlier post."
+    ]
+  },
+  "text": {
+    "style": "Use the source format's text pattern with the tribe in the slot.",
+    "patterns": [
+      {
+        "pattern": "{Tribe} RUN don't walk to {Store} {emoji} → It's a {product} for your {use case}!",
+        "tag": "P (ext)",
+        "source": "warmrobestore 834K"
+      },
+      {
+        "pattern": "DO NOT show this to a {BTS army}😱😂",
+        "tag": "P (ext)",
+        "source": "thecozybts 417K"
+      },
+      {
+        "pattern": "“{Objection the tribe hears}”🙄",
+        "tag": "P (ext)",
+        "source": "obsidianrobes 509K"
+      },
+      {
+        "pattern": "DONT show this to your {Grandma} ❄️😳",
+        "tag": "P",
+        "source": "HJ 183K (recipient re-target of the mom line)"
+      }
+    ],
+    "rules": [
+      "Pick tribes the 35-65+ FB buyer belongs to or buys for (grandma, nurse, teacher, cat mom) before youth tribes [I, from Insights ages]."
+    ]
+  },
+  "caption": {
+    "template": "Finally, one for us {tribe emoji}\nSAY \"{KEYWORD}\" and we'll send you the link\n#{tribe} #{product_tag}",
+    "keywords": [
+      "{TRIBE}",
+      "WARM"
+    ],
+    "rules": [
+      "SAY not COMMENT."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": 1,
+        "track": "Source winner's song + offset (or the next pick in that format's list, to avoid duplicate audio)",
+        "start": "as source",
+        "evidence": "Let It Snow on robe tribes: thecozybts 417K"
+      }
+    ],
+    "rules": []
+  },
+  "generation_plan": {
+    "summary": "1 new generation (H1, 1080p). The body uses existing renders from the source winner.",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "Tribe-signalling hook",
+        "shots": "one shot",
+        "feeds": "NEW HOOK",
+        "inputs": "<<<video_1>>> = the source winner's own hook clip; <<<image_1>>> = cast image of the tribe",
+        "basis": "T3 background/cast-only swap (88K; gens 8463df4d, 633c0bb6, 00384ba0). The person swap is the one change.",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly. Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the woman in <<<video_1>>> with the woman in <<<image_1>>> ({tribe styling}); the {product} stays exactly the same.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+      }
+    ],
+    "rules": [
+      "Person swaps were rarer in used prompts (4% of used vs 17% of unused, PLAYBOOK §15.8), so roll 3-4 takes and reject face artefacts.",
+      "This is the default innovation-budget slot: it's cheap, and each tribe is a fresh lottery ticket."
+    ]
+  },
+  "evidence": [
+    {
+      "origin": "internal",
+      "id": "1624473615929591",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 6600000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "robe body · recipient 'Women'",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1624473615929591/"
+    },
+    {
+      "origin": "internal",
+      "id": "1381141263599559",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 2700000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "robe body · recipient 'mom'",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1381141263599559/"
+    },
+    {
+      "origin": "internal",
+      "id": "1103827319264144",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 183000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "robe body · recipient 'Grandma'",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1103827319264144/"
+    },
+    {
+      "origin": "internal",
+      "id": "2176512149911383",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 165000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "robe body · recipient 'wife'",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/2176512149911383/"
+    },
+    {
+      "origin": "external",
+      "id": "warmrobestore/21616141",
+      "page": "warmrobestore",
+      "platform": "TikTok",
+      "views": 833600.0,
+      "shares": "29K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Period girls RUN don't walk to Target → cramp use-case",
+      "src": "X",
+      "url": "https://www.tiktok.com/@warmrobestore/video/7584679343121616141",
+      "posted": "2025-12-16"
+    },
+    {
+      "origin": "external",
+      "id": "obsidianrobes/75897631",
+      "page": "obsidianrobes",
+      "platform": "TikTok",
+      "views": 509100.0,
+      "shares": "10.7K",
+      "flag": false,
+      "role": "external winner",
+      "note": "“Just wear slippers”🙄 · gothic tribe",
+      "src": "X",
+      "url": "https://www.tiktok.com/@obsidianrobes/video/7692033957075897631",
+      "posted": "2026-10-02"
+    },
+    {
+      "origin": "external",
+      "id": "thecozybts/43002637",
+      "page": "thecozybts",
+      "platform": "TikTok",
+      "views": 416600.0,
+      "shares": "6.9K",
+      "flag": false,
+      "role": "external winner",
+      "note": "DO NOT show this to a BTS army😱😂",
+      "src": "X",
+      "url": "https://www.tiktok.com/@thecozybts/video/7687784086643002637",
+      "posted": "2026-09-20"
+    },
+    {
+      "origin": "external",
+      "id": "goth.robes/26261022",
+      "page": "goth.robes",
+      "platform": "TikTok",
+      "views": 1300000.0,
+      "shares": "26.5K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Goth tribe",
+      "src": "X",
+      "url": "https://www.tiktok.com/@goth.robes/video/7688918162326261022",
+      "posted": "2026-09-23"
+    },
+    {
+      "origin": "external",
+      "id": "nocturne.robes0/48411679",
+      "page": "nocturne.robes0",
+      "platform": "TikTok",
+      "views": 1300000.0,
+      "shares": "14.9K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Goth tribe + muffin tin",
+      "src": "X",
+      "url": "https://www.tiktok.com/@nocturne.robes0/video/7684104805748411679",
+      "posted": "2026-09-10"
+    }
+  ],
+  "failures": [
+    "Uploading the identical file (6.6M → 2.2K; 1.4M → 16K).",
+    "Brick Hood's identical file did 61.3K on FB and 2.6K on IG: audience/platform moved results 24×, so tribe fit per platform matters."
+  ],
+  "variants": [
+    {
+      "name": "Use-case flip",
+      "rule": "Same body; the hook reframes the use ('for your period cramps', 'for night-shift nurses').",
+      "proof": "warmrobestore 834K.",
+      "gate": "Max 2 use-cases per product per week."
+    }
+  ],
+  "checks": [
+    {
+      "id": "spna.first3s_unique",
+      "rule": "pHash of 0-3 s differs from every prior post on the page",
+      "cite": "repost collapse 6.6M → 2.2K"
+    }
+  ],
+  "open": [
+    "Which tribes work for 45-65+ FB audiences is untested."
+  ],
+  "review": [
+    "Tier B, not A: the 4 internal winners share the robe body and differ only by recipient line, so they show the body carries new hooks, not that a new TRIBE works on FB. Included because Omar named it and it's the cheapest proven way to buy fresh lottery tickets (1 gen vs 4)."
+  ],
+  "rank": 6,
+  "evidence_strength": {
+    "score": 15.5,
+    "internal_hits_ge50k": 4,
+    "internal_tested": 4,
+    "external_organic_winners": 0
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

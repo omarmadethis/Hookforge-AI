@@ -1,0 +1,1161 @@
+{
+ "jollyglow_curtain": {
+  "hooks": [
+   {
+    "text": "POV: the whole street is JEALOUS of your house.. 😏🏠",
+    "source_product": "jollyglow_curtain",
+    "views": 63320,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "pov_street_jealous"
+    ],
+    "poc": "POC-0059",
+    "score": 4.802
+   },
+   {
+    "text": "Every Christmas mom NEEDS this 😏❄️",
+    "source_product": "jollyglow_curtain",
+    "views": 62813,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0063",
+    "score": 4.798
+   },
+   {
+    "text": "Christmas moms, don't walk RUN to Walmart 😏",
+    "source_product": "jollyglow_curtain",
+    "views": 62010,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "dont_walk_run_to_store",
+     "store_x_brand"
+    ],
+    "poc": "POC-0065",
+    "score": 4.792
+   },
+   {
+    "text": "Christmas 2024.. 😩",
+    "source_product": "merryglow_lights",
+    "views": 152878,
+    "affinity": 0.9,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0022",
+    "score": 4.666
+   },
+   {
+    "text": "Christmas last year.. 😩",
+    "source_product": "merryglow_lights",
+    "views": 119070,
+    "affinity": 0.9,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0026",
+    "score": 4.568
+   },
+   {
+    "text": "Christmas last year.. 😩",
+    "source_product": "merryglow_lights",
+    "views": 84377,
+    "affinity": 0.9,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0046",
+    "score": 4.434
+   },
+   {
+    "text": "Christmas last year😩",
+    "source_product": "merryglow_lights",
+    "views": 72193,
+    "affinity": 0.9,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0048",
+    "score": 4.373
+   },
+   {
+    "text": "Christmas trees in 1968 😩💡",
+    "source_product": "merryglow_lights",
+    "views": 70437,
+    "affinity": 0.9,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0052",
+    "score": 4.363
+   },
+   {
+    "text": "Christmas in 2025.. 🤮",
+    "source_product": "merryglow_lights",
+    "views": 64542,
+    "affinity": 0.9,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0056",
+    "score": 4.329
+   },
+   {
+    "text": "Women are hard to gift..",
+    "source_product": "grinch_robe",
+    "views": 6600000,
+    "affinity": 0.55,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0000",
+    "score": 3.751
+   },
+   {
+    "text": "Christmas 2024.. 😩",
+    "source_product": "merryglow_lights",
+    "views": 12000,
+    "affinity": 0.9,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0092",
+    "score": 3.671
+   },
+   {
+    "text": "DO NOT let your mom see this ❄️😳",
+    "source_product": "grinch_robe",
+    "views": 2700000,
+    "affinity": 0.55,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0002",
+    "score": 3.537
+   },
+   {
+    "text": "Get yours👉",
+    "source_product": "heatjams",
+    "views": 6668888,
+    "affinity": 0.5,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "get_yours"
+    ],
+    "poc": "POC-0168",
+    "score": 3.412
+   },
+   {
+    "text": "Grinch X Target 😳🎄❄️",
+    "source_product": "grinch_robe",
+    "views": 1400000,
+    "affinity": 0.55,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "store_x_brand"
+    ],
+    "poc": "POC-0004",
+    "score": 3.38
+   },
+   {
+    "text": "Christmas-HOLICS RUN, dont walk to Walmart 🎅🎄",
+    "source_product": "grinch_robe",
+    "views": 1400000,
+    "affinity": 0.55,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "store_x_brand"
+    ],
+    "poc": "POC-0006",
+    "score": 3.38
+   }
+  ],
+  "sounds": [
+   {
+    "song": "aiwfc",
+    "niche": "christmas",
+    "source_product": "jollyglow_curtain",
+    "own_best": 0,
+    "ext_best": 8700000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 6.94
+   },
+   {
+    "song": "holly_jolly_mc01",
+    "niche": "christmas",
+    "source_product": "jollyglow_curtain",
+    "own_best": 0,
+    "ext_best": 4406618,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 6.644
+   },
+   {
+    "song": "holly_jolly_mc03",
+    "niche": "christmas",
+    "source_product": "jollyglow_curtain",
+    "own_best": 0,
+    "ext_best": 4406618,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 6.644
+   },
+   {
+    "song": "darlene_love_baby_please",
+    "niche": "christmas",
+    "source_product": "jollyglow_curtain",
+    "own_best": 0,
+    "ext_best": 2600000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 6.415
+   },
+   {
+    "song": "winter_wonderland",
+    "niche": "christmas",
+    "source_product": "jollyglow_curtain",
+    "own_best": 0,
+    "ext_best": 1900000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 6.279
+   },
+   {
+    "song": "holly_jolly",
+    "niche": "christmas",
+    "source_product": "jollyglow_curtain",
+    "own_best": 63320,
+    "ext_best": 0,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 4.802
+   },
+   {
+    "song": "aiwfc_intro",
+    "niche": "christmas",
+    "source_product": "merryglow_lights",
+    "own_best": 70437,
+    "ext_best": 23700000,
+    "affinity": 0.9,
+    "fit": 1.0,
+    "on_box": false,
+    "score": 4.456199999999999
+   },
+   {
+    "song": "holly_jolly_burl_ives",
+    "niche": "christmas",
+    "source_product": "jollyglow_curtain",
+    "own_best": 0,
+    "ext_best": 10000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 4.0
+   }
+  ],
+  "hashtags": [
+   {
+    "tag": "#christmas",
+    "score": 6.126,
+    "sources": [
+     "cozyjams",
+     "grinch_robe",
+     "grinchmelt_mug",
+     "heatjams",
+     "merryglow_lights"
+    ],
+    "views": 39818102
+   },
+   {
+    "tag": "#christmasdecor",
+    "score": 5.799,
+    "sources": [
+     "grinch_robe",
+     "jollyglow_curtain",
+     "merryfire",
+     "merryglow_lights"
+    ],
+    "views": 2775600
+   },
+   {
+    "tag": "#gift",
+    "score": 5.784,
+    "sources": [
+     "grinch_robe",
+     "grinchmelt_mug",
+     "heatjams",
+     "merryglow_lights"
+    ],
+    "views": 29101784
+   },
+   {
+    "tag": "#boymom",
+    "score": 5.192,
+    "sources": [
+     "merryglow_lights"
+    ],
+    "views": 588000
+   },
+   {
+    "tag": "#americanchristmas",
+    "score": 5.049,
+    "sources": [
+     "merryglow_lights"
+    ],
+    "views": 406894
+   },
+   {
+    "tag": "#christmasgifts",
+    "score": 4.937,
+    "sources": [
+     "jollyglow_curtain",
+     "merryfire",
+     "merryglow_lights"
+    ],
+    "views": 305756
+   },
+   {
+    "tag": "#christmas2026",
+    "score": 4.644,
+    "sources": [
+     "merryglow_lights"
+    ],
+    "views": 144386
+   },
+   {
+    "tag": "#christmaslights",
+    "score": 4.434,
+    "sources": [
+     "merryfire",
+     "merryglow_lights"
+    ],
+    "views": 84377
+   },
+   {
+    "tag": "#mom",
+    "score": 3.853,
+    "sources": [
+     "grinch_robe",
+     "heatjams"
+    ],
+    "views": 10144055
+   },
+   {
+    "tag": "#cozy",
+    "score": 3.811,
+    "sources": [
+     "grinch_robe",
+     "heatjams"
+    ],
+    "views": 8476824
+   },
+   {
+    "tag": "#christmaspajamas",
+    "score": 3.44,
+    "sources": [
+     "cozyjams"
+    ],
+    "views": 7581400
+   },
+   {
+    "tag": "#christmasiscoming",
+    "score": 3.202,
+    "sources": [
+     "jollyglow_curtain",
+     "merryfire"
+    ],
+    "views": 217339
+   }
+  ],
+  "cuts": [
+   {
+    "bucket": "hook 2s / 13 shots / ~1.3s per shot",
+    "views": 4626729.0,
+    "drafts": 1,
+    "score": 3.4330000000000003
+   },
+   {
+    "bucket": "hook 3s / 10 shots / ~1.6s per shot",
+    "views": 686895.0,
+    "drafts": 1,
+    "score": 3.0180000000000002
+   },
+   {
+    "bucket": "hook 2s / 7 shots / ~1.7s per shot",
+    "views": 152878.0,
+    "drafts": 2,
+    "score": 2.7920000000000003
+   },
+   {
+    "bucket": "hook 12s / 1 shots / ~12.1s per shot",
+    "views": 152878.0,
+    "drafts": 1,
+    "score": 2.692
+   },
+   {
+    "bucket": "hook 4s / 7 shots / ~1.8s per shot",
+    "views": 97955.0,
+    "drafts": 1,
+    "score": 2.596
+   },
+   {
+    "bucket": "hook 3s / 9 shots / ~1.9s per shot",
+    "views": 91000.0,
+    "drafts": 1,
+    "score": 2.58
+   }
+  ],
+  "format_boost": {
+   "F09": 1.0,
+   "F15": 1.0,
+   "F13": 0.999,
+   "F17": 0.998,
+   "F02": 0.998,
+   "F07": 0.998,
+   "F18": 0.951,
+   "F04": 0.951,
+   "F05": 0.603,
+   "F19": 0.429,
+   "F06": 0.317,
+   "F16": 0.199
+  }
+ },
+ "trumpglow": {
+  "hooks": [
+   {
+    "text": "His last day with us.. VS... ❤️",
+    "source_product": "trumpglow",
+    "views": 2400000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "vs_contrast"
+    ],
+    "poc": "POC-0255",
+    "score": 6.38
+   },
+   {
+    "text": "his first day... 😊💕",
+    "source_product": "trumpglow",
+    "views": 2400000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0256",
+    "score": 6.38
+   },
+   {
+    "text": "POV: ur wife got this for your passenger seat so you don't cheat 😂🤝",
+    "source_product": "trumpglow",
+    "views": 1200000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0258",
+    "score": 6.079
+   },
+   {
+    "text": "My car.. HER seat 👸💍💕",
+    "source_product": "trumpglow",
+    "views": 228400,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0263",
+    "score": 5.359
+   },
+   {
+    "text": "My car.. HER name. HER seat 👸💍💕",
+    "source_product": "trumpglow",
+    "views": 209000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0261",
+    "score": 5.32
+   },
+   {
+    "text": "My car.. Her name. HER seat",
+    "source_product": "trumpglow",
+    "views": 202400,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0265",
+    "score": 5.306
+   },
+   {
+    "text": "POV: You're favorite picture",
+    "source_product": "trumpglow",
+    "views": 44700,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0269",
+    "score": 4.65
+   },
+   {
+    "text": "Got my boyfriend with this😁❤️",
+    "source_product": "trumpglow",
+    "views": 41600,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0271",
+    "score": 4.619
+   },
+   {
+    "text": "If you buy one, I'll buy one too 😂",
+    "source_product": "brickhood_mask",
+    "views": 61290,
+    "affinity": 0.45,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0067",
+    "score": 2.154
+   },
+   {
+    "text": "Send this to someone you'd absolutely wear this with 😂",
+    "source_product": "brickhood_mask",
+    "views": 61106,
+    "affinity": 0.45,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0069",
+    "score": 2.154
+   },
+   {
+    "text": "POV: You finally found the perfect ski mask 😂",
+    "source_product": "brickhood_mask",
+    "views": 43223,
+    "affinity": 0.45,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0073",
+    "score": 2.086
+   },
+   {
+    "text": "Women are hard to gift..",
+    "source_product": "grinch_robe",
+    "views": 6600000,
+    "affinity": 0.3,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0000",
+    "score": 2.046
+   },
+   {
+    "text": "DO NOT let your mom see this ❄️😳",
+    "source_product": "grinch_robe",
+    "views": 2700000,
+    "affinity": 0.3,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0002",
+    "score": 1.929
+   },
+   {
+    "text": "ALL mom's NEED this 😳❄️",
+    "source_product": "grinch_robe",
+    "views": 524000,
+    "affinity": 0.3,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0008",
+    "score": 1.716
+   },
+   {
+    "text": "Get yours👉",
+    "source_product": "heatjams",
+    "views": 6668888,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "get_yours"
+    ],
+    "poc": "POC-0168",
+    "score": 1.706
+   }
+  ],
+  "sounds": [
+   {
+    "song": "acdc_you_shook_me",
+    "niche": "patriot",
+    "source_product": "trumpglow",
+    "own_best": 0,
+    "ext_best": 10000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 4.0
+   },
+   {
+    "song": "free_bird_solo",
+    "niche": "patriot",
+    "source_product": "trumpglow",
+    "own_best": 0,
+    "ext_best": 10000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 4.0
+   },
+   {
+    "song": "free_bird_vocal",
+    "niche": "patriot",
+    "source_product": "trumpglow",
+    "own_best": 0,
+    "ext_best": 10000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 4.0
+   },
+   {
+    "song": "free_bird",
+    "niche": "ski|funny",
+    "source_product": "brickhood_mask",
+    "own_best": 61290,
+    "ext_best": 0,
+    "affinity": 0.45,
+    "fit": 0.2,
+    "on_box": true,
+    "score": 0.431
+   },
+   {
+    "song": "last_christmas",
+    "niche": "christmas",
+    "source_product": "grinch_robe",
+    "own_best": 524000,
+    "ext_best": 2700000,
+    "affinity": 0.3,
+    "fit": 0.2,
+    "on_box": true,
+    "score": 0.368
+   },
+   {
+    "song": "boombastic_tiktok",
+    "niche": "ski|streetwear|funny",
+    "source_product": "brickhood_mask",
+    "own_best": 61106,
+    "ext_best": 1100000,
+    "affinity": 0.45,
+    "fit": 0.2,
+    "on_box": false,
+    "score": 0.3619
+   },
+   {
+    "song": "holly_jolly",
+    "niche": "christmas",
+    "source_product": "jollyglow_curtain",
+    "own_best": 63320,
+    "ext_best": 0,
+    "affinity": 0.35,
+    "fit": 0.2,
+    "on_box": true,
+    "score": 0.336
+   },
+   {
+    "song": "be_my_baby",
+    "niche": "general",
+    "source_product": null,
+    "own_best": 0,
+    "ext_best": 375200,
+    "affinity": 0.3,
+    "fit": 0.2,
+    "on_box": true,
+    "score": 0.316
+   }
+  ],
+  "hashtags": [
+   {
+    "tag": "#funny",
+    "score": 2.968,
+    "sources": [
+     "brickhood_mask"
+    ],
+    "views": 3944700
+   },
+   {
+    "tag": "#usa",
+    "score": 2.264,
+    "sources": [
+     "merryglow_lights",
+     "trumpglow"
+    ],
+    "views": 2934000
+   },
+   {
+    "tag": "#women",
+    "score": 1.51,
+    "sources": [
+     "grinch_robe"
+    ],
+    "views": 107655
+   },
+   {
+    "tag": "#trump",
+    "score": 1.0,
+    "sources": [
+     "trumpglow"
+    ],
+    "views": 0
+   },
+   {
+    "tag": "#maga",
+    "score": 1.0,
+    "sources": [
+     "trumpglow"
+    ],
+    "views": 0
+   },
+   {
+    "tag": "#america",
+    "score": 1.0,
+    "sources": [
+     "trumpglow"
+    ],
+    "views": 0
+   }
+  ],
+  "cuts": [
+   {
+    "bucket": "hook 2s / 13 shots / ~1.3s per shot",
+    "views": 4626729.0,
+    "drafts": 1,
+    "score": 3.4330000000000003
+   },
+   {
+    "bucket": "hook 3s / 10 shots / ~1.6s per shot",
+    "views": 686895.0,
+    "drafts": 1,
+    "score": 3.0180000000000002
+   },
+   {
+    "bucket": "hook 2s / 7 shots / ~1.7s per shot",
+    "views": 152878.0,
+    "drafts": 2,
+    "score": 2.7920000000000003
+   },
+   {
+    "bucket": "hook 12s / 1 shots / ~12.1s per shot",
+    "views": 152878.0,
+    "drafts": 1,
+    "score": 2.692
+   },
+   {
+    "bucket": "hook 4s / 7 shots / ~1.8s per shot",
+    "views": 97955.0,
+    "drafts": 1,
+    "score": 2.596
+   },
+   {
+    "bucket": "hook 3s / 9 shots / ~1.9s per shot",
+    "views": 91000.0,
+    "drafts": 1,
+    "score": 2.58
+   }
+  ],
+  "format_boost": {
+   "F18": 1.0,
+   "F04": 1.0,
+   "F09": 0.953,
+   "F06": 0.953,
+   "F15": 0.953,
+   "F16": 0.338,
+   "F13": 0.269,
+   "F17": 0.259,
+   "F02": 0.259,
+   "F05": 0.248,
+   "F19": 0.176,
+   "F07": 0.079
+  }
+ },
+ "purrventure_carrier": {
+  "hooks": [
+   {
+    "text": "Cat longs at window watching dogs / VS / The result",
+    "source_product": "purrventure_carrier",
+    "views": 1600000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "problem-solution"
+    ],
+    "poc": "POC-0303",
+    "score": 6.204
+   },
+   {
+    "text": "Cat paws window watching dogs / VS / rolling near dogs",
+    "source_product": "purrventure_carrier",
+    "views": 1600000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "problem-solution"
+    ],
+    "poc": "POC-0304",
+    "score": 6.204
+   },
+   {
+    "text": "The concept (cardboard sphere) / VS / The result",
+    "source_product": "purrventure_carrier",
+    "views": 739000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "problem-solution"
+    ],
+    "poc": "POC-0307",
+    "score": 5.869
+   },
+   {
+    "text": "Get yours👉",
+    "source_product": "heatjams",
+    "views": 6668888,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "get_yours"
+    ],
+    "poc": "POC-0168",
+    "score": 1.706
+   },
+   {
+    "text": "Get yours👉🏻",
+    "source_product": "heatjams",
+    "views": 2729169,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "get_yours"
+    ],
+    "poc": "POC-0170",
+    "score": 1.609
+   },
+   {
+    "text": "DO NOT let your mom see this ❄️😳",
+    "source_product": "grinch_robe",
+    "views": 2700000,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0002",
+    "score": 1.608
+   },
+   {
+    "text": "Get yours👉",
+    "source_product": "heatjams",
+    "views": 1460419,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "get_yours"
+    ],
+    "poc": "POC-0172",
+    "score": 1.541
+   },
+   {
+    "text": "Get yours 👉",
+    "source_product": "heatjams",
+    "views": 1412048,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "get_yours"
+    ],
+    "poc": "POC-0174",
+    "score": 1.537
+   },
+   {
+    "text": "ALL mom's NEED this 😳❄️",
+    "source_product": "grinch_robe",
+    "views": 524000,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0008",
+    "score": 1.43
+   },
+   {
+    "text": "All moms need this🎁",
+    "source_product": "heatjams",
+    "views": 524946,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0176",
+    "score": 1.43
+   },
+   {
+    "text": "Get yours👉🏻",
+    "source_product": "heatjams",
+    "views": 326777,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "get_yours"
+    ],
+    "poc": "POC-0178",
+    "score": 1.379
+   },
+   {
+    "text": "HeatedJammies at Target 😳❄️",
+    "source_product": "grinch_robe",
+    "views": 326000,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "store_x_brand"
+    ],
+    "poc": "POC-0012",
+    "score": 1.378
+   },
+   {
+    "text": "And its heated😊",
+    "source_product": "heatjams",
+    "views": 304756,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0180",
+    "score": 1.371
+   },
+   {
+    "text": "DONT show this to your Grandma ❄️😳",
+    "source_product": "grinch_robe",
+    "views": 183000,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [
+     "dont_show_this_to"
+    ],
+    "poc": "POC-0018",
+    "score": 1.316
+   },
+   {
+    "text": "Shop here👉🏻",
+    "source_product": "heatjams",
+    "views": 183145,
+    "affinity": 0.25,
+    "fit": 1.0,
+    "why": "",
+    "formats": [],
+    "poc": "POC-0182",
+    "score": 1.316
+   }
+  ],
+  "sounds": [
+   {
+    "song": "mambo_no5",
+    "niche": "pet",
+    "source_product": "purrventure_carrier",
+    "own_best": 0,
+    "ext_best": 20800000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 7.318
+   },
+   {
+    "song": "aiwfc",
+    "niche": "pet",
+    "source_product": "purrventure_carrier",
+    "own_best": 0,
+    "ext_best": 8700000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 6.94
+   },
+   {
+    "song": "darlene_love_baby_please",
+    "niche": "pet",
+    "source_product": "purrventure_carrier",
+    "own_best": 0,
+    "ext_best": 2600000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 6.415
+   },
+   {
+    "song": "winter_wonderland",
+    "niche": "pet",
+    "source_product": "purrventure_carrier",
+    "own_best": 0,
+    "ext_best": 1900000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 6.279
+   },
+   {
+    "song": "holly_jolly_burl_ives",
+    "niche": "pet",
+    "source_product": "purrventure_carrier",
+    "own_best": 0,
+    "ext_best": 10000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 4.0
+   },
+   {
+    "song": "jingle_bell_rock",
+    "niche": "pet",
+    "source_product": "purrventure_carrier",
+    "own_best": 0,
+    "ext_best": 10000,
+    "affinity": 1.0,
+    "fit": 1.0,
+    "on_box": true,
+    "score": 4.0
+   },
+   {
+    "song": "be_my_baby",
+    "niche": "general",
+    "source_product": null,
+    "own_best": 0,
+    "ext_best": 375200,
+    "affinity": 0.3,
+    "fit": 0.2,
+    "on_box": true,
+    "score": 0.316
+   },
+   {
+    "song": "last_christmas",
+    "niche": "christmas",
+    "source_product": "grinch_robe",
+    "own_best": 524000,
+    "ext_best": 2700000,
+    "affinity": 0.25,
+    "fit": 0.2,
+    "on_box": true,
+    "score": 0.307
+   }
+  ],
+  "hashtags": [
+   {
+    "tag": "#cat",
+    "score": 7.818,
+    "sources": [
+     "purrventure_carrier"
+    ],
+    "views": 20800000
+   },
+   {
+    "tag": "#catmom",
+    "score": 7.818,
+    "sources": [
+     "purrventure_carrier"
+    ],
+    "views": 20800000
+   },
+   {
+    "tag": "#catlover",
+    "score": 7.818,
+    "sources": [
+     "purrventure_carrier"
+    ],
+    "views": 20800000
+   }
+  ],
+  "cuts": [
+   {
+    "bucket": "hook 2s / 13 shots / ~1.3s per shot",
+    "views": 4626729.0,
+    "drafts": 1,
+    "score": 3.4330000000000003
+   },
+   {
+    "bucket": "hook 3s / 10 shots / ~1.6s per shot",
+    "views": 686895.0,
+    "drafts": 1,
+    "score": 3.0180000000000002
+   },
+   {
+    "bucket": "hook 2s / 7 shots / ~1.7s per shot",
+    "views": 152878.0,
+    "drafts": 2,
+    "score": 2.7920000000000003
+   },
+   {
+    "bucket": "hook 12s / 1 shots / ~12.1s per shot",
+    "views": 152878.0,
+    "drafts": 1,
+    "score": 2.692
+   },
+   {
+    "bucket": "hook 4s / 7 shots / ~1.8s per shot",
+    "views": 97955.0,
+    "drafts": 1,
+    "score": 2.596
+   },
+   {
+    "bucket": "hook 3s / 9 shots / ~1.9s per shot",
+    "views": 91000.0,
+    "drafts": 1,
+    "score": 2.58
+   }
+  ],
+  "format_boost": {
+   "F19": 1.0,
+   "F02": 1.0,
+   "F04": 1.0,
+   "F18": 1.0,
+   "F13": 0.23,
+   "F17": 0.222,
+   "F05": 0.212,
+   "F09": 0.155,
+   "F15": 0.155,
+   "F16": 0.154,
+   "F06": 0.147,
+   "F07": 0.077
+  }
+ }
+}

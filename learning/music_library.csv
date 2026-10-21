@@ -1,0 +1,17 @@
+song,version,energy,mood,niche,capcut_offset_s,n_own_drafts,own_posted,own_best_views,own_hits,proven_on,ext_n,ext_best_views,ext_categories,proven,region_skew
+last_christmas,Wham! Last Christmas (official) ~2:50 chorus,4,exciting|festive|hype|store,christmas,170.5,14,19,524000,10,grinch_robe:524000(F01|F02|F03|F05|F07|F13|F19);jollyglow_curtain:62813(F13);merryfire:62992(F05|F07|F12|F18);merryglow_lights:152878(F01|F04),4,2700000,beauty|gifts|matching pajamas|pets,True,UK/EU-skewed
+beginning_to_look,Michael Bublé It's Beginning to Look a Lot Like Christmas ~0:31.6,2,warm|cozy|nostalgic,christmas,32.4,10,7,304000,4,grinch_robe:304000(F05|F06|F99);grinchmelt_mug:6326(F99);merryfire:67731(F04);merryglow_lights:64542(F04),4,1700000,gadgets|kitchen|melting mug|projector,True,unknown
+jingle_bells_viibez,Viibez Jingle Bells remix 0:00,4,upbeat|playful|hype,christmas,,0,3,112000,3,grinch_robe:112000(F02|F05),0,0,,True,unknown
+aiwfc_intro,"Mariah Carey AIWFC, slow intro (Make My Wish Come True ed. ~0:49.6)",3,build|festive|reveal,christmas,49.6,11,4,91000,2,grinch_robe:91000(F14);merryfire:3048(F04|F05);merryglow_lights:70437(F04),11,23700000,apparel|ceiling projector|decor|dog Christmas bed|gadgets|plug-in projector,True,tier1_global
+holly_jolly,Michael Bublé Holly Jolly Christmas from 0:00,3,upbeat|cozy|playful,christmas,0.1,10,6,63320,2,grinch_robe:2700(F19);jollyglow_curtain:63320(F01|F05);merryfire:40300(F04|F05);merryglow_lights:2191(F01),0,0,,True,unknown
+free_bird,Lynyrd Skynyrd Free Bird solo ~0:14 (meme cue),4,goofy|epic|meme|funny,ski|funny,15.0,11,4,61290,1,brickhood_mask:61290(F05|F16),0,0,,True,US-skewed (meme)
+boombastic_tiktok,"Shaggy - Boombastic (Sting Remix), normal speed, TikTok music id 6926732577592051713; in-point ~0:21.6 on the CapCut file (Shazam song in-point 18-21 s; second own cluster 18.5)",5,hype|goofy|funny|swagger,ski|streetwear|funny,21.9,9,3,61106,1,brickhood_mask:61106(F16),4,1100000,apparel,True,global TikTok sound
+let_it_snow,Dean Martin Let It Snow from 0:00.9,2,calm|cozy|classic,christmas,0.9,5,3,5326,0,merryfire:5326(F02|F05|F17),11,26000000,apparel|gifts|heated Grinch robe|heated gingerbread robe|heated robe (fandom variant),True,US-skewed
+baby_please,Darlene Love Christmas (Baby Please Come Home),4,upbeat|retro,christmas,,0,0,0,0,,7,2700000,apparel|gift guide (affiliate)|ice cream tray|kitchen,True,unknown
+velvet_glow,Velvet Glow (TikTok sound),1,calm|cozy|ASMR,christmas|cozy,,0,0,0,0,,1,7300000,candle chocolate-melter mug,True,unknown
+family_christmas,Family Christmas (TikTok sound),2,calm|cozy,christmas|cozy,,0,0,0,0,,1,1900000,fondue melter mug,True,unknown
+chestnuts,Nat King Cole The Christmas Song ~0:11.7,1,calm|cozy|fireside,christmas,14.2,3,0,0,0,,0,0,,False,unknown
+somewhere_memory,John Williams Somewhere in My Memory (Home Alone),1,calm|nostalgic|tender,christmas,104.0,2,0,0,0,,1,437600,kitchen,False,unknown
+rockin_around,Brenda Lee Rockin' Around the Christmas Tree,4,upbeat|retro|festive,christmas,,0,0,0,0,,0,0,,False,unknown
+be_my_baby,The Ronettes Be My Baby,3,retro|romantic,general,16.2,2,0,0,0,,1,375200,apparel,False,unknown
+give_it_up,Sean Paul Give It Up To Me,5,hype|party,ski|party,102.4,1,0,0,0,,0,0,,False,unknown

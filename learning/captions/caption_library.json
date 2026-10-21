@@ -1,0 +1,1004 @@
+{
+ "_built": "2026-10-20T17:28:51",
+ "_doc": "D93 caption study: every pattern cites its POC reels + views. own=True rows weighted x2.",
+ "products": {
+  "grinch_robe": {
+   "name": "Grinch Robe (MerryJammies)",
+   "fallback": null,
+   "fallback_why": null,
+   "n_captions": 69,
+   "n_own": 59,
+   "patterns": [
+    {
+     "pattern": "link_cta",
+     "n": 20,
+     "total_views": 38114623.0,
+     "median_tags": 3,
+     "poc": [
+      {
+       "ref": "1.2209862845747134e+17",
+       "views": 6668888.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "Get yours👉https://merryjammies.com/products/merryjammies-festive-heating-robe\n #christmas #gift #viral #girl"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/1624473615929591/",
+       "views": 6600000.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Get yours👉https://merryjammies.com/products/merryjammies-festive-heating-robe  #christmas #gift #viral #girl"
+      },
+      {
+       "ref": "None",
+       "views": 6600000.0,
+       "source": "audience/data/text_corpus.csv",
+       "own": false,
+       "caption": "Get yours👉  #christmas #gift #viral #girl"
+      },
+      {
+       "ref": "1.2210050646347134e+17",
+       "views": 2729169.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "Get yours👉🏻https://merryjammies.com/products/merryjammies-festive-heating-robe\n\n #christmas #mom #warm #cozy"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/1381141263599559/",
+       "views": 2700000.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Get yours👉🏻https://merryjammies.com/products/merryjammies-festive-heating-robe  #christmas #mom #warm #cozy"
+      }
+     ]
+    },
+    {
+     "pattern": "reveal_tag",
+     "n": 5,
+     "total_views": 12897344.0,
+     "median_tags": 3,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@thecozygrump.us/video/7683408259264335125",
+       "views": 12400000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Meet the coziest thing you’ll wear all winter 🎄 This hooded and heated Grinch robe is basically a wearable blanket, floor-length, sherpa-lined, with built-in foot pockets so you’re wrapped up head to toe. It even heats u"
+      },
+      {
+       "ref": "1.2211233225947134e+17",
+       "views": 304756.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "And its heated😊#christmas #robe #viral"
+      },
+      {
+       "ref": "1.2210560885147134e+17",
+       "views": 98652.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "It's heated❄️☺️ #christmas #gift #mom"
+      },
+      {
+       "ref": "1.2211305861947134e+17",
+       "views": 87644.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "AND they're heated ☃️🎅🏻 #christmas #grinch #winter"
+      },
+      {
+       "ref": "1.2210112941947134e+17",
+       "views": 6292.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "Heated Grinch Robe🎄😭 #christmas #gift #viral #grinchmas"
+      }
+     ]
+    },
+    {
+     "pattern": "statement",
+     "n": 33,
+     "total_views": 7766596.0,
+     "median_tags": 0,
+     "poc": [
+      {
+       "ref": "https://www.instagram.com/reel/Ddii6mOKO2G/",
+       "views": 4626729.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Link in bio!"
+      },
+      {
+       "ref": "https://www.tiktok.com/@thecozygrump.us/video/7678635898518523156",
+       "views": 1200000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Meet the coziest thing you’ll wear all winter 🎄 This hooded Grinch robe is basically a wearable blanket, floor-length, sherpa-lined, with built-in foot pockets so you’re wrapped up head to toe. It even heats up with 3 ad"
+      },
+      {
+       "ref": "https://www.instagram.com/reel/DdQw1jyKI63/",
+       "views": 686895.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Link in bio!"
+      },
+      {
+       "ref": "https://www.instagram.com/reel/DdTC2suKD0l/",
+       "views": 362211.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Link in bio"
+      },
+      {
+       "ref": "https://www.instagram.com/reel/DdK34IiqRx4/",
+       "views": 334167.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Link in bio"
+      }
+     ]
+    },
+    {
+     "pattern": "gift_target",
+     "n": 2,
+     "total_views": 615707.0,
+     "median_tags": 4,
+     "poc": [
+      {
+       "ref": "1.2211741042547134e+17",
+       "views": 524946.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "All moms need this🎁 #christmas #mom #viral"
+      },
+      {
+       "ref": "1.2210101647547134e+17",
+       "views": 90761.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "For all the moms🎄💝 #christmas #cozy #mom #warm"
+      }
+     ]
+    },
+    {
+     "pattern": "keyword_cta",
+     "n": 3,
+     "total_views": 276118.0,
+     "median_tags": 0,
+     "poc": [
+      {
+       "ref": "https://www.instagram.com/reel/DdGdL41KJo4/",
+       "views": 240700.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Say cozy if you'd get this.."
+      },
+      {
+       "ref": "https://www.instagram.com/reel/DdDqyRKqDQc/",
+       "views": 28907.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Comment cozy if you'd get this!"
+      },
+      {
+       "ref": "https://www.instagram.com/reel/DdA7Ka5qviq/",
+       "views": 6511.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Say cozy if you'd get this"
+      }
+     ]
+    },
+    {
+     "pattern": "callout",
+     "n": 6,
+     "total_views": 377713.0,
+     "median_tags": 4,
+     "poc": [
+      {
+       "ref": "1.2209960612747134e+17",
+       "views": 112666.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "Dont show a MOM #christmas #cozy #mom"
+      },
+      {
+       "ref": "1.2210348734147134e+17",
+       "views": 97023.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "Who needs one😉🎄 #christmas #mom #grinch #gift"
+      },
+      {
+       "ref": "1.2211305490547134e+17",
+       "views": 88062.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "who would wear this🎄 #christmas #mom #robe #cozy"
+      },
+      {
+       "ref": "1.2211106587547134e+17",
+       "views": 71027.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "Run to Target🎄 #christmas #robe #viral"
+      },
+      {
+       "ref": "1.2210280999547134e+17",
+       "views": 4672.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "Who would get this🎄👇#christmas #gift #viral #mom"
+      }
+     ]
+    }
+   ],
+   "gap": null
+  },
+  "heatjams": {
+   "name": "HeatJams",
+   "fallback": null,
+   "fallback_why": null,
+   "n_captions": 8,
+   "n_own": 3,
+   "patterns": [
+    {
+     "pattern": "reveal_tag",
+     "n": 6,
+     "total_views": 35915062.0,
+     "median_tags": 4,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@sarahgibbons_/video/7566062783272373534",
+       "views": 17900000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Netflix Nights Just Got Warmer 🍿 Snuggle Up in This Heated Blanket Hoodie! #heatedhoodie #cozynights #tiktokshopcreatorpicks #tiktokshopblackfriday #tiktokshopcybermonday"
+      },
+      {
+       "ref": "https://www.tiktok.com/@illsellyouwhat1/video/7571551374966557983",
+       "views": 12400000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "This is the best gift you can get this season. In my opinion. It’s a wearable electric heated blanket with foot pocket sleeves in a hood. #tiktokshopcreatorpicks #blackfriday #Christmas #WearableElectricBlanket #HeatedBl"
+      },
+      {
+       "ref": "https://www.tiktok.com/@neilaswgza6/video/7691232474877201695",
+       "views": 5500000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Meet the coziest thing on your Christmas list 🎄🤩 This wearable heated blanket gives you all the blanket cozy — tuck your feet in, without ever being stuck underneath one ⛄🙌 6 heat levels + a 12-hour timer = warmth that w"
+      },
+      {
+       "ref": "1.2210212831147134e+17",
+       "views": 91943.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "HEATED JAMMIES☃️🎄 #christmas #heated #pajamas #xmas"
+      },
+      {
+       "ref": "1.2210836555747134e+17",
+       "views": 16857.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "Heated Jammies😁🎄 #christmas #gift #viral #mom"
+      }
+     ]
+    },
+    {
+     "pattern": "link_cta",
+     "n": 1,
+     "total_views": 6000000.0,
+     "median_tags": 4,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@warmly.official/video/7677579852140055809",
+       "views": 6000000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Get yours at the link in my bio 💕 #cozy #cozyathome #winter #blanket "
+      }
+     ]
+    },
+    {
+     "pattern": "callout",
+     "n": 1,
+     "total_views": 562800.0,
+     "median_tags": 4,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@kaia.makes/video/7696679745617972501",
+       "views": 562800.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Dont show this to a coo lover! #highlandcow #highlandcoo #cozy #christmasgift"
+      }
+     ]
+    }
+   ],
+   "gap": null
+  },
+  "cozyjams": {
+   "name": "CozyJams",
+   "fallback": "grinch_robe",
+   "fallback_why": "same cozy-apparel mom/wife gift buyer; CozyJams has no own posts",
+   "n_captions": 12,
+   "n_own": 0,
+   "patterns": [
+    {
+     "pattern": "statement",
+     "n": 11,
+     "total_views": 13424900.0,
+     "median_tags": 5,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@sally70958/video/7693111691055222030",
+       "views": 3500000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Tuts posted on my profile and story 🙈 #fyp #victoriassecret #pajamas #christmas #christmaspajamas  "
+      },
+      {
+       "ref": "https://www.tiktok.com/@merrysnuggleheaven/video/7573022059261988118",
+       "views": 2700000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "When are we matching pajamas togetherrr??💘🤗 Link in bio!❤️✨ #wintervibes #matchingpajamas #matchingpjs #christmas #christmasgift "
+      },
+      {
+       "ref": "https://www.tiktok.com/@sheispat0/video/7696826974911712525",
+       "views": 1500000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Don’t miss out | tuts on story 🫶 #aerie #christmastok #pajamas #christmas #christmaspajamas "
+      },
+      {
+       "ref": "https://www.tiktok.com/@thiswomantyler/video/7694312033533103391",
+       "views": 1400000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Matching Pajamas season is right around the corner and I found the PERFECT company to support! 🎄 @PJs for the Culture #christmaspjs #matchingpajamas #blackownedbusiness [NOT PAID OR SPONSERED]"
+      },
+      {
+       "ref": "https://www.tiktok.com/@cowgirlgoldfish/video/7697733222674730253",
+       "views": 733700.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "tis the season🤭🤭 #christmaswishlist #christmas #aerie #christmasgiftideas #creatorsearchinsights  "
+      }
+     ]
+    },
+    {
+     "pattern": "callout",
+     "n": 1,
+     "total_views": 658400.0,
+     "median_tags": 5,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@calevelynn/video/7696881138316446990",
+       "views": 658400.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "run to target!! 💗🌲🍪⭐️ new holiday pajamas just arrived!! @target #target #wildfable #holidaypajamas #christmaspjs #christmas2026 "
+      }
+     ]
+    }
+   ],
+   "gap": null
+  },
+  "grinchmelt_mug": {
+   "name": "GrinchMelt",
+   "fallback": null,
+   "fallback_why": null,
+   "n_captions": 7,
+   "n_own": 2,
+   "patterns": [
+    {
+     "pattern": "statement",
+     "n": 7,
+     "total_views": 17166926.0,
+     "median_tags": 3,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@smartfinds500/video/7685851145981414678",
+       "views": 7300000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Melting white chocolate in a cosy candle mug 🤍🍫 This candle mug makes the whole experience feel so much more special. Perfect for those colder dark nights… #W#WhiteChocolateC#ChocolateLoversC#CosySeasonTikTokMadeMeBuyIt "
+      },
+      {
+       "ref": "https://www.tiktok.com/@shopwithnathnow/video/7690308377980783894",
+       "views": 5800000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "what a cosy night vibe #tiktokmademebuyit #foryoudays "
+      },
+      {
+       "ref": "https://www.tiktok.com/@adrienneugccreator/video/7560754450067950878",
+       "views": 1900000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "I can already smell the comments about the price 😂🎄 This little fondue mug melts chocolate for cookies, fruit & marshmallows — the easiest way to add a festive dessert to any holiday night. "
+      },
+      {
+       "ref": "https://www.tiktok.com/@meltiemug/video/7696255762070326558",
+       "views": 1700000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "I love this mug!! 🍫link in bio #christmas #wishlist #movienight "
+      },
+      {
+       "ref": "https://www.tiktok.com/@meltiemug/video/7697016077632474398",
+       "views": 437600.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Obsessed with this mug!! ✨ #christmas #movienight #giftguide "
+      }
+     ]
+    }
+   ],
+   "gap": null
+  },
+  "brickhood_mask": {
+   "name": "Brick Hood",
+   "fallback": null,
+   "fallback_why": null,
+   "n_captions": 27,
+   "n_own": 10,
+   "patterns": [
+    {
+     "pattern": "link_cta",
+     "n": 7,
+     "total_views": 6026725.0,
+     "median_tags": 3,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@merlinepulley42/video/7689899316252626207",
+       "views": 2400000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "3-in-1 winter hat,keeps your face,neck & ears toasty AF! Grab it fast,hit the link! #balaclava #tiktokholidayhaul      #tiktokshopstockup #spotlightfinds #homeandelectronicdeals "
+      },
+      {
+       "ref": "https://www.tiktok.com/@merlinepulley42/video/7689899316252626207",
+       "views": 2300000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "3-in-1 winter hat,keeps your face,neck & ears toasty AF! Grab it fast,hit the link! #balaclava #tiktokholidayhaul      #tiktokshopstockup #spotlightfinds #homeandelectronicdeals "
+      },
+      {
+       "ref": "https://www.tiktok.com/@novaminiusa/video/7692509664113675542",
+       "views": 1100000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Get yours — link in bio 🔗🧱 . Made for cold days and big personalities. . #skimask #balaclava #skitok #wintergear #skiseason"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/2251033295693313/",
+       "views": 61290.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Get it here 👉 brickhood.myshopify.com #ski #colorado #montana"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/1830273284997263/",
+       "views": 61106.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Get it here 👉 brickhood.myshopify.com #skifahren #skimaske"
+      }
+     ]
+    },
+    {
+     "pattern": "statement",
+     "n": 15,
+     "total_views": 8779646.0,
+     "median_tags": 4,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@roberta.hanna0/video/7696979919263272206",
+       "views": 2500000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Old Man Ski Winter Face Mask Holdman: #funny #facemask #fyp"
+      },
+      {
+       "ref": "https://www.tiktok.com/@weargrind12/video/7697162836027411742",
+       "views": 1400000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "This mask will give you chills 😱 Terrifying full head balaclava horror mask. Breathable stretch fabric, creepy cracked design & sharp fangs. Perfect for Halloween parties, haunted house & cosplay. Who dares to wear this?👇 #HorrorMask #HalloweenCostume #ScaryMask #BalaclavaMask #SpookySeason"
+      },
+      {
+       "ref": "https://www.tiktok.com/@babbamqbws2/video/7697237085236825358",
+       "views": 961400.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Is that an old man.. or a mask? Full 3D printed balaclava — wrinkles, gray hair, mustache, eye hole, neck covered. People on the lift did a full double take. Keep watching, it gets worse. #skimask #noveltymask #prank #comedy #tiktokshop "
+      },
+      {
+       "ref": "https://www.tiktok.com/@fearnot.usa/video/7694104623463894285",
+       "views": 914600.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Knitted Balaclavas Oct 9th  Be ready."
+      },
+      {
+       "ref": "https://www.tiktok.com/@babbamqbws2/video/7697237085236825358",
+       "views": 863800.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Is that an old man.. or a mask? Full 3D printed balaclava — wrinkles, gray hair, mustache, eye hole, neck covered. People on the lift did a full double take. Keep watching, it gets worse. #skimask #noveltymask #prank #co"
+      }
+     ]
+    },
+    {
+     "pattern": "hashtags_only",
+     "n": 1,
+     "total_views": 1900000.0,
+     "median_tags": 2,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@life52551/video/7694047587929738518",
+       "views": 1900000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "#skimask #winterfashion "
+      }
+     ]
+    },
+    {
+     "pattern": "keyword_cta",
+     "n": 4,
+     "total_views": 2495600.0,
+     "median_tags": 5,
+     "poc": [
+      {
+       "ref": "https://www.instagram.com/reel/Ddzv_9lhE40/",
+       "views": 1000000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Comment “Mask” if you want one! ⛷️ #skimask #ski #skier"
+      },
+      {
+       "ref": "https://www.tiktok.com/@novaminiusa/video/7693488096985353494",
+       "views": 587700.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Comment “LEGO” and we’ll send you the link 🧱 . Be the one everyone remembers on the mountain. . #balaclava #skimask #snowboarding #skigear #winterstyle "
+      },
+      {
+       "ref": "https://www.tiktok.com/@rachellezhun7/video/7693459371631693076",
+       "views": 489000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Comment MASK for the link to order 😂🏂 #skimask #snowboard"
+      },
+      {
+       "ref": "https://www.tiktok.com/@novaminiusa/video/7695509340383448342",
+       "views": 418900.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Comment “OLD MAN” and we’ll send you the link 🧱❄️ . Your ski trip just got a new character. . #skimask #balaclava #skiing #snowboarding #skiseason"
+      }
+     ]
+    }
+   ],
+   "gap": null
+  },
+  "merryfire": {
+   "name": "MerryFire",
+   "fallback": null,
+   "fallback_why": null,
+   "n_captions": 16,
+   "n_own": 13,
+   "patterns": [
+    {
+     "pattern": "link_cta",
+     "n": 5,
+     "total_views": 934405.0,
+     "median_tags": 0,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@stonebrook.home/video/7576758246338333983",
+       "views": 705300.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Take it ANYWHERE.✨So easy to use!! LINK IN BIO. If you need a gift for the dad who “doesn’t need anything”… THIS is it. 🔥🎁 Currently on sale for Black Friday! No wires, no mounting, just grab it and go. Dad can stream th"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/1703965718404034/",
+       "views": 67731.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Get it here: merryfire.myshopify.com…"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/1082602281322454/",
+       "views": 62992.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Get it here 👉 https://merryfire.com/products/christmas-tabletop-fire-pit #christmasiscoming #christmasdecor #christmasgifts"
+      },
+      {
+       "ref": "None",
+       "views": 62992.0,
+       "source": "audience/data/text_corpus.csv",
+       "own": false,
+       "caption": "Get it here 👉  #christmasiscoming #christmasdecor #christmasgifts"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/1074627768726306/",
+       "views": 35390.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Get it here 👉 merryfire.com… "
+      }
+     ]
+    },
+    {
+     "pattern": "statement",
+     "n": 9,
+     "total_views": 503634.0,
+     "median_tags": 3,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@la_anita0/video/7623540304242609438",
+       "views": 414100.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "32” outdoor fire pit 🔥 beautiful and cozy memories await 😍 #firepit #cooking #outdoorcooking #patio #tiktokmademebuyit "
+      },
+      {
+       "ref": "ig_40.3K_DePucbFyXdY",
+       "views": 40300.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "This is a must-have this Christmas.. 🤭  #christmasiscoming #christmasdecor #homedecor"
+      },
+      {
+       "ref": "ig_30.9K_DeYZg4lKmeC",
+       "views": 30900.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Your neighbors will be jealous… 🤭❄️  #christmasdecor #christmaslights #christmasgifts #christmasiscoming"
+      },
+      {
+       "ref": "ig_9K_DeYZse3q1Xl",
+       "views": 9007.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Christmas family time has a whole new meaning 🥹🎄  #christmasiscoming #christmasgifts #christmasdecor #christmaslights"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/1101086242506423/",
+       "views": 3084.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Christmas this year will be magical.. 🥹✨ #christmasdecor #christmasiscoming #christmasgifts"
+      }
+     ]
+    },
+    {
+     "pattern": "keyword_cta",
+     "n": 2,
+     "total_views": 7929.0,
+     "median_tags": 4,
+     "poc": [
+      {
+       "ref": "ig_5.3K_DePqPmbvWjL",
+       "views": 5326.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Comment “santa” if you’d get this 🥹  #christmasiscoming #christmasdecor #homedecor #family"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/1012581455204038/",
+       "views": 2603.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Say \"Santa\" if you'd get this 😏 (no link)"
+      }
+     ]
+    }
+   ],
+   "gap": null
+  },
+  "merryglow_lights": {
+   "name": "MerryGlow",
+   "fallback": null,
+   "fallback_why": null,
+   "n_captions": 38,
+   "n_own": 16,
+   "patterns": [
+    {
+     "pattern": "keyword_cta",
+     "n": 11,
+     "total_views": 32216600.0,
+     "median_tags": 0,
+     "poc": [
+      {
+       "ref": "https://www.instagram.com/reel/DdxyymGMHqb/",
+       "views": 17400000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Your ceiling is boring. Fix it 🎄  MerryGlow turns any room into a Christmas snow globe in seconds ❄️  360° adjustable base, USB powered, zero setup 🔌  50% OFF ends at midnight ⏰ Free shipping 📦  COMMENT “Christmas” to ge"
+      },
+      {
+       "ref": "https://www.instagram.com/reel/DeEZw3NszI6/",
+       "views": 5500000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Your ceiling is boring. Fix it 🎄  MerryGlow turns any room into a Christmas snow globe in seconds ❄️  360° adjustable base, USB powered, zero setup 🔌  50% OFF ends at midnight ⏰ Free shipping 📦  COMMENT “Christmas” to ge"
+      },
+      {
+       "ref": "https://www.tiktok.com/@snowlit.official/video/7693369514632826142",
+       "views": 3200000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Your ceiling is boring. Fix it 🎄 MerryGlow turns any room into a Christmas snow globe in seconds ❄️ 360° adjustable base, USB powered, zero setup 🔌 50% OFF ends at midnight ⏰ Free shipping 📦 COMMENT \"Christmas\" to get yo"
+      },
+      {
+       "ref": "https://www.instagram.com/reel/DdxxjkkMqGC/",
+       "views": 2900000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Your ceiling is boring. Fix it 🎄  MerryGlow turns any room into a Christmas snow globe in seconds ❄️  360° adjustable base, USB powered, zero setup 🔌  50% OFF ends at midnight ⏰ Free shipping 📦  COMMENT “Christmas” to ge"
+      },
+      {
+       "ref": "https://www.tiktok.com/@tryglowmas/video/7687847463620709646",
+       "views": 1100000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Comment \"NEED\" if you want one!🤩🎄 #projector #christmas #fyp #usa #gift "
+      }
+     ]
+    },
+    {
+     "pattern": "statement",
+     "n": 12,
+     "total_views": 7310444.0,
+     "median_tags": 0,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@deseos.del.polo.n/video/7694908890881871126",
+       "views": 2200000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Así mejoré al 2000% la decoración navideña en mi casa 😭😭🎄😍 #proyectornavideño #proyector #christmasdecor #paranavidad #decoracionnavideña  Proyector con efectos navideños para decorar, decoración navideña, decoración para el hogar, proyector navideño con efectos mágicos para iluminar y decorar tu..."
+      },
+      {
+       "ref": "https://www.tiktok.com/@wyxd6744/video/7686435138552565023",
+       "views": 1800000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "2026 New USB Plug-in Christmas Projector Light  🎄✨#christmas #Projector #tiktokmademebuyit #tiktokshop #fyp"
+      },
+      {
+       "ref": "https://www.tiktok.com/@user1234600461075/video/7697574120367721746",
+       "views": 900500.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "FEEL NA FEEL ANG PASKO! Christmas projector — gandang liwanag sa loob ng bahay, puno ng saya ang Pas"
+      },
+      {
+       "ref": "https://www.tiktok.com/@cyjklgmwaje/video/7694873980976565517",
+       "views": 878700.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Here’s my magical Christmas Tree for 2026! 🎄💫✨⭐️🤩#fyp#tiktokshop#christmas #led #christmastree"
+      },
+      {
+       "ref": "https://www.tiktok.com/@detodounpoco..07/video/7696070569992736014",
+       "views": 641500.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Proyector de Luces Navideñas🎄🧑🏼‍🎄 #christmas #decoration #Navidad #Fyp #blackfriday  "
+      }
+     ]
+    },
+    {
+     "pattern": "link_cta",
+     "n": 15,
+     "total_views": 2362820.0,
+     "median_tags": 1,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@tryglowmas/video/7688874183341673741",
+       "views": 1000000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Get yours link in bio🔗🎁 #projector #christmas #fyp #usa #gift "
+      },
+      {
+       "ref": "https://www.instagram.com/reel/DdzJdDFuI1B/",
+       "views": 169000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Get yours link in bio🔗🎄🎁 #projector #christmas #fyp #gift"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/985708367871514/",
+       "views": 152878.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Get it here 👉 merryglows.com… #ChristmasGifts"
+      },
+      {
+       "ref": "nan",
+       "views": 152878.0,
+       "source": "learning/results/reels.csv",
+       "own": true,
+       "caption": "Get it here (tree lights) #ChristmasGifts"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/1575787310958642/",
+       "views": 119070.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Get it here 👉 merryglows.com… #americanchristmas"
+      }
+     ]
+    }
+   ],
+   "gap": null
+  },
+  "jollyglow_curtain": {
+   "name": "Jolly Glow",
+   "fallback": null,
+   "fallback_why": null,
+   "n_captions": 5,
+   "n_own": 5,
+   "patterns": [
+    {
+     "pattern": "statement",
+     "n": 2,
+     "total_views": 126133.0,
+     "median_tags": 0,
+     "poc": [
+      {
+       "ref": "https://www.facebook.com/reel/28305014139198128/",
+       "views": 63320.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "They'll be asking where you got it.. 🤣🎄"
+      },
+      {
+       "ref": "https://www.facebook.com/reel/1351508813587525/",
+       "views": 62813.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Your neighbors are gonna be jealous... 🤭❄️"
+      }
+     ]
+    },
+    {
+     "pattern": "link_cta",
+     "n": 3,
+     "total_views": 62010.0,
+     "median_tags": 0,
+     "poc": [
+      {
+       "ref": "https://www.facebook.com/reel/1640659064385306/",
+       "views": 62010.0,
+       "source": "hookforge.db",
+       "own": true,
+       "caption": "Get it here 👉 grinchmelt.store/…jollyglow"
+      },
+      {
+       "ref": "Jolly Glow - 321 A - Holly Jolly Christmas - v2 - Caption.txt",
+       "views": 0.0,
+       "source": "out/deliver",
+       "own": true,
+       "caption": "Your neighbors are gonna be jealous... 🤭❄️\nGet yours👉 https://grinchmelt.store/products/jollyglow-programmable-led-curtain-lights\n#christmasdecor #christmasiscoming #christmasgifts\n"
+      },
+      {
+       "ref": "Jolly Glow - 321 B - Holly Jolly Christmas - v2 - Caption.txt",
+       "views": 0.0,
+       "source": "out/deliver",
+       "own": true,
+       "caption": "They'll be asking where you got it.. 🤣🎄\nGet yours👉 https://grinchmelt.store/products/jollyglow-programmable-led-curtain-lights\n#christmasdecor #christmasiscoming #christmasgifts\n"
+      }
+     ]
+    }
+   ],
+   "gap": null
+  },
+  "trumpglow": {
+   "name": "TrumpGlow / PatriotsGlow",
+   "fallback": null,
+   "fallback_why": "own TrumpGlow captions have no views yet: POC = patriotglow.yaml caption_proof (Don't show this to... 183K own; D67 approved)",
+   "n_captions": 5,
+   "n_own": 5,
+   "patterns": [
+    {
+     "pattern": "callout",
+     "n": 1,
+     "total_views": 183145,
+     "median_tags": 4,
+     "poc": [
+      {
+       "ref": "HeatedJammies FB 'DONT show this to your Grandma' (patriotglow.yaml caption_proof)",
+       "views": 183145,
+       "source": "audience/patriotglow.yaml",
+       "own": true,
+       "caption": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸 #trump #maga #america #usa"
+      }
+     ],
+     "fallback": "own TrumpGlow captions have no views yet: POC = patriotglow.yaml caption_proof (Don't show this to... 183K own; D67 approved)"
+    }
+   ],
+   "gap": null
+  },
+  "minionmask": {
+   "name": "Minion Mask",
+   "fallback": "brickhood_mask",
+   "fallback_why": "same ski-mask page/audience; audience/minionmask.yaml caption_proof cites brickhood sibling",
+   "n_captions": 0,
+   "n_own": 0,
+   "patterns": [],
+   "gap": "no captions in any source"
+  },
+  "purrventure_carrier": {
+   "name": "PurrVenture",
+   "fallback": null,
+   "fallback_why": null,
+   "n_captions": 5,
+   "n_own": 2,
+   "patterns": [
+    {
+     "pattern": "keyword_cta",
+     "n": 3,
+     "total_views": 20800000.0,
+     "median_tags": 3,
+     "poc": [
+      {
+       "ref": "POC-PV-CAP1",
+       "views": 20800000.0,
+       "source": "config/poc_defaults.json",
+       "own": false,
+       "caption": "SAY \"PURR\" if you want one! 🐈 #cat #catmom #catlover"
+      },
+      {
+       "ref": "PurrVenture - P1 - Pool Skim - Mambo No 5 - v1 - Caption FB.txt",
+       "views": 0.0,
+       "source": "out/deliver",
+       "own": true,
+       "caption": "SAY \"PURR\" if you want one! 🐈\n"
+      },
+      {
+       "ref": "PurrVenture - P1 - Pool Skim - Mambo No 5 - v1 - Caption IG.txt",
+       "views": 0.0,
+       "source": "out/deliver",
+       "own": true,
+       "caption": "Comment \"PURR\" if you want one! 🐈 #cat #catmom #catlover\n"
+      }
+     ]
+    },
+    {
+     "pattern": "statement",
+     "n": 2,
+     "total_views": 8580200.0,
+     "median_tags": 3,
+     "poc": [
+      {
+       "ref": "https://www.tiktok.com/@pet.scanner.pk/video/7687859112628981013",
+       "views": 8000000.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "Get things done while keeping your cat cozy and close with our Hands-Free Carrier Pouch! Perfect for work-from-home parents, cooking, or relaxing—enjoy total freedom with zero arm strain and maximum purrs. 🦘🐱 🛒 Tap the l"
+      },
+      {
+       "ref": "https://www.tiktok.com/@leolovesdigital/video/7586992657927327031",
+       "views": 580200.0,
+       "source": "hookforge.db",
+       "own": false,
+       "caption": "No more rushing around when taking my cat out! With this spacious, breathable carrier, my kitty cooperates perfectly—total peace of mind）#gift #catbackpack #petparent "
+      }
+     ]
+    }
+   ],
+   "gap": null
+  }
+ }
+}

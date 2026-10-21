@@ -1,0 +1,418 @@
+{
+  "slug": "gift-difficulty-pov-handoff",
+  "name": "\"{Recipient}s are hard to gift..\" + POV gift handoff",
+  "tier": "A",
+  "status": "PROVEN: produced the #1 reel (6.6M). External confirmation on new recipients (kids 374K from a 553-follower account; dad 2.7M).",
+  "summary": "A quoted complaint ('Women are hard to gift..') over a POV from the couch/bed: the recipient's legs in the foreground, a man steps in and hands over the branded gift box. Then the wearable body.",
+  "why": [
+    "#1 reel on any page: 6.6M, opener verified as gen 3ac3e05b (recreate a viral handoff, swap blue box → green box) (hf_match row 1).",
+    "POV_HANDOFF opener: 2/3 fresh posts ≥50K, median 165K (hooks REPORT §1.4).",
+    "Same text with an in-store mom+daughter reaction: 304K and 101K (identical file 11 days apart; repost won).",
+    "External: cyber.gun1 '\"Kids are hard to gift\" 🎄🔫' 374K from 553 followers, 1,721 shares; kateeeeeeeeee22 dad gift ideas 2.7M (V; X)."
+  ],
+  "product_fit": [
+    {
+      "type": "Cozy wearable gift",
+      "fit": "PRIMARY",
+      "evidence": "6.6M, 304K, 101K, 90K"
+    },
+    {
+      "type": "Any gift with a branded box (mug, fire pit, lights)",
+      "fit": "YES (box is the hero at 0 s)",
+      "evidence": "ext 374K laser tag (kids), 2.7M dad; own decor untested"
+    },
+    {
+      "type": "Self-purchase accessory",
+      "fit": "NO",
+      "evidence": "ski mask is self/group purchase (PLAYBOOK §10 gift score 0)"
+    }
+  ],
+  "timing": {
+    "length": "13.0-13.7 s",
+    "basis": "Exact 6.6M cut list (1624473615929591): HOOK 0-3.300 | PUT -4.800 | FEAT -7.000 | CU -7.900 | PLUG -9.067 | REM -10.667 | COZY -13.733.",
+    "shots": [
+      {
+        "t": "0.0 → 3.3",
+        "shot": "HOOK: POV handoff",
+        "content": "POV from couch: her legs lower third; bearded man in a sweater steps in and hands the {brand} gift box down toward camera; her hands reach in by ~2 s",
+        "camera": "POV, gentle push-in",
+        "text": "quote line ON at 0.0",
+        "gen": "H1 (trim to 3.3)"
+      },
+      {
+        "t": "3.3 → 4.8",
+        "shot": "PUT",
+        "content": "talent slips the {product} on, turned away with her back to the phone, hood up so the hood design is what the phone sees",
+        "camera": "locked medium, eye level",
+        "text": "hook line held",
+        "gen": "B1·S1"
+      },
+      {
+        "t": "4.8 → 8.4",
+        "shot": "FEAT",
+        "content": "open it wide: white sherpa lining, step into the foot pouch (legs view); the B1→B2 boundary is the jump cut",
+        "camera": "locked medium-wide, 1 jump cut",
+        "text": "hook line held",
+        "gen": "B1·S2 + B2·S1"
+      },
+      {
+        "t": "8.4 → 9.1",
+        "shot": "PLUG (activation 1)",
+        "content": "macro: USB / power-bank clicks into the port in the fur",
+        "camera": "handheld close-up (the only handheld shot)",
+        "text": "JK flip lands exactly here on store hooks",
+        "gen": "B2·S2 (trim to 0.7 s)"
+      },
+      {
+        "t": "9.1 → 10.7",
+        "shot": "REM (activation 2)",
+        "content": "POV thumb presses the controller, LED heat levels climb",
+        "camera": "locked close",
+        "text": "held",
+        "gen": "B3·S1 (trim to 1.6 s)"
+      },
+      {
+        "t": "10.7 → 12.75",
+        "shot": "COZY (payoff)",
+        "content": "reclined on couch/bed, fully inside, hood up, eyes close / smile, tree lights behind; CUT MID-ACTION",
+        "camera": "locked medium-wide",
+        "text": "held (no CTA card)",
+        "gen": "B3·S2"
+      }
+    ],
+    "measured": [
+      "6.6M: 3.300 | 4.800 | 7.000 | 7.900 | 9.067 | 10.667 | END 13.733 (REM 66%, payoff 78%).",
+      "304K = 101K (identical): 3.467 | 5.567 | 6.533 | 7.867 | 9.100 | 9.967 | 13.767 | 15.967 | END 17.44 (long; the only winner >15 s).",
+      "90K 'Moms are so hard to gift': 4.067 | 6.067 | 9.400 | 9.967 | 11.033 | END 12.75.",
+      "6.7K 'Mom's are hard to gift..' (re-render, face cropped): 3.300 | 5.100 | 8.267 | 9.100 | 10.667 | END 12.61 — same timing as the 6.6M, so timing is not the cause."
+    ],
+    "rules": [
+      "The box must be in frame and moving toward camera by 2 s.",
+      "Keep the recipient's face out of the hook (POV legs); the giver's face smiles."
+    ]
+  },
+  "text": {
+    "style": "In quotation marks, two trailing dots, NO emoji on the main line (6.6M, 304K, 101K). House placement.",
+    "patterns": [
+      {
+        "pattern": "\"{Women} are hard to gift..\"",
+        "tag": "P",
+        "source": "HJ 6.6M, 304K, 101K"
+      },
+      {
+        "pattern": "{Moms} are so hard to gift 🥺❄️🎅",
+        "tag": "P",
+        "source": "HJ 90K"
+      },
+      {
+        "pattern": "\"{Kids} are hard to gift\" 🎄🔫",
+        "tag": "P (ext)",
+        "source": "cyber.gun1 374K"
+      },
+      {
+        "pattern": "\"{Wives / Grandmas} are hard to gift..\"",
+        "tag": "F",
+        "source": "6.6M formula × 165K/183K recipients"
+      }
+    ],
+    "rules": [
+      "'Mom's are hard to gift..' at 6.7K was a 1080p re-render with the face cropped; wording is not proven worse.",
+      "Never repost the 6.6M file (2.2K)."
+    ]
+  },
+  "caption": {
+    "template": "Finally found it 🥹\nSAY \"{KEYWORD}\" and we'll send you the link 🎁\n#christmas #giftsfor{recipient} #giftideas",
+    "keywords": [
+      "GIFT",
+      "MOM",
+      "WIFE"
+    ],
+    "rules": [
+      "SAY not COMMENT (Omar).",
+      "No comfort adjectives (SO COMFORTABLE 1.6K, PLAYBOOK §9)."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": 1,
+        "track": "Let It Snow! (Dean Martin) · 0:00",
+        "start": "reel 0.0",
+        "evidence": "HJ 6.6M"
+      },
+      {
+        "rank": 2,
+        "track": "It's Beginning to Look a Lot Like Christmas (Bublé) · ~0:31-0:33",
+        "start": "reel 0.0",
+        "evidence": "HJ 304K/101K (offset 32.2 s)"
+      },
+      {
+        "rank": 3,
+        "track": "AIWFCIY · 0:00 intro",
+        "start": "reel 0.0",
+        "evidence": "HJ 90K, 165K"
+      }
+    ],
+    "rules": []
+  },
+  "generation_plan": {
+    "summary": "4 gens. H1 is a 1:1 recreate of a viral handoff clip with only the box swapped — the exact recipe of the 6.6M opener.",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "POV gift handoff (verified 6.6M recipe)",
+        "shots": "one continuous POV shot",
+        "feeds": "HOOK",
+        "inputs": "<<<video_1>>> = viral POV box handoff (library source of 3ac3e05b); <<<image_1>>> = {brand} gift box",
+        "basis": "Verbatim structure of 3ac3e05b (6.6M @0.25 s), only the phone model standardised.",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly. Do not change the camera angle and movements, There are only 2 changes you are going to make.\nChange 1: Replace the {source_box_colour} box the guy is holding in <<<video_1>>> with the {brand} box in <<<image_1>>>\nChange 2: Remove the caption from <<<video_1>>>\nOther than change 1, and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "POV from a couch: a woman's legs in light pants stretch toward the camera in the lower third. A smiling bearded man in a sweater steps forward and hands the {brand} gift box from <<<image_1>>> down toward the camera; her hands reach in from the bottom of frame to take it by 2 seconds. Lit Christmas tree and lamps behind, handheld phone video, gentle push-in. Natural room sound only, no text.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+      },
+      {
+        "id": "B1",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "PUT | FEAT-a",
+        "shots": "S1 put-on from behind 0-2 s · S2 feature reveal 2-4 s",
+        "feeds": "PUT, FEAT (first half)",
+        "inputs": "<<<video_1>>> = spliced 2+2 s reference (library try-on + lining reveal); <<<image_1>>> = product front; optional <<<image_2>>> = lining",
+        "basis": "Verified T1/T7 recreate-swap (gens c0ede3c3, f7a6d1c3 in the 1.4M Walmart; 26282071 in the 6.6M). Multi-shot inside one gen is verified (hf_20260826_063252 lining→belt→remote, PLAYBOOK §7.2).",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly, including its HARD CUT at 2s, no transition (shot 1 = a person putting the red robe on from behind, hood up; shot 2 = the red robe opened wide to show the white lining and foot pouch, legs view). Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the red blanket robe in both shots of <<<video_1>>> with the {product} in <<<image_1>>>, identical colour and details in both shots. Make sure the hood is up in shot 1.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, cozy American living room with a lit Christmas tree, daytime window light. SHOT 1 (0.0-2.0s), framed as the start image: from behind, a woman swings the {product} from <<<image_1>>> over her shoulders and pulls the hood up; the hood design faces the camera; fabric swoosh. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: low frame from the waist down on a grey carpet: she opens the {product} wide to show the white fluffy lining and steps into the sealed foot pouch, bouncing one leg. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: fabric swoosh, soft footsteps on carpet. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1) · for alt_prompt",
+          "prompt": "iPhone photo, vertical 9:16, cozy American living room with a lit Christmas tree, daytime window light. The first instant of this shot, as a single frame: from behind, a woman swings the {product} from <<<image_1>>> over her shoulders and pulls the hood up; the hood design faces the camera; fabric swoosh. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B2",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "FEAT-b | PLUG",
+        "shots": "S1 feature continued (walk/turn/sit) 0-2 s · S2 connector macro 2-4 s (use 0.7 s)",
+        "feeds": "FEAT (second half), PLUG",
+        "inputs": "<<<video_1>>> = spliced reference (turn/sit + plug macro); <<<image_1>>> = product; <<<image_2>>> = connector/controller photo",
+        "basis": "Verified 3e6bcbbd (1.4M Walmart @10.25 s, blanket swap) + PLAYBOOK §7.5 'one action per clip: the plug is its own ≤0.63 s beat'.",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly, including its HARD CUT at 2s, no transition (shot 1 = the person in the red robe turning and sitting down; shot 2 = macro of fingers clicking the white connector into the red fur). Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the red blanket robe in both shots of <<<video_1>>> with the {product} in <<<image_1>>>, identical colour and details in both shots.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room as the start image. SHOT 1 (0.0-2.0s), framed as the start image: the woman in the {product} from <<<image_1>>>, hood up, turns slowly and sits on the couch arm, the full length and pockets visible. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: macro close-up: fingers click the white connector from <<<image_2>>> into the port hidden in the fur, Christmas tree bokeh behind. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: fabric rustle, a crisp plastic click. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1) · for alt_prompt",
+          "prompt": "iPhone photo, vertical 9:16, same living room as the start image. The first instant of this shot, as a single frame: the woman in the {product} from <<<image_1>>>, hood up, turns slowly and sits on the couch arm, the full length and pockets visible. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B3",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "REM | COZY",
+        "shots": "S1 remote LEDs climb 0-2 s · S2 cozy payoff 2-4 s",
+        "feeds": "REM, COZY",
+        "inputs": "<<<video_1>>> = spliced reference (remote press + recliner snuggle); <<<image_1>>>; <<<image_2>>> = controller",
+        "basis": "Verified 8f761a37 (147K: 'add a red glow around the edges of the remote when they press the button') + c0ede3c3 (cozy payoff in 1.4M ×2 and 16K).",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly, including its HARD CUT at 2s, no transition (shot 1 = POV thumb pressing the remote, heat LEDs stepping up; shot 2 = person reclined on the couch fully inside the red robe, hood up, snuggling deeper). Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the red blanket robe in both shots of <<<video_1>>> with the {product} in <<<image_1>>>, identical colour and details in both shots. In shot 1 the controller LEDs step up from level 3 to level 5 with a red glow.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room, lamps on, tree lit. SHOT 1 (0.0-2.0s), framed as the start image: POV: a thumb presses the white controller from <<<image_2>>> several times and the LED heat levels step up from 3 to 5, small click sounds. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: she is reclined on the couch fully inside the {product} with the hood up, shivers once, then snuggles deeper and pulls it to her chin, eyes closing, smiling. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: button clicks, a content sigh. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1) · for alt_prompt",
+          "prompt": "iPhone photo, vertical 9:16, same living room, lamps on, tree lit. The first instant of this shot, as a single frame: POV: a thumb presses the white controller from <<<image_2>>> several times and the LED heat levels step up from 3 to 5, small click sounds. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      }
+    ],
+    "rules": [
+      "The box is the product at 0 s: its art must match the real packaging (packaging is what viewers track, PLAYBOOK §7.5 rule 2)."
+    ]
+  },
+  "evidence": [
+    {
+      "origin": "internal",
+      "id": "1624473615929591",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 6600000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "\"Women are hard to gift..\" · POV handoff · gen 3ac3e05b",
+      "src": "H,B,M",
+      "url": "https://www.facebook.com/reel/1624473615929591/"
+    },
+    {
+      "origin": "internal",
+      "id": "1410913797833886",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 304000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "same text · mom+daughter store reaction · gens 87d86b53, bacbe20e",
+      "src": "H,B,M",
+      "url": "https://www.facebook.com/reel/1410913797833886/"
+    },
+    {
+      "origin": "internal",
+      "id": "1976820096287385",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 101000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "identical file to 304K, 11 days earlier",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1976820096287385/"
+    },
+    {
+      "origin": "internal",
+      "id": "952384320521622",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 90000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "Moms are so hard to gift 🥺❄️🎅 · POV feet",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/952384320521622/"
+    },
+    {
+      "origin": "internal",
+      "id": "1117880117569292",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 6700.0,
+      "shares": null,
+      "role": "flop",
+      "note": "Mom's are hard to gift.. · re-render, face cropped",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1117880117569292/"
+    },
+    {
+      "origin": "internal",
+      "id": "1081446424374980",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 3700.0,
+      "shares": null,
+      "role": "flop",
+      "note": "Women are hard to gift.. · woman walking an aisle, 16.3 s",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1081446424374980/"
+    },
+    {
+      "origin": "internal",
+      "id": "1610499813849290",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 2200.0,
+      "shares": null,
+      "role": "flop",
+      "note": "identical repost of the 6.6M, 16 d later",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1610499813849290/"
+    },
+    {
+      "origin": "external",
+      "id": "kateeeeeeeeee22/37987103",
+      "page": "kateeeeeeeeee22",
+      "platform": "TikTok",
+      "views": 2700000.0,
+      "shares": "4.4K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Christmas gift ideas for Your dad! Who says he doesn't want anything",
+      "src": "X",
+      "url": "https://www.tiktok.com/@kateeeeeeeeee22/video/7576046980237987103",
+      "posted": "2025-11-23"
+    },
+    {
+      "origin": "external",
+      "id": "thefacetribee/47474976",
+      "page": "thefacetribee",
+      "platform": "TikTok",
+      "views": 1000000.0,
+      "shares": "4.9K",
+      "flag": false,
+      "role": "external winner",
+      "note": "The best Christmas gift for your husband😉🎄 · unwrap by tree",
+      "src": "X",
+      "url": "https://www.tiktok.com/@thefacetribee/video/7692189098047474976",
+      "posted": "2026-10-02"
+    },
+    {
+      "origin": "external",
+      "id": "cyber.gun1/12469526",
+      "page": "cyber.gun1",
+      "platform": "TikTok",
+      "views": 374200.0,
+      "shares": "1.7K",
+      "flag": false,
+      "role": "external winner",
+      "note": "\"Kids are hard to gift\" 🎄🔫 · 553 followers",
+      "src": "V",
+      "url": "https://www.tiktok.com/@cyber.gun1/video/7694746746412469526",
+      "posted": "2026-10-09"
+    },
+    {
+      "origin": "external",
+      "id": "stonebrook.home/38333983",
+      "page": "stonebrook.home",
+      "platform": "TikTok",
+      "views": 705300.0,
+      "shares": "1.4K",
+      "flag": true,
+      "role": "external winner",
+      "note": "The #1 gift that Dad will actually use!! 🎁 · fire pit",
+      "src": "X",
+      "url": "https://www.tiktok.com/@stonebrook.home/video/7576758246338333983",
+      "posted": "2025-11-25"
+    }
+  ],
+  "failures": [
+    "Identical repost (2.2K).",
+    "Recipient face cropped / weaker re-render (6.7K).",
+    "Walking-in-aisle opener with no handoff or reaction (3.7K)."
+  ],
+  "variants": [
+    {
+      "name": "Male recipient",
+      "rule": "'\"Dads are impossible to gift..\"' with the roles flipped (she hands him the box); fit: fire pit, mug.",
+      "proof": "kateeeeeeeeee22 2.7M, thefacetribee 1.0M, stonebrook 705K⚑; male recipients untested on our pages.",
+      "gate": "3 renders."
+    },
+    {
+      "name": "Handoff + outcome payoff",
+      "rule": "Replace COZY with the giver's reaction to her using it (remix with gift-outcome).",
+      "proof": "6.6M handoff + ccreamyco 12.1M outcome framing.",
+      "gate": "A/B against the standard body."
+    }
+  ],
+  "checks": [
+    {
+      "id": "gd.quote_marks",
+      "rule": "hook text in quotes, ends with '..'",
+      "cite": "6.6M, 304K"
+    },
+    {
+      "id": "gd.box_moving_by_2s",
+      "rule": "box displacement toward camera between 0 and 2 s",
+      "cite": "6.6M"
+    }
+  ],
+  "open": [
+    "n=3 fresh winners; the handoff vs store-reaction visual split is n=1 each."
+  ],
+  "review": [
+    "The 6.6M is partly lottery (identical file did 2.2K). The spec therefore copies the recipe, not the file, and budgets 2-4 H1 rolls."
+  ],
+  "rank": 5,
+  "evidence_strength": {
+    "score": 14.1,
+    "internal_hits_ge50k": 4,
+    "internal_tested": 7,
+    "external_organic_winners": 1
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

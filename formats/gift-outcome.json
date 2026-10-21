@@ -1,0 +1,300 @@
+{
+  "slug": "gift-outcome",
+  "name": "Gift outcome (\"got my {wife} this & now she won't stop {using it}😂\")",
+  "tier": "C",
+  "status": "EXPERIMENT. External 12.1M (IG), 2.6M, 2.5M, 1.0M. Never tested on our pages; the husband-buyer framing is untested.",
+  "summary": "The buyer reports the recipient's obsessive use after the gift: social proof and gift intent in one line. The body shows the recipient using it again and again.",
+  "why": [
+    "ccreamyco IG 'got my gf this & now she won't stop making ice cream😂' 12.1M; ccreamyco TikTok 'pov: you finally found the perfect gift for your teenag…' 2.5M (X).",
+    "thefacetribee 'The best Christmas gift for your husband😉🎄' 1.0M; lockedlovestore 'Suprise them ❤️🥹' 2.6M (X).",
+    "No internal evidence. The closest internal reel is the 6.6M POV handoff (a gift moment, but a different line)."
+  ],
+  "product_fit": [
+    {
+      "type": "Repeat-use products (wearable, mug, fire pit)",
+      "fit": "TEST",
+      "evidence": "external REPORT §4 #3 suggestions"
+    }
+  ],
+  "timing": {
+    "length": "13-15 s on FB (external 15-17.6 s)",
+    "basis": "ccreamyco 12.1M cuts 1.00 | 2.35 | 3.58 | 4.60 | 6.22 | 7.75 | 9.20 | 12.77 | END 17.63: a fast 1.0-1.6 s usage montage (XA). Trimmed to our 13 s house length.",
+    "shots": [
+      {
+        "t": "0.0 → 3.0",
+        "shot": "HOOK: recipient already using it",
+        "content": "recipient mid-use, delighted; product ≥30% of frame",
+        "camera": "handheld",
+        "text": "outcome line ON",
+        "gen": "H1 (trim 3.0)"
+      },
+      {
+        "t": "3.0 → 5.0",
+        "shot": "USE 2",
+        "content": "using it in another moment (morning)",
+        "camera": "locked",
+        "text": "held",
+        "gen": "B1·S1"
+      },
+      {
+        "t": "5.0 → 7.0",
+        "shot": "USE 3",
+        "content": "another room / time",
+        "camera": "locked",
+        "text": "held",
+        "gen": "B1·S2"
+      },
+      {
+        "t": "7.0 → 8.5",
+        "shot": "ACTIVATION (~62%)",
+        "content": "switch-on macro",
+        "camera": "handheld macro",
+        "text": "held",
+        "gen": "B2·S1 (1.5)"
+      },
+      {
+        "t": "8.5 → 10.5",
+        "shot": "USE 4",
+        "content": "won't take it off (funny moment)",
+        "camera": "locked",
+        "text": "held",
+        "gen": "B2·S2"
+      },
+      {
+        "t": "10.5 → 12.5",
+        "shot": "PAYOFF (~84%)",
+        "content": "buyer + recipient together, cozy; hard cut",
+        "camera": "locked wide",
+        "text": "held",
+        "gen": "B3 (best 2 s)"
+      }
+    ],
+    "measured": [
+      "ccreamyco 12.1M: 8 cuts in 17.63 s.",
+      "thefacetribee 1.0M: 1 cut (13.54) in 15.08 s.",
+      "lockedlovestore 2.6M: 0 cuts, 10.21 s."
+    ],
+    "rules": [
+      "The recipient is already using it at 0 s (outcome first, not the unwrap)."
+    ]
+  },
+  "text": {
+    "style": "Lower-case and conversational, with 😂.",
+    "patterns": [
+      {
+        "pattern": "got my {gf} this & now she won't stop {making ice cream}😂",
+        "tag": "P (ext)",
+        "source": "ccreamyco 12.1M"
+      },
+      {
+        "pattern": "The best Christmas gift for your {husband}😉🎄",
+        "tag": "P (ext)",
+        "source": "thefacetribee 1.0M"
+      },
+      {
+        "pattern": "got my {wife} this & now she won't take it off😂",
+        "tag": "F",
+        "source": "12.1M formula applied to the robe (external REPORT §4)"
+      }
+    ],
+    "rules": []
+  },
+  "caption": {
+    "template": "She hasn't taken it off since 😂\nSAY \"{KEYWORD}\" and we'll send you the link",
+    "keywords": [
+      "WIFE",
+      "GIFT"
+    ],
+    "rules": [
+      "SAY not COMMENT."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": 1,
+        "track": "Christmas (Baby Please Come Home)",
+        "start": "reel 0.0",
+        "evidence": "ccreamyco TT 2.5M"
+      },
+      {
+        "rank": 2,
+        "track": "Rockin' Around the Christmas Tree",
+        "start": "reel 0.0",
+        "evidence": "thefacetribee 1.0M"
+      }
+    ],
+    "rules": []
+  },
+  "generation_plan": {
+    "summary": "4 gens.",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "Recipient mid-use",
+        "shots": "one shot",
+        "feeds": "HOOK",
+        "inputs": "<<<image_1>>> product; cast image",
+        "basis": "ccreamyco outcome framing; product-hero-at-0 s rule (hooks REPORT §1.3).",
+        "prompt": "Vertical 9:16 handheld iPhone video, filmed by her husband: in the kitchen at breakfast a woman is wearing the {product} from <<<image_1>>> with the hood up, sipping coffee and laughing at the camera, the {product} filling a third of the frame. Natural sound only: kitchen sounds, her laugh. No music, no text.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+      },
+      {
+        "id": "B1",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "USE 2 | USE 3",
+        "shots": "two usage moments",
+        "feeds": "USE 2, USE 3",
+        "inputs": "<<<image_1>>>, cast",
+        "basis": "ccreamyco usage montage.",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, American home. SHOT 1 (0.0-2.0s), framed as the start image: she is on the couch in the {product} from <<<image_1>>>, typing on a laptop, hood up. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: she walks the dog in the backyard, still wearing the {product} over her pajamas. Same woman and same {product} in both shots. Audio: keyboard taps, dog tags jingling. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1)",
+          "prompt": "iPhone photo, vertical 9:16, American home. The first instant of this shot, as a single frame: she is on the couch in the {product} from <<<image_1>>>, typing on a laptop, hood up. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B2",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "ACTIVATION | USE 4",
+        "shots": "remote macro · funny use",
+        "feeds": "ACTIVATION, USE 4",
+        "inputs": "<<<image_1>>>, <<<image_2>>> controller",
+        "basis": "wearable REM beat.",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same home. SHOT 1 (0.0-2.0s), framed as the start image: POV: her thumb presses the controller from <<<image_2>>> and the heat LEDs step up. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: she stirs a pot at the stove still in the {product}, hood up, dancing a little. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: button clicks, laughter. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1)",
+          "prompt": "iPhone photo, vertical 9:16, same home. The first instant of this shot, as a single frame: POV: her thumb presses the controller from <<<image_2>>> and the heat LEDs step up. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B3",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "PAYOFF A | PAYOFF B",
+        "shots": "two payoff takes",
+        "feeds": "PAYOFF",
+        "inputs": "same",
+        "basis": "two-person payoff (PLAYBOOK §6).",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, living room at night, tree lit. SHOT 1 (0.0-2.0s), framed as the start image: she and her husband on the couch; she pulls him under the {product} with her. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: locked wide: both snuggled inside, laughing. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: laughter. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1)",
+          "prompt": "iPhone photo, vertical 9:16, living room at night, tree lit. The first instant of this shot, as a single frame: she and her husband on the couch; she pulls him under the {product} with her. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      }
+    ],
+    "rules": []
+  },
+  "evidence": [
+    {
+      "origin": "external",
+      "id": "ccreamyco/5uUgESlP",
+      "page": "ccreamyco",
+      "platform": "IG",
+      "views": "12.1M",
+      "shares": null,
+      "flag": false,
+      "role": "external winner",
+      "note": "got my gf this & now she won't stop making ice cream😂",
+      "src": "X",
+      "url": "https://www.instagram.com/reel/DU95uUgESlP/",
+      "posted": "2026-02-19"
+    },
+    {
+      "origin": "external",
+      "id": "lockedlovestore/95068950",
+      "page": "lockedlovestore",
+      "platform": "TikTok",
+      "views": 2600000.0,
+      "shares": "3.8K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Suprise them ❤️🥹",
+      "src": "X",
+      "url": "https://www.tiktok.com/@lockedlovestore/video/7687246647495068950",
+      "posted": "2026-09-19"
+    },
+    {
+      "origin": "external",
+      "id": "ccreamyco/79175966",
+      "page": "ccreamyco",
+      "platform": "TikTok",
+      "views": 2500000.0,
+      "shares": "9.8K",
+      "flag": false,
+      "role": "external winner",
+      "note": "pov: you finally found the perfect gift for your teenag…",
+      "src": "X",
+      "url": "https://www.tiktok.com/@ccreamyco/video/7695966577279175966",
+      "posted": "2026-10-12"
+    },
+    {
+      "origin": "external",
+      "id": "thefacetribee/47474976",
+      "page": "thefacetribee",
+      "platform": "TikTok",
+      "views": 1000000.0,
+      "shares": "4.9K",
+      "flag": false,
+      "role": "external winner",
+      "note": "The best Christmas gift for your husband😉🎄",
+      "src": "X",
+      "url": "https://www.tiktok.com/@thefacetribee/video/7692189098047474976",
+      "posted": "2026-10-02"
+    },
+    {
+      "origin": "external",
+      "id": "ohanawithstitch3/40945421",
+      "page": "ohanawithstitch3",
+      "platform": "TikTok",
+      "views": 13500000.0,
+      "shares": "11.3K",
+      "flag": true,
+      "role": "external winner",
+      "note": "I found the best gift for my wife",
+      "src": "X",
+      "url": "https://www.tiktok.com/@ohanawithstitch3/video/7611048295040945421",
+      "posted": "2026-02-25"
+    }
+  ],
+  "failures": [
+    "None measured internally."
+  ],
+  "variants": [
+    {
+      "name": "Husband-buyer robe",
+      "rule": "'got my wife this & now she won't take it off😂' on the robe.",
+      "proof": "12.1M formula.",
+      "gate": "3 renders; promote if any reaches ≥3× page median."
+    }
+  ],
+  "checks": [
+    {
+      "id": "go.use_at_0s",
+      "rule": "product in use at 0 s",
+      "cite": "ccreamyco"
+    }
+  ],
+  "open": [
+    "Purely external. ccreamyco's own cross-platform swing (IG 12.1M vs TikTok 2.5M) shows how much platform matters."
+  ],
+  "review": [
+    "Tier C until 3 FB renders exist."
+  ],
+  "rank": 13,
+  "evidence_strength": {
+    "score": 4.0,
+    "internal_hits_ge50k": 0,
+    "internal_tested": 0,
+    "external_organic_winners": 1
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

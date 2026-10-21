@@ -1,0 +1,57 @@
+{
+ "shot_coded": {
+  "covered": "5/16",
+  "other": "11/24",
+  "covered_median": 7603.5,
+  "other_median": 41761.5,
+  "fisher_p": 0.512,
+  "mwu_p": 0.814,
+  "n": 40
+ },
+ "own_corpus": {
+  "covered": "5/16",
+  "other": "35/79",
+  "covered_median": 7603.5,
+  "other_median": 30900.0,
+  "fisher_p": 0.412,
+  "mwu_p": 0.534,
+  "n": 95,
+  "n_ig_added": 21
+ },
+ "robe_only": {
+  "covered": "5/11",
+  "other": "21/48",
+  "covered_median": 28900.0,
+  "other_median": 15700.0,
+  "fisher_p": 1.0,
+  "mwu_p": 0.514,
+  "n": 59
+ },
+ "covered_split": {
+  "cue_visible": "5/10 wins, median 62950",
+  "fully_hidden_or_mismatch": "0/6 wins, median 2960",
+  "fisher_p": 0.093,
+  "reveal_s_wins": [
+   3.0,
+   2.6,
+   1.2,
+   2.3,
+   3.0
+  ],
+  "reveal_s_rest": [
+   3.5,
+   2.5,
+   4.5,
+   2.8,
+   3.0,
+   4.0,
+   2.5,
+   4.0,
+   2.5,
+   4.0,
+   3.2
+  ],
+  "wins_reveal_le_3s": "5/5",
+  "rest_reveal_le_3s": "5/11"
+ }
+}

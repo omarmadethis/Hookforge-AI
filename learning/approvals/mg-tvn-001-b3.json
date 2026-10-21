@@ -1,0 +1,21 @@
+{
+ "approved_by": "Omar",
+ "approved_at_pt": "2026-10-19T07:20:00-07:00",
+ "approval_quote": "Redo B3 with adults in front, cap 34.5 credits",
+ "run_id": "mg-tvn-001-b3",
+ "plan_sha256": "cbd0426228d8f69aeb049173e24b08ed19872601ef65e92937f9473c8968d255",
+ "gens": [
+  "B3"
+ ],
+ "account": "user-Higgsfield--new-account",
+ "credit_cap": 34.5,
+ "expires_pt": "2026-10-20T07:20:00-07:00",
+ "consumed": true,
+ "approval_channel": "Omar via approval card in chat, relayed by parent agent Mon 2026-10-19 7:20 AM PT",
+ "gens_detail": {
+  "B3": "gpt_image_2 2k high start frame (6.5) + seedance_2_5 720p 4s (28)"
+ },
+ "no_rerolls": true,
+ "single_use": true,
+ "consumed_pt": "2026-10-19T07:27:37-07:00"
+}

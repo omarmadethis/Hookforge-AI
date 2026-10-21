@@ -1,0 +1,7 @@
+family,credits,ip,nsfw,ok,other,param,preset,n,fail_rate
+ad_multiplier,0,9,2,64,0,0,24,99,0.354
+gpt_image,0,0,3,146,1,0,0,150,0.027
+image_other,0,1,2,66,0,1,0,70,0.057
+kling,0,0,0,32,1,2,42,77,0.584
+seedance,4,1,20,63,3,7,22,120,0.475
+unknown,0,0,0,4,0,0,0,4,0.0

@@ -1,0 +1,207 @@
+{
+ "slug": "grinchmelt",
+ "product_keys": [
+  "grinchmelt_mug"
+ ],
+ "assets_dir": "assets/grinchmelt",
+ "approved_cast": "WOMAN: woman in a cream sweater, living room, 23K IG DeGrL-XKMFp",
+ "approved_cast_status": "locked (F94)",
+ "higgsfield_media_ids": "refs/grinchmelt/higgsfield_new_account_media_ids.json",
+ "built_pt": "2026-10-20T09:55:42",
+ "refs": [
+  {
+   "path": "refs/grinchmelt/product/product_ChatGPT_Image_Oct_2_2026_09_42_39_AM.png",
+   "kind": "product",
+   "type": "product",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/ChatGPT_Image_Oct_2_2026_09_42_39_AM.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/product_ChatGPT_Image_Oct_2_2026_09_42_50_AM.png",
+   "kind": "product",
+   "type": "product",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/ChatGPT_Image_Oct_2_2026_09_42_50_AM.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/product_ChatGPT_Image_Oct_2_2026_09_42_59_AM.png",
+   "kind": "product",
+   "type": "product",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/ChatGPT_Image_Oct_2_2026_09_42_59_AM.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/product_Grinch_Chocolate_Warmer_Mug.png",
+   "kind": "product",
+   "type": "product",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/Grinch_Chocolate_Warmer_Mug.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/product_Whimsical_Grinch_Holiday_Treat_Mug_1.png",
+   "kind": "product",
+   "type": "product",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/Whimsical_Grinch_Holiday_Treat_Mug_1.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/box_box_greenbelt.png",
+   "kind": "product",
+   "type": "box",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/box_greenbelt.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/box_box_grinchmelt.png",
+   "kind": "product",
+   "type": "box",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/box_grinchmelt.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/box_greenmelt_box.png",
+   "kind": "product",
+   "type": "box",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/gift-pov/greenmelt_box.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/box_box_artfree.png",
+   "kind": "product",
+   "type": "box",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/hard-to-gift-v3/refs/box_artfree.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/product_mug_onesie_goblin.png",
+   "kind": "product",
+   "type": "product",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/hard-to-gift-v3/refs/mug_onesie_goblin.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/cast/lifestyle_goblin_cup_girl_white_bg.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/reference-images/goblin_cup_girl_white_bg.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/cast/lifestyle_goblin_mug_faceless_rotated.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/reference-images/goblin_mug_faceless_rotated.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/cast/lifestyle_goblin_mug_woman_flag.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/reference-images/goblin_mug_woman_flag.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/box_grinchmelt_retail_box.png",
+   "kind": "product",
+   "type": "box",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/reference-images/grinchmelt_retail_box.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/product_mug_reference_empty_bowl.png",
+   "kind": "product",
+   "type": "product",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/reference-images/mug_reference_empty_bowl.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/product_mug_reference_with_chocolate_and_candle.png",
+   "kind": "product",
+   "type": "product",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/reference-images/mug_reference_with_chocolate_and_candle.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/box_greenmelt_box_onesie.png",
+   "kind": "product",
+   "type": "box",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/store-video/greenmelt_box_onesie.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/product_mug_ref_front.png",
+   "kind": "product",
+   "type": "product",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Documents/GrinchMelt/summer-ends-multiplier/mug_ref_front.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/cast/lifestyle_Unknown-11.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Downloads/Unknown-11.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/product/box_Unknown-12.png",
+   "kind": "product",
+   "type": "box",
+   "what": "GrinchMelt chocolate melter mug",
+   "source": "~/Downloads/Unknown-12.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/grinchmelt/cast/cast_woman_top.png",
+   "kind": "cast",
+   "what": "cast_woman_top.png",
+   "source": "D112 re-sourced: /workspace/merryjammies/videos/ig_23K_DeGrL-XKMFp.mp4 (MJIG-03 final reel, 23K IG DeGrL-XKMFp) frame 35 (t=1.17 s), crop [170, 358, 480, 772] at native res, caption-free, face uncut; D104 blurry crop kept in refs/_superseded/grinchmelt_cast_woman_top_d104blurcrop.png",
+   "clean": true,
+   "use_for_generation": true,
+   "subject": "a woman",
+   "cropped_pt": "2026-10-20T15:06:51",
+   "higgsfield_media_id_new_account": "5d76a5f8-f114-40d3-b538-dc67601caa01",
+   "higgsfield_media_id_superseded": "d4346b67-cd08-42da-96cf-65e760ad01b2"
+  }
+ ],
+ "refused": [],
+ "rule": "F88: no generation without product AND cast refs; F87: every file passes deliver.scan"
+}

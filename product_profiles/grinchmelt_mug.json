@@ -1,0 +1,111 @@
+{
+ "product_key": "grinchmelt_mug",
+ "display": "GrinchMelt chocolate melter mug",
+ "brand": "GrinchMelt",
+ "category": "decor_mug",
+ "corpus_products": [
+  "Grinch mug"
+ ],
+ "pages": [
+  "MJIG"
+ ],
+ "energy": 1,
+ "mood": [
+  "calm",
+  "cozy",
+  "ASMR",
+  "satisfying"
+ ],
+ "audience": "US women 22-50, hot-cocoa and cozy-night lovers, Grinch fans",
+ "world": "calm cozy night in: kitchen counter, by the tree, blanket, melting chocolate, steam, tealight glow",
+ "settings": [
+  "kitchen counter at night",
+  "coffee table by the Christmas tree",
+  "window seat with blanket"
+ ],
+ "actions": [
+  "chocolate pieces into the mug",
+  "tealight lit under the mug",
+  "macro chocolate melting",
+  "slow sip under a blanket"
+ ],
+ "forbidden_settings": [
+  "ski slope",
+  "party",
+  "outdoor sports"
+ ],
+ "product_look": "Grinch chocolate melter mug",
+ "product": "melter mug",
+ "subject": "a young woman in a cozy sweater",
+ "body_setting": "at a kitchen counter at night with warm tealight glow",
+ "feature_1": "the open-mouth tealight window",
+ "feature_2": "the candy-cane handle",
+ "activation_action": "a tealight is lit inside the mouth window",
+ "activation_result": "chocolate slowly melting, glossy, steam rising",
+ "payoff_scene": "a slow sip by the tree under a blanket",
+ "room": "kitchen",
+ "sounds": "match strike, soft crackle, spoon clink",
+ "source_object": "mug",
+ "copy_forbidden": [
+  "run",
+  "ski",
+  "squad"
+ ],
+ "proof_shot": [
+  "PROOF",
+  "AI-doubt proof: real-time close-up of the chocolate softening over the tealight in a normal kitchen, mug design identical to the reference"
+ ],
+ "body_override": {
+  "MELT": [
+   "PROOF",
+   "AI-doubt proof: real-time handheld close-up, the chocolate wafers softening into glossy melted chocolate over the lit tealight in a normal home kitchen, spoon stirring once, mug design identical to the reference"
+  ]
+ },
+ "music_forbidden": [
+  "Last Christmas",
+  "Boombastic",
+  "Free Bird",
+  "Jingle Bells (Viibez)"
+ ],
+ "keyword": "COZY",
+ "processing_days": null,
+ "ship_days": null,
+ "proven_formats": [
+  {
+   "format": "F04",
+   "n": 1,
+   "hits": 0,
+   "median_views": 23000,
+   "best_views": 23000,
+   "reels": [
+    "MJIG-03"
+   ]
+  },
+  {
+   "format": "F99",
+   "n": 1,
+   "hits": 0,
+   "median_views": 6326,
+   "best_views": 6326,
+   "reels": [
+    "MJIG-05"
+   ]
+  }
+ ],
+ "proven_music": [
+  {
+   "song": "beginning_to_look",
+   "version": "Michael Bublé It's Beginning to Look a Lot Like Christmas ~0:31.6",
+   "offset_s": 32.4,
+   "energy": 2,
+   "best_views": 6326,
+   "formats": "F99"
+  }
+ ],
+ "proven_captions": [],
+ "proven_hooks": [],
+ "n_own_reels": 2,
+ "own_hits": 0,
+ "product_look_status": "description from Omar's prompts; <<<image_1>>> product photo is the ground truth",
+ "sources": "corpus own reels (FB+IG), CapCut drafts (edits.csv), music_library.csv, Omar transcripts (rules_core), worlds.py"
+}

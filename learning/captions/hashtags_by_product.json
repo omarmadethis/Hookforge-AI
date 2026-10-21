@@ -1,0 +1,1037 @@
+{
+ "_built": "2026-10-20T17:28:51",
+ "_doc": "D93 caption study: every pattern cites its POC reels + views. own=True rows weighted x2.",
+ "products": {
+  "grinch_robe": {
+   "name": "Grinch Robe (MerryJammies)",
+   "top": [
+    {
+     "tag": "#christmas",
+     "n": 47,
+     "own_n": 39,
+     "total_views": 39818102.0,
+     "poc": {
+      "ref": "1.2209862845747134e+17",
+      "views": 6668888.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#gift",
+     "n": 24,
+     "own_n": 20,
+     "total_views": 29101784.0,
+     "poc": {
+      "ref": "1.2209862845747134e+17",
+      "views": 6668888.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#mom",
+     "n": 17,
+     "own_n": 14,
+     "total_views": 10144055.0,
+     "poc": {
+      "ref": "1.2210050646347134e+17",
+      "views": 2729169.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#warm",
+     "n": 10,
+     "own_n": 8,
+     "total_views": 8582585.0,
+     "poc": {
+      "ref": "1.2210050646347134e+17",
+      "views": 2729169.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#cozy",
+     "n": 9,
+     "own_n": 8,
+     "total_views": 8476824.0,
+     "poc": {
+      "ref": "1.2210050646347134e+17",
+      "views": 2729169.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#girl",
+     "n": 3,
+     "own_n": 2,
+     "total_views": 19868888.0,
+     "poc": {
+      "ref": "1.2209862845747134e+17",
+      "views": 6668888.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#robe",
+     "n": 5,
+     "own_n": 5,
+     "total_views": 470270.0,
+     "poc": {
+      "ref": "1.2211233225947134e+17",
+      "views": 304756.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#grinch",
+     "n": 4,
+     "own_n": 3,
+     "total_views": 478882.0,
+     "poc": {
+      "ref": "1.2210367125947134e+17",
+      "views": 147215.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#grandma",
+     "n": 3,
+     "own_n": 2,
+     "total_views": 370408.0,
+     "poc": {
+      "ref": "1.2211159485947134e+17",
+      "views": 183145.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#heatedblanket",
+     "n": 2,
+     "own_n": 1,
+     "total_views": 652777.0,
+     "poc": {
+      "ref": "1.2211525439147134e+17",
+      "views": 326777.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#women",
+     "n": 3,
+     "own_n": 3,
+     "total_views": 107655.0,
+     "poc": {
+      "ref": "1.2210181445747134e+17",
+      "views": 101597.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#winter",
+     "n": 1,
+     "own_n": 1,
+     "total_views": 87644.0,
+     "poc": {
+      "ref": "1.2211305861947134e+17",
+      "views": 87644.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#grinchmas",
+     "n": 1,
+     "own_n": 1,
+     "total_views": 6292.0,
+     "poc": {
+      "ref": "1.2210112941947134e+17",
+      "views": 6292.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#christmasdecor",
+     "n": 1,
+     "own_n": 1,
+     "total_views": 5659.0,
+     "poc": {
+      "ref": "1.2210656960747134e+17",
+      "views": 5659.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#wife",
+     "n": 1,
+     "own_n": 1,
+     "total_views": 4810.0,
+     "poc": {
+      "ref": "1.2211436351747134e+17",
+      "views": 4810.0,
+      "source": "learning/results/reels.csv"
+     }
+    }
+   ],
+   "default_set": [
+    "#christmas",
+    "#gift",
+    "#mom",
+    "#warm"
+   ]
+  },
+  "heatjams": {
+   "name": "HeatJams",
+   "top": [
+    {
+     "tag": "#christmas",
+     "n": 4,
+     "own_n": 3,
+     "total_views": 12515062.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@illsellyouwhat1/video/7571551374966557983",
+      "views": 12400000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#tiktokshopcreatorpicks",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 30300000.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@sarahgibbons_/video/7566062783272373534",
+      "views": 17900000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#cozy",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 6562800.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@warmly.official/video/7677579852140055809",
+      "views": 6000000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#heated",
+     "n": 1,
+     "own_n": 1,
+     "total_views": 91943.0,
+     "poc": {
+      "ref": "1.2210212831147134e+17",
+      "views": 91943.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#pajamas",
+     "n": 1,
+     "own_n": 1,
+     "total_views": 91943.0,
+     "poc": {
+      "ref": "1.2210212831147134e+17",
+      "views": 91943.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#xmas",
+     "n": 1,
+     "own_n": 1,
+     "total_views": 91943.0,
+     "poc": {
+      "ref": "1.2210212831147134e+17",
+      "views": 91943.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#mom",
+     "n": 2,
+     "own_n": 2,
+     "total_views": 23119.0,
+     "poc": {
+      "ref": "1.2210836555747134e+17",
+      "views": 16857.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#gift",
+     "n": 1,
+     "own_n": 1,
+     "total_views": 16857.0,
+     "poc": {
+      "ref": "1.2210836555747134e+17",
+      "views": 16857.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#holidayseason",
+     "n": 1,
+     "own_n": 1,
+     "total_views": 6262.0,
+     "poc": {
+      "ref": "1.2209773005947134e+17",
+      "views": 6262.0,
+      "source": "learning/results/reels.csv"
+     }
+    }
+   ],
+   "default_set": [
+    "#christmas",
+    "#tiktokshopcreatorpicks",
+    "#cozy",
+    "#heated"
+   ]
+  },
+  "cozyjams": {
+   "name": "CozyJams",
+   "top": [
+    {
+     "tag": "#christmas",
+     "n": 9,
+     "own_n": 0,
+     "total_views": 11297500.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@sally70958/video/7693111691055222030",
+      "views": 3500000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#christmaspajamas",
+     "n": 6,
+     "own_n": 0,
+     "total_views": 7581400.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@sally70958/video/7693111691055222030",
+      "views": 3500000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#pajamas",
+     "n": 3,
+     "own_n": 0,
+     "total_views": 5548200.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@sally70958/video/7693111691055222030",
+      "views": 3500000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#matchingpajamas",
+     "n": 3,
+     "own_n": 0,
+     "total_views": 4827400.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@merrysnuggleheaven/video/7573022059261988118",
+      "views": 2700000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#aerie",
+     "n": 4,
+     "own_n": 0,
+     "total_views": 3430500.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@sheispat0/video/7696826974911712525",
+      "views": 1500000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#christmaspjs",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 2058400.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@thiswomantyler/video/7694312033533103391",
+      "views": 1400000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#christmastok",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 2048200.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@sheispat0/video/7696826974911712525",
+      "views": 1500000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#xmas",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 1305800.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@idamabwajui/video/7695752871467437326",
+      "views": 657200.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#spiderman",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 1009800.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@dreaxiv/video/7697007217878256909",
+      "views": 506000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#girlythings",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 1009800.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@dreaxiv/video/7697007217878256909",
+      "views": 506000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#husband",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 1009800.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@dreaxiv/video/7697007217878256909",
+      "views": 506000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#shopping",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 1009800.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@dreaxiv/video/7697007217878256909",
+      "views": 506000.0,
+      "source": "hookforge.db"
+     }
+    }
+   ],
+   "default_set": [
+    "#christmas",
+    "#christmaspajamas",
+    "#pajamas",
+    "#matchingpajamas"
+   ]
+  },
+  "grinchmelt_mug": {
+   "name": "GrinchMelt",
+   "top": [
+    {
+     "tag": "#christmas",
+     "n": 4,
+     "own_n": 2,
+     "total_views": 2166926.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@meltiemug/video/7696255762070326558",
+      "views": 1700000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#movienight",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 2137600.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@meltiemug/video/7696255762070326558",
+      "views": 1700000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#grinch",
+     "n": 2,
+     "own_n": 2,
+     "total_views": 29326.0,
+     "poc": {
+      "ref": "ig_23K_DeGrL-XKMFp",
+      "views": 23000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#gift",
+     "n": 2,
+     "own_n": 2,
+     "total_views": 29326.0,
+     "poc": {
+      "ref": "ig_23K_DeGrL-XKMFp",
+      "views": 23000.0,
+      "source": "hookforge.db"
+     }
+    }
+   ],
+   "default_set": [
+    "#christmas",
+    "#movienight",
+    "#grinch",
+    "#gift"
+   ]
+  },
+  "brickhood_mask": {
+   "name": "Brick Hood",
+   "top": [
+    {
+     "tag": "#skimask",
+     "n": 13,
+     "own_n": 3,
+     "total_views": 8528347.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@life52551/video/7694047587929738518",
+      "views": 1900000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#balaclava",
+     "n": 7,
+     "own_n": 0,
+     "total_views": 7485900.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@merlinepulley42/video/7689899316252626207",
+      "views": 2400000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#ski",
+     "n": 5,
+     "own_n": 4,
+     "total_views": 1069802.0,
+     "poc": {
+      "ref": "https://www.instagram.com/reel/Ddzv_9lhE40/",
+      "views": 1000000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#snowboarding",
+     "n": 6,
+     "own_n": 4,
+     "total_views": 1015459.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@novaminiusa/video/7693488096985353494",
+      "views": 587700.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#funny",
+     "n": 3,
+     "own_n": 0,
+     "total_views": 3944700.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@roberta.hanna0/video/7696979919263272206",
+      "views": 2500000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#tiktokholidayhaul",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 4700000.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@merlinepulley42/video/7689899316252626207",
+      "views": 2400000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#tiktokshopstockup",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 4700000.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@merlinepulley42/video/7689899316252626207",
+      "views": 2400000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#spotlightfinds",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 4700000.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@merlinepulley42/video/7689899316252626207",
+      "views": 2400000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#homeandelectronicdeals",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 4700000.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@merlinepulley42/video/7689899316252626207",
+      "views": 2400000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#skiing",
+     "n": 5,
+     "own_n": 4,
+     "total_views": 427759.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@novaminiusa/video/7695509340383448342",
+      "views": 418900.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#facemask",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 3137900.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@roberta.hanna0/video/7696979919263272206",
+      "views": 2500000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#wintergear",
+     "n": 3,
+     "own_n": 0,
+     "total_views": 1779300.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@novaminiusa/video/7692509664113675542",
+      "views": 1100000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#noveltymask",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 1825200.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@babbamqbws2/video/7697237085236825358",
+      "views": 961400.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#prank",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 1825200.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@babbamqbws2/video/7697237085236825358",
+      "views": 961400.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#snowboard",
+     "n": 3,
+     "own_n": 2,
+     "total_views": 494848.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@rachellezhun7/video/7693459371631693076",
+      "views": 489000.0,
+      "source": "hookforge.db"
+     }
+    }
+   ],
+   "default_set": [
+    "#skimask",
+    "#balaclava",
+    "#ski",
+    "#snowboarding"
+   ]
+  },
+  "merryfire": {
+   "name": "MerryFire",
+   "top": [
+    {
+     "tag": "#christmasiscoming",
+     "n": 9,
+     "own_n": 8,
+     "total_views": 217339.0,
+     "poc": {
+      "ref": "https://www.facebook.com/reel/1082602281322454/",
+      "views": 62992.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#christmasdecor",
+     "n": 9,
+     "own_n": 8,
+     "total_views": 217339.0,
+     "poc": {
+      "ref": "https://www.facebook.com/reel/1082602281322454/",
+      "views": 62992.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#christmasgifts",
+     "n": 7,
+     "own_n": 6,
+     "total_views": 171713.0,
+     "poc": {
+      "ref": "https://www.facebook.com/reel/1082602281322454/",
+      "views": 62992.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#firepit",
+     "n": 2,
+     "own_n": 1,
+     "total_views": 416805.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@la_anita0/video/7623540304242609438",
+      "views": 414100.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#homedecor",
+     "n": 2,
+     "own_n": 2,
+     "total_views": 45626.0,
+     "poc": {
+      "ref": "ig_40.3K_DePucbFyXdY",
+      "views": 40300.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#christmaslights",
+     "n": 2,
+     "own_n": 2,
+     "total_views": 39907.0,
+     "poc": {
+      "ref": "ig_30.9K_DeYZg4lKmeC",
+      "views": 30900.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#family",
+     "n": 1,
+     "own_n": 1,
+     "total_views": 5326.0,
+     "poc": {
+      "ref": "ig_5.3K_DePqPmbvWjL",
+      "views": 5326.0,
+      "source": "hookforge.db"
+     }
+    }
+   ],
+   "default_set": [
+    "#christmasiscoming",
+    "#christmasdecor",
+    "#christmasgifts",
+    "#firepit"
+   ]
+  },
+  "merryglow_lights": {
+   "name": "MerryGlow",
+   "top": [
+    {
+     "tag": "#christmas",
+     "n": 10,
+     "own_n": 0,
+     "total_views": 6410800.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@wyxd6744/video/7686435138552565023",
+      "views": 1800000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#projector",
+     "n": 7,
+     "own_n": 0,
+     "total_views": 4315000.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@wyxd6744/video/7686435138552565023",
+      "views": 1800000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#usa",
+     "n": 6,
+     "own_n": 0,
+     "total_views": 2934000.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@tryglowmas/video/7687847463620709646",
+      "views": 1100000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#gift",
+     "n": 7,
+     "own_n": 0,
+     "total_views": 2674000.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@tryglowmas/video/7687847463620709646",
+      "views": 1100000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#americanchristmas",
+     "n": 4,
+     "own_n": 4,
+     "total_views": 406894.0,
+     "poc": {
+      "ref": "https://www.facebook.com/reel/1575787310958642/",
+      "views": 119070.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#christmasdecor",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 2775600.0,
+     "poc": {
+      "ref": "https://www.tiktok.com/@deseos.del.polo.n/video/7694908890881871126",
+      "views": 2200000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#winteriscoming",
+     "n": 3,
+     "own_n": 3,
+     "total_views": 213067.0,
+     "poc": {
+      "ref": "nan",
+      "views": 72193.0,
+      "source": "learning/results/reels.csv"
+     }
+    },
+    {
+     "tag": "#christmasgifts",
+     "n": 2,
+     "own_n": 2,
+     "total_views": 305756.0,
+     "poc": {
+      "ref": "https://www.facebook.com/reel/985708367871514/",
+      "views": 152878.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#boymom",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 588000.0,
+     "poc": {
+      "ref": "https://www.instagram.com/reel/DeUySooOwf5/",
+      "views": 429000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#gun",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 588000.0,
+     "poc": {
+      "ref": "https://www.instagram.com/reel/DeUySooOwf5/",
+      "views": 429000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#laser",
+     "n": 2,
+     "own_n": 0,
+     "total_views": 588000.0,
+     "poc": {
+      "ref": "https://www.instagram.com/reel/DeUySooOwf5/",
+      "views": 429000.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#grinch",
+     "n": 2,
+     "own_n": 2,
+     "total_views": 195910.0,
+     "poc": {
+      "ref": "https://www.facebook.com/reel/28958323873764731/",
+      "views": 97955.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#christmas2026",
+     "n": 2,
+     "own_n": 2,
+     "total_views": 144386.0,
+     "poc": {
+      "ref": "https://www.facebook.com/reel/1573889281136260/",
+      "views": 72193.0,
+      "source": "hookforge.db"
+     }
+    },
+    {
+     "tag": "#christmaslights",
+     "n": 1,
+     "own_n": 1,
+     "total_views": 84377.0,
+     "poc": {
+      "ref": "nan",
+      "views": 84377.0,
+      "source": "learning/results/reels.csv"
+     }
+    }
+   ],
+   "default_set": [
+    "#christmas",
+    "#projector",
+    "#usa",
+    "#gift"
+   ]
+  },
+  "jollyglow_curtain": {
+   "name": "Jolly Glow",
+   "top": [
+    {
+     "tag": "#christmasdecor",
+     "n": 2,
+     "own_n": 2,
+     "total_views": 0,
+     "poc": "out/deliver shipped captions (no views yet)"
+    },
+    {
+     "tag": "#christmasiscoming",
+     "n": 2,
+     "own_n": 2,
+     "total_views": 0,
+     "poc": "out/deliver shipped captions (no views yet)"
+    },
+    {
+     "tag": "#christmasgifts",
+     "n": 2,
+     "own_n": 2,
+     "total_views": 0,
+     "poc": "out/deliver shipped captions (no views yet)"
+    }
+   ],
+   "default_set": [
+    "#christmasdecor",
+    "#christmasiscoming",
+    "#christmasgifts"
+   ]
+  },
+  "trumpglow": {
+   "name": "TrumpGlow / PatriotsGlow",
+   "top": [
+    {
+     "tag": "#trump",
+     "n": 0,
+     "own_n": 0,
+     "total_views": 0,
+     "poc": "own shipped TrumpGlow captions (out/deliver) + D67; no viewed POC yet"
+    },
+    {
+     "tag": "#maga",
+     "n": 0,
+     "own_n": 0,
+     "total_views": 0,
+     "poc": "own shipped TrumpGlow captions (out/deliver) + D67; no viewed POC yet"
+    },
+    {
+     "tag": "#america",
+     "n": 0,
+     "own_n": 0,
+     "total_views": 0,
+     "poc": "own shipped TrumpGlow captions (out/deliver) + D67; no viewed POC yet"
+    },
+    {
+     "tag": "#usa",
+     "n": 0,
+     "own_n": 0,
+     "total_views": 0,
+     "poc": "own shipped TrumpGlow captions (out/deliver) + D67; no viewed POC yet"
+    }
+   ],
+   "default_set": [
+    "#trump",
+    "#maga",
+    "#america",
+    "#usa"
+   ]
+  },
+  "minionmask": {
+   "name": "Minion Mask",
+   "top": [],
+   "default_set": []
+  },
+  "purrventure_carrier": {
+   "name": "PurrVenture",
+   "top": [
+    {
+     "tag": "#cat",
+     "n": 2,
+     "own_n": 1,
+     "total_views": 20800000.0,
+     "poc": {
+      "ref": "POC-PV-CAP1",
+      "views": 20800000.0,
+      "source": "config/poc_defaults.json"
+     }
+    },
+    {
+     "tag": "#catmom",
+     "n": 2,
+     "own_n": 1,
+     "total_views": 20800000.0,
+     "poc": {
+      "ref": "POC-PV-CAP1",
+      "views": 20800000.0,
+      "source": "config/poc_defaults.json"
+     }
+    },
+    {
+     "tag": "#catlover",
+     "n": 2,
+     "own_n": 1,
+     "total_views": 20800000.0,
+     "poc": {
+      "ref": "POC-PV-CAP1",
+      "views": 20800000.0,
+      "source": "config/poc_defaults.json"
+     }
+    }
+   ],
+   "default_set": [
+    "#cat",
+    "#catmom",
+    "#catlover"
+   ]
+  }
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "version": "1.0",
+ "generated": "2026-10-18 PT",
+ "source": "110 CapCut drafts (148 text elements in 89 drafts; 35 joined to posted reels). See STYLE_GUIDE.md",
+ "default": {
+  "font_size": 15,
+  "scale": 0.93,
+  "hook_scale": 0.88,
+  "transform_x": 0.0,
+  "transform_y": 0.62,
+  "pct_from_top_centre": 19.0,
+  "fill": "#ffffff",
+  "text_alpha": 1.0,
+  "stroke_color": "#000000",
+  "stroke_width": 0.09,
+  "shadow": false,
+  "background": false,
+  "letter_spacing": 0.0,
+  "line_spacing": 0.02,
+  "alignment": "center",
+  "alignment_code": 1,
+  "line_max_width": 0.82,
+  "typesetting": 0,
+  "bold": false,
+  "italic": false,
+  "underline": false,
+  "animation_in": null,
+  "animation_out": null,
+  "text_template": null,
+  "rotation": 0.0,
+  "keyframes": null,
+  "emoji_position": "end_of_last_line",
+  "emoji_count_default": 1,
+  "emoji_count_max": 2,
+  "max_lines": 2,
+  "max_chars_per_line": 26
+ },
+ "capcut_material_fields": {
+  "font_path": "/Applications/CapCut.app/Contents/Resources/Font/SystemFont/en.ttf",
+  "font_id": "",
+  "font_title": "none",
+  "font_size": 15.0,
+  "text_color": "#ffffff",
+  "border_color": "#000000",
+  "border_width": 0.09,
+  "border_alpha": 1.0,
+  "border_mode": 0,
+  "has_shadow": false,
+  "background_style": 0,
+  "background_alpha": 1.0,
+  "letter_spacing": 0.0,
+  "line_spacing": 0.02,
+  "alignment": 1,
+  "line_max_width": 0.82,
+  "line_feed": 1,
+  "bold_width": 0.0,
+  "italic_degree": 0,
+  "underline": false,
+  "global_alpha": 1.0,
+  "content_style": {
+   "fill": {
+    "content": {
+     "solid": {
+      "color": [
+       1,
+       1,
+       1
+      ]
+     },
+     "render_type": "solid"
+    }
+   },
+   "strokes": [
+    {
+     "width": 0.09,
+     "mode": 0,
+     "content": {
+      "solid": {
+       "color": [
+        0,
+        0,
+        0
+       ]
+      },
+      "render_type": "solid"
+     }
+    }
+   ],
+   "useLetterColor": true,
+   "size": 15,
+   "font": {
+    "path": "/Applications/CapCut.app/Contents/Resources/Font/SystemFont/en.ttf",
+    "id": ""
+   }
+  },
+  "segment_clip": {
+   "scale": {
+    "x": 0.93,
+    "y": 0.93
+   },
+   "rotation": 0.0,
+   "transform": {
+    "x": 0.0,
+    "y": 0.62
+   },
+   "flip": {
+    "vertical": false,
+    "horizontal": false
+   },
+   "alpha": 1.0
+  }
+ },
+ "variants": {
+  "then_vs_now_multi_card": {
+   "cards": "one card per era; switch exactly on body cuts; 'Vs..'/'VS' bridge card",
+   "scale_range": [
+    0.85,
+    1.21
+   ],
+   "bridge_card_scale": 1.2,
+   "transform_y": 0.62,
+   "note": "MG-01 152.9K: 'Christmas 2024.. 😬' → 'And Christmas 2025.. 🤕' → 'Vs... ⏳' (scale 1.21) → 'Christmas 2026 🤩🎄' (y 0.55)"
+  },
+  "long_two_line_hook": {
+   "scale_range": [
+    0.72,
+    0.8
+   ],
+   "note": "BrickHood quoted hooks with 26-28 chars/line use scale ~0.72-0.75 so both lines fit 82% width"
+  },
+  "short_one_line_hook": {
+   "scale": 1.0,
+   "note": "≤17 chars (e.g. 'Christmas 2024.. 😬', 'The idea 🤮') stay at scale 1.0"
+  },
+  "payoff_card": {
+   "transform_y_range": [
+    0.45,
+    0.56
+   ],
+   "note": "later cards sometimes drop lower (22-27% from top) to clear the product"
+  },
+  "rare_outliers": "8 cards with no stroke, 1 black-on-white; all flops or unposted → do not use"
+ },
+ "render": {
+  "font_file_box": "/usr/share/fonts/truetype/sand-box/google/Montserrat/Montserrat-VariableFont_wght.ttf",
+  "font_variation": "Medium",
+  "font_note": "CapCut SystemFont en.ttf is not on the box; Montserrat Medium (OFL) matched glyph shapes (double-storey a, 2/4 shapes) and width/height ratio (0.0926 vs measured 0.0902; Poppins has single-storey a; TikTok Sans 0.105). Visual overlay on 3 posted reels matched size, wrap, position.",
+  "px_per_size_unit_per_canvas_width": 0.00557,
+  "font_px_formula": "font_px = 0.00557 * font_size * scale * frame_width  (=0.0776*W at size 15, scale 0.93)",
+  "stroke_px_per_capcut_width_em": 0.95,
+  "stroke_px_formula": "stroke_px = round(font_px * stroke_width * 0.95)  (≈0.086*font_px)",
+  "line_height_factor": 0.97,
+  "emoji_height_em": 0.95,
+  "emoji_baseline_drop_em": -0.12,
+  "wrap_scales": false,
+  "position_formula": "text block centre y_px = (1 - transform_y)/2 * H; x_px = (1 + transform_x)/2 * W",
+  "emoji_font_box": "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf (CapCut on Mac renders Apple Color Emoji; glyph art differs, size/position match)",
+  "renderer": "style/render_text.py: render_card(text, W, H, scale, y) -> RGBA layer; burn via ffmpeg overlay. ffmpeg drawtext cannot draw colour emoji, so render the PNG layer with PIL and composite: ffmpeg -i in.mp4 -i card.png -filter_complex \"[0][1]overlay=0:0:enable='between(t,T0,T1)'\""
+ },
+ "ffmpeg_drawtext_fallback": {
+  "fontfile": "Montserrat-Medium",
+  "fontsize_expr": "0.0776*w",
+  "fontcolor": "white",
+  "borderw_expr": "0.0067*w",
+  "bordercolor": "black",
+  "x": "(w-text_w)/2",
+  "y": "0.19*h-text_h/2",
+  "line_spacing_expr": "0.02*0.0776*w",
+  "note": "no emoji; use only when PIL unavailable"
+ },
+ "timing": {
+  "hook_card_t_start": 0.0,
+  "hook_card_dur_median_s": 11.6,
+  "single_persistent_card_share": 0.63,
+  "card_change_on_cut": true,
+  "text_animations_used": 0,
+  "transitions_used": 0
+ },
+ "video_edit_defaults": {
+  "transitions": "none (0/646 segments)",
+  "keyframes_zoom": "none (0/646)",
+  "crop": "none (0/646)",
+  "speed": "1.0 on 89.5% of clips; speed-ups 1.1-1.6x on 10%, mostly body action clips",
+  "clip_audio": "kept at 1.0 (79%), muted on 13% of clips (song-only moments), boosted 1.3-3.4x on 8% (SFX moments)",
+  "adjustment_layer": "optional whole-timeline adjust in 18/110 drafts: brightness +0.02, saturation +0.08, temperature -0.08..-0.28 (cooler), tone -0.08, light_sensation +0.06..0.08",
+  "canvas": "1080x1920 timeline, export 2160x3840"
+ },
+ "music_volume": {
+  "song_volume_median": 1.0,
+  "note": "Last Christmas / Bublé / Mariah placed at 1.0; some 2.0-2.6 boosts; no fades (0/171 audio segments)"
+ }
+}

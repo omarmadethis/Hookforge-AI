@@ -1,0 +1,99 @@
+{
+ "product_key": "heatjams",
+ "display": "HeatJams heated wearable blanket",
+ "brand": "HeatJams",
+ "category": "wearable_gift",
+ "corpus_products": [
+  "heatjams",
+  "HeatJams blanket"
+ ],
+ "pages": [
+  "MJIG"
+ ],
+ "energy": 2,
+ "mood": [
+  "cozy",
+  "gifting",
+  "funny-mom"
+ ],
+ "audience": "US moms and wives 25-55 buying a Christmas gift; always-cold people (same buyer as grinch_robe, D93)",
+ "world": "cozy home at Christmas: couch, living room with tree, bedroom; movie nights; gifting moments",
+ "settings": [
+  "couch with the Christmas tree behind",
+  "bright living room with Christmas tree",
+  "bedroom",
+  "front door gift handoff"
+ ],
+ "actions": [
+  "unfold the blanket off the couch",
+  "wrap up in it",
+  "plug in the power bank",
+  "thumb on the heat controller",
+  "curl up for a movie",
+  "gift handoff"
+ ],
+ "forbidden_settings": [
+  "ski slope",
+  "gym",
+  "nightclub",
+  "beach"
+ ],
+ "product_look": "bright green shaggy faux-fur heated throw blanket, long plush pile, soft and fluffy",
+ "subject": "a young woman in grey loungewear",
+ "body_setting": "on a cozy couch in a bright living room with a Christmas tree",
+ "product": "heated blanket",
+ "feature_1": "the long shaggy green pile",
+ "feature_2": "how big it is, covering her from shoulders to toes on the couch",
+ "activation_action": "the power bank clicks into the hidden pocket and the controller light turns on",
+ "activation_result": "the heat controller set to high, warm glow on the screen",
+ "payoff_scene": "she curls up under the blanket on the couch by the tree with a mug, smiling at the TV",
+ "room": "living room",
+ "sounds": "her voice, fabric rustle, soft room tone",
+ "source_object": "plain grey throw",
+ "music_forbidden": [],
+ "keyword": "WARM",
+ "processing_days": null,
+ "ship_days": null,
+ "body_override": {
+  "PUT": [
+   "PUT",
+   "lifts the folded {product} off the couch and wraps it around her shoulders, turned three-quarter away from the phone"
+  ],
+  "FEAT_B": [
+   "PROOF",
+   "AI-doubt proof: handheld close-up as she runs her hand through the shaggy pile in natural light, the colour and pile exactly as in the reference, natural folds"
+  ]
+ },
+ "poc_hooks": {
+  "F07": [
+   "Cold-aholics this is for you... 🥹💕",
+   "P",
+   "ext warmly.official heated wearable blanket 6.0M views (features.csv)"
+  ],
+  "F05": [
+   "Don't let your mom see this...😳❄️",
+   "P",
+   "ext merry.made2 wearable blanket hoodie 1.4M views; own grinch_robe 'DO NOT let your mom see this' 2.73M (same buyer)"
+  ],
+  "F13": [
+   "Every Christmas mom NEEDS this 😳❄️",
+   "P",
+   "ext merry.made2 wearable blanket hoodie 1.4M views; own MC-02 62.8K"
+  ]
+ },
+ "poc_sources": [
+  "ext warmly.official 'Cold-aholics this is for you' heated wearable blanket 6.0M (features.csv)",
+  "ext illsellyouwhat1 heated wearable blanket 12.4M",
+  "ext merry.made2 'Don't let your mom see this...' wearable blanket hoodie 1.4M",
+  "ext kaia.makes 'DON'T show this to a Highland cow girl' heated wearable blanket 563K",
+  "own grinch_robe (same buyer, D93): F05 7/10 hits, F06 6.6M"
+ ],
+ "proven_formats": [],
+ "proven_music": [],
+ "proven_captions": [],
+ "proven_hooks": [],
+ "n_own_reels": 0,
+ "own_hits": 0,
+ "product_look_status": "description from Omar's prompts; <<<image_1>>> product photo is the ground truth",
+ "sources": "corpus own reels (FB+IG), CapCut drafts (edits.csv), music_library.csv, Omar transcripts (rules_core), worlds.py"
+}

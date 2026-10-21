@@ -1,0 +1,77 @@
+{
+ "slug": "brickhood",
+ "product_keys": [
+  "brickhood_mask"
+ ],
+ "assets_dir": "assets/brickhood",
+ "approved_cast": "MASKED RIDER (face hidden by the product): skier in a teal jacket, 61.3K Brick Hood Shop; gender not visible",
+ "approved_cast_status": "locked (F94)",
+ "higgsfield_media_ids": null,
+ "built_pt": "2026-10-20T09:55:15",
+ "refs": [
+  {
+   "path": "refs/brickhood/cast/lifestyle_Unknown-6.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "Brick Hood LEGO-head ski mask",
+   "source": "~/Downloads/brickhood vids/Unknown-6.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/brickhood/cast/lifestyle_hf_20260929_053517_bce9198a-0280-4a87-b7bc-78b4daf5cb77.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "Brick Hood LEGO-head ski mask",
+   "source": "~/Downloads/brickhood vids/hf_20260929_053517_bce9198a-0280-4a87-b7bc-78b4daf5cb77.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/brickhood/product/product_ChatGPT Image Sep 28, 2026 at 07_04_36 PM.png",
+   "kind": "product",
+   "type": "product",
+   "what": "Brick Hood LEGO-head ski mask",
+   "source": "~/Downloads/ChatGPT Image Sep 28, 2026 at 07_04_36 PM.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/brickhood/product/product_Unknown-7.png",
+   "kind": "product",
+   "type": "product",
+   "what": "Brick Hood LEGO-head ski mask",
+   "source": "~/Downloads/Unknown-7.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/brickhood/product/product_Unknown-8.png",
+   "kind": "product",
+   "type": "product",
+   "what": "Brick Hood LEGO-head ski mask",
+   "source": "~/Downloads/Unknown-8.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/brickhood/product/product_Unknown-9.png",
+   "kind": "product",
+   "type": "product",
+   "what": "Brick Hood LEGO-head ski mask",
+   "source": "~/Downloads/Unknown-9.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/brickhood/cast/cast_masked_rider_top.png",
+   "kind": "cast",
+   "what": "cast_masked_rider_top.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  }
+ ],
+ "refused": [],
+ "rule": "F88: no generation without product AND cast refs; F87: every file passes deliver.scan"
+}

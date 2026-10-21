@@ -1,0 +1,16 @@
+slug: brickhood
+product_keys: [brickhood_mask]
+buyers: "US skiers and snowboarders 16-30, friend groups and ski-trip squads (55% of orders multi-packs)"
+main_platform: instagram
+secondary_platforms: [tiktok, facebook]
+markets: [US, CA]
+tone: "hype, goofy, squad chaos, meme humour"
+music_allowed_genres: [meme classic rock, reggae dancehall, party pop]
+music_banned_genres: [phonk, christmas]
+music_preferred: [boombastic_tiktok, free_bird, give_it_up]
+emoji_allowed: {"😂": "meme", "🤣": "meme", "💀": "dead laughing", "🔥": "hype", "🏂": "snowboard", "⛷️": "ski", "🥶": "cold", "👉": "CTA", "😤": "attitude", "🗿": "deadpan meme"}
+slang: ["the squad", "send it", "the lift line", "Get it here"]
+caption_voice: "Gen-Z ski bro, deadpan, 0-2 emoji"
+caption_proof:
+  - {pattern: '(?i)get it here', evidence: "own: Get it here 👉 {url} 61,290 views (brickhood_mask)"}
+banned: [Christmas songs (wrong niche)]

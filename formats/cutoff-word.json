@@ -1,0 +1,314 @@
+{
+  "slug": "cutoff-word",
+  "name": "Cut-off word (\"The perfect {gift} doesn't exi-\")",
+  "tier": "B",
+  "status": "MID-TIER and reliable on decor when the box is in the hook (MG 98K, the best avg-watch % on that page) and on store footage (HJ 91K). External: 488K, 701K⚑.",
+  "summary": "An unfinished sentence implying the perfect thing now exists, over a first frame where the product or box is already in hand. The cut-off creates a micro open loop, and the box-in-hook fixes the decor prep-block leak.",
+  "why": [
+    "Merry Glow 98K 'The perfect christmas decor doesn't exi-': box already in hand at 0 s; drop-off moved to 0:11; 66% average watched, the best on Merry Glow (body REPORT §1B, §3).",
+    "HJ 91K 'The perfect X-MAS gift doesnt exi-' on a store reaction.",
+    "External: snugbaby00 'The perfect gift for BABY MOM doesn't exi-' 488K / 4,722 shares (V); my_everorb⚑ 701K.",
+    "Flop: 'The perfect Christmas Gift doesn't exi-😳❄️' 3.9K at home, 15.4 s."
+  ],
+  "product_fit": [
+    {
+      "type": "Decor / lights",
+      "fit": "PRIMARY",
+      "evidence": "MG 98K"
+    },
+    {
+      "type": "Wearable gift",
+      "fit": "YES on store footage",
+      "evidence": "HJ 91K; ext 488K (baby carrier hoodie)"
+    }
+  ],
+  "timing": {
+    "length": "12.6-13.6 s",
+    "basis": "MG 98K exact: HOOK (box in hand) 0-3.767 | BOX -6.500 | INSTALL -8.800 | LIT -9.867 | LIT -10.767 | LIT -12.57.",
+    "shots": [
+      {
+        "t": "0.0 → 3.8",
+        "shot": "HOOK: box in hand",
+        "content": "woman holds the branded box up, product visible on the art; she opens the lid by 2 s",
+        "camera": "locked medium",
+        "text": "cut-off line ON",
+        "gen": "H1 (trim 3.8)"
+      },
+      {
+        "t": "4.8 → 6.8",
+        "shot": "BOX (≤2.0 s, motion inside)",
+        "content": "branded box on lap, lid off, product lifted out in one motion",
+        "camera": "locked top-down",
+        "text": "\"Vs..\"",
+        "gen": "B1·S2"
+      },
+      {
+        "t": "6.8 → 8.8",
+        "shot": "INSTALL",
+        "content": "hanging / placing the product (tree, gutter, window, table)",
+        "camera": "locked wide",
+        "text": "\"Vs..\"",
+        "gen": "B2·S1"
+      },
+      {
+        "t": "8.8 → 10.0",
+        "shot": "LIT 1 (activation, ~66-73%)",
+        "content": "app tap / plug → the product lights up, room transforms",
+        "camera": "locked wide",
+        "text": "\"{Occasion} this year\" switches ON exactly on this cut",
+        "gen": "B2·S2 (trim to 1.2 s)"
+      },
+      {
+        "t": "10.0 → 11.2",
+        "shot": "LIT 2 (escalation)",
+        "content": "closer or lower angle, family reacts",
+        "camera": "locked",
+        "text": "held",
+        "gen": "B3·S1 (trim 1.2 s)"
+      },
+      {
+        "t": "11.2 → 13.2",
+        "shot": "LIT 3 (hero, payoff ~84%)",
+        "content": "full hero wide, product doing its thing; hard cut at full music level",
+        "camera": "locked hero wide",
+        "text": "held",
+        "gen": "B3·S2"
+      }
+    ],
+    "measured": [
+      "MG 98K: 3.767 | 6.500 | 8.800 | 9.867 (LIT, 78%) | 10.767 | END 12.61 · avg 9 s, 66%.",
+      "HJ 91K: 4.067 | 5.567 | 7.767 | 8.600 | 10.567 | END 13.63.",
+      "snugbaby 488K: 11.4 s, 4 shots (store → driveway → porch → kitchen) (V)."
+    ],
+    "rules": [
+      "Because the box is in the hook, drop the THEN2 row of the decor master; any BOX shot in the body stays ≤2.0 s."
+    ]
+  },
+  "text": {
+    "style": "Quotes optional. The word is always cut with a hyphen and never finished.",
+    "patterns": [
+      {
+        "pattern": "The perfect {christmas decor} doesn't exi-",
+        "tag": "P",
+        "source": "MG 98K"
+      },
+      {
+        "pattern": "The perfect {X-MAS gift} doesnt exi-",
+        "tag": "P",
+        "source": "HJ 91K"
+      },
+      {
+        "pattern": "The perfect gift for {BABY MOM} doesn't exi-",
+        "tag": "P (ext)",
+        "source": "snugbaby00 488K"
+      }
+    ],
+    "rules": [
+      "Pair with a recipient where possible (488K)."
+    ]
+  },
+  "caption": {
+    "template": "Until now 😏\nSAY \"{KEYWORD}\" and we'll send you the link",
+    "keywords": [
+      "PERFECT",
+      "TREE",
+      "MOM"
+    ],
+    "rules": [
+      "SAY not COMMENT."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": 1,
+        "track": "Last Christmas (Wham!) · ~2:48",
+        "start": "reel 0.0",
+        "evidence": "MG 98K (offset 171.0 s)"
+      },
+      {
+        "rank": 2,
+        "track": "Let It Snow · 0:00",
+        "start": "reel 0.0",
+        "evidence": "HJ 91K"
+      }
+    ],
+    "rules": []
+  },
+  "generation_plan": {
+    "summary": "4 gens: H1 box-in-hand at 1080p, then the decor master (B1 starts at BOX).",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "Box in hand, lid opens by 2 s",
+        "shots": "one shot",
+        "feeds": "HOOK",
+        "inputs": "<<<image_1>>> = {brand} box; room still",
+        "basis": "MG 98K opener (hand-coded WEAR_HOLD, 15% product share): the box-in-hook retention fix.",
+        "prompt": "Vertical 9:16 iPhone video in a dim American living room with an unlit Christmas tree. A woman stands centred holding the {brand} box from <<<image_1>>> up at chest height toward the camera, then lifts the lid at 1.5 seconds and tilts the box so the {product} inside is visible. Locked camera, top fifth clear. Natural sound only, no music, no text.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (room still; also the base for the decor body's T9 edits)",
+          "prompt": "iPhone photo, vertical 9:16, in a dim American living room in the evening with an unlit, undecorated Christmas tree: a woman stands centred at chest-up framing holding the closed {brand} box from the first image toward the camera, the product art clearly legible. Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B1",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "THEN2 | BOX",
+        "shots": "S1 second 'before' angle · S2 box open + lift out",
+        "feeds": "THEN2, BOX",
+        "inputs": "start image = the SAME room as the hook (T9 edit pass of the hook still); <<<image_1>>> = product; <<<image_2>>> = branded box",
+        "basis": "Verified start-frame scene scripts behind Merry Glow 153K/119K, Merry Carrier 63K, MerryFires 63K (PLAYBOOK §15 rule 4; T4/T5). Same room in then and now (PLAYBOOK §7.5 rule 4, IG 40.3K).",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, the same dark, undecorated American living room as the start image, evening. SHOT 1 (0.0-2.0s), framed as the start image: a second angle of the bare, unlit Christmas tree in the dim room, a tangle of old bulbs on the floor, nobody moving. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: top-down on a lap: hands lift the lid off the {brand} box from <<<image_2>>> and pull the {product} from <<<image_1>>> out in one smooth motion. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: quiet room tone, cardboard lid sliding off, a soft rustle. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T9 edit of the hook (H1) start still",
+          "prompt": "Edit the hook start still (H1). Keep everything exactly the same: the room, camera angle, framing, lens perspective, every piece of furniture and decor in the identical position. Only change: move the camera framing to a second angle of the same bare, unlit Christmas tree, with a tangle of old bulbs on the floor and nobody in frame. Vertical 9:16, photographic, sharp and clean, no motion blur, no film grain, no text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B2",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "INSTALL | LIT 1",
+        "shots": "S1 install · S2 activation, dark → lit",
+        "feeds": "INSTALL, LIT 1",
+        "inputs": "start image = install framing still; <<<image_1>>> = product; reference video of the real product's lit animation if available (4dabfa47 pattern)",
+        "basis": "Verified 4dabfa47 (Merry Glow 152.9K @10.0 s): 'the tree's lights are defined ENTIRELY by the attached reference videos… Do not invent' — integrity guard against fake effects.",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room, room lights off, night outside the windows. SHOT 1 (0.0-2.0s), framed as the start image: a woman wraps the {product} from <<<image_1>>> around the tree from bottom to top, wires neat, everything still unlit. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: POV: a thumb taps the phone app and the {product} switches on instantly, showing exactly the animation in the reference video, the tree becomes the only light source and the room glows. The light artwork appears only on the {product} itself, exactly as in the reference video; nothing floats off it, no projections, no particles. Audio: rustle of branches, a soft phone tap, a delighted gasp from off camera. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T9 edit of the hook (H1) start still",
+          "prompt": "Edit the hook start still (H1). Keep everything exactly the same: the room, camera angle, framing, lens perspective, every piece of furniture and decor in the identical position. Only change: a woman stands beside the tree holding the start of the unlit {product} from <<<image_1>>> at the lowest branch, room lights off, night outside the windows. Vertical 9:16, photographic, sharp and clean, no motion blur, no film grain, no text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B3",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "LIT 2 | LIT 3",
+        "shots": "S1 lower/closer angle + family reaction · S2 hero wide",
+        "feeds": "LIT 2, LIT 3",
+        "inputs": "start image = hero still of the lit room (T9 edit: 'switch off the lamps so the tree is the only light source'); <<<image_1>>>",
+        "basis": "Decor payoff = 3-shot escalating block, 1.0-1.4 s each, locked camera (body REPORT §2; MG 152.9K, 119K, 84K).",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, the same lit living room at night, the {product} is the only light source, American flag on the wall. SHOT 1 (0.0-2.0s), framed as the start image: low angle from beside the sofa: two kids in Christmas pajamas kneel in front of the lit {product}, pointing and laughing, mom behind them with a mug. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: locked wide hero shot of the whole room glowing from the {product}, the family on the sofa, a golden retriever on the rug. The {product} keeps exactly the same lit pattern as the previous clip; no camera movement in shot 2. Audio: kids laughing, soft room tone. No background music, no text, no captions.\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T9 edit of the B2 install still",
+          "prompt": "Edit the B2 install start still. Keep everything exactly the same: the room, camera angle, framing, lens perspective, every piece of furniture and decor in the identical position. Only change: remove the woman, switch off the lamps so the lit {product} from <<<image_1>>> is the only light source, and add two kids in Christmas pajamas kneeling in front of it with mom behind them holding a mug. Vertical 9:16, photographic, sharp and clean, no motion blur, no film grain, no text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      }
+    ],
+    "rules": [
+      "B1's first shot (THEN2) can be replaced by a second BOX angle, since there is no 'then' scene."
+    ]
+  },
+  "evidence": [
+    {
+      "origin": "internal",
+      "id": "mg_post122111714343432799",
+      "page": "Merry Glow",
+      "platform": "FB",
+      "views": 97955,
+      "shares": null,
+      "role": "winner",
+      "note": "The perfect christmas decor doesn't exi- · box in hook · 66% watched, drop-off 0:11",
+      "src": "H,B,I",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "28171203645867196",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 91000.0,
+      "shares": null,
+      "role": "winner",
+      "note": "The perfect X-MAS gift doesnt exi- · store reaction",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/28171203645867196/"
+    },
+    {
+      "origin": "internal",
+      "id": "1696343398581029",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 3900.0,
+      "shares": null,
+      "role": "flop",
+      "note": "The perfect Christmas Gift doesn't exi- · home, 15.4 s",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1696343398581029/"
+    },
+    {
+      "origin": "external",
+      "id": "snugbaby00/41478687",
+      "page": "snugbaby00",
+      "platform": "TikTok",
+      "views": 488400.0,
+      "shares": "4.7K",
+      "flag": false,
+      "role": "external winner",
+      "note": "The perfect gift for BABY MOM doesn't exi- · 'Comment \"Mom\"' end card (we use SAY)",
+      "src": "V",
+      "url": "https://www.tiktok.com/@snugbaby00/video/7696948793941478687",
+      "posted": "2026-10-15"
+    },
+    {
+      "origin": "external",
+      "id": "my_everorb/79273504",
+      "page": "my_everorb",
+      "platform": "TikTok",
+      "views": 701100.0,
+      "shares": "4.6K",
+      "flag": true,
+      "role": "external winner",
+      "note": "the perfect Christmas ornament for moms doesn't exi-",
+      "src": "X",
+      "url": "https://www.tiktok.com/@my_everorb/video/7688325319979273504",
+      "posted": "2026-09-22"
+    }
+  ],
+  "failures": [
+    "At-home footage with no box/product hero and a 15 s runtime (3.9K)."
+  ],
+  "variants": [
+    {
+      "name": "Recipient cut-off",
+      "rule": "'The perfect gift for {grandma} doesn't exi-' on the wearable body.",
+      "proof": "snugbaby 488K.",
+      "gate": "3 renders."
+    }
+  ],
+  "checks": [
+    {
+      "id": "cw.hyphen",
+      "rule": "hook ends with '-' mid-word",
+      "cite": "all winners"
+    },
+    {
+      "id": "cw.box_0s",
+      "rule": "box/product visible at 0 s",
+      "cite": "MG 98K"
+    }
+  ],
+  "open": [
+    "Only n=2 internal winners."
+  ],
+  "review": [
+    "Kept despite mid-tier views because MG 98K is our best retention evidence for putting the box in the hook."
+  ],
+  "rank": 10,
+  "evidence_strength": {
+    "score": 5.1,
+    "internal_hits_ge50k": 2,
+    "internal_tested": 3,
+    "external_organic_winners": 1
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

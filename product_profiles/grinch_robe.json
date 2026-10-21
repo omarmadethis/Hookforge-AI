@@ -1,0 +1,463 @@
+{
+ "product_key": "grinch_robe",
+ "display": "Heated Grinch robe",
+ "brand": "HeatedJammies",
+ "category": "wearable_gift",
+ "corpus_products": [
+  "heated Grinch robe",
+  "HeatedJammies robe"
+ ],
+ "pages": [
+  "HJ",
+  "MJIG"
+ ],
+ "energy": 2,
+ "mood": [
+  "cozy",
+  "gifting",
+  "family",
+  "funny-mom"
+ ],
+ "audience": "US moms and wives 25-55 buying a Christmas gift; Grinch fans; cold-aholics",
+ "world": "cozy home at Christmas: living room with tree, kitchen, couch, bedroom; gifting moments; family",
+ "settings": [
+  "bright living room with Christmas tree",
+  "kitchen counter",
+  "couch with blanket",
+  "bedroom",
+  "front door gift handoff",
+  "big-box store aisle (proven ONLY as the fake-retail pallet JK; HJ-03/HJ-04 1.4M)"
+ ],
+ "actions": [
+  "tray 3-2-1 drop",
+  "put on with the hood up",
+  "plug in the power bank",
+  "thumb on the heat controller",
+  "curl up on the couch",
+  "gift handoff"
+ ],
+ "forbidden_settings": [
+  "ski slope",
+  "gym",
+  "nightclub",
+  "outdoor sports",
+  "beach"
+ ],
+ "product_look": "green plush hooded Grinch robe (Grinch face on the hood)",
+ "subject": "a young woman in grey loungewear",
+ "body_setting": "in a bright cozy living room with a Christmas tree",
+ "product": "Grinch robe",
+ "feature_1": "the plush Grinch face hood",
+ "feature_2": "the full length of the robe down to the ankles",
+ "activation_action": "the power bank clicks into the hidden pocket and the controller light turns on",
+ "activation_result": "the heat controller set to high, warm glow on the screen",
+ "payoff_scene": "she curls up on the couch by the tree in the robe, hood up, smiling with a mug",
+ "room": "living room",
+ "sounds": "her voice, fabric rustle, soft room tone",
+ "source_object": "folded blanket",
+ "store_look": "a big US discount store with red-accented plain shelving (unbranded)",
+ "music_forbidden": [],
+ "keyword": "WARM",
+ "proof_shot": [
+  "PROOF",
+  "AI-doubt proof: close-up as she adjusts the robe in natural light - hood face, foot pockets and lining identical to <<<image_1>>>, natural fabric folds"
+ ],
+ "body_override": {
+  "FEAT_B": [
+   "PROOF",
+   "AI-doubt proof: handheld close-up as she adjusts the robe in natural light, the hood face, foot pockets and lining exactly as in the reference, natural fabric folds"
+  ]
+ },
+ "processing_days": null,
+ "ship_days": null,
+ "proven_formats": [
+  {
+   "format": "F05",
+   "n": 10,
+   "hits": 7,
+   "median_views": 97500,
+   "best_views": 2700000,
+   "reels": [
+    "HJ-02",
+    "HJ-08",
+    "HJ-09",
+    "HJ-11",
+    "HJ-13",
+    "HJ-14",
+    "HJ-17",
+    "HJ-22",
+    "HJ-29",
+    "HJ-30"
+   ]
+  },
+  {
+   "format": "F99",
+   "n": 8,
+   "hits": 6,
+   "median_views": 287405,
+   "best_views": 4626610,
+   "reels": [
+    "HJ-20",
+    "HJ-28",
+    "MJIG-13",
+    "MJIG-14",
+    "MJIG-15",
+    "MJIG-16",
+    "MJIG-17",
+    "MJIG-18"
+   ]
+  },
+  {
+   "format": "F02",
+   "n": 7,
+   "hits": 5,
+   "median_views": 87000,
+   "best_views": 1400000,
+   "reels": [
+    "HJ-03",
+    "HJ-04",
+    "HJ-06",
+    "HJ-18",
+    "HJ-19",
+    "HJ-21",
+    "HJ-37"
+   ]
+  },
+  {
+   "format": "F06",
+   "n": 6,
+   "hits": 3,
+   "median_views": 53850,
+   "best_views": 6600000,
+   "reels": [
+    "HJ-01",
+    "HJ-07",
+    "HJ-12",
+    "HJ-23",
+    "HJ-34",
+    "HJ-36"
+   ]
+  },
+  {
+   "format": "F01",
+   "n": 3,
+   "hits": 2,
+   "median_views": 90000,
+   "best_views": 524000,
+   "reels": [
+    "HJ-05",
+    "HJ-16",
+    "HJ-32"
+   ]
+  },
+  {
+   "format": "F03",
+   "n": 2,
+   "hits": 1,
+   "median_views": 76600,
+   "best_views": 147000,
+   "reels": [
+    "HJ-10",
+    "HJ-25"
+   ]
+  },
+  {
+   "format": "F14",
+   "n": 1,
+   "hits": 1,
+   "median_views": 91000,
+   "best_views": 91000,
+   "reels": [
+    "HJ-15"
+   ]
+  },
+  {
+   "format": "F17",
+   "n": 2,
+   "hits": 0,
+   "median_views": 5050,
+   "best_views": 6200,
+   "reels": [
+    "HJ-24",
+    "HJ-33"
+   ]
+  },
+  {
+   "format": "F07",
+   "n": 1,
+   "hits": 0,
+   "median_views": 5900,
+   "best_views": 5900,
+   "reels": [
+    "HJ-26"
+   ]
+  },
+  {
+   "format": "F19",
+   "n": 2,
+   "hits": 0,
+   "median_views": 4150,
+   "best_views": 5600,
+   "reels": [
+    "HJ-27",
+    "HJ-35"
+   ]
+  },
+  {
+   "format": "F13",
+   "n": 1,
+   "hits": 0,
+   "median_views": 4200,
+   "best_views": 4200,
+   "reels": [
+    "HJ-31"
+   ]
+  },
+  {
+   "format": "F16",
+   "n": 1,
+   "hits": 0,
+   "median_views": 1100,
+   "best_views": 1100,
+   "reels": [
+    "HJ-38"
+   ]
+  }
+ ],
+ "proven_music": [
+  {
+   "song": "last_christmas",
+   "version": "Wham! Last Christmas (official) ~2:50 chorus",
+   "offset_s": 170.5,
+   "energy": 4,
+   "best_views": 524000,
+   "formats": "F01|F02|F03|F05|F07|F13|F19"
+  },
+  {
+   "song": "beginning_to_look",
+   "version": "Michael Bublé It's Beginning to Look a Lot Like Christmas ~0:31.6",
+   "offset_s": 32.4,
+   "energy": 2,
+   "best_views": 304000,
+   "formats": "F05|F06|F99"
+  },
+  {
+   "song": "jingle_bells_viibez",
+   "version": "Viibez Jingle Bells remix 0:00",
+   "offset_s": NaN,
+   "energy": 4,
+   "best_views": 112000,
+   "formats": "F02|F05"
+  },
+  {
+   "song": "aiwfc_intro",
+   "version": "Mariah Carey AIWFC, slow intro (Make My Wish Come True ed. ~0:49.6)",
+   "offset_s": 49.6,
+   "energy": 3,
+   "best_views": 91000,
+   "formats": "F14"
+  },
+  {
+   "song": "holly_jolly",
+   "version": "Michael Bublé Holly Jolly Christmas from 0:00",
+   "offset_s": 0.1,
+   "energy": 3,
+   "best_views": 2700,
+   "formats": "F19"
+  }
+ ],
+ "proven_captions": [
+  {
+   "caption": "Get yours👉{url}",
+   "views": 6600000
+  },
+  {
+   "caption": "Get yours👉🏻{url}",
+   "views": 2700000
+  },
+  {
+   "caption": "Get yours 👉 {url}",
+   "views": 1400000
+  },
+  {
+   "caption": "All moms need this🎁",
+   "views": 524000
+  },
+  {
+   "caption": "Get yours👉🏻 {url}",
+   "views": 326000
+  },
+  {
+   "caption": "And its heated😊",
+   "views": 304000
+  },
+  {
+   "caption": "Shop here👉🏻 {url}",
+   "views": 183000
+  },
+  {
+   "caption": "Shop Now👉🏻{url}",
+   "views": 165000
+  }
+ ],
+ "proven_hooks": [
+  {
+   "hook": "Women are hard to gift..",
+   "format": "F06",
+   "views": 6600000,
+   "reel": "HJ-01",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "DO NOT let your mom see this ❄️😳",
+   "format": "F05",
+   "views": 2700000,
+   "reel": "HJ-02",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "Grinch X Target 😳🎄❄️",
+   "format": "F02",
+   "views": 1400000,
+   "reel": "HJ-03",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "Christmas-HOLICS RUN, dont walk to Walmart 🎅🎄",
+   "format": "F02",
+   "views": 1400000,
+   "reel": "HJ-04",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "ALL mom's NEED this 😳❄️",
+   "format": "F01",
+   "views": 524000,
+   "reel": "HJ-05",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "HeatedJammies at Target 😳❄️",
+   "format": "F02",
+   "views": 326000,
+   "reel": "HJ-06",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "Women are hard to gift..",
+   "format": "F06",
+   "views": 304000,
+   "reel": "HJ-07",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "DONT show this to your Grandma ❄️😳",
+   "format": "F05",
+   "views": 183000,
+   "reel": "HJ-08",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "DO NOT let your wife see this 😳❄️",
+   "format": "F05",
+   "views": 165000,
+   "reel": "HJ-09",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "Grinch X Target 😂🎁❄️",
+   "format": "F03",
+   "views": 147000,
+   "reel": "HJ-10",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "DONT show this to you mom 😳🎅",
+   "format": "F05",
+   "views": 112000,
+   "reel": "HJ-11",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "Women are hard to gift..",
+   "format": "F06",
+   "views": 101000,
+   "reel": "HJ-12",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "Don't show this to your mom...",
+   "format": "F05",
+   "views": 98000,
+   "reel": "HJ-13",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "DO NOT show this to you're mom 😳❄️",
+   "format": "F05",
+   "views": 97000,
+   "reel": "HJ-14",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "The perfect X-MAS gift doesnt exi- 😳☃️",
+   "format": "F14",
+   "views": 91000,
+   "reel": "HJ-15",
+   "capcut_cards": [
+    "\"The perfect gift  doesn't exi-\" 😳☃️"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 0.91)"
+  },
+  {
+   "hook": "Moms are so hard to gift 🥺❄️🎅",
+   "format": "F01",
+   "views": 90000,
+   "reel": "HJ-16",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "DONT show this to your mom 😳❄️",
+   "format": "F05",
+   "views": 88000,
+   "reel": "HJ-17",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "Heated Grinch Jammies 😳",
+   "format": "F02",
+   "views": 87000,
+   "reel": "HJ-18",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  },
+  {
+   "hook": "Target X Grinch 😱",
+   "format": "F02",
+   "views": 71000,
+   "reel": "HJ-19",
+   "capcut_cards": null,
+   "text_source": "frame-read"
+  }
+ ],
+ "n_own_reels": 44,
+ "own_hits": 25,
+ "product_look_status": "description from Omar's prompts; <<<image_1>>> product photo is the ground truth",
+ "sources": "corpus own reels (FB+IG), CapCut drafts (edits.csv), music_library.csv, Omar transcripts (rules_core), worlds.py"
+}

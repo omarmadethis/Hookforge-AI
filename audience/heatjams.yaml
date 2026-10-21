@@ -1,0 +1,35 @@
+# D109 (2026-10-20): HeatJams heated wearable blanket. No own posted reels yet: POC = corpus EXT rows (data/features/features.csv)
+# + the grinch_robe buyer it shares (D93 fallback). Same rules as grinch_robe.yaml.
+slug: heatjams
+product_keys: [heatjams]
+inherits_from: grinch_robe
+buyers: "US moms and wives 25-55 buying a Christmas gift; always-cold people ('cold-aholics')"
+main_platform: instagram
+secondary_platforms: [facebook, tiktok]
+markets: [US, CA]
+tone: "cozy, giftable, funny-mom humour"
+music_allowed_genres: [christmas classic, christmas pop, christmas crooner, christmas remix]
+music_banned_genres: [phonk, drill, edm]
+music_preferred: [last_christmas, beginning_to_look, jingle_bells_viibez]
+emoji_allowed:
+  "😳": "shock / every mom needs this (ext merry.made2 1.4M)"
+  "❄️": "winter (ext merry.made2 1.4M)"
+  "🥹": "cold-aholics (ext warmly.official 6.0M)"
+  "💕": "cosy love (ext warmly.official 6.0M)"
+  "🥶": "always cold"
+  "😱": "don't-show hook (ext kaia.makes 563K)"
+  "🎄": "Christmas"
+  "🎁": "gift"
+  "💚": "green blanket"
+  "😂": "funny-mom humour"
+  "👉": "CTA"
+  "⏳": "Vs card"
+slang: ["cold-aholics", "every mom needs this", "cozy", "movie night", "Get yours"]
+caption_voice: "Post caption = 'Get yours👉{url}' + 3-4 hashtags (#christmas #gift #mom). Hook ON SCREEN, 1-2 emoji, US spelling"
+caption_proof:
+  - {pattern: '(?i)cold-?aholics', evidence: "ext warmly.official heated wearable blanket 'Cold-aholics this is for you... 🥹💕' 6.0M"}
+  - {pattern: '(?i)(do ?n.?t|do not) (let|show).*(mom|wife|grandma|girl)', evidence: "ext merry.made2 'Don't let your mom see this...😳❄️' 1.4M; kaia.makes 563K; own grinch_robe 2.73M"}
+  - {pattern: '(?i)(mom|wife|she|her).*(need|want|love)|need(s)? this', evidence: "ext merry.made2 'Every Christmas mom NEEDS this 😳❄️' 1.4M"}
+  - {pattern: '(?i)best gift', evidence: "ext illsellyouwhat1 heated wearable blanket 'best gift you can get this season' 12.4M"}
+  - {pattern: '(?i)get yours', evidence: "own grinch_robe (same buyer): Get yours👉{url} 6,600,000 views"}
+banned: [mum spelling, sexualised framing]

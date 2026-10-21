@@ -1,0 +1,56 @@
+[
+ {
+  "page": "purrventures_fb",
+  "name": "PurrVentures",
+  "namespace": "user-Buffer",
+  "tool": "create_post (NOT CALLED)",
+  "status": "DRY_RUN_DRAFT_PAYLOAD",
+  "needs": [
+   "Omar approval (publish.approve)",
+   "rendered video staged via deliver.stage/verify_staged",
+   "public video_url"
+  ],
+  "caption_poc": "config/poc_defaults.json:POC-PV-CAP1 20,800,000 views (keyword_cta)",
+  "political": "n/a",
+  "payload": {
+   "channelId": "6ad7c63f778b240e2f6ed4e5",
+   "schedulingType": "automatic",
+   "mode": "addToQueue",
+   "saveToDraft": true,
+   "text": "SAY \"PURR\" if you want one!\n#cat #catmom #catlover",
+   "assets": [],
+   "metadata": {
+    "facebook": {
+     "type": "reel"
+    }
+   }
+  }
+ },
+ {
+  "page": "purrventures2_fb",
+  "name": "PurrVentures (page 2)",
+  "namespace": "user-Buffer--buffer2",
+  "tool": "create_post (NOT CALLED)",
+  "status": "DRY_RUN_DRAFT_PAYLOAD",
+  "needs": [
+   "Omar approval (publish.approve)",
+   "rendered video staged via deliver.stage/verify_staged",
+   "public video_url"
+  ],
+  "caption_poc": "plan:TikTok 7694841614191070477 @juan.webdaily.find 52,400 plays (same mesh cat-ball product, hook verbatim; research/reference_library) + POC-PV-CAP1 SAY \"PURR\" CTA (RollyMew 20.8M) 1,000,000,000,000 views (plan)",
+  "political": "n/a",
+  "payload": {
+   "channelId": "6ad7e3e8778b240e2f706dfd",
+   "schedulingType": "automatic",
+   "mode": "addToQueue",
+   "saveToDraft": true,
+   "text": "Finally a way for kitties to explore outside safely! 🐈 SAY \"PURR\" if you want one!\n#cat #catmom #catlover",
+   "assets": [],
+   "metadata": {
+    "facebook": {
+     "type": "reel"
+    }
+   }
+  }
+ }
+]

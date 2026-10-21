@@ -1,0 +1,245 @@
+{
+  "slug": "problem-solution",
+  "name": "Problem → solution (\"The problem.. → Vs.. → The solution\")",
+  "tier": "X",
+  "status": "DEMOTED. 0 for 4 on our pages (HJ 5.6K and 2.7K; Purrventure ×2 at ~3 views). The PROBLEM_CHASE opener went 0/3 ≥50K, median 4.2K (hooks REPORT). One external gadget winner (429K). Do not lead with it on gifts, decor or pets.",
+  "summary": "A chaos/problem scene with no product, a 'Vs..' card, then the product as the fix. It fails because the first frame shows neither the product nor a recipient, and both are proven requirements.",
+  "why": [
+    "PROBLEM_CHASE opener: 3 HJ reels, none ≥50K, median 4.2K, best 5.6K. It was the only archetype that separated statistically from PALLET (hooks REPORT §1.4).",
+    "Two of three Purrventure reels used it; both sat at ~3 views (PLAYBOOK §12).",
+    "Exception: tryglowmas 'The problem😬' laser-tag set for boy moms, 429K on IG (external §3d)."
+  ],
+  "product_fit": [
+    {
+      "type": "Gadget / toy",
+      "fit": "EXPERIMENT ONLY",
+      "evidence": "tryglowmas 429K"
+    },
+    {
+      "type": "Wearable, decor, pet",
+      "fit": "NO",
+      "evidence": "0/4 internal"
+    }
+  ],
+  "timing": {
+    "length": "12-15 s",
+    "basis": "tryglowmas 429K cuts 3.97 | 5.02 | 7.62 | 8.97 | 12.32 | 13.67 | END 15.1 (XA). HJ 5.6K cuts 3.800 | 8.433 (a 4.6 s shot) | 10.533 | 11.467 | 12.400 | END 13.96.",
+    "shots": [
+      {
+        "t": "0.0 → 3.0",
+        "shot": "HOOK: problem WITH product cue",
+        "content": "the problem scene, but the product is visible in frame by 1 s (fixing the measured failure)",
+        "camera": "locked",
+        "text": "The problem😬",
+        "gen": "H1 (trim 3.0)"
+      },
+      {
+        "t": "3.0 → 5.0",
+        "shot": "SOLUTION reveal",
+        "content": "product in hand",
+        "camera": "locked",
+        "text": "Vs..",
+        "gen": "B1·S1"
+      },
+      {
+        "t": "5.0 → 7.0",
+        "shot": "USE",
+        "content": "first use",
+        "camera": "locked",
+        "text": "held",
+        "gen": "B1·S2"
+      },
+      {
+        "t": "7.0 → 8.5",
+        "shot": "ACTIVATION",
+        "content": "switch-on",
+        "camera": "macro",
+        "text": "The solution 😊 on this cut",
+        "gen": "B2·S1"
+      },
+      {
+        "t": "8.5 → 12.5",
+        "shot": "PAYOFF ×2",
+        "content": "kids/family enjoying it",
+        "camera": "locked",
+        "text": "held",
+        "gen": "B2·S2 + B3"
+      }
+    ],
+    "measured": [
+      "HJ 5.6K: a 4.6 s second shot (slow), violating the ≤2.2 s pre-activation rule.",
+      "tryglowmas 429K: 15.1 s."
+    ],
+    "rules": [
+      "If used at all: product in frame by 1 s, and no shot longer than 2.2 s before activation."
+    ]
+  },
+  "text": {
+    "style": "House style.",
+    "patterns": [
+      {
+        "pattern": "The problem😬 → (solution)",
+        "tag": "P (ext, IG)",
+        "source": "tryglowmas 429K"
+      },
+      {
+        "pattern": "The Problem😕🎄 → Vs.. → The solution",
+        "tag": "FAILED",
+        "source": "HJ 5.6K, 2.7K; PV ~3 views"
+      }
+    ],
+    "rules": []
+  },
+  "caption": {
+    "template": "Problem solved 😏\nSAY \"{KEYWORD}\" and we'll send you the link",
+    "keywords": [
+      "FIXED"
+    ],
+    "rules": [
+      "SAY not COMMENT."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": "—",
+        "track": "No proven pick (HJ 5.6K used Last Christmas ~2:48 and flopped)",
+        "start": "—",
+        "evidence": "HJ 5.6K"
+      }
+    ],
+    "rules": []
+  },
+  "generation_plan": {
+    "summary": "Only for a gadget/toy experiment: 3-4 gens (H1 + B1 shown; reuse unboxing-to-use B2/B3 for the rest).",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "Problem scene with product cue",
+        "shots": "one shot",
+        "feeds": "HOOK",
+        "inputs": "<<<image_1>>> product",
+        "basis": "tryglowmas 429K; product-at-0 s fix from hooks REPORT §1.3.",
+        "prompt": "Vertical 9:16 iPhone video at a family dinner table: two boys aim toy guns at each other across the plates and mom throws her hands up; the boxed {product} from <<<image_1>>> sits on the counter in the foreground, clearly visible from the first second. Locked camera. Natural sound only: kids yelling, cutlery. No music, no text.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+      },
+      {
+        "id": "B1",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "SOLUTION | USE",
+        "shots": "reveal · use",
+        "feeds": "SOLUTION, USE",
+        "inputs": "<<<image_1>>>",
+        "basis": "T5 pattern.",
+        "prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same house, evening. SHOT 1 (0.0-2.0s), framed as the start image: mom hands the boys the {product} from <<<image_1>>>. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: the boys set it up in the backyard, excited. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: kids cheering. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1)",
+          "prompt": "iPhone photo, vertical 9:16, same house, evening. The first instant of this shot, as a single frame: mom hands the boys the {product} from <<<image_1>>>. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      }
+    ],
+    "rules": []
+  },
+  "evidence": [
+    {
+      "origin": "internal",
+      "id": "1800372894614638",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 5600.0,
+      "shares": null,
+      "role": "flop",
+      "note": "The Problem😕🎄 · PROBLEM_CHASE",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1800372894614638/"
+    },
+    {
+      "origin": "internal",
+      "id": "1054634014080122",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 2700.0,
+      "shares": null,
+      "role": "flop",
+      "note": "The problem..😩",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1054634014080122/"
+    },
+    {
+      "origin": "internal",
+      "id": "pv_1131865399523539",
+      "page": "Purrventure",
+      "platform": "FB",
+      "views": 3,
+      "shares": null,
+      "role": "flop",
+      "note": "The problem... 😕 · ~3 views",
+      "src": "H,B",
+      "url": null
+    },
+    {
+      "origin": "internal",
+      "id": "pv_2881652105537206",
+      "page": "Purrventure",
+      "platform": "FB",
+      "views": 3,
+      "shares": null,
+      "role": "flop",
+      "note": "The problem 😡 · ~3 views",
+      "src": "H,B",
+      "url": null
+    },
+    {
+      "origin": "external",
+      "id": "tryglowmas/ySooOwf5",
+      "page": "tryglowmas",
+      "platform": "IG",
+      "views": "429K",
+      "shares": null,
+      "flag": false,
+      "role": "external winner",
+      "note": "The problem😬 → laser tag set (boy moms)",
+      "src": "X",
+      "url": "https://www.instagram.com/reel/DeUySooOwf5/",
+      "posted": "2026-10-10"
+    }
+  ],
+  "failures": [
+    "No product at 0 s.",
+    "Long static problem shot (4.6 s on HJ 5.6K)."
+  ],
+  "variants": [
+    {
+      "name": "Gadget-only test",
+      "rule": "Use only for toys/gadgets, with a product cue at 0 s.",
+      "proof": "tryglowmas 429K.",
+      "gate": "1 test; kill on the first result below page median."
+    }
+  ],
+  "checks": [
+    {
+      "id": "ps.blocked_categories",
+      "rule": "reject if the product category is wearable, decor or pet",
+      "cite": "0/4 internal"
+    }
+  ],
+  "open": [
+    "Purrventure was a ~3-view page, so its two flops are weak evidence on their own; HJ's 0/3 PROBLEM_CHASE result carries the demotion."
+  ],
+  "review": [
+    "Kept as a spec so the engine can explicitly refuse it, with reasons, when someone asks for it."
+  ],
+  "rank": 15,
+  "evidence_strength": {
+    "score": 1.0,
+    "internal_hits_ge50k": 0,
+    "internal_tested": 4,
+    "external_organic_winners": 1
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

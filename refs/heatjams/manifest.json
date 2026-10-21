@@ -1,0 +1,24 @@
+{
+ "slug": "heatjams",
+ "product_keys": [
+  "heatjams"
+ ],
+ "assets_dir": "assets/heatjams",
+ "approved_cast": "WOMAN (default, same buyer as grinch_robe; no own video for this slug)",
+ "approved_cast_status": "locked (F94)",
+ "higgsfield_media_ids": null,
+ "built_pt": "2026-10-20T09:55:43",
+ "refs": [
+  {
+   "path": "refs/heatjams/product/product_grinch blanket reference.png",
+   "kind": "product",
+   "type": "product",
+   "what": "heat jams wearable blanket",
+   "source": "~/Library/CloudStorage/GoogleDrive-contact@merryjammies.com/My Drive/vids w isaac/christmas clips/grinch blanket reference.png",
+   "clean": true,
+   "use_for_generation": true
+  }
+ ],
+ "refused": [],
+ "rule": "F88: no generation without product AND cast refs; F87: every file passes deliver.scan"
+}

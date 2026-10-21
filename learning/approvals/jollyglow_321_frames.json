@@ -1,0 +1,18 @@
+{
+ "approved_by": "Omar",
+ "approved_at_pt": "2026-10-19T21:12:00-07:00",
+ "approval_quote": "Omar approved your picks for 3-2-1 and combo (combo F1 = v4)",
+ "run_id": "jollyglow_321",
+ "picks": {
+  "F1": "v2 0df6aa7d",
+  "F2": "v2 5a6e9e94",
+  "F3": "v1 50ca17f2",
+  "F4": "v2 d66c6c9d",
+  "F5": "v2 8ea32a05",
+  "F6": "v1 12c7dc14"
+ },
+ "account": "user-Higgsfield--new-account",
+ "video_cap_credits": 236,
+ "cap_note": "video cap: originally 528 total, cut to 400 total by Omar 2026-10-19 9:17 PM PT",
+ "approval_channel": "relayed by parent agent"
+}

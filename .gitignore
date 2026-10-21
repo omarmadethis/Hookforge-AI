@@ -1,0 +1,41 @@
+# PRIVATE: store sales, IDs, team names/emails, workspace IDs, corpus with reel URLs, caches
+private/
+# media + generated outputs (large / copyrighted)
+*.mp4
+*.mov
+*.wav
+*.mp3
+assets/music/
+out/
+runs/
+__pycache__/
+*.pyc
+.pytest_cache/
+analytics/hookforge.db
+
+# customer-voice: browser queue holds our reel URLs; inbox holds raw browser captures (de-identified on ingest)
+voice/browser_queue.csv
+voice/inbox/
+
+# --- D160 (2026-10-20): GitHub resume commit ---
+out/
+data/
+# secrets / env (never commit tokens, keys, cookies, credentials)
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*secret*
+*credential*
+*cookie*
+*token*.json
+learning/results/.*.lock
+learning/results/*.pid
+learning/results/snapshot_loop.out
+# large CSVs (>5 MB) and files >50 MB are listed in .gitignore_large (generated) + docs/MANIFEST_EXCLUDED.md
+/learning/results/video_registry.csv
+/assets/emoji_apple/AppleColorEmoji-Linux.ttf
+/learning/audience_fit_log.csv
+*.m4a

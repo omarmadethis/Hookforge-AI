@@ -1,0 +1,112 @@
+{
+ "_doc": "Per-product POC-proven defaults applied by engine/hookforge/product_poc.py after the planner (D84). Every field cites its proof. Omar rules: F45 (no 'Get yours'/{url} on screen), F86 (emoji by POC, not forced), D32 (iPhone suffix), no Christmas songs for non-holiday niches.",
+ "purrventure_carrier": {
+  "format": "F04",
+  "format_why": "problem / VS / solution is THE proven format for this product: all 6 RollyMew FB winners (22M, 1.6M, 1.6M, 811K, 780K, 739K) and 20/20 RollyMew IG reels (top 20.8M Dehx805u5wn); research/products/purrventure/COMPETITOR_ROLLYMEW.md",
+  "cards": [
+   "The problem 😕",
+   "VS",
+   "The solution 😊🐈"
+  ],
+  "cards_why": "RollyMew text cards on every winner incl. 22M FB 3010652202601079 + 20.8M IG Dehx805u5wn (POC hook entries); emoji are their proven set, picked by POC (F86) not forced",
+  "caption": {
+   "text": "SAY \"PURR\" if you want one! 🐈 #cat #catmom #catlover",
+   "poc": "POC-PV-CAP1",
+   "why": "RollyMew caption (all 20 IG reels, top 20.8M views) with the CTA verb swapped to SAY per Omar 2026-10-20 (F93: FB captions SAY, never Comment) and keyword PURR"
+  },
+  "music": [
+   {
+    "song": "mambo_no_5",
+    "version": "Perez Prado - Mambo No. 5 (official) from 1.2 s brass intro",
+    "offset_s": 1.2,
+    "energy": 4,
+    "genre": "oldies mambo",
+    "poc": "POC-PV-SONG1",
+    "why": "6 of top 10 RollyMew IG reels: 20.8M Dehx805u5wn @1.17 s, 10M DeftJp1sm8j @1.84 s, 5.3M DefixCTNQ2F @1.26 s",
+    "evidence": [
+     "ext:https://www.instagram.com/rollymewofficial/reel/Dehx805u5wn/ 20.8M",
+     "ext:https://www.instagram.com/rollymewofficial/reel/DeftJp1sm8j/ 10M",
+     "ext:https://www.instagram.com/rollymewofficial/reel/DefixCTNQ2F/ 5.3M"
+    ],
+    "in_point_evidence": [
+     "ext: in-point 1.17-1.84 s measured on the RollyMew IG reels (COMPETITOR_ROLLYMEW.md table)"
+    ]
+   },
+   {
+    "song": "be_my_baby",
+    "version": "The Ronettes - Be My Baby (official) from 31.9 s chorus",
+    "offset_s": 31.9,
+    "energy": 3,
+    "genre": "oldies",
+    "poc": "POC-PV-SONG2",
+    "why": "3 RollyMew gardening reels 19.4M combined @31.9-32.2 s (DeSyZivMTz- 7.6M, DehXnTRtIXU 6.4M, Dec26kbMGB7 5.4M) + RollyMew FB 1.6M / 739K",
+    "evidence": [
+     "ext:https://www.instagram.com/rollymewofficial/reel/DeSyZivMTz-/ 7.6M",
+     "ext:https://www.facebook.com/reel/2655709101528152/ 1.6M"
+    ],
+    "in_point_evidence": [
+     "ext: in-point 31.9 s on DeSyZivMTz- and Dec26kbMGB7, 32.2 s on DehXnTRtIXU"
+    ]
+   }
+  ],
+  "music_banned_genres": [
+   "christmas"
+  ],
+  "world": {
+   "display": "PurrVenture cat ball playpen",
+   "product_look": "black PurrVenture pop-up mesh cat ball playpen (hamster-ball style, ~27 in, zip door)",
+   "product": "cat ball playpen",
+   "subject": "a young brown-haired woman in a plain white T-shirt and denim shorts and her cream snow Bengal cat (tan rosettes, clear blue eyes)",
+   "body_setting": "in a sunny suburban backyard",
+   "activation_action": "the zip door closes with a click",
+   "activation_result": "the cat rolls the ball across the grass",
+   "payoff_scene": "the cat rolling the ball across the lawn while the owner laughs",
+   "room": "backyard",
+   "sounds": "zip, paws on mesh, grass, birds",
+   "source_object": "cardboard sphere",
+   "settings": [
+    "sunny suburban backyard",
+    "front lawn",
+    "park path"
+   ],
+   "why": "PRODUCT_BRIEF.md (it is a hamster-ball playpen, not a carrier) + Omar-approved cast (AGENTS.md / VIDEO_PLANS.md); F94 (Omar 2026-10-20): cat products cast a woman"
+  },
+  "body_override": {
+   "HOOK": [
+    "HOOK",
+    "backyard-cam problem scene: owner busy in the yard, the cat bolts across the lawn and away (RollyMew 20.8M opener)"
+   ],
+   "OPEN": [
+    "OPEN",
+    "high-angle POV, hands pop the {product} open on the lawn"
+   ],
+   "ENTER": [
+    "ENTER",
+    "the cat walks into the {product}, hands guide it in"
+   ],
+   "INSIDE": [
+    "INSIDE",
+    "close-up: the cat's face through the mesh"
+   ],
+   "ACT": [
+    "ACT",
+    "hands-on close-up: the zip door closes with a click"
+   ],
+   "CARRY": [
+    "ROLL",
+    "the cat rolls the {product} across the grass, low follow shot"
+   ],
+   "PAYOFF": [
+    "PAYOFF",
+    "the cat rolling the {product} across the lawn, owner laughing behind; hard cut"
+   ]
+  },
+  "adaptation": {
+   "setting": "sunny suburban backyard",
+   "why": "RollyMew 20.8M Dehx805u5wn backyard-cam opener (~4.6 s problem act; Omar widget: follow the proof ~4 s)",
+   "hook_prompt": "Fixed high-corner backyard security-camera view of a sunny suburban backyard with a pool and lawn, a small American flag on the porch rail. A young brown-haired woman in a plain white T-shirt and denim shorts skims leaves from the pool with a net; a cream snow Bengal cat with tan rosettes and clear blue eyes dashes out of the open back door, across the lawn and toward the fence. She drops the net and runs after it. Static camera, no zoom. No product anywhere in frame. Natural sound only: water, birds, footsteps. No background music, no text, no captions, no logos.",
+   "startframe": "iPhone photo from a fixed high-corner backyard security camera: a sunny suburban backyard with a pool and lawn, a small American flag on the porch rail, a young brown-haired woman in a plain white T-shirt and denim shorts skimming the pool with a net, the back door open, a cream snow Bengal cat with tan rosettes and clear blue eyes stepping out onto the patio. No product anywhere in frame. Sharp, clean, realistic phone photo.",
+   "room": "backyard"
+  }
+ }
+}

@@ -1,0 +1,255 @@
+{
+ "PAGE_1": {
+  "code": "PAGE_1",
+  "platforms": [
+   "FB"
+  ],
+  "products": [
+   "brickhood_mask"
+  ],
+  "market": "US",
+  "audience": {
+   "brickhood_mask": "US skiers and snowboarders 16-30, friend groups, ski-trip squads (55% of BH orders were multi-packs)"
+  },
+  "daily_quota": {
+   "brickhood_mask": 5
+  },
+  "windows": {
+   "exploit": [
+    "00-04",
+    "21-24"
+   ],
+   "explore": [
+    "04-08",
+    "08-12",
+    "12-15",
+    "15-18",
+    "18-21"
+   ]
+  },
+  "variant_family": "brickhood_mask",
+  "status": "active",
+  "autopost": false
+ },
+ "PAGE_2": {
+  "code": "PAGE_2",
+  "platforms": [
+   "FB"
+  ],
+  "products": [
+   "grinch_robe"
+  ],
+  "market": "US",
+  "audience": {
+   "grinch_robe": "US moms and wives 25-55 buying a Christmas gift; Grinch fans; cold-aholics"
+  },
+  "daily_quota": {
+   "grinch_robe": 5
+  },
+  "windows": {
+   "exploit": [
+    "00-04",
+    "04-08"
+   ],
+   "explore": [
+    "18-21"
+   ]
+  },
+  "variant_family": "grinch_robe",
+  "status": "active",
+  "autopost": false
+ },
+ "PAGE_3": {
+  "code": "PAGE_3",
+  "platforms": [
+   "FB"
+  ],
+  "products": [
+   "jollyglow_curtain"
+  ],
+  "market": "US",
+  "audience": {
+   "jollyglow_curtain": "US homeowners who decorate the house front"
+  },
+  "daily_quota": {
+   "jollyglow_curtain": 5
+  },
+  "windows": {
+   "exploit": [
+    "18-21",
+    "21-24"
+   ],
+   "explore": [
+    "00-04",
+    "04-08",
+    "08-12",
+    "12-15",
+    "15-18"
+   ]
+  },
+  "variant_family": "jollyglow_curtain",
+  "status": "active",
+  "autopost": false
+ },
+ "PAGE_4": {
+  "code": "PAGE_4",
+  "platforms": [
+   "FB"
+  ],
+  "products": [
+   "merryfire"
+  ],
+  "market": "US",
+  "audience": {
+   "merryfire": "US homeowners and families 28-60 who host; cozy-decor lovers; patio people"
+  },
+  "daily_quota": {
+   "merryfire": 5
+  },
+  "windows": {
+   "exploit": [
+    "18-21",
+    "21-24"
+   ],
+   "explore": [
+    "04-08",
+    "08-12",
+    "12-15",
+    "00-04",
+    "15-18"
+   ]
+  },
+  "variant_family": "merryfire",
+  "status": "active",
+  "autopost": false
+ },
+ "PAGE_5": {
+  "code": "PAGE_5",
+  "platforms": [
+   "FB"
+  ],
+  "products": [
+   "merryglow_lights"
+  ],
+  "market": "US",
+  "audience": {
+   "merryglow_lights": "US families decorating for Christmas"
+  },
+  "daily_quota": {
+   "merryglow_lights": 5
+  },
+  "windows": {
+   "exploit": [
+    "18-21",
+    "21-24"
+   ],
+   "explore": [
+    "00-04",
+    "04-08",
+    "08-12",
+    "12-15",
+    "15-18"
+   ]
+  },
+  "variant_family": "merryglow_lights",
+  "status": "active",
+  "autopost": false
+ },
+ "PAGE_6": {
+  "code": "PAGE_6",
+  "platforms": [
+   "FB"
+  ],
+  "products": [
+   "merryfire",
+   "merryglow_lights"
+  ],
+  "market": "US",
+  "audience": {
+   "merryfire": "US homeowners and families 28-60 who host; cozy-decor lovers; patio people",
+   "merryglow_lights": "US families decorating for Christmas"
+  },
+  "daily_quota": {
+   "merryfire": 5,
+   "merryglow_lights": 5
+  },
+  "windows": {
+   "exploit": [
+    "12-15",
+    "18-21"
+   ],
+   "explore": [
+    "04-08",
+    "00-04",
+    "08-12",
+    "21-24",
+    "15-18"
+   ]
+  },
+  "variant_family": "merryfire",
+  "status": "active",
+  "autopost": false
+ },
+ "PAGE_7": {
+  "code": "PAGE_7",
+  "platforms": [
+   "IG"
+  ],
+  "products": [
+   "brickhood_mask",
+   "grinch_robe",
+   "grinchmelt_mug",
+   "merryfire"
+  ],
+  "market": "US",
+  "audience": {
+   "brickhood_mask": "US skiers and snowboarders 16-30, friend groups, ski-trip squads (55% of BH orders were multi-packs)",
+   "grinch_robe": "US moms and wives 25-55 buying a Christmas gift; Grinch fans; cold-aholics",
+   "grinchmelt_mug": "US women 22-50, hot-cocoa and cozy-night lovers, Grinch fans",
+   "merryfire": "US homeowners and families 28-60 who host; cozy-decor lovers; patio people"
+  },
+  "daily_quota": {
+   "brickhood_mask": 5,
+   "grinch_robe": 5,
+   "grinchmelt_mug": 5,
+   "merryfire": 5
+  },
+  "windows": {
+   "exploit": [
+    "18-21",
+    "21-24"
+   ],
+   "explore": [
+    "00-04",
+    "04-08",
+    "08-12"
+   ]
+  },
+  "variant_family": "brickhood_mask",
+  "status": "active",
+  "autopost": false
+ },
+ "PAGE_8": {
+  "code": "PAGE_8",
+  "platforms": [
+   "FB"
+  ],
+  "products": [
+   "purrventure_carrier"
+  ],
+  "market": "US",
+  "audience": {
+   "purrventure_carrier": "US cat moms 22-50"
+  },
+  "daily_quota": {
+   "purrventure_carrier": 5
+  },
+  "windows": {
+   "exploit": null,
+   "explore": null
+  },
+  "variant_family": "purrventure_carrier",
+  "status": "active",
+  "autopost": false
+ }
+}

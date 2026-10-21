@@ -1,0 +1,30 @@
+[
+ {
+  "page": "merryjammies_ig_b2",
+  "name": "merry.jammies",
+  "namespace": "user-Buffer--buffer2",
+  "tool": "create_post (NOT CALLED)",
+  "status": "DRY_RUN_DRAFT_PAYLOAD",
+  "needs": [
+   "Omar approval (publish.approve)",
+   "rendered video staged via deliver.stage/verify_staged",
+   "public video_url"
+  ],
+  "caption_poc": "proven caption on sibling product grinch_robe of the same page (6,600,000 views) - niche-proven",
+  "political": "n/a",
+  "payload": {
+   "channelId": "6ad7d94a778b240e2f6ffc72",
+   "schedulingType": "automatic",
+   "mode": "addToQueue",
+   "saveToDraft": true,
+   "text": "Get yours👉https://merryjammies.com/products/merryjammies-festive-heating-robe",
+   "assets": [],
+   "metadata": {
+    "instagram": {
+     "type": "reel",
+     "shouldShareToFeed": true
+    }
+   }
+  }
+ }
+]

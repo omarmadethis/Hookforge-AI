@@ -1,0 +1,33 @@
+# D109 (2026-10-20): CozyJams Christmas pajama set (product identity still unconfirmed by Omar, ASSETS.csv). No own posted reels:
+# POC = corpus EXT Christmas-pajama rows (data/features/features.csv) + the grinch_robe buyer family (D93 fallback).
+slug: cozyjams
+product_keys: [cozyjams]
+inherits_from: grinch_robe
+buyers: "US women 18-45 buying Christmas pajamas for themselves, a sister or a matching family set"
+main_platform: instagram
+secondary_platforms: [tiktok, facebook]
+markets: [US, CA]
+tone: "festive, girls-trip excitement, store-drop FOMO, cozy"
+music_allowed_genres: [christmas classic, christmas pop, christmas crooner, christmas remix]
+music_banned_genres: [phonk, drill, edm]
+music_preferred: [last_christmas, beginning_to_look, holly_jolly]
+emoji_allowed:
+  "🎄": "Christmas"
+  "🎁": "gift"
+  "❤️": "red set"
+  "💚": "green set"
+  "🤭": "cheeky"
+  "😍": "want it"
+  "😳": "shock"
+  "❄️": "winter"
+  "😂": "sister humour"
+  "👉": "CTA"
+  "⏳": "Vs card"
+slang: ["Christmas pjs", "matching set", "me and my sis", "Christmas morning", "Get yours"]
+caption_voice: "Post caption = 'Get yours👉{url}' + 3-4 hashtags (#christmas #christmaspajamas #matching). Hook ON SCREEN, 1-2 emoji, US spelling"
+caption_proof:
+  - {pattern: '(?i)(dragging|sneaking).*(6|7) ?am', evidence: "ext sheispat0 'me dragging my sis to Aerie at 6am...' 1.5M; idamabwajui Five Below 7am 657K; justurzoey 548K"}
+  - {pattern: '(?i)christmas (pjs|pajamas)', evidence: "ext sally70958 VS Christmas pajamas 3.5M; cowgirlgoldfish 'NEW Christmas pjs' 734K; leahalba 649K"}
+  - {pattern: '(?i)(do ?n.?t|do not) (let|show).*(mom|wife|sis|sister)', evidence: "own grinch_robe (same buyer) 'DO NOT let your mom see this' 2.73M"}
+  - {pattern: '(?i)get yours', evidence: "own grinch_robe (same buyer): Get yours👉{url} 6,600,000 views"}
+banned: [mum spelling, sexualised framing, race-based hooks]

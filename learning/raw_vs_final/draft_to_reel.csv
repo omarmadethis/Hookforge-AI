@@ -1,0 +1,38 @@
+draft,reel_key,evidence,confidence,uid
+0910,ig_DdGdL41KJo4,clip-timeline CLIP match sim=0.89 (2nd 0.47),high,ig_DdGdL41KJo4
+0913,ig_DdPQK-CPQ6r,clip-timeline CLIP match sim=0.74 (2nd 0.54),medium,ig_DdPQK-CPQ6r
+0913 (1),ig_DdQw1jyKI63,clip-timeline CLIP match sim=0.93 (2nd 0.43),high,ig_DdQw1jyKI63
+0920,mg_post122111714343432799,clip-timeline CLIP match sim=0.92 (2nd 0.53),high,fb_28958323873764731
+0920 (1),ig_Ddii6mOKO2G,clip-timeline CLIP match sim=0.88 (2nd 0.42),high,ig_Ddii6mOKO2G
+0920 (2),mg_post122112299217432799,clip-timeline CLIP match sim=0.79 (2nd 0.62),medium,fb_1970710580290554
+0922,mg_post122113681893432799,clip-timeline CLIP match sim=0.91 (2nd 0.48),high,fb_985708367871514
+0923,mg_post122113681893432799,clip-timeline CLIP match sim=0.83 (2nd 0.43),medium,fb_985708367871514
+0924,mgs_10_1.2K_1642636680825269,clip-timeline CLIP match sim=0.92 (2nd 0.68),high,fb_1642636680825269
+0924 (1),mgs_9_64K_1606396270948395,clip-timeline CLIP match sim=0.91 (2nd 0.55),high,fb_1606396270948395
+0924 (3),mg_post122114911347432799,clip-timeline CLIP match sim=0.84 (2nd 0.63),medium,fb_1372313389297432
+0925,mgs_8_2.1K_1908200570557125,clip-timeline CLIP match sim=0.95 (2nd 0.51),high,fb_1908200570557125
+1001 (5),ig_ig_4.4K_DeAurrvvndh,clip-timeline CLIP match sim=0.94 (2nd 0.62),high,ig_ig_4.4K_DeAurrvvndh
+1004 (2),ig_ig_6.3K_DeGm0M6qJL1,clip-timeline CLIP match sim=0.95 (2nd 0.47),high,ig_ig_6.3K_DeGm0M6qJL1
+1005,ig_ig_23K_DeGrL-XKMFp,clip-timeline CLIP match sim=0.87 (2nd 0.36),high,ig_ig_23K_DeGrL-XKMFp
+1006 (3),mgs_7_3K_936592962486795,clip-timeline CLIP match sim=0.93 (2nd 0.40),high,fb_936592962486795
+1007 (1),ig_ig_5.3K_DePqPmbvWjL,clip-timeline CLIP match sim=0.90 (2nd 0.46),high,ig_ig_5.3K_DePqPmbvWjL
+1007 (2),merryfires_1074037222295921,clip-timeline CLIP match sim=0.72 (2nd 0.46),medium,fb_1074037222295921
+1007 (4),mgs_5_35K_1074627768726306,clip-timeline CLIP match sim=0.85 (2nd 0.42),high,fb_1074627768726306
+1008,mgs_4_2.6K_1012581455204038,clip-timeline CLIP match sim=0.93 (2nd 0.43),high,fb_1012581455204038
+1008 (3),mgs_3_455_28876831118647366,clip-timeline CLIP match sim=0.93 (2nd 0.45),high,fb_28876831118647366
+1009 (1),ig_ig_30.9K_DeYZg4lKmeC,clip-timeline CLIP match sim=0.89 (2nd 0.43),high,ig_ig_30.9K_DeYZg4lKmeC
+1009 (4),merryfires_1082602281322454,clip-timeline CLIP match sim=0.83 (2nd 0.38),medium,fb_1082602281322454
+1009 (5),mc_post122118390723475353,clip-timeline CLIP match sim=0.86 (2nd 0.37),high,fb_1351508813587525
+1010,mc_post122118620919475353,clip-timeline CLIP match sim=0.91 (2nd 0.41),high,fb_28305014139198128
+1010 (2),merryfires_942707468486986,clip-timeline CLIP match sim=0.91 (2nd 0.40),high,fb_942707468486986
+1011,mc_post122119170687475353,clip-timeline CLIP match sim=0.85 (2nd 0.37),high,fb_1640659064385306
+1017,fb_1131865399523539,clip-timeline CLIP match sim=0.77 (2nd 0.37),medium,
+1017 (1),fb_2881652105537206,clip-timeline CLIP match sim=0.72 (2nd 0.38),medium,
+1018 (3),fb_1422397339426383,clip-timeline CLIP match sim=0.80 (2nd 0.38),medium,
+0928,bh_post122094812265500948,duration 10.733s == finished vid 2.mp4 (proven final),medium,fb_1830273284997263
+0928 (2),bh_post122094925563500948,duration 12.433s == use for ad multi.mp4 / RIP THIS (proven final); earliest of 4 same-length drafts,medium,fb_2251033295693313
+0928 (3),bh_post122094852045500948,duration 11.8s == BANGER 2.mp4 (proven final),medium,fb_1839275187105357
+1007,mgs_6_67K_1703965718404034,CLIP sim 0.92; same edit cross-posted to IG 40.3K,high,fb_1703965718404034
+1007,ig_ig_40.3K_DePucbFyXdY,CLIP sim 0.95; cross-post of mgs_6,high,ig_ig_40.3K_DePucbFyXdY
+1007 (3),merryfires_1101086242506423,CLIP sim 0.93; cross-posted to IG 9K,high,fb_1101086242506423
+1007 (3),ig_ig_9K_DeYZse3q1Xl,CLIP sim 0.95,high,ig_ig_9K_DeYZse3q1Xl

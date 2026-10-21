@@ -1,0 +1,229 @@
+{
+ "asof": "2026-10-18T22:52:06-07:00",
+ "n_genuine": 78,
+ "thresholds": {
+  "missing_own": 0.4614,
+  "wrong_margin": -0.2492,
+  "scene": 0.5612,
+  "frozen_motion": 0.4,
+  "blank_share": 0.5,
+  "margin": 0.03,
+  "per_product": {
+   "brickhood_mask": {
+    "missing_own": 0.6723,
+    "wrong_margin": 0.0389,
+    "scene": 0.7035,
+    "n": 9
+   },
+   "grinch_robe": {
+    "missing_own": 0.4614,
+    "wrong_margin": -0.2492,
+    "scene": 0.5612,
+    "n": 38
+   },
+   "grinchmelt_mug": {
+    "missing_own": 0.6723,
+    "wrong_margin": 0.0389,
+    "scene": 0.7035,
+    "n": 2
+   },
+   "jollyglow_curtain": {
+    "missing_own": 0.6723,
+    "wrong_margin": 0.0389,
+    "scene": 0.7035,
+    "n": 3
+   },
+   "merryfire": {
+    "missing_own": 0.6723,
+    "wrong_margin": 0.0389,
+    "scene": 0.7035,
+    "n": 13
+   },
+   "merryglow_lights": {
+    "missing_own": 0.6723,
+    "wrong_margin": 0.0389,
+    "scene": 0.6802,
+    "n": 10
+   },
+   "purrventure_carrier": {
+    "missing_own": 0.6723,
+    "wrong_margin": 0.0389,
+    "scene": 0.7035,
+    "n": 3
+   }
+  }
+ },
+ "genuine": {
+  "own": {
+   "count": 78.0,
+   "mean": 0.862,
+   "std": 0.0932,
+   "min": 0.4914,
+   "25%": 0.8338,
+   "50%": 0.8696,
+   "75%": 0.9134,
+   "max": 0.9977
+  },
+  "margin": {
+   "count": 78.0,
+   "mean": 0.2012,
+   "std": 0.1016,
+   "min": -0.2192,
+   "25%": 0.1547,
+   "50%": 0.2056,
+   "75%": 0.2628,
+   "max": 0.4042
+  },
+  "scene": {
+   "count": 78.0,
+   "mean": 0.8668,
+   "std": 0.0802,
+   "min": 0.5912,
+   "25%": 0.8338,
+   "50%": 0.8696,
+   "75%": 0.9134,
+   "max": 0.9977
+  }
+ },
+ "genuine_certain_flags": 0,
+ "pixel_genuine": [
+  {
+   "key": "HJ-01",
+   "blank_share": 0.0,
+   "motion": 22.536
+  },
+  {
+   "key": "HJ-04",
+   "blank_share": 0.0,
+   "motion": 32.241
+  },
+  {
+   "key": "HJ-07",
+   "blank_share": 0.0,
+   "motion": 30.937
+  },
+  {
+   "key": "MG-01",
+   "blank_share": 0.0,
+   "motion": 32.982
+  },
+  {
+   "key": "HJ-11",
+   "blank_share": 0.0,
+   "motion": 26.906
+  },
+  {
+   "key": "MG-03",
+   "blank_share": 0.0,
+   "motion": 22.519
+  },
+  {
+   "key": "HJ-16",
+   "blank_share": 0.0,
+   "motion": 27.771
+  },
+  {
+   "key": "MG-04",
+   "blank_share": 0.0,
+   "motion": 26.097
+  },
+  {
+   "key": "MG-06",
+   "blank_share": 0.0,
+   "motion": 25.807
+  },
+  {
+   "key": "MC-01",
+   "blank_share": 0.0,
+   "motion": 30.142
+  },
+  {
+   "key": "MC-03",
+   "blank_share": 0.0,
+   "motion": 33.869
+  },
+  {
+   "key": "HJ-20",
+   "blank_share": 0.0,
+   "motion": 20.4
+  },
+  {
+   "key": "MGS-03",
+   "blank_share": 0.0,
+   "motion": 31.223
+  },
+  {
+   "key": "HJ-21",
+   "blank_share": 0.0,
+   "motion": 32.425
+  },
+  {
+   "key": "MJIG-04",
+   "blank_share": 0.0,
+   "motion": 27.236
+  },
+  {
+   "key": "HJ-24",
+   "blank_share": 0.0,
+   "motion": 33.79
+  },
+  {
+   "key": "HJ-27",
+   "blank_share": 0.0,
+   "motion": 29.768
+  },
+  {
+   "key": "HJ-29",
+   "blank_share": 0.0,
+   "motion": 26.994
+  },
+  {
+   "key": "HJ-31",
+   "blank_share": 0.0,
+   "motion": 35.226
+  },
+  {
+   "key": "HJ-34",
+   "blank_share": 0.0,
+   "motion": 27.154
+  },
+  {
+   "key": "MGS-05",
+   "blank_share": 0.0,
+   "motion": 27.496
+  },
+  {
+   "key": "MJIG-09",
+   "blank_share": 0.0,
+   "motion": 36.877
+  },
+  {
+   "key": "HJ-36",
+   "blank_share": 0.0,
+   "motion": 22.538
+  },
+  {
+   "key": "HJ-37",
+   "blank_share": 0.0,
+   "motion": 32.8
+  },
+  {
+   "key": "MJIG-12",
+   "blank_share": 0.0,
+   "motion": 30.952
+  },
+  {
+   "key": "PV-01",
+   "blank_share": 0.0,
+   "motion": 36.522
+  }
+ ],
+ "negatives_n": 90,
+ "negatives_flagged_certain": 65,
+ "negatives_certain_by_failure": {
+  "scene_unrelated;product_missing": 50,
+  "wrong_product": 10,
+  "scene_unrelated": 5
+ },
+ "recalibrated_pt": "2026-10-18T22:53:22-07:00"
+}

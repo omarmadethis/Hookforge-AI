@@ -1,0 +1,116 @@
+{
+ "product_key": "minionmask",
+ "display": "Minion Mask yellow-character ski mask",
+ "brand": "Brick Hood",
+ "category": "accessory",
+ "corpus_products": [
+  "minionmask",
+  "Minion Mask"
+ ],
+ "pages": [
+  "BH",
+  "MJIG"
+ ],
+ "energy": 5,
+ "mood": [
+  "hype",
+  "goofy",
+  "meme",
+  "squad"
+ ],
+ "audience": "US skiers/snowboarders 16-30 who want the funniest mask on the mountain (Brick Hood sub-line, audience/minionmask.yaml)",
+ "world": "THE SLOPES: ski lifts, gondolas, terrain park, apres-ski; always outdoors in snow, never a store",
+ "settings": [
+  "ski lift / chairlift",
+  "snowy slope run",
+  "terrain park jump",
+  "lodge patio apres-ski"
+ ],
+ "actions": [
+  "first-person POV unbag on the lift, plastic wrap rip (R29)",
+  "pull it on, face to camera",
+  "ride toward camera",
+  "matching squad on the chairlift",
+  "goofy wipeout",
+  "apres-ski cheers"
+ ],
+ "forbidden_settings": [
+  "living room",
+  "kitchen",
+  "bedroom",
+  "couch",
+  "office",
+  "store aisle"
+ ],
+ "product_look": "bright yellow knit ski mask with one big round grey goggle-style eye window behind a black strap, a wide open grin with white teeth stitched on, and a blue ribbed rolled neck",
+ "subject": "a snowboarder in an orange jacket",
+ "body_setting": "on a bright snowy ski slope and chairlift, blue sky",
+ "product": "ski mask",
+ "feature_1": "the big goggle eye window and the stitched grin",
+ "feature_2": "the blue rolled neck under the jacket",
+ "activation_action": "the whole squad pulls their masks down at once on the chairlift",
+ "activation_result": "four matching yellow masks grinning at the camera",
+ "payoff_scene": "the squad clinks drinks on the lodge patio in their masks, laughing",
+ "room": "ski lift",
+ "sounds": "wind, plastic rip, lift creak, friends laughing, board carving",
+ "source_object": "beanie",
+ "music_forbidden": [
+  "Christmas songs (wrong niche)"
+ ],
+ "music_preferred": [
+  "boombastic_tiktok"
+ ],
+ "proof_shot": [
+  "PROOF",
+  "AI-doubt proof: close-up on the chairlift: the mask worn under the strap, the eye window and the stitched grin exactly as in the reference, breath fogging in the cold"
+ ],
+ "body_override": {
+  "ACTION2": [
+   "PROOF",
+   "AI-doubt proof: close-up on the chairlift, gloved hands adjust the mask, the eye window and the stitched grin exactly as in the reference, breath fogging in the cold"
+  ]
+ },
+ "copy_forbidden": [
+  "minion",
+  "illumination",
+  "despicable",
+  "grinch",
+  "santa",
+  "christmas",
+  "xmas",
+  "mom",
+  "grandma",
+  "cozy",
+  "heated"
+ ],
+ "keyword": "MASK",
+ "processing_days": null,
+ "ship_days": null,
+ "poc_hooks": {
+  "F16": [
+   "If you buy one, I'll buy one too 😂",
+   "P",
+   "own Brick Hood sibling BH-01 61,290 views (same page/audience)"
+  ],
+  "F02": [
+   "This CHANGED the game... 🤣😂👀",
+   "P",
+   "ext legohead007 yellow character ski mask fake pallet 806.8K views; novaminiusa 'HOW IS THIS NOT IN COSTCO?!' 1.1M"
+  ]
+ },
+ "poc_sources": [
+  "own Brick Hood sibling BH-01 61.3K 'If you buy one, I'll buy one too' (F16) + BH 61.1K (same page/audience)",
+  "ext novaminiusa 'HOW IS THIS NOT IN COSTCO?!' yellow character ski mask 1.1M",
+  "ext wearlegohead 'POV: You bought the best ski mask EVER' 1.0M",
+  "ext legohead007 fake pallet 'This CHANGED the game' 807K",
+  "approved cast: masked rider IG 4.4K (refs/minionmask manifest)"
+ ],
+ "proven_formats": [],
+ "proven_music": [],
+ "proven_captions": [],
+ "proven_hooks": [],
+ "n_own_reels": 0,
+ "own_hits": 0,
+ "product_look_status": "description from Omar's prompts; <<<image_1>>> product photo is the ground truth",
+ "sources": "corpus own reels (FB+IG), CapCut drafts (edits.csv), music_library.csv, Omar transcripts (rules_core), worlds.py"
+}

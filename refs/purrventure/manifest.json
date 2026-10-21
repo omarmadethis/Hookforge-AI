@@ -1,0 +1,66 @@
+{
+ "slug": "purrventure",
+ "product_keys": [
+  "purrventure_carrier"
+ ],
+ "assets_dir": "assets/purrventure",
+ "approved_cast": "WOMAN (F94 cat products -> woman): woman cast ref refs/purrventure/ref_cast_woman_P2SF1.png + cream snow Bengal (tan rosettes, blue eyes). Supersedes the earlier man default. Proof video (Omar FB 1131865399523539) shows a man; RollyMew winners use women (gardening 7.6M/6.4M/5.4M)",
+ "approved_cast_status": "locked (F94)",
+ "higgsfield_media_ids": "refs/purrventure/higgsfield_new_account_media_ids.json",
+ "built_pt": "2026-10-20T09:56:23",
+ "refs": [
+  {
+   "path": "refs/purrventure/ref_ball_black.png",
+   "kind": "product",
+   "what": "ref_ball_black.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/purrventure/ref_ball_greycat.png",
+   "kind": "product",
+   "what": "ref_ball_greycat.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/purrventure/ref_bengal_cream.png",
+   "kind": "cast",
+   "what": "ref_bengal_cream.png",
+   "source": "D100: crop (0,960)-(1100,1560) of approved start frame out/purrventure_frames/P3_SF2.png (frame_qa passed); old grass crop -> refs/_superseded/purrventure_ref_bengal_cream_grasscrop.png",
+   "clean": true,
+   "use_for_generation": true,
+   "subject": "a cream bengal cat",
+   "replaced_pt": "2026-10-20T14:27:32",
+   "higgsfield_media_id_new_account": "f14b458e-bbb1-4ee8-870e-dc710d42d7b2"
+  },
+  {
+   "path": "refs/purrventure/ref_cast_man_P1SF1.png",
+   "kind": "cast_superseded",
+   "what": "ref_cast_man_p1sf1.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/purrventure/ref_cast_woman_P2SF1.png",
+   "kind": "cast",
+   "what": "ref_cast_woman_p2sf1.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/purrventure/ref_disc_folded_P3SF2.png",
+   "kind": "product",
+   "what": "ref_disc_folded_p3sf2.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  }
+ ],
+ "refused": [],
+ "rule": "F88: no generation without product AND cast refs; F87: every file passes deliver.scan"
+}

@@ -1,0 +1,94 @@
+{
+ "run_pt": "2026-10-20T16:21:38-07:00",
+ "pages": {
+  "jollyglow_fb": [
+   "jollyglow_curtain"
+  ],
+  "patriotsglow_fb": [
+   "trumpglow"
+  ],
+  "purrventures_fb": [
+   "purrventure_carrier"
+  ],
+  "trumpglow_fb": [
+   "trumpglow"
+  ],
+  "purrventures2_fb": [
+   "purrventure_carrier"
+  ]
+ },
+ "results": [
+  {
+   "page": "trumpglow_fb",
+   "product": "trumpglow",
+   "reel_key": "tg1",
+   "action": "SWAP_PROPOSED (dry run, awaiting Omar)",
+   "new_caption": "Get it here 👉 PLACEHOLDER_URL_trumpglow\n#trump",
+   "blocked": "no product URL in config/product_urls.json for trumpglow",
+   "swap": true,
+   "views": 41200.0,
+   "hour_gain": 0.0,
+   "reason": "views 41,200 >= 40,000"
+  },
+  {
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "reel_key": "pg1",
+   "action": "SWAP_PROPOSED (dry run, awaiting Omar)",
+   "new_caption": "Get it here 👉 PLACEHOLDER_URL_trumpglow\n#trump",
+   "blocked": "no product URL in config/product_urls.json for trumpglow",
+   "swap": true,
+   "views": 13100.0,
+   "hour_gain": 10600.0,
+   "reason": "+10,600 views within one hour >= 10,000"
+  },
+  {
+   "page": "jollyglow_fb",
+   "product": "jollyglow_curtain",
+   "reel_key": "jg1",
+   "action": "watch",
+   "swap": false,
+   "views": 39900.0,
+   "hour_gain": 9000.0
+  },
+  {
+   "page": "purrventures_fb",
+   "product": "purrventure_carrier",
+   "reel_key": "pv1",
+   "action": "watch",
+   "swap": false,
+   "views": 10900.0,
+   "hour_gain": 1000.0
+  },
+  {
+   "page": "purrventures2_fb",
+   "product": "purrventure_carrier",
+   "reel_key": "pv2",
+   "action": "skip",
+   "why": "caption already carries the link",
+   "swap": true,
+   "views": 60000.0,
+   "hour_gain": 0.0,
+   "reason": "views 60,000 >= 40,000"
+  },
+  {
+   "reel_key": "mj1",
+   "page": "merryjammies_ig_b2",
+   "product": "grinch_robe",
+   "action": "skip",
+   "why": "not a current page / retired product"
+  },
+  {
+   "page": "patriotsglow_fb",
+   "product": "trumpglow",
+   "reel_key": "pg0",
+   "action": "watch",
+   "swap": false,
+   "views": 9950.0,
+   "hour_gain": 9950.0
+  }
+ ],
+ "dry_run": true,
+ "swap_items_dir": "/tmp/swapdry_kpuhcu1y",
+ "rule": "views >= 40,000 or +10,000 within any 1 h window"
+}

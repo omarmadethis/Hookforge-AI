@@ -1,0 +1,169 @@
+{
+ "version": "2026-10-19",
+ "source": "Omar CapCut drafts (105 parsed, 40 view-joined, 17 >=50K); see OMAR_STYLE.md",
+ "timing": {
+  "total_s": 12.567,
+  "total_range_s": [
+   11.3,
+   16.833
+  ],
+  "shots": 7,
+  "shots_range": [
+   5,
+   11
+  ],
+  "opener_s": 2.367,
+  "opener_range_s": [
+   1.5,
+   4.067
+  ],
+  "opener_max_s": 4.1,
+  "shot_s": 1.5,
+  "shot_range_s": [
+   0.8,
+   3.2
+  ],
+  "role_s": {
+   "hook": {
+    "median": 2.6,
+    "range": [
+     1.5,
+     4.067
+    ]
+   },
+   "body": {
+    "median": 1.467,
+    "range": [
+     0.867,
+     3.2
+    ]
+   },
+   "before": {
+    "median": 1.233,
+    "range": [
+     0.667,
+     2.333
+    ]
+   },
+   "reveal": {
+    "median": 2.233,
+    "range": [
+     1.233,
+     3.4
+    ]
+   },
+   "after": {
+    "median": 1.267,
+    "range": [
+     0.8,
+     1.833
+    ]
+   }
+  },
+  "ending_s": 1.733,
+  "ending_range_s": [
+   1.067,
+   3.5
+  ],
+  "hold_p90_s": {
+   "before": 2.41,
+   "after": 1.82,
+   "body": 3.33,
+   "reveal": 3.66,
+   "hook": 11.96,
+   "non_reveal": 3.09,
+   "opener": 4.1,
+   "ending": 3.5
+  }
+ },
+ "speed": {
+  "hook_fit_values": [
+   1.1,
+   1.15,
+   1.2,
+   1.3,
+   1.5
+  ],
+  "preferred_hook_speed": 1.2,
+  "max_hook_speed": 1.5,
+  "max_story_speed": 1.5,
+  "share_shots_sped": 0.11,
+  "share_hooks_sped": 0.195,
+  "never_slow_story": true,
+  "no_ramps": true,
+  "rule": "if a hook's spoken line doesn't fit, speed the whole hook up (1.1-1.5, prefer 1.2) - never cut words"
+ },
+ "cuts": {
+  "transitions": "none (hard cuts only, 0 of 105 drafts use transitions)",
+  "head_trim_s": 0.9,
+  "share_head_trimmed": 0.666,
+  "zoom_overlays": "none"
+ },
+ "text": {
+  "font": "CapCut system en.ttf (we render TikTok Sans/Montserrat matched via textcards.CAL)",
+  "preset": "white fill #FFFFFF, black stroke 0.09, no template/animation/background",
+  "size": 15,
+  "stroke": 0.09,
+  "line_max_width": 0.82,
+  "scale": 0.919,
+  "scale_range": [
+   0.723,
+   1.0
+  ],
+  "em_frac_of_width": 0.074,
+  "y_center_frac_from_top": 0.2,
+  "y_range": [
+   0.152,
+   0.237
+  ],
+  "max_lines": 2,
+  "share_explicit_le2": 0.986,
+  "chars_per_line_max": 24,
+  "chars_per_line_median": 18.0,
+  "chars_total_max": 44,
+  "first_card_at_s": 0.0,
+  "cards_change_on_cuts": 0.831,
+  "last_card_holds_to_end": true,
+  "emoji": {
+   "per_card": 1,
+   "max_per_card": 2,
+   "position": "end of card",
+   "share_at_end": 0.926
+  }
+ },
+ "audio": {
+  "song_from_frame0": true,
+  "song_gain_db": 0.0,
+  "clip_gain_cap_db": 20.0,
+  "dialogue_over_music_lu": 8.0,
+  "dialogue_over_music_lu_range": [
+   4.0,
+   10.6
+  ],
+  "dialogue_clip_gain_db_vs_song": 14.0,
+  "non_dialogue_clip": "keep at 1.0 (0 dB) or mute (13% of shots muted)",
+  "ducking": "none (0 volume keyframes) - he lowers the whole song and boosts the dialogue clip instead",
+  "fade_in_s": 0.0,
+  "fade_out_s": 0.0,
+  "song_ends_with_video": 0.856
+ },
+ "endings": {
+  "last_card_covers_end": 0.989,
+  "end_on": "after/reveal shot, no end card, no on-screen CTA/link",
+  "ending_s": 1.733
+ },
+ "qa_weights": {
+  "total": 1,
+  "opener": 2,
+  "shot_len": 1,
+  "hook_speed": 1,
+  "text_lines": 3,
+  "text_size": 1,
+  "text_y": 1,
+  "emoji": 1,
+  "song_t0": 3,
+  "dialogue": 3,
+  "transitions": 1,
+  "ending": 1
+ }
+}

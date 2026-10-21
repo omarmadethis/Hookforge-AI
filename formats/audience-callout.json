@@ -1,0 +1,386 @@
+{
+  "slug": "audience-callout",
+  "name": "Audience / identity callout (\"{Tribe}-aholics… this is for you 🥹\")",
+  "tier": "B",
+  "status": "STRONG externally (6.0M, 1.8M, 1.3M, 1.3M organic). Internally one moderate result: 'Calling ALL Christmas-aholics' 35.4K, with the best retention we measured (81%). The biggest untested family on our pages (external REPORT §4 #1).",
+  "summary": "Name a tribe and hand them the product: hold it up to the camera like a gift made for the viewer, with a soft 🥹 tone. Identity is the share trigger, because people send it to the tribe member they know.",
+  "why": [
+    "warmly.official 'Cold-aholics this is for you... 🥹💕' 6.0M / 74.4K shares: rolled pink robe held at chest (X).",
+    "jinglenap.official 'Dog MOMS... This is for you 👀🐶' 1.8M / 38K shares in 9.23 s; goth.robes 1.3M; nocturne.robes0 1.3M (X).",
+    "grumpyriderr 'Christmas HATERS... this is for YOU' 211K, with shares (1,808) above likes (1,619): a send-to-a-friend signal (V).",
+    "Internal: Merry Glows 'Calling ALL Christmas-aholics 😁' 35.4K, 3s 54%, avg watch 12 s = 81% (store FaceTime body). 'For my Christmas Lovers 🇺🇸🎄' did 5.9K on a tray, with no 'for you' reveal."
+  ],
+  "product_fit": [
+    {
+      "type": "Wearable gift",
+      "fit": "PRIMARY",
+      "evidence": "ext 6.0M, 1.3M ×2"
+    },
+    {
+      "type": "Pet products",
+      "fit": "PRIMARY",
+      "evidence": "ext Dog MOMS 1.8M; GrumpyRider 211K"
+    },
+    {
+      "type": "Decor / fire",
+      "fit": "YES",
+      "evidence": "MGS 35.4K (81% watched)"
+    },
+    {
+      "type": "Mug",
+      "fit": "TRANSFER",
+      "evidence": "'Hot-cocoa-aholics… this is for you' (external REPORT §4)"
+    }
+  ],
+  "timing": {
+    "length": "12.5-13.5 s on FB (external range 9.2-18.2 s)",
+    "basis": "Hook copies the external held-reveal (goth.robes first cut 4.30 s, jinglenap 2.33 s); body = wearable master for robes. warmly 6.0M is ONE held shot to 11.17 s, kept as an experiment.",
+    "shots": [
+      {
+        "t": "0.0 → 3.5",
+        "shot": "HOOK: held-for-you",
+        "content": "talent holds the rolled/folded product at chest toward camera, soft smile; unrolls or lifts it by 2 s",
+        "camera": "locked, eye level",
+        "text": "callout ON at 0.0",
+        "gen": "H1"
+      },
+      {
+        "t": "3.5 → 5.0",
+        "shot": "PUT",
+        "content": "talent slips the {product} on, turned away with her back to the phone, hood up so the hood design is what the phone sees",
+        "camera": "locked medium, eye level",
+        "text": "hook line held",
+        "gen": "B1·S1"
+      },
+      {
+        "t": "5.0 → 8.6",
+        "shot": "FEAT",
+        "content": "open it wide: white sherpa lining, step into the foot pouch (legs view); the B1→B2 boundary is the jump cut",
+        "camera": "locked medium-wide, 1 jump cut",
+        "text": "hook line held",
+        "gen": "B1·S2 + B2·S1"
+      },
+      {
+        "t": "8.6 → 9.3",
+        "shot": "PLUG (activation 1)",
+        "content": "macro: USB / power-bank clicks into the port in the fur",
+        "camera": "handheld close-up (the only handheld shot)",
+        "text": "JK flip lands exactly here on store hooks",
+        "gen": "B2·S2 (trim to 0.7 s)"
+      },
+      {
+        "t": "9.3 → 10.9",
+        "shot": "REM (activation 2)",
+        "content": "POV thumb presses the controller, LED heat levels climb",
+        "camera": "locked close",
+        "text": "held",
+        "gen": "B3·S1 (trim to 1.6 s)"
+      },
+      {
+        "t": "10.9 → 12.95",
+        "shot": "COZY (payoff)",
+        "content": "reclined on couch/bed, fully inside, hood up, eyes close / smile, tree lights behind; CUT MID-ACTION",
+        "camera": "locked medium-wide",
+        "text": "held (no CTA card)",
+        "gen": "B3·S2"
+      }
+    ],
+    "measured": [
+      "warmly 6.0M: one shot 0-11.17 | 11.93 | 12.67 | 15.97 | END 18.17 (XA).",
+      "jinglenap 1.8M: 2.33 | 4.07 | 6.37 | 8.10 | END 9.23.",
+      "goth.robes 1.3M: 4.30 | 10.23 | 10.87 | 12.20 | END 13.21.",
+      "MGS 35.4K store FaceTime: 2.100 | 6.167 | 7.900 | 9.033 | 10.167 (ACT 69%) | 11.667 | 13.533 | END 14.84."
+    ],
+    "rules": [
+      "Product legible at 0 s, as in all four external winners.",
+      "Keep the house 66% activation / 84% payoff on FB until the long-shot experiment says otherwise."
+    ]
+  },
+  "text": {
+    "style": "House placement; ellipsis plus a 🥹/👀 emotional emoji.",
+    "patterns": [
+      {
+        "pattern": "{Cold}-aholics this is for you... 🥹💕",
+        "tag": "P (ext)",
+        "source": "warmly 6.0M"
+      },
+      {
+        "pattern": "{Dog MOMS}... This is for you 👀🐶",
+        "tag": "P (ext)",
+        "source": "jinglenap 1.8M"
+      },
+      {
+        "pattern": "{Cold}-aholics, this one's for you. 😏",
+        "tag": "P (ext)",
+        "source": "goth.robes 1.3M"
+      },
+      {
+        "pattern": "I made this for the {Goths}... 🥹",
+        "tag": "P (ext)",
+        "source": "nocturne.robes0 1.3M"
+      },
+      {
+        "pattern": "Calling ALL {Christmas-aholics} 😁",
+        "tag": "P",
+        "source": "MGS 35.4K"
+      },
+      {
+        "pattern": "{Christmas HATERS}... this is for YOU → Link in bio if you NEED this",
+        "tag": "P (ext)",
+        "source": "grumpyriderr 211K"
+      }
+    ],
+    "rules": [
+      "'For my {Christmas Lovers}' without the 'this is for you' reveal flopped (5.9K)."
+    ]
+  },
+  "caption": {
+    "template": "Made for you 🥹\nSAY \"{KEYWORD}\" and we'll send you the link\n#{tribe} #christmasgift #{product_tag}",
+    "keywords": [
+      "COLD",
+      "MINE",
+      "{TRIBE}"
+    ],
+    "rules": [
+      "SAY not COMMENT."
+    ]
+  },
+  "music": {
+    "picks": [
+      {
+        "rank": 1,
+        "track": "All I Want for Christmas Is You · 0:00",
+        "start": "reel 0.0",
+        "evidence": "jinglenap 1.8M"
+      },
+      {
+        "rank": 2,
+        "track": "Let It Snow · 0:00 (robe default)",
+        "start": "reel 0.0",
+        "evidence": "robe family default (6.6M; ext robes)"
+      },
+      {
+        "rank": 3,
+        "track": "Last Christmas · ~2:48",
+        "start": "reel 0.0",
+        "evidence": "MGS 35.4K"
+      }
+    ],
+    "rules": [
+      "warmly, goth.robes and nocturne used original sound; no music claim beyond that."
+    ]
+  },
+  "generation_plan": {
+    "summary": "4 gens: H1 held-for-you at 1080p, then the wearable master (or decor master).",
+    "generations": [
+      {
+        "id": "H1",
+        "kind": "hook",
+        "resolution": "1080p",
+        "duration_s": 4,
+        "title": "Held-for-you reveal",
+        "shots": "one shot",
+        "feeds": "HOOK",
+        "inputs": "<<<image_1>>> product rolled; cast image styled for the tribe",
+        "basis": "warmly 6.0M / goth.robes 1.3M hook visuals (X hook_visual); use T1 if a reference clip exists.",
+        "prompt": "Vertical 9:16 iPhone video. A {tribe-styled} woman stands centred in a {tribe-matching room}, holding the rolled {product} from <<<image_1>>> at chest height toward the camera so it fills the middle third, a soft emotional smile. At 1.5 seconds she unrolls it to full length toward the lens. Locked camera, eye level, top fifth clear. Natural room sound only, no music, no text.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+      },
+      {
+        "id": "B1",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "PUT | FEAT-a",
+        "shots": "S1 put-on from behind 0-2 s · S2 feature reveal 2-4 s",
+        "feeds": "PUT, FEAT (first half)",
+        "inputs": "<<<video_1>>> = spliced 2+2 s reference (library try-on + lining reveal); <<<image_1>>> = product front; optional <<<image_2>>> = lining",
+        "basis": "Verified T1/T7 recreate-swap (gens c0ede3c3, f7a6d1c3 in the 1.4M Walmart; 26282071 in the 6.6M). Multi-shot inside one gen is verified (hf_20260826_063252 lining→belt→remote, PLAYBOOK §7.2).",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly, including its HARD CUT at 2s, no transition (shot 1 = a person putting the red robe on from behind, hood up; shot 2 = the red robe opened wide to show the white lining and foot pouch, legs view). Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the red blanket robe in both shots of <<<video_1>>> with the {product} in <<<image_1>>>, identical colour and details in both shots. Make sure the hood is up in shot 1.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, cozy American living room with a lit Christmas tree, daytime window light. SHOT 1 (0.0-2.0s), framed as the start image: from behind, a woman swings the {product} from <<<image_1>>> over her shoulders and pulls the hood up; the hood design faces the camera; fabric swoosh. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: low frame from the waist down on a grey carpet: she opens the {product} wide to show the white fluffy lining and steps into the sealed foot pouch, bouncing one leg. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: fabric swoosh, soft footsteps on carpet. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1) · for alt_prompt",
+          "prompt": "iPhone photo, vertical 9:16, cozy American living room with a lit Christmas tree, daytime window light. The first instant of this shot, as a single frame: from behind, a woman swings the {product} from <<<image_1>>> over her shoulders and pulls the hood up; the hood design faces the camera; fabric swoosh. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B2",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "FEAT-b | PLUG",
+        "shots": "S1 feature continued (walk/turn/sit) 0-2 s · S2 connector macro 2-4 s (use 0.7 s)",
+        "feeds": "FEAT (second half), PLUG",
+        "inputs": "<<<video_1>>> = spliced reference (turn/sit + plug macro); <<<image_1>>> = product; <<<image_2>>> = connector/controller photo",
+        "basis": "Verified 3e6bcbbd (1.4M Walmart @10.25 s, blanket swap) + PLAYBOOK §7.5 'one action per clip: the plug is its own ≤0.63 s beat'.",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly, including its HARD CUT at 2s, no transition (shot 1 = the person in the red robe turning and sitting down; shot 2 = macro of fingers clicking the white connector into the red fur). Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the red blanket robe in both shots of <<<video_1>>> with the {product} in <<<image_1>>>, identical colour and details in both shots.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room as the start image. SHOT 1 (0.0-2.0s), framed as the start image: the woman in the {product} from <<<image_1>>>, hood up, turns slowly and sits on the couch arm, the full length and pockets visible. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: macro close-up: fingers click the white connector from <<<image_2>>> into the port hidden in the fur, Christmas tree bokeh behind. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: fabric rustle, a crisp plastic click. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1) · for alt_prompt",
+          "prompt": "iPhone photo, vertical 9:16, same living room as the start image. The first instant of this shot, as a single frame: the woman in the {product} from <<<image_1>>>, hood up, turns slowly and sits on the couch arm, the full length and pockets visible. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      },
+      {
+        "id": "B3",
+        "kind": "body",
+        "resolution": "720p",
+        "duration_s": 4,
+        "title": "REM | COZY",
+        "shots": "S1 remote LEDs climb 0-2 s · S2 cozy payoff 2-4 s",
+        "feeds": "REM, COZY",
+        "inputs": "<<<video_1>>> = spliced reference (remote press + recliner snuggle); <<<image_1>>>; <<<image_2>>> = controller",
+        "basis": "Verified 8f761a37 (147K: 'add a red glow around the edges of the remote when they press the button') + c0ede3c3 (cozy payoff in 1.4M ×2 and 16K).",
+        "prompt": "Recreate <<<video_1>>> 1:1 perfectly, including its HARD CUT at 2s, no transition (shot 1 = POV thumb pressing the remote, heat LEDs stepping up; shot 2 = person reclined on the couch fully inside the red robe, hood up, snuggling deeper). Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the red blanket robe in both shots of <<<video_1>>> with the {product} in <<<image_1>>>, identical colour and details in both shots. In shot 1 the controller LEDs step up from level 3 to level 5 with a red glow.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\nAdd a small American flag somewhere in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "alt_prompt": "Two shots in one 4-second vertical 9:16 clip joined by a STRAIGHT HARD CUT, no fade, natural real-time speed, handheld phone look, same living room, lamps on, tree lit. SHOT 1 (0.0-2.0s), framed as the start image: POV: a thumb presses the white controller from <<<image_2>>> several times and the LED heat levels step up from 3 to 5, small click sounds. HARD CUT at 2s, no transition. SHOT 2 (2.0-4.0s), new angle: she is reclined on the couch fully inside the {product} with the hood up, shivers once, then snuggles deeper and pulls it to her chin, eyes closing, smiling. The {product} from <<<image_1>>> stays identical in colour, shape and details in both shots. Audio: button clicks, a content sigh. No background music, no text, no captions.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+        "start_frame": {
+          "template": "T8 (auto: first instant of SHOT 1) · for alt_prompt",
+          "prompt": "iPhone photo, vertical 9:16, same living room, lamps on, tree lit. The first instant of this shot, as a single frame: POV: a thumb presses the white controller from <<<image_2>>> several times and the LED heat levels step up from 3 to 5, small click sounds. Use <<<image_1>>> for the exact {product} (identical colour, shape and details). Sharp, clean, realistic phone photo, top fifth clear for text. No text or graphics.\nA small American flag is visible in the background.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage."
+        }
+      }
+    ],
+    "rules": [
+      "Tribe styling lives in H1 only; the body is reused (see same-product-new-audience)."
+    ]
+  },
+  "evidence": [
+    {
+      "origin": "internal",
+      "id": "mgs_5_35K_1074627768726306",
+      "page": "Merry Glows",
+      "platform": "FB",
+      "views": 35390,
+      "shares": null,
+      "role": "context",
+      "note": "Calling ALL Christmas-aholics 😁 · store FaceTime · 81% watched (moderate; below the page's winner level)",
+      "src": "H,B,I",
+      "url": "https://www.facebook.com/reel/1074627768726306/"
+    },
+    {
+      "origin": "internal",
+      "id": "1606892301089465",
+      "page": "HeatedJammies",
+      "platform": "FB",
+      "views": 5900.0,
+      "shares": null,
+      "role": "flop",
+      "note": "For my Christmas Lovers 🇺🇸🎄 · tray, no 'for you' reveal",
+      "src": "H,B",
+      "url": "https://www.facebook.com/reel/1606892301089465/"
+    },
+    {
+      "origin": "external",
+      "id": "warmly.official/40055809",
+      "page": "warmly.official",
+      "platform": "TikTok",
+      "views": 6000000.0,
+      "shares": "74.4K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Cold-aholics this is for you... 🥹💕",
+      "src": "X",
+      "url": "https://www.tiktok.com/@warmly.official/video/7677579852140055809",
+      "posted": "2026-08-24"
+    },
+    {
+      "origin": "external",
+      "id": "jinglenap.official/30941727",
+      "page": "jinglenap.official",
+      "platform": "TikTok",
+      "views": 1800000.0,
+      "shares": "38K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Dog MOMS... This is for you 👀🐶",
+      "src": "X",
+      "url": "https://www.tiktok.com/@jinglenap.official/video/7676241754730941727",
+      "posted": "2026-08-20"
+    },
+    {
+      "origin": "external",
+      "id": "goth.robes/26261022",
+      "page": "goth.robes",
+      "platform": "TikTok",
+      "views": 1300000.0,
+      "shares": "26.5K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Cold-aholics, this one's for you. 😏",
+      "src": "X",
+      "url": "https://www.tiktok.com/@goth.robes/video/7688918162326261022",
+      "posted": "2026-09-23"
+    },
+    {
+      "origin": "external",
+      "id": "nocturne.robes0/48411679",
+      "page": "nocturne.robes0",
+      "platform": "TikTok",
+      "views": 1300000.0,
+      "shares": "14.9K",
+      "flag": false,
+      "role": "external winner",
+      "note": "I made this for the Goths... 🥹 · muffin tin",
+      "src": "X",
+      "url": "https://www.tiktok.com/@nocturne.robes0/video/7684104805748411679",
+      "posted": "2026-09-10"
+    },
+    {
+      "origin": "external",
+      "id": "grumpyriderr/10686238",
+      "page": "grumpyriderr",
+      "platform": "TikTok",
+      "views": 211100.0,
+      "shares": "1.8K",
+      "flag": false,
+      "role": "external winner",
+      "note": "Christmas HATERS... this is for YOU → Link in bio if you NEED this",
+      "src": "V",
+      "url": "https://www.tiktok.com/@grumpyriderr/video/7695198899010686238",
+      "posted": "2026-10-11"
+    }
+  ],
+  "failures": [
+    "Callout without a product-for-you reveal (5.9K).",
+    "A tribe too narrow for the 45-65+ FB buyer (PLAYBOOK §2: top ages 55-64/65+) [I]."
+  ],
+  "variants": [
+    {
+      "name": "One-shot hold",
+      "rule": "Hold the reveal as one continuous shot to ~11 s, then 3 fast payoff cuts.",
+      "proof": "warmly 6.0M (0-11.17 single shot).",
+      "gate": "Judge on avg-watch %; kill after 3 renders below page median."
+    },
+    {
+      "name": "Haters callout",
+      "rule": "'Christmas HATERS... this is for YOU 😂' for Grinch-branded products, flipping to 'SAY \"GRINCH\" if you NEED this' on the activation cut.",
+      "proof": "grumpyriderr 211K (shares > likes).",
+      "gate": "1 test per Grinch product."
+    }
+  ],
+  "checks": [
+    {
+      "id": "ac.for_you",
+      "rule": "hook matches /(for you|for YOU|this one's for)/",
+      "cite": "all 5 external winners"
+    },
+    {
+      "id": "ac.product_0s",
+      "rule": "product_pct_0 ≥ 25",
+      "cite": "external hook visuals"
+    }
+  ],
+  "open": [
+    "We have zero FB-native callout reels with the 'for you' reveal. Treat the first 3 renders as pure tests.",
+    "All 4 big external winners are older than 14 days, so they count half weight under the external freshness rule."
+  ],
+  "review": [
+    "Tier B, not A: the only internal data point (35.4K) is below our winner bar. The external case is strong and the retention (81%) is the best we have."
+  ],
+  "rank": 12,
+  "evidence_strength": {
+    "score": 1.3,
+    "internal_hits_ge50k": 0,
+    "internal_tested": 1,
+    "external_organic_winners": 1
+  },
+  "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+}

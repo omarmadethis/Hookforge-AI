@@ -1,0 +1,17 @@
+slug: merryfire
+product_keys: [merryfire]
+buyers: "US homeowners and families 28-60 who host; cozy-decor and patio people"
+main_platform: facebook
+secondary_platforms: [instagram]
+markets: [US, CA, UK, AU]
+tone: "cozy, warm evening, quiet wow"
+music_allowed_genres: [christmas crooner, christmas classic, acoustic cozy]
+music_banned_genres: [phonk, edm, hip-hop]
+music_preferred: [beginning_to_look, last_christmas, holly_jolly, let_it_snow]
+emoji_allowed: {"🔥": "fire", "🤩": "reveal", "😍": "want", "🎄": "Christmas", "✨": "glow", "👉": "CTA", "🤭": "cheeky", "😬": "problem", "⏰": "Vs", "⏳": "Vs", "❄️": "winter", "🏡": "home", "🥹": "touched / movie-night nostalgia"}
+slang: ["cozy", "Get it here", "no wood, no smoke"]
+caption_voice: "calm homeowner voice, 1-2 emoji"
+caption_proof:
+  - {pattern: '(?i)get it here', evidence: "own: Get it here: {url} 67,731 views (merryfire)"}
+  - {pattern: '(?i)^(the problem|the solution|vs)\b', evidence: "own: format cards (backtest corpus)"}
+banned: []

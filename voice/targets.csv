@@ -1,0 +1,55 @@
+product_key,source_set,platform,views,post_date,inclusion_rule,product,url
+grinch_robe,library:index,instagram,26000000,2026-10-02,90d_20m,Snow White-style princess wearable blanket robe,https://www.instagram.com/reel/DeAepvaSfSf/
+merryglow_lights,library:index,tiktok,23700000,2026-09-16,90d_20m,Plug-in mini Christmas tree projector night light,https://www.tiktok.com/@sarvina450/video/7686197199415397662
+grinch_robe,library:index,instagram,15800000,2026-10-05,14d_1m,Snow White-style princess wearable blanket robe,https://www.instagram.com/reel/DeISfpYS7Y4/
+grinch_robe,library:index,instagram,5800000,2026-10-14,14d_1m,heated jacket,https://www.instagram.com/reel/DefWLJfBMcz/
+merryglow_lights,library:index,tiktok,3200000,2026-10-05,14d_1m,MerryGlow Christmas ceiling projector,https://www.tiktok.com/@snowlit.official/video/7693369514632826142
+merryglow_lights,library:index,tiktok,2200000,2026-10-09,14d_1m,Christmas ceiling projector ('Polo Norte' box),https://www.tiktok.com/@deseos.del.polo.n/video/7694908890881871126
+grinchmelt_mug,library:index,tiktok,1700000,2026-10-13,14d_1m,Tealight chocolate fondue mug,https://www.tiktok.com/@meltiemug/video/7696255762070326558
+grinchmelt_mug,library:archive,tiktok,5800000,2026-09-27,,Tealight chocolate fondue mug,https://www.tiktok.com/@shopwithnathnow/video/7690308377980783894
+merryglow_lights,library:archive,tiktok,5200000,2026-09-10,,Plug-in mini Christmas tree projector night light,https://www.tiktok.com/@hollyglow27/video/7684015670970879262
+merryglow_lights,library:archive,tiktok,2500000,2026-09-16,,Plug-in mini Christmas tree projector night light,https://www.tiktok.com/@sarvina450/video/7686186954047704350
+brickhood_mask,library:archive,tiktok,2400000,2026-09-26,,3-in-1 fleece balaclava hood (hat/face/neck),https://www.tiktok.com/@merlinepulley42/video/7689899316252626207
+merryglow_lights,library:archive,tiktok,1800000,2026-09-17,,Plug-in mini Christmas tree projector night light,https://www.tiktok.com/@wyxd6744/video/7686435138552565023
+jollyglow_curtain,library:archive,tiktok,1700000,2026-09-17,,Light-up angel wall light (cascading stars),https://www.tiktok.com/@finds.worth.keeping/video/7686450685214330125
+merryglow_lights,library:archive,tiktok,1500000,2026-09-10,,Plug-in mini Christmas tree projector night light,https://www.tiktok.com/@hollyglow27/video/7683895909519756575
+merryglow_lights,library:archive,tiktok,1500000,2026-09-28,,Plug-in mini Christmas tree projector night light,https://www.tiktok.com/@starnest1000/video/7690640072823098646
+grinch_robe,library:archive,tiktok,1400000,2026-09-03,,Gingerbread wearable blanket hoodie,https://www.tiktok.com/@merry.made2/video/7681552701062122785
+grinch_robe,library:archive,tiktok,1400000,2026-09-06,,Gingerbread wearable blanket hoodie,https://www.tiktok.com/@merry.made2/video/7682366595548695841
+jollyglow_curtain,library:archive,tiktok,1200000,2026-09-20,,Christmas balcony LED light display,https://www.tiktok.com/@aurevialight/video/7687520618085879054
+merryglow_lights,library:archive,tiktok,1100000,2026-09-20,,Christmas aurora/Santa ceiling projector,https://www.tiktok.com/@tryglowmas/video/7687847463620709646
+merryglow_lights,library:near_misses,tiktok,900500,2026-10-17,,Christmas projector light,https://www.tiktok.com/@user1234600461075/video/7697574120367721746
+merryglow_lights,library:near_misses,tiktok,641500,2026-10-13,,Christmas projector light,https://www.tiktok.com/@detodounpoco..07/video/7696070569992736014
+grinchmelt_mug,library:near_misses,tiktok,437600,2026-10-15,,chocolate fondue mug,https://www.tiktok.com/@meltiemug/video/7697016077632474398
+purrventure_carrier,library:near_misses,tiktok,380500,2026-10-16,,cat sleeping bag bed,https://www.tiktok.com/@mimoracat/video/7697266808729947400
+grinch_robe,library:near_misses,tiktok,375200,2026-10-04,,wearable thermal blanket,https://www.tiktok.com/@cozy.hug.link.in/video/7692964823281306912
+jollyglow_curtain,corpus:external:EXT-01,tiktok,48500000.0,2025-11-10,,fake window light panel,https://www.tiktok.com/@beamllyhome/video/7571121863569444118
+grinch_robe,corpus:external:EXT-03,tiktok,17900000.0,2025-10-27,,heated blanket hoodie,https://www.tiktok.com/@sarahgibbons_/video/7566062783272373534
+grinch_robe,corpus:external:EXT-06,tiktok,12400000.0,2026-09-08,,heated Grinch robe,https://www.tiktok.com/@thecozygrump.us/video/7683408259264335125
+grinch_robe,corpus:external:EXT-07,tiktok,12400000.0,2025-11-11,,heated wearable blanket,https://www.tiktok.com/@illsellyouwhat1/video/7571551374966557983
+purrventure_carrier,corpus:external:EXT-09,tiktok,8000000.0,2026-09-20,,cat carrier pouch,https://www.tiktok.com/@pet.scanner.pk/video/7687859112628981013
+grinchmelt_mug,corpus:external:EXT-10,tiktok,7300000.0,2026-09-17,,candle chocolate-melter mug,https://www.tiktok.com/@smartfinds500/video/7685851145981414678
+grinch_robe,corpus:external:EXT-11,tiktok,6000000.0,2026-08-24,,heated wearable blanket,https://www.tiktok.com/@warmly.official/video/7677579852140055809
+grinch_robe,corpus:external:EXT-12,tiktok,5500000.0,2026-10-01,,heated wearable blanket,https://www.tiktok.com/@neilaswgza6/video/7691232474877201695
+grinchmelt_mug,corpus:external:EXT-28,tiktok,1900000.0,2025-10-13,,fondue melter mug,https://www.tiktok.com/@adrienneugccreator/video/7560754450067950878
+jollyglow_curtain,corpus:external:EXT-36,tiktok,1400000.0,2026-09-11,,Christmas wall light,https://www.tiktok.com/@finds.worth.keeping/video/7684203385494539533
+grinch_robe,corpus:external:EXT-37,tiktok,1300000.0,2026-09-23,,heated robe (goth niche),https://www.tiktok.com/@goth.robes/video/7688918162326261022
+grinch_robe,corpus:external:EXT-38,tiktok,1300000.0,2026-09-10,,heated robe (goth niche),https://www.tiktok.com/@nocturne.robes0/video/7684104805748411679
+grinch_robe,corpus:external:EXT-39,tiktok,1200000.0,2026-08-27,,heated Grinch robe,https://www.tiktok.com/@thecozygrump.us/video/7678635898518523156
+merryglow_lights,corpus:external:EXT-42,tiktok,1000000.0,2026-09-23,,Christmas projector,https://www.tiktok.com/@tryglowmas/video/7688874183341673741
+merryglow_lights,corpus:external:EXT-47,tiktok,878700.0,2026-10-09,,LED tree lights,https://www.tiktok.com/@cyjklgmwaje/video/7694873980976565517
+brickhood_mask,corpus:external:EXT-48,tiktok,863800.0,2026-10-16,,novelty balaclava,https://www.tiktok.com/@babbamqbws2/video/7697237085236825358
+grinch_robe,corpus:external:EXT-49,tiktok,833600.0,2025-12-16,,heated blanket for cramps,https://www.tiktok.com/@warmrobestore/video/7584679343121616141
+merryfire,corpus:external:EXT-52,tiktok,705300.0,2025-11-25,,portable fire pit,https://www.tiktok.com/@stonebrook.home/video/7576758246338333983
+merryglow_lights,corpus:external:EXT-54,tiktok,657800.0,2026-09-17,,tree projector,https://www.tiktok.com/@wwwbbbo/video/7686496177591766302
+grinch_robe,corpus:external:EXT-55,tiktok,627800.0,2026-08-18,,self-heating hoodie,https://www.tiktok.com/@prodrubenis/video/7675334365345320214
+purrventure_carrier,corpus:external:EXT-56,tiktok,580200.0,2025-12-23,,cat bubble carrier,https://www.tiktok.com/@leolovesdigital/video/7586992657927327031
+merryglow_lights,corpus:external:EXT-57,tiktok,575600.0,2026-09-19,,Christmas projector,https://www.tiktok.com/@spidey.glow/video/7687503301457251616
+merryglow_lights,corpus:external:EXT-58,tiktok,563800.0,2026-09-14,,animated tree lights,https://www.tiktok.com/@homebeyond8386/video/7685372487089081607
+grinch_robe,corpus:external:EXT-60,tiktok,509100.0,2026-10-02,,heated robe (goth niche),https://www.tiktok.com/@obsidianrobes/video/7692033957075897631
+grinch_robe,corpus:external:EXT-62,tiktok,500600.0,2026-10-15,,blanket hoodie,https://www.tiktok.com/@dealsshopsam/video/7696927956790234398
+brickhood_mask,corpus:external:EXT-63,tiktok,489000.0,2026-10-06,,ski mask,https://www.tiktok.com/@rachellezhun7/video/7693459371631693076
+grinch_robe,corpus:external:EXT-66,tiktok,416600.0,2026-09-20,,heated robe (fandom variant),https://www.tiktok.com/@thecozybts/video/7687784086643002637
+merryfire,corpus:external:EXT-67,tiktok,414100.0,2026-03-31,,outdoor fire pit,https://www.tiktok.com/@la_anita0/video/7623540304242609438
+merryglow_lights,corpus:external:EXT-68,instagram,246000.0,2026-09-25,,Christmas projector,https://www.instagram.com/reel/DduPW6tOt3o/
+merryglow_lights,corpus:external:EXT-70,instagram,169000.0,2026-09-27,,Christmas projector,https://www.instagram.com/reel/DdzJdDFuI1B/

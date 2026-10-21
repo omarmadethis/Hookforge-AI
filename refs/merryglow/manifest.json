@@ -1,0 +1,259 @@
+{
+ "slug": "merryglow",
+ "product_keys": [
+  "merryglow_lights"
+ ],
+ "assets_dir": "assets/merryglow",
+ "approved_cast": "WOMAN (mom) + kids family scene from the 152.9K Merry Glow reel (cast_woman_top.png)",
+ "approved_cast_status": "locked (F94)",
+ "higgsfield_media_ids": "refs/merryglow/higgsfield_new_account_media_ids.json",
+ "built_pt": "2026-10-20T09:56:15",
+ "refs": [
+  {
+   "path": "refs/merryglow/cast/lifestyle_clean_start_frame.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/clean_start_frame.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_composite.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/composite.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/product/box_merryglow box.png",
+   "kind": "product",
+   "type": "box",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/merryglow box.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_35e1bf21-383d-4b59-8b68-0df27fe026a9-2.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/35e1bf21-383d-4b59-8b68-0df27fe026a9-2.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_3986afdb-7bc3-49b9-8c17-dd011df0925a.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/3986afdb-7bc3-49b9-8c17-dd011df0925a.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_4db6c235-616b-44fa-aca5-4a9cab8cb83a.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/4db6c235-616b-44fa-aca5-4a9cab8cb83a.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_5c4ac609-fb65-4e13-83db-46066813c5d7.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/5c4ac609-fb65-4e13-83db-46066813c5d7.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/product/box_ChatGPT Image Sep 16, 2026 at 01_40_57 PM.png",
+   "kind": "product",
+   "type": "box",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/ChatGPT Image Sep 16, 2026 at 01_40_57 PM.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_Unknown-2.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/Unknown-2.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_Unknown.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/Unknown.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/product/box_abd2ac5f-54d6-40e7-a098-6ad0eb6ca806.png",
+   "kind": "product",
+   "type": "box",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/abd2ac5f-54d6-40e7-a098-6ad0eb6ca806.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_ac035baa-f459-4fec-9c57-a6c715c71fbd.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/ac035baa-f459-4fec-9c57-a6c715c71fbd.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_b628f9ef-3d31-4475-9a93-9108b7a9a421.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/b628f9ef-3d31-4475-9a93-9108b7a9a421.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_composite-2.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/composite-2.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_de8f2fff-5d0f-4032-8a3b-3e46d66d5fd3.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/de8f2fff-5d0f-4032-8a3b-3e46d66d5fd3.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_f8755a94-1568-4d9e-b88e-922cae5ef112.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/f8755a94-1568-4d9e-b88e-922cae5ef112.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_hf_20260916_013730_2a178c90-b366-4961-b84e-b21f21460139.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/hf_20260916_013730_2a178c90-b366-4961-b84e-b21f21460139.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_hf_20260916_015912_530cfcfd-631d-493e-a5db-5eca72ae542a.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/hf_20260916_015912_530cfcfd-631d-493e-a5db-5eca72ae542a.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_hf_20260916_040659_d3012aab-315a-4e93-b5fe-adb9c8ac699a.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/hf_20260916_040659_d3012aab-315a-4e93-b5fe-adb9c8ac699a.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_hf_20260916_214009_0a47691c-3eb9-473e-b46a-038942cf280c.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/hf_20260916_214009_0a47691c-3eb9-473e-b46a-038942cf280c.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_hf_20260916_215623_b769b667-2331-4d9d-82e0-b6e83eaea14c.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/hf_20260916_215623_b769b667-2331-4d9d-82e0-b6e83eaea14c.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_hf_20260923_035220_b01abdce-72c0-4456-9434-36a6cfea4d8e.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/hf_20260923_035220_b01abdce-72c0-4456-9434-36a6cfea4d8e.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_hf_20260923_044716_d03cbf1e-757d-47fb-bf53-9ed914de808f.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/hf_20260923_044716_d03cbf1e-757d-47fb-bf53-9ed914de808f.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_hf_20260926_181912_5217a5c6-00fb-4a3b-86f3-b2d811983945.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/hf_20260926_181912_5217a5c6-00fb-4a3b-86f3-b2d811983945.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/lifestyle_image.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryGlow tree lights",
+   "source": "~/Downloads/image.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryglow/cast/cast_woman_top.png",
+   "kind": "cast",
+   "what": "cast_woman_top.png",
+   "source": "D112 re-sourced: /workspace/hf_match/hf_videos/hf_20260923_035640_82e418f4-506a-4a0d-9765-0176b1e5efd1.mp4 (raw caption-free MG-01 152.9K hook clip) frame 18 (t=0.75 s), crop [655, 459, 862, 747] at native res, caption-free, face uncut; D104 blurry crop kept in refs/_superseded/merryglow_cast_woman_top_d104blurcrop.png",
+   "clean": true,
+   "use_for_generation": true,
+   "subject": "a woman",
+   "cropped_pt": "2026-10-20T15:06:51",
+   "higgsfield_media_id_new_account": "1854b860-9539-4331-a492-e6cf52fefd77",
+   "higgsfield_media_id_superseded": "c4880e2b-81b7-4aa5-b88d-b5970f9ac99b"
+  }
+ ],
+ "refused": [
+  {
+   "src": "/workspace/hookforge/assets/merryglow/lifestyle/e54d23fe-f38e-45e4-9a62-2b9b595614e1-2.png",
+   "problems": [
+    "trace bytes b'Grok'"
+   ]
+  }
+ ],
+ "rule": "F88: no generation without product AND cast refs; F87: every file passes deliver.scan"
+}

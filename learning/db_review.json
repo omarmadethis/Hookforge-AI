@@ -1,0 +1,44 @@
+{
+ "ts_pt": "2026-10-18T23:05:04-07:00",
+ "db": "/workspace/hookforge/data/hookforge.db",
+ "checks": {
+  "required_columns": {
+   "missing": [],
+   "ok": true
+  },
+  "own_coverage": {
+   "corpus_own": 78,
+   "in_db": 78,
+   "missing": [],
+   "ok": true
+  },
+  "views_agreement": {
+   "n": 82,
+   "within_2pct": 1.0,
+   "ok": true
+  },
+  "unique_uid": {
+   "dups": 0,
+   "ok": true
+  },
+  "posted_time_agreement_pt": {
+   "n": 78,
+   "within_5min": 1.0,
+   "ok": true
+  },
+  "hook_family_codebook": {
+   "note": "DB uses the features codebook (data/features/codebook.csv); corpus family kept as hook_family_corpus",
+   "agreement_raw": 0.235,
+   "ok": true
+  },
+  "format_present": {
+   "db_format_ref_filled": 0,
+   "note": "format comes from the corpus overlay until the DB fills format_ref",
+   "ok": true
+  }
+ },
+ "passed": true,
+ "db_sig": "1792389785:2330624",
+ "rows_labelled": 178,
+ "schema_version": "[]"
+}

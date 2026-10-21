@@ -1,0 +1,177 @@
+{
+ "product_key": "brickhood_mask",
+ "display": "Brick Hood ski mask",
+ "brand": "Brick Hood",
+ "category": "accessory",
+ "corpus_products": [
+  "ski mask",
+  "Smiley ski mask"
+ ],
+ "pages": [
+  "BH",
+  "MJIG"
+ ],
+ "energy": 5,
+ "mood": [
+  "hype",
+  "goofy",
+  "funny",
+  "squad",
+  "crazy"
+ ],
+ "audience": "US skiers and snowboarders 16-30, friend groups, ski-trip squads (55% of BH orders were multi-packs)",
+ "world": "THE SLOPES: ski lifts, gondolas, snowmobiles, terrain park tricks, wipeouts, apres-ski; always outdoors in snow, never a store",
+ "settings": [
+  "ski lift / chairlift",
+  "gondola",
+  "snowy slope run",
+  "terrain park jump",
+  "snowmobile",
+  "lodge patio apres-ski"
+ ],
+ "actions": [
+  "first-person POV unbag on the lift, plastic wrap rip (R29)",
+  "pull it on, face to camera",
+  "ski or ride toward camera",
+  "matching squad on the chairlift",
+  "trick / jump / goofy wipeout",
+  "snow angel",
+  "apres-ski cheers",
+  "3-2-1 on the slope then pull it on"
+ ],
+ "forbidden_settings": [
+  "living room",
+  "kitchen",
+  "bedroom",
+  "couch",
+  "office",
+  "store aisle"
+ ],
+ "product_look": "yellow knit ski mask (smiley knit face, ONE single wide sideways-oval eye cutout, short knit stud on top, rolled ribbed neck)",
+ "subject": "a snowboarder in a red jacket and black goggles with three friends",
+ "body_setting": "on a bright snowy ski slope and chairlift, blue sky",
+ "product": "ski mask",
+ "feature_1": "the smiley knit face and the wide eye cutout",
+ "feature_2": "the rolled ribbed neck under the jacket",
+ "activation_action": "the whole squad pulls their masks down at once on the chairlift",
+ "activation_result": "four matching masks staring at the camera",
+ "payoff_scene": "the squad clinks drinks on the lodge patio in their masks, goggles up, laughing",
+ "room": "ski lift",
+ "sounds": "wind, plastic rip, lift creak, friends laughing, skis carving",
+ "source_object": "beanie",
+ "music_forbidden": [
+  "Christmas songs (wrong niche)"
+ ],
+ "music_preferred": [
+  "boombastic_tiktok"
+ ],
+ "proof_shot": [
+  "PROOF",
+  "AI-doubt proof: close-up on the chairlift: the mask worn under black goggles, the eye cutout fitting the goggles, breath fogging in the cold"
+ ],
+ "body_override": {
+  "ACTION2": [
+   "PROOF",
+   "AI-doubt proof: close-up on the chairlift, gloved hands adjust the mask under black goggles, the eye cutout fitting the goggles, breath fogging in the cold"
+  ]
+ },
+ "copy_forbidden": [
+  "grinch",
+  "santa",
+  "christmas",
+  "xmas",
+  "mom",
+  "grandma",
+  "cozy",
+  "heated"
+ ],
+ "keyword": "MASK",
+ "processing_days": null,
+ "ship_days": null,
+ "poc_hooks": {
+  "F01": [
+   "If you buy one, I'll buy one too 😂",
+   "P",
+   "own BH-01 61,290 views (proven BH line, here on the snowy-slope 3-2-1 visual)"
+  ]
+ },
+ "proven_formats": [
+  {
+   "format": "F16",
+   "n": 6,
+   "hits": 2,
+   "median_views": 23809,
+   "best_views": 61290,
+   "reels": [
+    "BH-01",
+    "BH-02",
+    "BH-03",
+    "MJIG-07",
+    "MJIG-10",
+    "MJIG-11"
+   ]
+  },
+  {
+   "format": "F05",
+   "n": 3,
+   "hits": 0,
+   "median_views": 2664,
+   "best_views": 3256,
+   "reels": [
+    "MJIG-08",
+    "MJIG-09",
+    "MJIG-12"
+   ]
+  }
+ ],
+ "proven_music": [
+  {
+   "song": "free_bird",
+   "version": "Lynyrd Skynyrd Free Bird solo ~0:14 (meme cue)",
+   "offset_s": 15.0,
+   "energy": 4,
+   "best_views": 61290,
+   "formats": "F05|F16"
+  },
+  {
+   "song": "boombastic_tiktok",
+   "version": "Shaggy - Boombastic (Sting Remix), normal speed, TikTok music id 6926732577592051713; in-point ~0:21.6 on the CapCut file (Shazam song in-point 18-21 s; second own cluster 18.5)",
+   "offset_s": 21.9,
+   "energy": 5,
+   "best_views": 61106,
+   "formats": "F16"
+  }
+ ],
+ "proven_captions": [
+  {
+   "caption": "Get it here 👉 {url}",
+   "views": 61290
+  }
+ ],
+ "proven_hooks": [
+  {
+   "hook": "If you buy one, I'll buy one too 🤣⛷️",
+   "format": "F16",
+   "views": 61290,
+   "reel": "BH-01",
+   "capcut_cards": [
+    "\"If you buy one, I'll buy one too\" 🤣⛷️"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 1.00)"
+  },
+  {
+   "hook": "Send this to someone you'd absolutely wear this with 😂",
+   "format": "F16",
+   "views": 61106,
+   "reel": "BH-02",
+   "capcut_cards": [
+    "\"Send this to someone you'd absolutely wear this with\" 😂"
+   ],
+   "text_source": "frame text + CapCut emojis (sim 1.00)"
+  }
+ ],
+ "n_own_reels": 9,
+ "own_hits": 2,
+ "product_look_status": "description from Omar's prompts; <<<image_1>>> product photo is the ground truth",
+ "sources": "corpus own reels (FB+IG), CapCut drafts (edits.csv), music_library.csv, Omar transcripts (rules_core), worlds.py"
+}

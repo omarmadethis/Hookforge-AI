@@ -1,0 +1,44 @@
+slug: grinch_robe
+product_keys: [grinch_robe]
+buyers: "US moms and wives 25-55 buying a Christmas gift; Grinch fans; always-cold people"
+main_platform: facebook
+secondary_platforms: [instagram]
+markets: [US, CA, UK, AU]
+tone: "cozy, giftable, funny-mom humour ('every mom needs this')"
+music_allowed_genres: [christmas classic, christmas pop, christmas crooner, christmas remix]
+music_banned_genres: [phonk, drill, edm]
+music_preferred: [last_christmas, beginning_to_look, jingle_bells_viibez]
+emoji_allowed:  # FB insights D63: hook emoji pair 😳❄️ on 5 of top 10; caption 👉 on 8 of top 10
+  "😳": "shock / every mom needs this"
+  "🤣": "funny-mom humour"
+  "😂": "funny-mom humour"
+  "🎄": "Christmas"
+  "🎁": "gift"
+  "💚": "Grinch green"
+  "🥶": "always cold"
+  "🤩": "reveal"
+  "😍": "want it"
+  "👉": "CTA"
+  "😬": "problem"
+  "⏰": "Vs card"
+  "⏳": "Vs card"
+  "🤭": "cheeky"
+  "❄️": "winter"
+slang: ["every mom needs this", "cozy", "the Grinch", "Christmas mom", "Get yours"]
+caption_voice: "Post caption = 'Get yours👉{url}' + 3-4 hashtags (#christmas #gift #mom). Hook lives ON SCREEN (mom/wife/grandma warning or 'Women are hard to gift..'), 1-2 emoji, US spelling"
+caption_evidence_fb_insights: "D63, analytics/fb_hj/: 6/38 reels with 'Get yours'+URL = 12.7M views, 11,885 link clicks (0.93/1K pooled), median 1.44M views vs 6.8K for the other 32; 31 no-URL captions = 1 link click total. 1-2 emoji median 32-91K vs 0 emoji 2.3K (n=3). Same on-screen hooks appear in top AND bottom 10, so the hook text alone is not the winner."
+caption_boosts:
+  - {pattern: '(?i)get yours\s*👉', weight: 0.25, evidence: "FB insights: 6 Get-yours reels, median 1.44M views, 0.93 link clicks/1K (D63)"}
+  - {pattern: '\{url\}|https?://', weight: 0.15, evidence: "FB insights: only URL captions drove link clicks (12,395 of 12,396)"}
+  - {pattern: '(?i)#mom\b', weight: 0.1, evidence: "FB insights: #mom median 91K vs 11K without (n=15)"}
+  - {pattern: '(?i)#viral\b', weight: -0.1, evidence: "FB insights: #viral median 6.8K vs 89K without (n=23) — weak prior"}
+caption_proof:
+  - {pattern: '(?i)shop (here|now)', evidence: "own FB: Shop here👉 183K / Shop Now👉 166K, 0.87-2.11 link clicks/1K (D63)"}
+  - {pattern: '(?i)(do ?n.?t|do not) (let|show).*(mom|wife|grandma)', evidence: "own FB on-screen hook: DO NOT let your mom see this 2.73M; ...wife 166K; ...Grandma 183K (D63)"}
+  - {pattern: '(?i)(women|moms?).{0,4}(are )?hard to gift', evidence: "own FB on-screen hook: Women are hard to gift.. 6.67M and 305K (D63)"}
+  - {pattern: '(?i)grinch x target|at target', evidence: "own FB on-screen hook: Grinch X Target 1.41M; HeatedJammies at Target 327K (D63)"}
+  - {pattern: '(?i)get yours', evidence: "own: Get yours👉{url} 6,600,000 views (grinch_robe)"}
+  - {pattern: '(?i)link in bio', evidence: "own: Link in bio! 4,626,610 views (grinch_robe)"}
+  - {pattern: '(?i)(mom|wife|she|her).*(need|want|love)|need(s)? this', evidence: "ext: 'EVERY Christmas Mom NEEDS this' 5.2M (audience/lexicon.csv LX002)"}
+  - {pattern: '(?i)^(3|2|1)\b|^(the problem|the solution|vs)\b', evidence: "own: format cards from posted grinch_robe reels (backtest corpus)"}
+banned: [mum spelling, sexualised framing]

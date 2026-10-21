@@ -1,0 +1,11 @@
+# Global audience-fit rules (D62). Every product profile inherits these. Bans here can't be overridden.
+music_banned_genres:
+  - genre: phonk
+    why: "pulls non-US audiences (Omar 2026-10-19: 'never ever use phonk'); also in GF-AF1"
+    match: '(?i)phonk|slowed\s*\+?\s*reverb|super slowed|\bdrift\b|brazilian funk|funk (mandelao|automotivo)|esse cara|montagem'
+music_banned_songs: []
+emoji_render: apple_ios          # Apple iOS PNGs only (textcards.apple_png). Android/Noto/Twemoji = FAIL.
+emoji_render_banned: [noto, android, twemoji, samsung, google]
+caption_banned: ['(?i)\bmum\b', '(?i)\bcolour\b', '(?i)\bfavourite\b', '(?i)\bchristmas jumper\b', '(?i)link in comments']   # US spelling, see audience/lexicon.csv
+emoji_banned: ['🖕']             # platform-risk across all products
+evidence_required: true          # a song/caption/emoji without evidence fails

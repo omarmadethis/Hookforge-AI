@@ -1,0 +1,252 @@
+{
+ "concept_2026-10-20_jollyglow_curtain_F06": {
+  "hooks": [
+   {
+    "text": "Your lights.. VS... my curtain",
+    "words": 5,
+    "views_cited": 22000000,
+    "poc": "RollyMew 'The problem / VS / The solution' 22M + Lumi Door 'His last day.. VS...' 2.4M (POC-0255) (grammar, filled for jollyglow_curtain)"
+   },
+   {
+    "text": "POV: the whole street is JEALOUS 😂",
+    "words": 6,
+    "views_cited": 2400000,
+    "poc": "Lumi Door 'POV: ur wife got this' 1.2M (POC-0258) / JollyGlow own 63K POV (grammar, filled for jollyglow_curtain)"
+   },
+   {
+    "text": "Don't show this to your neighbors 😂",
+    "words": 6,
+    "views_cited": 183145,
+    "poc": "HeatedJammies FB 'DONT show this to your Grandma' 183K (retired, reference) + own TrumpGlow B (grammar, filled for jollyglow_curtain)"
+   }
+  ],
+  "captions": [
+   {
+    "text": "They'll be asking where you got it.. 🤣🎄",
+    "words": 7,
+    "views_cited": 63320,
+    "poc": "POC-0060 own FB Merry Carrier https://www.facebook.com/reel/283050141"
+   },
+   {
+    "text": "Your neighbors are gonna be jealous... 🤭❄️",
+    "words": 6,
+    "views_cited": 62813,
+    "poc": "POC-0064 own FB Merry Carrier https://www.facebook.com/reel/135150881"
+   },
+   {
+    "text": "Every Christmas mom NEEDS this 😏",
+    "words": 5,
+    "views_cited": 31406,
+    "poc": "JollyGlow own 62.8K 'Every Christmas mom NEEDS this'"
+   }
+  ],
+  "rejected": [
+   {
+    "kind": "caption",
+    "text": "Get it here 👉 grinchmelt.store/…jollyglow",
+    "why": [
+     "link"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "Your lights.. VS... my curtain",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "POV: the whole street is JEALOUS 😂",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "Don't show this to your neighbors 😂",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "They'll be asking where you got it.. 🤣",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   }
+  ],
+  "credits": 0,
+  "max_words": 8
+ },
+ "concept_2026-10-20_purrventure_carrier_F02": {
+  "hooks": [
+   {
+    "text": "POV: your cat finally gets outside 😂",
+    "words": 6,
+    "views_cited": 2400000,
+    "poc": "Lumi Door 'POV: ur wife got this' 1.2M (POC-0258) / JollyGlow own 63K POV (grammar, filled for purrventure_carrier)"
+   },
+   {
+    "text": "Don't show this to your cat 😂",
+    "words": 6,
+    "views_cited": 183145,
+    "poc": "HeatedJammies FB 'DONT show this to your Grandma' 183K (retired, reference) + own TrumpGlow B (grammar, filled for purrventure_carrier)"
+   },
+   {
+    "text": "They'll be asking where you got it.. 🤣",
+    "words": 7,
+    "views_cited": 63320,
+    "poc": "JollyGlow own caption 63.3K (grammar, filled for purrventure_carrier)"
+   }
+  ],
+  "captions": [
+   {
+    "text": "SAY \"PURR\" if you want one! 🐈",
+    "words": 6,
+    "views_cited": 20800000,
+    "poc": "POC-PV-CAP1 RollyMew caption 'Comment \"rolly\" if you want one! 🐈 #cat #c"
+   },
+   {
+    "text": "Every cat mom NEEDS this 😏 SAY \"PURR\"",
+    "words": 7,
+    "views_cited": 31406,
+    "poc": "JollyGlow own 62.8K 'Every Christmas mom NEEDS this' + CTA"
+   },
+   {
+    "text": "If you buy one, I'll buy one too 😂",
+    "words": 8,
+    "views_cited": 30645,
+    "poc": "own Brick Hood BH-01 61.3K (retired product, reference)"
+   }
+  ],
+  "rejected": [
+   {
+    "kind": "hook",
+    "text": "The problem 😕.. VS... the solution 😊",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   },
+   {
+    "kind": "hook",
+    "text": "VS",
+    "why": [
+     "fragment (< 3 words)"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "The problem 😕.. VS... the solution 😊 SAY \"PURR\"",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "POV: your cat finally gets outside 😂 SAY \"PURR\"",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "Don't show this to your cat 😂 SAY \"PURR\"",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "They'll be asking where you got it.. 🤣",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   }
+  ],
+  "credits": 0,
+  "max_words": 8
+ },
+ "concept_2026-10-20_trumpglow_F09": {
+  "hooks": [
+   {
+    "text": "Their porch.. VS... my porch 🇺🇸",
+    "words": 5,
+    "views_cited": 22000000,
+    "poc": "RollyMew 'The problem / VS / The solution' 22M + Lumi Door 'His last day.. VS...' 2.4M (POC-0255) (grammar, filled for trumpglow)"
+   },
+   {
+    "text": "Don't show this to a liberal 😂",
+    "words": 6,
+    "views_cited": 183145,
+    "poc": "HeatedJammies FB 'DONT show this to your Grandma' 183K (retired, reference) + own TrumpGlow B (grammar, filled for trumpglow)"
+   },
+   {
+    "text": "They'll be asking where you got it.. 🤣",
+    "words": 7,
+    "views_cited": 63320,
+    "poc": "JollyGlow own caption 63.3K (grammar, filled for trumpglow)"
+   }
+  ],
+  "captions": [
+   {
+    "text": "Every Trump fan NEEDS this 😏 SAY \"VOTE\"",
+    "words": 7,
+    "views_cited": 31406,
+    "poc": "JollyGlow own 62.8K 'Every Christmas mom NEEDS this' + CTA"
+   },
+   {
+    "text": "If you buy one, I'll buy one too 😂",
+    "words": 8,
+    "views_cited": 30645,
+    "poc": "own Brick Hood BH-01 61.3K (retired product, reference)"
+   },
+   {
+    "text": "Who needs one for the front porch? 🇺🇸",
+    "words": 7,
+    "views_cited": 0,
+    "poc": "own PatriotsGlow page caption (D115 variant)"
+   }
+  ],
+  "rejected": [
+   {
+    "kind": "hook",
+    "text": "POV: your wife got this for your truck 😂",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "Their porch.. VS... my porch 🇺🇸 SAY \"VOTE\"",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "POV: your wife got this for your truck 😂",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "Don't show this to a liberal 😂 SAY \"VOTE\"",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   },
+   {
+    "kind": "caption",
+    "text": "They'll be asking where you got it.. 🤣",
+    "why": [
+     "repeat (concept hook or another variant)"
+    ]
+   }
+  ],
+  "credits": 0,
+  "max_words": 8
+ }
+}

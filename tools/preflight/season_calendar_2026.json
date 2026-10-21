@@ -1,0 +1,65 @@
+{
+ "_doc": "Q4 2026 calendar for the planner (PROPOSED, gap G5). Dates PT. Sources: USPS 2026 holiday shipping dates (usps.com/holiday, Sep 22 2026 release); US federal calendar. 'ship_days' per product must come from product_profiles (field to add) or Shopify delivery profiles (read-only). No own Q4 data exists yet (own posts span 2026-09-04..10-12), so phase rules are hypotheses to test in experiment slots.",
+ "events": {
+  "halloween": "2026-10-31",
+  "thanksgiving": "2026-11-26",
+  "black_friday": "2026-11-27",
+  "small_business_saturday": "2026-11-28",
+  "cyber_monday": "2026-11-30",
+  "green_monday": "2026-12-14",
+  "usps_ground_advantage_cutoff": "2026-12-17",
+  "usps_priority_cutoff": "2026-12-18",
+  "usps_priority_express_cutoff": "2026-12-19",
+  "christmas": "2026-12-25",
+  "new_years_eve": "2026-12-31"
+ },
+ "phases": [
+  {
+   "id": "pre_season",
+   "from": "2026-10-18",
+   "to": "2026-11-15",
+   "levers": [
+    "gift formats ok",
+    "cozy/decor then-vs-now",
+    "Christmas music allowed (own Sep-Oct winners used it)"
+   ]
+  },
+  {
+   "id": "bfcm",
+   "from": "2026-11-26",
+   "to": "2026-12-01",
+   "levers": [
+    "deal framing in caption only (no fake prices on screen)",
+    "highest buyer intent"
+   ]
+  },
+  {
+   "id": "peak_gift",
+   "from": "2026-11-16",
+   "to": "gift_cutoff",
+   "levers": [
+    "gift-difficulty, dont-show, fake-retailer formats",
+    "'arrives before Christmas' urgency only if true"
+   ]
+  },
+  {
+   "id": "post_cutoff",
+   "from": "gift_cutoff+1",
+   "to": "2026-12-24",
+   "levers": [
+    "self-purchase / winter-use framing (Brick Hood slopes)",
+    "drop delivery promises"
+   ]
+  },
+  {
+   "id": "post_christmas",
+   "from": "2026-12-26",
+   "to": "2027-01-15",
+   "levers": [
+    "stop Christmas songs/gift hooks",
+    "winter, cozy, self-treat, gift-card-money framing"
+   ]
+  }
+ ],
+ "gift_cutoff_rule": "gift_cutoff = 2026-12-25 - (product.processing_days + product.ship_days) - 1 buffer day (dropship lanes are not USPS; USPS dates are the floor for domestic stock). If either field is unknown, the planner must not claim pre-Christmas delivery."
+}

@@ -1,0 +1,32 @@
+{
+ "trumpglow": {
+  "pages": {
+   "trumpglow_fb": {
+    "caption": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸",
+    "hashtags": [
+     "#trump",
+     "#maga",
+     "#america",
+     "#usa"
+    ],
+    "poc": "audience/patriotglow.yaml:HeatedJammies FB 'DONT show this to your Grandma' (patriotglow.yaml caption_proof) 183,145 views (callout)",
+    "src": "fb_caption",
+    "text": "Don't show this to a liberal 😎🦅 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa"
+   },
+   "patriotsglow_fb": {
+    "caption": "Who needs one for the front porch? 🇺🇸 SAY \"VOTE\" if you like Trump 🇺🇸",
+    "hashtags": [
+     "#trump",
+     "#maga",
+     "#america",
+     "#usa"
+    ],
+    "poc": "own corpus: 1 reels match /(?i)who needs one/, peak 97,000 (HeatedJammies: \"DO NOT show this to you're mom 😳❄️\"); audience/patriotglow.yaml caption_proof",
+    "src": "own_pattern",
+    "text": "Who needs one for the front porch? 🇺🇸 SAY \"VOTE\" if you like Trump 🇺🇸\n#trump #maga #america #usa"
+   }
+  },
+  "n_candidates": 6,
+  "built": "2026-10-20T14:31:23"
+ }
+}

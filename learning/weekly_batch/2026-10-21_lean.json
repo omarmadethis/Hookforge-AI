@@ -1,0 +1,258 @@
+{
+ "standard": 2600.0,
+ "lean": {
+  "option": "lean_1080p_hook",
+  "hook_res": "1080p",
+  "still_variants": 1,
+  "videos": 13,
+  "slots": 20,
+  "per_product": {
+   "trumpglow": 597.0,
+   "jollyglow_curtain": 315.0,
+   "purrventure_carrier": 315.0
+  },
+  "total_credits": 1227.0,
+  "standard_total": 2600.0,
+  "edits": {
+   "trumpglow_V1": [
+    {
+     "clip": "B1",
+     "in_s": 0.0,
+     "out_s": 4.0
+    },
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 4.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 0.0,
+     "out_s": 4.0
+    }
+   ],
+   "trumpglow_V2": [
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B1",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 0.0,
+     "out_s": 2.0
+    }
+   ],
+   "trumpglow_V3": [
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B1",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 2.0,
+     "out_s": 4.0
+    }
+   ],
+   "trumpglow_V4": [
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B1",
+     "in_s": 1.0,
+     "out_s": 3.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 1.0,
+     "out_s": 3.0
+    }
+   ],
+   "trumpglow_V5": [
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B1",
+     "in_s": 2.0,
+     "out_s": 4.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 0.0,
+     "out_s": 2.0
+    }
+   ],
+   "trumpglow_V6": [
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B1",
+     "in_s": 2.0,
+     "out_s": 4.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 2.0,
+     "out_s": 4.0
+    }
+   ],
+   "trumpglow_V7": [
+    {
+     "clip": "B2",
+     "in_s": 1.0,
+     "out_s": 3.0
+    },
+    {
+     "clip": "B1",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 1.0,
+     "out_s": 3.0
+    }
+   ],
+   "purrventure_carrier_V1": [
+    {
+     "clip": "B1",
+     "in_s": 0.0,
+     "out_s": 4.0
+    },
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 4.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 0.0,
+     "out_s": 4.0
+    }
+   ],
+   "purrventure_carrier_V2": [
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B1",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 0.0,
+     "out_s": 2.0
+    }
+   ],
+   "purrventure_carrier_V3": [
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B1",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 2.0,
+     "out_s": 4.0
+    }
+   ],
+   "jollyglow_curtain_V1": [
+    {
+     "clip": "B1",
+     "in_s": 0.0,
+     "out_s": 4.0
+    },
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 4.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 0.0,
+     "out_s": 4.0
+    }
+   ],
+   "jollyglow_curtain_V2": [
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B1",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 0.0,
+     "out_s": 2.0
+    }
+   ],
+   "jollyglow_curtain_V3": [
+    {
+     "clip": "B2",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B1",
+     "in_s": 0.0,
+     "out_s": 2.0
+    },
+    {
+     "clip": "B3",
+     "in_s": 2.0,
+     "out_s": 4.0
+    }
+   ]
+  },
+  "max_shared_vs_samepage_peer": {
+   "trumpglow_V1": 0.0,
+   "trumpglow_V2": 0.4,
+   "trumpglow_V3": 0.4,
+   "trumpglow_V4": 0.4,
+   "trumpglow_V5": 0.4,
+   "trumpglow_V6": 0.4,
+   "trumpglow_V7": 0.4,
+   "purrventure_carrier_V1": 0.0,
+   "purrventure_carrier_V2": 0.4,
+   "purrventure_carrier_V3": 0.4,
+   "jollyglow_curtain_V1": 0.0,
+   "jollyglow_curtain_V2": 0.4,
+   "jollyglow_curtain_V3": 0.4
+  },
+  "near_duplicate_violations": [],
+  "near_duplicate_ok": true,
+  "note": "every video keeps its own hook clip + caption (D139); bodies re-ordered/re-trimmed per video (D142)"
+ }
+}

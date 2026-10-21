@@ -1,0 +1,91 @@
+{
+ "product_key": "purrventure_carrier",
+ "caption_forbidden": [
+  "carrier pouch",
+  "hands-?free carrier",
+  "rushing around"
+ ],
+ "display": "PurrVenture cat ball playpen",
+ "brand": "PurrVenture",
+ "category": "pet",
+ "corpus_products": [
+  "pop-up cat carrier"
+ ],
+ "pages": [
+  "PV"
+ ],
+ "energy": 3,
+ "mood": [
+  "cute",
+  "funny",
+  "pet"
+ ],
+ "audience": "US cat moms 22-50",
+ "world": "home with the cat, car rides, vet trips, outdoors walks",
+ "settings": [
+  "sunny suburban backyard",
+  "front lawn",
+  "park path"
+ ],
+ "actions": [
+  "pop open",
+  "cat walks in",
+  "zip",
+  "carry outside"
+ ],
+ "forbidden_settings": [
+  "ski slope"
+ ],
+ "product_look": "black PurrVenture pop-up mesh cat ball playpen (hamster-ball style, ~27 in, zip door)",
+ "product": "cat ball playpen",
+ "subject": "a young brown-haired woman in a plain white T-shirt and denim shorts and her cream snow Bengal cat (tan rosettes, clear blue eyes)",
+ "body_setting": "in a sunny suburban backyard",
+ "activation_action": "the zip door closes with a click",
+ "activation_result": "the cat rolls the ball across the grass",
+ "payoff_scene": "the cat rolling the ball across the lawn while the owner laughs",
+ "room": "backyard",
+ "sounds": "zip, paws on mesh, grass, birds",
+ "source_object": "cardboard sphere",
+ "music_forbidden": [],
+ "keyword": "CAT",
+ "processing_days": null,
+ "ship_days": null,
+ "proven_formats": [],
+ "proven_music": [],
+ "proven_captions": [],
+ "proven_hooks": [],
+ "n_own_reels": 0,
+ "own_hits": 0,
+ "product_look_status": "description from Omar's prompts; <<<image_1>>> product photo is the ground truth",
+ "sources": "corpus own reels (FB+IG), CapCut drafts (edits.csv), music_library.csv, Omar transcripts (rules_core), worlds.py",
+ "body_override": {
+  "HOOK": [
+   "HOOK",
+   "backyard-cam problem scene: owner busy in the yard, the cat bolts across the lawn and away (RollyMew 20.8M opener)"
+  ],
+  "OPEN": [
+   "OPEN",
+   "high-angle POV, hands pop the {product} open on the lawn"
+  ],
+  "ENTER": [
+   "ENTER",
+   "the cat walks into the {product}, hands guide it in"
+  ],
+  "INSIDE": [
+   "INSIDE",
+   "close-up: the cat's face through the mesh"
+  ],
+  "ACT": [
+   "ACT",
+   "hands-on close-up: the zip door closes with a click"
+  ],
+  "CARRY": [
+   "ROLL",
+   "the cat rolls the {product} across the grass, low follow shot"
+  ],
+  "PAYOFF": [
+   "PAYOFF",
+   "the cat rolling the {product} across the lawn, owner laughing behind; hard cut"
+  ]
+ }
+}

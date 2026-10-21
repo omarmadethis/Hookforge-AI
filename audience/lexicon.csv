@@ -1,0 +1,55 @@
+id,category,slot_use,term_us,uk_ie,au_nz,ca,region_signal,corpus_n_own,corpus_n_ext,own_best_views,ext_best_views,n_ext_1m,n_own_50k,reach_evidence,geo_status,note
+LX001,recipient,dont_show|needs,mom,mum,mum,mom,US/CA spelling,37,19,2700000,26000000,13,13,grounded,hypothesis,"Top slot fill: 14 don't-show uses; own 2.7M, ext 26M/12.4M. ""mum"" is the UK/AU/IE spelling: use ONLY on a UK-targeted variant"
+LX002,recipient,dont_show|needs,Christmas mom,Christmas mum,Christmas mum,Christmas mom,US/CA spelling,37,19,2700000,26000000,13,13,grounded,hypothesis,"""EVERY Christmas Mom NEEDS this"" 5.2M ext; own 62.8K"
+LX003,recipient,dont_show,cozy mom,cosy mum,cosy mum,cozy mom,US spelling (cozy vs cosy),10,14,2700000,26000000,10,4,grounded,hypothesis,Caption bank #2; cozy (US) 24 rows vs cosy (UK) 2 rows in corpus
+LX004,recipient,dont_show,grandma,nan / gran,nan,grandma,US/CA,2,0,183000,0,0,1,grounded,hypothesis,"Own 183K ""DONT show this to your Grandma ❄️😳"". ""nan/nana"" reads UK/AU"
+LX005,recipient,gift_outcome|best_gift,wife,wife,wife,wife,neutral English,2,3,165000,13500000,1,1,grounded,hypothesis,"""I found the best gift for my wife"" 13.5M ext; own 165K"
+LX006,recipient,best_gift,husband,husband,hubby,husband,neutral English,1,4,4800,1100000,2,0,grounded,hypothesis,"""The best Christmas gift for your husband"" 1.1M + 1.0M ext"
+LX007,recipient,dont_show|gift,your man,your fella,your bloke,your man,US slang (hypothesis),0,0,0,0,0,0,not_in_corpus,hypothesis,"0 in corpus: HYPOTHESIS; test vs ""your husband"""
+LX008,recipient,gift,dad,dad,dad,dad,neutral English,5,3,98000,2700000,2,1,grounded,hypothesis,"""Christmas gift ideas for Your dad!"" 2.7M ext; own 98K"
+LX009,recipient,dont_show,your KIDS,your kids,your kids,your kids,neutral English,0,7,0,3200000,5,0,grounded,hypothesis,"""DO NOT let your KIDS see this"" 3.2M ext"
+LX010,recipient,gift_difficulty,Women,Women,Women,Women,neutral English,9,5,6600000,2100000,2,3,grounded,hypothesis,"Own 6.6M ""Women are hard to gift.."""
+LX011,recipient,identity_callout,Christmas-aholics / Christmas lovers,same,same,same,neutral English,19,6,1400000,1200000,3,1,grounded,hypothesis,"Own 1.4M; ext ""Every Christmas lover Needs this"" 1.2M/1.1M"
+LX012,recipient,identity_callout,Cold-aholics,same,same,same,neutral English (cold-climate cue),0,0,0,0,0,0,not_in_corpus,hypothesis,"ext 6.0M ""Cold-aholics this is for you 🥹💕"", 1.3M; cold-climate audiences skew northern US/CA/UK/DE (hypothesis)"
+LX013,recipient,identity_callout,Princess mom,Princess mum,Princess mum,Princess mom,US spelling + Disney fandom,37,19,2700000,26000000,13,13,grounded,hypothesis,"26M + 15.8M library (90d_20m) ""Do NOT let a Princess mom see this"""
+LX014,recipient,dont_show,the HOA,(no equivalent: avoid),(avoid),the condo board,US-only institution (hypothesis),0,0,0,0,0,0,not_in_corpus,hypothesis,"0 in corpus: HYPOTHESIS. HOA = homeowners association, almost uniquely US: strongest US-only text cue we can find; test as F99 experiment"
+LX015,recipient,dont_show,your neighbors,your neighbours,your neighbours,your neighbours,US spelling,5,2,62813,2400000,1,1,grounded,hypothesis,"7 rows; ext ""How to confuse your neighbors"" 628K; own 62.8K"
+LX016,recipient,dont_show|identity,your Costco-loving dad,(avoid),(avoid),your Costco-loving dad,US/CA retail,2,3,6200,2200000,1,0,grounded,hypothesis,HYPOTHESIS combo of grounded Costco (2.2M) + dad (2.7M)
+LX017,recipient,identity,teachers / nurses,same,same,same,neutral English,0,1,0,2400000,1,0,grounded,hypothesis,teacher 2.4M ext (n=1); nurse 0: HYPOTHESIS
+LX018,recipient,identity,my sis / bestie,same,same,same,US Gen-Z register,0,2,0,1500000,1,0,grounded,hypothesis,"""me dragging my sis to Aerie at 6am"" 1.5M; bestie 2.7M (n=1)"
+LX020,retail,store_overlay,Walmart,(Asda: UK variant),(Kmart AU / Big W),Walmart,US/CA (Walmart Canada exists),6,3,1400000,783900,0,3,grounded,hypothesis,"Own 1.4M ""RUN, dont walk to Walmart""; JK flip mandatory (D4)"
+LX021,retail,store_overlay,Target,(no UK Target),(Target AU is a different chain),(Target CA closed 2015),US-only,12,3,1400000,833600,0,4,grounded,hypothesis,"Own 1.4M ""Grinch X Target""; ext 834K. Strong US-only cue: Target exists only in the US"
+LX022,retail,store_overlay,Costco,Costco,Costco,Costco,US/CA (also UK/AU),2,3,6200,2200000,1,0,grounded,hypothesis,"""COSTCO X Navidad"" 2.2M ext (but Spanish word: see AV003)"
+LX023,retail,store_overlay,Aerie / Victoria's Secret / Five Below,(avoid),(avoid),(avoid),US-only chains,0,0,0,0,0,0,not_in_corpus,hypothesis,"""sneaking out at 7am to VS"" 3.5M; Aerie 1.5M/734K/649K; Five Below 657K: US-only mall chains in mega-viral ""drop"" format"
+LX024,retail,store_overlay,Home Depot / Lowe's / Hobby Lobby / TJ Maxx / HomeGoods / Kohl's,(avoid),(avoid),(Home Depot exists in CA),US-only,0,0,0,0,0,0,not_in_corpus,hypothesis,"0 in corpus: HYPOTHESIS. US-only chains, good for decor/fire-pit store hooks"
+LX025,retail,store_overlay,IKEA,IKEA,IKEA,IKEA,global (no geo skew),0,3,0,755000,0,0,seen,hypothesis,"755K ""IKEA X Christmas"" near-miss: global brand, NO tier-1 targeting value"
+LX026,retail,caption,Amazon,Amazon,Amazon,Amazon,global,0,10,0,6900000,8,0,grounded,hypothesis,"6.9M ""amazon kitchen organization"": global, no targeting value; also implies ""cheaper on Amazon"" objection"
+LX030,holiday,hook|caption,Christmas,Christmas,Christmas,Christmas,neutral (global),106,97,6600000,48500000,56,38,grounded,hypothesis,"203 rows: the base niche, no geo skew on its own"
+LX031,holiday,hook|caption,Thanksgiving / Friendsgiving (4th Thu Nov),(avoid),(avoid),(CA Thanksgiving = 2nd Mon Oct),US-only date,0,0,0,0,0,0,not_in_corpus,hypothesis,"0 in corpus: HYPOTHESIS. US Thanksgiving Nov 26 2026: strongest calendar-only US cue; ""Thanksgiving table"", ""after Thanksgiving dinner"""
+LX032,holiday,hook|caption,Black Friday / Cyber Monday,Black Friday,Black Friday,Black Friday,"US-origin, now global",0,1,0,705300,0,0,seen,hypothesis,"n=1 ext 705K; global now, weak geo value"
+LX033,holiday,hook,4th of July,(avoid),(avoid),(Canada Day Jul 1),US-only,0,0,0,0,0,0,not_in_corpus,hypothesis,Off-season for Q4; summer products only. HYPOTHESIS
+LX034,holiday,hook,Super Bowl Sunday,(avoid),(avoid),Super Bowl,US/CA,0,0,0,0,0,0,not_in_corpus,hypothesis,Feb only. HYPOTHESIS
+LX035,holiday,hook,Christmas Eve / Christmas morning,same,same,same,neutral,106,97,6600000,48500000,56,38,grounded,hypothesis,
+LX036,holiday,hook,Boxing Day,Boxing Day,Boxing Day,Boxing Day,UK/IE/AU/NZ/CA (NOT US),0,0,0,0,0,0,not_in_corpus,hypothesis,AVOID on US-primary variants; OK on UK/AU variant
+LX037,holiday,hook,Halloween → Christmas switch (Nov 1),same,same,same,US-heavy (hypothesis),0,1,0,0,0,0,seen,hypothesis,"n=1. Nov 1 ""Mariah is defrosting"" meme is US-origin pop culture"
+LX038,holiday,hook,snow day,snow day,(avoid: AU Christmas is summer),snow day,northern hemisphere,7,17,87000,12400000,8,1,grounded,hypothesis,Snow/cold cues exclude AU/NZ summer Christmas: keep AU on a separate summer-Christmas variant if ever targeted
+LX039,holiday,hook,secret Santa / white elephant,Secret Santa,Kris Kringle,Secret Santa,"""white elephant"" = US-only term",0,0,0,0,0,0,not_in_corpus,hypothesis,"0 in corpus: HYPOTHESIS. ""white elephant gift exchange"" is a distinctly US phrase"
+LX040,holiday,hook,stocking stuffer,stocking filler,stocking filler,stocking stuffer,US/CA vs UK/AU,0,0,0,0,0,0,not_in_corpus,hypothesis,0 in corpus: HYPOTHESIS. Clean dialect split
+LX050,unit,overlay,"$ price (""under $50"")",£,A$,C$,US (bare $ reads US first),0,5,0,3500000,2,0,grounded,hypothesis,5 ext rows (3.5M); D6: price not a model predictor
+LX051,unit,overlay,"°F (e.g. ""heats to 120°F"")",°C,°C,°C (CA uses °C),US-only,0,0,0,0,0,0,not_in_corpus,hypothesis,0 in corpus: HYPOTHESIS. Fahrenheit is used almost only by the US
+LX052,unit,overlay,inches / feet / lbs,cm / kg,cm / kg,mixed,US (imperial),0,1,0,5500000,1,0,grounded,hypothesis,n=1 ext 5.5M
+LX053,spelling,all,color / favorite / cozy / neighbor / gray,colour / favourite / cosy / neighbour / grey,UK spelling,UK spelling mostly,US vs Commonwealth,10,14,2700000,26000000,10,4,grounded,hypothesis,Spelling is the most mechanical dialect signal; default US spelling everywhere
+LX054,spelling,all,mom,mum,mum,mom,US/CA,37,19,2700000,26000000,13,13,grounded,hypothesis,see LX001
+LX055,spelling,all,apartment / yard / fall,flat / garden / autumn,flat / backyard / autumn,apartment / yard / fall,US vs UK,0,1,0,1200000,1,0,grounded,hypothesis,apartment n=1 (1.2M) / flat n=1 (1.6M)
+LX060,device,hook,"RUN, don't walk",same,same,same,US internet register,12,7,1400000,1400000,1,4,grounded,hypothesis,Own 1.4M; ext 834K
+LX061,device,hook,POV:,same,same,same,global,23,9,63320,2500000,4,4,grounded,hypothesis,32 rows; global
+LX062,device,hook,NEEDS this,same,same,same,neutral,9,18,524000,5800000,14,4,grounded,hypothesis,27 rows; ext 5.8M/5.2M
+LX063,device,hook,y'all,(avoid),(avoid),(avoid),US-South/US-only,0,0,0,0,0,0,not_in_corpus,hypothesis,0 in corpus: HYPOTHESIS; strong US marker but niche register: experiment only
+LX064,device,caption,"Get yours👉 / SAY ""<KEYWORD>""",same,same,same,neutral,7,14,6600000,6000000,9,6,grounded,hypothesis,D5: SAY not COMMENT
+LX065,device,hook,obsessed,same,same,same,US register,0,4,0,1800000,1,0,grounded,hypothesis,4 ext rows (1.8M)
+AV001,avoid,all,(avoid) mum / colour / favourite / cosy on US-primary,—,—,—,UK/Commonwealth spelling,0,2,0,7300000,2,0,grounded,hypothesis,Use only on an explicitly UK-targeted variant
+AV002,avoid,all,(avoid) Boxing Day / Bonfire Night / Argos / Tesco / Bunnings on US-primary,—,—,—,UK/AU-only,0,1,0,727400,0,0,seen,hypothesis,
+AV003,avoid,all,"(avoid) Spanish/Portuguese words (Navidad, Feliz, regalo, Natal) and Spanish-language audio",—,—,—,Spanish/Portuguese-speaking regions,0,0,0,0,0,0,not_in_corpus,hypothesis,"""COSTCO X Navidad"" 2.2M: reach yes, but language-matched audiences dominate LatAm; our non-target CR is 0.05% (Shopify). HYPOTHESIS until EXP-AUD-05"
+AV004,avoid,all,"(avoid) °C, €/£ prices, metric sizes on US-primary",—,—,—,non-US,0,0,0,0,0,0,not_in_corpus,hypothesis,
+AV005,avoid,all,"(avoid) ""cheap"", ""free shipping worldwide"", ""COD""/""cash on delivery""",—,—,—,price-sensitive / COD markets (hypothesis),0,0,0,0,0,0,not_in_corpus,hypothesis,COD language is standard in markets with low card penetration: HYPOTHESIS
+AV006,avoid,all,"(avoid) global-only brands as the hook (IKEA, Amazon, Shein, Temu)",—,—,—,global,0,3,0,755000,0,0,seen,hypothesis,Reach without targeting value

@@ -1,0 +1,2667 @@
+{
+ "id": "concept_2026-10-20_trumpglow_F09",
+ "kind": "concept_test",
+ "product": "trumpglow",
+ "status": "AWAITING_OMAR_APPROVAL",
+ "created_pt": "2026-10-20T17:11:06-07:00",
+ "why": "innovation slot: F09 Gift Outcome is this product's least-tried format (arms n=0)",
+ "poc": [
+  "ext ccreamyco IG 'got my gf this & now she won't stop…' 12.1M (TikTok 2.5M)",
+  "ext 'The best Christmas gift for your husband😉🎄' 1.0M",
+  "ext 'I found the best gift for my wife' 13.5M (paid flag)"
+ ],
+ "credits": 200.0,
+ "credit_cap": 200.0,
+ "quote": {
+  "lines": [
+   {
+    "gen": "H",
+    "item": "start frame x2 images",
+    "credits": 13.0
+   },
+   {
+    "gen": "H",
+    "item": "video 1080p 4s",
+    "credits": 64
+   },
+   {
+    "gen": "B1",
+    "item": "start frame x2 images",
+    "credits": 13.0
+   },
+   {
+    "gen": "B1",
+    "item": "video 720p 4s",
+    "credits": 28
+   },
+   {
+    "gen": "B2",
+    "item": "start frame x2 images",
+    "credits": 13.0
+   },
+   {
+    "gen": "B2",
+    "item": "video 720p 4s",
+    "credits": 28
+   },
+   {
+    "gen": "B3",
+    "item": "start frame x2 images",
+    "credits": 13.0
+   },
+   {
+    "gen": "B3",
+    "item": "video 720p 4s",
+    "credits": 28
+   }
+  ],
+  "stills": 52.0,
+  "video": 148,
+  "total": 200.0,
+  "basis": {
+   "still_gpt_image_2": 6.5,
+   "seedance_2_5_1080p_4s": 64,
+   "seedance_2_5_720p_4s": 28,
+   "per_s_1080p": 16,
+   "per_s_720p": 7
+  }
+ },
+ "gates": {
+  "ok": true,
+  "blocks": [],
+  "warns": [
+   "G2: hook not in a proven format (Don't show this to a ___ / POV street JEALOUS / don't walk RUN to [store])",
+   "G5: plan.credits 174.0 differs from per-output quote 200.0; use the quote",
+   "G11: opener H runs 3.30s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+   "G13: H: shot 1: 3 actions (max ~2)",
+   "G13: B2: shot 2: 3 actions (max ~2)",
+   "G13: B3: complex motion 'orbit' - AI looks fake; keep it simple",
+   "G22: post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]"
+  ]
+ },
+ "preflight": {
+  "ok": true,
+  "fix": []
+ },
+ "ready_for_approval": true,
+ "approval_file_draft": {
+  "approved_by": "",
+  "approved_at_pt": "",
+  "approval_quote": "",
+  "run_id": "concept_2026-10-20_trumpglow_F09",
+  "plan_sha256": "a1d81ae6e5eb59a8c1be5e0d9bda889c33935fe7c26cf3c87c805797b3260994",
+  "gens": [
+   "H",
+   "B1",
+   "B2",
+   "B3"
+  ],
+  "account": "user-Higgsfield--new-account",
+  "credit_cap": 200.0,
+  "expires_pt": "2026-10-21T17:11:06-07:00",
+  "consumed": false
+ },
+ "plan": {
+  "status": "PLANNED",
+  "brief": {
+   "brief": "Gift Outcome video for the TrumpGlow / PatriotsGlow",
+   "product_key": "trumpglow",
+   "format": "F09",
+   "variant": false,
+   "hook_option": null,
+   "slot": "experiment"
+  },
+  "product": {
+   "key": "trumpglow",
+   "display": "TrumpGlow car door projector",
+   "energy": 3,
+   "world": "the truck at night: driveway, parking lot, the driver door opening; daytime install in the driveway"
+  },
+  "fit": {
+   "format": "F09",
+   "title": "Gift Outcome",
+   "verdict": "WEAK",
+   "score": 0.5,
+   "video_energy": 3,
+   "reasons": [
+    "no own evidence on this product (transfer)",
+    "format tier B (Gift Outcome)"
+   ]
+  },
+  "why_this_format": [
+   "no own evidence on this product (transfer)",
+   "format tier B (Gift Outcome)"
+  ],
+  "alternatives": [
+   {
+    "format": "F01",
+    "title": "3-2-1 Countdown Reveal",
+    "verdict": "OK",
+    "score": 1.0
+   },
+   {
+    "format": "F04",
+    "title": "Then-vs-Now (recent & retro year)",
+    "verdict": "OK",
+    "score": 1.0
+   },
+   {
+    "format": "F05",
+    "title": "Don't Show This To...",
+    "verdict": "OK",
+    "score": 1.0
+   }
+  ],
+  "setting": "driveway next to a pickup truck at night",
+  "adaptation": "none (format native)",
+  "hook_options_available": [],
+  "hook_option": null,
+  "hook": {
+   "text": "POV: your wife got this for your truck 😂🇺🇸",
+   "tag": "P",
+   "why": "Lumi Door 'POV: ur wife got this…' 1.2M views (POC-0258/0260)",
+   "cards": null,
+   "cards_source": null
+  },
+  "text_cards": [
+   {
+    "t": 0.0,
+    "dur": 13.1,
+    "text": "POV: your wife got this for your truck 😂🇺🇸",
+    "scale": 0.72
+   }
+  ],
+  "text_style": {
+   "source": "style/capcut_text_preset.json (version 1.0)",
+   "font": "TikTok Sans / system",
+   "size": 15,
+   "stroke": 0.09,
+   "color": "#ffffff",
+   "stroke_color": "#000000",
+   "capcut_y": 0.62,
+   "center_y_frac": 0.19,
+   "animation_in": null,
+   "animation_out": null,
+   "scale": 0.93,
+   "font_render": "/usr/share/fonts/truetype/sand-box/google/Montserrat/Montserrat-VariableFont_wght.ttf"
+  },
+  "shots": [
+   {
+    "code": "HOOK",
+    "t0": 0.0,
+    "t1": 3.3,
+    "desc": "hook visual; gadget legible at 0 s",
+    "gen": "H"
+   },
+   {
+    "code": "UNBOX",
+    "t0": 3.3,
+    "t1": 5.0,
+    "desc": "the box open in his hands in the driveway, the two black pods and magnets lifted out",
+    "gen": "B1"
+   },
+   {
+    "code": "DEMO1",
+    "t0": 5.0,
+    "t1": 6.8,
+    "desc": "feature 1: his hand peels the 3M backing off the black carbon pod",
+    "gen": "B1"
+   },
+   {
+    "code": "DEMO2",
+    "t0": 6.8,
+    "t1": 8.3,
+    "desc": "feature 2: he presses the pod onto the bottom of the inner door panel, no drilling",
+    "gen": "B2"
+   },
+   {
+    "code": "ACT",
+    "t0": 8.3,
+    "t1": 9.2,
+    "desc": "ACTIVATION: at night his hand pulls the door handle and the door swings open",
+    "gen": "B2"
+   },
+   {
+    "code": "RESULT",
+    "t0": 9.2,
+    "t1": 10.8,
+    "desc": "the camera tilts down and the round glowing Trump badge lands on the pavement under the door",
+    "gen": "B3"
+   },
+   {
+    "code": "PAYOFF",
+    "t0": 10.8,
+    "t1": 13.1,
+    "desc": "wide shot of the truck with both front doors open and two badges on the pavement, slow orbit; hard cut",
+    "gen": "B3"
+   }
+  ],
+  "gens": [
+   {
+    "id": "H",
+    "model": "seedance_2_5",
+    "res": "1080p",
+    "dur": 4,
+    "shots": [
+     "HOOK"
+    ],
+    "prompt": "Medium shot in a driveway: a woman already wearing/using the small black carbon-fibre-look square door projector pod with a round lens, and the round American Pride Trump badge it projects on the ground from <<<image_1>>> happily refuses to give it back as a man reaches for it, she laughs and turns away; product fills a third of the frame. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo in a driveway: a smiling woman wearing/using the small black carbon-fibre-look square door projector pod with a round lens, and the round American Pride Trump badge it projects on the ground from the first image on the couch, Christmas tree, small American flag; top 20% clear. Sharp, clean, realistic phone photo. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+      "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+     ]
+    },
+    "credits": 70.5,
+    "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this...' 1.2M (POC-0258/0260); NFL car door light 202K (POC-0277/0278)",
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+     "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+     "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+    ],
+    "ref_manifest": "refs/trumpglow/manifest.json"
+   },
+   {
+    "id": "B1",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 2.0,
+    "shots": [
+     "UNBOX",
+     "DEMO1"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a man's hands (POV) consistent throughout, next to a pickup truck in a driveway. Shot 1 (0-2s, UNBOX): the box open in his hands in the driveway, the two black pods and magnets lifted out. HARD CUT at 2s, no transition. Shot 2 (2-4s, DEMO1): feature 1: his hand peels the 3M backing off the black carbon pod. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo next to a pickup truck in a driveway: a man's hands (POV), the box open in his hands in the driveway, the two black pods and magnets lifted out, the door projector from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+      "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+     ]
+    },
+    "credits": 34.5,
+    "trims": {
+     "UNBOX": [
+      0.3,
+      2.0
+     ],
+     "DEMO1": [
+      2.0,
+      3.8
+     ]
+    },
+    "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this...' 1.2M (POC-0258/0260); NFL car door light 202K (POC-0277/0278)",
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+     "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+     "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+    ],
+    "ref_manifest": "refs/trumpglow/manifest.json"
+   },
+   {
+    "id": "B2",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 2.0,
+    "shots": [
+     "DEMO2",
+     "ACT"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a man's hands (POV) consistent throughout, next to a pickup truck in a driveway. Shot 1 (0-2s, DEMO2): feature 2: he presses the pod onto the bottom of the inner door panel, no drilling. HARD CUT at 2s, no transition. Shot 2 (2-4s, ACT): ACTIVATION: at night his hand pulls the door handle and the door swings open. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo next to a pickup truck in a driveway: a man's hands (POV), feature 2: he presses the pod onto the bottom of the inner door panel, no drilling, the door projector from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+      "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+     ]
+    },
+    "credits": 34.5,
+    "trims": {
+     "DEMO2": [
+      0.5,
+      2.0
+     ],
+     "ACT": [
+      2.0,
+      2.9
+     ]
+    },
+    "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this...' 1.2M (POC-0258/0260); NFL car door light 202K (POC-0277/0278)",
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+     "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+     "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+    ],
+    "ref_manifest": "refs/trumpglow/manifest.json"
+   },
+   {
+    "id": "B3",
+    "model": "seedance_2_5",
+    "res": "720p",
+    "dur": 4,
+    "cut": 1.7,
+    "shots": [
+     "RESULT",
+     "PAYOFF"
+    ],
+    "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a man's hands (POV) consistent throughout, next to a pickup truck in a driveway. Shot 1 (0-1.7s, RESULT): the camera tilts down and the round glowing Trump badge lands on the pavement under the door. HARD CUT at 1.7s, no transition. Shot 2 (1.7-4s, PAYOFF): wide shot of the truck with both front doors open and two badges on the pavement, slow orbit; hard cut. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+    "start_frame": {
+     "model": "gpt_image_2",
+     "prompt": "iPhone photo next to a pickup truck in a driveway: a man's hands (POV), the camera tilts down and the round glowing Trump badge lands on the pavement under the door, the door projector from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "refs": [
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+      "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+     ]
+    },
+    "credits": 34.5,
+    "trims": {
+     "RESULT": [
+      0.1,
+      1.7
+     ],
+     "PAYOFF": [
+      1.7,
+      4.0
+     ]
+    },
+    "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this...' 1.2M (POC-0258/0260); NFL car door light 202K (POC-0277/0278)",
+    "recreate_checks": [],
+    "source": "ai",
+    "grade": "iphone_subtle",
+    "reference_image_paths": [
+     "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+     "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+     "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+    ],
+    "ref_manifest": "refs/trumpglow/manifest.json"
+   }
+  ],
+  "duration": 13.1,
+  "hook_s": 3.3,
+  "music": {
+   "pick": {
+    "song": "acdc_you_shook_me",
+    "version": "AC/DC - You Shook Me All Night Long",
+    "offset_s": 48.29,
+    "energy": 4,
+    "region": "US-skewed",
+    "score": 2.0,
+    "why": "patriotglow audience song (songs.json slug; research/trumpglow/SONGS.md; in-point verified)"
+   },
+   "alternatives": [
+    {
+     "song": "free_bird_solo",
+     "version": "Lynyrd Skynyrd - Free Bird (album, solo)",
+     "offset_s": 290.72,
+     "energy": 4,
+     "region": "US-skewed",
+     "score": 2.0,
+     "why": "patriotglow audience song (songs.json slug; research/trumpglow/SONGS.md; in-point verified)"
+    },
+    {
+     "song": "free_bird_vocal",
+     "version": "Lynyrd Skynyrd - Free Bird (album, 'won't you fly free bird' vocal line)",
+     "offset_s": 276.65,
+     "energy": 4,
+     "region": "US-skewed",
+     "score": 2.0,
+     "why": "patriotglow audience song (songs.json slug; research/trumpglow/SONGS.md; in-point verified)"
+    }
+   ],
+   "rejected": [
+    {
+     "song": "last_christmas",
+     "reason": "niche christmas != patriot"
+    },
+    {
+     "song": "beginning_to_look",
+     "reason": "niche christmas != patriot"
+    },
+    {
+     "song": "jingle_bells_viibez",
+     "reason": "niche christmas != patriot"
+    },
+    {
+     "song": "aiwfc_intro",
+     "reason": "niche christmas != patriot"
+    },
+    {
+     "song": "holly_jolly",
+     "reason": "niche christmas != patriot"
+    },
+    {
+     "song": "free_bird",
+     "reason": "niche christmas != patriot"
+    },
+    {
+     "song": "boombastic_tiktok",
+     "reason": "niche christmas != patriot"
+    },
+    {
+     "song": "let_it_snow",
+     "reason": "niche christmas != patriot"
+    }
+   ]
+  },
+  "caption": {
+   "text": "Get yours👉{url}",
+   "why": "format default (no proven caption on this product) - experiment"
+  },
+  "banned_cta_found": [],
+  "posting": {
+   "page": "TG",
+   "exploit_windows_pt": null,
+   "explore_windows_pt": null,
+   "explore_share": 0.2
+  },
+  "credits": {
+   "total": 174.0,
+   "budget": 175,
+   "within_budget": true,
+   "reroll_reserve_max_1_shot": 64.0,
+   "breakdown": [
+    [
+     "H",
+     "1080p",
+     70.5
+    ],
+    [
+     "B1",
+     "720p",
+     34.5
+    ],
+    [
+     "B2",
+     "720p",
+     34.5
+    ],
+    [
+     "B3",
+     "720p",
+     34.5
+    ]
+   ],
+   "source": "inferred from Higgsfield transactions 2026-10-18 (read-only)"
+  },
+  "prompt_checks": [
+   "AUDIENCE-FIT AF1: acdc_you_shook_me: genre '' not in patriotglow allowed genres ['southern rock', 'classic rock', 'country', 'patriotic country', 'rally anthem', 'disco rally anthem']"
+  ],
+  "us_cues": [],
+  "proof_shot": {
+   "present": false,
+   "spec": null
+  },
+  "hook_variants": [
+   {
+    "text": "POV: your wife got this for your truck 😂🇺🇸",
+    "tag": "P",
+    "why": "Lumi Door 'POV: ur wife got this…' 1.2M views (POC-0258/0260)",
+    "cards": null,
+    "cards_source": null,
+    "rank": 1,
+    "role": "control (proven)"
+   },
+   {
+    "text": "The best Christmas gift for your husband😉🎄",
+    "tag": "P",
+    "why": "ext 1.0M",
+    "rank": 2,
+    "role": "variant",
+    "share_cta": false
+   },
+   {
+    "text": "got my husband this & now we never go inside😂",
+    "tag": "F",
+    "why": "ext 12.1M",
+    "rank": 3,
+    "role": "variant",
+    "share_cta": false
+   },
+   {
+    "text": "got my gf this & now she won't stop wearing it😂",
+    "tag": "F",
+    "why": "ext 12.1M",
+    "rank": 4,
+    "role": "variant",
+    "share_cta": false
+   }
+  ],
+  "covers": [
+   {
+    "role": "hook",
+    "t": 0.3,
+    "why": "product legible at 0 s + hook text"
+   },
+   {
+    "role": "activation",
+    "t": 8.75,
+    "why": "ACT mid-shot"
+   },
+   {
+    "role": "payoff",
+    "t": 11.95,
+    "why": "PAYOFF mid-shot"
+   }
+  ],
+  "season": {
+   "phase": "pre_season",
+   "levers": [
+    "gift formats ok",
+    "cozy/decor then-vs-now",
+    "Christmas music allowed (own Sep-Oct winners used it)"
+   ],
+   "gift_cutoff": null,
+   "delivery_claims_allowed": false,
+   "date": "2026-10-21",
+   "ly_season_prior": {
+    "format": {
+     "F09": {
+      "share": 0.354,
+      "prior_weight": 0.5,
+      "score": 0.0885,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     },
+     "F13": {
+      "share": 0.329,
+      "prior_weight": 0.5,
+      "score": 0.082,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     },
+     "F07": {
+      "share": 0.317,
+      "prior_weight": 0.5,
+      "score": 0.0795,
+      "n": 1,
+      "thin": true,
+      "confidence": "low"
+     }
+    },
+    "music": {
+     "no Shazam match (label: original sound)": {
+      "share": 0.218,
+      "prior_weight": 0.5,
+      "score": 0.109,
+      "n": 7,
+      "thin": false
+     },
+     "Fantasmic! (From Fantasmic!) [Disneyland] - Bruce Healey, Ned Washington, Sammy Cahn, Leigh Harline, Frank Churchill, Larry Morey, Alan Menken, Howard Ashman, Sammy Fain, Jack Wallace, Jack Lawrence, Oliver Wallace, Modest Mussorgsky, Barnette Ricci, Paul Dukas & Victor Young | in-point 41.3s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Total Eclipse of the Heart - Bonnie Tyler | in-point 46.7s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "All I Want for Christmas Is You - Mariah Carey | in-point 51.1s at video 0 | conf high": {
+      "share": 0.036,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Last Christmas (Single Version) - Wham! | in-point 34.8s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Oui, Oui, Oui, Oui - Sacha Distel | in-point -0.2s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Sleigh Ride - The Ronettes | in-point 48.2s at video 0 | conf high": {
+      "share": 0.035,
+      "prior_weight": 0.5,
+      "score": 0.018,
+      "n": 1,
+      "thin": false
+     },
+     "Rockin' Around The Christmas Tree - Brenda Lee | in-point -0.0s at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "no Shazam match (label: Elf - Main Theme)": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "Morning Bossa Nova - Bossa Nova Terrace | in-point unknowns at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "A Thousand Years - Christina Perri | in-point 18.9s at video 0 | conf high": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "no Shazam match (label: Rockin’ Around The Christmas Tree)": {
+      "share": 0.034,
+      "prior_weight": 0.5,
+      "score": 0.017,
+      "n": 1,
+      "thin": false
+     },
+     "Christmas (Baby Please Come Home) - Darlene Love | in-point 9.2s at video 0 | conf high": {
+      "share": 0.032,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Sleigh Ride - Ella Fitzgerald | in-point 10.8s at video 0 | conf high": {
+      "share": 0.032,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "last christmas": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Last Christmas (Single Version) - Wham! | in-point 74.1s at video 0 | conf high": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.016,
+      "n": 1,
+      "thin": false
+     },
+     "Rockin' Around The Christmas Tree - Brenda Lee | in-point 0.0s at video 0 | conf high": {
+      "share": 0.031,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Its Beginning to Look a Lot Like Christmas (2024 Remastered) - The Fontane Sisters | in-point 87.1s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Jingle Bell Rock - Bobby Helms | in-point 0.4s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "U Know What's Up (feat. Lisa \"Left Eye\" Lopes) - Donell Jones | in-point unknowns at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "All I Want for Christmas Is You - Mariah Carey | in-point 48.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Sakura - Lined Street - KCNX | in-point 0.0s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Upside Down - Jack Johnson | in-point 54.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "Run It - Jelly Roll | in-point 37.3s at video 0 | conf high": {
+      "share": 0.03,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     },
+     "original sound - demetra dias (platform label; not yet audio-ID'd) | Shazam: no match": {
+      "share": 0.029,
+      "prior_weight": 0.5,
+      "score": 0.015,
+      "n": 1,
+      "thin": false
+     }
+    },
+    "weight": 0.5
+   }
+  },
+  "posting_checklist": [
+   "FB: run the caption/thumbnail test with the hook variants + covers (up to 4)",
+   "IG: post experiment slots as Trial Reels",
+   "Final file: exported via autoedit.clean_export (metadata/C2PA stripped, D44); preflight asserts none remains"
+  ],
+  "mock_source": null,
+  "provenance": {
+   "text_style": "style/capcut_text_preset.json (version 1.0)",
+   "emojis": "engine default",
+   "shot_grammar": "style/shot_grammar.md",
+   "psych": "psychology/psych_codebook.csv",
+   "audience": [
+    "audience/lexicon.csv",
+    "audience/audience_rules.csv"
+   ],
+   "voice": "voice/voice_rules.csv"
+  },
+  "audience_fit": {
+   "ok": false,
+   "slug": "patriotglow",
+   "rows": [
+    {
+     "kind": "song",
+     "item": "acdc_you_shook_me",
+     "ok": false,
+     "reason": "genre '' not in patriotglow allowed genres ['southern rock', 'classic rock', 'country', 'patriotic country', 'rally anthem', 'disco rally anthem']",
+     "tier": null,
+     "in_point": "",
+     "evidence": []
+    },
+    {
+     "kind": "card",
+     "item": "POV: your wife got this for your truck 😂🇺🇸",
+     "ok": true,
+     "score": 0.75,
+     "reason": "voice: punchy all-American, a dig at fakes, ALL-CAPS emphasis on on; slang -",
+     "evidence": [
+      "own/ext hook: Lumi Door 'POV: ur wife got this…' 1.2M views (POC-0258/0260)"
+     ]
+    },
+    {
+     "kind": "emoji",
+     "item": "😂",
+     "ok": true,
+     "reason": "patriotglow: trolling laugh",
+     "evidence": [
+      "profile:audience/patriotglow.yaml emoji_allowed"
+     ]
+    },
+    {
+     "kind": "emoji",
+     "item": "🇺🇸",
+     "ok": true,
+     "reason": "patriotglow: US flag, core identity",
+     "evidence": [
+      "profile:audience/patriotglow.yaml emoji_allowed"
+     ]
+    },
+    {
+     "kind": "caption",
+     "item": "Get yours👉{url}",
+     "ok": true,
+     "score": 0.75,
+     "reason": "voice: punchy all-American, a dig at fakes, ALL-CAPS emphasis on on; slang -",
+     "evidence": [
+      "own: Get yours👉 6.6M (grinch_robe) / Get it here 152.9K (merryglow) - US FB pages"
+     ]
+    },
+    {
+     "kind": "emoji",
+     "item": "👉",
+     "ok": true,
+     "reason": "patriotglow: CTA",
+     "evidence": [
+      "profile:audience/patriotglow.yaml emoji_allowed"
+     ]
+    }
+   ]
+  },
+  "edit_defaults": [
+   {
+    "gen": "H",
+    "src_in": 0.0,
+    "src_out": 3.7,
+    "speed": 1.0
+   },
+   {
+    "gen": "B1",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B1",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   },
+   {
+    "gen": "B2",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B2",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   },
+   {
+    "gen": "B3",
+    "src_in": 1.05,
+    "src_out": 1.72,
+    "speed": 1.0
+   },
+   {
+    "gen": "B3",
+    "src_in": 2.12,
+    "src_out": 2.8,
+    "speed": 1.0
+   }
+  ],
+  "edit_lint": {
+   "ok": true,
+   "rows": [
+    {
+     "gen": "-",
+     "kind": "edit",
+     "rule": "ER11",
+     "severity": "WARN",
+     "text": "1 cards",
+     "fix": "3-card structure: problem -> Vs... -> solution"
+    },
+    {
+     "gen": "-",
+     "kind": "edit",
+     "rule": "ER17",
+     "severity": "WARN",
+     "text": "no key real sound boosted",
+     "fix": "boost the key real sound (scissors, door, tape, sparks) 2-4x"
+    }
+   ],
+   "defaults": {
+    "head_trim_s": 1.05,
+    "tail_trim_s": 1.2,
+    "first_head_trim_s": 0.0,
+    "split_pieces": [
+     2,
+     3
+    ],
+    "split_gap_s": 0.4,
+    "median_shot_s": 1.5,
+    "max_shot_s": 3.3,
+    "target_len_s": [
+     11.3,
+     16.833
+    ],
+    "shots": [
+     5,
+     11
+    ],
+    "cards": 3,
+    "speed": 1.0,
+    "action_speed": [
+     1.2,
+     1.5
+    ],
+    "scale": 1.0,
+    "clip_audio_volume": 1.0,
+    "key_sound_gain": [
+     2.0,
+     4.0
+    ],
+    "song_intro_exceptions": [
+     "holly_jolly",
+     "holly jolly"
+    ],
+    "opener_max_s": 4.1,
+    "hook_speed_values": [
+     1.1,
+     1.15,
+     1.2,
+     1.3,
+     1.5
+    ],
+    "max_card_lines": 2
+   }
+  },
+  "notes": [
+   "D75: no real footage in /workspace/research/product_footage/trumpglow yet; AI reveal kept"
+  ],
+  "resolution_fixes": [],
+  "quote": {
+   "lines": [
+    {
+     "gen": "H",
+     "item": "start frame x2 images",
+     "credits": 13.0
+    },
+    {
+     "gen": "H",
+     "item": "video 1080p 4s",
+     "credits": 64
+    },
+    {
+     "gen": "B1",
+     "item": "start frame x2 images",
+     "credits": 13.0
+    },
+    {
+     "gen": "B1",
+     "item": "video 720p 4s",
+     "credits": 28
+    },
+    {
+     "gen": "B2",
+     "item": "start frame x2 images",
+     "credits": 13.0
+    },
+    {
+     "gen": "B2",
+     "item": "video 720p 4s",
+     "credits": 28
+    },
+    {
+     "gen": "B3",
+     "item": "start frame x2 images",
+     "credits": 13.0
+    },
+    {
+     "gen": "B3",
+     "item": "video 720p 4s",
+     "credits": 28
+    }
+   ],
+   "stills": 52.0,
+   "video": 148,
+   "total": 200.0,
+   "basis": {
+    "still_gpt_image_2": 6.5,
+    "seedance_2_5_1080p_4s": 64,
+    "seedance_2_5_720p_4s": 28,
+    "per_s_1080p": 16,
+    "per_s_720p": 7
+   }
+  },
+  "gates": {
+   "ok": true,
+   "blocks": [],
+   "warns": [
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "WARN",
+     "msg": "hook not in a proven format (Don't show this to a ___ / POV street JEALOUS / don't walk RUN to [store])",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "WARN",
+     "msg": "plan.credits 174.0 differs from per-output quote 200.0; use the quote",
+     "poc": null
+    },
+    {
+     "gate": "G11",
+     "ok": true,
+     "level": "WARN",
+     "msg": "opener H runs 3.30s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+     "poc": null
+    },
+    {
+     "gate": "G13",
+     "ok": true,
+     "level": "WARN",
+     "msg": "H: shot 1: 3 actions (max ~2)",
+     "poc": null
+    },
+    {
+     "gate": "G13",
+     "ok": true,
+     "level": "WARN",
+     "msg": "B2: shot 2: 3 actions (max ~2)",
+     "poc": null
+    },
+    {
+     "gate": "G13",
+     "ok": true,
+     "level": "WARN",
+     "msg": "B3: complex motion 'orbit' - AI looks fake; keep it simple",
+     "poc": null
+    },
+    {
+     "gate": "G22",
+     "ok": true,
+     "level": "WARN",
+     "msg": "post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]",
+     "poc": null
+    }
+   ],
+   "rows": [
+    {
+     "gate": "G1",
+     "ok": true,
+     "level": "INFO",
+     "msg": "in-point 48.29s (had me fighting for air (= Apple preview 0 s = sta), verify xcorr 0.975",
+     "poc": "YouTube Lo2qQmj0_h4, channel AC/DC (official), \"AC/DC - You Shook Me All Night Long (Official 4K Video)\", bestaudio AAC 128k, fetched on Omar Mac 2026-10-19; time-stretch corrected atempo 0.987 to album timing"
+    },
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 'POV: your wife got this for your truck 😂🇺🇸' = 8 words (max 8, no exceptions)",
+     "poc": null
+    },
+    {
+     "gate": "G2",
+     "ok": true,
+     "level": "WARN",
+     "msg": "hook not in a proven format (Don't show this to a ___ / POV street JEALOUS / don't walk RUN to [store])",
+     "poc": null
+    },
+    {
+     "gate": "G3",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no profile bans contradict own data",
+     "poc": null
+    },
+    {
+     "gate": "G4",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 1080p, rest 720p",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "INFO",
+     "msg": "quote 200.0 credits (stills 52.0 counted per image, video 148)",
+     "poc": null
+    },
+    {
+     "gate": "G5",
+     "ok": true,
+     "level": "WARN",
+     "msg": "plan.credits 174.0 differs from per-output quote 200.0; use the quote",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no phonk",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "emoji render apple_ios (Apple iOS PNGs only)",
+     "poc": null
+    },
+    {
+     "gate": "G6",
+     "ok": true,
+     "level": "INFO",
+     "msg": "prompts ask for real ambient sound only",
+     "poc": null
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "hook 'POV: your wife got this for your truck 😂🇺🇸' <- Lumi Door 'POV: ur wife got this…' 1.2M views (POC-0258/0260)",
+     "poc": "Lumi Door 'POV: ur wife got this…' 1.2M views (POC-0258/0260)"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "caption 'Get yours👉{url}' <- own FB HeatedJammies insights fb_1624473615929591",
+     "poc": "POC-0298"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "song 'acdc_you_shook_me' <- YouTube Lo2qQmj0_h4, channel AC/DC (official), \"AC/DC - You Shook Me All Night Long (Offic",
+     "poc": "POC-0227"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "format '['no own evidence on this product (transfer)', 'fo' <- ['no own evidence on this product (transfer)', 'format tier B (Gift Outcome)']",
+     "poc": "['no own evidence on this product (transfer)', 'format tier B (Gift Outcome)']"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen H 'H' <- research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/02",
+     "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B1 'B1' <- research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/02",
+     "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B2 'B2' <- research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/02",
+     "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this"
+    },
+    {
+     "gate": "G7",
+     "ok": true,
+     "level": "INFO",
+     "msg": "gen B3 'B3' <- research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/02",
+     "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this"
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "H: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B1: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B2: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G9",
+     "ok": true,
+     "level": "INFO",
+     "msg": "B3: gaze OK for scene_type=organic",
+     "poc": null
+    },
+    {
+     "gate": "G10",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no on-screen URL CTA",
+     "poc": null
+    },
+    {
+     "gate": "G11",
+     "ok": true,
+     "level": "WARN",
+     "msg": "opener H runs 3.30s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+     "poc": null
+    },
+    {
+     "gate": "G12",
+     "ok": true,
+     "level": "INFO",
+     "msg": "every product shot has an action",
+     "poc": null
+    },
+    {
+     "gate": "G13",
+     "ok": true,
+     "level": "WARN",
+     "msg": "H: shot 1: 3 actions (max ~2)",
+     "poc": null
+    },
+    {
+     "gate": "G13",
+     "ok": true,
+     "level": "WARN",
+     "msg": "B2: shot 2: 3 actions (max ~2)",
+     "poc": null
+    },
+    {
+     "gate": "G13",
+     "ok": true,
+     "level": "WARN",
+     "msg": "B3: complex motion 'orbit' - AI looks fake; keep it simple",
+     "poc": null
+    },
+    {
+     "gate": "G14",
+     "ok": true,
+     "level": "INFO",
+     "msg": "Vs not in first card",
+     "poc": null
+    },
+    {
+     "gate": "G15",
+     "ok": true,
+     "level": "INFO",
+     "msg": "no lingering shots",
+     "poc": null
+    },
+    {
+     "gate": "G16",
+     "ok": true,
+     "level": "INFO",
+     "msg": "Seedance 2.5 / GPT Image 2 only, no end frames",
+     "poc": null
+    },
+    {
+     "gate": "G17",
+     "ok": true,
+     "level": "INFO",
+     "msg": "quote 200.0 cr vs budget 200",
+     "poc": null
+    },
+    {
+     "gate": "G18",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all gens <=5s",
+     "poc": null
+    },
+    {
+     "gate": "G19",
+     "ok": true,
+     "level": "INFO",
+     "msg": "card emojis proven and paired",
+     "poc": null
+    },
+    {
+     "gate": "G20",
+     "ok": true,
+     "level": "INFO",
+     "msg": "afters animated and distinct",
+     "poc": null
+    },
+    {
+     "gate": "G21",
+     "ok": true,
+     "level": "INFO",
+     "msg": "not a vs format",
+     "poc": null
+    },
+    {
+     "gate": "G22",
+     "ok": true,
+     "level": "WARN",
+     "msg": "post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]",
+     "poc": null
+    },
+    {
+     "gate": "G23",
+     "ok": true,
+     "level": "INFO",
+     "msg": "CTA uses SAY (no 'Comment')",
+     "poc": null
+    },
+    {
+     "gate": "G24",
+     "ok": true,
+     "level": "INFO",
+     "msg": "all settings inside the product world",
+     "poc": null
+    },
+    {
+     "gate": "G25",
+     "ok": true,
+     "level": "INFO",
+     "msg": "political lint clean (PL1-PL5)",
+     "poc": null
+    }
+   ]
+  }
+ },
+ "format": "F09",
+ "day": "2026-10-20",
+ "rank_score": 1.04,
+ "rank_parts": {
+  "poc": 0.79,
+  "poc_views": 2400000,
+  "season": 1.0,
+  "gap": 1.0,
+  "ref": 0.953
+ },
+ "rationale": "trumpglow F09: 1.04 = POC 0.79 (best cited 2,400,000 views) + season 1.0 (14 days to the Nov 3 midterms) + page gap 1.0 (never posted) + ref 0.953; 200.0 cr",
+ "lean": {
+  "option": "lean_1_still",
+  "still_variants": 1,
+  "credits": 174.0,
+  "plan": {
+   "status": "PLANNED",
+   "brief": {
+    "brief": "Gift Outcome video for the TrumpGlow / PatriotsGlow",
+    "product_key": "trumpglow",
+    "format": "F09",
+    "variant": false,
+    "hook_option": null,
+    "slot": "experiment"
+   },
+   "product": {
+    "key": "trumpglow",
+    "display": "TrumpGlow car door projector",
+    "energy": 3,
+    "world": "the truck at night: driveway, parking lot, the driver door opening; daytime install in the driveway"
+   },
+   "fit": {
+    "format": "F09",
+    "title": "Gift Outcome",
+    "verdict": "WEAK",
+    "score": 0.5,
+    "video_energy": 3,
+    "reasons": [
+     "no own evidence on this product (transfer)",
+     "format tier B (Gift Outcome)"
+    ]
+   },
+   "why_this_format": [
+    "no own evidence on this product (transfer)",
+    "format tier B (Gift Outcome)"
+   ],
+   "alternatives": [
+    {
+     "format": "F01",
+     "title": "3-2-1 Countdown Reveal",
+     "verdict": "OK",
+     "score": 1.0
+    },
+    {
+     "format": "F04",
+     "title": "Then-vs-Now (recent & retro year)",
+     "verdict": "OK",
+     "score": 1.0
+    },
+    {
+     "format": "F05",
+     "title": "Don't Show This To...",
+     "verdict": "OK",
+     "score": 1.0
+    }
+   ],
+   "setting": "driveway next to a pickup truck at night",
+   "adaptation": "none (format native)",
+   "hook_options_available": [],
+   "hook_option": null,
+   "hook": {
+    "text": "POV: your wife got this for your truck 😂🇺🇸",
+    "tag": "P",
+    "why": "Lumi Door 'POV: ur wife got this…' 1.2M views (POC-0258/0260)",
+    "cards": null,
+    "cards_source": null
+   },
+   "text_cards": [
+    {
+     "t": 0.0,
+     "dur": 13.1,
+     "text": "POV: your wife got this for your truck 😂🇺🇸",
+     "scale": 0.72
+    }
+   ],
+   "text_style": {
+    "source": "style/capcut_text_preset.json (version 1.0)",
+    "font": "TikTok Sans / system",
+    "size": 15,
+    "stroke": 0.09,
+    "color": "#ffffff",
+    "stroke_color": "#000000",
+    "capcut_y": 0.62,
+    "center_y_frac": 0.19,
+    "animation_in": null,
+    "animation_out": null,
+    "scale": 0.93,
+    "font_render": "/usr/share/fonts/truetype/sand-box/google/Montserrat/Montserrat-VariableFont_wght.ttf"
+   },
+   "shots": [
+    {
+     "code": "HOOK",
+     "t0": 0.0,
+     "t1": 3.3,
+     "desc": "hook visual; gadget legible at 0 s",
+     "gen": "H"
+    },
+    {
+     "code": "UNBOX",
+     "t0": 3.3,
+     "t1": 5.0,
+     "desc": "the box open in his hands in the driveway, the two black pods and magnets lifted out",
+     "gen": "B1"
+    },
+    {
+     "code": "DEMO1",
+     "t0": 5.0,
+     "t1": 6.8,
+     "desc": "feature 1: his hand peels the 3M backing off the black carbon pod",
+     "gen": "B1"
+    },
+    {
+     "code": "DEMO2",
+     "t0": 6.8,
+     "t1": 8.3,
+     "desc": "feature 2: he presses the pod onto the bottom of the inner door panel, no drilling",
+     "gen": "B2"
+    },
+    {
+     "code": "ACT",
+     "t0": 8.3,
+     "t1": 9.2,
+     "desc": "ACTIVATION: at night his hand pulls the door handle and the door swings open",
+     "gen": "B2"
+    },
+    {
+     "code": "RESULT",
+     "t0": 9.2,
+     "t1": 10.8,
+     "desc": "the camera tilts down and the round glowing Trump badge lands on the pavement under the door",
+     "gen": "B3"
+    },
+    {
+     "code": "PAYOFF",
+     "t0": 10.8,
+     "t1": 13.1,
+     "desc": "wide shot of the truck with both front doors open and two badges on the pavement, slow orbit; hard cut",
+     "gen": "B3"
+    }
+   ],
+   "gens": [
+    {
+     "id": "H",
+     "model": "seedance_2_5",
+     "res": "1080p",
+     "dur": 4,
+     "shots": [
+      "HOOK"
+     ],
+     "prompt": "Medium shot in a driveway: a woman already wearing/using the small black carbon-fibre-look square door projector pod with a round lens, and the round American Pride Trump badge it projects on the ground from <<<image_1>>> happily refuses to give it back as a man reaches for it, she laughs and turns away; product fills a third of the frame. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "start_frame": {
+      "model": "gpt_image_2",
+      "prompt": "iPhone photo in a driveway: a smiling woman wearing/using the small black carbon-fibre-look square door projector pod with a round lens, and the round American Pride Trump badge it projects on the ground from the first image on the couch, Christmas tree, small American flag; top 20% clear. Sharp, clean, realistic phone photo. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+      "refs": [
+       "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+       "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+       "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+      ],
+      "n": 1
+     },
+     "credits": 70.5,
+     "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this...' 1.2M (POC-0258/0260); NFL car door light 202K (POC-0277/0278)",
+     "recreate_checks": [],
+     "source": "ai",
+     "grade": "iphone_subtle",
+     "reference_image_paths": [
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+      "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+     ],
+     "ref_manifest": "refs/trumpglow/manifest.json"
+    },
+    {
+     "id": "B1",
+     "model": "seedance_2_5",
+     "res": "720p",
+     "dur": 4,
+     "cut": 2.0,
+     "shots": [
+      "UNBOX",
+      "DEMO1"
+     ],
+     "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a man's hands (POV) consistent throughout, next to a pickup truck in a driveway. Shot 1 (0-2s, UNBOX): the box open in his hands in the driveway, the two black pods and magnets lifted out. HARD CUT at 2s, no transition. Shot 2 (2-4s, DEMO1): feature 1: his hand peels the 3M backing off the black carbon pod. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "start_frame": {
+      "model": "gpt_image_2",
+      "prompt": "iPhone photo next to a pickup truck in a driveway: a man's hands (POV), the box open in his hands in the driveway, the two black pods and magnets lifted out, the door projector from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+      "refs": [
+       "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+       "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+       "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+      ],
+      "n": 1
+     },
+     "credits": 34.5,
+     "trims": {
+      "UNBOX": [
+       0.3,
+       2.0
+      ],
+      "DEMO1": [
+       2.0,
+       3.8
+      ]
+     },
+     "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this...' 1.2M (POC-0258/0260); NFL car door light 202K (POC-0277/0278)",
+     "recreate_checks": [],
+     "source": "ai",
+     "grade": "iphone_subtle",
+     "reference_image_paths": [
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+      "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+     ],
+     "ref_manifest": "refs/trumpglow/manifest.json"
+    },
+    {
+     "id": "B2",
+     "model": "seedance_2_5",
+     "res": "720p",
+     "dur": 4,
+     "cut": 2.0,
+     "shots": [
+      "DEMO2",
+      "ACT"
+     ],
+     "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a man's hands (POV) consistent throughout, next to a pickup truck in a driveway. Shot 1 (0-2s, DEMO2): feature 2: he presses the pod onto the bottom of the inner door panel, no drilling. HARD CUT at 2s, no transition. Shot 2 (2-4s, ACT): ACTIVATION: at night his hand pulls the door handle and the door swings open. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "start_frame": {
+      "model": "gpt_image_2",
+      "prompt": "iPhone photo next to a pickup truck in a driveway: a man's hands (POV), feature 2: he presses the pod onto the bottom of the inner door panel, no drilling, the door projector from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+      "refs": [
+       "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+       "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+       "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+      ],
+      "n": 1
+     },
+     "credits": 34.5,
+     "trims": {
+      "DEMO2": [
+       0.5,
+       2.0
+      ],
+      "ACT": [
+       2.0,
+       2.9
+      ]
+     },
+     "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this...' 1.2M (POC-0258/0260); NFL car door light 202K (POC-0277/0278)",
+     "recreate_checks": [],
+     "source": "ai",
+     "grade": "iphone_subtle",
+     "reference_image_paths": [
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+      "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+     ],
+     "ref_manifest": "refs/trumpglow/manifest.json"
+    },
+    {
+     "id": "B3",
+     "model": "seedance_2_5",
+     "res": "720p",
+     "dur": 4,
+     "cut": 1.7,
+     "shots": [
+      "RESULT",
+      "PAYOFF"
+     ],
+     "prompt": "Handheld iPhone video, real-time normal speed, starting from the start frame. Keep a man's hands (POV) consistent throughout, next to a pickup truck in a driveway. Shot 1 (0-1.7s, RESULT): the camera tilts down and the round glowing Trump badge lands on the pavement under the door. HARD CUT at 1.7s, no transition. Shot 2 (1.7-4s, PAYOFF): wide shot of the truck with both front doors open and two badges on the pavement, slow orbit; hard cut. The product always looks exactly like <<<image_1>>> and stays identical in both shots (same parts, same design); bags and boxes open naturally, plugs and fit look real, store shelves look lived-in rather than perfect. No text, no captions, no logos. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage. Motion: one subject, one simple action (plus at most one natural follow-through), short and slow, real-world physics, handheld iPhone framing with slight natural sway, no fast camera moves.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+     "start_frame": {
+      "model": "gpt_image_2",
+      "prompt": "iPhone photo next to a pickup truck in a driveway: a man's hands (POV), the camera tilts down and the round glowing Trump badge lands on the pavement under the door, the door projector from the first image installed/held but still switched OFF: dark, no colours, pictures or glow yet (the reveal comes later). Top 20% clear for text. Sharp, clean, realistic phone photo. A small American flag is visible in the background. Natural ambient sound only: real voices and action sounds that match what happens on screen, no added sound effects, no music.\n\nshot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
+      "refs": [
+       "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+       "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+       "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+      ],
+      "n": 1
+     },
+     "credits": 34.5,
+     "trims": {
+      "RESULT": [
+       0.1,
+       1.7
+      ],
+      "PAYOFF": [
+       1.7,
+       4.0
+      ]
+     },
+     "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this...' 1.2M (POC-0258/0260); NFL car door light 202K (POC-0277/0278)",
+     "recreate_checks": [],
+     "source": "ai",
+     "grade": "iphone_subtle",
+     "reference_image_paths": [
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_a.png",
+      "/workspace/hookforge/refs/trumpglow/product/trumpglow_projector_rally_b.png",
+      "/workspace/hookforge/refs/trumpglow/cast/cast_man_hands_top.png"
+     ],
+     "ref_manifest": "refs/trumpglow/manifest.json"
+    }
+   ],
+   "duration": 13.1,
+   "hook_s": 3.3,
+   "music": {
+    "pick": {
+     "song": "acdc_you_shook_me",
+     "version": "AC/DC - You Shook Me All Night Long",
+     "offset_s": 48.29,
+     "energy": 4,
+     "region": "US-skewed",
+     "score": 2.0,
+     "why": "patriotglow audience song (songs.json slug; research/trumpglow/SONGS.md; in-point verified)"
+    },
+    "alternatives": [
+     {
+      "song": "free_bird_solo",
+      "version": "Lynyrd Skynyrd - Free Bird (album, solo)",
+      "offset_s": 290.72,
+      "energy": 4,
+      "region": "US-skewed",
+      "score": 2.0,
+      "why": "patriotglow audience song (songs.json slug; research/trumpglow/SONGS.md; in-point verified)"
+     },
+     {
+      "song": "free_bird_vocal",
+      "version": "Lynyrd Skynyrd - Free Bird (album, 'won't you fly free bird' vocal line)",
+      "offset_s": 276.65,
+      "energy": 4,
+      "region": "US-skewed",
+      "score": 2.0,
+      "why": "patriotglow audience song (songs.json slug; research/trumpglow/SONGS.md; in-point verified)"
+     }
+    ],
+    "rejected": [
+     {
+      "song": "last_christmas",
+      "reason": "niche christmas != patriot"
+     },
+     {
+      "song": "beginning_to_look",
+      "reason": "niche christmas != patriot"
+     },
+     {
+      "song": "jingle_bells_viibez",
+      "reason": "niche christmas != patriot"
+     },
+     {
+      "song": "aiwfc_intro",
+      "reason": "niche christmas != patriot"
+     },
+     {
+      "song": "holly_jolly",
+      "reason": "niche christmas != patriot"
+     },
+     {
+      "song": "free_bird",
+      "reason": "niche christmas != patriot"
+     },
+     {
+      "song": "boombastic_tiktok",
+      "reason": "niche christmas != patriot"
+     },
+     {
+      "song": "let_it_snow",
+      "reason": "niche christmas != patriot"
+     }
+    ]
+   },
+   "caption": {
+    "text": "Get yours👉{url}",
+    "why": "format default (no proven caption on this product) - experiment"
+   },
+   "banned_cta_found": [],
+   "posting": {
+    "page": "TG",
+    "exploit_windows_pt": null,
+    "explore_windows_pt": null,
+    "explore_share": 0.2
+   },
+   "credits": {
+    "total": 174.0,
+    "budget": 175,
+    "within_budget": true,
+    "reroll_reserve_max_1_shot": 64.0,
+    "breakdown": [
+     [
+      "H",
+      "1080p",
+      70.5
+     ],
+     [
+      "B1",
+      "720p",
+      34.5
+     ],
+     [
+      "B2",
+      "720p",
+      34.5
+     ],
+     [
+      "B3",
+      "720p",
+      34.5
+     ]
+    ],
+    "source": "inferred from Higgsfield transactions 2026-10-18 (read-only)"
+   },
+   "prompt_checks": [
+    "AUDIENCE-FIT AF1: acdc_you_shook_me: genre '' not in patriotglow allowed genres ['southern rock', 'classic rock', 'country', 'patriotic country', 'rally anthem', 'disco rally anthem']"
+   ],
+   "us_cues": [],
+   "proof_shot": {
+    "present": false,
+    "spec": null
+   },
+   "hook_variants": [
+    {
+     "text": "POV: your wife got this for your truck 😂🇺🇸",
+     "tag": "P",
+     "why": "Lumi Door 'POV: ur wife got this…' 1.2M views (POC-0258/0260)",
+     "cards": null,
+     "cards_source": null,
+     "rank": 1,
+     "role": "control (proven)"
+    },
+    {
+     "text": "The best Christmas gift for your husband😉🎄",
+     "tag": "P",
+     "why": "ext 1.0M",
+     "rank": 2,
+     "role": "variant",
+     "share_cta": false
+    },
+    {
+     "text": "got my husband this & now we never go inside😂",
+     "tag": "F",
+     "why": "ext 12.1M",
+     "rank": 3,
+     "role": "variant",
+     "share_cta": false
+    },
+    {
+     "text": "got my gf this & now she won't stop wearing it😂",
+     "tag": "F",
+     "why": "ext 12.1M",
+     "rank": 4,
+     "role": "variant",
+     "share_cta": false
+    }
+   ],
+   "covers": [
+    {
+     "role": "hook",
+     "t": 0.3,
+     "why": "product legible at 0 s + hook text"
+    },
+    {
+     "role": "activation",
+     "t": 8.75,
+     "why": "ACT mid-shot"
+    },
+    {
+     "role": "payoff",
+     "t": 11.95,
+     "why": "PAYOFF mid-shot"
+    }
+   ],
+   "season": {
+    "phase": "pre_season",
+    "levers": [
+     "gift formats ok",
+     "cozy/decor then-vs-now",
+     "Christmas music allowed (own Sep-Oct winners used it)"
+    ],
+    "gift_cutoff": null,
+    "delivery_claims_allowed": false,
+    "date": "2026-10-21",
+    "ly_season_prior": {
+     "format": {
+      "F09": {
+       "share": 0.354,
+       "prior_weight": 0.5,
+       "score": 0.0885,
+       "n": 1,
+       "thin": true,
+       "confidence": "low"
+      },
+      "F13": {
+       "share": 0.329,
+       "prior_weight": 0.5,
+       "score": 0.082,
+       "n": 1,
+       "thin": true,
+       "confidence": "low"
+      },
+      "F07": {
+       "share": 0.317,
+       "prior_weight": 0.5,
+       "score": 0.0795,
+       "n": 1,
+       "thin": true,
+       "confidence": "low"
+      }
+     },
+     "music": {
+      "no Shazam match (label: original sound)": {
+       "share": 0.218,
+       "prior_weight": 0.5,
+       "score": 0.109,
+       "n": 7,
+       "thin": false
+      },
+      "Fantasmic! (From Fantasmic!) [Disneyland] - Bruce Healey, Ned Washington, Sammy Cahn, Leigh Harline, Frank Churchill, Larry Morey, Alan Menken, Howard Ashman, Sammy Fain, Jack Wallace, Jack Lawrence, Oliver Wallace, Modest Mussorgsky, Barnette Ricci, Paul Dukas & Victor Young | in-point 41.3s at video 0 | conf high": {
+       "share": 0.036,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "Total Eclipse of the Heart - Bonnie Tyler | in-point 46.7s at video 0 | conf high": {
+       "share": 0.036,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "All I Want for Christmas Is You - Mariah Carey | in-point 51.1s at video 0 | conf high": {
+       "share": 0.036,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "Last Christmas (Single Version) - Wham! | in-point 34.8s at video 0 | conf high": {
+       "share": 0.035,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "Oui, Oui, Oui, Oui - Sacha Distel | in-point -0.2s at video 0 | conf high": {
+       "share": 0.035,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "Sleigh Ride - The Ronettes | in-point 48.2s at video 0 | conf high": {
+       "share": 0.035,
+       "prior_weight": 0.5,
+       "score": 0.018,
+       "n": 1,
+       "thin": false
+      },
+      "Rockin' Around The Christmas Tree - Brenda Lee | in-point -0.0s at video 0 | conf high": {
+       "share": 0.034,
+       "prior_weight": 0.5,
+       "score": 0.017,
+       "n": 1,
+       "thin": false
+      },
+      "no Shazam match (label: Elf - Main Theme)": {
+       "share": 0.034,
+       "prior_weight": 0.5,
+       "score": 0.017,
+       "n": 1,
+       "thin": false
+      },
+      "Morning Bossa Nova - Bossa Nova Terrace | in-point unknowns at video 0 | conf high": {
+       "share": 0.034,
+       "prior_weight": 0.5,
+       "score": 0.017,
+       "n": 1,
+       "thin": false
+      },
+      "A Thousand Years - Christina Perri | in-point 18.9s at video 0 | conf high": {
+       "share": 0.034,
+       "prior_weight": 0.5,
+       "score": 0.017,
+       "n": 1,
+       "thin": false
+      },
+      "no Shazam match (label: Rockin’ Around The Christmas Tree)": {
+       "share": 0.034,
+       "prior_weight": 0.5,
+       "score": 0.017,
+       "n": 1,
+       "thin": false
+      },
+      "Christmas (Baby Please Come Home) - Darlene Love | in-point 9.2s at video 0 | conf high": {
+       "share": 0.032,
+       "prior_weight": 0.5,
+       "score": 0.016,
+       "n": 1,
+       "thin": false
+      },
+      "Sleigh Ride - Ella Fitzgerald | in-point 10.8s at video 0 | conf high": {
+       "share": 0.032,
+       "prior_weight": 0.5,
+       "score": 0.016,
+       "n": 1,
+       "thin": false
+      },
+      "last christmas": {
+       "share": 0.031,
+       "prior_weight": 0.5,
+       "score": 0.016,
+       "n": 1,
+       "thin": false
+      },
+      "Last Christmas (Single Version) - Wham! | in-point 74.1s at video 0 | conf high": {
+       "share": 0.031,
+       "prior_weight": 0.5,
+       "score": 0.016,
+       "n": 1,
+       "thin": false
+      },
+      "Rockin' Around The Christmas Tree - Brenda Lee | in-point 0.0s at video 0 | conf high": {
+       "share": 0.031,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "Its Beginning to Look a Lot Like Christmas (2024 Remastered) - The Fontane Sisters | in-point 87.1s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "Jingle Bell Rock - Bobby Helms | in-point 0.4s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "U Know What's Up (feat. Lisa \"Left Eye\" Lopes) - Donell Jones | in-point unknowns at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "All I Want for Christmas Is You - Mariah Carey | in-point 48.3s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "Sakura - Lined Street - KCNX | in-point 0.0s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "Upside Down - Jack Johnson | in-point 54.3s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "Run It - Jelly Roll | in-point 37.3s at video 0 | conf high": {
+       "share": 0.03,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      },
+      "original sound - demetra dias (platform label; not yet audio-ID'd) | Shazam: no match": {
+       "share": 0.029,
+       "prior_weight": 0.5,
+       "score": 0.015,
+       "n": 1,
+       "thin": false
+      }
+     },
+     "weight": 0.5
+    }
+   },
+   "posting_checklist": [
+    "FB: run the caption/thumbnail test with the hook variants + covers (up to 4)",
+    "IG: post experiment slots as Trial Reels",
+    "Final file: exported via autoedit.clean_export (metadata/C2PA stripped, D44); preflight asserts none remains"
+   ],
+   "mock_source": null,
+   "provenance": {
+    "text_style": "style/capcut_text_preset.json (version 1.0)",
+    "emojis": "engine default",
+    "shot_grammar": "style/shot_grammar.md",
+    "psych": "psychology/psych_codebook.csv",
+    "audience": [
+     "audience/lexicon.csv",
+     "audience/audience_rules.csv"
+    ],
+    "voice": "voice/voice_rules.csv"
+   },
+   "audience_fit": {
+    "ok": false,
+    "slug": "patriotglow",
+    "rows": [
+     {
+      "kind": "song",
+      "item": "acdc_you_shook_me",
+      "ok": false,
+      "reason": "genre '' not in patriotglow allowed genres ['southern rock', 'classic rock', 'country', 'patriotic country', 'rally anthem', 'disco rally anthem']",
+      "tier": null,
+      "in_point": "",
+      "evidence": []
+     },
+     {
+      "kind": "card",
+      "item": "POV: your wife got this for your truck 😂🇺🇸",
+      "ok": true,
+      "score": 0.75,
+      "reason": "voice: punchy all-American, a dig at fakes, ALL-CAPS emphasis on on; slang -",
+      "evidence": [
+       "own/ext hook: Lumi Door 'POV: ur wife got this…' 1.2M views (POC-0258/0260)"
+      ]
+     },
+     {
+      "kind": "emoji",
+      "item": "😂",
+      "ok": true,
+      "reason": "patriotglow: trolling laugh",
+      "evidence": [
+       "profile:audience/patriotglow.yaml emoji_allowed"
+      ]
+     },
+     {
+      "kind": "emoji",
+      "item": "🇺🇸",
+      "ok": true,
+      "reason": "patriotglow: US flag, core identity",
+      "evidence": [
+       "profile:audience/patriotglow.yaml emoji_allowed"
+      ]
+     },
+     {
+      "kind": "caption",
+      "item": "Get yours👉{url}",
+      "ok": true,
+      "score": 0.75,
+      "reason": "voice: punchy all-American, a dig at fakes, ALL-CAPS emphasis on on; slang -",
+      "evidence": [
+       "own: Get yours👉 6.6M (grinch_robe) / Get it here 152.9K (merryglow) - US FB pages"
+      ]
+     },
+     {
+      "kind": "emoji",
+      "item": "👉",
+      "ok": true,
+      "reason": "patriotglow: CTA",
+      "evidence": [
+       "profile:audience/patriotglow.yaml emoji_allowed"
+      ]
+     }
+    ]
+   },
+   "edit_defaults": [
+    {
+     "gen": "H",
+     "src_in": 0.0,
+     "src_out": 3.7,
+     "speed": 1.0
+    },
+    {
+     "gen": "B1",
+     "src_in": 1.05,
+     "src_out": 1.72,
+     "speed": 1.0
+    },
+    {
+     "gen": "B1",
+     "src_in": 2.12,
+     "src_out": 2.8,
+     "speed": 1.0
+    },
+    {
+     "gen": "B2",
+     "src_in": 1.05,
+     "src_out": 1.72,
+     "speed": 1.0
+    },
+    {
+     "gen": "B2",
+     "src_in": 2.12,
+     "src_out": 2.8,
+     "speed": 1.0
+    },
+    {
+     "gen": "B3",
+     "src_in": 1.05,
+     "src_out": 1.72,
+     "speed": 1.0
+    },
+    {
+     "gen": "B3",
+     "src_in": 2.12,
+     "src_out": 2.8,
+     "speed": 1.0
+    }
+   ],
+   "edit_lint": {
+    "ok": true,
+    "rows": [
+     {
+      "gen": "-",
+      "kind": "edit",
+      "rule": "ER11",
+      "severity": "WARN",
+      "text": "1 cards",
+      "fix": "3-card structure: problem -> Vs... -> solution"
+     },
+     {
+      "gen": "-",
+      "kind": "edit",
+      "rule": "ER17",
+      "severity": "WARN",
+      "text": "no key real sound boosted",
+      "fix": "boost the key real sound (scissors, door, tape, sparks) 2-4x"
+     }
+    ],
+    "defaults": {
+     "head_trim_s": 1.05,
+     "tail_trim_s": 1.2,
+     "first_head_trim_s": 0.0,
+     "split_pieces": [
+      2,
+      3
+     ],
+     "split_gap_s": 0.4,
+     "median_shot_s": 1.5,
+     "max_shot_s": 3.3,
+     "target_len_s": [
+      11.3,
+      16.833
+     ],
+     "shots": [
+      5,
+      11
+     ],
+     "cards": 3,
+     "speed": 1.0,
+     "action_speed": [
+      1.2,
+      1.5
+     ],
+     "scale": 1.0,
+     "clip_audio_volume": 1.0,
+     "key_sound_gain": [
+      2.0,
+      4.0
+     ],
+     "song_intro_exceptions": [
+      "holly_jolly",
+      "holly jolly"
+     ],
+     "opener_max_s": 4.1,
+     "hook_speed_values": [
+      1.1,
+      1.15,
+      1.2,
+      1.3,
+      1.5
+     ],
+     "max_card_lines": 2
+    }
+   },
+   "notes": [
+    "D75: no real footage in /workspace/research/product_footage/trumpglow yet; AI reveal kept"
+   ],
+   "resolution_fixes": [],
+   "quote": {
+    "lines": [
+     {
+      "gen": "H",
+      "item": "start frame x1 images",
+      "credits": 6.5
+     },
+     {
+      "gen": "H",
+      "item": "video 1080p 4s",
+      "credits": 64
+     },
+     {
+      "gen": "B1",
+      "item": "start frame x1 images",
+      "credits": 6.5
+     },
+     {
+      "gen": "B1",
+      "item": "video 720p 4s",
+      "credits": 28
+     },
+     {
+      "gen": "B2",
+      "item": "start frame x1 images",
+      "credits": 6.5
+     },
+     {
+      "gen": "B2",
+      "item": "video 720p 4s",
+      "credits": 28
+     },
+     {
+      "gen": "B3",
+      "item": "start frame x1 images",
+      "credits": 6.5
+     },
+     {
+      "gen": "B3",
+      "item": "video 720p 4s",
+      "credits": 28
+     }
+    ],
+    "stills": 26.0,
+    "video": 148,
+    "total": 174.0,
+    "basis": {
+     "still_gpt_image_2": 6.5,
+     "seedance_2_5_1080p_4s": 64,
+     "seedance_2_5_720p_4s": 28,
+     "per_s_1080p": 16,
+     "per_s_720p": 7
+    }
+   },
+   "gates": {
+    "ok": true,
+    "blocks": [],
+    "warns": [
+     {
+      "gate": "G2",
+      "ok": true,
+      "level": "WARN",
+      "msg": "hook not in a proven format (Don't show this to a ___ / POV street JEALOUS / don't walk RUN to [store])",
+      "poc": null
+     },
+     {
+      "gate": "G5",
+      "ok": true,
+      "level": "WARN",
+      "msg": "plan.credits 174.0 differs from per-output quote 200.0; use the quote",
+      "poc": null
+     },
+     {
+      "gate": "G11",
+      "ok": true,
+      "level": "WARN",
+      "msg": "opener H runs 3.30s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+      "poc": null
+     },
+     {
+      "gate": "G13",
+      "ok": true,
+      "level": "WARN",
+      "msg": "H: shot 1: 3 actions (max ~2)",
+      "poc": null
+     },
+     {
+      "gate": "G13",
+      "ok": true,
+      "level": "WARN",
+      "msg": "B2: shot 2: 3 actions (max ~2)",
+      "poc": null
+     },
+     {
+      "gate": "G13",
+      "ok": true,
+      "level": "WARN",
+      "msg": "B3: complex motion 'orbit' - AI looks fake; keep it simple",
+      "poc": null
+     },
+     {
+      "gate": "G22",
+      "ok": true,
+      "level": "WARN",
+      "msg": "post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]",
+      "poc": null
+     }
+    ],
+    "rows": [
+     {
+      "gate": "G1",
+      "ok": true,
+      "level": "INFO",
+      "msg": "in-point 48.29s (had me fighting for air (= Apple preview 0 s = sta), verify xcorr 0.975",
+      "poc": "YouTube Lo2qQmj0_h4, channel AC/DC (official), \"AC/DC - You Shook Me All Night Long (Official 4K Video)\", bestaudio AAC 128k, fetched on Omar Mac 2026-10-19; time-stretch corrected atempo 0.987 to album timing"
+     },
+     {
+      "gate": "G2",
+      "ok": true,
+      "level": "INFO",
+      "msg": "hook 'POV: your wife got this for your truck 😂🇺🇸' = 8 words (max 8, no exceptions)",
+      "poc": null
+     },
+     {
+      "gate": "G2",
+      "ok": true,
+      "level": "WARN",
+      "msg": "hook not in a proven format (Don't show this to a ___ / POV street JEALOUS / don't walk RUN to [store])",
+      "poc": null
+     },
+     {
+      "gate": "G3",
+      "ok": true,
+      "level": "INFO",
+      "msg": "no profile bans contradict own data",
+      "poc": null
+     },
+     {
+      "gate": "G4",
+      "ok": true,
+      "level": "INFO",
+      "msg": "hook 1080p, rest 720p",
+      "poc": null
+     },
+     {
+      "gate": "G5",
+      "ok": true,
+      "level": "INFO",
+      "msg": "quote 200.0 credits (stills 52.0 counted per image, video 148)",
+      "poc": null
+     },
+     {
+      "gate": "G5",
+      "ok": true,
+      "level": "WARN",
+      "msg": "plan.credits 174.0 differs from per-output quote 200.0; use the quote",
+      "poc": null
+     },
+     {
+      "gate": "G6",
+      "ok": true,
+      "level": "INFO",
+      "msg": "no phonk",
+      "poc": null
+     },
+     {
+      "gate": "G6",
+      "ok": true,
+      "level": "INFO",
+      "msg": "emoji render apple_ios (Apple iOS PNGs only)",
+      "poc": null
+     },
+     {
+      "gate": "G6",
+      "ok": true,
+      "level": "INFO",
+      "msg": "prompts ask for real ambient sound only",
+      "poc": null
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "hook 'POV: your wife got this for your truck 😂🇺🇸' <- Lumi Door 'POV: ur wife got this…' 1.2M views (POC-0258/0260)",
+      "poc": "Lumi Door 'POV: ur wife got this…' 1.2M views (POC-0258/0260)"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "caption 'Get yours👉{url}' <- own FB HeatedJammies insights fb_1624473615929591",
+      "poc": "POC-0298"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "song 'acdc_you_shook_me' <- YouTube Lo2qQmj0_h4, channel AC/DC (official), \"AC/DC - You Shook Me All Night Long (Offic",
+      "poc": "POC-0227"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "format '['no own evidence on this product (transfer)', 'fo' <- ['no own evidence on this product (transfer)', 'format tier B (Gift Outcome)']",
+      "poc": "['no own evidence on this product (transfer)', 'format tier B (Gift Outcome)']"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "gen H 'H' <- research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/02",
+      "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "gen B1 'B1' <- research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/02",
+      "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "gen B2 'B2' <- research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/02",
+      "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this"
+     },
+     {
+      "gate": "G7",
+      "ok": true,
+      "level": "INFO",
+      "msg": "gen B3 'B3' <- research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/02",
+      "poc": "research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this"
+     },
+     {
+      "gate": "G9",
+      "ok": true,
+      "level": "INFO",
+      "msg": "H: gaze OK for scene_type=organic",
+      "poc": null
+     },
+     {
+      "gate": "G9",
+      "ok": true,
+      "level": "INFO",
+      "msg": "B1: gaze OK for scene_type=organic",
+      "poc": null
+     },
+     {
+      "gate": "G9",
+      "ok": true,
+      "level": "INFO",
+      "msg": "B2: gaze OK for scene_type=organic",
+      "poc": null
+     },
+     {
+      "gate": "G9",
+      "ok": true,
+      "level": "INFO",
+      "msg": "B3: gaze OK for scene_type=organic",
+      "poc": null
+     },
+     {
+      "gate": "G10",
+      "ok": true,
+      "level": "INFO",
+      "msg": "no on-screen URL CTA",
+      "poc": null
+     },
+     {
+      "gate": "G11",
+      "ok": true,
+      "level": "WARN",
+      "msg": "opener H runs 3.30s on screen > ~2.0s: trim/speed up (Omar: B peel 'way too slow, long and boring')",
+      "poc": null
+     },
+     {
+      "gate": "G12",
+      "ok": true,
+      "level": "INFO",
+      "msg": "every product shot has an action",
+      "poc": null
+     },
+     {
+      "gate": "G13",
+      "ok": true,
+      "level": "WARN",
+      "msg": "H: shot 1: 3 actions (max ~2)",
+      "poc": null
+     },
+     {
+      "gate": "G13",
+      "ok": true,
+      "level": "WARN",
+      "msg": "B2: shot 2: 3 actions (max ~2)",
+      "poc": null
+     },
+     {
+      "gate": "G13",
+      "ok": true,
+      "level": "WARN",
+      "msg": "B3: complex motion 'orbit' - AI looks fake; keep it simple",
+      "poc": null
+     },
+     {
+      "gate": "G14",
+      "ok": true,
+      "level": "INFO",
+      "msg": "Vs not in first card",
+      "poc": null
+     },
+     {
+      "gate": "G15",
+      "ok": true,
+      "level": "INFO",
+      "msg": "no lingering shots",
+      "poc": null
+     },
+     {
+      "gate": "G16",
+      "ok": true,
+      "level": "INFO",
+      "msg": "Seedance 2.5 / GPT Image 2 only, no end frames",
+      "poc": null
+     },
+     {
+      "gate": "G17",
+      "ok": true,
+      "level": "INFO",
+      "msg": "quote 200.0 cr vs budget 200",
+      "poc": null
+     },
+     {
+      "gate": "G18",
+      "ok": true,
+      "level": "INFO",
+      "msg": "all gens <=5s",
+      "poc": null
+     },
+     {
+      "gate": "G19",
+      "ok": true,
+      "level": "INFO",
+      "msg": "card emojis proven and paired",
+      "poc": null
+     },
+     {
+      "gate": "G20",
+      "ok": true,
+      "level": "INFO",
+      "msg": "afters animated and distinct",
+      "poc": null
+     },
+     {
+      "gate": "G21",
+      "ok": true,
+      "level": "INFO",
+      "msg": "not a vs format",
+      "poc": null
+     },
+     {
+      "gate": "G22",
+      "ok": true,
+      "level": "WARN",
+      "msg": "post caption 'Get yours👉{url}' [WEAK PROOF: no POC cite]",
+      "poc": null
+     },
+     {
+      "gate": "G23",
+      "ok": true,
+      "level": "INFO",
+      "msg": "CTA uses SAY (no 'Comment')",
+      "poc": null
+     },
+     {
+      "gate": "G24",
+      "ok": true,
+      "level": "INFO",
+      "msg": "all settings inside the product world",
+      "poc": null
+     },
+     {
+      "gate": "G25",
+      "ok": true,
+      "level": "INFO",
+      "msg": "political lint clean (PL1-PL5)",
+      "poc": null
+     }
+    ]
+   }
+  },
+  "approval_file_draft": {
+   "approved_by": "",
+   "approved_at_pt": "",
+   "approval_quote": "",
+   "run_id": "concept_2026-10-20_trumpglow_F09_lean",
+   "plan_sha256": "a1d81ae6e5eb59a8c1be5e0d9bda889c33935fe7c26cf3c87c805797b3260994",
+   "gens": [
+    "H",
+    "B1",
+    "B2",
+    "B3"
+   ],
+   "account": "user-Higgsfield--new-account",
+   "credit_cap": 174.0,
+   "expires_pt": "2026-10-21T17:11:06-07:00",
+   "consumed": false
+  }
+ },
+ "recommended_today": true,
+ "recommended_option": "lean_1_still"
+}

@@ -1,0 +1,8 @@
+2026-10-19,trumpglow_A,start_frames,COST,gpt_image_2 get_cost with count=2 returned per-image price (1) not total; billed 8 vs cap 4. Rule: always preflight with count=1 and multiply by variants.
+2026-10-19,trumpglow_A,G2,PRODUCT_WRONG,second half of packed gen invented a generic oval logo projection and a different truck after the door opened; mitigate: put the projection reveal in its own gen with the start frame, or end the packed shot on the door swing,used up to 3.25s
+2026-10-19,grinch_robe_fb,caption,NO_LINK,"FB insights: 31 captions without a URL produced 1 link click on 1.8M views; always caption Get yours👉{url} on FB",D63
+2026-10-19,grinch_robe_fb,caption,ZERO_EMOJI,"0-emoji captions median 2.3K views (n=3) vs 32-91K with 1-2; keep 1-2 emoji",D63
+2026-10-19,grinch_robe_fb,posting,DAYTIME_POST,"posts 06:00-17:59 PT median 4-12K vs 71-99K at night; Fri median 6.1K",D63
+2026-10-19,grinch_robe_fb,edit,LONG_CUT,"15-17s reels median 4.3K vs 79K for 12-14s; keep FB robe reels 12-14s",D63
+2026-10-19,trumpglow_A,G2->G3,CUT_BETWEEN_DOOR_OPEN_AND_REVEAL,Omar: no cut/shot switch between the door opening and the projection reveal. v1 cut from G2 (door opens) to G3 (already-open door tilt-down). Fix: ONE continuous gen (hand pulls handle -> door swings -> camera tilts down to the projection) with end_image = the approved reveal frame (SF3_v2) so it lands on the approved look; 28 cr. Rule: reveal shots must be continuous from the trigger.
+2026-10-19,trumpglow_A,G2,PEEL_TOO_SHORT,Omar: tape peel too fast/short at 1.2x 1.7 s. Fix: full 0-1.85 s at 0.85x with motion interpolation (2.2 s). Rule: never speed up the install/peel beat; >=2 s.

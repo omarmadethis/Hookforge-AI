@@ -1,0 +1,264 @@
+{
+ "slug": "merryfire",
+ "product_keys": [
+  "merryfire"
+ ],
+ "assets_dir": "assets/merryfire",
+ "approved_cast": "WOMAN: blonde woman at the fire pit, 67.7K Merry Glows 1703965718404034; family movie-night woman, 63K MerryFires 1082602281322454",
+ "approved_cast_status": "locked (F94)",
+ "higgsfield_media_ids": "refs/merryfire/higgsfield_new_account_media_ids.json",
+ "built_pt": "2026-10-20T09:55:59",
+ "refs": [
+  {
+   "path": "refs/merryfire/product/product_01_white_hero.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/pro-photos/01_white_hero.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/lifestyle_02_dramatic_red_studio.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/pro-photos/02_dramatic_red_studio.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/lifestyle_03_snowy_porch.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/pro-photos/03_snowy_porch.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/lifestyle_04_overhead_smores.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/pro-photos/04_overhead_smores.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/product_05_artwork_detail.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/pro-photos/05_artwork_detail.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/lifestyle_06_gift_under_tree.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/pro-photos/06_gift_under_tree.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/product_07_whats_included.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/pro-photos/07_whats_included.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/product_01-lift-off-tray.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/product-photos/01-lift-off-tray.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/product_01-lift-off-tray.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/product-photos/01-lift-off-tray.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/product_02-hands-holding-lit.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/product-photos/02-hands-holding-lit.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/product_03-lighting-lighter.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/product-photos/03-lighting-lighter.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/product_04-pouring-fuel.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/product-photos/04-pouring-fuel.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/product_04-pouring-fuel.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/product-photos/04-pouring-fuel.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/product_05-hero-lit-a.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/product-photos/05-hero-lit-a.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/product_06-hero-lit-b.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/product-photos/06-hero-lit-b.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/product_06-hero-lit-b.png",
+   "kind": "product",
+   "type": "product",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/product-photos/06-hero-lit-b.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/box_07-box.png",
+   "kind": "product",
+   "type": "box",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/product-photos/07-box.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/product/box_07-box.png",
+   "kind": "product",
+   "type": "box",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Documents/MerryFire/product-photos/07-box.webp",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/lifestyle_Unknown-13.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Downloads/Unknown-13.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/lifestyle_Unknown-14.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Downloads/Unknown-14.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/lifestyle_Unknown-15.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Downloads/Unknown-15.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/lifestyle_Unknown-16.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Downloads/Unknown-16.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/lifestyle_Unknown-17.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Downloads/Unknown-17.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/lifestyle_Unknown-18.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Downloads/Unknown-18.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/lifestyle_Unknown-6.png",
+   "kind": "cast_scene",
+   "type": "lifestyle",
+   "what": "MerryFire tabletop fire pit",
+   "source": "~/Downloads/Unknown-6.png",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/merryfire/cast/cast_woman_family_top.png",
+   "kind": "cast",
+   "what": "cast_woman_family_top.png",
+   "source": "D112 re-sourced: /workspace/hf_match/hf_videos/hf_20261010_011133_4ca058a5-75c8-4215-8fda-3e5a946eed1f.mp4 (raw caption-free MF-01 63K clip) frame 0 (t=0.0 s), crop [20, 225, 332, 641] at native res, caption-free, face uncut; D104 blurry crop kept in refs/_superseded/merryfire_cast_woman_family_top_d104blurcrop.png",
+   "clean": true,
+   "use_for_generation": true,
+   "subject": "a woman",
+   "cropped_pt": "2026-10-20T15:06:51",
+   "higgsfield_media_id_new_account": "4c03390a-389c-4778-bb6d-3cc7443d2618",
+   "higgsfield_media_id_superseded": "4056a395-f7b6-4980-a02d-dcf53adbc59c"
+  },
+  {
+   "path": "refs/merryfire/cast/cast_woman_top.png",
+   "kind": "cast",
+   "what": "cast_woman_top.png",
+   "source": "D112 re-sourced: /workspace/fb2/videos/mgs_6_67K_1703965718404034.mp4 (MGS-01 67.7K final reel) frame 295 (t=9.83 s), crop [170, 490, 535, 977] at native res, caption-free, face uncut; D104 blurry crop kept in refs/_superseded/merryfire_cast_woman_top_d104blurcrop.png",
+   "clean": true,
+   "use_for_generation": true,
+   "subject": "a woman",
+   "cropped_pt": "2026-10-20T15:06:51",
+   "higgsfield_media_id_new_account": "56c3c058-f349-4042-9f2d-66b7ceada0a0",
+   "higgsfield_media_id_superseded": "03a3e78c-4432-46d1-a1f2-c73853ed291a"
+  }
+ ],
+ "refused": [],
+ "rule": "F88: no generation without product AND cast refs; F87: every file passes deliver.scan"
+}

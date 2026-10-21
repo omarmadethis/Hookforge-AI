@@ -1,0 +1,103 @@
+{
+ "product_key": "cozyjams",
+ "display": "CozyJams Christmas pajama set",
+ "brand": "CozyJams",
+ "category": "wearable_gift",
+ "corpus_products": [
+  "cozyjams",
+  "CozyJams pajamas"
+ ],
+ "pages": [
+  "MJIG"
+ ],
+ "energy": 2,
+ "mood": [
+  "cozy",
+  "festive",
+  "girls-trip",
+  "gifting"
+ ],
+ "audience": "US women 18-45 buying Christmas pajamas for themselves, a sister or a matching family set (same buyer family as grinch_robe, D93)",
+ "world": "Christmas at home: bedroom mirror, living room with tree, Christmas-morning couch; store-drop excitement",
+ "settings": [
+  "bedroom full-length mirror",
+  "bright living room with Christmas tree",
+  "couch on Christmas morning",
+  "front door gift handoff"
+ ],
+ "actions": [
+  "pull the set out of the gift bag",
+  "hold it up to the mirror",
+  "twirl in the mirror",
+  "matching set reveal with her sister",
+  "Christmas morning on the couch"
+ ],
+ "forbidden_settings": [
+  "ski slope",
+  "gym",
+  "nightclub",
+  "beach"
+ ],
+ "product_look": "red-and-green Fair Isle Christmas pajama set: knit-look reindeer sweater top and red tartan plaid pants",
+ "subject": "a young woman with long blonde hair",
+ "body_setting": "in a bright bedroom with a Christmas tree in the corner",
+ "product": "Christmas pajama set",
+ "feature_1": "the Fair Isle reindeer pattern on the top",
+ "feature_2": "the red tartan plaid pants down to the ankles",
+ "activation_action": "her sister walks in wearing the same set and they both laugh",
+ "activation_result": "two matching sets side by side in the mirror",
+ "payoff_scene": "she curls up on the couch by the tree in the set with a mug of cocoa, smiling",
+ "room": "bedroom",
+ "sounds": "her voice, laughter, fabric rustle, soft room tone",
+ "source_object": "old grey sweatpants",
+ "music_forbidden": [],
+ "keyword": "PJS",
+ "processing_days": null,
+ "ship_days": null,
+ "body_override": {
+  "PLUG": [
+   "MATCH",
+   "her sister walks in wearing the same {product} and they both laugh"
+  ],
+  "REM": [
+   "MIRROR",
+   "both stand side by side in the mirror showing {feature_2}"
+  ],
+  "FEAT_B": [
+   "PROOF",
+   "AI-doubt proof: handheld close-up of the knit pattern and plaid in natural window light, the print exactly as in the reference, natural fabric folds"
+  ]
+ },
+ "poc_hooks": {
+  "F17": [
+   "Sneaking out at 6am for Christmas pjs 😂🎄",
+   "P",
+   "ext sheispat0 Christmas pajamas 1.5M views; justurzoey 548K; Five Below 7am 657K (features.csv)"
+  ],
+  "F05": [
+   "DO NOT let your mom see this 😳🎄",
+   "P",
+   "own grinch_robe (same buyer, D93) 'DO NOT let your mom see this' 2.73M views"
+  ],
+  "F13": [
+   "Every Christmas mom NEEDS this 😳❄️",
+   "P",
+   "ext merry.made2 1.4M views; own MC-02 62.8K"
+  ]
+ },
+ "poc_sources": [
+  "ext sheispat0 'me dragging my sis to Aerie at 6am...' Christmas pajamas 1.5M (features.csv)",
+  "ext sally70958 VS Christmas pajamas 3.5M",
+  "ext Five Below / Aerie 'sneaking out at 7am' 657K / 548K",
+  "ext alannaxo Target Christmas pajamas silent reveal 727K",
+  "own grinch_robe buyer (D93): F05 / F02 store hooks proven"
+ ],
+ "proven_formats": [],
+ "proven_music": [],
+ "proven_captions": [],
+ "proven_hooks": [],
+ "n_own_reels": 0,
+ "own_hits": 0,
+ "product_look_status": "description from Omar's prompts; <<<image_1>>> product photo is the ground truth",
+ "sources": "corpus own reels (FB+IG), CapCut drafts (edits.csv), music_library.csv, Omar transcripts (rules_core), worlds.py"
+}
