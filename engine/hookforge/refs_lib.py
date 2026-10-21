@@ -10,7 +10,7 @@ SLUGS = {   # product_key -> (refs slug, assets dir)
  "grinch_robe": ("grinch_robe", "grinch_robe"), "grinchmelt_mug": ("grinchmelt", "grinchmelt"), "brickhood_mask": ("brickhood", "brickhood"),
  "merryfire": ("merryfire", "merryfire"), "merryglow_lights": ("merryglow", "merryglow"), "jollyglow_curtain": ("jollyglow", "jollyglow"),
  "purrventure_carrier": ("purrventure", "purrventure"), "trumpglow": ("trumpglow", "patriotglow"), "minionmask": ("minionmask", "minionmask"),
- "heatjams": ("heatjams", "heatjams"), "cozyjams": ("cozyjams", "cozyjams")}
+ "heatjams": ("heatjams", "heatjams"), "cozyjams": ("cozyjams", "cozyjams"), "lumarein": ("lumarein", "lumarein")}
 CAST = {   # F94 (Omar 2026-10-20): cast locked from avatars in each product's top proven video; default women, buyer logic wins
  "purrventure": "WOMAN (F94 cat products -> woman): woman cast ref refs/purrventure/ref_cast_woman_P2SF1.png + cream snow Bengal (tan rosettes, blue eyes). Supersedes the earlier man default. Proof video (Omar FB 1131865399523539) shows a man; RollyMew winners use women (gardening 7.6M/6.4M/5.4M)",
  "grinch_robe": "WOMAN: brown-haired woman in the Grinch robe from the 6.6M FB reel 1624473615929591 (refs/grinch_robe/cast/cast_woman_top.png)",
@@ -23,6 +23,7 @@ CAST = {   # F94 (Omar 2026-10-20): cast locked from avatars in each product's t
  "trumpglow": "MAN (F94 Trump/car/patriotic -> man). Approved A v7 is hands-only POV (man's hands, car door): no face ref exists yet",
  "heatjams": "WOMAN (default, same buyer as grinch_robe; no own video for this slug)",
  "cozyjams": "WOMAN (default; no own video for this slug)",
+ "lumarein": "WOMAN: young woman rider in a helmet (horse girl), as in LumaRein 2.6M/383.5K reels; new faces generated from scratch, no face copied",
 }
 PROTECTED = {"purrventure"}   # another worker owns these files (F88 redo): index only, never write images there
 IMG = (".png", ".jpg", ".jpeg", ".webp"); VID = (".mp4", ".mov")

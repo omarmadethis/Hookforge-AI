@@ -1,0 +1,359 @@
+{
+ "slug": "lumarein",
+ "product_keys": [
+  "lumarein"
+ ],
+ "assets_dir": "assets/lumarein",
+ "approved_cast": "WOMAN: young woman rider in a helmet (horse girl), as in LumaRein 2.6M/383.5K reels; new faces generated from scratch, no face copied",
+ "approved_cast_status": "locked (F94)",
+ "higgsfield_media_ids": null,
+ "built_pt": "2026-10-21T08:35:51",
+ "refs": [
+  {
+   "path": "refs/lumarein/129500_7697714042600836358.mp4",
+   "kind": "poc_reference",
+   "what": "129500_7697714042600836358.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/171600_7697804641928498433.mp4",
+   "kind": "poc_reference",
+   "what": "171600_7697804641928498433.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/17700_7698364698462342452.mp4",
+   "kind": "poc_reference",
+   "what": "17700_7698364698462342452.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/197100_7698525807777500422.mp4",
+   "kind": "poc_reference",
+   "what": "197100_7698525807777500422.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/2600000_7698178513446128902.mp4",
+   "kind": "poc_reference",
+   "what": "2600000_7698178513446128902.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/28900_7698033020032322868.mp4",
+   "kind": "poc_reference",
+   "what": "28900_7698033020032322868.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/383500_7698418896054783284.mp4",
+   "kind": "poc_reference",
+   "what": "383500_7698418896054783284.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/51200_7698896137637367046.mp4",
+   "kind": "poc_reference",
+   "what": "51200_7698896137637367046.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/64200_7698825101197856001.mp4",
+   "kind": "poc_reference",
+   "what": "64200_7698825101197856001.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/78700_7698758099796020486.mp4",
+   "kind": "poc_reference",
+   "what": "78700_7698758099796020486.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/8818_7698474343545801985.mp4",
+   "kind": "poc_reference",
+   "what": "8818_7698474343545801985.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/99700_7697887711654317364.mp4",
+   "kind": "poc_reference",
+   "what": "99700_7697887711654317364.mp4",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/frame_refs/r1_0.5.jpg",
+   "kind": "poc_reference",
+   "what": "r1_0.5.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/frame_refs/r1_11.5.jpg",
+   "kind": "poc_reference",
+   "what": "r1_11.5.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/frame_refs/r1_13.5.jpg",
+   "kind": "poc_reference",
+   "what": "r1_13.5.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/frame_refs/r1_3.0.jpg",
+   "kind": "poc_reference",
+   "what": "r1_3.0.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/frame_refs/r1_5.2.jpg",
+   "kind": "poc_reference",
+   "what": "r1_5.2.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/frame_refs/r1_7.5.jpg",
+   "kind": "poc_reference",
+   "what": "r1_7.5.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/frame_refs/r1_9.5.jpg",
+   "kind": "poc_reference",
+   "what": "r1_9.5.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/frame_refs/r2_0.5.jpg",
+   "kind": "poc_reference",
+   "what": "r2_0.5.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/frame_refs/r2_3.5.jpg",
+   "kind": "poc_reference",
+   "what": "r2_3.5.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/frame_refs/r2_4.5.jpg",
+   "kind": "poc_reference",
+   "what": "r2_4.5.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/frame_refs/r2_9.0.jpg",
+   "kind": "poc_reference",
+   "what": "r2_9.0.jpg",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": false,
+   "use_for_generation": false
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-full-glow-kit_0.png",
+   "kind": "product",
+   "what": "lumarein-full-glow-kit_0.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-full-glow-kit_1.png",
+   "kind": "product",
+   "what": "lumarein-full-glow-kit_1.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-full-glow-kit_2.png",
+   "kind": "product",
+   "what": "lumarein-full-glow-kit_2.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-full-glow-kit_3.png",
+   "kind": "product",
+   "what": "lumarein-full-glow-kit_3.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-chest-strap_0.png",
+   "kind": "product",
+   "what": "lumarein-glow-chest-strap_0.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-chest-strap_1.png",
+   "kind": "product",
+   "what": "lumarein-glow-chest-strap_1.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-chest-strap_2.png",
+   "kind": "product",
+   "what": "lumarein-glow-chest-strap_2.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-cowboy-hat_0.png",
+   "kind": "product",
+   "what": "lumarein-glow-cowboy-hat_0.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-cowboy-hat_1.png",
+   "kind": "product",
+   "what": "lumarein-glow-cowboy-hat_1.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-cowboy-hat_2.png",
+   "kind": "product",
+   "what": "lumarein-glow-cowboy-hat_2.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-leg-bands-set-of-4_0.png",
+   "kind": "product",
+   "what": "lumarein-glow-leg-bands-set-of-4_0.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-leg-bands-set-of-4_1.png",
+   "kind": "product",
+   "what": "lumarein-glow-leg-bands-set-of-4_1.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-leg-bands-set-of-4_2.png",
+   "kind": "product",
+   "what": "lumarein-glow-leg-bands-set-of-4_2.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-rider-vest_0.png",
+   "kind": "product",
+   "what": "lumarein-glow-rider-vest_0.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-rider-vest_1.png",
+   "kind": "product",
+   "what": "lumarein-glow-rider-vest_1.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-rider-vest_2.png",
+   "kind": "product",
+   "what": "lumarein-glow-rider-vest_2.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-tail_0.png",
+   "kind": "product",
+   "what": "lumarein-glow-tail_0.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-tail_1.png",
+   "kind": "product",
+   "what": "lumarein-glow-tail_1.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-tail_2.png",
+   "kind": "product",
+   "what": "lumarein-glow-tail_2.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  },
+  {
+   "path": "refs/lumarein/product/lumarein-glow-tail_3.png",
+   "kind": "product",
+   "what": "lumarein-glow-tail_3.png",
+   "source": "existing refs/ file (see DECISIONS D80/D75)",
+   "clean": true,
+   "use_for_generation": true
+  }
+ ],
+ "refused": [],
+ "rule": "F88: no generation without product AND cast refs; F87: every file passes deliver.scan"
+}

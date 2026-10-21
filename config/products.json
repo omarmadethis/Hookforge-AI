@@ -49,6 +49,11 @@
   },
   "purrventure_carrier": {
    "active": true
+  },
+  "lumarein": {
+   "active": true,
+   "added": "2026-10-21",
+   "added_by": "Omar"
   }
  }
 }

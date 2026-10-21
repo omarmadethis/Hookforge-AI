@@ -12,12 +12,13 @@ import pandas as pd
 from .config import REPO
 from . import products, worlds, political_lint
 
-ACTIVE_NICHE = {"jollyglow_curtain": "christmas", "trumpglow": "patriot", "purrventure_carrier": "pet"}
+ACTIVE_NICHE = {"jollyglow_curtain": "christmas", "trumpglow": "patriot", "purrventure_carrier": "pet", "lumarein": "equestrian"}
 # rows = target, cols = source. Christmas-decor moms share the robe/lights/fire audiences; TrumpGlow (men, patriotic,
 # funny) shares little with Christmas; PurrVenture (cat parents, evergreen) borrows only generic grammar.
 AFFINITY = {
  "jollyglow_curtain": {"jollyglow_curtain": 1.0, "merryglow_lights": 0.9, "merryfire": 0.6, "grinch_robe": 0.55, "heatjams": 0.5, "cozyjams": 0.5, "grinchmelt_mug": 0.5, "trumpglow": 0.25, "brickhood_mask": 0.2, "minionmask": 0.2, "purrventure_carrier": 0.2},
  "trumpglow":         {"trumpglow": 1.0, "brickhood_mask": 0.45, "minionmask": 0.4, "merryglow_lights": 0.35, "jollyglow_curtain": 0.35, "merryfire": 0.3, "grinch_robe": 0.3, "heatjams": 0.25, "cozyjams": 0.2, "grinchmelt_mug": 0.2, "purrventure_carrier": 0.15},
+ "lumarein": {"lumarein": 1.0, "jollyglow_curtain": 0.3, "merryglow_lights": 0.3, "trumpglow": 0.3, "purrventure_carrier": 0.25, "brickhood_mask": 0.2, "minionmask": 0.2, "merryfire": 0.2, "grinch_robe": 0.15, "heatjams": 0.15, "cozyjams": 0.15, "grinchmelt_mug": 0.15},
  "purrventure_carrier": {"purrventure_carrier": 1.0, "grinch_robe": 0.25, "heatjams": 0.25, "cozyjams": 0.25, "jollyglow_curtain": 0.2, "merryglow_lights": 0.2, "brickhood_mask": 0.2, "minionmask": 0.2, "merryfire": 0.15, "grinchmelt_mug": 0.2, "trumpglow": 0.15},
 }
 POC_PRODUCT = [(r"jollyglow|curtain", "jollyglow_curtain"), (r"tree lights|merry ?glow", "merryglow_lights"), (r"fire", "merryfire"),
@@ -75,7 +76,7 @@ def sounds(target):
         file_ok = any(k == r.song or k.replace("_", "") == r.song.replace("_", "") or k.startswith(r.song) for k in on_box)
         out.append(dict(song=r.song, niche=r.niche, source_product=src, own_best=best, ext_best=ext, affinity=aff, fit=fit, on_box=file_ok,
                         score=_score(v, aff, fit) * (1.0 if file_ok else 0.7)))
-    slug = {"trumpglow": "patriotglow", "purrventure_carrier": "purrventure", "jollyglow_curtain": "jollyglow"}[target]
+    slug = {"trumpglow": "patriotglow", "purrventure_carrier": "purrventure", "jollyglow_curtain": "jollyglow", "lumarein": "lumarein"}[target]
     for k, v in sj.items():                    # audience songs from music/songs.json (patriot / pet niches are not in the Christmas library)
         if slug in (v.get("slug") or []) and not any(o["song"] == k for o in out):
             vw = max([int(x) for x in re.findall(r"(\d[\d,]{3,})", str(v.get("in_point_label", "")) + str(v.get("source", ""))) and
@@ -87,7 +88,8 @@ def sounds(target):
 
 GENERIC = {"jollyglow_curtain": r"christmas|xmas|holiday|decor|lights|gift|mom|viral|fyp|home|cozy",
            "trumpglow": r"trump|maga|america|usa|patriot|4thofjuly|funny|viral|fyp|truck|men|dad",
-           "purrventure_carrier": r"cat|kitty|kitten|pet|viral|fyp"}
+           "purrventure_carrier": r"cat|kitty|kitten|pet|viral|fyp",
+           "lumarein": r"horse|equestrian|gallop|horsegirl|rider|usa|viral|fyp"}
 def hashtags(target):
     H = json.load(open(os.path.join(REPO, "learning", "captions", "hashtags_by_product.json")))["products"]; agg = collections.defaultdict(lambda: dict(score=0.0, src=set(), views=0))
     for pk, d in H.items():

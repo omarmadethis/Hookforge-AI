@@ -1,0 +1,191 @@
+{
+ "created_pt": "2026-10-21T08:45-07:00",
+ "product": "lumarein",
+ "pipeline": "GPT Image 2 start frames (refs attached, shown to Omar first) -> Seedance 2.5 720p 4 s, start frame only",
+ "rules": [
+  "unique footage: no clip shared between LR1/LR2 or with LumaRein's footage",
+  "US flag in every shot",
+  "cards off faces, on from frame 0",
+  "<=8 words, VS only on middle card",
+  "song at frame 0",
+  "conflict in first second",
+  "payoff >=2 hard cuts, shots <=1.5 s",
+  "SAY GALLOP, no Comment / Get yours"
+ ],
+ "videos": [
+  {
+   "id": "LR1",
+   "source": "LumaRein TikTok 7698178513446128902 (2.6M)",
+   "format": "F06 idea→VS→result",
+   "song": "Hey Baby (Uhh, Ahh) - DJ Ötzi, from frame 0 (proven: LumaRein 171.6K reel #4); file to fetch free",
+   "caption": "Night rides just got an upgrade 😍🐴 SAY \"GALLOP\" if you need this\n#equestrian #horse #horsegirl #gallop #usa",
+   "cards": [
+    [
+     "0.0-4.0",
+     "The idea... 😭💡"
+    ],
+    [
+     "4.0-7.0",
+     "VS..."
+    ],
+    [
+     "7.0-11.0",
+     "The result 😍"
+    ],
+    [
+     "11.0-12.5",
+     "SAY \"GALLOP\" for night rides 🐴"
+    ]
+   ],
+   "gens": [
+    {
+     "g": "H",
+     "kind": "hook 4s",
+     "shots": [
+      {
+       "t": "0.0-4.0",
+       "start_frame": "Sandy arena at golden hour, a young woman rider in a navy helmet and puffer crouches beside a dark bay horse, aggressively ripping a roll of silver duct tape and slapping a cheap purple LED strip onto its foreleg, tape strips dangling, a battery pack in the sand; a US flag on the arena fence behind; horse turns its head to stare at her (gaze correct). Motion: rip-slap in frame 0, at 2 s she stands, hands on hips, proud; at 3 s the LED strip peels off and drops into the sand.",
+       "conflict": "ridiculous DIY tape hack on a horse, failing on camera"
+      }
+     ]
+    },
+    {
+     "g": "B1",
+     "kind": "body 4s, 2 shots, hard cut at 2.0",
+     "shots": [
+      {
+       "t": "4.0-5.5",
+       "start_frame": "Dusk, POV hands with scrunchies wrap a grey padded LumaRein leg band above a chestnut's fetlock and press the velcro; US flag patch on the saddle pad in frame edge"
+      },
+      {
+       "t": "5.5-7.0",
+       "second_shot": "hard cut: low POV, hands clip the grey Y chest strap across the chestnut's chest; barn string lights and a US flag hanging on the barn wall"
+      }
+     ]
+    },
+    {
+     "g": "B2",
+     "kind": "body 4s, 2 shots, hard cut at 1.5",
+     "shots": [
+      {
+       "t": "7.0-8.5",
+       "start_frame": "Bay horse at a white fence at blue hour wearing the unlit kit, a hand in frame presses the round grey remote, the horse snaps to neon blue at chest, legs, tail; US flag on the fence post"
+      },
+      {
+       "t": "8.5-10.0",
+       "second_shot": "hard cut: rider canters the glowing blue horse along wet beach sand at night, reflections, US flag on a lifeguard pole"
+      }
+     ]
+    },
+    {
+     "g": "B3",
+     "kind": "body 4s, 2 shots, hard cut at 1.0",
+     "shots": [
+      {
+       "t": "10.0-11.0",
+       "start_frame": "POV between the ears of a teal-lit horse galloping across a dark field, a second rider glowing red ahead, small US flag on the rider's crop/saddle"
+      },
+      {
+       "t": "11.0-12.5",
+       "second_shot": "hard cut: wide dusk field, three riders glowing red, white and blue gallop past a fence with a US flag"
+      }
+     ]
+    }
+   ],
+   "credits": {
+    "frames": "4 x 6.5 = 26",
+    "clips": "4 x 28 = 112",
+    "total": 138
+   },
+   "refs": {
+    "product": "refs/lumarein/product/*.png (clean)",
+    "frame_refs": "refs/lumarein/frame_refs/ (layout/composition only, never copied)"
+   }
+  },
+  {
+   "id": "LR2",
+   "source": "LumaRein TikTok 7698418896054783284 (383.5K)",
+   "format": "covered reveal / forbidden callout",
+   "song": "Mambo No. 5 - Lou Bega, from frame 0 (proven own: PurrVenture leaf-rake; music/mambo_no5_youtube.m4a on box)",
+   "caption": "Every horse girl needs this 😍✨ SAY \"GALLOP\" and I'll send the link\n#equestrian #horsegirl #horse #gallop #usa",
+   "cards": [
+    [
+     "0.0-11.0",
+     "Do NOT show this to an equestrian... 😏"
+    ],
+    [
+     "11.0-12.5",
+     "SAY \"GALLOP\" if you want one 🐴"
+    ]
+   ],
+   "gens": [
+    {
+     "g": "H",
+     "kind": "hook 4s",
+     "shots": [
+      {
+       "t": "0.0-4.0",
+       "start_frame": "Wooden stable aisle, a young woman rider (new face, helmet, tan breeches) faces camera hiding a box under a navy fleece horse blanket, US flag hanging on the stall door behind; she shushes the camera then a stablemate's hand reaches in to grab the blanket and she yanks it away (tug = conflict in first second); at 3.5 s she whips the blanket off and the black LumaRein box flashes for a split second.",
+       "conflict": "someone tries to grab the hidden thing; she's guarding a secret"
+      }
+     ]
+    },
+    {
+     "g": "B1",
+     "kind": "body 4s, 2 shots, hard cut at 1.5",
+     "shots": [
+      {
+       "t": "4.0-5.5",
+       "start_frame": "POV lap unboxing on a hay bale: black box with blue LED triangles opens to the grey Y chest strap, tail coil and 4 leg bands; US flag on the barn door behind"
+      },
+      {
+       "t": "5.5-7.0",
+       "second_shot": "hard cut: POV hands strap a leg band on a grey horse's foreleg in a sandy paddock"
+      }
+     ]
+    },
+    {
+     "g": "B2",
+     "kind": "body 4s, 2 shots, hard cut at 1.5",
+     "shots": [
+      {
+       "t": "7.0-8.5",
+       "start_frame": "Night paddock, chestnut horse in the unlit kit, hand presses the round grey remote, horse snaps to neon pink; US flag on a fence post"
+      },
+      {
+       "t": "8.5-10.0",
+       "second_shot": "hard cut: rider gallops the pink-lit horse through a shallow lake edge at night, splash and reflection, US flag bunting on the dock"
+      }
+     ]
+    },
+    {
+     "g": "B3",
+     "kind": "body 4s, 2 shots, hard cut at 1.0",
+     "shots": [
+      {
+       "t": "10.0-11.0",
+       "start_frame": "Low ground shot: glowing pink legs and tail of a horse thundering past at night on a dirt trail, US flag on a trail marker"
+      },
+      {
+       "t": "11.0-12.5",
+       "second_shot": "hard cut: rider and horse both glowing (LumaRein vest + hat) under stars on a hilltop, US flag on her vest patch"
+      }
+     ]
+    }
+   ],
+   "credits": {
+    "frames": "4 x 6.5 = 26",
+    "clips": "4 x 28 = 112",
+    "total": 138
+   },
+   "refs": {
+    "product": "refs/lumarein/product/*.png (clean)",
+    "frame_refs": "refs/lumarein/frame_refs/ (layout/composition only, never copied)"
+   }
+  }
+ ],
+ "total": 276,
+ "reserve": 34.5,
+ "proposed_cap": 310.5,
+ "posting": "no page mapped yet; Omar to name the page"
+}

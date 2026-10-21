@@ -1,0 +1,22 @@
+{
+ "approved_by": null,
+ "approved_at_pt": null,
+ "status": "AWAITING OMAR: cap first, then frames before any clip",
+ "run_id": "lumarein_recreate_LR1_LR2",
+ "account": "user-Higgsfield--new-account",
+ "credit_cap": 310.5,
+ "quote": {
+  "LR1": 138,
+  "LR2": 138,
+  "total": 276,
+  "reserve": 34.5
+ },
+ "reserve_note": "1 frame + 1 clip re-roll",
+ "plan": "learning/plans/lumarein_recreate_2026-10-21.json",
+ "gates": [
+  "cap approval",
+  "frame approval (8 start frames shown to Omar)"
+ ],
+ "consumed": false,
+ "spent": 0
+}

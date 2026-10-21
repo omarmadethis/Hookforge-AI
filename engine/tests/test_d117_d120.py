@@ -4,7 +4,7 @@ from hookforge import products, routing, concept_lab, perf_feedback as P, ab_log
 RET = {"brickhood_mask", "merryglow_lights", "merryfire", "grinchmelt_mug", "minionmask"}
 
 def test_active_flags():
-    assert set(products.retired()) == RET | {"grinch_robe", "heatjams", "cozyjams"} and products.active() == ["jollyglow_curtain", "trumpglow", "purrventure_carrier"]   # D131
+    assert set(products.retired()) == RET | {"grinch_robe", "heatjams", "cozyjams"} and products.active() == ["jollyglow_curtain", "trumpglow", "purrventure_carrier", "lumarein"]   # D131 + lumarein (Omar 2026-10-21)
     assert not RET & set(concept_lab.PRODUCTS)
 
 def test_retired_not_routable_and_corpus_kept():
