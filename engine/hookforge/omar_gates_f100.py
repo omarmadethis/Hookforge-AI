@@ -21,18 +21,24 @@ def card_timing(shots, cards, tol=1.0 / FPS):
     return f
 
 def card_visible_render(path, card_png, t0, min_contrast=60.0):
-    """Render check: grab the final frame 1 frame after the card start; text pixels (card alpha>128) must be
-    visibly brighter than the surrounding pixels of the same box."""
+    """Render check (D182): grab the final frame 1 frame after the card start. The card's white FILL pixels
+    (alpha>200, luma>200) must be >= min_contrast brighter than the background just around the card box
+    (alpha<10, box +20 px). Fixed 2026-10-21: the old version averaged fill + black stroke together, which
+    under-read readable white/black-stroke cards on mid-bright backgrounds."""
     from PIL import Image
     import numpy as np
     raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t0 + 1.0 / FPS:.3f}", "-i", path, "-frames:v", "1",
                           "-vf", "scale=1080:1920,format=gray", "-f", "rawvideo", "-"], capture_output=True, check=True).stdout
     fr = np.frombuffer(raw, np.uint8).reshape(1920, 1080).astype(float)
-    a = np.array(Image.open(card_png).convert("RGBA").resize((1080, 1920)))[:, :, 3]
+    c = np.array(Image.open(card_png).convert("RGBA").resize((1080, 1920))); a = c[:, :, 3]; L = c[:, :, :3].mean(2)
     m = a > 128
     if not m.any(): return [f"BLOCK card image {card_png} is empty (D182)"]
-    ys, xs = np.where(m); box = np.zeros_like(m); box[ys.min():ys.max() + 1, xs.min():xs.max() + 1] = True
-    inside = fr[m].mean(); around = fr[box & ~m].mean() if (box & ~m).any() else 0
+    fill = (a > 200) & (L > 200)
+    if not fill.any(): fill = m
+    ys, xs = np.where(m); box = np.zeros_like(m)
+    box[max(ys.min() - 20, 0):ys.max() + 21, max(xs.min() - 20, 0):xs.max() + 21] = True
+    bg = box & (a < 10)
+    inside = fr[fill].mean(); around = fr[bg].mean() if bg.any() else 0
     return [] if inside - around >= min_contrast else [f"BLOCK card not visible at {t0}s (text {inside:.0f} vs bg {around:.0f}) (D182)"]
 
 # D183 / F101: card copy coherence

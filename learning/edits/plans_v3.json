@@ -1,0 +1,12 @@
+{"B3":{"song":"acdc_you_shook_me","song_gain_db":0,
+ "shots":[{"gen":"B_H3","src":[0,2.0],"role":"hook"},{"gen":"B_B3","src":[1.6,1.9],"role":"hook_flash"},{"gen":"B_H3","src":[2.3,3.6],"role":"hook"},
+  {"gen":"B_B1","src":[0,1.8],"role":"build"},{"gen":"B_B2","src":[0.5,2.3],"role":"build"},
+  {"gen":"B_B3","src":[0,1.4],"role":"payoff"},{"gen":"B_H","src":[2.6,4.0],"role":"payoff"},{"gen":"B_B3","src":[2.6,4.0],"role":"payoff"}],
+ "cards":[{"text":"Don't show this to a liberal 😎🦅","t0":0,"t1":11.4}],
+ "audio":[{"gen":"B_H3","src":[0,4.0],"at":0,"vo_over_song_lu":8},
+  {"gen":"B_B1","src":[0.4,1.8],"at":4.0},{"gen":"B_B2","src":[0.5,2.3],"at":5.4},{"gen":"B_B3","src":[0,1.4],"at":7.2},{"gen":"B_H","src":[2.6,4.0],"at":8.6},{"gen":"B_B3","src":[2.6,4.0],"at":10.0}]},
+"A3":{"song":"free_bird_solo","song_gain_db":0,
+ "shots":[{"gen":"A_H3","src":[0,2.4],"role":"hook"},{"gen":"A_B1","src":[0.3,3.0],"speed":1.5,"role":"build"},{"gen":"A_B2","src":[0.6,3.3],"speed":1.5,"role":"build"},
+  {"gen":"A_B3","src":[0,1.4],"role":"payoff"},{"gen":"A_P2","src":[1.6,3.0],"role":"payoff"},{"gen":"A_B3","src":[2.6,4.0],"role":"payoff"}],
+ "cards":[{"text":"Old projector's last night.. 😔🇺🇸","t0":0,"t1":2.4},{"text":"Vs...","t0":2.4,"t1":6.0},{"text":"First night with the real one 😎🇺🇸","t0":6.0,"t1":10.2}],
+ "audio":[{"gen":"A_H3","src":[0,2.4],"at":0},{"gen":"A_B1","src":[0.3,3.0],"speed":1.5,"at":2.4},{"gen":"A_B2","src":[0.6,3.3],"speed":1.5,"at":4.2},{"gen":"A_B3","src":[0,1.4],"at":6.0},{"gen":"A_P2","src":[1.6,3.0],"at":7.4},{"gen":"A_B3","src":[2.6,4.0],"at":8.8}]}}

@@ -131,3 +131,9 @@ ts_pt,run_id,item,job_ids,credits
 2026-10-20T20:11,trumpglow_unique_AB,gpt_image_2 B_B3 start frame re-roll (no passer-by),f5d8d760-951c-48dc-9a85-366d3599db0b,6.5
 2026-10-20T23:46,trumpglow_unique_AB,seedance_2_5 B_B3 720p 4s video (v2 frame),20eb5783-202a-434d-ad31-4ddb1e65f322,28
 2026-10-21T00:28,jollyglow_f06_hook_redo,seedance_2_5 H2 video 720p video,d116e95f-d851-4dda-90ad-da3da275e13c,28
+2026-10-21T01:36,trumpglow_fix_A3B3,gpt_image_2 A_H3 start frame still,d9f62d96-005f-42bb-9b35-25929db852b6,6.5
+2026-10-21T01:36,trumpglow_fix_A3B3,gpt_image_2 B_H3 start frame still,3b12b9fa-79be-4683-83b4-9f7f633b2b86,6.5
+2026-10-21T01:37,trumpglow_fix_A3B3,seedance_2_5 A_P2 720p 4s video,97b99ef2-da79-4153-99b1-bfadbfc2e254,28
+2026-10-21T01:40,trumpglow_fix_A3B3,gpt_image_2 A_H3 start frame re-roll (door/physics fail),f5c9a2dd-ded3-466b-8227-23140dfc4cef,6.5
+2026-10-21T01:40,trumpglow_fix_A3B3,seedance_2_5 B_H3 720p 4s video,87f8fd21-8f3f-4f75-a159-cfe68333519a,28
+2026-10-21T01:44,trumpglow_fix_A3B3,seedance_2_5 A_H3 720p 4s video,0dfb6967-b796-4672-8594-84ec14f125b3,28
