@@ -1,5 +1,5 @@
 # MANIFEST of excluded assets (not in git)
-Generated 2026-10-20 6:23 PM PT by engine/scripts/build_manifest.py. Total 9974 files, 14.54 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
+Generated 2026-10-20 6:26 PM PT by engine/scripts/build_manifest.py. Total 9974 files, 14.54 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
 
 ## By directory
 | dir | files | size | why excluded |
@@ -375,7 +375,7 @@ Generated 2026-10-20 6:23 PM PT by engine/scripts/build_manifest.py. Total 9974 
 | out/capcut_test/HF_TEST_01/media/hf_20260826_050227_d8c2b489-ef9a-4be5-a866-67111b06a50c.mp4 | 10.6 MB |  |
 | out/purrventure_brand/raw/pfp_r1.png | 10.5 MB |  |
 
-## Backed up to Drive "Hookforge Backup" (406 files; docs/backup_drive_index.json)
+## Backed up to Drive "Hookforge Backup" (446 files; docs/backup_drive_index.json)
 | path | drive_id |
 |---|---|
 | learning/audience_fit_log.csv | 1OaLpFsrgefKbB3A4AHQBGrIBFicqeVPe |
@@ -659,22 +659,62 @@ Generated 2026-10-20 6:23 PM PT by engine/scripts/build_manifest.py. Total 9974 
 | out/live/trumpglow_A/final/cards/card1.png | 1H_ZIdsSu1N1bssyT40hZE17maNWtf-Vr |
 | out/live/trumpglow_A/final/cards/card1_4k.png | 1EyLoVWABRMdUnvuxpVzJRJp3HvQ9HqA_ |
 | out/live/trumpglow_A/final/cards/card2.png | 1jJr_lerCJzV2jTQAHaEU3zbZB1thB3Vo |
+| out/live/trumpglow_A/final/cards/card2_4k.png | 11p-HaMSQ3QhfDzg_PN3QBSXaOMyWZObn |
+| out/live/trumpglow_A/final/cards/card3.png | 1k7Z3s56ih1vbey4FNx5RDAGBBgMcJjpw |
+| out/live/trumpglow_A/final/cards/card3_4k.png | 1zj-Jt8BnW-hwnDHyKiCmQvY4mgDhwOxV |
 | out/live/trumpglow_A/final/master_raw.mp4 | 1RWs1YlImPGnvUFEDx30MAVRkknPYUQkn |
+| out/live/trumpglow_A/final/preflight/trumpglow_A_nomusic_sheet.png | 1GS6_a8_d9ysheKhyFfDQZvPeuS9bp_AA |
+| out/live/trumpglow_A/final/raw_sheets/sheet_G1.jpg | 1wah4dWjl7oa1NUTT9kQNGQp9jHEp1s-L |
+| out/live/trumpglow_A/final/raw_sheets/sheet_G2.jpg | 10eXa1iiL6IyXu_lAsGq_5gtt1L6Fr0W6 |
+| out/live/trumpglow_A/final/raw_sheets/sheet_G3.jpg | 1F5GbHRD8wHe2ba-LakPu57uvU0HKGbmE |
+| out/live/trumpglow_A/final/raw_sheets/sheet_G4.jpg | 1DFaJtJa9eblYa3774Sf7OV5oAwnDDyW- |
 | out/live/trumpglow_A/final/trumpglow_A_nomusic.mp4 | 1HeR4-3qUBiWno6h-nsXkelDtm9W9LjIH |
+| out/live/trumpglow_A/final_v2/QA_contact_sheet_v2.jpg | 1LhebqxrnSW5_diyEMQ5d_hPdE3Rvjn8l |
+| out/live/trumpglow_A/final_v2/cards/card1.png | 1y3s4fvOhIX7kxq8ve5ofwUrNJBHE1T6r |
+| out/live/trumpglow_A/final_v2/cards/card1_4k.png | 1cIBkvGApodU5R4m35ikcUJKxZ-PVFncT |
+| out/live/trumpglow_A/final_v2/cards/card2.png | 1NjcntgZk-hrtpFPScSXcukDELFqB3u6V |
+| out/live/trumpglow_A/final_v2/cards/card2_4k.png | 1RBn965c8irLeMo6DO54I8L3bHCT7ocD_ |
+| out/live/trumpglow_A/final_v2/cards/card3.png | 1qj12uOkkpEpY1KP3uQKDT_tIBhJNgLdj |
+| out/live/trumpglow_A/final_v2/cards/card3_4k.png | 1RyMKJO9kvD_OM-GXyU_SMtsrjn6SMs3s |
 | out/live/trumpglow_A/final_v2/master_nosong.mp4 | 1A00CY6FwVLPc5Tm8kBlSHofbX1N8CeDJ |
+| out/live/trumpglow_A/final_v2/preflight/trumpglow_A_v2_ACDC_sheet.png | 1cDsdolAF3u1k2wNTpCn80Mp88nq313Zb |
+| out/live/trumpglow_A/final_v2/preflight/trumpglow_A_v2_FreeBird_sheet.png | 1JVHmUrJHBAfBhaMaIxWaBYXFBiu7HWBJ |
 | out/live/trumpglow_A/final_v2/trumpglow_A_v2_ACDC.mp4 | 1tgOtfA4vr4R35BRKD3HwDcOdQv5vks_C |
 | out/live/trumpglow_A/final_v2/trumpglow_A_v2_FreeBird.mp4 | 1Qb-RWs7GV4e_78L4tjvf1AYr81B9_yhn |
+| out/live/trumpglow_A/final_v3/preflight/trumpglow_A_v3_ACDC_preflight.json/trumpglow_A_v3_ACDC_sheet.png | 1zt1lmIt6Rf5tLrtBmH6jfW_BIAbPNwx4 |
+| out/live/trumpglow_A/final_v3/preflight/trumpglow_A_v3_FreeBird_preflight.json/trumpglow_A_v3_FreeBird_sheet.png | 1jF0h07nWavatVUThcqtIPYzftG_gW_LC |
 | out/live/trumpglow_A/final_v3/trumpglow_A_v3_ACDC.mp4 | 1URqIm9Inhbkj5xfH0KnYD6_U-We-HXyN |
 | out/live/trumpglow_A/final_v3/trumpglow_A_v3_FreeBird.mp4 | 1a0_U3IR9r674b_0H3opi0E86F5vZFXEB |
+| out/live/trumpglow_A/final_v4/preflight/trumpglow_A_v4_ACDC_sheet.png | 10rEQqHoO1smqx5ka2x887XLgF8amvJTp |
+| out/live/trumpglow_A/final_v4/preflight/trumpglow_A_v4_FreeBird_sheet.png | 1zjkhXi273ZgTVOm1kCkf8qTEynyoaTlX |
 | out/live/trumpglow_A/final_v4/proof/acdc_proven_ad_vs_v4.mp4 | 1fCQ0BzQ0a8usJpkmjDQjFLG8EsSSrcKJ |
 | out/live/trumpglow_A/final_v4/trumpglow_A_v4_ACDC.mp4 | 1QjOYx4akHQQjWnKhKyEkISDQtz3v7ler |
 | out/live/trumpglow_A/final_v4/trumpglow_A_v4_FreeBird.mp4 | 12ZnnGYVgYdzUZEEH7vaKv7LZXpi5GaGf |
+| out/live/trumpglow_A/final_v5/cards/card1.png | 12oJ-78IFWyDmjutUfmYKsLG2NPgxSoNH |
+| out/live/trumpglow_A/final_v5/cards/card1_4k.png | 1yqhX7EkU42CmR-hwkZEgiMQIZe0GDQt4 |
+| out/live/trumpglow_A/final_v5/cards/card2.png | 1_8JFw3mI4YPQu9YG2d0uO27N_gjkwVDA |
+| out/live/trumpglow_A/final_v5/cards/card2_4k.png | 1KCF1K-SIdLkasa52QVFL84NzPEHDvuBw |
+| out/live/trumpglow_A/final_v5/cards/card3.png | 166sXqhjaVnPH6m7fJ8K8Q974urCshoOV |
+| out/live/trumpglow_A/final_v5/cards/card3_4k.png | 1iXZ5aWRrv1FKvMKqfGlmmr-E-1PTx8se |
+| out/live/trumpglow_A/final_v5/cards/cta_4k.png | 1-OfQbJdAhBvrADhEBO4m4rK5_iYG8Fun |
 | out/live/trumpglow_A/final_v5/master_nosong.mp4 | 1GkG2rrIvxm2RJiafPoA72z5HvmA1Jqig |
+| out/live/trumpglow_A/final_v5/preflight/trumpglow_A_v5_ACDC_sheet.png | 1rcmp02elLtkkSOg7maq2kwAsxKRi2W-I |
+| out/live/trumpglow_A/final_v5/preflight/trumpglow_A_v5_FreeBird_sheet.png | 1YFNXdch7G5fCP22olzLhIUcK34UFJadB |
 | out/live/trumpglow_A/final_v5/trumpglow_A_v5_ACDC.mp4 | 1zhTPUxYuij4cNstOWBFcIWPobZODTla6 |
 | out/live/trumpglow_A/final_v5/trumpglow_A_v5_FreeBird.mp4 | 1qKYbXL3UmLJt-WYImxt7QBnTAl5scaGt |
+| out/live/trumpglow_A/final_v6/cards/card1.png | 1BAWTIvfK8S4gahI2laUje3P2m4WOL2k_ |
+| out/live/trumpglow_A/final_v6/cards/card1_4k.png | 1sYVRJDi92z-eRmUk0M3bgGjTSmtLuQFJ |
+| out/live/trumpglow_A/final_v6/cards/card2.png | 1lSCgi8wE8pfozz9OTbNrAg3teJJQr7XI |
+| out/live/trumpglow_A/final_v6/cards/card2_4k.png | 1rN_UMFfKYC6a95zl8XJG9YqgLcp2HeuZ |
+| out/live/trumpglow_A/final_v6/cards/card3.png | 1a8SdUSNCAe1ugMBrOYXDKhxKyhrqtz_f |
+| out/live/trumpglow_A/final_v6/cards/card3_4k.png | 1Ibai1pk-q_ypIS40kSzs-EeFrNJ4zYlX |
+| out/live/trumpglow_A/final_v6/cards/cta_4k.png | 13EdG02iRInS_-TXUASRg097SVyiVWULJ |
 | out/live/trumpglow_A/final_v6/master_nosong.mp4 | 17Ztu9fFpapeeQd0534sISEJYXf_9UctV |
+| out/live/trumpglow_A/final_v6/preflight/trumpglow_A_v6_ACDC_sheet.png | 1dUtu803YEhyWNHghqWApvqTwK2b9OMrP |
+| out/live/trumpglow_A/final_v6/preflight/trumpglow_A_v6_FreeBird_sheet.png | 1m47qqN0NOnXbxcXkOHN45csAN46Dbs3G |
 | out/live/trumpglow_A/final_v6/trumpglow_A_v6_ACDC.mp4 | 1bcrpQBe1DfK1UXEGEWNM9Bb9vQ2Kl4hy |
 | out/live/trumpglow_A/final_v6/trumpglow_A_v6_FreeBird.mp4 | 1gfT41DZtzG5s6HrYedPb6i-IXuLOjgbs |
+| out/live/trumpglow_A/final_v7/cards/card1.png | 1KhPoVBQ3RtSqChV1WwOMPFtJwRXfpDjZ |
 | out/live/trumpglow_A/final_v7/master_nosong.mp4 | 10a8tTvmw2k_dMA06MY7bmwrVh7tQZ_iX |
 | out/live/trumpglow_A/final_v7/trumpglow_A_v7_ACDC.mp4 | 1wqo6gADQ5S66lMtWYr5RRQHNpslmcK4q |
 | out/live/trumpglow_A/final_v7/trumpglow_A_v7_FreeBird.mp4 | 1YaX9AKY6Nq9oEezZQW54BAYzYfd_YaXJ |

@@ -883,3 +883,6 @@ Two more `next 20` rounds (jollyglow_321 F5_v2-F6, jollyglow_combo sheets/prefli
 
 ## D175 (2026-10-20 6:35 PM PT) Tier 2 images: 40 more uploaded
 Two more `next 20` rounds (mg-tvn-001 final/qa/raw sheets and stills, refs/merryglow_lights, refs/mg_candidates mg01/mg02/mg04/shop_1-4, trumpglow_A clip sheets, start-frame contact sheet, QA sheet, cards 1/1_4k/2) uploaded to Hookforge Backup/generations through deliver.stage/verify_staged and recorded via `recmany`. 103/336 images done, 233 images (0.48 GB) remain; 400 Tier 2 files pending overall. No refusals, no dedupe hits. Resume with `backup_chunks.py next 20` -> UploadFile -> `recmany`.
+
+## D176 (2026-10-20 6:26 PM PT) Tier 2 images: 40 more uploaded
+Two batches of 20 (trumpglow_A final..final_v7 cards/preflight/raw sheets) staged via deliver.stage + verify_staged, uploaded to Drive folder 1fmUtKzurfIZ5oULOZEaBi2SXIdANyN2l, recorded with recmany. 0 refused, private/ skipped. Images 161/336 uploaded, 193 pending. All files: 325 uploaded (4.57 GB), 13 refused, 360 pending (1.57 GB). Manifest regenerated. Not pushed.

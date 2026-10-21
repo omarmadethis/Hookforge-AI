@@ -4153,6 +4153,406 @@
    "orig_size": 28805,
    "sha256": "d96d8b29a0502c41c9ae0e05b0ea71ef543325cac8028fd4f55cfdace484b671",
    "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final/cards/card2_4k.png",
+   "id": "11p-HaMSQ3QhfDzg_PN3QBSXaOMyWZObn",
+   "name": "card2_4k.png",
+   "folder": "generations",
+   "size": 111969,
+   "orig_size": 128933,
+   "sha256": "f87a749cb4ea86a7293127dca99c690d5d44ccbc1e408a539546268159102ab2",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final/cards/card3.png",
+   "id": "1k7Z3s56ih1vbey4FNx5RDAGBBgMcJjpw",
+   "name": "card3.png",
+   "folder": "generations",
+   "size": 75975,
+   "orig_size": 75975,
+   "sha256": "2c10932e4c06df1ffe034df0c6cf3e0dbf406d5f72d2ca32aa2800d8feabdd58",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final/cards/card3_4k.png",
+   "id": "1zj-Jt8BnW-hwnDHyKiCmQvY4mgDhwOxV",
+   "name": "card3_4k.png",
+   "folder": "generations",
+   "size": 315079,
+   "orig_size": 375348,
+   "sha256": "bddbcd7d237343b94fc0d5835b2c710fcc0a00d817c569802aa8466b07646600",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final/preflight/trumpglow_A_nomusic_sheet.png",
+   "id": "1GS6_a8_d9ysheKhyFfDQZvPeuS9bp_AA",
+   "name": "trumpglow_A_nomusic_sheet.png",
+   "folder": "generations",
+   "size": 2246159,
+   "orig_size": 2246159,
+   "sha256": "aa5156f0aec061383c95c6311aa711f1f327d91e17fb31e56048336b65665b89",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final/raw_sheets/sheet_G1.jpg",
+   "id": "1wah4dWjl7oa1NUTT9kQNGQp9jHEp1s-L",
+   "name": "sheet_G1.jpg",
+   "folder": "generations",
+   "size": 197700,
+   "orig_size": 80599,
+   "sha256": "00d3822037db7f095fd6d91e0ddc130f7c613d8cf44c5494e2977a52c6643888",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final/raw_sheets/sheet_G2.jpg",
+   "id": "10eXa1iiL6IyXu_lAsGq_5gtt1L6Fr0W6",
+   "name": "sheet_G2.jpg",
+   "folder": "generations",
+   "size": 130483,
+   "orig_size": 58044,
+   "sha256": "83d127cd95da958a1f9e8f6cd80daf4ff426f2cc5f7a734303cd262888df0fd5",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final/raw_sheets/sheet_G3.jpg",
+   "id": "1F5GbHRD8wHe2ba-LakPu57uvU0HKGbmE",
+   "name": "sheet_G3.jpg",
+   "folder": "generations",
+   "size": 157112,
+   "orig_size": 71890,
+   "sha256": "76b5d0aa56562696344fdc4afdfef3965351bb83cf37efa37c1296fa6eb40058",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final/raw_sheets/sheet_G4.jpg",
+   "id": "1DFaJtJa9eblYa3774Sf7OV5oAwnDDyW-",
+   "name": "sheet_G4.jpg",
+   "folder": "generations",
+   "size": 143143,
+   "orig_size": 63174,
+   "sha256": "1f6f490497e83b711b3a3208a5e5ec5fd1d57403a7a58f7a38267c9467d936cd",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/QA_contact_sheet_v2.jpg",
+   "id": "1LhebqxrnSW5_diyEMQ5d_hPdE3Rvjn8l",
+   "name": "QA_contact_sheet_v2.jpg",
+   "folder": "generations",
+   "size": 373990,
+   "orig_size": 152481,
+   "sha256": "2e70e5cd750f816aa2a3680d51d16de2042cd92768309ab93b57efaee056e24e",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/cards/card1.png",
+   "id": "1y3s4fvOhIX7kxq8ve5ofwUrNJBHE1T6r",
+   "name": "card1.png",
+   "folder": "generations",
+   "size": 49485,
+   "orig_size": 49485,
+   "sha256": "bee73f5242d4be2b3c7a1e7e29c129a2775c92efcc79c5ddaeae679ef700d4e0",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/cards/card1_4k.png",
+   "id": "1cIBkvGApodU5R4m35ikcUJKxZ-PVFncT",
+   "name": "card1_4k.png",
+   "folder": "generations",
+   "size": 195822,
+   "orig_size": 222407,
+   "sha256": "978f23625c4714a38e5251ca7f56595494fd9912b11b16513378034cc341eadb",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/cards/card2.png",
+   "id": "1NjcntgZk-hrtpFPScSXcukDELFqB3u6V",
+   "name": "card2.png",
+   "folder": "generations",
+   "size": 28805,
+   "orig_size": 28805,
+   "sha256": "d96d8b29a0502c41c9ae0e05b0ea71ef543325cac8028fd4f55cfdace484b671",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/cards/card2_4k.png",
+   "id": "1RBn965c8irLeMo6DO54I8L3bHCT7ocD_",
+   "name": "card2_4k.png",
+   "folder": "generations",
+   "size": 111969,
+   "orig_size": 128933,
+   "sha256": "f87a749cb4ea86a7293127dca99c690d5d44ccbc1e408a539546268159102ab2",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/cards/card3.png",
+   "id": "1qj12uOkkpEpY1KP3uQKDT_tIBhJNgLdj",
+   "name": "card3.png",
+   "folder": "generations",
+   "size": 75975,
+   "orig_size": 75975,
+   "sha256": "2c10932e4c06df1ffe034df0c6cf3e0dbf406d5f72d2ca32aa2800d8feabdd58",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/cards/card3_4k.png",
+   "id": "1RyMKJO9kvD_OM-GXyU_SMtsrjn6SMs3s",
+   "name": "card3_4k.png",
+   "folder": "generations",
+   "size": 315079,
+   "orig_size": 375348,
+   "sha256": "bddbcd7d237343b94fc0d5835b2c710fcc0a00d817c569802aa8466b07646600",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/preflight/trumpglow_A_v2_ACDC_sheet.png",
+   "id": "1cDsdolAF3u1k2wNTpCn80Mp88nq313Zb",
+   "name": "trumpglow_A_v2_ACDC_sheet.png",
+   "folder": "generations",
+   "size": 2548069,
+   "orig_size": 2548069,
+   "sha256": "a1f0afa2d4e8b97ffa106ce5d27adeca8ff1f6f16ccd60a6e3aa129a406e7046",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v2/preflight/trumpglow_A_v2_FreeBird_sheet.png",
+   "id": "1JVHmUrJHBAfBhaMaIxWaBYXFBiu7HWBJ",
+   "name": "trumpglow_A_v2_FreeBird_sheet.png",
+   "folder": "generations",
+   "size": 2548069,
+   "orig_size": 2548069,
+   "sha256": "a1f0afa2d4e8b97ffa106ce5d27adeca8ff1f6f16ccd60a6e3aa129a406e7046",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v3/preflight/trumpglow_A_v3_ACDC_preflight.json/trumpglow_A_v3_ACDC_sheet.png",
+   "id": "1zt1lmIt6Rf5tLrtBmH6jfW_BIAbPNwx4",
+   "name": "trumpglow_A_v3_ACDC_sheet.png",
+   "folder": "generations",
+   "size": 2548069,
+   "orig_size": 2548069,
+   "sha256": "a1f0afa2d4e8b97ffa106ce5d27adeca8ff1f6f16ccd60a6e3aa129a406e7046",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v3/preflight/trumpglow_A_v3_FreeBird_preflight.json/trumpglow_A_v3_FreeBird_sheet.png",
+   "id": "1jF0h07nWavatVUThcqtIPYzftG_gW_LC",
+   "name": "trumpglow_A_v3_FreeBird_sheet.png",
+   "folder": "generations",
+   "size": 2548069,
+   "orig_size": 2548069,
+   "sha256": "a1f0afa2d4e8b97ffa106ce5d27adeca8ff1f6f16ccd60a6e3aa129a406e7046",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v4/preflight/trumpglow_A_v4_ACDC_sheet.png",
+   "id": "10rEQqHoO1smqx5ka2x887XLgF8amvJTp",
+   "name": "trumpglow_A_v4_ACDC_sheet.png",
+   "folder": "generations",
+   "size": 2548069,
+   "orig_size": 2548069,
+   "sha256": "a1f0afa2d4e8b97ffa106ce5d27adeca8ff1f6f16ccd60a6e3aa129a406e7046",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v4/preflight/trumpglow_A_v4_FreeBird_sheet.png",
+   "id": "1zjkhXi273ZgTVOm1kCkf8qTEynyoaTlX",
+   "name": "trumpglow_A_v4_FreeBird_sheet.png",
+   "folder": "generations",
+   "size": 2548069,
+   "orig_size": 2548069,
+   "sha256": "a1f0afa2d4e8b97ffa106ce5d27adeca8ff1f6f16ccd60a6e3aa129a406e7046",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/cards/card1.png",
+   "id": "12oJ-78IFWyDmjutUfmYKsLG2NPgxSoNH",
+   "name": "card1.png",
+   "folder": "generations",
+   "size": 49485,
+   "orig_size": 49485,
+   "sha256": "bee73f5242d4be2b3c7a1e7e29c129a2775c92efcc79c5ddaeae679ef700d4e0",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/cards/card1_4k.png",
+   "id": "1yqhX7EkU42CmR-hwkZEgiMQIZe0GDQt4",
+   "name": "card1_4k.png",
+   "folder": "generations",
+   "size": 195822,
+   "orig_size": 222407,
+   "sha256": "978f23625c4714a38e5251ca7f56595494fd9912b11b16513378034cc341eadb",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/cards/card2.png",
+   "id": "1_8JFw3mI4YPQu9YG2d0uO27N_gjkwVDA",
+   "name": "card2.png",
+   "folder": "generations",
+   "size": 28805,
+   "orig_size": 28805,
+   "sha256": "d96d8b29a0502c41c9ae0e05b0ea71ef543325cac8028fd4f55cfdace484b671",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/cards/card2_4k.png",
+   "id": "1KCF1K-SIdLkasa52QVFL84NzPEHDvuBw",
+   "name": "card2_4k.png",
+   "folder": "generations",
+   "size": 111969,
+   "orig_size": 128933,
+   "sha256": "f87a749cb4ea86a7293127dca99c690d5d44ccbc1e408a539546268159102ab2",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/cards/card3.png",
+   "id": "166sXqhjaVnPH6m7fJ8K8Q974urCshoOV",
+   "name": "card3.png",
+   "folder": "generations",
+   "size": 75975,
+   "orig_size": 75975,
+   "sha256": "2c10932e4c06df1ffe034df0c6cf3e0dbf406d5f72d2ca32aa2800d8feabdd58",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/cards/card3_4k.png",
+   "id": "1iXZ5aWRrv1FKvMKqfGlmmr-E-1PTx8se",
+   "name": "card3_4k.png",
+   "folder": "generations",
+   "size": 315079,
+   "orig_size": 375348,
+   "sha256": "bddbcd7d237343b94fc0d5835b2c710fcc0a00d817c569802aa8466b07646600",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/cards/cta_4k.png",
+   "id": "1-OfQbJdAhBvrADhEBO4m4rK5_iYG8Fun",
+   "name": "cta_4k.png",
+   "folder": "generations",
+   "size": 197656,
+   "orig_size": 197656,
+   "sha256": "db8cba943ad36917f7efaa5c1fe1882ebdd4a375d6f8c7f3671f44e148d742ae",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/preflight/trumpglow_A_v5_ACDC_sheet.png",
+   "id": "1rcmp02elLtkkSOg7maq2kwAsxKRi2W-I",
+   "name": "trumpglow_A_v5_ACDC_sheet.png",
+   "folder": "generations",
+   "size": 2554248,
+   "orig_size": 2554248,
+   "sha256": "4c633bf55e970cee9caf8e08e47e7d45575fa4d86f273b8257aa8a2081d73ef9",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v5/preflight/trumpglow_A_v5_FreeBird_sheet.png",
+   "id": "1YFNXdch7G5fCP22olzLhIUcK34UFJadB",
+   "name": "trumpglow_A_v5_FreeBird_sheet.png",
+   "folder": "generations",
+   "size": 2554248,
+   "orig_size": 2554248,
+   "sha256": "4c633bf55e970cee9caf8e08e47e7d45575fa4d86f273b8257aa8a2081d73ef9",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v6/cards/card1.png",
+   "id": "1BAWTIvfK8S4gahI2laUje3P2m4WOL2k_",
+   "name": "card1.png",
+   "folder": "generations",
+   "size": 49485,
+   "orig_size": 49485,
+   "sha256": "bee73f5242d4be2b3c7a1e7e29c129a2775c92efcc79c5ddaeae679ef700d4e0",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v6/cards/card1_4k.png",
+   "id": "1sYVRJDi92z-eRmUk0M3bgGjTSmtLuQFJ",
+   "name": "card1_4k.png",
+   "folder": "generations",
+   "size": 195822,
+   "orig_size": 222407,
+   "sha256": "978f23625c4714a38e5251ca7f56595494fd9912b11b16513378034cc341eadb",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v6/cards/card2.png",
+   "id": "1lSCgi8wE8pfozz9OTbNrAg3teJJQr7XI",
+   "name": "card2.png",
+   "folder": "generations",
+   "size": 28805,
+   "orig_size": 28805,
+   "sha256": "d96d8b29a0502c41c9ae0e05b0ea71ef543325cac8028fd4f55cfdace484b671",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v6/cards/card2_4k.png",
+   "id": "1rN_UMFfKYC6a95zl8XJG9YqgLcp2HeuZ",
+   "name": "card2_4k.png",
+   "folder": "generations",
+   "size": 111969,
+   "orig_size": 128933,
+   "sha256": "f87a749cb4ea86a7293127dca99c690d5d44ccbc1e408a539546268159102ab2",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v6/cards/card3.png",
+   "id": "1a8SdUSNCAe1ugMBrOYXDKhxKyhrqtz_f",
+   "name": "card3.png",
+   "folder": "generations",
+   "size": 75975,
+   "orig_size": 75975,
+   "sha256": "2c10932e4c06df1ffe034df0c6cf3e0dbf406d5f72d2ca32aa2800d8feabdd58",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v6/cards/card3_4k.png",
+   "id": "1Ibai1pk-q_ypIS40kSzs-EeFrNJ4zYlX",
+   "name": "card3_4k.png",
+   "folder": "generations",
+   "size": 315079,
+   "orig_size": 375348,
+   "sha256": "bddbcd7d237343b94fc0d5835b2c710fcc0a00d817c569802aa8466b07646600",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v6/cards/cta_4k.png",
+   "id": "13EdG02iRInS_-TXUASRg097SVyiVWULJ",
+   "name": "cta_4k.png",
+   "folder": "generations",
+   "size": 197656,
+   "orig_size": 197656,
+   "sha256": "db8cba943ad36917f7efaa5c1fe1882ebdd4a375d6f8c7f3671f44e148d742ae",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v6/preflight/trumpglow_A_v6_ACDC_sheet.png",
+   "id": "1dUtu803YEhyWNHghqWApvqTwK2b9OMrP",
+   "name": "trumpglow_A_v6_ACDC_sheet.png",
+   "folder": "generations",
+   "size": 2255154,
+   "orig_size": 2255154,
+   "sha256": "1d9b4a35c4d801379b056301be183735336f39e85414633b3e38efdc8886ae89",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v6/preflight/trumpglow_A_v6_FreeBird_sheet.png",
+   "id": "1m47qqN0NOnXbxcXkOHN45csAN46Dbs3G",
+   "name": "trumpglow_A_v6_FreeBird_sheet.png",
+   "folder": "generations",
+   "size": 2255154,
+   "orig_size": 2255154,
+   "sha256": "1d9b4a35c4d801379b056301be183735336f39e85414633b3e38efdc8886ae89",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v7/cards/card1.png",
+   "id": "1KhPoVBQ3RtSqChV1WwOMPFtJwRXfpDjZ",
+   "name": "card1.png",
+   "folder": "generations",
+   "size": 49485,
+   "orig_size": 49485,
+   "sha256": "bee73f5242d4be2b3c7a1e7e29c129a2775c92efcc79c5ddaeae679ef700d4e0",
+   "sanitized": false
   }
  ],
  "updated_pt": "2026-10-20 PT (batch 2: out/deliver plus 3 re-encoded audio files)"
