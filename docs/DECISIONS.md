@@ -838,3 +838,20 @@ Total 13.92 GB. Never backed up: caches, dry runs, cast audits and private/ or a
 Batch 1 went to the private Drive folder "Hookforge Backup" (id 19ijhI0u40-wzTYeFkVO21vT83dwtLLTi, subfolders refs and music): 34 files, 0.145 GB, every one through deliver.stage/verify_staged. The gate refused 3 audio files, which were not uploaded and not worked around. Drive IDs and sha256 are in docs/backup_drive_index.json. build_manifest adds a drive_id column and a "Backed up to Drive" section, and restore_assets reads the index by default. In a clean clone the 34 files now resolve to `download`.
 ## D165 Derived outputs untracked
 approval_digest.html, buffer_preflight/, caption_library.json, hashtags_by_product.json, credit_ledger/<date>.json, ref_miner/transfer.json and backup_plan.json are rewritten by tests and regen, with only timestamps and key order changing. They are now gitignored and removed from the index (the files stay on the box). credit_ledger/reconcile_*.json stays tracked because it snapshots transaction data that can't be re-derived. A clean clone without these files still gives 104 passed, 30 deselected (they regenerate).
+
+## D166 (2026-10-20 PT) Backup batch 2 and regen churn
+**out/deliver:** all 84 deliverables (1.46 GB) went to Hookforge Backup/out_deliver (1O6p1U5ROPsR33-F9PuX9yOz3wwe8sIlv). Every file passed verify_staged as-is. They were already staged deliverables, so they went byte-identical.
+**3 refused audio files:** a stream copy with tags stripped still failed for the acdc_tc file (an encoder trace sits inside the AAC data), so all three were re-encoded to AAC 256k with bitexact flags and no tags. The two MP3s became .m4a, because the gate has no MP3 whitelist. All three now pass the gate and are uploaded. The index marks them `reencoded`, and the two former MP3s carry a `restore_as` .m4a path.
+**Index:** now 122 files, 1.63 GB.
+**Churn fixes:**
+- lean_plan and ref_miner dump JSON with sort_keys. The key order came from set iteration; the values are unchanged.
+- build_resume only rewrites RESUME.md when something other than the "Generated" line changed.
+- Verified: two regen runs in a row give byte-identical lean JSON and RESUME.
+**Still open:**
+- regen rewrites the pending approval_queue items' created_pt/expires_pt, so each regen pushes their 24h expiry back. That is a semantic issue, not churn, and was not changed. Omar or the parent should decide.
+- The weekly pick changed (trumpglow F09 to F04) because its inputs changed, not randomly: it is stable across hash seeds.
+## D167 Tier 2 chunked backup
+automation/backup_chunks.py keeps a resumable state in learning/backup_state.json (gitignored) and works through four commands: plan, stage <n>, record <path> <id>, status. Tier 2 is 698 files, 6.14 GB, in 13 chunks of about 500 MB. Chunk 1 is one file: learning/results/video_registry.csv at 1.12 GB.
+There is no unattended background upload, because the box has no Drive token (by design) and only an agent's UploadFile call can upload. Each session runs stage n, then UploadFile per file into Hookforge Backup/generations (1fmUtKzurfIZ5oULOZEaBi2SXIdANyN2l) or learning (1lI5HkHN6hICJPnfMe8KYR0TVROsknYgr), then record.
+Chunk 0 is done: audience_fit_log.csv uploaded. learning/results/snapshot_loop.out was refused by the gate and is a log anyway.
+Watch Drive quota: the backup is about 1.6 GB now and Tier 2 adds 6.1 GB.

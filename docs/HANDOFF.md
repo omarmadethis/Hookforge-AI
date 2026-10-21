@@ -293,3 +293,4 @@ Caveat: the reveal detector finds hard cuts and flashes. Steady "after" footage 
 - D161: the spend watch flags only Hookforge-model spend that the ledger doesn't cover. External spend is reported per model.
 - D162: CI is .github/workflows/test.yml, which runs `pytest -m "not needs_data"`.
 - D163: `python3 automation/restore_assets.py [--drive-index idx.json]` writes a dry-run restore plan only.
+- D166/D167: Drive backup has 123 files (deliverables, refs, audio, 1 learning log). Tier 2 continues with `python3 automation/backup_chunks.py status`, then `stage <n>`, then UploadFile, then `record`. Chunks 1–12 are pending.
