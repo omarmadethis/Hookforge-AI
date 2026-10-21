@@ -1,37 +1,37 @@
 {
- "checked_pt": "2026-10-20T18:22:23-07:00",
+ "checked_pt": "2026-10-20T20:19:57-07:00",
  "account": "user-Higgsfield--new-account",
- "flag": false,
+ "flag": true,
  "threshold": 20.0,
- "new_unledgered_credits": 0,
- "new_unaccounted_credits": 0,
- "new_external_credits": 1.0,
+ "new_unledgered_credits": 128.0,
+ "new_unaccounted_credits": 128.0,
+ "new_external_credits": 0,
  "new_by_type": {
-  "Sound Effects": 1.0
+  "Seedance 2.5": 128.0
  },
  "new_by_model": {
-  "Sound Effects": {
-   "model": "other",
+  "Seedance 2.5": {
+   "model": "seedance_2_5",
    "hookforge": 0.0,
-   "hookforge_unaccounted": 0.0,
-   "external": 1.0,
-   "n": 1
+   "hookforge_unaccounted": 128.0,
+   "external": 0.0,
+   "n": 2
   }
  },
  "window_by_model": {
-  "Sound Effects": {
-   "model": "other",
-   "hookforge": 0.0,
-   "hookforge_unaccounted": 0.0,
-   "external": 18.0,
-   "n": 33
-  },
   "GPT Image 2.5 Flare": {
    "model": "other",
    "hookforge": 0.0,
    "hookforge_unaccounted": 0.0,
-   "external": 41.5,
-   "n": 32
+   "external": 28.75,
+   "n": 20
+  },
+  "Sound Effects": {
+   "model": "other",
+   "hookforge": 0.0,
+   "hookforge_unaccounted": 0.0,
+   "external": 5.0,
+   "n": 9
   },
   "Text to Music": {
    "model": "other",
@@ -39,20 +39,42 @@
    "hookforge_unaccounted": 0.0,
    "external": 22.75,
    "n": 35
+  },
+  "Seedance 2.5": {
+   "model": "seedance_2_5",
+   "hookforge": 372.0,
+   "hookforge_unaccounted": 296.0,
+   "external": 0.0,
+   "n": 20
+  },
+  "GPT Image 2.0": {
+   "model": "gpt_image_2",
+   "hookforge": 91.0,
+   "hookforge_unaccounted": 0.0,
+   "external": 0.0,
+   "n": 14
   }
  },
- "new_items": [],
- "new_external_items": [
+ "new_items": [
   {
-   "when_pt": "2026-10-20T17:46:05-07:00",
-   "what": "Sound Effects",
-   "credits": 1.0,
-   "created_at": "2026-10-21T00:46:05.357540Z",
-   "model": "other",
-   "tag": "external"
+   "when_pt": "2026-10-20T19:52:04-07:00",
+   "what": "Seedance 2.5",
+   "credits": 64.0,
+   "created_at": "2026-10-21T02:52:04.585700Z",
+   "model": "seedance_2_5",
+   "tag": "hookforge_unaccounted"
+  },
+  {
+   "when_pt": "2026-10-20T19:52:04-07:00",
+   "what": "Seedance 2.5",
+   "credits": 64.0,
+   "created_at": "2026-10-21T02:52:04.819283Z",
+   "model": "seedance_2_5",
+   "tag": "hookforge_unaccounted"
   }
  ],
- "cumulative_unledgered_in_window": 82.25,
+ "new_external_items": [],
+ "cumulative_unledgered_in_window": 352.5,
  "baseline": false,
- "note": "ok"
+ "note": "NEW HOOKFORGE-MODEL SPEND NOT IN LEDGER > 20 cr since last check - surface to Omar"
 }

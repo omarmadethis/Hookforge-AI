@@ -249,10 +249,11 @@ def weekly(start=None, write=True):
                   note="approve per video or the whole batch; each video still goes through its own approval file + runner gate")
         from . import lean_plan                       # D143: the lean 1080p-hook plan is the recommended option when it passes D142
         lw = lean_plan.write(out)["lean"]
-        if lw["near_duplicate_ok"]:
+        from .unique_footage import REUSE_BANNED     # D180: lean reuse banned; standard (fully unique) is the only option
+        if not REUSE_BANNED and lw["near_duplicate_ok"]:
             it.update(recommended_option="lean_1080p_hook", credits=lw["total_credits"], credit_cap=lw["total_credits"], standard_credits=total,
                       lean_file=f"learning/weekly_batch/{cal['start']}_lean.json")
-        else: it.update(recommended_option="standard", lean_blocked=lw["near_duplicate_violations"])
+        else: it.update(recommended_option="standard", lean_blocked=(["D180: clip reuse banned"] if REUSE_BANNED else []) + list(lw["near_duplicate_violations"]))
         approval_queue.preserve(it, os.path.join(approval_queue.DIR, it["id"] + ".json"))   # D168 keep original times
         json.dump(it, open(os.path.join(approval_queue.DIR, it["id"] + ".json"), "w"), indent=1, ensure_ascii=False)
     return out

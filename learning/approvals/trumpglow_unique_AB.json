@@ -1,0 +1,63 @@
+{
+ "approved_by": "Omar",
+ "approved_at_pt": "2026-10-20T19:44:00-07:00",
+ "approval_quote": "Omar approved the 355-credit cap for the 2 unique TrumpGlow videos (A and B)",
+ "approval_channel": "relayed by parent agent",
+ "run_id": "trumpglow_unique_AB",
+ "rule": "D180 fully unique, no shared footage",
+ "account": "user-Higgsfield--new-account",
+ "credit_cap": 355,
+ "quote": {
+  "A": 174,
+  "B": 174,
+  "total": 348,
+  "reserve": 7
+ },
+ "phases": {
+  "frames": {
+   "credits": 52,
+   "status": "done",
+   "jobs": 8,
+   "spent": 52,
+   "completed_pt": "2026-10-20T19:49:00-07:00",
+   "dir": "out/live/trumpglow_AB/frames",
+   "gates": {
+    "political_lint": "pass (PL6 WARN on A card 1 'Fake Trump Fans' - on-screen only, kept off captions)",
+    "world_consistency": "pass 8/8",
+    "unique_footage_D180": "pass, 0 shared",
+    "metadata_F96": "pass: IHDR/IDAT/IEND only, exiftool clean"
+   },
+   "refs": {
+    "badge": "81319b4e-7b56-4d13-8074-ab35122625e2",
+    "cast": "8d3785b7-58b3-4411-b85b-97f9b3bc0167"
+   },
+   "reroll_B_B3": {
+    "job": "f5d8d760-951c-48dc-9a85-366d3599db0b",
+    "credits": 6.5,
+    "at_pt": "2026-10-20T20:11:00-07:00",
+    "reason": "v1 flagged nsfw twice by Seedance (passer-by); v2 no people",
+    "status": "awaiting Omar OK",
+    "file": "out/live/trumpglow_AB/frames/B_B3.png",
+    "metadata_F96": "pass"
+   }
+  },
+  "video": {
+   "credits": 296,
+   "status": "partial",
+   "approved_at_pt": "2026-10-20T19:50:00-07:00",
+   "approval_quote": "Omar OK'd all 8 frames as-is (no B_B2 re-roll)",
+   "approval_channel": "relayed by parent agent",
+   "spent": 268,
+   "jobs_ok": 7,
+   "nsfw_flagged": [
+    "B_B3 29e8cf92 (0 cr)",
+    "B_B3 retry 4c8d3104 (0 cr)"
+   ],
+   "A_final": "out/deliver/trumpglow_AB/TrumpGlow - A2 - Fake Trump Fans - FreeBird - v1.mp4",
+   "A_drive": "1EexdUWd1p5erX9QrFLa-K194Njj2SB6l",
+   "B_status": "blocked: B_B3 start frame flagged nsfw twice by Seedance; needs a new start frame (Omar OK) - 35 cr left in cap"
+  }
+ },
+ "consumed": false,
+ "total_spent": 326.5
+}

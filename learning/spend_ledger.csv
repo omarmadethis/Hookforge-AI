@@ -102,3 +102,30 @@ ts_pt,run_id,item,job_ids,credits
 2026-10-20T10:04:01,purrventure_video,P2_G3 try4 (cat-only) [FAIL: Siamese not Bengal; unused],fa4426b9-72ee-49a5-9710-b21f678d107d,28
 2026-10-20T10:12:11,purrventure_video,"P2_G3 try5 (SF3 start, cat-only) [nsfw flag]",a8efec9d-837f-4e4f-b81a-72438693ef65,0
 2026-10-20T10:15:55,purrventure_video,P2_G3 try6 (start=P2_G2 last frame),441ac420-d37d-4dc5-8dbe-0244cf29556b,28
+2026-10-20T19:27,jollyglow_f06_lean,gpt_image_2 H start frame still,33abf7ce-bd29-4c71-9d40-19034babbacf,6.5
+2026-10-20T19:27,jollyglow_f06_lean,gpt_image_2 B1 start frame still,9684bc25-179f-4011-8473-3582980c7088,6.5
+2026-10-20T19:27,jollyglow_f06_lean,gpt_image_2 B2 start frame still,348b3f79-08b9-46c6-94d7-3cb58526d897,6.5
+2026-10-20T19:27,jollyglow_f06_lean,gpt_image_2 B3 start frame still,5491cf8b-4e54-4b93-bdff-cec97b4db712,6.5
+2026-10-20T19:41,jollyglow_f06_lean,seedance_2_5 H video video,1bde78af-18b5-4cca-8f47-031171ededc8,64
+2026-10-20T19:41,jollyglow_f06_lean,seedance_2_5 B1 video video,77556162-50ab-4c53-8f25-7cf95e5370a0,28
+2026-10-20T19:41,jollyglow_f06_lean,seedance_2_5 B2 video video,0b5f4334-cbfe-4232-a488-f95cb94bb494,28
+2026-10-20T19:41,jollyglow_f06_lean,seedance_2_5 B3 video video,bfe4af22-1703-4379-a0a2-dc2ce415f7b4,28
+2026-10-20T19:47,trumpglow_unique_AB,gpt_image_2 A_H start frame still,5c01db4e-a822-4528-933a-ce3e3994dfa8,6.5
+2026-10-20T19:47,trumpglow_unique_AB,gpt_image_2 A_B1 start frame still,1656542e-a433-43da-b7c7-d49f599f7018,6.5
+2026-10-20T19:47,trumpglow_unique_AB,gpt_image_2 A_B2 start frame still,211f523f-ad63-4528-b6bb-c178289509fa,6.5
+2026-10-20T19:47,trumpglow_unique_AB,gpt_image_2 A_B3 start frame still,45d4d0dc-b905-4229-b81c-77bce3ed3d23,6.5
+2026-10-20T19:47,trumpglow_unique_AB,gpt_image_2 B_H start frame still,cf380d4a-a62b-4c4d-8a1c-7097388c0e7d,6.5
+2026-10-20T19:47,trumpglow_unique_AB,gpt_image_2 B_B1 start frame still,94986fe1-502b-4e01-b630-50bd2009af0f,6.5
+2026-10-20T19:47,trumpglow_unique_AB,gpt_image_2 B_B2 start frame still,06923104-566b-4c5c-bedb-ab1725109f72,6.5
+2026-10-20T19:47,trumpglow_unique_AB,gpt_image_2 B_B3 start frame still,92d1f31d-a0c2-4714-97f4-254da347f8de,6.5
+2026-10-20T19:53,trumpglow_unique_AB,seedance_2_5 A_H 1080p 4s video,4a4ba7d6-ad4f-4f0a-8a73-36a7fdad98ed,64
+2026-10-20T19:53,trumpglow_unique_AB,seedance_2_5 A_B1 720p 4s video,7d9fd9a0-0474-47de-90fa-36eee17ca8f9,28
+2026-10-20T19:53,trumpglow_unique_AB,seedance_2_5 A_B2 720p 4s video,26016dc9-52c5-4190-ba61-9d83051d7d74,28
+2026-10-20T19:53,trumpglow_unique_AB,seedance_2_5 A_B3 720p 4s video,096a3dc1-e527-4732-b96f-d24f804e2f5c,28
+2026-10-20T19:53,trumpglow_unique_AB,seedance_2_5 B_H 1080p 4s video,c8648714-2bcb-4bd2-98c2-acf6d364159b,64
+2026-10-20T19:53,trumpglow_unique_AB,seedance_2_5 B_B1 720p 4s video,1d8c9156-3cf5-485e-b0cc-c4b4b626e9bd,28
+2026-10-20T19:53,trumpglow_unique_AB,seedance_2_5 B_B2 720p 4s video,11b3d58d-9973-4cb4-ae6c-ea10d6efc4f4,28
+2026-10-20T19:53,trumpglow_unique_AB,seedance_2_5 B_B3 720p 4s video [nsfw flag],29e8cf92-1267-409f-a126-80c52bcc3e95,0
+2026-10-20T19:57,trumpglow_unique_AB,seedance_2_5 B_B3 720p 4s video retry [nsfw flag],4c8d3104-b094-46da-99e8-61daebda3554,0
+2026-10-20T20:03,jollyglow_f06_hook_redo,gpt_image_2 H2 start frame still,336c512f-804a-4d4e-9853-62323f015317,6.5
+2026-10-20T20:11,trumpglow_unique_AB,gpt_image_2 B_B3 start frame re-roll (no passer-by),f5d8d760-951c-48dc-9a85-366d3599db0b,6.5

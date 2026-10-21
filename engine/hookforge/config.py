@@ -31,7 +31,7 @@ def ensure_suffix(prompt):
 # --- Standing decision 2: resolution + packing ---
 MODEL_VIDEO = "seedance_2_5"          # Seedance only (Omar: no Kling)
 MODEL_STILL = "gpt_image_2"           # GPT Image 2 only for start frames
-HOOK_RES = "1080p"                    # hook = its own 4 s generation at full res
+HOOK_RES = "720p"                     # D181 (Omar 2026-10-20 8:02 PM PT): hooks are 720p, permanent; replaces 1080p
 BODY_RES = "720p"                     # every other generation
 GEN_SECONDS = 4                       # Seedance 2.5 minimum
 PACK_CUT_DEFAULT = 2.0                # hard cut inside a packed body gen

@@ -60,6 +60,8 @@ def build_calls(plan, product_media_id="<PRODUCT_MEDIA_ID>", account=None, cast_
 def build_calls_lean(plan, role, product_media_id="<PRODUCT_MEDIA_ID>", account=None, cast_media_ids=()):
     """D145: lean plan calls. role="anchor": all gens (H + B1-B3), 1 start-frame still each. role="extra": ONLY the new
     1080p hook (H) - the bodies come from the product's anchor run and are re-ordered/trimmed by lean_edit.build."""
+    from .unique_footage import SharedFootage
+    raise SharedFootage("BLOCK D180: lean clip reuse is permanently banned (supersedes D142/D145); plan every video in full")
     import copy
     p = copy.deepcopy(plan)
     p["gens"] = [g for g in p["gens"] if role == "anchor" or g["id"] == "H"]
@@ -70,6 +72,8 @@ def build_calls_lean(plan, role, product_media_id="<PRODUCT_MEDIA_ID>", account=
 
 def assemble_lean(hook_file, anchor_bodies, edit, out_path, payoff_reveal_s=None):
     """D145/D147: render one lean video locally and refuse it if the payoff reveal check fails."""
+    from .unique_footage import SharedFootage
+    raise SharedFootage("BLOCK D180: lean assembly from shared anchor bodies is permanently banned")
     from . import lean_edit
     rv = payoff_reveal_s if payoff_reveal_s is not None else lean_edit.reveal_frame_s(anchor_bodies["B3"])
     rc = lean_edit.reveal_check(edit, rv)

@@ -22,6 +22,7 @@ def test_build_reorder_trim_real_ffmpeg():
     r = E.build(f["H"], {k: f[k] for k in ("B1", "B2", "B3")}, e, os.path.join(d, "v.mp4"), clean=False)
     assert abs(r["duration"] - 10.0) < 0.1
 
+@__import__('pytest').mark.skip(reason='D180: lean clip reuse banned; see test_unique_footage_d180')
 def test_lean_calls_hook_only():
     p = planner.plan("3-2-1 video for the JollyGlow curtain", override={"format": "F01", "product_key": "jollyglow_curtain"}, mode="original")
     assert sum(c["expected_credits"] for c in runner.build_calls_lean(p, "extra")) == 70.5

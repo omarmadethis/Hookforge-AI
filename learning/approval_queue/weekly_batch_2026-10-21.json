@@ -4,14 +4,15 @@
  "product": null,
  "status": "AWAITING_OMAR_APPROVAL",
  "created_pt": "2026-10-20T17:11:07-07:00",
- "credits": 1227.0,
- "credit_cap": 1227.0,
+ "credits": 2600.0,
+ "credit_cap": 2600.0,
  "ready_for_approval": true,
  "why": "13 new videos fill all 20 calendar slots (2026-10-21 week); each video reused across its product's pages with distinct captions",
  "rationale": "trumpglow: 7 videos; purrventure_carrier: 3 videos; jollyglow_curtain: 3 videos",
  "batch_file": "learning/weekly_batch/2026-10-21.json",
  "note": "approve per video or the whole batch; each video still goes through its own approval file + runner gate",
- "recommended_option": "lean_1080p_hook",
- "standard_credits": 2600.0,
- "lean_file": "learning/weekly_batch/2026-10-21_lean.json"
+ "recommended_option": "standard",
+ "lean_blocked": [
+  "D180: clip reuse banned"
+ ]
 }
