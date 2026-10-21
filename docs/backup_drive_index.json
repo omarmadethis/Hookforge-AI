@@ -4953,6 +4953,806 @@
    "orig_size": 197656,
    "sha256": "db8cba943ad36917f7efaa5c1fe1882ebdd4a375d6f8c7f3671f44e148d742ae",
    "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/final/cards/card2say_4k.png",
+   "id": "1oak75xkhsyIU3R7GezJU29YhrkNy2xUs",
+   "name": "card2say_4k.png",
+   "folder": "generations",
+   "size": 189048,
+   "orig_size": 189048,
+   "sha256": "8a199d931fa0f4a89ebc17f6d181d0888c66ca5061ff87a4b4ed2111197d17a0",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_sheet.png",
+   "id": "1Qe8OQVV2yZ87cUfj8txKnyhDimGgC_gR",
+   "name": "trumpglow_B_ACDC_sheet.png",
+   "folder": "generations",
+   "size": 2249105,
+   "orig_size": 2249105,
+   "sha256": "2d48794a639a75183fd2c5b826b5ba93e0f2dc73b8f5462b59c23ba563ec6266",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v2_sheet.png",
+   "id": "1yhZ9CHA7TB3wH65WQ_TYN7Eb4Qx66bEF",
+   "name": "trumpglow_B_ACDC_v2_sheet.png",
+   "folder": "generations",
+   "size": 2033202,
+   "orig_size": 2033202,
+   "sha256": "2b4171e318c0e77b5e901dcd49efbf152e2927174d7a0f59dae06b4125d18100",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v3_sheet.png",
+   "id": "1RjDDg8jIsXTQGOSUqSRT8nsCLhriKzlw",
+   "name": "trumpglow_B_ACDC_v3_sheet.png",
+   "folder": "generations",
+   "size": 2015588,
+   "orig_size": 2015588,
+   "sha256": "295d9f8268b440b231cc9ab57ce702d747eeff53f54e6cea5cd97d5bf87db5f8",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v4_sheet.png",
+   "id": "18P4io7ie8biRbEURDApGUDM_gfVeSBbE",
+   "name": "trumpglow_B_ACDC_v4_sheet.png",
+   "folder": "generations",
+   "size": 2015704,
+   "orig_size": 2015704,
+   "sha256": "3144d2a28a2dda61b5af75e6090ad5e4c795b24124f78ac6dd36cb9cc991d591",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/final/preflight/trumpglow_B_FreeBird_v3_sheet.png",
+   "id": "17fDdlbUekRnbBD23wxwm85cGsbv3-WgU",
+   "name": "trumpglow_B_FreeBird_v3_sheet.png",
+   "folder": "generations",
+   "size": 2015588,
+   "orig_size": 2015588,
+   "sha256": "295d9f8268b440b231cc9ab57ce702d747eeff53f54e6cea5cd97d5bf87db5f8",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/final/preflight/trumpglow_B_FreeBird_v4_sheet.png",
+   "id": "1M0wlId5n-O0_7QLXLxTfDbsqONTTb6FO",
+   "name": "trumpglow_B_FreeBird_v4_sheet.png",
+   "folder": "generations",
+   "size": 2015704,
+   "orig_size": 2015704,
+   "sha256": "3144d2a28a2dda61b5af75e6090ad5e4c795b24124f78ac6dd36cb9cc991d591",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF1_v1.png",
+   "id": "1C101OyPuxDHdmKnYlbTbubg1hg_mNNUD",
+   "name": "SF1_v1.png",
+   "folder": "generations",
+   "size": 1247422,
+   "orig_size": 1247422,
+   "sha256": "c7333593fdee99f8ce45c600e8f77183a897ca68c65d22ea1be6a96402b48453",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF1_v2.png",
+   "id": "1bY-S-ScPnnDf2x-qDakR9SFAnqfurfNF",
+   "name": "SF1_v2.png",
+   "folder": "generations",
+   "size": 1064782,
+   "orig_size": 1064782,
+   "sha256": "1a2e3abb5c7168d9af534c7d6052c5c8b7338d5ca6f5a1fd146e06326662262c",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF2_v1.png",
+   "id": "1jdDcF3EIcDjDyBXnH-clsNNODnkXWrnq",
+   "name": "SF2_v1.png",
+   "folder": "generations",
+   "size": 1372361,
+   "orig_size": 1372361,
+   "sha256": "871a18d69e78ca00bab4a3389f451c6153579bf48d55e0ae0a0400085e52ca37",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF2_v2.png",
+   "id": "1dyZnJqWqNk-ySNKudpggQQZb0tgP6E86",
+   "name": "SF2_v2.png",
+   "folder": "generations",
+   "size": 1383630,
+   "orig_size": 1383630,
+   "sha256": "1af3340488a87c999e4a873bc5fb933e7dc1319810772ebfefc2115c9ea0d9ba",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF3_v1.png",
+   "id": "1D04jT2NNyd2-6WX-qyBdYtaxNmdypRb0",
+   "name": "SF3_v1.png",
+   "folder": "generations",
+   "size": 1395287,
+   "orig_size": 1395287,
+   "sha256": "98e2a41924d59c393806c1bc8c71269bf6bdc2ef5bc90103355fe1ee8dab4079",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF3_v2.png",
+   "id": "1vLbAk7WdDHu6GQV9X5X3zAapv5f_KbGw",
+   "name": "SF3_v2.png",
+   "folder": "generations",
+   "size": 1905653,
+   "orig_size": 1905653,
+   "sha256": "f6e2621562754f0a02e1693d63a5bd7f2b6323862ff00fc27a09392030e9854f",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF5_v1.png",
+   "id": "1ylD4upxkk-6RQdy1ZdmGBbcAPAAaG5os",
+   "name": "SF5_v1.png",
+   "folder": "generations",
+   "size": 1466218,
+   "orig_size": 1466218,
+   "sha256": "ecbdc05bb633bb70116bcc6a263745fed5daf431b6718fe6a673744c87eb1d03",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF5_v2.png",
+   "id": "1pOAsEhzLahRxTcx9DIxX6bPzMh0f2aAp",
+   "name": "SF5_v2.png",
+   "folder": "generations",
+   "size": 1507364,
+   "orig_size": 1507364,
+   "sha256": "58f2bf0b5cfcc56acc8c131a28644a2ada91eb832f416654cd115a3e79a47ffe",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF6_v1.png",
+   "id": "1k4EuIbqEzWtGPZZs4y1sBl8lmRoQQ2mA",
+   "name": "SF6_v1.png",
+   "folder": "generations",
+   "size": 1846827,
+   "orig_size": 1846827,
+   "sha256": "eea85ba35ae90af07f1d83145f27a9b3fed999747696cc7e7e19cacfc707a248",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF6_v2.png",
+   "id": "18JU90UEmgpSIctQrLZW77ugCz6wjIKtm",
+   "name": "SF6_v2.png",
+   "folder": "generations",
+   "size": 1942370,
+   "orig_size": 1942370,
+   "sha256": "d9105a4b0402ee3255bb1a0724f5b07e0828fccee1639654e9b7d28a5b4ede88",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF7_v1.png",
+   "id": "1oJcRP3YmTLdTf30UVJeXYZSVx49kf-Qv",
+   "name": "SF7_v1.png",
+   "folder": "generations",
+   "size": 1693960,
+   "orig_size": 1693960,
+   "sha256": "ebae4c3c34b1a371c4b2de7125e45dbca857af2e37395ff9ab3cf439d0e0aad5",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_B/start_frames/SF7_v2.png",
+   "id": "18KgbhHD1LmI3sUeR61FipMDyFxGEhizU",
+   "name": "SF7_v2.png",
+   "folder": "generations",
+   "size": 1843087,
+   "orig_size": 1843087,
+   "sha256": "804aa1382a70a06085b3df8f5d279fbe67739e532f7863a5d1b50a40d40e3c8e",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/clips/CG1_sheet.jpg",
+   "id": "1WMkIuRET2MZD_RMXd-zhdDs3TLAk2HCW",
+   "name": "CG1_sheet.jpg",
+   "folder": "generations",
+   "size": 225467,
+   "orig_size": 89731,
+   "sha256": "8be199d2062588e5b23f2e6a188dc97fe93f27010bc45efbd9345c862d6d550c",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/clips/CG2_sheet.jpg",
+   "id": "1ruIZ6seHnnN7QO-CxEOE4HXH8wOh03KX",
+   "name": "CG2_sheet.jpg",
+   "folder": "generations",
+   "size": 221684,
+   "orig_size": 94147,
+   "sha256": "f7f9807946fc36f2f63212cbb575e2c717e4413556af97712539ce61f3df9e4f",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/clips/CG3_sheet.jpg",
+   "id": "1Zsx5CS3lwiOnFJuTA82jidYLIXIpVlXx",
+   "name": "CG3_sheet.jpg",
+   "folder": "generations",
+   "size": 298128,
+   "orig_size": 118919,
+   "sha256": "656695dbd22095e6e96051746721914887df3e9a9a33cbd9880a86506d55db99",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/clips/CG4_sheet.jpg",
+   "id": "1ppAx760QSALgMCC8AQkNK1z_uCgEvTbd",
+   "name": "CG4_sheet.jpg",
+   "folder": "generations",
+   "size": 167025,
+   "orig_size": 71714,
+   "sha256": "4ac5e566a41ecb359b8d8b3220b85f3cdb95abbcb1c21792b1c0ae96e27d40f6",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/contact_sheet_start_frames.jpg",
+   "id": "1sUZgHiqm9A9glf8UrcbskuBc7lIr59V2",
+   "name": "contact_sheet_start_frames.jpg",
+   "folder": "generations",
+   "size": 392175,
+   "orig_size": 392175,
+   "sha256": "6d0bb0a8a0812416ca2bee86213ea9eb294929372def6645f3b4116c1f3fb433",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/cards/card1.png",
+   "id": "1tdrdoW0vcVPdj6sj4H5nt22xBQJZ1oZw",
+   "name": "card1.png",
+   "folder": "generations",
+   "size": 29599,
+   "orig_size": 29599,
+   "sha256": "084e36eb480a54539bc61972af163a5e5171de7dd80d6aed91439341080c6b0a",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/cards/card1_4k.png",
+   "id": "1piqh8QFLaeuSBlgCCY6oGZQRBnqsZ_7t",
+   "name": "card1_4k.png",
+   "folder": "generations",
+   "size": 145277,
+   "orig_size": 145277,
+   "sha256": "9a71b88fb0e7f8a2a6a7603dcb54e5b1fc8ffb0916d1fee758f58f843c89372b",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/cards/card1v4.png",
+   "id": "1qXvicF-VanwpKzbuEEevYaiLREBe-Ckv",
+   "name": "card1v4.png",
+   "folder": "generations",
+   "size": 80009,
+   "orig_size": 80009,
+   "sha256": "9fb0b7ad3ea678235d3b914ef96aa0fed40b9d7585d1e81107dad72ce959df55",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/cards/card1v4_4k.png",
+   "id": "1wAEwPBh_4FGtXeTLQpBAzIM4uDdegLnu",
+   "name": "card1v4_4k.png",
+   "folder": "generations",
+   "size": 201389,
+   "orig_size": 201389,
+   "sha256": "18791116ea25f8bc5fdc0a5527a367ebe4c03fcaa863aa7a94be54edd71a9364",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/cards/card2.png",
+   "id": "1F5PYl7hXZr0kXmOGyJQAFYR1hGtWbIlX",
+   "name": "card2.png",
+   "folder": "generations",
+   "size": 10418,
+   "orig_size": 10418,
+   "sha256": "3afc674404ff40417f5767f50f67de0aa5de910b102b9898807b152a3de6531c",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/cards/card2_4k.png",
+   "id": "17z5Dy7mOKB1l_OhCrEXwrMS444TaSjy1",
+   "name": "card2_4k.png",
+   "folder": "generations",
+   "size": 88319,
+   "orig_size": 88319,
+   "sha256": "b3beaf417e444847c4c41675dc7b3b2f6b60ae3e632803b70a075e8b111c89e0",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/cards/card3.png",
+   "id": "1ibv4pO9BPjCQ5GUlJNECkwPAZKAqe_1D",
+   "name": "card3.png",
+   "folder": "generations",
+   "size": 29362,
+   "orig_size": 29362,
+   "sha256": "6854ea7ce585ec6d568c848afa06c4ed9685971ebcb5548e28436463a2bf7d17",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/cards/card3_4k.png",
+   "id": "19AN2h-w5n4SEED5s71RY2q7LFJBh_W7Z",
+   "name": "card3_4k.png",
+   "folder": "generations",
+   "size": 192808,
+   "orig_size": 192808,
+   "sha256": "9d94034afaf450a9f960700b38c5052d2b1fd05a77f52fe01b7abb43b4862991",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/cards/card4.png",
+   "id": "1LZqPLbmV4gOEWeY5AYia_okuz0V4Bqz6",
+   "name": "card4.png",
+   "folder": "generations",
+   "size": 34779,
+   "orig_size": 34779,
+   "sha256": "d5c5b8938b017fd2a764e67bc46255da99afb2e2f42858043d235083f5535200",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/cards/card4_4k.png",
+   "id": "1hZjkSseIZd8w4QjTqQi1hdJlsQ1n4hr9",
+   "name": "card4_4k.png",
+   "folder": "generations",
+   "size": 197656,
+   "orig_size": 197656,
+   "sha256": "db8cba943ad36917f7efaa5c1fe1882ebdd4a375d6f8c7f3671f44e148d742ae",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/cards/card4say_4k.png",
+   "id": "1-0WB4zNjAzTeSSqhm7B3yhQuuVyPVGgd",
+   "name": "card4say_4k.png",
+   "folder": "generations",
+   "size": 189048,
+   "orig_size": 189048,
+   "sha256": "8a199d931fa0f4a89ebc17f6d181d0888c66ca5061ff87a4b4ed2111197d17a0",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_sheet.png",
+   "id": "1Q_byhDDyGtkApprnLDQR_GYk_kj4RAvR",
+   "name": "trumpglow_C_ACDC_sheet.png",
+   "folder": "generations",
+   "size": 2302598,
+   "orig_size": 2302598,
+   "sha256": "4c64870d8fa8e0780291672dd04690a1dd0da6b179d929bba7b329cc2b4555ed",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v2_sheet.png",
+   "id": "1xT4A4M4mHO_VegiSTnEgTw-gwpq0wDpA",
+   "name": "trumpglow_C_ACDC_v2_sheet.png",
+   "folder": "generations",
+   "size": 2307880,
+   "orig_size": 2307880,
+   "sha256": "19c2b3514fd454f35d7568c0d350324ecc8bda76cbfbec4a0b5e1e22844801e3",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v3_sheet.png",
+   "id": "11A5qWSEnAUAS86klrryBxfbw4jU6jFEY",
+   "name": "trumpglow_C_ACDC_v3_sheet.png",
+   "folder": "generations",
+   "size": 1936622,
+   "orig_size": 1936622,
+   "sha256": "fddadee5dba45706763a6b146ca65c8c2fb293c83258f13f018ef34345389de3",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v4_sheet.png",
+   "id": "11NfagDo8kv2fIrjiRBzSnklssP8LDeHq",
+   "name": "trumpglow_C_ACDC_v4_sheet.png",
+   "folder": "generations",
+   "size": 1697355,
+   "orig_size": 1697355,
+   "sha256": "78c5a84b0f7487ac7d7fe257c26d4ff39f7595b9ffed4ff7014cd91d95d6763f",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v5_sheet.png",
+   "id": "1y7lWRd2gL3i25MFEWQRdIwXgkCGrubtX",
+   "name": "trumpglow_C_ACDC_v5_sheet.png",
+   "folder": "generations",
+   "size": 1695953,
+   "orig_size": 1695953,
+   "sha256": "0c2523eed9378b29891818707ddf828069b6eb30878511234ad799c9a46d491e",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_sheet.png",
+   "id": "1W2lYK8ndi6Vnq1UgF5BvBc-co3f4C0ml",
+   "name": "trumpglow_C_FreeBird_sheet.png",
+   "folder": "generations",
+   "size": 2302598,
+   "orig_size": 2302598,
+   "sha256": "4c64870d8fa8e0780291672dd04690a1dd0da6b179d929bba7b329cc2b4555ed",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v2_sheet.png",
+   "id": "1xftw0wnaZe9rCIJwoPOniyb5SCXO9LLy",
+   "name": "trumpglow_C_FreeBird_v2_sheet.png",
+   "folder": "generations",
+   "size": 2307880,
+   "orig_size": 2307880,
+   "sha256": "19c2b3514fd454f35d7568c0d350324ecc8bda76cbfbec4a0b5e1e22844801e3",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v3_sheet.png",
+   "id": "1l5Kb4FiqGLdOMPWNRHCMERMt4wNDpRhF",
+   "name": "trumpglow_C_FreeBird_v3_sheet.png",
+   "folder": "generations",
+   "size": 1936622,
+   "orig_size": 1936622,
+   "sha256": "fddadee5dba45706763a6b146ca65c8c2fb293c83258f13f018ef34345389de3",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v4_sheet.png",
+   "id": "10a6wb7ttHebVRkIfZvDtjlllPkPmqsdj",
+   "name": "trumpglow_C_FreeBird_v4_sheet.png",
+   "folder": "generations",
+   "size": 1697355,
+   "orig_size": 1697355,
+   "sha256": "78c5a84b0f7487ac7d7fe257c26d4ff39f7595b9ffed4ff7014cd91d95d6763f",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v5_sheet.png",
+   "id": "1nqI7MPj1Qwm0pNeb0NKNO7AiGUo1992g",
+   "name": "trumpglow_C_FreeBird_v5_sheet.png",
+   "folder": "generations",
+   "size": 1695953,
+   "orig_size": 1695953,
+   "sha256": "0c2523eed9378b29891818707ddf828069b6eb30878511234ad799c9a46d491e",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/start_frames/SF1_v1.png",
+   "id": "1t1WPFTZ5jag9dVaLaojCZ9WRQSBMcxNv",
+   "name": "SF1_v1.png",
+   "folder": "generations",
+   "size": 2327210,
+   "orig_size": 2327210,
+   "sha256": "a6ccbe0791a230111bb46db7183bd97a353129ac5cac80a0fdf5985edf31724c",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/start_frames/SF1_v2.png",
+   "id": "1r3Bmbr1m_F_7UwNrD82tdA0Ymay4uedc",
+   "name": "SF1_v2.png",
+   "folder": "generations",
+   "size": 2119935,
+   "orig_size": 2119935,
+   "sha256": "d194395f2cb15ae997d728a390df9e4041a5b0e61be1d7017d953cd5bfc037b0",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/start_frames/SF3_v1.png",
+   "id": "1KkADByIj6hbzNTXEBVnWhD_PavLNokUn",
+   "name": "SF3_v1.png",
+   "folder": "generations",
+   "size": 1196342,
+   "orig_size": 1196342,
+   "sha256": "06e56ac1bd1e4e81df8bb75f4542b77f67de74ec38efcc972b6644ac4e223c68",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/start_frames/SF3_v2.png",
+   "id": "1ByZM_ReM9n2Qcf1BdcOTN7dy1bPuWM00",
+   "name": "SF3_v2.png",
+   "folder": "generations",
+   "size": 1291369,
+   "orig_size": 1291369,
+   "sha256": "8fb457d3b1d1177f745fee943462a489d2592cfd7e798af8dbcf767373852098",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/start_frames/SF4_v1.png",
+   "id": "1YXZs0jZFO4yRr1DmwcoAETm33oLc3jux",
+   "name": "SF4_v1.png",
+   "folder": "generations",
+   "size": 2163582,
+   "orig_size": 2163582,
+   "sha256": "6f7a8b1cd0f83a9570f512f57c10c1d058cbae2b6f1fb2b8e82d5ef749a3a2cc",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/start_frames/SF4_v2.png",
+   "id": "1pW-s9ZSxhmJSCXusaoXpRQHW9Ij-TYL_",
+   "name": "SF4_v2.png",
+   "folder": "generations",
+   "size": 2215921,
+   "orig_size": 2215921,
+   "sha256": "0189e4a5a7c33da62db8cc048fe2a73e5d35a1676970a3972fe77c0a36c29214",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/start_frames/SF5_v1.png",
+   "id": "1sOX1VAlYDCe0EcMVTEXhW0Rmks43F0cz",
+   "name": "SF5_v1.png",
+   "folder": "generations",
+   "size": 1833746,
+   "orig_size": 1833746,
+   "sha256": "de589fd0919232f7a6bdeb7d56463fc9ec1b55d37a7906378657f94bdec4c6bc",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/trumpglow_C/start_frames/SF5_v2.png",
+   "id": "1FSRvTE5U4u3wOUuS6hYHqr2-z89W8ixt",
+   "name": "SF5_v2.png",
+   "folder": "generations",
+   "size": 1805303,
+   "orig_size": 1805303,
+   "sha256": "e0496ba385489cb24255880f2be5e7c2cab417423f7265210da647f38b79c47a",
+   "sanitized": false
+  },
+  {
+   "path": "out/purrventure_brand/PurrVenture - FB Cover - v1.png",
+   "id": "1XIYzkqBzg-cqZ5JZpQWY61wdicbYRsSC",
+   "name": "PurrVenture - FB Cover - v1.png",
+   "folder": "generations",
+   "size": 161721,
+   "orig_size": 161721,
+   "sha256": "7944bf52acea92eee129d36b94a168666709b6235f68e0546507b68bf2b163cc",
+   "sanitized": false
+  },
+  {
+   "path": "out/purrventure_brand/PurrVenture - FB Cover - v2.png",
+   "id": "1BY2E9HDutt8EO_-GfZ8Y-MT9KBk80xUf",
+   "name": "PurrVenture - FB Cover - v2.png",
+   "folder": "generations",
+   "size": 2349738,
+   "orig_size": 2349738,
+   "sha256": "5bac3d51c480b84bdb20188d5bc881e8747aa4c5a6c067b99e69c6dcc4087923",
+   "sanitized": false
+  },
+  {
+   "path": "out/purrventure_brand/PurrVenture - Profile Pic - v1.png",
+   "id": "1ujGXPc3E6MSEMvk2jdNKO_rtL1Z6yEmv",
+   "name": "PurrVenture - Profile Pic - v1.png",
+   "folder": "generations",
+   "size": 240893,
+   "orig_size": 240893,
+   "sha256": "6bbbd4dfa4e8958420c754f87ef1ac76016e753f32b73d25e224f378b5791ec3",
+   "sanitized": false
+  },
+  {
+   "path": "out/purrventure_brand/PurrVenture - Profile Pic - v2.png",
+   "id": "14IlAjTuSD3WL6yuykeQjbRisz8hVh0Ke",
+   "name": "PurrVenture - Profile Pic - v2.png",
+   "folder": "generations",
+   "size": 2752639,
+   "orig_size": 2752639,
+   "sha256": "469a1d4d3d508936ad74655ef7bb2084ca98e06a40d52558515bd3832388bd3f",
+   "sanitized": false
+  },
+  {
+   "path": "out/purrventure_brand/raw/cover_r1.png",
+   "id": "1HOP7J2fwg8YSgny3xCLAVkxFcQVlMOwz",
+   "name": "cover_r1.png",
+   "folder": "generations",
+   "size": 8306500,
+   "orig_size": 9351044,
+   "sha256": "31d65bdf3e5af0e7ae4668f5d670042cb114225ef56c39406c58e66a1eb9eb36",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_brand/raw/cover_r2.png",
+   "id": "11T5i_S7YwdwDvrxBqtEZtlo-5_9gy6B9",
+   "name": "cover_r2.png",
+   "folder": "generations",
+   "size": 6568000,
+   "orig_size": 7436770,
+   "sha256": "6183612f15f9183c1d85a157f53ea2695c05262b7f1c9bcf714cf53732d2f62b",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_brand/raw/pfp_r1.png",
+   "id": "1KoASHbo_2WHZND77ZTTkFq7jCCZEJNeC",
+   "name": "pfp_r1.png",
+   "folder": "generations",
+   "size": 9021065,
+   "orig_size": 10549212,
+   "sha256": "23320ca9ae6b913155e99607e02f9adc5625d16607e5afa1a183ba3c810e5613",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/P2_AFTER2_SF_clean.png",
+   "id": "1VIQAaH4m8b5oqASr3TWFxM7a95wIW1IC",
+   "name": "P2_AFTER2_SF_clean.png",
+   "folder": "generations",
+   "size": 8154706,
+   "orig_size": 8154706,
+   "sha256": "4c432317096428f2a2ce8d35f3b981c0882772d9ae2dfe8d3de4acc9d013f829",
+   "sanitized": false
+  },
+  {
+   "path": "out/purrventure_frames/P2_AFTER2_SF_raw.png",
+   "id": "1uuiesnI_txTKJRUSyVZrbjpYltVS_KTE",
+   "name": "P2_AFTER2_SF_raw.png",
+   "folder": "generations",
+   "size": 8154706,
+   "orig_size": 9129030,
+   "sha256": "4c432317096428f2a2ce8d35f3b981c0882772d9ae2dfe8d3de4acc9d013f829",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/old_sheets/sheet_P1_v2_FAILED_QA.jpg",
+   "id": "13NHeKjOyBWplvCsC18JcyXjpwxCRRpm6",
+   "name": "sheet_P1_v2_FAILED_QA.jpg",
+   "folder": "generations",
+   "size": 463345,
+   "orig_size": 463345,
+   "sha256": "b3d5e80b570e4001c26054ab8530efc8128ab39e13bdf76cc5b6905f53bc1adc",
+   "sanitized": false
+  },
+  {
+   "path": "out/purrventure_frames/old_sheets/sheet_P2_v2_FAILED_QA.jpg",
+   "id": "1tm6yILsJruPyHi5IX-XYG8NZpe71xRxo",
+   "name": "sheet_P2_v2_FAILED_QA.jpg",
+   "folder": "generations",
+   "size": 585619,
+   "orig_size": 585619,
+   "sha256": "382d3b6040a9250dc68cdbd3bfab14fb62152457e1f5d451c8ebc4cb70129dc5",
+   "sanitized": false
+  },
+  {
+   "path": "out/purrventure_frames/old_sheets/sheet_P3_v2_FAILED_QA.jpg",
+   "id": "1UPNopJGj-Aq4pWHIVsA7WPk5hIU-lNIp",
+   "name": "sheet_P3_v2_FAILED_QA.jpg",
+   "folder": "generations",
+   "size": 600804,
+   "orig_size": 600804,
+   "sha256": "6273ae646e4e1a3d618937b5fbd570d3c9c6033bb862cf1c8898ccc5aaeee2c6",
+   "sanitized": false
+  },
+  {
+   "path": "out/purrventure_frames/raw/P1_SF1.png",
+   "id": "14nZ95DF85aiVXaj85HuTLmlP9aPxz2BI",
+   "name": "P1_SF1.png",
+   "folder": "generations",
+   "size": 6650424,
+   "orig_size": 7433886,
+   "sha256": "4a3bfa1d71be62bfd9edbc32f80be6fc7c12bc4bd5aa3a83f5729e085e6a6a0a",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw/P1_SF2.png",
+   "id": "1PlT7C6klHnQt4-giPpLr1Rewj2Zr6QIU",
+   "name": "P1_SF2.png",
+   "folder": "generations",
+   "size": 7323696,
+   "orig_size": 8171531,
+   "sha256": "ee837131c17419cb398e781a2b47bafe31a34a30a88b93a602bc39d2035fd85f",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw/P1_SF3.png",
+   "id": "1LlxOwpdDjH--iARL0AiyKZksSOqtxQLU",
+   "name": "P1_SF3.png",
+   "folder": "generations",
+   "size": 7774748,
+   "orig_size": 9008682,
+   "sha256": "7f8f456360f0d992aa1a5fe7dc898f6a7ccb5fffdd2291ff355a8e92aabdc437",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw/P1_SF4.png",
+   "id": "1_Yci2-hdJgpY3d2-6OUOJ4Gp1NKIPCv4",
+   "name": "P1_SF4.png",
+   "folder": "generations",
+   "size": 7788269,
+   "orig_size": 8864293,
+   "sha256": "fb97c34aa2dfaa610e6216f0a55a6a0ac1f46c6fe79d55222c1d0ec59d08f974",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw/P2_SF1.png",
+   "id": "1PaI7A7puitQAOhLNCyeuR7njY5fPDKqr",
+   "name": "P2_SF1.png",
+   "folder": "generations",
+   "size": 7290762,
+   "orig_size": 7974343,
+   "sha256": "3423bcb0651f37c3d5d9f29e92b4c4e2f2469ea1621082a6ac78c6f5b77d3bec",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw/P2_SF2.png",
+   "id": "1wee2QRUAFT32ep8MK0lVpSG4L3bdqIUv",
+   "name": "P2_SF2.png",
+   "folder": "generations",
+   "size": 8627869,
+   "orig_size": 9730490,
+   "sha256": "4d9a9d468a9c01529da2ef5a53e580e37422c9cf9141198896bbb27e01734163",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw/P2_SF3.png",
+   "id": "1hNiYKsq67KBP_6pljAvLiqbt2k1NmtqB",
+   "name": "P2_SF3.png",
+   "folder": "generations",
+   "size": 8490501,
+   "orig_size": 9638561,
+   "sha256": "930453c29d6d545968e1d162be714d856a22a13bdf1981e2a3e2fa3f4a738e40",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw/P2_SF4.png",
+   "id": "1DZlX4cZoiLcTi_U5W5n-gA2oprvHCvdy",
+   "name": "P2_SF4.png",
+   "folder": "generations",
+   "size": 8451289,
+   "orig_size": 9594407,
+   "sha256": "51b1aea6ee75bbfb2312d48ee3373a3d1a49f226a0a051c81daa7d95413e284a",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw/P3_SF1.png",
+   "id": "1FE2Z7WfS_H87sA3lqd8yXdjnz514j0jN",
+   "name": "P3_SF1.png",
+   "folder": "generations",
+   "size": 7995593,
+   "orig_size": 9052651,
+   "sha256": "d0ad8b052f6af249f6a091e5162703330d24d82b5c1d1e86bab8b04451a660af",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw/P3_SF2.png",
+   "id": "1mTexWPbMvZUa3Qr4q3f5KAlJB-B_xkAg",
+   "name": "P3_SF2.png",
+   "folder": "generations",
+   "size": 7890736,
+   "orig_size": 8955157,
+   "sha256": "464ed70a7de170eff8fee4ca0bfde2f7672ed0d11c9d2e9aeea7dc0b19777f8a",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw/P3_SF3.png",
+   "id": "1OyOY_b6EJHl5hJSixLGGn5Lz0l8NYuEe",
+   "name": "P3_SF3.png",
+   "folder": "generations",
+   "size": 7872122,
+   "orig_size": 9000352,
+   "sha256": "17570b1ced08c8168989ae20bdebf22eca15a52bab29f6d185676fa7f3926601",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw/P3_SF4.png",
+   "id": "1FsODs9Q0qGJcS8lRaGWkZPY6bwWltN9O",
+   "name": "P3_SF4.png",
+   "folder": "generations",
+   "size": 8220850,
+   "orig_size": 9342263,
+   "sha256": "e219f3754580a47caa59754aa18420b45b98ede0ac2861b67e1103e4e7089c42",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw_v1/P1_SF2.png",
+   "id": "1PUy3-t9Y7gFSTOcsEdpKROKvxLPUzUGD",
+   "name": "P1_SF2.png",
+   "folder": "generations",
+   "size": 7352041,
+   "orig_size": 8204797,
+   "sha256": "6534628412501d6d8e4e546f5655d0a1dd01393b2d3ca4cb03200a2b6a44f264",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw_v1/P1_SF3.png",
+   "id": "16_gvkNiaT4HZhtjDOYq5j_m_GK4iPKBJ",
+   "name": "P1_SF3.png",
+   "folder": "generations",
+   "size": 7550335,
+   "orig_size": 8664403,
+   "sha256": "7fee664e8d65fd9d2bd7666a8d84038046350053a5671c65fcbaed01d088fb18",
+   "sanitized": true
+  },
+  {
+   "path": "out/purrventure_frames/raw_v1/P1_SF4.png",
+   "id": "15oqPBjPq0SEnl0JGPMM58hj7Lf3FOYHU",
+   "name": "P1_SF4.png",
+   "folder": "generations",
+   "size": 7733530,
+   "orig_size": 8868062,
+   "sha256": "2b22c82997bd18d0ba250f907883b34f9350d899ae1f575ab036b4d71301da77",
+   "sanitized": true
   }
  ],
  "updated_pt": "2026-10-20 PT (batch 2: out/deliver plus 3 re-encoded audio files)"
