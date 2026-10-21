@@ -1,5 +1,5 @@
 # MANIFEST of excluded assets (not in git)
-Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 files, 14.54 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
+Generated 2026-10-20 6:16 PM PT by engine/scripts/build_manifest.py. Total 9973 files, 14.54 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
 
 ## By directory
 | dir | files | size | why excluded |
@@ -68,35 +68,35 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | **data/features/proxies/ref_tiktok_7693953278068952351.mp4** | 442.8 MB |  |
 | **data/features/proxies/ref_tiktok_7697040258323549454.mp4** | 116.4 MB |  |
 | **assets/emoji_apple/AppleColorEmoji-Linux.ttf** | 116.0 MB |  |
-| **out/pv_edit/P1_raw.mp4** | 102.0 MB |  |
-| **out/pv_edit/P1_mixed.mp4** | 101.9 MB |  |
-| **out/pv_edit/P2_raw.mp4** | 96.9 MB |  |
-| **out/pv_edit/P2_mixed.mp4** | 96.8 MB |  |
-| **out/pv_edit/P3_raw.mp4** | 89.9 MB |  |
-| **out/pv_edit/P3_mixed.mp4** | 89.8 MB |  |
+| **out/pv_edit/P1_raw.mp4** | 102.0 MB | 1fpjOlfDDDgXJlBLScpVSA21oHmmyAMcH |
+| **out/pv_edit/P1_mixed.mp4** | 101.9 MB | 1UyFsnKavJ9iUedtRLtZdxItA7NhrWZeP |
+| **out/pv_edit/P2_raw.mp4** | 96.9 MB | 1C8mWsuZtBKYhhl5-lDsrJjwyHL5_Nr39 |
+| **out/pv_edit/P2_mixed.mp4** | 96.8 MB | 17kKZRLq81urJEuplxklVJt_iaiaZwvP0 |
+| **out/pv_edit/P3_raw.mp4** | 89.9 MB | 1Gk20x7am9JDfsYSOtawV_jsQiRgMq6xP |
+| **out/pv_edit/P3_mixed.mp4** | 89.8 MB | 12gtCm6p0FkRJw_EiKSunt_g139vnGz28 |
 | **data/features/proxies/ref_tiktok_7697318149347216671.mp4** | 86.7 MB |  |
 | **data/features/proxies/ref_tiktok_7697054106090753310.mp4** | 79.2 MB |  |
 | **out/live/trumpglow_A/final_v2/master_nosong.mp4** | 76.4 MB | 1A00CY6FwVLPc5Tm8kBlSHofbX1N8CeDJ |
 | **out/live/trumpglow_A/final_v5/master_nosong.mp4** | 76.2 MB | 1GkG2rrIvxm2RJiafPoA72z5HvmA1Jqig |
 | **out/live/trumpglow_A/final/master_raw.mp4** | 69.4 MB | 1RWs1YlImPGnvUFEDx30MAVRkknPYUQkn |
 | **data/features/proxies/ref_tiktok_7694499134790716702.mp4** | 69.3 MB |  |
-| **out/live/trumpglow_A/final_v6/master_nosong.mp4** | 67.1 MB |  |
+| **out/live/trumpglow_A/final_v6/master_nosong.mp4** | 67.1 MB | 17Ztu9fFpapeeQd0534sISEJYXf_9UctV |
 | **data/features/proxies/ref_tiktok_7693671122256088334.mp4** | 65.7 MB |  |
-| **out/pv_edit/P1_pre.mp4** | 65.6 MB |  |
+| **out/pv_edit/P1_pre.mp4** | 65.6 MB | 16nkyLegnHK9p1_TiBYjbeDPo3x5xZMFA |
 | **out/deliver/PurrVenture - P1 - Pool Skim - Mambo No 5 - v1.mp4** | 65.6 MB | 1qjnmyowuXGPYE_43U-198qz6lM9vRIAE |
 | **out/pv_edit/PurrVenture_P1_final.mp4** | 65.6 MB | 1qjnmyowuXGPYE_43U-198qz6lM9vRIAE |
 | **data/features/proxies/ref_tiktok_7697005736974404877.mp4** | 63.7 MB |  |
 | **data/features/proxies/ref_tiktok_7694816146415045919.mp4** | 63.6 MB |  |
-| **out/live/trumpglow_B/final/trumpglow_B_ACDC.mp4** | 62.6 MB |  |
-| **out/live/trumpglow_C/final/master_nosong.mp4** | 61.6 MB |  |
+| **out/live/trumpglow_B/final/trumpglow_B_ACDC.mp4** | 62.6 MB | 1vfvtAIZtH04_gOwkB89-djrEpGfDPqJx |
+| **out/live/trumpglow_C/final/master_nosong.mp4** | 61.6 MB | 1XhDZhns_S_C5fa3rTzgJnwXTMEhPGZsJ |
 | **out/deliver/backup__refs__omar_ref_mg.mp4** | 59.2 MB |  |
 | **refs/omar_ref_mg.mp4** | 59.2 MB | 1xWErtQQB_tLMP7ND4CZmjSNNGWxx1MKn |
 | **data/features/proxies/ref_tiktok_7692090528954961174.mp4** | 57.1 MB |  |
-| **out/pv_edit/P3_pre.mp4** | 55.5 MB |  |
+| **out/pv_edit/P3_pre.mp4** | 55.5 MB | 1V-x6Rx_41YvLoKvDl4kDHB_avuau_zoh |
 | **out/deliver/PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1.mp4** | 55.5 MB | 1tFcF2B7rHBuOjXN5UfEZKIrUrsUHdjzw |
 | **out/pv_edit/PurrVenture_P3_final.mp4** | 55.5 MB | 1tFcF2B7rHBuOjXN5UfEZKIrUrsUHdjzw |
 | **data/features/proxies/ref_tiktok_7687635388743077150.mp4** | 54.4 MB |  |
-| **out/live/trumpglow_B/final/trumpglow_B_ACDC_v2.mp4** | 54.2 MB |  |
+| **out/live/trumpglow_B/final/trumpglow_B_ACDC_v2.mp4** | 54.2 MB | 1NShI_tEfZDVZWnTrR5WY7XPXeStd7btK |
 | **data/features/proxies/tt_7576758246338333983.mp4** | 53.5 MB |  |
 | **out/live/drive_up/TrumpGlow - Dont Show Liberal - Dont Show Liberal - Free Bird - v3.mp4** | 53.4 MB | 1opTbgS8FXK3KZ7uOM2XUQ-1ox_0mDcGo |
 | **out/deliver/TrumpGlow - B - Dont Show Liberal - FreeBird - v3.mp4** | 53.4 MB | 1opTbgS8FXK3KZ7uOM2XUQ-1ox_0mDcGo |
@@ -117,9 +117,9 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/live/trumpglow_A/final_v4/trumpglow_A_v4_ACDC.mp4 | 51.9 MB | 1QjOYx4akHQQjWnKhKyEkISDQtz3v7ler |
 | out/live/trumpglow_A/final_v4/trumpglow_A_v4_FreeBird.mp4 | 51.9 MB | 12ZnnGYVgYdzUZEEH7vaKv7LZXpi5GaGf |
 | out/live/trumpglow_A/final_v3/trumpglow_A_v3_FreeBird.mp4 | 51.9 MB | 1a0_U3IR9r674b_0H3opi0E86F5vZFXEB |
-| out/live/trumpglow_A/final_v8/master_nosong.mp4 | 51.7 MB |  |
-| out/live/trumpglow_A/final_v7/master_nosong.mp4 | 51.7 MB |  |
-| out/live/trumpglow_C/final/master_nosong_v3.mp4 | 51.5 MB |  |
+| out/live/trumpglow_A/final_v8/master_nosong.mp4 | 51.7 MB | 1b85mGl2K4bhvteSIDWXF7-evoE4n9TCN |
+| out/live/trumpglow_A/final_v7/master_nosong.mp4 | 51.7 MB | 10a8tTvmw2k_dMA06MY7bmwrVh7tQZ_iX |
+| out/live/trumpglow_C/final/master_nosong_v3.mp4 | 51.5 MB | 1Cxe3ZCegbxQPz1_ggdK-JZwLN9e-1IYA |
 | data/features/proxies/tt_7586992657927327031.mp4 | 51.1 MB |  |
 | out/deliver/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v3.mp4 | 50.8 MB | 1cY-E8HNSYNnzUOM1ewBGFfTpOzGlc9e7 |
 | out/live/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v3.mp4 | 50.8 MB | 1cY-E8HNSYNnzUOM1ewBGFfTpOzGlc9e7 |
@@ -127,23 +127,23 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v3.mp4 | 50.8 MB | 1gFboI47DxHUBY8JRH28pirq_2UEQkYBa |
 | out/live/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v3.mp4 | 50.8 MB | 1gFboI47DxHUBY8JRH28pirq_2UEQkYBa |
 | out/live/jollyglow_321/final/jollyglow_321_A_dontshow_v3.mp4 | 50.8 MB | 1gFboI47DxHUBY8JRH28pirq_2UEQkYBa |
-| out/live/trumpglow_B/final/master_nosong_v4.mp4 | 49.9 MB |  |
-| out/live/trumpglow_B/final/master_nosong_v3.mp4 | 49.9 MB |  |
+| out/live/trumpglow_B/final/master_nosong_v4.mp4 | 49.9 MB | 1Iebr0CtxodF22xcvOv_Kv-dEzCRQgKGX |
+| out/live/trumpglow_B/final/master_nosong_v3.mp4 | 49.9 MB | 1odFs_dfQ6IqEECFHnQWVDn6YIrhiUyEj |
 | data/features/proxies/ref_tiktok_7696928346910788877.mp4 | 48.9 MB |  |
-| out/live/trumpglow_B/final/master_nosong.mp4 | 48.7 MB |  |
+| out/live/trumpglow_B/final/master_nosong.mp4 | 48.7 MB | 1qzXIUwKtSORvbUCa2ADm6F9ThnuwMk3m |
 | out/live/mg-tvn-001/final/mg-tvn-001_final_nomusic.mp4 | 48.5 MB | 1qTYgMtS2hIV62_EzRz8utSl_k_7QgTsz |
-| out/live/trumpglow_C/final/trumpglow_C_FreeBird.mp4 | 48.3 MB |  |
-| out/live/trumpglow_C/final/trumpglow_C_ACDC.mp4 | 48.3 MB |  |
-| out/live/trumpglow_C/final/trumpglow_C_ACDC_v2.mp4 | 48.3 MB |  |
-| out/live/trumpglow_C/final/trumpglow_C_FreeBird_v2.mp4 | 48.3 MB |  |
+| out/live/trumpglow_C/final/trumpglow_C_FreeBird.mp4 | 48.3 MB | 1gswz45yw7e90qZqk0qMMrafwmFEecMKU |
+| out/live/trumpglow_C/final/trumpglow_C_ACDC.mp4 | 48.3 MB | 1YDY2HpTeIjuMkbKsIYPkQerI3CgvcPiW |
+| out/live/trumpglow_C/final/trumpglow_C_ACDC_v2.mp4 | 48.3 MB | 1KyGjM9N87OJrRwm_ZHOoau2VOd0UvXOe |
+| out/live/trumpglow_C/final/trumpglow_C_FreeBird_v2.mp4 | 48.3 MB | 1dqFIWGGOiFKfsyJClRaINYn-BnCB6swF |
 | out/deliver/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v2.mp4 | 47.9 MB | 1gXU-TnPq7z7QCp20xL_ObUukzlgBpnUf |
 | out/live/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v2.mp4 | 47.9 MB | 1gXU-TnPq7z7QCp20xL_ObUukzlgBpnUf |
 | out/live/jollyglow_321/final/jollyglow_321_B_pov_v2.mp4 | 47.9 MB | 1gXU-TnPq7z7QCp20xL_ObUukzlgBpnUf |
 | out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v2.mp4 | 47.9 MB | 1N6eBVK2lrRz0bdkx2BYGQtkpBQHBbLGm |
 | out/live/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v2.mp4 | 47.9 MB | 1N6eBVK2lrRz0bdkx2BYGQtkpBQHBbLGm |
 | out/live/jollyglow_321/final/jollyglow_321_A_dontshow_v2.mp4 | 47.9 MB | 1N6eBVK2lrRz0bdkx2BYGQtkpBQHBbLGm |
-| out/live/trumpglow_C/final/master_nosong_v5.mp4 | 47.6 MB |  |
-| out/live/trumpglow_C/final/master_nosong_v4.mp4 | 47.5 MB |  |
+| out/live/trumpglow_C/final/master_nosong_v5.mp4 | 47.6 MB | 1NtAA4zTfEbtgVvPhQloRq2n84D5qSwAb |
+| out/live/trumpglow_C/final/master_nosong_v4.mp4 | 47.5 MB | 1f1qOiANCFZFuIjwtdRmf0nBZZWJwaBTI |
 | out/live/drive_up/TrumpGlow - Fake Trump Fans - Fake Trump Fans - Free Bird - v6.mp4 | 47.0 MB | 1gfT41DZtzG5s6HrYedPb6i-IXuLOjgbs |
 | out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v6.mp4 | 47.0 MB | 1gfT41DZtzG5s6HrYedPb6i-IXuLOjgbs |
 | out/live/trumpglow_A/final_v6/trumpglow_A_v6_FreeBird.mp4 | 47.0 MB | 1gfT41DZtzG5s6HrYedPb6i-IXuLOjgbs |
@@ -174,7 +174,7 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/live/trumpglow_C/final/trumpglow_C_FreeBird_v3.mp4 | 40.7 MB | 11c_uD4lxQNeKJD13gLuXRlAaBMPRwszF |
 | data/features/proxies/ref_tiktok_7693651280635399438.mp4 | 40.5 MB |  |
 | data/features/proxies/ref_tiktok_7693141860994354446.mp4 | 40.0 MB |  |
-| out/pv_edit/P2_pre.mp4 | 39.8 MB |  |
+| out/pv_edit/P2_pre.mp4 | 39.8 MB | 1imJDpash9rvTVysohY7aAa_N1rK10srw |
 | out/deliver/PurrVenture - P2 Hedge Trim - BeMyBaby v2.mp4 | 39.8 MB | 1OIWtERuflP6ub9K-9HiY2oWWEKehwerB |
 | out/pv_edit/PurrVenture_P2_final.mp4 | 39.8 MB | 1OIWtERuflP6ub9K-9HiY2oWWEKehwerB |
 | data/features/proxies/ref_tiktok_7695078699418406174.mp4 | 38.3 MB |  |
@@ -210,7 +210,7 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/live/trumpglow_A/final_v7/trumpglow_A_v7_ACDC.mp4 | 31.6 MB | 1wqo6gADQ5S66lMtWYr5RRQHNpslmcK4q |
 | out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v7.mp4 | 31.6 MB | 1YaX9AKY6Nq9oEezZQW54BAYzYfd_YaXJ |
 | out/live/trumpglow_A/final_v7/trumpglow_A_v7_FreeBird.mp4 | 31.6 MB | 1YaX9AKY6Nq9oEezZQW54BAYzYfd_YaXJ |
-| out/trump_projector/trump_projector_sample_720p.mp4 | 31.1 MB |  |
+| out/trump_projector/trump_projector_sample_720p.mp4 | 31.1 MB | 1CgpntxCq4z6y_gGBHJESshRMKTawIVeK |
 | data/features/proxies/ref_tiktok_7694483736196418846.mp4 | 30.8 MB |  |
 | data/features/proxies/tt_7694483736196418846.mp4 | 30.8 MB |  |
 | data/features/proxies/ref_tiktok_7697686913481723150.mp4 | 30.8 MB |  |
@@ -311,7 +311,7 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | data/features/proxies/ref_tiktok_7687246647495068950.mp4 | 12.4 MB |  |
 | data/features/proxies/tt_7687246647495068950.mp4 | 12.4 MB |  |
 | data/features/proxies/ref_tiktok_7685284871601687828.mp4 | 12.3 MB |  |
-| out/pv_clips/P2_G1.mp4 | 12.2 MB |  |
+| out/pv_clips/P2_G1.mp4 | 12.2 MB | 1wKeSPREmRl22xp156lt0F5tBzvtTsaV3 |
 | data/features/proxies/fb_1351508813587525.mp4 | 12.2 MB |  |
 | data/features/proxies/ref_tiktok_7693622417079520542.mp4 | 12.2 MB |  |
 | data/features/proxies/ig_DdGdL41KJo4.mp4 | 12.1 MB |  |
@@ -375,7 +375,7 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/capcut_test/HF_TEST_01/media/hf_20260826_050227_d8c2b489-ef9a-4be5-a866-67111b06a50c.mp4 | 10.6 MB |  |
 | out/purrventure_brand/raw/pfp_r1.png | 10.5 MB |  |
 
-## Backed up to Drive "Hookforge Backup" (254 files; docs/backup_drive_index.json)
+## Backed up to Drive "Hookforge Backup" (326 files; docs/backup_drive_index.json)
 | path | drive_id |
 |---|---|
 | learning/audience_fit_log.csv | 1OaLpFsrgefKbB3A4AHQBGrIBFicqeVPe |
@@ -523,7 +523,9 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/live/jollyglow_321/clips/G4.mp4 | 1XsW2KgqXnPKN7hukHHwocze_9P8PG5x6 |
 | out/live/jollyglow_321/clips/G4_sheet.jpg | 1Iaex9rcLuZwLQ3rG67WkK9PSIKPPm7My |
 | out/live/jollyglow_321/clips/G5.mp4 | 1468Gl_kqcUuAdLDB-WN3mr7xy2nEDqRZ |
+| out/live/jollyglow_321/clips/G5_sheet.jpg | 1N35iOvfZdLvsl87pcZ29WLsl_12u18mU |
 | out/live/jollyglow_321/clips/G6.mp4 | 1PnFQ78hyH_JIIAo50eJp2CkwyIdR2WSU |
+| out/live/jollyglow_321/contact_sheet_start_frames.jpg | 1igxPLlNtGT7rF4MOWovu8SAe2xxpZ_RX |
 | out/live/jollyglow_321/final/caption_A_dontshow.txt | 1xxkYyjVwsRQ4T4T46FMIiWo9saGtemqP |
 | out/live/jollyglow_321/final/caption_B_pov.txt | 1zJHXwG_aOezsoy4-ukqV5UlemDwObIdu |
 | out/live/jollyglow_321/final/jollyglow_321_A_dontshow.mp4 | 15XQpEvf8RBLFhgP4du6CT-Qe3Ezq2ebT |
@@ -532,6 +534,27 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/live/jollyglow_321/final/jollyglow_321_B_pov.mp4 | 11bh5TYO-l__UBWxkEmFFD6Yv9oekTQba |
 | out/live/jollyglow_321/final/jollyglow_321_B_pov_v2.mp4 | 1gXU-TnPq7z7QCp20xL_ObUukzlgBpnUf |
 | out/live/jollyglow_321/final/jollyglow_321_B_pov_v3.mp4 | 1cY-E8HNSYNnzUOM1ewBGFfTpOzGlc9e7 |
+| out/live/jollyglow_321/final/preflight3_jollyglow_321_A_dontshow_v2/jollyglow_321_A_dontshow_v2_sheet.png | 164I9g-Ms3DfdwT9pxclEqq_fmUmkiRkH |
+| out/live/jollyglow_321/final/preflight3_jollyglow_321_A_dontshow_v3/jollyglow_321_A_dontshow_v3_sheet.png | 1lqHH6inJLzUTHaVjrgt-0qCJTQn4U6Bf |
+| out/live/jollyglow_321/final/preflight3_jollyglow_321_B_pov_v2/jollyglow_321_B_pov_v2_sheet.png | 1CInJrZVsC5j434vaLTJ1MsKJCSxRxcf8 |
+| out/live/jollyglow_321/final/preflight3_jollyglow_321_B_pov_v3/jollyglow_321_B_pov_v3_sheet.png | 1qsI3KxURahNCPHHkiMLJqTA1VhwsaWih |
+| out/live/jollyglow_321/final/preflight_jollyglow_321_A_dontshow/jollyglow_321_A_dontshow_sheet.png | 1HIAolURJeFTj6BLnE-5FnaD4-WkBrLhp |
+| out/live/jollyglow_321/final/preflight_jollyglow_321_A_dontshow_v2/jollyglow_321_A_dontshow_v2_sheet.png | 1DWLcetQeogRAbAxcSbxgBPEE0-ePvBQF |
+| out/live/jollyglow_321/final/preflight_jollyglow_321_B_pov/jollyglow_321_B_pov_sheet.png | 1MQ8KWUs6hCNJpRHACqJvwLK2GTRBaY3i |
+| out/live/jollyglow_321/final/preflight_jollyglow_321_B_pov_v2/jollyglow_321_B_pov_v2_sheet.png | 1Wrph_vteZdXW8DnYDLUIyq1ls9EmGZr9 |
+| out/live/jollyglow_321/refs/hook_ref_nocaption.jpg | 1mYyudDPten7rEX53-QbxELogpmSsWSuv |
+| out/live/jollyglow_321/refs/mc03_store.jpg | 1IINYrZ6ARqEgo92JoyU8BDYD3TxIHg01 |
+| out/live/jollyglow_321/refs/p1.png | 1geRffI5hwV-aeDfqR_L2m-m6YEpshk3Q |
+| out/live/jollyglow_321/refs/ref_s5_reveal.jpg | 1khPPQywQ8vgZI2WRZtZVrEX4IM0AO25q |
+| out/live/jollyglow_321/start_frames/F1_v1.png | 18CmPgGIiXa6jobCaNoQk2X2QLUPdP_sA |
+| out/live/jollyglow_321/start_frames/F1_v2.png | 1piJ_ihGLjOqbHWPVPudVMfvgnnbscRYp |
+| out/live/jollyglow_321/start_frames/F2_v1.png | 1-9HU5EjNwnWyNn4t_Ya631bRctTsv8yG |
+| out/live/jollyglow_321/start_frames/F2_v2.png | 10pTSvE_gpyoPJmCTUhenQGjPQDob0iZc |
+| out/live/jollyglow_321/start_frames/F3_v1.png | 1JlzBnF1-nCAQuUxnYDbpquJAN0cl-4jX |
+| out/live/jollyglow_321/start_frames/F3_v2.png | 1POOuNE9YXvf8DV72DJz0uH6AGqqaT2Ek |
+| out/live/jollyglow_321/start_frames/F4_v1.png | 1RFRVPJfIjTaHGlRNsiw9v6pbAQ5Rh_GL |
+| out/live/jollyglow_321/start_frames/F4_v2.png | 1dbD-4m32Gq6qX6FQJKpe3MNcjtUpFD_u |
+| out/live/jollyglow_321/start_frames/F5_v1.png | 1wO-MDRT7Y8ED1nIpw-6HLZ-NzrRo4rJV |
 | out/live/jollyglow_combo/clips/G1.mp4 | 1d7dzOBeR-r3IN8awy3w6RbcG3CJnX4DP |
 | out/live/jollyglow_combo/clips/G2.mp4 | 1FhB7WaReoCdQ6Uue-ubXW3utyGxqNtk5 |
 | out/live/jollyglow_combo/clips/G3.mp4 | 1eqRkGmKaU6mdKZCLsbnq0EtLvRkFrXgb |
@@ -569,23 +592,49 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/live/trumpglow_A/final_v5/master_nosong.mp4 | 1GkG2rrIvxm2RJiafPoA72z5HvmA1Jqig |
 | out/live/trumpglow_A/final_v5/trumpglow_A_v5_ACDC.mp4 | 1zhTPUxYuij4cNstOWBFcIWPobZODTla6 |
 | out/live/trumpglow_A/final_v5/trumpglow_A_v5_FreeBird.mp4 | 1qKYbXL3UmLJt-WYImxt7QBnTAl5scaGt |
+| out/live/trumpglow_A/final_v6/master_nosong.mp4 | 17Ztu9fFpapeeQd0534sISEJYXf_9UctV |
 | out/live/trumpglow_A/final_v6/trumpglow_A_v6_ACDC.mp4 | 1bcrpQBe1DfK1UXEGEWNM9Bb9vQ2Kl4hy |
 | out/live/trumpglow_A/final_v6/trumpglow_A_v6_FreeBird.mp4 | 1gfT41DZtzG5s6HrYedPb6i-IXuLOjgbs |
+| out/live/trumpglow_A/final_v7/master_nosong.mp4 | 10a8tTvmw2k_dMA06MY7bmwrVh7tQZ_iX |
 | out/live/trumpglow_A/final_v7/trumpglow_A_v7_ACDC.mp4 | 1wqo6gADQ5S66lMtWYr5RRQHNpslmcK4q |
 | out/live/trumpglow_A/final_v7/trumpglow_A_v7_FreeBird.mp4 | 1YaX9AKY6Nq9oEezZQW54BAYzYfd_YaXJ |
+| out/live/trumpglow_A/final_v8/master_nosong.mp4 | 1b85mGl2K4bhvteSIDWXF7-evoE4n9TCN |
 | out/live/trumpglow_A/final_v8/trumpglow_A_v8_ACDC.mp4 | 1ot0k6d5WVQSzkZ13fdrC13enTVjXNMbW |
 | out/live/trumpglow_A/final_v8/trumpglow_A_v8_FreeBird.mp4 | 1A_9npw7nWkQJv0i77cGxCOQqiydnc_Jr |
+| out/live/trumpglow_B/clips/BG1.mp4 | 1PpqXu6D5zo7ONQKNE3OdTJCshlNdvoSC |
+| out/live/trumpglow_B/clips/BG2.mp4 | 1ca2RQUCQ08Xch41CVl250IRzQD1W-SV0 |
+| out/live/trumpglow_B/clips/BG3.mp4 | 1jDX_hQfB5HOijNbwhWgqEkgAEyZrycaY |
+| out/live/trumpglow_B/clips/BG4.mp4 | 13uNBiyEgYVV19gA31w9P1abENKEZPPEh |
+| out/live/trumpglow_B/clips/BG5.mp4 | 15q8MNzVR638pakerNaWVrX9ZhqL3i-w1 |
+| out/live/trumpglow_B/clips/BG6.mp4 | 1ghojDpGBovTXltu2omGLNSPV3Ix8mnIt |
+| out/live/trumpglow_B/final/master_nosong.mp4 | 1qzXIUwKtSORvbUCa2ADm6F9ThnuwMk3m |
+| out/live/trumpglow_B/final/master_nosong_v3.mp4 | 1odFs_dfQ6IqEECFHnQWVDn6YIrhiUyEj |
+| out/live/trumpglow_B/final/master_nosong_v4.mp4 | 1Iebr0CtxodF22xcvOv_Kv-dEzCRQgKGX |
+| out/live/trumpglow_B/final/trumpglow_B_ACDC.mp4 | 1vfvtAIZtH04_gOwkB89-djrEpGfDPqJx |
+| out/live/trumpglow_B/final/trumpglow_B_ACDC_v2.mp4 | 1NShI_tEfZDVZWnTrR5WY7XPXeStd7btK |
 | out/live/trumpglow_B/final/trumpglow_B_ACDC_v2_caption.txt | 1PH7rQ2hHbyoUtTIFB-8Ym6Pgpc_Y-cJP |
 | out/live/trumpglow_B/final/trumpglow_B_ACDC_v3.mp4 | 1hliUTgGL6rAybb6j9a4XTDU_B60zeK24 |
 | out/live/trumpglow_B/final/trumpglow_B_ACDC_v4.mp4 | 1ZdkUJGzkm1WRWGetGuN5z7zxWFVowFiV |
 | out/live/trumpglow_B/final/trumpglow_B_FreeBird_v3.mp4 | 1opTbgS8FXK3KZ7uOM2XUQ-1ox_0mDcGo |
 | out/live/trumpglow_B/final/trumpglow_B_FreeBird_v4.mp4 | 1BLzuRCRozwnvC_oaIrtrjaVgSZfarPz4 |
+| out/live/trumpglow_C/clips/CG1.mp4 | 17CgMjzWhS6i_GltRIcDSIK4-s1s5yfU2 |
+| out/live/trumpglow_C/clips/CG2.mp4 | 1wtBTYAQDJoJU25U-jJ0ApL4BQ61N6w4j |
+| out/live/trumpglow_C/clips/CG3.mp4 | 15XRC1vn8PVSqBQaE2pzbvo9MChWaWHUs |
+| out/live/trumpglow_C/clips/CG4.mp4 | 1WDzxhCicNr5zEWnAV0jKLJ-v5WShghCY |
+| out/live/trumpglow_C/final/master_nosong.mp4 | 1XhDZhns_S_C5fa3rTzgJnwXTMEhPGZsJ |
+| out/live/trumpglow_C/final/master_nosong_v3.mp4 | 1Cxe3ZCegbxQPz1_ggdK-JZwLN9e-1IYA |
+| out/live/trumpglow_C/final/master_nosong_v4.mp4 | 1f1qOiANCFZFuIjwtdRmf0nBZZWJwaBTI |
+| out/live/trumpglow_C/final/master_nosong_v5.mp4 | 1NtAA4zTfEbtgVvPhQloRq2n84D5qSwAb |
+| out/live/trumpglow_C/final/trumpglow_C_ACDC.mp4 | 1YDY2HpTeIjuMkbKsIYPkQerI3CgvcPiW |
+| out/live/trumpglow_C/final/trumpglow_C_ACDC_v2.mp4 | 1KyGjM9N87OJrRwm_ZHOoau2VOd0UvXOe |
 | out/live/trumpglow_C/final/trumpglow_C_ACDC_v2_caption.txt | 1G4vPA8OOPyYwZiQ8gfEO_kPEF46LH2LM |
 | out/live/trumpglow_C/final/trumpglow_C_ACDC_v3.mp4 | 11jhmEBqIPz77mwvIMZbvBviCcJYyepi3 |
 | out/live/trumpglow_C/final/trumpglow_C_ACDC_v3_caption.txt | 1G4vPA8OOPyYwZiQ8gfEO_kPEF46LH2LM |
 | out/live/trumpglow_C/final/trumpglow_C_ACDC_v4.mp4 | 1N2ZmrqWLJlaSMV0ncey0VsknCbEGHi0U |
 | out/live/trumpglow_C/final/trumpglow_C_ACDC_v4_caption.txt | 1G4vPA8OOPyYwZiQ8gfEO_kPEF46LH2LM |
 | out/live/trumpglow_C/final/trumpglow_C_ACDC_v5.mp4 | 1KstNdSbdOaI2Kk7lolxMolugFTY8qTEy |
+| out/live/trumpglow_C/final/trumpglow_C_FreeBird.mp4 | 1gswz45yw7e90qZqk0qMMrafwmFEecMKU |
+| out/live/trumpglow_C/final/trumpglow_C_FreeBird_v2.mp4 | 1dqFIWGGOiFKfsyJClRaINYn-BnCB6swF |
 | out/live/trumpglow_C/final/trumpglow_C_FreeBird_v2_caption.txt | 1G4vPA8OOPyYwZiQ8gfEO_kPEF46LH2LM |
 | out/live/trumpglow_C/final/trumpglow_C_FreeBird_v3.mp4 | 11c_uD4lxQNeKJD13gLuXRlAaBMPRwszF |
 | out/live/trumpglow_C/final/trumpglow_C_FreeBird_v3_caption.txt | 1G4vPA8OOPyYwZiQ8gfEO_kPEF46LH2LM |
@@ -606,6 +655,28 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/purrventure_frames/P3_SF2.png | 1icAlNoNygKyBNjhICXAjQJiLRKr8YOc8 |
 | out/purrventure_frames/P3_SF3.png | 1EToa3YCNej260PZ0Qm1gqfxFkhjhiiV4 |
 | out/purrventure_frames/P3_SF4.png | 1WZtpyGt7AXIQSUExQWHQy3D2-gvHekSd |
+| out/pv_clips/P1_G1.mp4 | 1WJW-MwLPYXaH1J5SGBJyvIRcIMUW4AZ0 |
+| out/pv_clips/P1_G2.mp4 | 1cIWKI_UB0PA4GEcbjck4dsDmWD_Qwj2h |
+| out/pv_clips/P1_G3.mp4 | 1Ad6a8_JatVXXr0H6cl_-pK1fFGsZn9xD |
+| out/pv_clips/P1_G4.mp4 | 1r5jMUm9TxRYhUtSEqcGi2ojxhYdJ98Rc |
+| out/pv_clips/P2_G1.mp4 | 1wKeSPREmRl22xp156lt0F5tBzvtTsaV3 |
+| out/pv_clips/P2_G2.mp4 | 1U2gitlOl28FNu2-gTy94lsVoEty4qkY4 |
+| out/pv_clips/P2_G3.mp4 | 1FTSmb_rkaynDbsoCDITRfxiePXmWaIuu |
+| out/pv_clips/P2_G3_try4_siamese_unused.mp4 | 17uCQgPZ8MqhVgGBNSUaJeQ3X_HVmL-3a |
+| out/pv_clips/P2_G4.mp4 | 10ZZPs9EmPPY7WBuvp2-kE4PspLcu7y-m |
+| out/pv_clips/P3_G1.mp4 | 1YYLJfPZz_w_ev3dasU-FK7rOmcO3xagi |
+| out/pv_clips/P3_G2.mp4 | 1XKojxelOGaalGt_DWB61bLMuM-hWbO2f |
+| out/pv_clips/P3_G3.mp4 | 1Xkm8Czvm3eSrM7a2P3fFJWL_WRepF9_D |
+| out/pv_clips/P3_G4.mp4 | 1TgOsfXhIsYqYY-ePN6bv8wMnDJiqMgEW |
+| out/pv_edit/P1_mixed.mp4 | 1UyFsnKavJ9iUedtRLtZdxItA7NhrWZeP |
+| out/pv_edit/P1_pre.mp4 | 16nkyLegnHK9p1_TiBYjbeDPo3x5xZMFA |
+| out/pv_edit/P1_raw.mp4 | 1fpjOlfDDDgXJlBLScpVSA21oHmmyAMcH |
+| out/pv_edit/P2_mixed.mp4 | 17kKZRLq81urJEuplxklVJt_iaiaZwvP0 |
+| out/pv_edit/P2_pre.mp4 | 1imJDpash9rvTVysohY7aAa_N1rK10srw |
+| out/pv_edit/P2_raw.mp4 | 1C8mWsuZtBKYhhl5-lDsrJjwyHL5_Nr39 |
+| out/pv_edit/P3_mixed.mp4 | 12gtCm6p0FkRJw_EiKSunt_g139vnGz28 |
+| out/pv_edit/P3_pre.mp4 | 1V-x6Rx_41YvLoKvDl4kDHB_avuau_zoh |
+| out/pv_edit/P3_raw.mp4 | 1Gk20x7am9JDfsYSOtawV_jsQiRgMq6xP |
 | out/pv_edit/PurrVenture_P1_caption_FB.txt | 1YSfvslsl0Sj2kuzMpLlyT3S-h3Yiulj3 |
 | out/pv_edit/PurrVenture_P1_caption_IG.txt | 13ey-OFUgxQelRFPvXneCd7tuQeGxzQ2u |
 | out/pv_edit/PurrVenture_P1_final.mp4 | 1qjnmyowuXGPYE_43U-198qz6lM9vRIAE |
@@ -621,6 +692,7 @@ Generated 2026-10-20 6:09 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/tg_v_say/TrumpGlow - B - FreeBird - v4 - Caption.txt | 1JLcOy8fHjGcM7DlxvsSYp6LOkSdb6lBj |
 | out/tg_v_say/TrumpGlow - C - ACDC - v5 - Caption.txt | 1arqZNQg_HeaJA5eC2D9dKnE9T7OgbD6n |
 | out/tg_v_say/TrumpGlow - C - FreeBird - v5 - Caption.txt | 1arqZNQg_HeaJA5eC2D9dKnE9T7OgbD6n |
+| out/trump_projector/trump_projector_sample_720p.mp4 | 1CgpntxCq4z6y_gGBHJESshRMKTawIVeK |
 | refs/jollyglow/drive_jolly_glow.mp4 | 15GMJVi90UZ81hf7gbVMidqQQcTWgcrZz |
 | refs/omar_ref_mg.mp4 | 1xWErtQQB_tLMP7ND4CZmjSNNGWxx1MKn |
 | refs/trumpglow/door.light.us_7377540093969550634.mp4 | 1PCJfMbt5NrUiAGwxUS4syV5YMbIQGF9X |

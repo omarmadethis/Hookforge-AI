@@ -2633,6 +2633,726 @@
    "orig_size": 51930166,
    "sha256": "d1b69555e2be4d7918fdb12c0fe3152b04da97f621e72680feee4f9f11c5a81f",
    "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v6/master_nosong.mp4",
+   "id": "17Ztu9fFpapeeQd0534sISEJYXf_9UctV",
+   "name": "master_nosong.mp4",
+   "folder": "generations",
+   "size": 67054494,
+   "orig_size": 67054530,
+   "sha256": "5971bae7aec8088bcb645b6abc61f22547198cd7902ceb52d114e153d9bec045",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v7/master_nosong.mp4",
+   "id": "10a8tTvmw2k_dMA06MY7bmwrVh7tQZ_iX",
+   "name": "master_nosong.mp4",
+   "folder": "generations",
+   "size": 51661433,
+   "orig_size": 51661469,
+   "sha256": "42aae2d951fdd847913e1ec966bf2b8ccafc84e94c7ac77789f212ff2e4f1591",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_A/final_v8/master_nosong.mp4",
+   "id": "1b85mGl2K4bhvteSIDWXF7-evoE4n9TCN",
+   "name": "master_nosong.mp4",
+   "folder": "generations",
+   "size": 51692461,
+   "orig_size": 51692497,
+   "sha256": "f69bc4b27c1feebc5152d0fd1db46cbf6a46665d110380e4a545a7e4ca4ac72e",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_B/clips/BG1.mp4",
+   "id": "1PpqXu6D5zo7ONQKNE3OdTJCshlNdvoSC",
+   "name": "BG1.mp4",
+   "folder": "generations",
+   "size": 1477546,
+   "orig_size": 1499259,
+   "sha256": "56ba9f2c46c216efb2af67cda2a8e21a61a03cdbea28acb6174e052021744f4c",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_B/clips/BG2.mp4",
+   "id": "1ca2RQUCQ08Xch41CVl250IRzQD1W-SV0",
+   "name": "BG2.mp4",
+   "folder": "generations",
+   "size": 1105743,
+   "orig_size": 1127456,
+   "sha256": "e38a9dfa96da6caf0695299333680d958dc6bbfc0b2ec9d4e6d4e92eb4a3fae3",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_B/clips/BG3.mp4",
+   "id": "1jDX_hQfB5HOijNbwhWgqEkgAEyZrycaY",
+   "name": "BG3.mp4",
+   "folder": "generations",
+   "size": 2719359,
+   "orig_size": 2741072,
+   "sha256": "121a0890e66ae21f7993b56559b9d122971a303754af85a9374dfb72c2ddc28a",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_B/clips/BG4.mp4",
+   "id": "13uNBiyEgYVV19gA31w9P1abENKEZPPEh",
+   "name": "BG4.mp4",
+   "folder": "generations",
+   "size": 2584269,
+   "orig_size": 2605982,
+   "sha256": "c222cf228a7691c9892d15531dc4f72301ae52fc79595e2b731682c846522778",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_B/clips/BG5.mp4",
+   "id": "15q8MNzVR638pakerNaWVrX9ZhqL3i-w1",
+   "name": "BG5.mp4",
+   "folder": "generations",
+   "size": 4456541,
+   "orig_size": 4478254,
+   "sha256": "266ef2691f9bd2d9240af3ec31283ac9ac6387d92787297cc5440fcf5dd727e6",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_B/clips/BG6.mp4",
+   "id": "1ghojDpGBovTXltu2omGLNSPV3Ix8mnIt",
+   "name": "BG6.mp4",
+   "folder": "generations",
+   "size": 1646264,
+   "orig_size": 1667977,
+   "sha256": "dd388702e419c34fc8a0a76ee2f35863fcf982a0f49e587b28875d720aad2803",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_B/final/master_nosong.mp4",
+   "id": "1qzXIUwKtSORvbUCa2ADm6F9ThnuwMk3m",
+   "name": "master_nosong.mp4",
+   "folder": "generations",
+   "size": 48746378,
+   "orig_size": 48746414,
+   "sha256": "9f2bc84d999b14828dc14be2f6a4d37ecd4f15e09d6b80b2a9b84a39f8211393",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_B/final/master_nosong_v3.mp4",
+   "id": "1odFs_dfQ6IqEECFHnQWVDn6YIrhiUyEj",
+   "name": "master_nosong_v3.mp4",
+   "folder": "generations",
+   "size": 49850786,
+   "orig_size": 49850822,
+   "sha256": "08eb5500c61fcd6d9e7d5b74e9850b8dcd9c8efc1558052aab0bb5295133a7ac",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_B/final/master_nosong_v4.mp4",
+   "id": "1Iebr0CtxodF22xcvOv_Kv-dEzCRQgKGX",
+   "name": "master_nosong_v4.mp4",
+   "folder": "generations",
+   "size": 49941248,
+   "orig_size": 49941284,
+   "sha256": "9bfcfc82035784b8b8f1e395a1cf0d77b1c1b5e698c5b2a47b2e8d6cdf516e35",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_B/final/trumpglow_B_ACDC.mp4",
+   "id": "1vfvtAIZtH04_gOwkB89-djrEpGfDPqJx",
+   "name": "trumpglow_B_ACDC.mp4",
+   "folder": "generations",
+   "size": 62567175,
+   "orig_size": 62567167,
+   "sha256": "a1be47e5089a29dc1654d4e2c9973ef7ee78c014b647641aa1caa6f19b1835a1",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_B/final/trumpglow_B_ACDC_v2.mp4",
+   "id": "1NShI_tEfZDVZWnTrR5WY7XPXeStd7btK",
+   "name": "trumpglow_B_ACDC_v2.mp4",
+   "folder": "generations",
+   "size": 54229411,
+   "orig_size": 54229403,
+   "sha256": "09657305ddf16bada594a751a894a75259c8524e36b84617765d6083d08ef406",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/clips/CG1.mp4",
+   "id": "17CgMjzWhS6i_GltRIcDSIK4-s1s5yfU2",
+   "name": "CG1.mp4",
+   "folder": "generations",
+   "size": 8653923,
+   "orig_size": 8675636,
+   "sha256": "aa720943f6d87bc845443e83e3dec359051b7e570e45162a1941835611d0ee19",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/clips/CG2.mp4",
+   "id": "1wtBTYAQDJoJU25U-jJ0ApL4BQ61N6w4j",
+   "name": "CG2.mp4",
+   "folder": "generations",
+   "size": 2765028,
+   "orig_size": 2786741,
+   "sha256": "aabeb8edeb83773917eda025d76fb6b0480dda273dd647822bd02bb9f55557f3",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/clips/CG3.mp4",
+   "id": "15XRC1vn8PVSqBQaE2pzbvo9MChWaWHUs",
+   "name": "CG3.mp4",
+   "folder": "generations",
+   "size": 2243371,
+   "orig_size": 2265084,
+   "sha256": "38369934c2305ab75ce3e3fb3e0e0df791c66c0002fea568ea0f69ecbc23743f",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/clips/CG4.mp4",
+   "id": "1WDzxhCicNr5zEWnAV0jKLJ-v5WShghCY",
+   "name": "CG4.mp4",
+   "folder": "generations",
+   "size": 2230331,
+   "orig_size": 2252044,
+   "sha256": "66a41f0663d688be342239e78bf99e547feaec72940f8ab1b3e7afae8d2d5d02",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/final/master_nosong.mp4",
+   "id": "1XhDZhns_S_C5fa3rTzgJnwXTMEhPGZsJ",
+   "name": "master_nosong.mp4",
+   "folder": "generations",
+   "size": 61564842,
+   "orig_size": 61564878,
+   "sha256": "5d71bc4242c963536902784792673125fb8a4dc9afde82ed0f9a5db9d04c034a",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/final/master_nosong_v3.mp4",
+   "id": "1Cxe3ZCegbxQPz1_ggdK-JZwLN9e-1IYA",
+   "name": "master_nosong_v3.mp4",
+   "folder": "generations",
+   "size": 51461598,
+   "orig_size": 51461634,
+   "sha256": "bcbd6b1d172716b8e51d3f7f028005b9b76b0df80ec7b64a1de681f43967d418",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/final/master_nosong_v4.mp4",
+   "id": "1f1qOiANCFZFuIjwtdRmf0nBZZWJwaBTI",
+   "name": "master_nosong_v4.mp4",
+   "folder": "generations",
+   "size": 47467594,
+   "orig_size": 47467630,
+   "sha256": "2a46528c0582bcc94be12956c82ab43448be043ebefdd0fbfd2c78da90bcc7c9",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/final/master_nosong_v5.mp4",
+   "id": "1NtAA4zTfEbtgVvPhQloRq2n84D5qSwAb",
+   "name": "master_nosong_v5.mp4",
+   "folder": "generations",
+   "size": 47566870,
+   "orig_size": 47566906,
+   "sha256": "06de51ba075b08c181d23b42bcf7b5c6ff5ab376c7351138b24b183425a39acc",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/final/trumpglow_C_ACDC.mp4",
+   "id": "1YDY2HpTeIjuMkbKsIYPkQerI3CgvcPiW",
+   "name": "trumpglow_C_ACDC.mp4",
+   "folder": "generations",
+   "size": 48338037,
+   "orig_size": 48338029,
+   "sha256": "159047c0b6c24d8ab11cabbc9952a04ff9db64fccdcce9f6849361c055510d5c",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/final/trumpglow_C_ACDC_v2.mp4",
+   "id": "1KyGjM9N87OJrRwm_ZHOoau2VOd0UvXOe",
+   "name": "trumpglow_C_ACDC_v2.mp4",
+   "folder": "generations",
+   "size": 48303582,
+   "orig_size": 48303574,
+   "sha256": "5c26a9cfc506e6c0c8120f4d2de75b6f258f278a1dc9ed9c671a690514c3e830",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/final/trumpglow_C_FreeBird.mp4",
+   "id": "1gswz45yw7e90qZqk0qMMrafwmFEecMKU",
+   "name": "trumpglow_C_FreeBird.mp4",
+   "folder": "generations",
+   "size": 48338129,
+   "orig_size": 48338121,
+   "sha256": "300b2f0bc7f6d487132c589514a6c6fe2bb8b497daaf1329c20aeec553e44ba3",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/trumpglow_C/final/trumpglow_C_FreeBird_v2.mp4",
+   "id": "1dqFIWGGOiFKfsyJClRaINYn-BnCB6swF",
+   "name": "trumpglow_C_FreeBird_v2.mp4",
+   "folder": "generations",
+   "size": 48300868,
+   "orig_size": 48300860,
+   "sha256": "3a4e5dafbdf28b49b5b949583b5fdf81f9d979600841c7cdfb3decd409cb65dd",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P1_G1.mp4",
+   "id": "1WJW-MwLPYXaH1J5SGBJyvIRcIMUW4AZ0",
+   "name": "P1_G1.mp4",
+   "folder": "generations",
+   "size": 2126838,
+   "orig_size": 2148551,
+   "sha256": "126fa42f10604a2ad2350743baaa44af8f62a8b5c5a2739e97c137d2b724337b",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P1_G2.mp4",
+   "id": "1cIWKI_UB0PA4GEcbjck4dsDmWD_Qwj2h",
+   "name": "P1_G2.mp4",
+   "folder": "generations",
+   "size": 3943958,
+   "orig_size": 3965671,
+   "sha256": "a6349d34b0570f173f3acda9f093bcd0940e890935c96d76c8dffd23ca42358c",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P1_G3.mp4",
+   "id": "1Ad6a8_JatVXXr0H6cl_-pK1fFGsZn9xD",
+   "name": "P1_G3.mp4",
+   "folder": "generations",
+   "size": 6815083,
+   "orig_size": 6836796,
+   "sha256": "ff1fdc5fb3d47bced05d15cd4687a4044def515562ffc1e916b2f3b17bea9817",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P1_G4.mp4",
+   "id": "1r5jMUm9TxRYhUtSEqcGi2ojxhYdJ98Rc",
+   "name": "P1_G4.mp4",
+   "folder": "generations",
+   "size": 6797995,
+   "orig_size": 6819708,
+   "sha256": "40cba6f15e6a59bb4ff09df97601836aac5ee3abaa16b16c2c2cec624b50e170",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P2_G1.mp4",
+   "id": "1wKeSPREmRl22xp156lt0F5tBzvtTsaV3",
+   "name": "P2_G1.mp4",
+   "folder": "generations",
+   "size": 12174929,
+   "orig_size": 12196642,
+   "sha256": "87cb03c0de027d8397b2adc126ac7925abab3c25a090948f319aae10aa0bdb8a",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P2_G2.mp4",
+   "id": "1U2gitlOl28FNu2-gTy94lsVoEty4qkY4",
+   "name": "P2_G2.mp4",
+   "folder": "generations",
+   "size": 3945442,
+   "orig_size": 3967155,
+   "sha256": "02db185ae1ac84d414c3a7bc45f5e1fe98e54bb3c2ff42aabf98b6e96293a3f0",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P2_G3.mp4",
+   "id": "1FTSmb_rkaynDbsoCDITRfxiePXmWaIuu",
+   "name": "P2_G3.mp4",
+   "folder": "generations",
+   "size": 2936438,
+   "orig_size": 2958151,
+   "sha256": "5edbbf9d41359be7edf401a452e7a1557ca028bdd7a231fdc06248220e60e6c0",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P2_G3_try4_siamese_unused.mp4",
+   "id": "17uCQgPZ8MqhVgGBNSUaJeQ3X_HVmL-3a",
+   "name": "P2_G3_try4_siamese_unused.mp4",
+   "folder": "generations",
+   "size": 4597553,
+   "orig_size": 4619266,
+   "sha256": "e5f2e419148f5db2107c046cd4db73f2ca8c2a61ea9005d3b5ec8820df2a59d4",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P2_G4.mp4",
+   "id": "10ZZPs9EmPPY7WBuvp2-kE4PspLcu7y-m",
+   "name": "P2_G4.mp4",
+   "folder": "generations",
+   "size": 5594436,
+   "orig_size": 5616149,
+   "sha256": "d112071645c55ac9fe1055f162710c5b52038e267f6fc8ece34f64741bb9b0cb",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P3_G1.mp4",
+   "id": "1YYLJfPZz_w_ev3dasU-FK7rOmcO3xagi",
+   "name": "P3_G1.mp4",
+   "folder": "generations",
+   "size": 3904194,
+   "orig_size": 3925907,
+   "sha256": "7e2a25873bffca1bd84085b34b96db3ba5373be4f095e9d9862a8faa6f081548",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P3_G2.mp4",
+   "id": "1XKojxelOGaalGt_DWB61bLMuM-hWbO2f",
+   "name": "P3_G2.mp4",
+   "folder": "generations",
+   "size": 3596848,
+   "orig_size": 3618561,
+   "sha256": "28a0795587bf00f58d47feab4fa0fd481a0be7c78b11a00e654593bb0f3ab96b",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P3_G3.mp4",
+   "id": "1Xkm8Czvm3eSrM7a2P3fFJWL_WRepF9_D",
+   "name": "P3_G3.mp4",
+   "folder": "generations",
+   "size": 4597945,
+   "orig_size": 4619658,
+   "sha256": "1b750e613f67d0421712d4af0b9fe0f0fe2fb717b24e1114d02a323e99522b78",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_clips/P3_G4.mp4",
+   "id": "1TgOsfXhIsYqYY-ePN6bv8wMnDJiqMgEW",
+   "name": "P3_G4.mp4",
+   "folder": "generations",
+   "size": 4475915,
+   "orig_size": 4497628,
+   "sha256": "5ef6b9a5bd66326f844de47a90d8ad8b62c993be2790958527386bd0a02a78a0",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_edit/P1_mixed.mp4",
+   "id": "1UyFsnKavJ9iUedtRLtZdxItA7NhrWZeP",
+   "name": "P1_mixed.mp4",
+   "folder": "generations",
+   "size": 101875220,
+   "orig_size": 101875256,
+   "sha256": "0b574f185a09e38bd9e24e6adb6546033c90512620917721bb29db6605653da4",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_edit/P1_pre.mp4",
+   "id": "16nkyLegnHK9p1_TiBYjbeDPo3x5xZMFA",
+   "name": "P1_pre.mp4",
+   "folder": "generations",
+   "size": 65626002,
+   "orig_size": 65626002,
+   "sha256": "e0cca28c054febd0eb8d2837a8fe7c6f4e708b79da5800b3c47c9c7aa9da1ca2",
+   "sanitized": false
+  },
+  {
+   "path": "out/pv_edit/P1_raw.mp4",
+   "id": "1fpjOlfDDDgXJlBLScpVSA21oHmmyAMcH",
+   "name": "P1_raw.mp4",
+   "folder": "generations",
+   "size": 101973876,
+   "orig_size": 101973904,
+   "sha256": "02679480f67eaa65f5c068d77432c23afcf34a07d6b4b9ced3dfc86484ad148c",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_edit/P2_mixed.mp4",
+   "id": "17kKZRLq81urJEuplxklVJt_iaiaZwvP0",
+   "name": "P2_mixed.mp4",
+   "folder": "generations",
+   "size": 96773277,
+   "orig_size": 96773313,
+   "sha256": "f7ff6321db8622c607fde16b9b27730b74dee9a14aa40554daec31f9a8b55ccb",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_edit/P2_pre.mp4",
+   "id": "1imJDpash9rvTVysohY7aAa_N1rK10srw",
+   "name": "P2_pre.mp4",
+   "folder": "generations",
+   "size": 39832292,
+   "orig_size": 39832292,
+   "sha256": "b610a0e9ddbe3beaf343fed21d0d2304600b6d28c4e92b041ba63f5a6be3e653",
+   "sanitized": false
+  },
+  {
+   "path": "out/pv_edit/P2_raw.mp4",
+   "id": "1C8mWsuZtBKYhhl5-lDsrJjwyHL5_Nr39",
+   "name": "P2_raw.mp4",
+   "folder": "generations",
+   "size": 96856738,
+   "orig_size": 96856774,
+   "sha256": "d72cb40f13a6b5ba3d6ed462731e51ef490c9292cc91747b5df849c728f2b5a6",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_edit/P3_mixed.mp4",
+   "id": "12gtCm6p0FkRJw_EiKSunt_g139vnGz28",
+   "name": "P3_mixed.mp4",
+   "folder": "generations",
+   "size": 89840991,
+   "orig_size": 89841027,
+   "sha256": "c3e62965f7efe883720dcf577da3e23d7f333ded1ab28c42849f56d18176e64e",
+   "sanitized": true
+  },
+  {
+   "path": "out/pv_edit/P3_pre.mp4",
+   "id": "1V-x6Rx_41YvLoKvDl4kDHB_avuau_zoh",
+   "name": "P3_pre.mp4",
+   "folder": "generations",
+   "size": 55488141,
+   "orig_size": 55488141,
+   "sha256": "906f2ca0d92c2e8d37c2ddc2237be07149f5e9a8da206d5a305f0c7821d594d6",
+   "sanitized": false
+  },
+  {
+   "path": "out/pv_edit/P3_raw.mp4",
+   "id": "1Gk20x7am9JDfsYSOtawV_jsQiRgMq6xP",
+   "name": "P3_raw.mp4",
+   "folder": "generations",
+   "size": 89947895,
+   "orig_size": 89947931,
+   "sha256": "3370c11b2736e1e5ebc7d02c58523d33b9d1d08989fc6fdf7d1b34006460f882",
+   "sanitized": true
+  },
+  {
+   "path": "out/trump_projector/trump_projector_sample_720p.mp4",
+   "id": "1CgpntxCq4z6y_gGBHJESshRMKTawIVeK",
+   "name": "trump_projector_sample_720p.mp4",
+   "folder": "generations",
+   "size": 31148165,
+   "orig_size": 31148165,
+   "sha256": "95c8ac9c1f0cfc57640d2b7f05a43b4e8e0dbb98e74a879241dd752870a4ff45",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/clips/G5_sheet.jpg",
+   "id": "1N35iOvfZdLvsl87pcZ29WLsl_12u18mU",
+   "name": "G5_sheet.jpg",
+   "folder": "generations",
+   "size": 194081,
+   "orig_size": 86789,
+   "sha256": "28b418e0dfe36ba41a6ef26823b659b5e86344f7b80988eaf86cd855c701245e",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_321/contact_sheet_start_frames.jpg",
+   "id": "1igxPLlNtGT7rF4MOWovu8SAe2xxpZ_RX",
+   "name": "contact_sheet_start_frames.jpg",
+   "folder": "generations",
+   "size": 812230,
+   "orig_size": 812230,
+   "sha256": "a6ecd23787507173b8a89b5118f7a421ab344ee469051fdd1e7512bc77ee77d8",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/final/preflight3_jollyglow_321_A_dontshow_v2/jollyglow_321_A_dontshow_v2_sheet.png",
+   "id": "164I9g-Ms3DfdwT9pxclEqq_fmUmkiRkH",
+   "name": "jollyglow_321_A_dontshow_v2_sheet.png",
+   "folder": "generations",
+   "size": 2354861,
+   "orig_size": 2354861,
+   "sha256": "76375b738ee729a1e61f4f300525b5d12c816251056846092c7cf2d0f2c64be3",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/final/preflight3_jollyglow_321_A_dontshow_v3/jollyglow_321_A_dontshow_v3_sheet.png",
+   "id": "1lqHH6inJLzUTHaVjrgt-0qCJTQn4U6Bf",
+   "name": "jollyglow_321_A_dontshow_v3_sheet.png",
+   "folder": "generations",
+   "size": 2440895,
+   "orig_size": 2440895,
+   "sha256": "b97b53144cb586e43049bbf9da1fc7f039f7431c94dc5f13c5ae11103d3bec49",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/final/preflight3_jollyglow_321_B_pov_v2/jollyglow_321_B_pov_v2_sheet.png",
+   "id": "1CInJrZVsC5j434vaLTJ1MsKJCSxRxcf8",
+   "name": "jollyglow_321_B_pov_v2_sheet.png",
+   "folder": "generations",
+   "size": 2361735,
+   "orig_size": 2361735,
+   "sha256": "a3e906036b7b6e75579f4bb24988cbee03223c19c61bbd525ba103e299894d9f",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/final/preflight3_jollyglow_321_B_pov_v3/jollyglow_321_B_pov_v3_sheet.png",
+   "id": "1qsI3KxURahNCPHHkiMLJqTA1VhwsaWih",
+   "name": "jollyglow_321_B_pov_v3_sheet.png",
+   "folder": "generations",
+   "size": 2440997,
+   "orig_size": 2440997,
+   "sha256": "17cde40155c3f83ec0b49cdb981ac6b8fda281892443463d1513dfab510df043",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/final/preflight_jollyglow_321_A_dontshow/jollyglow_321_A_dontshow_sheet.png",
+   "id": "1HIAolURJeFTj6BLnE-5FnaD4-WkBrLhp",
+   "name": "jollyglow_321_A_dontshow_sheet.png",
+   "folder": "generations",
+   "size": 2296234,
+   "orig_size": 2296234,
+   "sha256": "03b616efa8b11ecf0e69cf1bd3899ffa7625c40f6d3d5b886cde033a4cce8178",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/final/preflight_jollyglow_321_A_dontshow_v2/jollyglow_321_A_dontshow_v2_sheet.png",
+   "id": "1DWLcetQeogRAbAxcSbxgBPEE0-ePvBQF",
+   "name": "jollyglow_321_A_dontshow_v2_sheet.png",
+   "folder": "generations",
+   "size": 2346759,
+   "orig_size": 2346759,
+   "sha256": "3d6c03f0577c23bf9b37904db7c2a3ea3a8da728f3f6b856bf7f128ffe52dfd3",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/final/preflight_jollyglow_321_B_pov/jollyglow_321_B_pov_sheet.png",
+   "id": "1MQ8KWUs6hCNJpRHACqJvwLK2GTRBaY3i",
+   "name": "jollyglow_321_B_pov_sheet.png",
+   "folder": "generations",
+   "size": 2297200,
+   "orig_size": 2297200,
+   "sha256": "33cb8eb49caed5faad150538ce55cd368603e34270ce40fea8a4531defaec555",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/final/preflight_jollyglow_321_B_pov_v2/jollyglow_321_B_pov_v2_sheet.png",
+   "id": "1Wrph_vteZdXW8DnYDLUIyq1ls9EmGZr9",
+   "name": "jollyglow_321_B_pov_v2_sheet.png",
+   "folder": "generations",
+   "size": 2351294,
+   "orig_size": 2351294,
+   "sha256": "c462fb03fe15495f64815a73e18ba8297bffc59e1b72f46489cc8e3a7f178010",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/refs/hook_ref_nocaption.jpg",
+   "id": "1mYyudDPten7rEX53-QbxELogpmSsWSuv",
+   "name": "hook_ref_nocaption.jpg",
+   "folder": "generations",
+   "size": 398031,
+   "orig_size": 266165,
+   "sha256": "3a73f5db8c4d050d6ad818390d0c7fe85cd166bb830ddc2de2e160206ac0ab36",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_321/refs/mc03_store.jpg",
+   "id": "1IINYrZ6ARqEgo92JoyU8BDYD3TxIHg01",
+   "name": "mc03_store.jpg",
+   "folder": "generations",
+   "size": 358852,
+   "orig_size": 146688,
+   "sha256": "4b630056cd1aadb13fb983a41b5cbce16833a09c28a818a991c86ac059b3328c",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_321/refs/p1.png",
+   "id": "1geRffI5hwV-aeDfqR_L2m-m6YEpshk3Q",
+   "name": "p1.png",
+   "folder": "generations",
+   "size": 2372642,
+   "orig_size": 2420566,
+   "sha256": "ac0551fae866fc8bd64a9fb1f7ff02140937d9ce02173c70bef8098921c1c86a",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_321/refs/ref_s5_reveal.jpg",
+   "id": "1khPPQywQ8vgZI2WRZtZVrEX4IM0AO25q",
+   "name": "ref_s5_reveal.jpg",
+   "folder": "generations",
+   "size": 884908,
+   "orig_size": 643179,
+   "sha256": "8228b24d008fec16ccdce0e718c1c74b753f4545e1608ef92b7e5fd9c2bd5195",
+   "sanitized": true
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F1_v1.png",
+   "id": "18CmPgGIiXa6jobCaNoQk2X2QLUPdP_sA",
+   "name": "F1_v1.png",
+   "folder": "generations",
+   "size": 1587168,
+   "orig_size": 1587168,
+   "sha256": "9c94690f545a46dc72590be97a85bb9fd4606e9d33a81f49fe144c5ad9e8903f",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F1_v2.png",
+   "id": "1piJ_ihGLjOqbHWPVPudVMfvgnnbscRYp",
+   "name": "F1_v2.png",
+   "folder": "generations",
+   "size": 1572965,
+   "orig_size": 1572965,
+   "sha256": "c8584beb5991382ad93556b754f7ea7074238d72e2d51925bb5886bfa12f1f23",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F2_v1.png",
+   "id": "1-9HU5EjNwnWyNn4t_Ya631bRctTsv8yG",
+   "name": "F2_v1.png",
+   "folder": "generations",
+   "size": 1705706,
+   "orig_size": 1705706,
+   "sha256": "8b1e831fcf7b830436270ad844df70c83bc2b8f1275bb35742a1307ec3a8e4b5",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F2_v2.png",
+   "id": "10pTSvE_gpyoPJmCTUhenQGjPQDob0iZc",
+   "name": "F2_v2.png",
+   "folder": "generations",
+   "size": 1710686,
+   "orig_size": 1710686,
+   "sha256": "bb42dbaa45839deccd7ca6cea384dc5a17f3febf4e4538a810c1069df35c1ef0",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F3_v1.png",
+   "id": "1JlzBnF1-nCAQuUxnYDbpquJAN0cl-4jX",
+   "name": "F3_v1.png",
+   "folder": "generations",
+   "size": 1760123,
+   "orig_size": 1760123,
+   "sha256": "1bc0cb90fd5becf50a5069cc1c49dfc5a16788881f35dfe28aff077a0621e5ca",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F3_v2.png",
+   "id": "1POOuNE9YXvf8DV72DJz0uH6AGqqaT2Ek",
+   "name": "F3_v2.png",
+   "folder": "generations",
+   "size": 1624474,
+   "orig_size": 1624474,
+   "sha256": "db6ace01fe5693a4cd5426cbeda333974b79faafa13ced4a287467a9f95db8ac",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F4_v1.png",
+   "id": "1RFRVPJfIjTaHGlRNsiw9v6pbAQ5Rh_GL",
+   "name": "F4_v1.png",
+   "folder": "generations",
+   "size": 1709258,
+   "orig_size": 1709258,
+   "sha256": "f8e375a25d743ff3d2281df81bf086c051d6d6939d49a8f892297e9735fe2e4f",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F4_v2.png",
+   "id": "1dbD-4m32Gq6qX6FQJKpe3MNcjtUpFD_u",
+   "name": "F4_v2.png",
+   "folder": "generations",
+   "size": 1702096,
+   "orig_size": 1702096,
+   "sha256": "3ca314043ebf96b7a43e067c1640b9029b8e54d299087e6998c0095ab11ec999",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/start_frames/F5_v1.png",
+   "id": "1wO-MDRT7Y8ED1nIpw-6HLZ-NzrRo4rJV",
+   "name": "F5_v1.png",
+   "folder": "generations",
+   "size": 1635805,
+   "orig_size": 1635805,
+   "sha256": "702cab8fb6ccb1e55bdf195cd479996bac7d89d341697e979c5eb5a458946473",
+   "sanitized": false
   }
  ],
  "updated_pt": "2026-10-20 PT (batch 2: out/deliver plus 3 re-encoded audio files)"
