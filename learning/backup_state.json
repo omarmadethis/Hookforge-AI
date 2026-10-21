@@ -3142,80 +3142,118 @@
    "drive_id": "15oqPBjPq0SEnl0JGPMM58hj7Lf3FOYHU"
   },
   "out/purrventure_frames/raw_v1/P2_SF3.png": {
-   "status": "pending",
-   "bytes": 7524428
+   "status": "uploaded",
+   "bytes": 7524428,
+   "sha256": "57a342346efab6c4faf45cf307af2ed894784b9f6bb8a66d8232fdf14e353a5c",
+   "drive_id": "1_GWTTUBN--YK4QJQtOtAkKkJqvX7YT8v"
   },
   "out/purrventure_frames/raw_v1/P2_SF4.png": {
-   "status": "pending",
-   "bytes": 6834893
+   "status": "uploaded",
+   "bytes": 6834893,
+   "sha256": "d668d9d5e3a72a673ec2a2e9182e85d1cb673d7582c4dfcc8ccd80a8a7f1cce7",
+   "drive_id": "1-9bFYHQOfQYDEJ4YjDMouaZosZLYdZNa"
   },
   "out/purrventure_frames/raw_v1/P3_SF3.png": {
-   "status": "pending",
-   "bytes": 8306275
+   "status": "uploaded",
+   "bytes": 8306275,
+   "sha256": "016a1c03a20a6ca6924f7af4d8667cd6f0f1fa9da52f07defa221543c4fac428",
+   "drive_id": "1uymUrlhrn26bKJdtW22gET_fPXENdMxh"
   },
   "out/purrventure_frames/raw_v1/P3_SF4.png": {
-   "status": "pending",
-   "bytes": 8779995
+   "status": "uploaded",
+   "bytes": 8779995,
+   "sha256": "3c83107fd687e68598ce4ccd2eac834ecdb1026c62d70e4a9b74cb979a24dac6",
+   "drive_id": "17maTK-HhPExbhrz2MrrFF8NQ6RXqMTUj"
   },
   "out/purrventure_frames/raw_v2/P1_SF3.png": {
-   "status": "pending",
-   "bytes": 8589167
+   "status": "uploaded",
+   "bytes": 8589167,
+   "sha256": "d1ac1f26583611b7eeef9134cb9eba2dafe722ce6ec13c4068e434940112c342",
+   "drive_id": "1uDn8nEJZSdK6HWEFpMbt9ymkCrp-Juf5"
   },
   "out/purrventure_frames/raw_v2/P1_SF4.png": {
-   "status": "pending",
-   "bytes": 8310695
+   "status": "uploaded",
+   "bytes": 8310695,
+   "sha256": "1b1f89610cfe878b037bf572d59096a2091ce9e423ec56de5e41e64d5c8269e7",
+   "drive_id": "1dUUDGmvogp0rip-hf0OOCvGVV6dNsdec"
   },
   "out/purrventure_frames/raw_v2/P2_SF1.png": {
-   "status": "pending",
-   "bytes": 8037642
+   "status": "uploaded",
+   "bytes": 8037642,
+   "sha256": "7a8c26082e67e380c868899a605f0e2745f3a41a06b058ae8f2cb947651c10f5",
+   "drive_id": "1Nhg2yTTNBuBrrs7-LVUfsiO2sFFuG5fJ"
   },
   "out/purrventure_frames/raw_v2/P2_SF2.png": {
-   "status": "pending",
-   "bytes": 7868256
+   "status": "uploaded",
+   "bytes": 7868256,
+   "sha256": "76f6c19347bf3b14c8fdddf756783875a4ef9218d9da64b03ac8536320da4325",
+   "drive_id": "1-3AsvkCTrS9dwJafsX-JVe5diYelU2Ar"
   },
   "out/purrventure_frames/raw_v2/P2_SF3.png": {
-   "status": "pending",
-   "bytes": 9032149
+   "status": "uploaded",
+   "bytes": 9032149,
+   "sha256": "edeb2f9c5f6f628b2f20a7b7f3bd4ee9c61156f7e81499d49ed6d137a172eefb",
+   "drive_id": "1kHaA46KbzhqC5uh1vX-zPU7JhJ9BvxJV"
   },
   "out/purrventure_frames/raw_v2/P2_SF4.png": {
-   "status": "pending",
-   "bytes": 9702009
+   "status": "uploaded",
+   "bytes": 9702009,
+   "sha256": "11c5479af5f779717a897ec024c374a1a24f4979c7d767528f643144b77ade80",
+   "drive_id": "1jAyI8TZ6bmY3FLK8_DLOg8YqBzp2Hah3"
   },
   "out/purrventure_frames/raw_v2/P3_SF1.png": {
-   "status": "pending",
-   "bytes": 9588542
+   "status": "uploaded",
+   "bytes": 9588542,
+   "sha256": "7d91d04f8f1154f8660dcb389478f3d4841b077181ec9c548696c3dc3b1d572b",
+   "drive_id": "1157neLhXcZi7UMDpRM2vHVXQcwd29LbU"
   },
   "out/purrventure_frames/raw_v2/P3_SF2.png": {
-   "status": "pending",
-   "bytes": 7956753
+   "status": "uploaded",
+   "bytes": 7956753,
+   "sha256": "db3f228d07204b74339f04d344b28bb96976924719eb67baeecdd59c5fb9f099",
+   "drive_id": "14eBafZqERKF5C6U6i9spqkrr58Z3d5AB"
   },
   "out/purrventure_frames/raw_v2/P3_SF3.png": {
-   "status": "pending",
-   "bytes": 9367528
+   "status": "uploaded",
+   "bytes": 9367528,
+   "sha256": "55fb4580539e0af101f03e592e681df8400a2f6f3caf51347a0b62a5b3adeb5b",
+   "drive_id": "1kR-cY-ZKyWZGF-Y-zdRz9_nTVS9oDIrV"
   },
   "out/purrventure_frames/raw_v3/P1_SF1.png": {
-   "status": "pending",
-   "bytes": 6767369
+   "status": "uploaded",
+   "bytes": 6767369,
+   "sha256": "ed23891528999eaa634097cfca7dfc53efc323ec8d4a0d7345b918b42c7d6dd2",
+   "drive_id": "1Lgnwz8yoGFYf3OXhUcUfFajY4KAoaTpu"
   },
   "out/purrventure_frames/raw_v3/P2_SF4.png": {
-   "status": "pending",
-   "bytes": 10342176
+   "status": "uploaded",
+   "bytes": 10342176,
+   "sha256": "a7316c4314a4ebb2bd21d9877fee5c9b127e90e62b8554ee331fd321dc3984b5",
+   "drive_id": "1DhPeJCIFJtjbWCii9cXTI2uzNENRaJks"
   },
   "out/purrventure_frames/raw_v3/P3_SF3.png": {
-   "status": "pending",
-   "bytes": 8792892
+   "status": "uploaded",
+   "bytes": 8792892,
+   "sha256": "9e3d9069d0d54fdd1e0a8e8cbde47cb9f1f9af4a57ef8bc8ff86323fce5044e9",
+   "drive_id": "1TxGqNtzet_nsHthl-LgPhzuUyFIUKeOM"
   },
   "out/purrventure_frames/sheet_P1.jpg": {
-   "status": "pending",
-   "bytes": 482170
+   "status": "uploaded",
+   "bytes": 482170,
+   "sha256": "eb3096127a2ee13489091b98a8f3f33893d9179cc5448d96362ce1f52c7cf08b",
+   "drive_id": "19wL6QZZ1Y4MQhNq2AUXW-I9W1NPiRRyg"
   },
   "out/purrventure_frames/sheet_P2.jpg": {
-   "status": "pending",
-   "bytes": 455291
+   "status": "uploaded",
+   "bytes": 455291,
+   "sha256": "13b03ed31ee2a2cefbde847958bdff35bd6960ed87f09965db87427b77247207",
+   "drive_id": "1RQerGGkoXxZ3PuNc2Ih4GXwUVNhrd-FK"
   },
   "out/purrventure_frames/sheet_P3.jpg": {
-   "status": "pending",
-   "bytes": 556800
+   "status": "uploaded",
+   "bytes": 556800,
+   "sha256": "989a7661d96f1f65b84e8afdeca3b543c7c30bbae5aa3500392dd01667801e2d",
+   "drive_id": "1h-HIFmlqCF5XCCDog7Uc_O11Y5AY9imp"
   },
   "out/purrventure_frames/start_frame_media_ids.json": {
    "status": "pending",
@@ -3258,8 +3296,10 @@
    "drive_id": "1U2gitlOl28FNu2-gTy94lsVoEty4qkY4"
   },
   "out/pv_clips/P2_G2_last.png": {
-   "status": "pending",
-   "bytes": 2003689
+   "status": "uploaded",
+   "bytes": 2003689,
+   "sha256": "e3321bac39edf275887ec97892067abda6dce1c95630a986bd36f81147898718",
+   "drive_id": "1TxoFWoQ51N7DV_V43_Ts1wdJJgxcNNWn"
   },
   "out/pv_clips/P2_G3.mp4": {
    "status": "uploaded",
@@ -3268,8 +3308,10 @@
    "drive_id": "1FTSmb_rkaynDbsoCDITRfxiePXmWaIuu"
   },
   "out/pv_clips/P2_G3_start.png": {
-   "status": "pending",
-   "bytes": 1376223
+   "status": "uploaded",
+   "bytes": 1376223,
+   "sha256": "5f4926316ff2c815ccdff18ac1c917d103a7245280212f7d7e3e2f64d2edda80",
+   "drive_id": "1AjCtGrbG8NncTqpwCDj7iX-_lOtxDFec"
   },
   "out/pv_clips/P2_G3_try4_siamese_unused.mp4": {
    "status": "uploaded",
@@ -3308,84 +3350,124 @@
    "drive_id": "1TgOsfXhIsYqYY-ePN6bv8wMnDJiqMgEW"
   },
   "out/pv_clips/qa/P1_G1.jpg": {
-   "status": "pending",
-   "bytes": 94874
+   "status": "uploaded",
+   "bytes": 94874,
+   "sha256": "b1064a699230e149f3d799fc76cc1dc30c9df5c4889c130cf3e2386795a502e7",
+   "drive_id": "1EVYWNtV2lZHTDu40W6fue29266zu6b8M"
   },
   "out/pv_clips/qa/P1_G2.jpg": {
-   "status": "pending",
-   "bytes": 139661
+   "status": "uploaded",
+   "bytes": 139661,
+   "sha256": "54b5beaa735f13ec5be7e9a2eb8835b84cf595d78b4bcda29ecc3879b81dac9f",
+   "drive_id": "1dJ173a7P5w7wmyE1G_18gG3QE1-ZViZz"
   },
   "out/pv_clips/qa/P1_G2_dense.jpg": {
-   "status": "pending",
-   "bytes": 263932
+   "status": "uploaded",
+   "bytes": 263932,
+   "sha256": "4601e32a16b258dc984cbf0e7f9ff20b5140c5990cdfa2779e7f27e64f07f60e",
+   "drive_id": "1gidqiSiK422_5RE7iHwRHPkEuOQ-KE-K"
   },
   "out/pv_clips/qa/P1_G3.jpg": {
-   "status": "pending",
-   "bytes": 87895
+   "status": "uploaded",
+   "bytes": 87895,
+   "sha256": "77ba9e9c4017622f1915a0ec60f95e57fdf305873802cfdf58d6ca9f0d617841",
+   "drive_id": "15QOYZE8ILV2zq8-6mahefXasB6it3079"
   },
   "out/pv_clips/qa/P1_G4.jpg": {
-   "status": "pending",
-   "bytes": 113221
+   "status": "uploaded",
+   "bytes": 113221,
+   "sha256": "cac7aaf74b8949e6df714d2c2f44387c038d161b397425f38a3ad1900ccc109d",
+   "drive_id": "1UU5-kUyyM8Tss0ZNHETZ2ThMixpusu8-"
   },
   "out/pv_clips/qa/P2_G1.jpg": {
-   "status": "pending",
-   "bytes": 129830
+   "status": "uploaded",
+   "bytes": 129830,
+   "sha256": "77fac7e5c6a1d27be0fb10ba2689692266f5c0b82a71d4e1ddd039dc2ea5b0a6",
+   "drive_id": "1ipg2gu3Ct0gsod6x-QWpMml-u4xsBodL"
   },
   "out/pv_clips/qa/P2_G2.jpg": {
-   "status": "pending",
-   "bytes": 162369
+   "status": "uploaded",
+   "bytes": 162369,
+   "sha256": "b3e34ee03a4264386d5108afa0f4f6fc0ae5d0566231c1c75e5409d05521724c",
+   "drive_id": "10iGS6pdE-jt2INbabkEKX1omIp5rFx5A"
   },
   "out/pv_clips/qa/P2_G2_dense.jpg": {
-   "status": "pending",
-   "bytes": 269430
+   "status": "uploaded",
+   "bytes": 269430,
+   "sha256": "ef720331ff452270989022aa9c0c47df56f725306dbed5ec0f35903bc36825a5",
+   "drive_id": "1SqQT5-d2cycAheEtZgX9K96NN9vXXCIn"
   },
   "out/pv_clips/qa/P2_G3.jpg": {
-   "status": "pending",
-   "bytes": 204762
+   "status": "uploaded",
+   "bytes": 204762,
+   "sha256": "d546e9a30d51a0cec5ba262619e445a7e50e8e461233530d841eeb2ff070ffd5",
+   "drive_id": "1b5JGr6iMJE8EWnl21E77Y8KekoNc1wry"
   },
   "out/pv_clips/qa/P3_G1.jpg": {
-   "status": "pending",
-   "bytes": 153172
+   "status": "uploaded",
+   "bytes": 153172,
+   "sha256": "a5385d590a5a7fcea22ea1c78c1344385ff00ca32313187734d2ade99b2558ac",
+   "drive_id": "1JwIiJXnejkkFHGEfDw7OyAMz9TJ6m0gT"
   },
   "out/pv_clips/qa/P3_G2.jpg": {
-   "status": "pending",
-   "bytes": 145302
+   "status": "uploaded",
+   "bytes": 145302,
+   "sha256": "d2636fd25369c6f1cadcb2629d3a4c1e7b32c8f089d4be5002b6b8dbedd1d4f4",
+   "drive_id": "1P9h7sVXsxLQ3qKunjaL-89ECw_r5DePl"
   },
   "out/pv_clips/qa/P3_G2_dense.jpg": {
-   "status": "pending",
-   "bytes": 251587
+   "status": "uploaded",
+   "bytes": 251587,
+   "sha256": "0728f54d215599168e056cb6c1bdb3a792514598e8257de3d6689c52e753e254",
+   "drive_id": "1wBQsM9gHGP_Zl3rxvbYyZTK7CCnYNtR4"
   },
   "out/pv_clips/qa/P3_G3.jpg": {
-   "status": "pending",
-   "bytes": 131624
+   "status": "uploaded",
+   "bytes": 131624,
+   "sha256": "f0bafcb4f0d2aaf9c6acc26886c18bb31981f7b4a96fd39bdcca1a7d7ab31426",
+   "drive_id": "1qZqSPxv4i1Vx0NqQwNA5Rn3U4DbFcwe8"
   },
   "out/pv_clips/qa/P3_G4.jpg": {
-   "status": "pending",
-   "bytes": 122908
+   "status": "uploaded",
+   "bytes": 122908,
+   "sha256": "dba3205474c0195fe17010287a9b63332b097f0b76c431e0baadb72e242f0e1a",
+   "drive_id": "11yK8zy9_dgSsiXu8SZfP3BJEDQtuutR5"
   },
   "out/pv_clips/qa/g4/s1.jpg": {
-   "status": "pending",
-   "bytes": 175259
+   "status": "uploaded",
+   "bytes": 175259,
+   "sha256": "4bb15bb1c5e4167d33da21abaaf788e78bb68dfedcb7382d7ce64028b023fc21",
+   "drive_id": "1SfciAdPiQxT16Yt2XeCHHhR715LXJL3l"
   },
   "out/pv_clips/qa/g4/sheet.jpg": {
-   "status": "pending",
-   "bytes": 247616
+   "status": "uploaded",
+   "bytes": 247616,
+   "sha256": "1a3c1b74f5f634f57b2ba59b54b2735bb9fc7cb6f4466d605c4e5e1246aba227",
+   "drive_id": "1KzC1dlT-PdTLYGVtSfSqrgoI4WSD6WNC"
   },
   "out/pv_edit/P1_card0.png": {
-   "status": "pending",
-   "bytes": 80867
+   "status": "uploaded",
+   "bytes": 80867,
+   "sha256": "d05a0671ade4c948432dc078c39cc8cb7a95da89ef864493dbc24b97fc51fef5",
+   "drive_id": "1ixTW77YG6I0vb_3iZoyovSAt1gEpceWb"
   },
   "out/pv_edit/P1_card1.png": {
-   "status": "pending",
-   "bytes": 42280
+   "status": "uploaded",
+   "bytes": 42280,
+   "sha256": "3c90735aa1e4bb9e3648483bd33db038a043200b510953ba73c1d767756b7975",
+   "drive_id": "15vJTnnJiROoIpRcAfgY8WBNAMrk5z9RY"
   },
   "out/pv_edit/P1_card2.png": {
-   "status": "pending",
-   "bytes": 115717
+   "status": "uploaded",
+   "bytes": 115717,
+   "sha256": "32f2889ea27e78e32888ce007066cc990c3c8f0e8f10afdeb7f85570625523d4",
+   "drive_id": "10SBO0qDHU5fSPIZE_PuMp6ZJkZh1g8wF"
   },
   "out/pv_edit/P1_final_sheet.jpg": {
-   "status": "pending",
-   "bytes": 154986
+   "status": "uploaded",
+   "bytes": 154986,
+   "sha256": "1e648a41470380f954032c87ba1b31afc3407347e9fd51033bfb4dad707278cf",
+   "drive_id": "1VAWCa9-Z-zfqbSE9xzujNEb2voBHszIo"
   },
   "out/pv_edit/P1_mixed.mp4": {
    "status": "uploaded",
@@ -3404,8 +3486,10 @@
    "bytes": 1434
   },
   "out/pv_edit/P1_qa/PurrVenture_P1_final_sheet.png": {
-   "status": "pending",
-   "bytes": 2794026
+   "status": "uploaded",
+   "bytes": 2794026,
+   "sha256": "3a0812fdbda8a52a348b8647f350d6b391ee3b26bb7afe9d32fbf9cda593aa67",
+   "drive_id": "1JiHM62dtYvqNqoGDfLnqPISDcO1bBk4w"
   },
   "out/pv_edit/P1_raw.mp4": {
    "status": "uploaded",
@@ -3422,20 +3506,28 @@
    "bytes": 1799
   },
   "out/pv_edit/P2_card0.png": {
-   "status": "pending",
-   "bytes": 80867
+   "status": "uploaded",
+   "bytes": 80867,
+   "sha256": "d05a0671ade4c948432dc078c39cc8cb7a95da89ef864493dbc24b97fc51fef5",
+   "drive_id": "1TKTMb6p-Pb7mnSCDlkiudVWVbzeAEQp4"
   },
   "out/pv_edit/P2_card1.png": {
-   "status": "pending",
-   "bytes": 42280
+   "status": "uploaded",
+   "bytes": 42280,
+   "sha256": "3c90735aa1e4bb9e3648483bd33db038a043200b510953ba73c1d767756b7975",
+   "drive_id": "1ec_WF-C9mkoZxrkgFybovtuAgUNIjFzB"
   },
   "out/pv_edit/P2_card2.png": {
-   "status": "pending",
-   "bytes": 115717
+   "status": "uploaded",
+   "bytes": 115717,
+   "sha256": "32f2889ea27e78e32888ce007066cc990c3c8f0e8f10afdeb7f85570625523d4",
+   "drive_id": "1dUpQe5QwmWm0_7fYAell1WCVrDy_9Wot"
   },
   "out/pv_edit/P2_final_sheet.jpg": {
-   "status": "pending",
-   "bytes": 135523
+   "status": "uploaded",
+   "bytes": 135523,
+   "sha256": "e12a45dd8f9e9ff0c4435b952d549dbebd4a4c9bc1cdd8a3aa454020ecd2b50b",
+   "drive_id": "1OJmoAxrwUrSGfap7i0rN1yOkYloh1GFx"
   },
   "out/pv_edit/P2_mixed.mp4": {
    "status": "uploaded",
@@ -3454,8 +3546,10 @@
    "bytes": 1262
   },
   "out/pv_edit/P2_qa/PurrVenture_P2_final_sheet.png": {
-   "status": "pending",
-   "bytes": 2891772
+   "status": "uploaded",
+   "bytes": 2891772,
+   "sha256": "494b67c722e97a785bbde5ce34f741d80270040dcee402679c816e9d73cb73e0",
+   "drive_id": "19BNcm7dpU1R0w7pbfndv5UeLiBRX7Y60"
   },
   "out/pv_edit/P2_raw.mp4": {
    "status": "uploaded",
@@ -3472,20 +3566,28 @@
    "bytes": 1992
   },
   "out/pv_edit/P3_card0.png": {
-   "status": "pending",
-   "bytes": 80867
+   "status": "uploaded",
+   "bytes": 80867,
+   "sha256": "d05a0671ade4c948432dc078c39cc8cb7a95da89ef864493dbc24b97fc51fef5",
+   "drive_id": "1rewMqcNul1by1ZG2FNaFL-QunH9_6Hib"
   },
   "out/pv_edit/P3_card1.png": {
-   "status": "pending",
-   "bytes": 42280
+   "status": "uploaded",
+   "bytes": 42280,
+   "sha256": "3c90735aa1e4bb9e3648483bd33db038a043200b510953ba73c1d767756b7975",
+   "drive_id": "1-5Me5HsgqWBjzl84DlybaHhH0LhhXwMA"
   },
   "out/pv_edit/P3_card2.png": {
-   "status": "pending",
-   "bytes": 115717
+   "status": "uploaded",
+   "bytes": 115717,
+   "sha256": "32f2889ea27e78e32888ce007066cc990c3c8f0e8f10afdeb7f85570625523d4",
+   "drive_id": "19Ix4zJz0w2HfHiucTTH1La5LzNuutA6r"
   },
   "out/pv_edit/P3_final_sheet.jpg": {
-   "status": "pending",
-   "bytes": 180274
+   "status": "uploaded",
+   "bytes": 180274,
+   "sha256": "3b08be4eaaf44f5d43ec4cc914748b4dfcc6a9ccc4740fb4315d445c61857ee7",
+   "drive_id": "1FmN0zyNdSXpDMIcEmjOkUdx2iv6zoGRe"
   },
   "out/pv_edit/P3_mixed.mp4": {
    "status": "uploaded",
@@ -3504,8 +3606,10 @@
    "bytes": 1437
   },
   "out/pv_edit/P3_qa/PurrVenture_P3_final_sheet.png": {
-   "status": "pending",
-   "bytes": 3108776
+   "status": "uploaded",
+   "bytes": 3108776,
+   "sha256": "c8d347a26b351fa9c41ea6b5284b2d325881f0af2ea15ca7a9581f5938da851e",
+   "drive_id": "1k_pu5BgbiZjE8kQp3mx3MAdibB1W3cRm"
   },
   "out/pv_edit/P3_raw.mp4": {
    "status": "uploaded",
@@ -3616,32 +3720,46 @@
    "dedup_of": "out/deliver/TrumpGlow - C - FreeBird - v5 - Caption.txt"
   },
   "out/tg_v_say/end_0.png": {
-   "status": "pending",
-   "bytes": 219178
+   "status": "uploaded",
+   "bytes": 219178,
+   "sha256": "032ef72ac138fbe739a17ab7ec4185c3df3d8287618499d77ca0e12a8bea476c",
+   "drive_id": "1o6RQOe6uBr9_Gj1p-EXvio5w-UwmDYOk"
   },
   "out/tg_v_say/end_1.png": {
-   "status": "pending",
-   "bytes": 219178
+   "status": "uploaded",
+   "bytes": 219178,
+   "sha256": "032ef72ac138fbe739a17ab7ec4185c3df3d8287618499d77ca0e12a8bea476c",
+   "drive_id": "11XsMuaeS1RRejM71yNYU1T_QQeF6cllb"
   },
   "out/tg_v_say/end_2.png": {
-   "status": "pending",
-   "bytes": 224134
+   "status": "uploaded",
+   "bytes": 224134,
+   "sha256": "8459f5f714bc778430ea30dc6c861e0e7f9ff169c5937cc99896324988dab51b",
+   "drive_id": "10gpw98eHgAalGJw7oBPCae2hQg6fpZor"
   },
   "out/tg_v_say/end_3.png": {
-   "status": "pending",
-   "bytes": 224134
+   "status": "uploaded",
+   "bytes": 224134,
+   "sha256": "8459f5f714bc778430ea30dc6c861e0e7f9ff169c5937cc99896324988dab51b",
+   "drive_id": "1NprwE1-KSVH9ny8Ncze7T1oSrW7yIub1"
   },
   "out/tg_v_say/end_4.png": {
-   "status": "pending",
-   "bytes": 167893
+   "status": "uploaded",
+   "bytes": 167893,
+   "sha256": "0659bd942aef1955556b48e2a152b74eb5c31bd6e0e27ac46b5fe3321dc22e1a",
+   "drive_id": "1z9hN5kPXq6FLo0dBx9w8_jaE4JR6zrWx"
   },
   "out/tg_v_say/end_5.png": {
-   "status": "pending",
-   "bytes": 167893
+   "status": "uploaded",
+   "bytes": 167893,
+   "sha256": "0659bd942aef1955556b48e2a152b74eb5c31bd6e0e27ac46b5fe3321dc22e1a",
+   "drive_id": "1u3HO8uMj2O7QMVRZxlRXGke2yL-Pc1Vf"
   },
   "out/tg_v_say/ends.jpg": {
-   "status": "pending",
-   "bytes": 137048
+   "status": "uploaded",
+   "bytes": 137048,
+   "sha256": "9fb510ceb34b98d6b8c63ea34902a48831e03129664f09b87970d9f18d487322",
+   "drive_id": "11Ie7bfH7NiARSh3n8z8jXvt1kNCT5ibO"
   },
   "out/tg_v_say/gate_report.json": {
    "status": "pending",
@@ -3658,60 +3776,88 @@
    "drive_id": "1CgpntxCq4z6y_gGBHJESshRMKTawIVeK"
   },
   "out/trump_projector/trump_projector_sample_still.jpg": {
-   "status": "pending",
-   "bytes": 705649
+   "status": "uploaded",
+   "bytes": 705649,
+   "sha256": "f76a62dcdf05029a5c45763084ca3bd7d1e837a509306b1b43b7982e7cfd8c18",
+   "drive_id": "10-T9mnTmU23trjoXjdr_2fdeuOeXFAOj"
   },
   "out/trumpglow_product/f_0.5.png": {
-   "status": "pending",
-   "bytes": 123464
+   "status": "uploaded",
+   "bytes": 123464,
+   "sha256": "f3c604f55d1d0ffc77c83b83db6cd63a0cd24548596148737b6d2b18b1d72715",
+   "drive_id": "1CrR2HBCh1k21ERGyn460kyzBs2cgejAh"
   },
   "out/trumpglow_product/f_1.5.png": {
-   "status": "pending",
-   "bytes": 119832
+   "status": "uploaded",
+   "bytes": 119832,
+   "sha256": "d34f79e66f78710fd805521476ea21d0d029491ef0927f6fa10b34809a2f216d",
+   "drive_id": "1OilQZQi-_OKx5_uNw82aagixmhoYNh9Z"
   },
   "out/trumpglow_product/f_2.5.png": {
-   "status": "pending",
-   "bytes": 154864
+   "status": "uploaded",
+   "bytes": 154864,
+   "sha256": "e2eb214329a6d62ce937a279fea86b3082fe8cdcbf930b44b7452e03730d706e",
+   "drive_id": "1V8QjcYjmykaAfEGwVU8tBqR9CDxnEp8a"
   },
   "out/trumpglow_product/f_3.5.png": {
-   "status": "pending",
-   "bytes": 167521
+   "status": "uploaded",
+   "bytes": 167521,
+   "sha256": "7ac618a0bcbda563e9570143313a96f7e3239ee122875360a13b33ba3e08b5f9",
+   "drive_id": "1c-GtVksdFNPHCZ3LGVb3g-ANySUOqUEA"
   },
   "out/trumpglow_product/f_4.5.png": {
-   "status": "pending",
-   "bytes": 117488
+   "status": "uploaded",
+   "bytes": 117488,
+   "sha256": "97fa7a1d1b50e42d39553fc60991bd990157b8838f3b653e6954cc0d88015cd5",
+   "drive_id": "1os04sRk64743PmHRKtfBXhVfHIQyM549"
   },
   "out/trumpglow_product/raw_a.png": {
-   "status": "pending",
-   "bytes": 1647947
+   "status": "uploaded",
+   "bytes": 1647947,
+   "sha256": "322ccf086f223359c966a0509ccfdad4f9e424e1ba27ce542871c9248f32b44a",
+   "drive_id": "1_Z4y7pg7AUdOSGyfxM4k5OkOHUu7TcLa"
   },
   "out/trumpglow_product/raw_b.png": {
-   "status": "pending",
-   "bytes": 1661779
+   "status": "uploaded",
+   "bytes": 1661779,
+   "sha256": "817754881439221bfacf911b9f9ef408b1d3b649d7411042acb92def0767993e",
+   "drive_id": "1cEj-mbm7zwW33Rgvw7rfE69R2v3gNxwd"
   },
   "out/trumpglow_product/ref_pod_tp02.png": {
-   "status": "pending",
-   "bytes": 882180
+   "status": "uploaded",
+   "bytes": 882180,
+   "sha256": "a7dfebf71ba35265d9b2b992c98ae25183e2a989eae324ac2c303971ba8d7a55",
+   "drive_id": "18Sr4en_Tce-yJYhldPQKnQxr3f10NU0-"
   },
   "out/trumpglow_product/ref_pod_tp02_clean.png": {
-   "status": "pending",
-   "bytes": 530260
+   "status": "uploaded",
+   "bytes": 530260,
+   "sha256": "a7dfebf71ba35265d9b2b992c98ae25183e2a989eae324ac2c303971ba8d7a55",
+   "drive_id": "1fqujh8OdIQUel8DyV-jn9nnUMGjpjTnf"
   },
   "out/trumpglow_product/ref_projection.png": {
-   "status": "pending",
-   "bytes": 1166108
+   "status": "uploaded",
+   "bytes": 1166108,
+   "sha256": "a326dbb331957aa0133e3bd9956f8b9a18d9f155133deeef3c8c0fb133cafad8",
+   "drive_id": "1hZpHXg7rUetwomyFeP2ElKsXF-W-IVYu"
   },
   "out/trumpglow_product/ref_projector_crop.png": {
-   "status": "pending",
-   "bytes": 968033
+   "status": "uploaded",
+   "bytes": 968033,
+   "sha256": "635b9fb0038b53e37a3c694d903540f503719e8529fd886d32fb7ab760f65705",
+   "drive_id": "1J-f3H9QlboP2Xtl62iHzDRvF0WY2Dsji"
   },
   "out/trumpglow_product/ref_projector_crop_clean.png": {
-   "status": "pending",
-   "bytes": 940000
+   "status": "uploaded",
+   "bytes": 940000,
+   "sha256": "635b9fb0038b53e37a3c694d903540f503719e8529fd886d32fb7ab760f65705",
+   "drive_id": "1tVnUOTim9b3jAP41YU4u2JOfM6R17DaL"
   },
   "out/trumpglow_product/sheet.png": {
-   "status": "pending",
-   "bytes": 625745
+   "status": "uploaded",
+   "bytes": 625745,
+   "sha256": "dc73d2f828960fd8b90d9040bf4fead9cf8c4ee192571cf573e224a026e3921d",
+   "drive_id": "1CF8eCcQjt4Kx_EGogU1WLGvdZHE9O2sK"
   }
  },
  "tier": 2,

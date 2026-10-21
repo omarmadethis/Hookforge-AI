@@ -1,5 +1,5 @@
 # MANIFEST of excluded assets (not in git)
-Generated 2026-10-20 6:34 PM PT by engine/scripts/build_manifest.py. Total 9973 files, 14.54 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
+Generated 2026-10-20 6:39 PM PT by engine/scripts/build_manifest.py. Total 9973 files, 14.54 GB. Restore from the box (/workspace/hookforge) or the owner's Drive; never commit these. Secret/env files would be listed by name only (none found at generation time).
 
 ## By directory
 | dir | files | size | why excluded |
@@ -375,7 +375,7 @@ Generated 2026-10-20 6:34 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/capcut_test/HF_TEST_01/media/hf_20260826_050227_d8c2b489-ef9a-4be5-a866-67111b06a50c.mp4 | 10.6 MB |  |
 | out/purrventure_brand/raw/pfp_r1.png | 10.5 MB | 1KoASHbo_2WHZND77ZTTkFq7jCCZEJNeC |
 
-## Backed up to Drive "Hookforge Backup" (566 files; docs/backup_drive_index.json)
+## Backed up to Drive "Hookforge Backup" (639 files; docs/backup_drive_index.json)
 | path | drive_id |
 |---|---|
 | learning/audience_fit_log.csv | 1OaLpFsrgefKbB3A4AHQBGrIBFicqeVPe |
@@ -895,27 +895,79 @@ Generated 2026-10-20 6:34 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/purrventure_frames/raw_v1/P1_SF2.png | 1PUy3-t9Y7gFSTOcsEdpKROKvxLPUzUGD |
 | out/purrventure_frames/raw_v1/P1_SF3.png | 16_gvkNiaT4HZhtjDOYq5j_m_GK4iPKBJ |
 | out/purrventure_frames/raw_v1/P1_SF4.png | 15oqPBjPq0SEnl0JGPMM58hj7Lf3FOYHU |
+| out/purrventure_frames/raw_v1/P2_SF3.png | 1_GWTTUBN--YK4QJQtOtAkKkJqvX7YT8v |
+| out/purrventure_frames/raw_v1/P2_SF4.png | 1-9bFYHQOfQYDEJ4YjDMouaZosZLYdZNa |
+| out/purrventure_frames/raw_v1/P3_SF3.png | 1uymUrlhrn26bKJdtW22gET_fPXENdMxh |
+| out/purrventure_frames/raw_v1/P3_SF4.png | 17maTK-HhPExbhrz2MrrFF8NQ6RXqMTUj |
+| out/purrventure_frames/raw_v2/P1_SF3.png | 1uDn8nEJZSdK6HWEFpMbt9ymkCrp-Juf5 |
+| out/purrventure_frames/raw_v2/P1_SF4.png | 1dUUDGmvogp0rip-hf0OOCvGVV6dNsdec |
+| out/purrventure_frames/raw_v2/P2_SF1.png | 1Nhg2yTTNBuBrrs7-LVUfsiO2sFFuG5fJ |
+| out/purrventure_frames/raw_v2/P2_SF2.png | 1-3AsvkCTrS9dwJafsX-JVe5diYelU2Ar |
+| out/purrventure_frames/raw_v2/P2_SF3.png | 1kHaA46KbzhqC5uh1vX-zPU7JhJ9BvxJV |
+| out/purrventure_frames/raw_v2/P2_SF4.png | 1jAyI8TZ6bmY3FLK8_DLOg8YqBzp2Hah3 |
+| out/purrventure_frames/raw_v2/P3_SF1.png | 1157neLhXcZi7UMDpRM2vHVXQcwd29LbU |
+| out/purrventure_frames/raw_v2/P3_SF2.png | 14eBafZqERKF5C6U6i9spqkrr58Z3d5AB |
+| out/purrventure_frames/raw_v2/P3_SF3.png | 1kR-cY-ZKyWZGF-Y-zdRz9_nTVS9oDIrV |
+| out/purrventure_frames/raw_v3/P1_SF1.png | 1Lgnwz8yoGFYf3OXhUcUfFajY4KAoaTpu |
+| out/purrventure_frames/raw_v3/P2_SF4.png | 1DhPeJCIFJtjbWCii9cXTI2uzNENRaJks |
+| out/purrventure_frames/raw_v3/P3_SF3.png | 1TxGqNtzet_nsHthl-LgPhzuUyFIUKeOM |
+| out/purrventure_frames/sheet_P1.jpg | 19wL6QZZ1Y4MQhNq2AUXW-I9W1NPiRRyg |
+| out/purrventure_frames/sheet_P2.jpg | 1RQerGGkoXxZ3PuNc2Ih4GXwUVNhrd-FK |
+| out/purrventure_frames/sheet_P3.jpg | 1h-HIFmlqCF5XCCDog7Uc_O11Y5AY9imp |
 | out/pv_clips/P1_G1.mp4 | 1WJW-MwLPYXaH1J5SGBJyvIRcIMUW4AZ0 |
 | out/pv_clips/P1_G2.mp4 | 1cIWKI_UB0PA4GEcbjck4dsDmWD_Qwj2h |
 | out/pv_clips/P1_G3.mp4 | 1Ad6a8_JatVXXr0H6cl_-pK1fFGsZn9xD |
 | out/pv_clips/P1_G4.mp4 | 1r5jMUm9TxRYhUtSEqcGi2ojxhYdJ98Rc |
 | out/pv_clips/P2_G1.mp4 | 1wKeSPREmRl22xp156lt0F5tBzvtTsaV3 |
 | out/pv_clips/P2_G2.mp4 | 1U2gitlOl28FNu2-gTy94lsVoEty4qkY4 |
+| out/pv_clips/P2_G2_last.png | 1TxoFWoQ51N7DV_V43_Ts1wdJJgxcNNWn |
 | out/pv_clips/P2_G3.mp4 | 1FTSmb_rkaynDbsoCDITRfxiePXmWaIuu |
+| out/pv_clips/P2_G3_start.png | 1AjCtGrbG8NncTqpwCDj7iX-_lOtxDFec |
 | out/pv_clips/P2_G3_try4_siamese_unused.mp4 | 17uCQgPZ8MqhVgGBNSUaJeQ3X_HVmL-3a |
 | out/pv_clips/P2_G4.mp4 | 10ZZPs9EmPPY7WBuvp2-kE4PspLcu7y-m |
 | out/pv_clips/P3_G1.mp4 | 1YYLJfPZz_w_ev3dasU-FK7rOmcO3xagi |
 | out/pv_clips/P3_G2.mp4 | 1XKojxelOGaalGt_DWB61bLMuM-hWbO2f |
 | out/pv_clips/P3_G3.mp4 | 1Xkm8Czvm3eSrM7a2P3fFJWL_WRepF9_D |
 | out/pv_clips/P3_G4.mp4 | 1TgOsfXhIsYqYY-ePN6bv8wMnDJiqMgEW |
+| out/pv_clips/qa/P1_G1.jpg | 1EVYWNtV2lZHTDu40W6fue29266zu6b8M |
+| out/pv_clips/qa/P1_G2.jpg | 1dJ173a7P5w7wmyE1G_18gG3QE1-ZViZz |
+| out/pv_clips/qa/P1_G2_dense.jpg | 1gidqiSiK422_5RE7iHwRHPkEuOQ-KE-K |
+| out/pv_clips/qa/P1_G3.jpg | 15QOYZE8ILV2zq8-6mahefXasB6it3079 |
+| out/pv_clips/qa/P1_G4.jpg | 1UU5-kUyyM8Tss0ZNHETZ2ThMixpusu8- |
+| out/pv_clips/qa/P2_G1.jpg | 1ipg2gu3Ct0gsod6x-QWpMml-u4xsBodL |
+| out/pv_clips/qa/P2_G2.jpg | 10iGS6pdE-jt2INbabkEKX1omIp5rFx5A |
+| out/pv_clips/qa/P2_G2_dense.jpg | 1SqQT5-d2cycAheEtZgX9K96NN9vXXCIn |
+| out/pv_clips/qa/P2_G3.jpg | 1b5JGr6iMJE8EWnl21E77Y8KekoNc1wry |
+| out/pv_clips/qa/P3_G1.jpg | 1JwIiJXnejkkFHGEfDw7OyAMz9TJ6m0gT |
+| out/pv_clips/qa/P3_G2.jpg | 1P9h7sVXsxLQ3qKunjaL-89ECw_r5DePl |
+| out/pv_clips/qa/P3_G2_dense.jpg | 1wBQsM9gHGP_Zl3rxvbYyZTK7CCnYNtR4 |
+| out/pv_clips/qa/P3_G3.jpg | 1qZqSPxv4i1Vx0NqQwNA5Rn3U4DbFcwe8 |
+| out/pv_clips/qa/P3_G4.jpg | 11yK8zy9_dgSsiXu8SZfP3BJEDQtuutR5 |
+| out/pv_clips/qa/g4/s1.jpg | 1SfciAdPiQxT16Yt2XeCHHhR715LXJL3l |
+| out/pv_clips/qa/g4/sheet.jpg | 1KzC1dlT-PdTLYGVtSfSqrgoI4WSD6WNC |
+| out/pv_edit/P1_card0.png | 1ixTW77YG6I0vb_3iZoyovSAt1gEpceWb |
+| out/pv_edit/P1_card1.png | 15vJTnnJiROoIpRcAfgY8WBNAMrk5z9RY |
+| out/pv_edit/P1_card2.png | 10SBO0qDHU5fSPIZE_PuMp6ZJkZh1g8wF |
+| out/pv_edit/P1_final_sheet.jpg | 1VAWCa9-Z-zfqbSE9xzujNEb2voBHszIo |
 | out/pv_edit/P1_mixed.mp4 | 1UyFsnKavJ9iUedtRLtZdxItA7NhrWZeP |
 | out/pv_edit/P1_pre.mp4 | 16nkyLegnHK9p1_TiBYjbeDPo3x5xZMFA |
+| out/pv_edit/P1_qa/PurrVenture_P1_final_sheet.png | 1JiHM62dtYvqNqoGDfLnqPISDcO1bBk4w |
 | out/pv_edit/P1_raw.mp4 | 1fpjOlfDDDgXJlBLScpVSA21oHmmyAMcH |
+| out/pv_edit/P2_card0.png | 1TKTMb6p-Pb7mnSCDlkiudVWVbzeAEQp4 |
+| out/pv_edit/P2_card1.png | 1ec_WF-C9mkoZxrkgFybovtuAgUNIjFzB |
+| out/pv_edit/P2_card2.png | 1dUpQe5QwmWm0_7fYAell1WCVrDy_9Wot |
+| out/pv_edit/P2_final_sheet.jpg | 1OJmoAxrwUrSGfap7i0rN1yOkYloh1GFx |
 | out/pv_edit/P2_mixed.mp4 | 17kKZRLq81urJEuplxklVJt_iaiaZwvP0 |
 | out/pv_edit/P2_pre.mp4 | 1imJDpash9rvTVysohY7aAa_N1rK10srw |
+| out/pv_edit/P2_qa/PurrVenture_P2_final_sheet.png | 19BNcm7dpU1R0w7pbfndv5UeLiBRX7Y60 |
 | out/pv_edit/P2_raw.mp4 | 1C8mWsuZtBKYhhl5-lDsrJjwyHL5_Nr39 |
+| out/pv_edit/P3_card0.png | 1rewMqcNul1by1ZG2FNaFL-QunH9_6Hib |
+| out/pv_edit/P3_card1.png | 1-5Me5HsgqWBjzl84DlybaHhH0LhhXwMA |
+| out/pv_edit/P3_card2.png | 19Ix4zJz0w2HfHiucTTH1La5LzNuutA6r |
+| out/pv_edit/P3_final_sheet.jpg | 1FmN0zyNdSXpDMIcEmjOkUdx2iv6zoGRe |
 | out/pv_edit/P3_mixed.mp4 | 12gtCm6p0FkRJw_EiKSunt_g139vnGz28 |
 | out/pv_edit/P3_pre.mp4 | 1V-x6Rx_41YvLoKvDl4kDHB_avuau_zoh |
+| out/pv_edit/P3_qa/PurrVenture_P3_final_sheet.png | 1k_pu5BgbiZjE8kQp3mx3MAdibB1W3cRm |
 | out/pv_edit/P3_raw.mp4 | 1Gk20x7am9JDfsYSOtawV_jsQiRgMq6xP |
 | out/pv_edit/PurrVenture_P1_caption_FB.txt | 1YSfvslsl0Sj2kuzMpLlyT3S-h3Yiulj3 |
 | out/pv_edit/PurrVenture_P1_caption_IG.txt | 13ey-OFUgxQelRFPvXneCd7tuQeGxzQ2u |
@@ -932,7 +984,28 @@ Generated 2026-10-20 6:34 PM PT by engine/scripts/build_manifest.py. Total 9973 
 | out/tg_v_say/TrumpGlow - B - FreeBird - v4 - Caption.txt | 1JLcOy8fHjGcM7DlxvsSYp6LOkSdb6lBj |
 | out/tg_v_say/TrumpGlow - C - ACDC - v5 - Caption.txt | 1arqZNQg_HeaJA5eC2D9dKnE9T7OgbD6n |
 | out/tg_v_say/TrumpGlow - C - FreeBird - v5 - Caption.txt | 1arqZNQg_HeaJA5eC2D9dKnE9T7OgbD6n |
+| out/tg_v_say/end_0.png | 1o6RQOe6uBr9_Gj1p-EXvio5w-UwmDYOk |
+| out/tg_v_say/end_1.png | 11XsMuaeS1RRejM71yNYU1T_QQeF6cllb |
+| out/tg_v_say/end_2.png | 10gpw98eHgAalGJw7oBPCae2hQg6fpZor |
+| out/tg_v_say/end_3.png | 1NprwE1-KSVH9ny8Ncze7T1oSrW7yIub1 |
+| out/tg_v_say/end_4.png | 1z9hN5kPXq6FLo0dBx9w8_jaE4JR6zrWx |
+| out/tg_v_say/end_5.png | 1u3HO8uMj2O7QMVRZxlRXGke2yL-Pc1Vf |
+| out/tg_v_say/ends.jpg | 11Ie7bfH7NiARSh3n8z8jXvt1kNCT5ibO |
 | out/trump_projector/trump_projector_sample_720p.mp4 | 1CgpntxCq4z6y_gGBHJESshRMKTawIVeK |
+| out/trump_projector/trump_projector_sample_still.jpg | 10-T9mnTmU23trjoXjdr_2fdeuOeXFAOj |
+| out/trumpglow_product/f_0.5.png | 1CrR2HBCh1k21ERGyn460kyzBs2cgejAh |
+| out/trumpglow_product/f_1.5.png | 1OilQZQi-_OKx5_uNw82aagixmhoYNh9Z |
+| out/trumpglow_product/f_2.5.png | 1V8QjcYjmykaAfEGwVU8tBqR9CDxnEp8a |
+| out/trumpglow_product/f_3.5.png | 1c-GtVksdFNPHCZ3LGVb3g-ANySUOqUEA |
+| out/trumpglow_product/f_4.5.png | 1os04sRk64743PmHRKtfBXhVfHIQyM549 |
+| out/trumpglow_product/raw_a.png | 1_Z4y7pg7AUdOSGyfxM4k5OkOHUu7TcLa |
+| out/trumpglow_product/raw_b.png | 1cEj-mbm7zwW33Rgvw7rfE69R2v3gNxwd |
+| out/trumpglow_product/ref_pod_tp02.png | 18Sr4en_Tce-yJYhldPQKnQxr3f10NU0- |
+| out/trumpglow_product/ref_pod_tp02_clean.png | 1fqujh8OdIQUel8DyV-jn9nnUMGjpjTnf |
+| out/trumpglow_product/ref_projection.png | 1hZpHXg7rUetwomyFeP2ElKsXF-W-IVYu |
+| out/trumpglow_product/ref_projector_crop.png | 1J-f3H9QlboP2Xtl62iHzDRvF0WY2Dsji |
+| out/trumpglow_product/ref_projector_crop_clean.png | 1tVnUOTim9b3jAP41YU4u2JOfM6R17DaL |
+| out/trumpglow_product/sheet.png | 1CF8eCcQjt4Kx_EGogU1WLGvdZHE9O2sK |
 | refs/jollyglow/drive_jolly_glow.mp4 | 15GMJVi90UZ81hf7gbVMidqQQcTWgcrZz |
 | refs/omar_ref_mg.mp4 | 1xWErtQQB_tLMP7ND4CZmjSNNGWxx1MKn |
 | refs/trumpglow/door.light.us_7377540093969550634.mp4 | 1PCJfMbt5NrUiAGwxUS4syV5YMbIQGF9X |
