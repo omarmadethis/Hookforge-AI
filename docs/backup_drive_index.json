@@ -6483,6 +6483,26 @@
    "orig_size": 625745,
    "sha256": "dc73d2f828960fd8b90d9040bf4fead9cf8c4ee192571cf573e224a026e3921d",
    "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/final/jollyglow_321_A_dontshow_v3_timeline.json",
+   "id": "1RT90OAVKgNWBZwx1lzvX0-pVb7vmlaLx",
+   "name": "jollyglow_321_A_dontshow_v3_timeline.json",
+   "folder": "generations",
+   "size": 1248,
+   "orig_size": 1248,
+   "sha256": "322f48883eb324b14dd50e197b90fd631c0d85cb4150b4cd5a2f08a2041b8d5a",
+   "sanitized": false
+  },
+  {
+   "path": "out/live/jollyglow_321/final/jollyglow_321_B_pov_v3_timeline.json",
+   "id": "1I17tf4igqodNLew0pkwGG-E6_wN75xeI",
+   "name": "jollyglow_321_B_pov_v3_timeline.json",
+   "folder": "generations",
+   "size": 1247,
+   "orig_size": 1247,
+   "sha256": "e925f8f07b114f22b3d6d7fced4f2051f9118956e00455980fd3240e16542fa8",
+   "sanitized": false
   }
  ],
  "updated_pt": "2026-10-20 PT (batch 2: out/deliver plus 3 re-encoded audio files)"

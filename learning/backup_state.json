@@ -345,8 +345,10 @@
    "dedup_of": "out/deliver/Jolly Glow - 321 A - Dont Show Neighbors - Holly Jolly Christmas - v3.mp4"
   },
   "out/live/jollyglow_321/final/jollyglow_321_A_dontshow_v3_timeline.json": {
-   "status": "pending",
-   "bytes": 1248
+   "status": "uploaded",
+   "bytes": 1248,
+   "sha256": "322f48883eb324b14dd50e197b90fd631c0d85cb4150b4cd5a2f08a2041b8d5a",
+   "drive_id": "1RT90OAVKgNWBZwx1lzvX0-pVb7vmlaLx"
   },
   "out/live/jollyglow_321/final/jollyglow_321_B_pov.mp4": {
    "status": "uploaded",
@@ -367,12 +369,15 @@
    "dedup_of": "out/deliver/Jolly Glow - 321 B - POV Jealous - Holly Jolly Christmas - v3.mp4"
   },
   "out/live/jollyglow_321/final/jollyglow_321_B_pov_v3_timeline.json": {
-   "status": "pending",
-   "bytes": 1247
+   "status": "uploaded",
+   "bytes": 1247,
+   "sha256": "e925f8f07b114f22b3d6d7fced4f2051f9118956e00455980fd3240e16542fa8",
+   "drive_id": "1I17tf4igqodNLew0pkwGG-E6_wN75xeI"
   },
   "out/live/jollyglow_321/final/preflight3_jollyglow_321_A_dontshow_v2/jollyglow_321_A_dontshow_v2_preflight.json": {
-   "status": "pending",
-   "bytes": 3024
+   "status": "refused",
+   "bytes": 3024,
+   "reason": "/workspace/hookforge/out/live/jollyglow_321/final/preflight3_jollyglow_321_A_dontshow_v2/jollyglow_321_A_dontshow_v2_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_321/final/preflight3_jollyglow_321_A_dontshow_v2/jollyglow_321_A_dontshow_v2_sheet.png": {
    "status": "uploaded",
@@ -381,8 +386,9 @@
    "drive_id": "164I9g-Ms3DfdwT9pxclEqq_fmUmkiRkH"
   },
   "out/live/jollyglow_321/final/preflight3_jollyglow_321_A_dontshow_v3/jollyglow_321_A_dontshow_v3_preflight.json": {
-   "status": "pending",
-   "bytes": 3023
+   "status": "refused",
+   "bytes": 3023,
+   "reason": "/workspace/hookforge/out/live/jollyglow_321/final/preflight3_jollyglow_321_A_dontshow_v3/jollyglow_321_A_dontshow_v3_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_321/final/preflight3_jollyglow_321_A_dontshow_v3/jollyglow_321_A_dontshow_v3_sheet.png": {
    "status": "uploaded",
@@ -391,8 +397,9 @@
    "drive_id": "1lqHH6inJLzUTHaVjrgt-0qCJTQn4U6Bf"
   },
   "out/live/jollyglow_321/final/preflight3_jollyglow_321_B_pov_v2/jollyglow_321_B_pov_v2_preflight.json": {
-   "status": "pending",
-   "bytes": 2982
+   "status": "refused",
+   "bytes": 2982,
+   "reason": "/workspace/hookforge/out/live/jollyglow_321/final/preflight3_jollyglow_321_B_pov_v2/jollyglow_321_B_pov_v2_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_321/final/preflight3_jollyglow_321_B_pov_v2/jollyglow_321_B_pov_v2_sheet.png": {
    "status": "uploaded",
@@ -401,8 +408,9 @@
    "drive_id": "1CInJrZVsC5j434vaLTJ1MsKJCSxRxcf8"
   },
   "out/live/jollyglow_321/final/preflight3_jollyglow_321_B_pov_v3/jollyglow_321_B_pov_v3_preflight.json": {
-   "status": "pending",
-   "bytes": 2973
+   "status": "refused",
+   "bytes": 2973,
+   "reason": "/workspace/hookforge/out/live/jollyglow_321/final/preflight3_jollyglow_321_B_pov_v3/jollyglow_321_B_pov_v3_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_321/final/preflight3_jollyglow_321_B_pov_v3/jollyglow_321_B_pov_v3_sheet.png": {
    "status": "uploaded",
@@ -411,8 +419,9 @@
    "drive_id": "1qsI3KxURahNCPHHkiMLJqTA1VhwsaWih"
   },
   "out/live/jollyglow_321/final/preflight_jollyglow_321_A_dontshow/jollyglow_321_A_dontshow_preflight.json": {
-   "status": "pending",
-   "bytes": 3841
+   "status": "refused",
+   "bytes": 3841,
+   "reason": "/workspace/hookforge/out/live/jollyglow_321/final/preflight_jollyglow_321_A_dontshow/jollyglow_321_A_dontshow_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_321/final/preflight_jollyglow_321_A_dontshow/jollyglow_321_A_dontshow_sheet.png": {
    "status": "uploaded",
@@ -421,8 +430,9 @@
    "drive_id": "1HIAolURJeFTj6BLnE-5FnaD4-WkBrLhp"
   },
   "out/live/jollyglow_321/final/preflight_jollyglow_321_A_dontshow_v2/jollyglow_321_A_dontshow_v2_preflight.json": {
-   "status": "pending",
-   "bytes": 5177
+   "status": "refused",
+   "bytes": 5177,
+   "reason": "/workspace/hookforge/out/live/jollyglow_321/final/preflight_jollyglow_321_A_dontshow_v2/jollyglow_321_A_dontshow_v2_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_321/final/preflight_jollyglow_321_A_dontshow_v2/jollyglow_321_A_dontshow_v2_sheet.png": {
    "status": "uploaded",
@@ -431,8 +441,9 @@
    "drive_id": "1DWLcetQeogRAbAxcSbxgBPEE0-ePvBQF"
   },
   "out/live/jollyglow_321/final/preflight_jollyglow_321_B_pov/jollyglow_321_B_pov_preflight.json": {
-   "status": "pending",
-   "bytes": 3736
+   "status": "refused",
+   "bytes": 3736,
+   "reason": "/workspace/hookforge/out/live/jollyglow_321/final/preflight_jollyglow_321_B_pov/jollyglow_321_B_pov_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_321/final/preflight_jollyglow_321_B_pov/jollyglow_321_B_pov_sheet.png": {
    "status": "uploaded",
@@ -441,8 +452,9 @@
    "drive_id": "1MQ8KWUs6hCNJpRHACqJvwLK2GTRBaY3i"
   },
   "out/live/jollyglow_321/final/preflight_jollyglow_321_B_pov_v2/jollyglow_321_B_pov_v2_preflight.json": {
-   "status": "pending",
-   "bytes": 4100
+   "status": "refused",
+   "bytes": 4100,
+   "reason": "/workspace/hookforge/out/live/jollyglow_321/final/preflight_jollyglow_321_B_pov_v2/jollyglow_321_B_pov_v2_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_321/final/preflight_jollyglow_321_B_pov_v2/jollyglow_321_B_pov_v2_sheet.png": {
    "status": "uploaded",
@@ -547,8 +559,9 @@
    "drive_id": "1FKncb2Jwv0VX-JciGeu6YB5y8gQEmSr5"
   },
   "out/live/jollyglow_combo/CLIP_PLAN.md": {
-   "status": "pending",
-   "bytes": 2984
+   "status": "refused",
+   "bytes": 2984,
+   "reason": "/workspace/hookforge/out/live/jollyglow_combo/CLIP_PLAN.md: trace bytes b'seedance'"
   },
   "out/live/jollyglow_combo/F1_reroll_sheet.jpg": {
    "status": "uploaded",
@@ -557,12 +570,16 @@
    "drive_id": "1wfKtXAcT2ebmq4FNp2aEciHMpstPjM3p"
   },
   "out/live/jollyglow_combo/PLAN.md": {
-   "status": "pending",
-   "bytes": 8415
+   "status": "staged",
+   "bytes": 8415,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__jollyglow_combo__PLAN.md",
+   "sha256": "2a37d3c61f53d3bf752e76ffa2ea24d3f41d4e85c3afeb7e6dba3992b57913fa"
   },
   "out/live/jollyglow_combo/QA.md": {
-   "status": "pending",
-   "bytes": 1161
+   "status": "staged",
+   "bytes": 1161,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__jollyglow_combo__QA.md",
+   "sha256": "0663ca771dc582b6bcbd089b7a57482cb3aa5731be0f5609686fadc864424210"
   },
   "out/live/jollyglow_combo/clips/G1.mp4": {
    "status": "uploaded",
@@ -643,12 +660,15 @@
    "dedup_of": "out/deliver/Jolly Glow - Combo - Walmart - Holly Jolly Christmas - v3.mp4"
   },
   "out/live/jollyglow_combo/final/jollyglow_combo_walmart_v3_timeline.json": {
-   "status": "pending",
-   "bytes": 929
+   "status": "staged",
+   "bytes": 929,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__jollyglow_combo__final__jollyglow_combo_walmart_v3_timeline.json",
+   "sha256": "e5e4c8f0dc8483469156440ace545b033868381db6961bb10533cb9ffc3bfda8"
   },
   "out/live/jollyglow_combo/final/preflight3_jollyglow_combo_walmart_v2/jollyglow_combo_walmart_v2_preflight.json": {
-   "status": "pending",
-   "bytes": 3014
+   "status": "refused",
+   "bytes": 3014,
+   "reason": "/workspace/hookforge/out/live/jollyglow_combo/final/preflight3_jollyglow_combo_walmart_v2/jollyglow_combo_walmart_v2_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_combo/final/preflight3_jollyglow_combo_walmart_v2/jollyglow_combo_walmart_v2_sheet.png": {
    "status": "uploaded",
@@ -657,8 +677,9 @@
    "drive_id": "1HxzMwyoGQox9ARUOCN9m9JnYcU61Efzv"
   },
   "out/live/jollyglow_combo/final/preflight3_jollyglow_combo_walmart_v3/jollyglow_combo_walmart_v3_preflight.json": {
-   "status": "pending",
-   "bytes": 2634
+   "status": "refused",
+   "bytes": 2634,
+   "reason": "/workspace/hookforge/out/live/jollyglow_combo/final/preflight3_jollyglow_combo_walmart_v3/jollyglow_combo_walmart_v3_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_combo/final/preflight3_jollyglow_combo_walmart_v3/jollyglow_combo_walmart_v3_sheet.png": {
    "status": "uploaded",
@@ -667,8 +688,9 @@
    "drive_id": "19tRc0bq_klLY4ledr9AkrT2sw_ucs9G6"
   },
   "out/live/jollyglow_combo/final/preflight_jollyglow_combo_walmart/jollyglow_combo_walmart_preflight.json": {
-   "status": "pending",
-   "bytes": 5019
+   "status": "refused",
+   "bytes": 5019,
+   "reason": "/workspace/hookforge/out/live/jollyglow_combo/final/preflight_jollyglow_combo_walmart/jollyglow_combo_walmart_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_combo/final/preflight_jollyglow_combo_walmart/jollyglow_combo_walmart_sheet.png": {
    "status": "uploaded",
@@ -677,8 +699,9 @@
    "drive_id": "1Ctr76UPurNF6cCBAi9ONNt5LHidYoRF-"
   },
   "out/live/jollyglow_combo/final/preflight_jollyglow_combo_walmart_v2/jollyglow_combo_walmart_v2_preflight.json": {
-   "status": "pending",
-   "bytes": 4158
+   "status": "refused",
+   "bytes": 4158,
+   "reason": "/workspace/hookforge/out/live/jollyglow_combo/final/preflight_jollyglow_combo_walmart_v2/jollyglow_combo_walmart_v2_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/jollyglow_combo/final/preflight_jollyglow_combo_walmart_v2/jollyglow_combo_walmart_v2_sheet.png": {
    "status": "uploaded",
@@ -795,12 +818,15 @@
    "drive_id": "1_Znz-7_TN2LUYl2AG7Dc9XvskfAphBF0"
   },
   "out/live/jollyglow_store/PLAN.md": {
-   "status": "pending",
-   "bytes": 6309
+   "status": "staged",
+   "bytes": 6309,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__jollyglow_store__PLAN.md",
+   "sha256": "d75ffdb9072ff1d93701d8f533880e3647bda94ea4775afbd3898af770b7e8f4"
   },
   "out/live/mg-tvn-001-b3/plan.json": {
-   "status": "pending",
-   "bytes": 11898
+   "status": "refused",
+   "bytes": 11898,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001-b3/plan.json: trace bytes b'seedance'; trace bytes b'Higgsfield'"
   },
   "out/live/mg-tvn-001-b3/raw/B3_still.png": {
    "status": "uploaded",
@@ -815,8 +841,9 @@
    "drive_id": "1dSmN4atfmg9v12fb9Yul_TDMyKThURTM"
   },
   "out/live/mg-tvn-001-b3/raw/preflight/B3_video_preflight.json": {
-   "status": "pending",
-   "bytes": 480
+   "status": "refused",
+   "bytes": 480,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001-b3/raw/preflight/B3_video_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/mg-tvn-001-b3/raw/preflight/B3_video_sheet.png": {
    "status": "uploaded",
@@ -825,28 +852,38 @@
    "drive_id": "1--UIdVvgiSmqNE4IsB6zb9z5MNwj4JXv"
   },
   "out/live/mg-tvn-001-b3/run.json": {
-   "status": "pending",
-   "bytes": 5256
+   "status": "refused",
+   "bytes": 5256,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001-b3/run.json: trace bytes b'seedance'; trace bytes b'Higgsfield'"
   },
   "out/live/mg-tvn-001-b3/vision_judge_B3.json": {
-   "status": "pending",
-   "bytes": 795
+   "status": "staged",
+   "bytes": 795,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__mg-tvn-001-b3__vision_judge_B3.json",
+   "sha256": "784cc3b0d85eedfb0260b268b9da5d2dea06a749e775574e05168c2f9248c6e8"
   },
   "out/live/mg-tvn-001/RUN_REPORT.md": {
-   "status": "pending",
-   "bytes": 2878
+   "status": "refused",
+   "bytes": 2878,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/RUN_REPORT.md: trace bytes b'Seedance'"
   },
   "out/live/mg-tvn-001/capcut_dryrun_ref/DRY_THEN_VS_NOW_VIDEO_FOR_ME/Timelines/10E160FC-7D49-4442-8CF1-CF73CC951506/draft_info.json": {
-   "status": "pending",
-   "bytes": 79934
+   "status": "staged",
+   "bytes": 79934,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__mg-tvn-001__capcut_dryrun_ref__DRY_THEN_VS_NOW_VIDEO_FOR_ME__Timelines__10E160FC-7D49-4442-8CF1-CF73CC951506__draft_info.json",
+   "sha256": "5803b9c18df4ef0acb8482c4ba134828118a03a935401dea43ca92e5a60caf61"
   },
   "out/live/mg-tvn-001/capcut_dryrun_ref/DRY_THEN_VS_NOW_VIDEO_FOR_ME/draft_info.json": {
-   "status": "pending",
-   "bytes": 79934
+   "status": "staged",
+   "bytes": 79934,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__mg-tvn-001__capcut_dryrun_ref__DRY_THEN_VS_NOW_VIDEO_FOR_ME__draft_info.json",
+   "sha256": "5803b9c18df4ef0acb8482c4ba134828118a03a935401dea43ca92e5a60caf61"
   },
   "out/live/mg-tvn-001/capcut_dryrun_ref/DRY_THEN_VS_NOW_VIDEO_FOR_ME/draft_meta_info.json": {
-   "status": "pending",
-   "bytes": 7528
+   "status": "staged",
+   "bytes": 7528,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__mg-tvn-001__capcut_dryrun_ref__DRY_THEN_VS_NOW_VIDEO_FOR_ME__draft_meta_info.json",
+   "sha256": "9646008d33214d16f4a20890c64bd8e1cb7d5bdb1eb59fa8e48541d5b35b462d"
   },
   "out/live/mg-tvn-001/capcut_dryrun_ref/DRY_THEN_VS_NOW_VIDEO_FOR_ME/media/mock_source.mp4": {
    "status": "uploaded",
@@ -855,28 +892,38 @@
    "drive_id": "1T3KXHVqj89F4pJmdnhHbX7P68vxPdg3D"
   },
   "out/live/mg-tvn-001/caption.txt": {
-   "status": "pending",
-   "bytes": 23
+   "status": "staged",
+   "bytes": 23,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__mg-tvn-001__caption.txt",
+   "sha256": "a038496dd9e2e5c6f5302518ad18828e237d2c36f383f48c9b67269818f590fb"
   },
   "out/live/mg-tvn-001/credits.json": {
-   "status": "pending",
-   "bytes": 788
+   "status": "refused",
+   "bytes": 788,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/credits.json: trace bytes b'seedance'; trace bytes b'Higgsfield'"
   },
   "out/live/mg-tvn-001/final/QA_REPORT.md": {
-   "status": "pending",
-   "bytes": 2060
+   "status": "refused",
+   "bytes": 2060,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/final/QA_REPORT.md: trace bytes b'c2pa'; trace bytes b'trainedAlgorithmicMedia'"
   },
   "out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/Timelines/8B7C0D1A-ACA3-4640-A97C-A15B1306A388/draft_info.json": {
-   "status": "pending",
-   "bytes": 79742
+   "status": "staged",
+   "bytes": 79742,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__mg-tvn-001__final__capcut__MG_TVN_001_LIVE__Timelines__8B7C0D1A-ACA3-4640-A97C-A15B1306A388__draft_info.json",
+   "sha256": "c810e3c9185c87a6a97a1b1e617971cab6eb76fb0978b9ffb2a99d81ae943cca"
   },
   "out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/draft_info.json": {
-   "status": "pending",
-   "bytes": 79742
+   "status": "staged",
+   "bytes": 79742,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__mg-tvn-001__final__capcut__MG_TVN_001_LIVE__draft_info.json",
+   "sha256": "c810e3c9185c87a6a97a1b1e617971cab6eb76fb0978b9ffb2a99d81ae943cca"
   },
   "out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/draft_meta_info.json": {
-   "status": "pending",
-   "bytes": 7502
+   "status": "staged",
+   "bytes": 7502,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__mg-tvn-001__final__capcut__MG_TVN_001_LIVE__draft_meta_info.json",
+   "sha256": "20fbc0700494078b7d3b905bccac790d1b7b789e8321d53118085a1abdc0fa12"
   },
   "out/live/mg-tvn-001/final/capcut/MG_TVN_001_LIVE/media/B1_video.mp4": {
    "status": "uploaded",
@@ -903,8 +950,10 @@
    "drive_id": "10tDis_S92Ekj9OSIWTLFCL7Cr8fMLIne"
   },
   "out/live/mg-tvn-001/final/caption.txt": {
-   "status": "pending",
-   "bytes": 86
+   "status": "staged",
+   "bytes": 86,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__mg-tvn-001__final__caption.txt",
+   "sha256": "c1fff47ae14425920e14d1d4db50ce42ee7e65a79c6cae2608027e86b4b20d30"
   },
   "out/live/mg-tvn-001/final/cards/card0.png": {
    "status": "uploaded",
@@ -949,8 +998,9 @@
    "drive_id": "1rUw_xwIjmhxL0v7QqZrWdunfF1Ti9ASf"
   },
   "out/live/mg-tvn-001/final/credits.json": {
-   "status": "pending",
-   "bytes": 721
+   "status": "refused",
+   "bytes": 721,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/final/credits.json: trace bytes b'seedance'; trace bytes b'Seedance'; trace bytes b'Higgsfield'"
   },
   "out/live/mg-tvn-001/final/mg-tvn-001_final_nomusic.mp4": {
    "status": "uploaded",
@@ -959,8 +1009,9 @@
    "drive_id": "1qTYgMtS2hIV62_EzRz8utSl_k_7QgTsz"
   },
   "out/live/mg-tvn-001/final/preflight/mg-tvn-001_final_nomusic_preflight.json": {
-   "status": "pending",
-   "bytes": 1886
+   "status": "refused",
+   "bytes": 1886,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/final/preflight/mg-tvn-001_final_nomusic_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/mg-tvn-001/final/preflight/mg-tvn-001_final_nomusic_sheet.png": {
    "status": "uploaded",
@@ -969,8 +1020,9 @@
    "drive_id": "18dm1NM8GR7iSk5EtsjMBz9WX1XB6Owbo"
   },
   "out/live/mg-tvn-001/final/qa/mg-tvn-001_final_nomusic_preflight.json": {
-   "status": "pending",
-   "bytes": 1879
+   "status": "refused",
+   "bytes": 1879,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/final/qa/mg-tvn-001_final_nomusic_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/mg-tvn-001/final/qa/mg-tvn-001_final_nomusic_sheet.png": {
    "status": "uploaded",
@@ -979,8 +1031,9 @@
    "drive_id": "1jJxzff4AL1SbLl8qBYVXEoak6-RqiUUt"
   },
   "out/live/mg-tvn-001/final/qa/qa_report.json": {
-   "status": "pending",
-   "bytes": 4380
+   "status": "refused",
+   "bytes": 4380,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/final/qa/qa_report.json: trace bytes b'c2pa'"
   },
   "out/live/mg-tvn-001/final/raw_b3/B3_still.png": {
    "status": "uploaded",
@@ -1001,16 +1054,20 @@
    "drive_id": "1dmQawo_HcaH8SYpxGSDqIDGWuBShd962"
   },
   "out/live/mg-tvn-001/final/raw_b3/run_b3.json": {
-   "status": "pending",
-   "bytes": 5256
+   "status": "refused",
+   "bytes": 5256,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/final/raw_b3/run_b3.json: trace bytes b'seedance'; trace bytes b'Higgsfield'"
   },
   "out/live/mg-tvn-001/final/raw_b3/vision_judge_B3.json": {
-   "status": "pending",
-   "bytes": 795
+   "status": "staged",
+   "bytes": 795,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__mg-tvn-001__final__raw_b3__vision_judge_B3.json",
+   "sha256": "784cc3b0d85eedfb0260b268b9da5d2dea06a749e775574e05168c2f9248c6e8"
   },
   "out/live/mg-tvn-001/plan.json": {
-   "status": "pending",
-   "bytes": 18274
+   "status": "refused",
+   "bytes": 18274,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/plan.json: trace bytes b'seedance'; trace bytes b'Higgsfield'"
   },
   "out/live/mg-tvn-001/qa/B1_video_sheet.png": {
    "status": "uploaded",
@@ -1031,8 +1088,10 @@
    "drive_id": "1Nk9_YRtl5nd0RO_v1J8w63A6VmC89Fgd"
   },
   "out/live/mg-tvn-001/qa/vision_judge_raw.json": {
-   "status": "pending",
-   "bytes": 2280
+   "status": "staged",
+   "bytes": 2280,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__mg-tvn-001__qa__vision_judge_raw.json",
+   "sha256": "c477a1e0ab1bbde57463d764c738006aa3b4035ea4ec1eb2ec72d15df3877151"
   },
   "out/live/mg-tvn-001/raw/B1_still.png": {
    "status": "uploaded",
@@ -1077,8 +1136,9 @@
    "drive_id": "1s599BoUPB8x1xvPCUhni431hNDj_4nJO"
   },
   "out/live/mg-tvn-001/raw/preflight/B1_video_preflight.json": {
-   "status": "pending",
-   "bytes": 475
+   "status": "refused",
+   "bytes": 475,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/raw/preflight/B1_video_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/mg-tvn-001/raw/preflight/B1_video_sheet.png": {
    "status": "uploaded",
@@ -1087,8 +1147,9 @@
    "drive_id": "1MBKLyWLStg73-DJTzbf70rWexZcqN9xt"
   },
   "out/live/mg-tvn-001/raw/preflight/B2_video_preflight.json": {
-   "status": "pending",
-   "bytes": 551
+   "status": "refused",
+   "bytes": 551,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/raw/preflight/B2_video_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/mg-tvn-001/raw/preflight/B2_video_sheet.png": {
    "status": "uploaded",
@@ -1097,8 +1158,9 @@
    "drive_id": "1sQO6GNOeOP50FOgT5ny_kg3-X9HgkKJ5"
   },
   "out/live/mg-tvn-001/raw/preflight/H_video_preflight.json": {
-   "status": "pending",
-   "bytes": 473
+   "status": "refused",
+   "bytes": 473,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/raw/preflight/H_video_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/mg-tvn-001/raw/preflight/H_video_sheet.png": {
    "status": "uploaded",
@@ -1107,8 +1169,9 @@
    "drive_id": "1WHOUJUPmfiLJ0-5vTmZC_RC0raGyjcy-"
   },
   "out/live/mg-tvn-001/run.json": {
-   "status": "pending",
-   "bytes": 16935
+   "status": "refused",
+   "bytes": 16935,
+   "reason": "/workspace/hookforge/out/live/mg-tvn-001/run.json: trace bytes b'seedance'; trace bytes b'Higgsfield'"
   },
   "out/live/refs/merryglow_lights.png": {
    "status": "uploaded",
@@ -1207,64 +1270,80 @@
    "drive_id": "1sa97yc7VJ5hIksIOngsGoq8RGXMLEJ5A"
   },
   "out/live/tg_build/build_b_v3.py": {
-   "status": "pending",
-   "bytes": 3240
+   "status": "refused",
+   "bytes": 3240,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/tg_build/build_b_v4.py": {
-   "status": "pending",
-   "bytes": 3245
+   "status": "refused",
+   "bytes": 3245,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/tg_build/build_bc.py": {
-   "status": "pending",
-   "bytes": 2926
+   "status": "refused",
+   "bytes": 2926,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/tg_build/build_bc_v2.py": {
-   "status": "pending",
-   "bytes": 3004
+   "status": "refused",
+   "bytes": 3004,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/tg_build/build_c_v3.py": {
-   "status": "pending",
-   "bytes": 3112
+   "status": "refused",
+   "bytes": 3112,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/tg_build/build_c_v4.py": {
-   "status": "pending",
-   "bytes": 3474
+   "status": "refused",
+   "bytes": 3474,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/tg_build/build_c_v5.py": {
-   "status": "pending",
-   "bytes": 3512
+   "status": "refused",
+   "bytes": 3512,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/tg_build/report_b_v3.json": {
-   "status": "pending",
-   "bytes": 11436
+   "status": "refused",
+   "bytes": 11436,
+   "reason": "/workspace/hookforge/out/live/tg_build/report_b_v3.json: trace bytes b'c2pa'"
   },
   "out/live/tg_build/report_b_v4.json": {
-   "status": "pending",
-   "bytes": 12124
+   "status": "refused",
+   "bytes": 12124,
+   "reason": "/workspace/hookforge/out/live/tg_build/report_b_v4.json: trace bytes b'c2pa'"
   },
   "out/live/tg_build/report_bc.json": {
-   "status": "pending",
-   "bytes": 12145
+   "status": "refused",
+   "bytes": 12145,
+   "reason": "/workspace/hookforge/out/live/tg_build/report_bc.json: trace bytes b'c2pa'"
   },
   "out/live/tg_build/report_bc_v2.json": {
-   "status": "pending",
-   "bytes": 13099
+   "status": "refused",
+   "bytes": 13099,
+   "reason": "/workspace/hookforge/out/live/tg_build/report_bc_v2.json: trace bytes b'c2pa'"
   },
   "out/live/tg_build/report_c_v3.json": {
-   "status": "pending",
-   "bytes": 7361
+   "status": "refused",
+   "bytes": 7361,
+   "reason": "/workspace/hookforge/out/live/tg_build/report_c_v3.json: trace bytes b'c2pa'"
   },
   "out/live/tg_build/report_c_v4.json": {
-   "status": "pending",
-   "bytes": 9297
+   "status": "refused",
+   "bytes": 9297,
+   "reason": "/workspace/hookforge/out/live/tg_build/report_c_v4.json: trace bytes b'c2pa'"
   },
   "out/live/tg_build/report_c_v5.json": {
-   "status": "pending",
-   "bytes": 9769
+   "status": "refused",
+   "bytes": 9769,
+   "reason": "/workspace/hookforge/out/live/tg_build/report_c_v5.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/QA.md": {
-   "status": "pending",
-   "bytes": 1752
+   "status": "staged",
+   "bytes": 1752,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__QA.md",
+   "sha256": "1e079e7de80cfce8ed02538eda2c67344615bfea6f9e4ca9b415d83a72fb97bb"
   },
   "out/live/trumpglow_A/clips/G1.mp4": {
    "status": "uploaded",
@@ -1333,8 +1412,9 @@
    "drive_id": "14wTf7Spu4122fDzHs3nOorq2pCq6aoNr"
   },
   "out/live/trumpglow_A/final/QA.md": {
-   "status": "pending",
-   "bytes": 2088
+   "status": "refused",
+   "bytes": 2088,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final/QA.md: trace bytes b'c2pa'; trace bytes b'Seedance'"
   },
   "out/live/trumpglow_A/final/QA_contact_sheet.png": {
    "status": "uploaded",
@@ -1343,24 +1423,33 @@
    "drive_id": "16TzsL0f7-2-Q6ff3Bfn40hyzV_fuU4q8"
   },
   "out/live/trumpglow_A/final/SONG_SLOT.md": {
-   "status": "pending",
-   "bytes": 861
+   "status": "staged",
+   "bytes": 861,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final__SONG_SLOT.md",
+   "sha256": "25e5b99523c945ac18bec6a24815731d10a93ba4e81a505322c822849239ee89"
   },
   "out/live/trumpglow_A/final/build.py": {
-   "status": "pending",
-   "bytes": 1745
+   "status": "refused",
+   "bytes": 1745,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/trumpglow_A/final/capcut/HF_trumpglow_A/Timelines/562C6427-3101-41C0-8795-F1A9C55A28B1/draft_info.json": {
-   "status": "pending",
-   "bytes": 73386
+   "status": "staged",
+   "bytes": 73386,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final__capcut__HF_trumpglow_A__Timelines__562C6427-3101-41C0-8795-F1A9C55A28B1__draft_info.json",
+   "sha256": "fe72534dbc6f592ebe24be9171b25a4149da32008069105fb815d407b2cdd0f1"
   },
   "out/live/trumpglow_A/final/capcut/HF_trumpglow_A/draft_info.json": {
-   "status": "pending",
-   "bytes": 73386
+   "status": "staged",
+   "bytes": 73386,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final__capcut__HF_trumpglow_A__draft_info.json",
+   "sha256": "fe72534dbc6f592ebe24be9171b25a4149da32008069105fb815d407b2cdd0f1"
   },
   "out/live/trumpglow_A/final/capcut/HF_trumpglow_A/draft_meta_info.json": {
-   "status": "pending",
-   "bytes": 7446
+   "status": "staged",
+   "bytes": 7446,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final__capcut__HF_trumpglow_A__draft_meta_info.json",
+   "sha256": "25056e4ff3f47923c0be269cabd3b0e510aad11cf0afc48f2406167328ebede1"
   },
   "out/live/trumpglow_A/final/cards/card1.png": {
    "status": "uploaded",
@@ -1405,8 +1494,9 @@
    "drive_id": "1RWs1YlImPGnvUFEDx30MAVRkknPYUQkn"
   },
   "out/live/trumpglow_A/final/preflight/trumpglow_A_nomusic_preflight.json": {
-   "status": "pending",
-   "bytes": 3762
+   "status": "refused",
+   "bytes": 3762,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final/preflight/trumpglow_A_nomusic_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final/preflight/trumpglow_A_nomusic_sheet.png": {
    "status": "uploaded",
@@ -1439,8 +1529,10 @@
    "drive_id": "1DFaJtJa9eblYa3774Sf7OV5oAwnDDyW-"
   },
   "out/live/trumpglow_A/final/timeline.json": {
-   "status": "pending",
-   "bytes": 1562
+   "status": "staged",
+   "bytes": 1562,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final__timeline.json",
+   "sha256": "316d24ed36c38ef2b6f2fabf081a619153f1251731c7852913e8128f253dd471"
   },
   "out/live/trumpglow_A/final/trumpglow_A_nomusic.mp4": {
    "status": "uploaded",
@@ -1455,32 +1547,45 @@
    "drive_id": "1LhebqxrnSW5_diyEMQ5d_hPdE3Rvjn8l"
   },
   "out/live/trumpglow_A/final_v2/build.py": {
-   "status": "pending",
-   "bytes": 1793
+   "status": "refused",
+   "bytes": 1793,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/trumpglow_A/final_v2/capcut/HF_trumpglow_A_v2_ACDC/Timelines/C5B37E7A-2CD5-44E1-A975-2E59D49F2B2A/draft_info.json": {
-   "status": "pending",
-   "bytes": 71566
+   "status": "staged",
+   "bytes": 71566,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v2__capcut__HF_trumpglow_A_v2_ACDC__Timelines__C5B37E7A-2CD5-44E1-A975-2E59D49F2B2A__draft_info.json",
+   "sha256": "4759030bdcc069f3c3f766b300bf7bac524a463d51ac16ffacb993bf84817881"
   },
   "out/live/trumpglow_A/final_v2/capcut/HF_trumpglow_A_v2_ACDC/draft_info.json": {
-   "status": "pending",
-   "bytes": 71566
+   "status": "staged",
+   "bytes": 71566,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v2__capcut__HF_trumpglow_A_v2_ACDC__draft_info.json",
+   "sha256": "4759030bdcc069f3c3f766b300bf7bac524a463d51ac16ffacb993bf84817881"
   },
   "out/live/trumpglow_A/final_v2/capcut/HF_trumpglow_A_v2_ACDC/draft_meta_info.json": {
-   "status": "pending",
-   "bytes": 7468
+   "status": "staged",
+   "bytes": 7468,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v2__capcut__HF_trumpglow_A_v2_ACDC__draft_meta_info.json",
+   "sha256": "7cf3a405afa8129e09cffd10f822e71ead03aa9641159499999ddd7f5f53c15b"
   },
   "out/live/trumpglow_A/final_v2/capcut/HF_trumpglow_A_v2_FreeBird/Timelines/AFAEC8E6-C969-45FC-91A4-66953136D591/draft_info.json": {
-   "status": "pending",
-   "bytes": 71548
+   "status": "staged",
+   "bytes": 71548,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v2__capcut__HF_trumpglow_A_v2_FreeBird__Timelines__AFAEC8E6-C969-45FC-91A4-66953136D591__draft_info.json",
+   "sha256": "c0de87ac0ab6c48a2d74900ac1e9c45ece54d312711caba53dd29cfaea370691"
   },
   "out/live/trumpglow_A/final_v2/capcut/HF_trumpglow_A_v2_FreeBird/draft_info.json": {
-   "status": "pending",
-   "bytes": 71548
+   "status": "staged",
+   "bytes": 71548,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v2__capcut__HF_trumpglow_A_v2_FreeBird__draft_info.json",
+   "sha256": "c0de87ac0ab6c48a2d74900ac1e9c45ece54d312711caba53dd29cfaea370691"
   },
   "out/live/trumpglow_A/final_v2/capcut/HF_trumpglow_A_v2_FreeBird/draft_meta_info.json": {
-   "status": "pending",
-   "bytes": 7476
+   "status": "staged",
+   "bytes": 7476,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v2__capcut__HF_trumpglow_A_v2_FreeBird__draft_meta_info.json",
+   "sha256": "8fea8e6265f3d3faac2e0fb82d90c50c83348f84de8520a31c78554b696b1539"
   },
   "out/live/trumpglow_A/final_v2/cards/card1.png": {
    "status": "uploaded",
@@ -1525,8 +1630,9 @@
    "drive_id": "1A00CY6FwVLPc5Tm8kBlSHofbX1N8CeDJ"
   },
   "out/live/trumpglow_A/final_v2/preflight/trumpglow_A_v2_ACDC_preflight.json": {
-   "status": "pending",
-   "bytes": 4025
+   "status": "refused",
+   "bytes": 4025,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v2/preflight/trumpglow_A_v2_ACDC_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v2/preflight/trumpglow_A_v2_ACDC_sheet.png": {
    "status": "uploaded",
@@ -1535,8 +1641,9 @@
    "drive_id": "1cDsdolAF3u1k2wNTpCn80Mp88nq313Zb"
   },
   "out/live/trumpglow_A/final_v2/preflight/trumpglow_A_v2_FreeBird_preflight.json": {
-   "status": "pending",
-   "bytes": 4033
+   "status": "refused",
+   "bytes": 4033,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v2/preflight/trumpglow_A_v2_FreeBird_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v2/preflight/trumpglow_A_v2_FreeBird_sheet.png": {
    "status": "uploaded",
@@ -1545,8 +1652,10 @@
    "drive_id": "1JVHmUrJHBAfBhaMaIxWaBYXFBiu7HWBJ"
   },
   "out/live/trumpglow_A/final_v2/timeline.json": {
-   "status": "pending",
-   "bytes": 1414
+   "status": "staged",
+   "bytes": 1414,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v2__timeline.json",
+   "sha256": "1803acfb119aadd43cbbaa1a946e12033cb5c5f6bf838f2c31b08dbc9f861dd7"
   },
   "out/live/trumpglow_A/final_v2/trumpglow_A_v2_ACDC.mp4": {
    "status": "uploaded",
@@ -1561,8 +1670,9 @@
    "drive_id": "1Qb-RWs7GV4e_78L4tjvf1AYr81B9_yhn"
   },
   "out/live/trumpglow_A/final_v3/preflight/trumpglow_A_v3_ACDC_preflight.json/trumpglow_A_v3_ACDC_preflight.json": {
-   "status": "pending",
-   "bytes": 3976
+   "status": "refused",
+   "bytes": 3976,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v3/preflight/trumpglow_A_v3_ACDC_preflight.json/trumpglow_A_v3_ACDC_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v3/preflight/trumpglow_A_v3_ACDC_preflight.json/trumpglow_A_v3_ACDC_sheet.png": {
    "status": "uploaded",
@@ -1571,8 +1681,9 @@
    "drive_id": "1zt1lmIt6Rf5tLrtBmH6jfW_BIAbPNwx4"
   },
   "out/live/trumpglow_A/final_v3/preflight/trumpglow_A_v3_FreeBird_preflight.json/trumpglow_A_v3_FreeBird_preflight.json": {
-   "status": "pending",
-   "bytes": 3988
+   "status": "refused",
+   "bytes": 3988,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v3/preflight/trumpglow_A_v3_FreeBird_preflight.json/trumpglow_A_v3_FreeBird_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v3/preflight/trumpglow_A_v3_FreeBird_preflight.json/trumpglow_A_v3_FreeBird_sheet.png": {
    "status": "uploaded",
@@ -1593,12 +1704,14 @@
    "drive_id": "1a0_U3IR9r674b_0H3opi0E86F5vZFXEB"
   },
   "out/live/trumpglow_A/final_v4/build_v4.py": {
-   "status": "pending",
-   "bytes": 739
+   "status": "refused",
+   "bytes": 739,
+   "reason": "mpglow_A/final_v4/build_v4.py: File:LineCount not whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse"
   },
   "out/live/trumpglow_A/final_v4/preflight/trumpglow_A_v4_ACDC_preflight.json": {
-   "status": "pending",
-   "bytes": 4043
+   "status": "refused",
+   "bytes": 4043,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v4/preflight/trumpglow_A_v4_ACDC_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v4/preflight/trumpglow_A_v4_ACDC_sheet.png": {
    "status": "uploaded",
@@ -1607,8 +1720,9 @@
    "drive_id": "10rEQqHoO1smqx5ka2x887XLgF8amvJTp"
   },
   "out/live/trumpglow_A/final_v4/preflight/trumpglow_A_v4_FreeBird_preflight.json": {
-   "status": "pending",
-   "bytes": 4051
+   "status": "refused",
+   "bytes": 4051,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v4/preflight/trumpglow_A_v4_FreeBird_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v4/preflight/trumpglow_A_v4_FreeBird_sheet.png": {
    "status": "uploaded",
@@ -1617,8 +1731,10 @@
    "drive_id": "1zjkhXi273ZgTVOm1kCkf8qTEynyoaTlX"
   },
   "out/live/trumpglow_A/final_v4/proof/PROOF.md": {
-   "status": "pending",
-   "bytes": 1253
+   "status": "staged",
+   "bytes": 1253,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v4__proof__PROOF.md",
+   "sha256": "6ca7da560abef093ee2c32fe3e7b4d2984c7aca4f69776365dbe9015ec7c162a"
   },
   "out/live/trumpglow_A/final_v4/proof/acdc_proven_ad_vs_v4.mp4": {
    "status": "uploaded",
@@ -1640,12 +1756,14 @@
    "drive_id": "12ZnnGYVgYdzUZEEH7vaKv7LZXpi5GaGf"
   },
   "out/live/trumpglow_A/final_v4/v4_report.json": {
-   "status": "pending",
-   "bytes": 11644
+   "status": "refused",
+   "bytes": 11644,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v4/v4_report.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v5/build_v5.py": {
-   "status": "pending",
-   "bytes": 2558
+   "status": "refused",
+   "bytes": 2558,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/trumpglow_A/final_v5/cards/card1.png": {
    "status": "uploaded",
@@ -1696,8 +1814,9 @@
    "drive_id": "1GkG2rrIvxm2RJiafPoA72z5HvmA1Jqig"
   },
   "out/live/trumpglow_A/final_v5/preflight/trumpglow_A_v5_ACDC_preflight.json": {
-   "status": "pending",
-   "bytes": 3755
+   "status": "refused",
+   "bytes": 3755,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v5/preflight/trumpglow_A_v5_ACDC_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v5/preflight/trumpglow_A_v5_ACDC_sheet.png": {
    "status": "uploaded",
@@ -1706,8 +1825,9 @@
    "drive_id": "1rcmp02elLtkkSOg7maq2kwAsxKRi2W-I"
   },
   "out/live/trumpglow_A/final_v5/preflight/trumpglow_A_v5_FreeBird_preflight.json": {
-   "status": "pending",
-   "bytes": 3763
+   "status": "refused",
+   "bytes": 3763,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v5/preflight/trumpglow_A_v5_FreeBird_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v5/preflight/trumpglow_A_v5_FreeBird_sheet.png": {
    "status": "uploaded",
@@ -1716,8 +1836,10 @@
    "drive_id": "1YFNXdch7G5fCP22olzLhIUcK34UFJadB"
   },
   "out/live/trumpglow_A/final_v5/timeline.json": {
-   "status": "pending",
-   "bytes": 797
+   "status": "staged",
+   "bytes": 797,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v5__timeline.json",
+   "sha256": "f7b11c2bfe956968dc12dc2f0b1c366aba8b45f3c568d6d1644add12153aa99f"
   },
   "out/live/trumpglow_A/final_v5/trumpglow_A_v5_ACDC.mp4": {
    "status": "uploaded",
@@ -1732,12 +1854,14 @@
    "drive_id": "1qKYbXL3UmLJt-WYImxt7QBnTAl5scaGt"
   },
   "out/live/trumpglow_A/final_v5/v5_report.json": {
-   "status": "pending",
-   "bytes": 10442
+   "status": "refused",
+   "bytes": 10442,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v5/v5_report.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v6/build_v6.py": {
-   "status": "pending",
-   "bytes": 2652
+   "status": "refused",
+   "bytes": 2652,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/trumpglow_A/final_v6/cards/card1.png": {
    "status": "uploaded",
@@ -1788,8 +1912,9 @@
    "drive_id": "17Ztu9fFpapeeQd0534sISEJYXf_9UctV"
   },
   "out/live/trumpglow_A/final_v6/preflight/trumpglow_A_v6_ACDC_preflight.json": {
-   "status": "pending",
-   "bytes": 3517
+   "status": "refused",
+   "bytes": 3517,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v6/preflight/trumpglow_A_v6_ACDC_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v6/preflight/trumpglow_A_v6_ACDC_sheet.png": {
    "status": "uploaded",
@@ -1798,8 +1923,9 @@
    "drive_id": "1dUtu803YEhyWNHghqWApvqTwK2b9OMrP"
   },
   "out/live/trumpglow_A/final_v6/preflight/trumpglow_A_v6_FreeBird_preflight.json": {
-   "status": "pending",
-   "bytes": 3525
+   "status": "refused",
+   "bytes": 3525,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v6/preflight/trumpglow_A_v6_FreeBird_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v6/preflight/trumpglow_A_v6_FreeBird_sheet.png": {
    "status": "uploaded",
@@ -1808,8 +1934,10 @@
    "drive_id": "1m47qqN0NOnXbxcXkOHN45csAN46Dbs3G"
   },
   "out/live/trumpglow_A/final_v6/timeline.json": {
-   "status": "pending",
-   "bytes": 713
+   "status": "staged",
+   "bytes": 713,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v6__timeline.json",
+   "sha256": "40ca0afd6dc8f4f1c3a8a0611c278aff588d76452cd8372f3e0ae98817fcc280"
   },
   "out/live/trumpglow_A/final_v6/trumpglow_A_v6_ACDC.mp4": {
    "status": "uploaded",
@@ -1824,12 +1952,14 @@
    "dedup_of": "out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v6.mp4"
   },
   "out/live/trumpglow_A/final_v6/v6_report.json": {
-   "status": "pending",
-   "bytes": 12376
+   "status": "refused",
+   "bytes": 12376,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v6/v6_report.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v7/build_v7.py": {
-   "status": "pending",
-   "bytes": 3081
+   "status": "refused",
+   "bytes": 3081,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/trumpglow_A/final_v7/cards/card1.png": {
    "status": "uploaded",
@@ -1880,8 +2010,9 @@
    "drive_id": "10a8tTvmw2k_dMA06MY7bmwrVh7tQZ_iX"
   },
   "out/live/trumpglow_A/final_v7/preflight/trumpglow_A_v7_ACDC_preflight.json": {
-   "status": "pending",
-   "bytes": 2834
+   "status": "refused",
+   "bytes": 2834,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v7/preflight/trumpglow_A_v7_ACDC_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v7/preflight/trumpglow_A_v7_ACDC_sheet.png": {
    "status": "uploaded",
@@ -1890,8 +2021,9 @@
    "drive_id": "1l_kzXthn7-eiKSDr5XEQaoQ1DB_gDWiM"
   },
   "out/live/trumpglow_A/final_v7/preflight/trumpglow_A_v7_FreeBird_preflight.json": {
-   "status": "pending",
-   "bytes": 2841
+   "status": "refused",
+   "bytes": 2841,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v7/preflight/trumpglow_A_v7_FreeBird_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v7/preflight/trumpglow_A_v7_FreeBird_sheet.png": {
    "status": "uploaded",
@@ -1900,8 +2032,10 @@
    "drive_id": "1SeElwH-kgGRlXgz16AL_s86NS7lGotoF"
   },
   "out/live/trumpglow_A/final_v7/timeline.json": {
-   "status": "pending",
-   "bytes": 884
+   "status": "staged",
+   "bytes": 884,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v7__timeline.json",
+   "sha256": "ca1427a349ccbacde0f597ec6893d16f112f434bf7f41464c0ac528a3b556a2d"
   },
   "out/live/trumpglow_A/final_v7/trumpglow_A_v7_ACDC.mp4": {
    "status": "uploaded",
@@ -1916,12 +2050,14 @@
    "dedup_of": "out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v7.mp4"
   },
   "out/live/trumpglow_A/final_v7/v7_report.json": {
-   "status": "pending",
-   "bytes": 10826
+   "status": "refused",
+   "bytes": 10826,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v7/v7_report.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v8/build_v8.py": {
-   "status": "pending",
-   "bytes": 3085
+   "status": "refused",
+   "bytes": 3085,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/live/trumpglow_A/final_v8/cards/card1.png": {
    "status": "uploaded",
@@ -1978,8 +2114,9 @@
    "drive_id": "1b85mGl2K4bhvteSIDWXF7-evoE4n9TCN"
   },
   "out/live/trumpglow_A/final_v8/preflight/trumpglow_A_v8_ACDC_preflight.json": {
-   "status": "pending",
-   "bytes": 2825
+   "status": "refused",
+   "bytes": 2825,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v8/preflight/trumpglow_A_v8_ACDC_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v8/preflight/trumpglow_A_v8_ACDC_sheet.png": {
    "status": "uploaded",
@@ -1988,8 +2125,9 @@
    "drive_id": "15BmDl8TSDE_PXoSCSIc3gFD7SpqY6ulm"
   },
   "out/live/trumpglow_A/final_v8/preflight/trumpglow_A_v8_FreeBird_preflight.json": {
-   "status": "pending",
-   "bytes": 2833
+   "status": "refused",
+   "bytes": 2833,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v8/preflight/trumpglow_A_v8_FreeBird_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/final_v8/preflight/trumpglow_A_v8_FreeBird_sheet.png": {
    "status": "uploaded",
@@ -1998,8 +2136,10 @@
    "drive_id": "1QuasuajPcJb_7UBIZyzMtvSTFbIT9GLy"
   },
   "out/live/trumpglow_A/final_v8/timeline.json": {
-   "status": "pending",
-   "bytes": 888
+   "status": "staged",
+   "bytes": 888,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__final_v8__timeline.json",
+   "sha256": "edc15e72e61130151ed2d413fe8d8efb52bc2dc6f9b3eaf54d8817609fd4ad16"
   },
   "out/live/trumpglow_A/final_v8/trumpglow_A_v8_ACDC.mp4": {
    "status": "uploaded",
@@ -2014,32 +2154,45 @@
    "dedup_of": "out/deliver/TrumpGlow - A - Fake Trump Fans - FreeBird - v8.mp4"
   },
   "out/live/trumpglow_A/final_v8/v8_report.json": {
-   "status": "pending",
-   "bytes": 11462
+   "status": "refused",
+   "bytes": 11462,
+   "reason": "/workspace/hookforge/out/live/trumpglow_A/final_v8/v8_report.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_A/p_G1.txt": {
-   "status": "pending",
-   "bytes": 796
+   "status": "staged",
+   "bytes": 796,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__p_G1.txt",
+   "sha256": "4a5b75e6ce5ca3b24c7f1278254ee532654b5d16f2f55d38b56a837cc8a57983"
   },
   "out/live/trumpglow_A/p_G2.txt": {
-   "status": "pending",
-   "bytes": 768
+   "status": "staged",
+   "bytes": 768,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__p_G2.txt",
+   "sha256": "a2db32cde5ac6909e4e14f2b813f51cfea42c4ac005a0634cae067c59b1def79"
   },
   "out/live/trumpglow_A/p_G3.txt": {
-   "status": "pending",
-   "bytes": 602
+   "status": "staged",
+   "bytes": 602,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__p_G3.txt",
+   "sha256": "19eb7bed28ea9a654f6ae23685442d73b352ef1751b35d7dd45b5c688441a5d8"
   },
   "out/live/trumpglow_A/p_G4.txt": {
-   "status": "pending",
-   "bytes": 548
+   "status": "staged",
+   "bytes": 548,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__p_G4.txt",
+   "sha256": "d4b29a0dd521b99c421a81c4cc9c7890570664b667ccb0bdcfe620c04e6ad539"
   },
   "out/live/trumpglow_A/p_G5.txt": {
-   "status": "pending",
-   "bytes": 847
+   "status": "staged",
+   "bytes": 847,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__p_G5.txt",
+   "sha256": "3a5a77d5786636c2d899914d623bc4aa6c2b047d5da3eb8a4c4642f5e0ab1f6f"
   },
   "out/live/trumpglow_A/prompts.json": {
-   "status": "pending",
-   "bytes": 2990
+   "status": "staged",
+   "bytes": 2990,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__prompts.json",
+   "sha256": "c778a413db95823ba907f7ed08e6e10573bd111fa3f65e72674006fce6ba0d76"
   },
   "out/live/trumpglow_A/refs/decal.png": {
    "status": "uploaded",
@@ -2108,20 +2261,27 @@
    "drive_id": "1ok-bXvj4K05lxXBByS4uKnTLsIpgi1D7"
   },
   "out/live/trumpglow_A/start_frames/urls.txt": {
-   "status": "pending",
-   "bytes": 1040
+   "status": "staged",
+   "bytes": 1040,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__start_frames__urls.txt",
+   "sha256": "538e1047e5434238b77d253d27c47784bc85580bf0c9b7c9cadb390abfed164a"
   },
   "out/live/trumpglow_A/video_prompts.json": {
-   "status": "pending",
-   "bytes": 3085
+   "status": "staged",
+   "bytes": 3085,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_A__video_prompts.json",
+   "sha256": "3aeaa4e7dcdc4d2571dfc4451d32d5b187ccf056fbd74977ea8a8b42e2ada82a"
   },
   "out/live/trumpglow_B/CLIP_PLAN.md": {
-   "status": "pending",
-   "bytes": 2465
+   "status": "refused",
+   "bytes": 2465,
+   "reason": "/workspace/hookforge/out/live/trumpglow_B/CLIP_PLAN.md: trace bytes b'seedance'"
   },
   "out/live/trumpglow_B/PLAN.md": {
-   "status": "pending",
-   "bytes": 8090
+   "status": "staged",
+   "bytes": 8090,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_B__PLAN.md",
+   "sha256": "8056f7fcfa02f8edc4c5b71f385993e42f4eeedd63cca1c19adf0749ec68f093"
   },
   "out/live/trumpglow_B/clips/BG1.mp4": {
    "status": "uploaded",
@@ -2250,8 +2410,9 @@
    "drive_id": "1Iebr0CtxodF22xcvOv_Kv-dEzCRQgKGX"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_preflight.json": {
-   "status": "pending",
-   "bytes": 3061
+   "status": "refused",
+   "bytes": 3061,
+   "reason": "/workspace/hookforge/out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_sheet.png": {
    "status": "uploaded",
@@ -2260,8 +2421,9 @@
    "drive_id": "1Qe8OQVV2yZ87cUfj8txKnyhDimGgC_gR"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v2_preflight.json": {
-   "status": "pending",
-   "bytes": 3207
+   "status": "refused",
+   "bytes": 3207,
+   "reason": "/workspace/hookforge/out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v2_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v2_sheet.png": {
    "status": "uploaded",
@@ -2270,8 +2432,9 @@
    "drive_id": "1yhZ9CHA7TB3wH65WQ_TYN7Eb4Qx66bEF"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v3_preflight.json": {
-   "status": "pending",
-   "bytes": 3390
+   "status": "refused",
+   "bytes": 3390,
+   "reason": "/workspace/hookforge/out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v3_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v3_sheet.png": {
    "status": "uploaded",
@@ -2280,8 +2443,9 @@
    "drive_id": "1RjDDg8jIsXTQGOSUqSRT8nsCLhriKzlw"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v4_preflight.json": {
-   "status": "pending",
-   "bytes": 3363
+   "status": "refused",
+   "bytes": 3363,
+   "reason": "/workspace/hookforge/out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v4_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_ACDC_v4_sheet.png": {
    "status": "uploaded",
@@ -2290,8 +2454,9 @@
    "drive_id": "18P4io7ie8biRbEURDApGUDM_gfVeSBbE"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_FreeBird_v3_preflight.json": {
-   "status": "pending",
-   "bytes": 3398
+   "status": "refused",
+   "bytes": 3398,
+   "reason": "/workspace/hookforge/out/live/trumpglow_B/final/preflight/trumpglow_B_FreeBird_v3_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_FreeBird_v3_sheet.png": {
    "status": "uploaded",
@@ -2300,8 +2465,9 @@
    "drive_id": "17fDdlbUekRnbBD23wxwm85cGsbv3-WgU"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_FreeBird_v4_preflight.json": {
-   "status": "pending",
-   "bytes": 3371
+   "status": "refused",
+   "bytes": 3371,
+   "reason": "/workspace/hookforge/out/live/trumpglow_B/final/preflight/trumpglow_B_FreeBird_v4_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_B/final/preflight/trumpglow_B_FreeBird_v4_sheet.png": {
    "status": "uploaded",
@@ -2310,16 +2476,22 @@
    "drive_id": "1M0wlId5n-O0_7QLXLxTfDbsqONTTb6FO"
   },
   "out/live/trumpglow_B/final/timeline.json": {
-   "status": "pending",
-   "bytes": 849
+   "status": "staged",
+   "bytes": 849,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_B__final__timeline.json",
+   "sha256": "fdee9e8ef975ff7c4c4d7fe5041c359764e35913da5091eb7391811a75f741f8"
   },
   "out/live/trumpglow_B/final/timeline_v3.json": {
-   "status": "pending",
-   "bytes": 756
+   "status": "staged",
+   "bytes": 756,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_B__final__timeline_v3.json",
+   "sha256": "bd0f67974886bd6dff66ad589804c2c242dc782a221ebbe83cff838468bbf33f"
   },
   "out/live/trumpglow_B/final/timeline_v4.json": {
-   "status": "pending",
-   "bytes": 761
+   "status": "staged",
+   "bytes": 761,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_B__final__timeline_v4.json",
+   "sha256": "83ed8d176f0c1975772069543cc4043bf6e9b764ec9f184495096983ee043ab9"
   },
   "out/live/trumpglow_B/final/trumpglow_B_ACDC.mp4": {
    "status": "uploaded",
@@ -2328,8 +2500,10 @@
    "drive_id": "1vfvtAIZtH04_gOwkB89-djrEpGfDPqJx"
   },
   "out/live/trumpglow_B/final/trumpglow_B_ACDC_caption.txt": {
-   "status": "pending",
-   "bytes": 105
+   "status": "staged",
+   "bytes": 105,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_B__final__trumpglow_B_ACDC_caption.txt",
+   "sha256": "6464b8a97f8eb945ee01d0050dc18a80ca81269e8da07cf97227f70b323d9d1f"
   },
   "out/live/trumpglow_B/final/trumpglow_B_ACDC_v2.mp4": {
    "status": "uploaded",
@@ -2368,12 +2542,16 @@
    "dedup_of": "out/deliver/TrumpGlow - B - Dont Show Liberal - FreeBird - v4.mp4"
   },
   "out/live/trumpglow_B/prompts.json": {
-   "status": "pending",
-   "bytes": 4012
+   "status": "staged",
+   "bytes": 4012,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_B__prompts.json",
+   "sha256": "5e8c1d687509816a80cc571da961f9b66df4d8bea1c740cbf632f667ffd13f1d"
   },
   "out/live/trumpglow_B/start_frames/QA.md": {
-   "status": "pending",
-   "bytes": 1106
+   "status": "staged",
+   "bytes": 1106,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_B__start_frames__QA.md",
+   "sha256": "4aad0ca8a292e3752ff2335a9f19938add0d5bfdabbf6dcc23279c9bf0dcc502"
   },
   "out/live/trumpglow_B/start_frames/SF1_v1.png": {
    "status": "uploaded",
@@ -2448,16 +2626,22 @@
    "drive_id": "18KgbhHD1LmI3sUeR61FipMDyFxGEhizU"
   },
   "out/live/trumpglow_B/start_frames/urls.txt": {
-   "status": "pending",
-   "bytes": 1560
+   "status": "staged",
+   "bytes": 1560,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_B__start_frames__urls.txt",
+   "sha256": "16285c68b78e3ad1b5691097941e4de11a814579117c10a37163524bf5b85922"
   },
   "out/live/trumpglow_C/CLIP_PLAN.md": {
-   "status": "pending",
-   "bytes": 1589
+   "status": "staged",
+   "bytes": 1589,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_C__CLIP_PLAN.md",
+   "sha256": "942980c55717682624bfbbc19daf4368298ed2ecbf7877b8aaf1026a71fc6698"
   },
   "out/live/trumpglow_C/PLAN.md": {
-   "status": "pending",
-   "bytes": 6762
+   "status": "staged",
+   "bytes": 6762,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_C__PLAN.md",
+   "sha256": "565aaedf94f436a85852705fb2d55a8ef385b4d86d41b62ded5cfb3948b5305a"
   },
   "out/live/trumpglow_C/clips/CG1.mp4": {
    "status": "uploaded",
@@ -2604,8 +2788,9 @@
    "drive_id": "1NtAA4zTfEbtgVvPhQloRq2n84D5qSwAb"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_preflight.json": {
-   "status": "pending",
-   "bytes": 2943
+   "status": "refused",
+   "bytes": 2943,
+   "reason": "/workspace/hookforge/out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_sheet.png": {
    "status": "uploaded",
@@ -2614,8 +2799,9 @@
    "drive_id": "1Q_byhDDyGtkApprnLDQR_GYk_kj4RAvR"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v2_preflight.json": {
-   "status": "pending",
-   "bytes": 3290
+   "status": "refused",
+   "bytes": 3290,
+   "reason": "/workspace/hookforge/out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v2_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v2_sheet.png": {
    "status": "uploaded",
@@ -2624,8 +2810,9 @@
    "drive_id": "1xT4A4M4mHO_VegiSTnEgTw-gwpq0wDpA"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v3_preflight.json": {
-   "status": "pending",
-   "bytes": 2679
+   "status": "refused",
+   "bytes": 2679,
+   "reason": "/workspace/hookforge/out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v3_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v3_sheet.png": {
    "status": "uploaded",
@@ -2634,8 +2821,9 @@
    "drive_id": "11A5qWSEnAUAS86klrryBxfbw4jU6jFEY"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v4_preflight.json": {
-   "status": "pending",
-   "bytes": 2326
+   "status": "refused",
+   "bytes": 2326,
+   "reason": "/workspace/hookforge/out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v4_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v4_sheet.png": {
    "status": "uploaded",
@@ -2644,8 +2832,9 @@
    "drive_id": "11NfagDo8kv2fIrjiRBzSnklssP8LDeHq"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v5_preflight.json": {
-   "status": "pending",
-   "bytes": 2316
+   "status": "refused",
+   "bytes": 2316,
+   "reason": "/workspace/hookforge/out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v5_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_ACDC_v5_sheet.png": {
    "status": "uploaded",
@@ -2654,8 +2843,9 @@
    "drive_id": "1y7lWRd2gL3i25MFEWQRdIwXgkCGrubtX"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_preflight.json": {
-   "status": "pending",
-   "bytes": 2950
+   "status": "refused",
+   "bytes": 2950,
+   "reason": "/workspace/hookforge/out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_sheet.png": {
    "status": "uploaded",
@@ -2664,8 +2854,9 @@
    "drive_id": "1W2lYK8ndi6Vnq1UgF5BvBc-co3f4C0ml"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v2_preflight.json": {
-   "status": "pending",
-   "bytes": 3297
+   "status": "refused",
+   "bytes": 3297,
+   "reason": "/workspace/hookforge/out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v2_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v2_sheet.png": {
    "status": "uploaded",
@@ -2674,8 +2865,9 @@
    "drive_id": "1xftw0wnaZe9rCIJwoPOniyb5SCXO9LLy"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v3_preflight.json": {
-   "status": "pending",
-   "bytes": 2687
+   "status": "refused",
+   "bytes": 2687,
+   "reason": "/workspace/hookforge/out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v3_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v3_sheet.png": {
    "status": "uploaded",
@@ -2684,8 +2876,9 @@
    "drive_id": "1l5Kb4FiqGLdOMPWNRHCMERMt4wNDpRhF"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v4_preflight.json": {
-   "status": "pending",
-   "bytes": 2334
+   "status": "refused",
+   "bytes": 2334,
+   "reason": "/workspace/hookforge/out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v4_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v4_sheet.png": {
    "status": "uploaded",
@@ -2694,8 +2887,9 @@
    "drive_id": "10a6wb7ttHebVRkIfZvDtjlllPkPmqsdj"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v5_preflight.json": {
-   "status": "pending",
-   "bytes": 2324
+   "status": "refused",
+   "bytes": 2324,
+   "reason": "/workspace/hookforge/out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v5_preflight.json: trace bytes b'c2pa'"
   },
   "out/live/trumpglow_C/final/preflight/trumpglow_C_FreeBird_v5_sheet.png": {
    "status": "uploaded",
@@ -2704,20 +2898,28 @@
    "drive_id": "1nqI7MPj1Qwm0pNeb0NKNO7AiGUo1992g"
   },
   "out/live/trumpglow_C/final/timeline.json": {
-   "status": "pending",
-   "bytes": 711
+   "status": "staged",
+   "bytes": 711,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_C__final__timeline.json",
+   "sha256": "7af48589fd9a36fc01c50d49bb474e67e9c464181eb4e2eef3d9eb4b0c03a0af"
   },
   "out/live/trumpglow_C/final/timeline_v3.json": {
-   "status": "pending",
-   "bytes": 620
+   "status": "staged",
+   "bytes": 620,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_C__final__timeline_v3.json",
+   "sha256": "e907bf418c1e3109e41f2dfbef28deef6b4f426bb2f5460de7bfd4e053501bd3"
   },
   "out/live/trumpglow_C/final/timeline_v4.json": {
-   "status": "pending",
-   "bytes": 624
+   "status": "staged",
+   "bytes": 624,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_C__final__timeline_v4.json",
+   "sha256": "c32fc8c3a33453f2dcf5d51a1ff8c18c44bc814b16cdcaba717f5ca71d67fae1"
   },
   "out/live/trumpglow_C/final/timeline_v5.json": {
-   "status": "pending",
-   "bytes": 629
+   "status": "staged",
+   "bytes": 629,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_C__final__timeline_v5.json",
+   "sha256": "09478fe6c3b8e6113bd847979f92902fa229c8f86ad07165ec1affdfed52ce26"
   },
   "out/live/trumpglow_C/final/trumpglow_C_ACDC.mp4": {
    "status": "uploaded",
@@ -2726,8 +2928,10 @@
    "drive_id": "1YDY2HpTeIjuMkbKsIYPkQerI3CgvcPiW"
   },
   "out/live/trumpglow_C/final/trumpglow_C_ACDC_caption.txt": {
-   "status": "pending",
-   "bytes": 84
+   "status": "staged",
+   "bytes": 84,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_C__final__trumpglow_C_ACDC_caption.txt",
+   "sha256": "37b71a3a5b3a384ca6b636b2b32b7685f0ebf44b9f210eb1ce0ef1427bb8a3bc"
   },
   "out/live/trumpglow_C/final/trumpglow_C_ACDC_v2.mp4": {
    "status": "uploaded",
@@ -2778,8 +2982,10 @@
    "drive_id": "1gswz45yw7e90qZqk0qMMrafwmFEecMKU"
   },
   "out/live/trumpglow_C/final/trumpglow_C_FreeBird_caption.txt": {
-   "status": "pending",
-   "bytes": 84
+   "status": "staged",
+   "bytes": 84,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_C__final__trumpglow_C_FreeBird_caption.txt",
+   "sha256": "37b71a3a5b3a384ca6b636b2b32b7685f0ebf44b9f210eb1ce0ef1427bb8a3bc"
   },
   "out/live/trumpglow_C/final/trumpglow_C_FreeBird_v2.mp4": {
    "status": "uploaded",
@@ -2824,12 +3030,16 @@
    "dedup_of": "out/deliver/TrumpGlow - C - Last Day vs First Day - FreeBird - v5.mp4"
   },
   "out/live/trumpglow_C/prompts.json": {
-   "status": "pending",
-   "bytes": 2713
+   "status": "staged",
+   "bytes": 2713,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_C__prompts.json",
+   "sha256": "afe6408cb87df5b60c32648ffc294ca66dbba6538dc186c69cdba633377889f1"
   },
   "out/live/trumpglow_C/start_frames/QA.md": {
-   "status": "pending",
-   "bytes": 791
+   "status": "staged",
+   "bytes": 791,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_C__start_frames__QA.md",
+   "sha256": "755f68be7bf63839ccc009c1f45c7aa422164a79654cbc8df2e1cbebbb868c18"
   },
   "out/live/trumpglow_C/start_frames/SF1_v1.png": {
    "status": "uploaded",
@@ -2880,8 +3090,10 @@
    "drive_id": "1FSRvTE5U4u3wOUuS6hYHqr2-z89W8ixt"
   },
   "out/live/trumpglow_C/start_frames/urls.txt": {
-   "status": "pending",
-   "bytes": 1040
+   "status": "staged",
+   "bytes": 1040,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__live__trumpglow_C__start_frames__urls.txt",
+   "sha256": "a1eca0713a12901c86fcd93fa7c9fb6184fdc16a71dd92fa21a0e2ed494be7e1"
   },
   "out/patriotsglow/PatriotsGlow_cover.png": {
    "status": "uploaded",
@@ -2920,8 +3132,9 @@
    "drive_id": "14IlAjTuSD3WL6yuykeQjbRisz8hVh0Ke"
   },
   "out/purrventure_brand/build.py": {
-   "status": "pending",
-   "bytes": 5984
+   "status": "refused",
+   "bytes": 5984,
+   "reason": "ut/purrventure_brand/build.py: File:LineCount not whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse"
   },
   "out/purrventure_brand/raw/cover_r1.png": {
    "status": "uploaded",
@@ -3026,12 +3239,16 @@
    "dedup_of": "out/deliver/PurrVenture - P3_SF4 - start frame v2.png"
   },
   "out/purrventure_frames/QA.md": {
-   "status": "pending",
-   "bytes": 1429
+   "status": "staged",
+   "bytes": 1429,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__purrventure_frames__QA.md",
+   "sha256": "0f44b4b19ad734ee476e6903efee2432ae89130c3fbed7cfec44b59413b3f8fd"
   },
   "out/purrventure_frames/frame_qa.json": {
-   "status": "pending",
-   "bytes": 6718
+   "status": "staged",
+   "bytes": 6718,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__purrventure_frames__frame_qa.json",
+   "sha256": "cf441346d7140a32065a15d25fac3133e3efa280bb46dff119dec77dd2e778eb"
   },
   "out/purrventure_frames/old_sheets/sheet_P1_v2_FAILED_QA.jpg": {
    "status": "uploaded",
@@ -3256,8 +3473,10 @@
    "drive_id": "1h-HIFmlqCF5XCCDog7Uc_O11Y5AY9imp"
   },
   "out/purrventure_frames/start_frame_media_ids.json": {
-   "status": "pending",
-   "bytes": 563
+   "status": "staged",
+   "bytes": 563,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__purrventure_frames__start_frame_media_ids.json",
+   "sha256": "f44c24999ffbf54cf17f967f7dce5f116fa620d4ae39fe3ee345ea1cf680af42"
   },
   "out/pv_clips/P1_G1.mp4": {
    "status": "uploaded",
@@ -3482,8 +3701,9 @@
    "drive_id": "16nkyLegnHK9p1_TiBYjbeDPo3x5xZMFA"
   },
   "out/pv_edit/P1_qa/PurrVenture_P1_final_preflight.json": {
-   "status": "pending",
-   "bytes": 1434
+   "status": "refused",
+   "bytes": 1434,
+   "reason": "/workspace/hookforge/out/pv_edit/P1_qa/PurrVenture_P1_final_preflight.json: trace bytes b'c2pa'"
   },
   "out/pv_edit/P1_qa/PurrVenture_P1_final_sheet.png": {
    "status": "uploaded",
@@ -3498,12 +3718,16 @@
    "drive_id": "1fpjOlfDDDgXJlBLScpVSA21oHmmyAMcH"
   },
   "out/pv_edit/P1_report.json": {
-   "status": "pending",
-   "bytes": 647
+   "status": "staged",
+   "bytes": 647,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__pv_edit__P1_report.json",
+   "sha256": "4a1e5f582d758a54eb937580b15018736fd690fcbfe584a83688e3cea6400a7f"
   },
   "out/pv_edit/P1_timeline.json": {
-   "status": "pending",
-   "bytes": 1799
+   "status": "staged",
+   "bytes": 1799,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__pv_edit__P1_timeline.json",
+   "sha256": "103bfe72176bb61200d29ff56dc43e0058fa995216c85163f320fe3215852c4c"
   },
   "out/pv_edit/P2_card0.png": {
    "status": "uploaded",
@@ -3542,8 +3766,9 @@
    "drive_id": "1imJDpash9rvTVysohY7aAa_N1rK10srw"
   },
   "out/pv_edit/P2_qa/PurrVenture_P2_final_preflight.json": {
-   "status": "pending",
-   "bytes": 1262
+   "status": "refused",
+   "bytes": 1262,
+   "reason": "/workspace/hookforge/out/pv_edit/P2_qa/PurrVenture_P2_final_preflight.json: trace bytes b'c2pa'"
   },
   "out/pv_edit/P2_qa/PurrVenture_P2_final_sheet.png": {
    "status": "uploaded",
@@ -3558,12 +3783,16 @@
    "drive_id": "1C8mWsuZtBKYhhl5-lDsrJjwyHL5_Nr39"
   },
   "out/pv_edit/P2_report.json": {
-   "status": "pending",
-   "bytes": 810
+   "status": "staged",
+   "bytes": 810,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__pv_edit__P2_report.json",
+   "sha256": "525b133b9a1e517a441a0002bd5f0b58e285b021bc5a0aa6179f795f5c31c39b"
   },
   "out/pv_edit/P2_timeline.json": {
-   "status": "pending",
-   "bytes": 1992
+   "status": "staged",
+   "bytes": 1992,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__pv_edit__P2_timeline.json",
+   "sha256": "71983cd6a6eda9d9b12ca6fbf87611e2511550529c31cce704d4a6fa2cc13508"
   },
   "out/pv_edit/P3_card0.png": {
    "status": "uploaded",
@@ -3602,8 +3831,9 @@
    "drive_id": "1V-x6Rx_41YvLoKvDl4kDHB_avuau_zoh"
   },
   "out/pv_edit/P3_qa/PurrVenture_P3_final_preflight.json": {
-   "status": "pending",
-   "bytes": 1437
+   "status": "refused",
+   "bytes": 1437,
+   "reason": "/workspace/hookforge/out/pv_edit/P3_qa/PurrVenture_P3_final_preflight.json: trace bytes b'c2pa'"
   },
   "out/pv_edit/P3_qa/PurrVenture_P3_final_sheet.png": {
    "status": "uploaded",
@@ -3618,12 +3848,16 @@
    "drive_id": "1Gk20x7am9JDfsYSOtawV_jsQiRgMq6xP"
   },
   "out/pv_edit/P3_report.json": {
-   "status": "pending",
-   "bytes": 730
+   "status": "staged",
+   "bytes": 730,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__pv_edit__P3_report.json",
+   "sha256": "f16a3bcd0677d77d30d427fddacedad14bfb1a7c9d23a578bd372d3ddd7f2f81"
   },
   "out/pv_edit/P3_timeline.json": {
-   "status": "pending",
-   "bytes": 1981
+   "status": "staged",
+   "bytes": 1981,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__pv_edit__P3_timeline.json",
+   "sha256": "5daaa2b3bef0e65c080172613b3d4e7550c73b3387f027a763581e5ef33ad266"
   },
   "out/pv_edit/PurrVenture_P1_caption_FB.txt": {
    "status": "uploaded",
@@ -3680,8 +3914,9 @@
    "dedup_of": "out/deliver/PurrVenture - P3 - Leaf Rake - Mambo No 5 - v1.mp4"
   },
   "out/pv_edit/build.py": {
-   "status": "pending",
-   "bytes": 4248
+   "status": "refused",
+   "bytes": 4248,
+   "reason": "ot whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse; trace bytes b'ffmpeg'; trace bytes b'libx264'"
   },
   "out/tg_v_say/TrumpGlow - A - ACDC - v8 - Caption.txt": {
    "status": "uploaded",
@@ -3762,12 +3997,15 @@
    "drive_id": "11Ie7bfH7NiARSh3n8z8jXvt1kNCT5ibO"
   },
   "out/tg_v_say/gate_report.json": {
-   "status": "pending",
-   "bytes": 2093
+   "status": "staged",
+   "bytes": 2093,
+   "staged": "/workspace/hookforge/out/deliver/backup__out__tg_v_say__gate_report.json",
+   "sha256": "973eced2d8b11de2beae2f67ab9b23a2acfe3adfd5c1e9a7740f5b54829f2b2b"
   },
   "out/tg_v_say/gate_stage.py": {
-   "status": "pending",
-   "bytes": 1987
+   "status": "refused",
+   "bytes": 1987,
+   "reason": "ge/out/tg_v_say/gate_stage.py: File:LineCount not whitelisted; File:MIMEEncoding not whitelisted; File:Newlines not whitelisted; File:WordCount not whitelisted; file type TXT has no whitelist - refuse"
   },
   "out/trump_projector/trump_projector_sample_720p.mp4": {
    "status": "uploaded",

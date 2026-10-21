@@ -1,317 +1,58 @@
 {
- "checked_pt": "2026-10-20T17:26:28-07:00",
+ "checked_pt": "2026-10-20T18:22:23-07:00",
  "account": "user-Higgsfield--new-account",
- "flag": true,
+ "flag": false,
  "threshold": 20.0,
- "new_unledgered_credits": 68.25,
+ "new_unledgered_credits": 0,
+ "new_unaccounted_credits": 0,
+ "new_external_credits": 1.0,
  "new_by_type": {
-  "Text to Music": 22.75,
-  "Sound Effects": 4.0,
-  "GPT Image 2.5 Flare": 41.5
+  "Sound Effects": 1.0
  },
- "new_items": [
-  {
-   "when_pt": "2026-10-20T17:00:42-07:00",
-   "what": "GPT Image 2.5 Flare",
-   "credits": 1.5,
-   "created_at": "2026-10-21T00:00:42.287584Z"
+ "new_by_model": {
+  "Sound Effects": {
+   "model": "other",
+   "hookforge": 0.0,
+   "hookforge_unaccounted": 0.0,
+   "external": 1.0,
+   "n": 1
+  }
+ },
+ "window_by_model": {
+  "Sound Effects": {
+   "model": "other",
+   "hookforge": 0.0,
+   "hookforge_unaccounted": 0.0,
+   "external": 18.0,
+   "n": 33
   },
-  {
-   "when_pt": "2026-10-20T17:00:53-07:00",
-   "what": "GPT Image 2.5 Flare",
-   "credits": 1.5,
-   "created_at": "2026-10-21T00:00:53.704941Z"
+  "GPT Image 2.5 Flare": {
+   "model": "other",
+   "hookforge": 0.0,
+   "hookforge_unaccounted": 0.0,
+   "external": 41.5,
+   "n": 32
   },
+  "Text to Music": {
+   "model": "other",
+   "hookforge": 0.0,
+   "hookforge_unaccounted": 0.0,
+   "external": 22.75,
+   "n": 35
+  }
+ },
+ "new_items": [],
+ "new_external_items": [
   {
-   "when_pt": "2026-10-20T17:00:54-07:00",
-   "what": "GPT Image 2.5 Flare",
-   "credits": 1.5,
-   "created_at": "2026-10-21T00:00:54.765143Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:00:55-07:00",
-   "what": "GPT Image 2.5 Flare",
-   "credits": 1.5,
-   "created_at": "2026-10-21T00:00:55.087456Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:00:56-07:00",
-   "what": "GPT Image 2.5 Flare",
-   "credits": 1.5,
-   "created_at": "2026-10-21T00:00:56.187631Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:01:07-07:00",
-   "what": "GPT Image 2.5 Flare",
-   "credits": 1.5,
-   "created_at": "2026-10-21T00:01:07.459034Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:01:10-07:00",
-   "what": "GPT Image 2.5 Flare",
-   "credits": 1.5,
-   "created_at": "2026-10-21T00:01:10.912062Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:40-07:00",
+   "when_pt": "2026-10-20T17:46:05-07:00",
    "what": "Sound Effects",
-   "credits": 0.5,
-   "created_at": "2026-10-21T00:24:40.995727Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:40-07:00",
-   "what": "Sound Effects",
-   "credits": 0.5,
-   "created_at": "2026-10-21T00:24:40.906979Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:41-07:00",
-   "what": "Sound Effects",
-   "credits": 0.5,
-   "created_at": "2026-10-21T00:24:41.486258Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:41-07:00",
-   "what": "Sound Effects",
-   "credits": 0.5,
-   "created_at": "2026-10-21T00:24:41.274670Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:41-07:00",
-   "what": "Sound Effects",
-   "credits": 0.5,
-   "created_at": "2026-10-21T00:24:41.098933Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:48-07:00",
-   "what": "Text to Music",
-   "credits": 0.25,
-   "created_at": "2026-10-21T00:24:48.680325Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:48-07:00",
-   "what": "Sound Effects",
-   "credits": 0.5,
-   "created_at": "2026-10-21T00:24:48.471593Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:48-07:00",
-   "what": "Sound Effects",
-   "credits": 0.5,
-   "created_at": "2026-10-21T00:24:48.265876Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:48-07:00",
-   "what": "Sound Effects",
-   "credits": 0.5,
-   "created_at": "2026-10-21T00:24:48.071776Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:51-07:00",
-   "what": "Text to Music",
-   "credits": 0.25,
-   "created_at": "2026-10-21T00:24:51.555697Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:56-07:00",
-   "what": "Text to Music",
-   "credits": 0.25,
-   "created_at": "2026-10-21T00:24:56.443548Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:58-07:00",
-   "what": "Text to Music",
-   "credits": 0.25,
-   "created_at": "2026-10-21T00:24:58.813209Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:58-07:00",
-   "what": "Text to Music",
-   "credits": 0.25,
-   "created_at": "2026-10-21T00:24:58.644777Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:24:58-07:00",
-   "what": "Text to Music",
-   "credits": 0.25,
-   "created_at": "2026-10-21T00:24:58.184263Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:07-07:00",
-   "what": "Text to Music",
-   "credits": 0.25,
-   "created_at": "2026-10-21T00:25:07.442739Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:08-07:00",
-   "what": "Text to Music",
-   "credits": 0.25,
-   "created_at": "2026-10-21T00:25:08.877207Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:13-07:00",
-   "what": "Text to Music",
-   "credits": 0.25,
-   "created_at": "2026-10-21T00:25:13.906837Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:14-07:00",
-   "what": "Text to Music",
-   "credits": 0.25,
-   "created_at": "2026-10-21T00:25:14.048964Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:19-07:00",
-   "what": "Text to Music",
-   "credits": 0.25,
-   "created_at": "2026-10-21T00:25:19.800008Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:20-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:20.660616Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:24-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:24.248071Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:24-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:24.124522Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:28-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:28.853288Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:30-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:30.032909Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:31-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:31.208690Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:34-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:34.717581Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:37-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:37.528328Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:39-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:39.050830Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:43-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:43.421828Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:44-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:44.921054Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:44-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:44.206005Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:54-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:54.578352Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:57-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:57.099803Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:25:58-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:25:58.272919Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:26:00-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:26:00.526808Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:26:01-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:26:01.282358Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:26:04-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:26:04.713022Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:26:10-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:26:10.288808Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:26:11-07:00",
-   "what": "Text to Music",
-   "credits": 0.75,
-   "created_at": "2026-10-21T00:26:11.348554Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:26:17-07:00",
-   "what": "Text to Music",
-   "credits": 1.25,
-   "created_at": "2026-10-21T00:26:17.319181Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:26:20-07:00",
-   "what": "Text to Music",
-   "credits": 1.25,
-   "created_at": "2026-10-21T00:26:20.965240Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:26:21-07:00",
-   "what": "Text to Music",
-   "credits": 1.25,
-   "created_at": "2026-10-21T00:26:21.874766Z"
-  },
-  {
-   "when_pt": "2026-10-20T17:26:21-07:00",
-   "what": "Text to Music",
-   "credits": 1.25,
-   "created_at": "2026-10-21T00:26:21.182231Z"
+   "credits": 1.0,
+   "created_at": "2026-10-21T00:46:05.357540Z",
+   "model": "other",
+   "tag": "external"
   }
  ],
- "cumulative_unledgered_in_window": 82.0,
+ "cumulative_unledgered_in_window": 82.25,
  "baseline": false,
- "note": "NEW UNLOGGED SPEND > 20 cr since last check - surface to Omar"
+ "note": "ok"
 }
