@@ -818,3 +818,7 @@ Replay of today's 199 previously-unledgered transactions:
 | External (Flare 44.25, Seed Audio 96.4, Sound Effects 37, Text to Music 22.75) | 200.4 |
 | Unaccounted (4×6.5 GPT Image 2.0 at 14:32–15:14 PT, 1×28 Seedance at 15:36 PT) | 54 |
 Not attributed to any run, possibly the branding_v2 run, whose spend is unknown. Omar to confirm.
+
+## D162 (2026-10-20 PT) CI workflow
+.github/workflows/test.yml runs `pytest -m "not needs_data"` on push and PR (Python 3.13, ffmpeg, contents:read, no secrets). It symlinks the checkout to /workspace/hookforge because some tests use that path.
+engine/pytest.ini registers the marker. engine/tests/conftest.py applies it to 30 tests and 7 modules that read excluded assets; the modules that load data at import are skipped at collection when private/corpus and out/ are absent. The list was found empirically: a clean clone bound over /workspace/hookforge gives 103 passed, 31 deselected. On the box, everything still runs.

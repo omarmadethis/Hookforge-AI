@@ -1,0 +1,28 @@
+# D162: run the engine tests on every push and PR. Excluded assets (out/, data/, private/, large files) are not in
+# git, so tests that need them are marked needs_data and skipped here. Uses no secrets and makes no network
+# calls to Higgsfield, Buffer, Shopify or Meta.
+name: tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: System deps
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Python deps
+        run: pip install pytest jsonschema numpy pandas pillow requests
+      - name: Make the checkout visible at /workspace/hookforge (some tests use that path)
+        run: sudo mkdir -p /workspace && sudo ln -s "$GITHUB_WORKSPACE" /workspace/hookforge
+      - name: pytest (not needs_data)
+        working-directory: engine
+        env:
+          PYTHONPATH: .
+        run: python -m pytest -q -m "not needs_data"
