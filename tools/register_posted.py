@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "engine"))
 from hookforge import master_gate as MG
 PAGES = {"6ad7c7b6778b240e2f6eded2": "Jolly Glow", "6ad7c63f778b240e2f6ed4e6": "PatriotsGlow", "6ad7c63f778b240e2f6ed4e5": "PurrVentures (Buffer1)",
          "6ad7e3e8778b240e2f706dfd": "PurrVentures (Buffer2)", "6ad7d610778b240e2f6f8b6c": "TrumpGlow", "6ad7d94a778b240e2f6ffc72": "merry.jammies IG"}
-LABELS = {"267d0f3b": "jollyglow_G01", "5e903e04": "purrventure_P1_pool_skim", "8358a228": "purrventure_P2_hedge_trim", "6c9911ec": "trumpglow_B3",
+LABELS = {"40c278e4": "trumpglow_TG4_wife_said_no", "29ab437b": "purrventure_PV4_garden_escape", "e2838451": "trumpglow_TG5_gas_2022_vs_2026", "267d0f3b": "jollyglow_G01", "5e903e04": "purrventure_P1_pool_skim", "8358a228": "purrventure_P2_hedge_trim", "6c9911ec": "trumpglow_B3",
           "45972879": "trumpglow_A3", "d7462f5e": "purrventure_P3_leaf_rake", "bd8b0d18": "jollyglow_F06_v2", "6ad7c7cd100c30fd2be358c4": "jollyglow_combo_walmart"}
 D = os.path.join(MG.REPO, "data", "posted_media")
 def posts(f):

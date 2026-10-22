@@ -1,0 +1,240 @@
+{
+ "PV4": {
+  "product": "purrventure_carrier",
+  "page": "PurrVentures (Buffer2)",
+  "gens": [
+   "PV_H",
+   "PV_B1",
+   "PV_B2"
+  ],
+  "refs": [
+   "refs/purrventure/ref_cast_woman_P2SF1.png",
+   "refs/purrventure/ref_bengal_cream.png",
+   "refs/purrventure/ref_ball_black.png"
+  ],
+  "spent": 86.5,
+  "cap_remaining": 0,
+  "hook": {
+   "format": "problem-solution",
+   "first_second_action": "woman watering the flower bed as the cream Bengal crouches then sprints for the open fence gate",
+   "conflict": "the cat bolts for the gate; she drops the spraying hose and chases it",
+   "conflict_t_s": 0.6
+  },
+  "shots": [
+   [
+    "PV_H",
+    0.0,
+    3.8,
+    "hook"
+   ],
+   [
+    "PV_B1",
+    0.2,
+    1.7,
+    "body"
+   ],
+   [
+    "PV_B1",
+    2.1,
+    3.6,
+    "after"
+   ],
+   [
+    "PV_B2",
+    0.2,
+    1.7,
+    "after"
+   ],
+   [
+    "PV_B2",
+    2.2,
+    3.7,
+    "after"
+   ]
+  ],
+  "cards": [
+   {
+    "text": "The problem 😕",
+    "shot": 0,
+    "why": "the cat escapes through the gate while she gardens",
+    "shows": "cat escapes gate woman chases"
+   },
+   {
+    "text": "The result 😊🐈",
+    "shot": 1,
+    "why": "cat zipped in the ball carrier rolling safely in yard, park and garden center",
+    "shows": "cat ball carrier rolling"
+   }
+  ],
+  "song": {
+   "key": "be_my_baby",
+   "path": "music/be_my_baby_youtube.m4a",
+   "in_s": 31.89,
+   "recreate_of": {
+    "slug": "purrventure",
+    "reel_id": "DeSyZivMTz-"
+   }
+  },
+  "caption": "Garden day without the great escape 🌸🐈🇺🇸\nSAY \"PURR\" and we'll send you the link\n#cat #catmom #catlover",
+  "say": "PURR",
+  "poc": {
+   "original": "RollyMew IG https://www.instagram.com/rollymewofficial/reel/DeSyZivMTz-/",
+   "views": 7600000,
+   "notes": "problem->result gardening family (7.6M/6.4M/5.4M); exact song + section Be My Baby @31.89 s; original's 3 cards cut to 2 per D188"
+  }
+ },
+ "TG4": {
+  "product": "trumpglow",
+  "page": "TrumpGlow",
+  "gens": [
+   "TG1_H",
+   "TG1_B1",
+   "TG1_B2"
+  ],
+  "refs": [
+   "out/live/trumpglow_A/refs/pod_ref.jpg",
+   "out/live/trumpglow_A/refs/decal.png",
+   "out/live/trumpglow_A/refs/proj_ref.jpg"
+  ],
+  "spent": 86.5,
+  "cap_remaining": 0,
+  "hook": {
+   "format": "audience-callout",
+   "first_second_action": "wife's hand yanks the projector pod out of his hand by the open truck door",
+   "conflict": "tug of war over the pod; he pulls it back",
+   "conflict_t_s": 0.2
+  },
+  "shots": [
+   [
+    "TG1_H",
+    0.0,
+    3.8,
+    "hook"
+   ],
+   [
+    "TG1_B1",
+    0.2,
+    1.7,
+    "body"
+   ],
+   [
+    "TG1_B1",
+    2.0,
+    3.4,
+    "after"
+   ],
+   [
+    "TG1_B2",
+    0.3,
+    1.8,
+    "after"
+   ],
+   [
+    "TG1_B2",
+    2.1,
+    3.6,
+    "after"
+   ]
+  ],
+  "cards": [
+   {
+    "text": "POV: wife said NO more Trump stuff 😂🇺🇸",
+    "shot": 0,
+    "why": "his wife grabs at the Trump projector to stop him; he installs it anyway",
+    "shows": "wife grabs Trump projector pod"
+   }
+  ],
+  "song": {
+   "key": "acdc_you_shook_me",
+   "path": "music/acdc_ysmanl_official_tc.m4a",
+   "in_s": 48.29
+  },
+  "caption": "She said no.. I installed it anyway 😂🇺🇸\nSAY \"USA\" and we'll send you the link\n#trump #maga #america",
+  "say": "USA",
+  "poc": {
+   "original": "Lumi Door TikTok https://www.tiktok.com/@lumi_door/video/7395348939215588641 ('POV: ur wife got this for your passenger seat...')",
+   "views": 1200000,
+   "notes": "POV wife-banter card + pod->stick->handle->ground-projection shot order from the 1.2M original; song AC/DC You Shook Me @48.29 (Red First Trump ads in-point)"
+  }
+ },
+ "TG5": {
+  "product": "trumpglow",
+  "page": "PatriotsGlow",
+  "gens": [
+   "TG2_H",
+   "TG2_B1",
+   "TG2_B2"
+  ],
+  "refs": [
+   "out/live/trumpglow_A/refs/pod_ref.jpg",
+   "out/live/trumpglow_A/refs/decal.png",
+   "out/live/trumpglow_A/refs/proj_ref.jpg"
+  ],
+  "spent": 86.5,
+  "cap_remaining": 0,
+  "hook": {
+   "format": "then-vs-now",
+   "first_second_action": "gas pump total climbing past $118 at $5.89/gal as he grips the nozzle",
+   "conflict": "he yanks the nozzle out in frustration at the price",
+   "conflict_t_s": 0.9
+  },
+  "shots": [
+   [
+    "TG2_H",
+    0.6,
+    3.6,
+    "hook"
+   ],
+   [
+    "TG2_B1",
+    0.2,
+    1.7,
+    "body"
+   ],
+   [
+    "TG2_B1",
+    2.0,
+    3.5,
+    "after"
+   ],
+   [
+    "TG2_B2",
+    0.3,
+    1.8,
+    "after"
+   ],
+   [
+    "TG2_B2",
+    2.2,
+    3.7,
+    "after"
+   ]
+  ],
+  "cards": [
+   {
+    "text": "Filling up my truck in 2022.. 😔",
+    "shot": 0,
+    "why": "2022 gas pump at $5.89 a gallon, $118 total",
+    "shows": "gas pump truck 2022 price"
+   },
+   {
+    "text": "My truck in 2026 😎🇺🇸",
+    "shot": 1,
+    "why": "same kind of truck now with the Trump door light installed and glowing",
+    "shows": "truck Trump light projector"
+   }
+  ],
+  "song": {
+   "key": "acdc_you_shook_me",
+   "path": "music/acdc_ysmanl_official_tc.m4a",
+   "in_s": 48.29
+  },
+  "caption": "Some things finally got better 😎🇺🇸\nSAY \"USA\" and we'll send you the link\n#trump #maga #usa",
+  "say": "USA",
+  "poc": {
+   "original": "Lumi Door TikTok https://www.tiktok.com/@lumi_door/video/7391285123561426208 ('His last day with us.. VS...' then-vs-now)",
+   "views": 2400000,
+   "notes": "then-vs-now emotional contrast -> door-open ground projection payoff; formats/index then-vs-now; song AC/DC @48.29"
+  }
+ }
+}

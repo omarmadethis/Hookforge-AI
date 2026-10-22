@@ -746,5 +746,29 @@
   ],
   "scheduled_at_utc": "2026-10-22T08:32:04Z",
   "status": "scheduled"
+ },
+ "trumpglow_TG4_wife_said_no": {
+  "path": "/workspace/hookforge/data/posted_media/c622f3f6a0986f97.mp4",
+  "sha256": "319d9bef8d07db0fb261820f7bcef4283222fb16cd7684cfb820891f133aca00",
+  "posted_pages": [
+   "TrumpGlow"
+  ],
+  "caption": "She said no.. I installed it anyway 😂🇺🇸\nSAY \"USA\" and we'll send you the link\n#trump #maga #america",
+  "buffer_posts": [
+   "6ad983047dadc432f7399c52"
+  ],
+  "sent_at_utc": "2026-10-22T03:29:17.919Z"
+ },
+ "purrventure_PV4_garden_escape": {
+  "path": "/workspace/hookforge/out/hf3/final/PV4_gate.mp4",
+  "sha256": "315bacf3a34764f52c30a4307a3eaf2ee7f9ce6b7476cfdd75279ba308a58f62",
+  "posted_pages": [],
+  "caption": null
+ },
+ "trumpglow_TG5_gas_2022_vs_2026": {
+  "path": "/workspace/hookforge/out/hf3/final/TG5_gate.mp4",
+  "sha256": "31c11e1a2e39dc03394676f86addbb520a4a58e2ccc6988088440d87cd0f5071",
+  "posted_pages": [],
+  "caption": null
  }
 }

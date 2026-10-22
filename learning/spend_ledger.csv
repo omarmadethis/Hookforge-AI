@@ -161,3 +161,18 @@ ts_pt,run_id,item,job_ids,credits
 2026-10-21T16:33,lumarein_recreate_LR1_LR2,seedance_2_5 LR2_H 720p 4s,71be8a55-5c50-4219-8f7b-8a2ec554f007,28
 2026-10-21T16:33,lumarein_recreate_LR1_LR2,seedance_2_5 LR2_B2 720p 4s,ffa55cca-bda8-4015-a81e-0a111cfd9cb6,28
 2026-10-21T16:33,lumarein_recreate_LR1_LR2,seedance_2_5 LR2_B3 720p 4s,63d189e2-8dbd-47e4-bdf3-62b4f998138b,28
+2026-10-21T20:13,hf3_PV_TG1_TG2,gpt_image_2 1k medium x9 start frames PV_H/B1/B2 TG1_H/B1/B2 TG2_H/B1/B2,8ce90324;22f60c8b;76e827bd;cb7582b6;b41a0c2b;3543a72b;0b849916;5178f861;1099e804,9
+2026-10-21T20:16,hf3_PV_TG1_TG2,seedance_2_5 720p 4s x9 PV_H,PV_B1,PV_B2,TG1_H,TG1_B1,TG1_B2,TG2_H,TG2_B1,TG2_B2,ddd206cf;098f8b50;ad70a088;2b8a5efb;63fdaf50;ff047244;3e6934dd;368bfdfd;04d0bb5c,252
+2026-10-21T20:20,lumarein_LR3_minionmask,gpt_image_2 2k high LR3_H start frame,0a80fafb-45a6-447c-9805-1d0da6178ff0,6.5
+2026-10-21T20:20,lumarein_LR3_minionmask,gpt_image_2 2k high LR3_B1 start frame,40435d80-4656-4779-8050-be14aa55e247,6.5
+2026-10-21T20:20,lumarein_LR3_minionmask,gpt_image_2 2k high LR3_B2 start frame,dcfb4e5c-5328-4224-8899-1a82b923c07b,6.5
+2026-10-21T20:20,lumarein_LR3_minionmask,gpt_image_2 2k high LR3_B3 start frame,61690c33-dcc1-4d26-a0ad-3afa9eb0cc93,6.5
+2026-10-21T20:24,lumarein_LR3_minionmask,seedance_2_5 LR3_H 720p 4s,b264d9d1-e589-4e3e-9335-c3262e3988ac,28
+2026-10-21T20:24,lumarein_LR3_minionmask,seedance_2_5 LR3_B2 720p 4s,6b2d985a-b6d4-4caf-bc3f-06470f048e9b,28
+2026-10-21T20:27,lumarein_LR3_minionmask,seedance_2_5 LR3_B1 720p 4s,fc97031b-176d-4694-8e3e-bba49def5438,28
+2026-10-21T20:27,lumarein_LR3_minionmask,seedance_2_5 LR3_B3 720p 4s,dca5ec99-7a00-424c-b2cd-82db43b395ae,28
+2026-10-21T20:30,lumarein_LR3_minionmask,REFUND(expected) seedance_2_5 LR3_H ip_detected,b264d9d1-e589-4e3e-9335-c3262e3988ac,-28
+2026-10-21T20:30,lumarein_LR3_minionmask,seedance_2_5 LR3_H retry 720p 4s,d992e68e-4f3e-4cd6-a1c5-d9fffbf3a394,28
+2026-10-21T20:36,lumarein_LR3_minionmask,REFUND(expected) seedance_2_5 LR3_H retry ip_detected,d992e68e-4f3e-4cd6-a1c5-d9fffbf3a394,-28
+2026-10-21T20:36,lumarein_LR3_minionmask,gpt_image_2 2k high LR3_H2 start frame (new cast; IP flag on H),19fe6074-e0b3-49ba-82bb-58ac93b44a29,6.5
+2026-10-21T20:40,lumarein_LR3_minionmask,seedance_2_5 LR3_H2 720p 4s,84e34543-115f-4ba4-bebe-01bf67f9bb71,28
