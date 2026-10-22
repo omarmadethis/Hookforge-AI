@@ -1,0 +1,213 @@
+{
+ "file": "out/lumarein/final/LR2_gate.mp4",
+ "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4",
+ "stage": "final",
+ "status": "PASS",
+ "at": "2026-10-21 05:34 PM PT",
+ "rules_version": "0468e5e3586b",
+ "auto_checked": [
+  "MR01",
+  "MR03",
+  "MR04",
+  "MR05",
+  "MR06",
+  "MR07",
+  "MR08",
+  "MR09",
+  "MR10",
+  "MR13",
+  "MR18",
+  "MR19",
+  "MR21",
+  "MR22",
+  "MR24",
+  "MR25",
+  "MR26",
+  "MR27",
+  "MR30",
+  "MR31",
+  "MR32",
+  "MR33",
+  "MR34",
+  "MR35",
+  "MR36",
+  "MR38",
+  "MR39",
+  "MR47"
+ ],
+ "manual_confirmed": {
+  "MR08": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "Omar approved all 8 LumaRein start frames before clips (t357u 'yeah they're good')",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR11": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "stable aisle, hay-bale unboxing, paddock and night shots look like phone footage",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR12": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "no added grain or sharpening; only the LED bloom/trail pass on lit shots",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR13": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "US flag on the stall wall in the hook, on the barn at 4-7 s, on the barn wall during the strap shot, at the top of the night canter and on the pole in the final field shot",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR14": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "rider looks at camera as staged hook (allowed), grabbing hand contacts the blanket, no phasing seen",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR15": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "shush, tug and blanket whip are natural speed; no frozen shock face",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR16": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "daytime stable -> day unboxing -> dusk strap -> night ride: chronological",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR17": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "black box with blue LED triangles, grey Y strap, tail coil and 4 bands match the product refs",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR20": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "adult women only, no casting by race, no minors",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR22": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "'Do NOT show this to an equestrian' = formats dont-show-recipient, copied from the LumaRein 383.5K reel",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR23": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "a stablemate's hand grabs at the hidden box under the blanket from frame 0 and she pulls it away",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR24": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "not a 3-2-1 hook (dont-show-recipient), spec does not apply",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR28": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "Seedance clip ambient at 0.22 under the original song, no SFX added in the edit",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR29": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "hard cuts only, no fades, 1.5 s body shots",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  },
+  "MR37": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "the card describes exactly what the hook shows: hiding the kit from an equestrian who grabs at it",
+   "sha256": "ea3c6e25d8612f4a0c7ddf2a6988e124064220b5ec55c93e741a89972027dea4"
+  }
+ },
+ "failures": [],
+ "manual_missing": [],
+ "hints": {
+  "flag_frame_share": 0.0,
+  "song_windows": [
+   {
+    "t": 0.0,
+    "corr": 0.94,
+    "lag_s": 0.0
+   },
+   {
+    "t": 0.99,
+    "corr": 0.95,
+    "lag_s": 0.0
+   },
+   {
+    "t": 1.98,
+    "corr": 0.93,
+    "lag_s": 0.0
+   },
+   {
+    "t": 2.98,
+    "corr": 0.93,
+    "lag_s": 0.0
+   },
+   {
+    "t": 3.97,
+    "corr": 0.93,
+    "lag_s": 0.0
+   },
+   {
+    "t": 4.96,
+    "corr": 0.92,
+    "lag_s": 0.0
+   },
+   {
+    "t": 5.95,
+    "corr": 0.92,
+    "lag_s": 0.0
+   },
+   {
+    "t": 6.94,
+    "corr": 0.93,
+    "lag_s": 0.0
+   },
+   {
+    "t": 7.94,
+    "corr": 0.93,
+    "lag_s": 0.0
+   },
+   {
+    "t": 8.93,
+    "corr": 0.96,
+    "lag_s": 0.0
+   },
+   {
+    "t": 9.92,
+    "corr": 0.94,
+    "lag_s": 0.0
+   },
+   {
+    "t": 10.91,
+    "corr": 0.9,
+    "lag_s": 0.0
+   }
+  ],
+  "payoff_measured_cuts": 2,
+  "ocr": [
+   {
+    "card": "Do NOT show this to an equestrian... 😏",
+    "ocr": "Do NOT show this to\nan equestrian... —",
+    "match": 1.0
+   },
+   {
+    "card": "Do NOT show this to an equestrian... 😏",
+    "ocr": "Do NOT show this to\nan equestrian... —",
+    "match": 1.0
+   }
+  ]
+ },
+ "history": [
+  {
+   "iter": 0,
+   "status": "PASS",
+   "failures": []
+  }
+ ],
+ "regen_plan": null,
+ "cards": [
+  {
+   "text": "Do NOT show this to an equestrian... 😏",
+   "t0": 0.0,
+   "t1": 13.0,
+   "y": null
+  }
+ ],
+ "caption": "Every horse girl needs this 😍✨ SAY \"GALLOP\" and I'll send the link\n#equestrian #horsegirl #horse #gallop #usa",
+ "page": null
+}

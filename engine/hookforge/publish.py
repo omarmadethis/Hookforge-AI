@@ -64,6 +64,10 @@ def build_payload(channel_id, service, caption, video_url=None, first_comment=No
 def prepare(video, caption, channel_id, service="instagram", page="", product="", video_url=None, first_comment=None, poc=None, suggested_slot_pt=None):
     probs = _caption_checks(caption)
     if probs: raise NotAllowed("; ".join(probs))
+    from . import master_gate   # D191: publish rules (caption = approved, SAY, fresh lines, never 2 pages / repost, Omar's OK)
+    sp = master_gate.load_spec(video); sp.update(caption=caption, page=page or sp.get("page"))
+    try: master_gate.require(video, stage="publish", spec=sp)
+    except master_gate.GateRefused as e: raise NotAllowed(str(e))
     from . import routing                    # D94: locked / unconnected / over-limit channels are refused
     try: rp = routing.assert_routable(channel_id)
     except routing.RouteRefused as e: raise NotAllowed(f"route refused: {e}")

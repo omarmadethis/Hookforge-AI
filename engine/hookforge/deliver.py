@@ -223,6 +223,9 @@ def _sha(p):
 
 def stage(path, name=None, auto_sanitize=True):
     """Scan, refuse or stage. The returned path in OUT_DIR is the only thing allowed to be uploaded/copied out."""
+    from . import master_gate   # D191: nothing leaves without the master gate (videos: sha-bound PASS report; images/files: auto-fixed + verified)
+    try: master_gate.require(path, stage="deliver")
+    except master_gate.GateRefused as e: raise Refused(str(e))
     os.makedirs(OUT_DIR, exist_ok=True); name = name or os.path.basename(path)
     dst = os.path.join(OUT_DIR, name)
     probs = scan(path)

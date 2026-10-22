@@ -15,7 +15,7 @@ def test_weekly_batch_min_videos(tmp_path):
     finally: Q.DIR = old
     per = collections.Counter((m["product"], m["page"]) for m in o["slot_map"])
     assert o["new_videos"] == sum(max(n for (p, _), n in per.items() if p == pk) for pk in {p for p, _ in per})
-    assert len(o["slot_map"]) == o["slots"] == 20 and o["total_credits"] == o["new_videos"] * 200
+    assert len(o["slot_map"]) == o["slots"] == 20 and o["total_credits"] < o["new_videos"] * 200   # D181/D191: hooks 720p now (was 1080p = 200/video)
     assert not o["repeated_captions_on_a_page"] and all("NEEDS A NEW CAPTION" not in m["caption"] for m in o["slot_map"])
     byvid = collections.defaultdict(list)
     for m in o["slot_map"]: byvid[m["video"]].append(m)

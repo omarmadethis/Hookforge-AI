@@ -61,7 +61,7 @@ FORMATS = {
               ("Grinch X Costco 😳🎄", "F", "ext Costco pallet 246K"), ("Christmas moms, don't walk RUN to costco!🎄👀", "T", "ext tryglowmas 246K"),
               ("PurrVenture X PetSmart 😳🐾", "T", "HJ-03 transfer"), ("Cat moms RUN dont walk to PetSmart 😳", "T", "HJ-04 transfer"),
               ("Ski Mask X Target 😳", "T", "HJ-03 transfer"), ("Grinch Mug X Target 😳🎄❄️", "T", "HJ-03 transfer")],
-  text_cards=[(0, "activation", "{hook}"), ("activation", "end", "JK, We make them🎅🎄")],
+  text_cards=[(0, "end", "{hook}")],  # D188/D191: one card; JK line lives in the FB caption
   body_override={"wearable_gift": [("HOOK", 0.0, 3.0, "pallet push-in, nobody in frame", "H"),
                                     ("PULL", 3.0, 4.9, "a hand pulls one folded {product} off the pallet toward the lens", "B1"),
                                     ("PUT", 4.9, 6.9, "man puts it on, hood up, his back to the phone", "B1"),
@@ -100,7 +100,7 @@ FORMATS = {
               ("Walmart X Christmas 🎄🎁", "F", "17.4M"), ("Grinch X Target 😳🎄❄️", "P", "HJ 147K staff unveil"), ("Costco X Christmas 🎄🎁", "F", "VR-04"),
               ("Target X Grinch 😱", "P", "HJ 71K"), ("IKEA X Christmas lights 🎄✨", "F", "17.4M"), ("Walmart X Grinch 😳🎄", "F", "HJ-03"),
               ("PetSmart X Christmas 🐾🎄", "T", "17.4M"), ("Costco X Grinch 😳", "F", "VR-04")],
-  text_cards=[(0, "activation", "{hook}"), ("activation", "end", "JK, We make them🎅🎄")],
+  text_cards=[(0, "end", "{hook}")],  # D188/D191: one card; JK line lives in the FB caption
   hook_prompt_original=("In a warehouse-style store aisle that looks like {store_look} (no logos), two employees in plain red shirts stand beside a tall display covered "
                         "with a white cloth while a small crowd of shoppers watches with phones up. On a count they pull the cloth off: a pallet of {brand} boxes from "
                         "<<<image_2>>> with working {product_look}s from <<<image_1>>> on top. Shoppers gasp and step closer. Handheld from the crowd, slow push-in. "
@@ -130,7 +130,7 @@ FORMATS = {
               ("Christmas Decor in 1965🤮 → Vs → 2026", "P", "ext 3.2M"), ("Christmas Decor in 1995🤮 → Vs → 2026", "P", "ext 1.0M"),
               ("Movie night last year.. → Vs.. → Movie night this year", "F", "MGS-01 x MF-01"), ("Christmas morning in 1965.. → Vs.. → Christmas morning in 2026", "T", "robe transfer"),
               ("Hot cocoa in 1957.. → Vs.. → Hot cocoa in 2026", "T", "mug transfer"), ("S'mores last year.. → Vs.. → S'mores this year", "F", "MGS-01")],
-  text_cards=[(0, "first_body_cut", "{then_card}"), ("first_body_cut", "payoff_reveal", "Vs.."), ("payoff_reveal", "end", "{now_card}")],
+  text_cards=[(0, "payoff_reveal", "{then_card}"), ("payoff_reveal", "end", "{now_card}")],  # D188/D191: VS format = max 2 cards
   hook_prompt_original=("Locked wide iPhone video of a lived-in {room} at night, Christmas tree, a family of {n_people} and a golden retriever, small American flag on the wall. "
                         "Within two seconds {disaster}; everyone jumps up and the dog runs toward the camera. HARD CUT at 2.9s to a second angle of the same messy room. "
                         "No product anywhere in frame. " + NAT.format(sounds="crackle, gasps, dog bark")),
@@ -389,7 +389,7 @@ FORMATS = {
               ("Calling ALL Christmas-aholics 😁 (FaceTime)", "P", "MGS-03 35.4K"), ("Babe, can you please get me this? 🥹", "T", "FaceTime"), ("Grandmas RUN dont walk to Walmart 😳", "F", "MC-03"),
               ("Christmas dads, don't walk RUN to Home Depot 😏", "F", "MC-03"), ("Christmas moms RUN to Walmart", "P-flop", "HJ 3.9K day 0"), ("Cat moms, don't walk RUN to Walmart 😏", "T", "MC-03"),
               ("Christmas lovers, don't walk RUN to Target 😏", "F", "MC-03"), ("Wives, don't walk RUN to Target 😏", "F", "MC-03")],
-  text_cards=[(0, "activation", "{hook}"), ("activation", "end", "JK, We make them🎅🎄")],
+  text_cards=[(0, "end", "{hook}")],  # D188/D191: one card; JK line lives in the FB caption
   hook_prompt_original=("In a store aisle that looks like {store_look} (no logos), a store employee holds the switched-on {product_look} from <<<image_1>>> toward the camera, glowing; "
                         "a shopper gasps and points. " + NAT.format(sounds="store ambience, gasp")),
   hook_prompt_recreate="(T1 with the store-reaction reference)", startframe_prompt="iPhone photo in a store aisle that looks like {store_look}: an employee holding the working {product_look} from the first image; American flag overhead. Sharp, clean, realistic phone photo.",
@@ -403,7 +403,7 @@ FORMATS = {
   hook_lines=[("The idea 🤮 → Vs... → The result 🤩", "P", "MJIG-02 30.9K"), ("The first idea... 🤮👎", "P", "ext 933K"), ("The concept 🤮", "P", "CapCut 0913(1)"),
               ("The prototype... 🤮 → Vs... → The product... 😏", "P", "library MerryTables"), ("DIY version 🤮 → Vs → the real one 🤩", "F", ""), ("My husband's idea 🤮 → Vs → mine 🤩", "F", ""),
               ("Pinterest 🤮 → Vs → reality 🤩", "T", ""), ("2 AM idea 🤮 → Vs → the result 🤩", "F", ""), ("Version 1 🤮 → Vs → Version 10 😏", "F", ""), ("Expectation 🤮 → Vs → result 🤩", "T", ""), ("Dad's DIY 🤮 → Vs → this 🤩", "F", "")],
-  text_cards=[(0, "first_body_cut", "{then_card}"), ("first_body_cut", "payoff_reveal", "Vs..."), ("payoff_reveal", "end", "{now_card}")],
+  text_cards=[(0, "payoff_reveal", "{then_card}"), ("payoff_reveal", "end", "{now_card}")],  # D188/D191: VS format = max 2 cards
   hook_prompt_original=("On a backyard table a homemade DIY version of the {product} made from tin cans and duct tape; a hand tries it and it immediately fails (flares up / collapses). "
                         + NAT.format(sounds="'oh no no no', clatter")),
   hook_prompt_recreate="(T1 with DIY-fail reference)", startframe_prompt="iPhone photo of a backyard table with a messy homemade DIY {product} made of tin cans and tape. Sharp, clean, realistic phone photo.",

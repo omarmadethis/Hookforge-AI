@@ -229,7 +229,7 @@ WORLDS = {
    music_forbidden=["Christmas songs (wrong niche)"], keyword="USA", processing_days=None, ship_days=None,
    body_override={"UNBOX": ("UNBOX", "the box open in his hands in the driveway, the two black pods and magnets lifted out")},
    copy_forbidden=["grinch", "santa", "mom", "cozy", "heated", "ski"],
-   poc_hooks={"F04": ("Fake Trump Fans.. 🤢👎 → Vs... → What We ACTUALLY Sell... 😎🇺🇸", "P", "Lumi Door 'His last day with us.. VS...' 2.4M views (POC-0255) + Omar's Hello Kitty anchor 'Fake ... Fans.. / What We ACTUALLY Sell' (POC-0281/0282)"),
+   poc_hooks={"F04": ("Old projector's last night.. 😔🇺🇸 → First night with the real one 😎🇺🇸", "P", "D183/F101: 'Fake Trump Fans vs What We ACTUALLY Sell' rejected as incoherent 2026-10-21; A3 copy modeled on Lumi Door 'His last day with us.. VS...' 2.4M views (POC-0255)"),
               "F09": ("POV: your wife got this for your truck 😂🇺🇸", "P", "Lumi Door 'POV: ur wife got this…' 1.2M views (POC-0258/0260)")},
    poc_sources=["research/trumpglow/RESEARCH.md: Lumi Door 'His last day with us.. VS...' 2.4M (POC-0255/0257) and 'POV: ur wife got this...' 1.2M (POC-0258/0260)",
                 "NFL car door light 202K (POC-0277/0278)", "Omar's Hello Kitty 'Fake ... Fans.. / What We ACTUALLY Sell' anchor grammar (POC-0281..0283)",

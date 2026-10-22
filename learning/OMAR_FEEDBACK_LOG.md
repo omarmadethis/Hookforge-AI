@@ -116,3 +116,4 @@ Enforcement key: gates.py G1–G19 (`gates.run_all`), qa.final_checks gates, spe
 | F106 | 2026-10-21 4:21 PM | ONE on-screen card per video; 2nd only for problem-vs-solution/then-vs-now or a closing 'get it from the caption below 👇' card; never 3+ | all | **D188** | card_count.gate / gates.g26_card_count / autoedit enforce (BLOCK) |
 | F107 | 2026-10-21 5:09 PM | Card emojis must be Apple iOS (existing D61 was skipped in LR1/LR2) | all | **D189** | emoji_gate.render / gates.g28 / render-path test (BLOCK) |
 | F108 | 2026-10-21 5:09 PM | Recreations use the original reel's exact song and section, frame 0, no loops | recreations | **D190** | original_song.gate / gates.g27 (BLOCK) |
+| F109 | 2026-10-21 ~5:15 PM | "you can't just say that's on me and make the same mistake again... I should not have to tell you something more than once" -> D191 master gate on every deliverable, auto-fix loop, zero metadata on all files |

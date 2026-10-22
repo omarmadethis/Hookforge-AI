@@ -19,7 +19,8 @@ def test_new_products_plan_clean():
         p = planner.plan("video", override={"format": f, "product_key": pk}, mode="original")
         assert p["gates"]["ok"], (pk, f, p["gates"]["blocks"]); assert runner.preflight(p)["ok"], (pk, f)
     p = planner.plan("video", override={"format": "F04", "product_key": "trumpglow"}, mode="original")
-    assert [c["text"] for c in p["text_cards"]][1].startswith("Vs")                  # Vs only in the mid card (G14)
+    t = [c["text"] for c in p["text_cards"]]                                          # D188/D191: then-vs-now = 2 cards, no 'Vs' on card 1
+    assert len(t) == 2 and not t[0].lower().startswith("vs") and "ACTUALLY Sell" not in " ".join(t)   # F101 rejected copy never returns
 
 def test_blockers_fixed_in_planner_not_gates():
     tmp = tempfile.mkdtemp(); AQ.DIR = os.path.join(tmp, "q")

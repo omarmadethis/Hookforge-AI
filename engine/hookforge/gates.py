@@ -72,7 +72,7 @@ def g3_profiles(product_profile=None, audience_profile=None):
 
 # G4
 def is_hook_gen(g): return g.get("id") == "H" or g.get("role") == "hook" or str(g.get("id", "")).startswith("H")
-def expected_res(g): return "1080p" if is_hook_gen(g) else "720p"
+def expected_res(g): return "720p"   # D181/MR03 (Omar 2026-10-20 8:02 PM PT): every gen 720p, hooks included (was hook 1080p - stale after D181)
 def enforce_resolution(plan):
     """Planner-side: force the rule onto the plan (returns list of changes)."""
     ch = []
@@ -81,7 +81,7 @@ def enforce_resolution(plan):
     return ch
 def g4_resolution(plan):
     bad = [(g["id"], g.get("res")) for g in plan.get("gens") or [] if g.get("res") != expected_res(g)]
-    return [R("G4", not bad, f"resolution violations {bad}" if bad else "hook 1080p, rest 720p")]
+    return [R("G4", not bad, f"resolution violations {bad}" if bad else "all gens 720p (D181)")]
 
 # G5
 def video_cost(g):

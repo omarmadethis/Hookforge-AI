@@ -1,0 +1,482 @@
+[
+ {
+  "id": "MR01",
+  "rule": "Zero metadata on EVERY deliverable (video, image, pfp, cover, thumbnail, start frame, any file): no EXIF/XMP/C2PA/encoder/AI tags. Auto-stripped then re-verified.",
+  "sources": "F35,F87,D44,D99,memory 'zero metadata'",
+  "date_PT": "2026-10-18..2026-10-21",
+  "check": "auto",
+  "fn": "metadata",
+  "fix": "free:sanitize",
+  "applies": "all"
+ },
+ {
+  "id": "MR02",
+  "rule": "Finished videos go to Omar as in-chat attachments/players, never Drive links.",
+  "sources": "memory 2026-10-21",
+  "date_PT": "2026-10-21",
+  "check": "process",
+  "fn": "",
+  "fix": "none",
+  "applies": "video"
+ },
+ {
+  "id": "MR03",
+  "rule": "Every generation is 720p, hooks included (supersedes 'hook 1080p' F10/R10). Final export is 720x1280.",
+  "sources": "D181,F99,memory '720p'",
+  "date_PT": "2026-10-20 8:02 PM",
+  "check": "auto",
+  "fn": "res_720",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR04",
+  "rule": "Hook = its own single 4 s generation; body clips packed 2 per 4 s generation joined by a hard cut.",
+  "sources": "playbook skill,memory",
+  "date_PT": "2026-10-20",
+  "check": "auto",
+  "fn": "gen_packing",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR05",
+  "rule": "Every gen <= 5 s (4 s typical), never 8 s; hook <= 5 s on screen.",
+  "sources": "F09,H03",
+  "date_PT": "2026-10-10",
+  "check": "auto",
+  "fn": "gen_len",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR06",
+  "rule": "Seedance 2.5 only (no Kling); start frames only, never end frames.",
+  "sources": "F11,F13,memory",
+  "date_PT": "2026-09-29..10-06",
+  "check": "auto",
+  "fn": "gen_models",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR07",
+  "rule": "Stills are GPT Image 2 only and every start frame has its product/cast refs attached.",
+  "sources": "F12,F88,F92,memory",
+  "date_PT": "2026-10-09..10-20",
+  "check": "auto",
+  "fn": "frame_refs",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR08",
+  "rule": "Start frames are shown to Omar before any clip spend.",
+  "sources": "F41,D69 G8",
+  "date_PT": "2026-10-19",
+  "check": "auto+manual",
+  "fn": "frames_shown",
+  "fix": "none",
+  "applies": "video"
+ },
+ {
+  "id": "MR09",
+  "rule": "No credit spend without Omar's approved plan + cap; total spend stays within the cap; always list cost.",
+  "sources": "F14,F15,security",
+  "date_PT": "2026-10-03..",
+  "check": "auto",
+  "fn": "spend_cap",
+  "fix": "none",
+  "applies": "video"
+ },
+ {
+  "id": "MR10",
+  "rule": "Every prompt ends with the iPhone-12 realism suffix (no blur, no warm light, nothing cinematic).",
+  "sources": "F02,R02,playbook",
+  "date_PT": "2026-09-27..10-05",
+  "check": "auto",
+  "fn": "realism_suffix",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR11",
+  "rule": "Start frames/footage look like a genuine iPhone photo, not AI slop.",
+  "sources": "F01,F26",
+  "date_PT": "2026-10-01",
+  "check": "manual",
+  "fn": "",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR12",
+  "rule": "No visible grain or sharpening in the grade.",
+  "sources": "F58,F89",
+  "date_PT": "2026-10-20",
+  "check": "manual",
+  "fn": "",
+  "fix": "free:none",
+  "applies": "video"
+ },
+ {
+  "id": "MR13",
+  "rule": "A US flag is visible in the video (every clip where plausible), big enough to read.",
+  "sources": "F03,R03,memory",
+  "date_PT": "2026-10-04",
+  "check": "auto+manual",
+  "fn": "flag_hint",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR14",
+  "rule": "Gaze and physics correct: no phasing, no blank stares at camera unless staged.",
+  "sources": "F90,F43,D70,F74",
+  "date_PT": "2026-10-19..10-20",
+  "check": "manual",
+  "fn": "",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR15",
+  "rule": "Natural motion; no permanent shock face; not slow/robotic.",
+  "sources": "F18",
+  "date_PT": "2026-10-06",
+  "check": "manual",
+  "fn": "",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR16",
+  "rule": "Time of day progresses chronologically; settings are relatable homes.",
+  "sources": "F17,F25",
+  "date_PT": "2026-10-08",
+  "check": "manual",
+  "fn": "",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR17",
+  "rule": "Product shown working and exactly matching the real product (colour, density, box) in every shot.",
+  "sources": "F16,F30,F69,R30",
+  "date_PT": "2026-10-08",
+  "check": "manual",
+  "fn": "",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR18",
+  "rule": "Every video fully unique: zero footage shared with any other video on any page (perceptual hash vs all registered/posted videos).",
+  "sources": "D180,F98",
+  "date_PT": "2026-10-20 7:42 PM",
+  "check": "auto",
+  "fn": "footage_unique",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR19",
+  "rule": "Never the same video on 2 pages, and never repost a video (reposts get shadowbanned).",
+  "sources": "memory 2026-10-21 (B3 dup on TrumpGlow+PatriotsGlow)",
+  "date_PT": "2026-10-21",
+  "check": "auto",
+  "fn": "page_unique",
+  "fix": "none",
+  "applies": "video"
+ },
+ {
+  "id": "MR20",
+  "rule": "No race-based casting; never sexualize or feature minors; exclude FEMBOY child content.",
+  "sources": "F31,H01,security",
+  "date_PT": "2026-10-18",
+  "check": "manual",
+  "fn": "",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR21",
+  "rule": "Only active products (jollyglow_curtain, trumpglow, purrventure_carrier, lumarein); retired products are reference data only; no Roblox.",
+  "sources": "F96,F97,memory",
+  "date_PT": "2026-10-20",
+  "check": "auto",
+  "fn": "active_product",
+  "fix": "none",
+  "applies": "video"
+ },
+ {
+  "id": "MR22",
+  "rule": "Hook is a proven POC format (formats/index.json) or a truly scroll-stopping relevant moment; every element POC-backed.",
+  "sources": "F104,D186,F72",
+  "date_PT": "2026-10-21 1:30 AM",
+  "check": "auto+manual",
+  "fn": "hook_plan",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR23",
+  "rule": "Real point of conflict/action visible in the first second.",
+  "sources": "F102,D184,F99,D181",
+  "date_PT": "2026-10-21 1:29 AM",
+  "check": "auto+manual",
+  "fn": "hook_plan",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR24",
+  "rule": "3-2-1 spec: covered product cue at 0 s, everyone counts together, 'let's see how it comes out' on the reveal, split-second (<=0.5 s) reveal, full product saved for the afters, count voices ~+8 LU over the song.",
+  "sources": "F105,D187,F83,F82",
+  "date_PT": "2026-10-21 1:33 AM",
+  "check": "auto+manual",
+  "fn": "count321",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR25",
+  "rule": "Song starts at frame 0 (no silent lead-in) and plays continuously: no loops, no splices (audio fingerprint vs the reference song).",
+  "sources": "F37,D66,memory",
+  "date_PT": "2026-10-19",
+  "check": "auto",
+  "fn": "song_continuity",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR26",
+  "rule": "Recreations use the competitor's exact song AND section (verified fingerprint in refs/<slug>/songs_verified.json).",
+  "sources": "F108,D190,F77",
+  "date_PT": "2026-10-21 5:09 PM",
+  "check": "auto",
+  "fn": "recreation_song",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR27",
+  "rule": "No phonk / slowed+reverb; proven song section people actually use.",
+  "sources": "F40,F70,F76",
+  "date_PT": "2026-10-19",
+  "check": "auto",
+  "fn": "no_phonk",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR28",
+  "rule": "Real ambient clip audio only, never fake SFX; voices audible over the song.",
+  "sources": "F05,F40,F52,F82",
+  "date_PT": "2026-10-03..10-19",
+  "check": "manual",
+  "fn": "",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR29",
+  "rule": "Straight hard cuts only: no fades, no jump cut inside one take, no lingering boring shot.",
+  "sources": "F08,F56,F62,F63,F85",
+  "date_PT": "2026-10-07..10-19",
+  "check": "manual",
+  "fn": "",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR30",
+  "rule": "The payoff/after is >= 2 hard cuts (3+ shots), no payoff shot > 1.5 s, never one cinematic shot.",
+  "sources": "F103,D185",
+  "date_PT": "2026-10-21 1:29 AM",
+  "check": "auto",
+  "fn": "payoff_cuts",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR31",
+  "rule": "ONE on-screen card by default; a 2nd only for a problem-vs-solution / then-vs-now hook or a closing 'get it from the caption below 👇' card; never 3+.",
+  "sources": "F106,D188,memory",
+  "date_PT": "2026-10-21 4:21 PM",
+  "check": "auto",
+  "fn": "card_count",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR32",
+  "rule": "Every card is <= 8 words.",
+  "sources": "D67,memory",
+  "date_PT": "2026-10-19",
+  "check": "auto",
+  "fn": "card_words",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR33",
+  "rule": "'VS' only ever on the middle card, never on the first card.",
+  "sources": "F64,memory",
+  "date_PT": "2026-10-19",
+  "check": "auto",
+  "fn": "vs_position",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR34",
+  "rule": "No 'Get yours' and no URL on screen or in captions.",
+  "sources": "F45,F91,memory",
+  "date_PT": "2026-10-19",
+  "check": "auto",
+  "fn": "no_get_yours",
+  "fix": "free:recompose",
+  "applies": "all"
+ },
+ {
+  "id": "MR35",
+  "rule": "Card emojis are Apple iOS (Apple Color Emoji) art, pixel-verified against textcards.",
+  "sources": "F107,D189,F40,F54,D61",
+  "date_PT": "2026-10-21 5:09 PM",
+  "check": "auto",
+  "fn": "apple_emoji",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR36",
+  "rule": "Every card is visible from its shot's first frame (starts on a cut +-1 frame, >= 1 s, readable contrast on the render).",
+  "sources": "F100,D182",
+  "date_PT": "2026-10-21 1:29 AM",
+  "check": "auto",
+  "fn": "card_timing",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR37",
+  "rule": "Card copy makes literal logical sense for what is on screen.",
+  "sources": "F101,D183",
+  "date_PT": "2026-10-21 1:29 AM",
+  "check": "manual",
+  "fn": "",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR38",
+  "rule": "Cards never cover a face.",
+  "sources": "memory 2026-10-21 (own commitment)",
+  "date_PT": "2026-10-21",
+  "check": "auto",
+  "fn": "cards_off_faces",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR39",
+  "rule": "Rendered card text matches the approved card copy (OCR) and fits in <= 2 rows.",
+  "sources": "F53,memory 'check every card vs spec'",
+  "date_PT": "2026-10-21",
+  "check": "auto",
+  "fn": "card_ocr",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR40",
+  "rule": "FB/IG captions use SAY \"<KEYWORD>\", never 'Comment'.",
+  "sources": "F93,D148",
+  "date_PT": "2026-10-20 9:47 AM",
+  "check": "auto",
+  "fn": "caption_say",
+  "fix": "free:caption",
+  "applies": "publish"
+ },
+ {
+  "id": "MR41",
+  "rule": "Before publish the exact caption equals the approved caption and every card equals the approved card spec.",
+  "sources": "memory 2026-10-21",
+  "date_PT": "2026-10-21",
+  "check": "auto",
+  "fn": "caption_approved",
+  "fix": "free:caption",
+  "applies": "publish"
+ },
+ {
+  "id": "MR42",
+  "rule": "No caption line repeats a line already posted on that page.",
+  "sources": "memory 2026-10-21,F22",
+  "date_PT": "2026-10-21",
+  "check": "auto",
+  "fn": "caption_fresh",
+  "fix": "free:caption",
+  "applies": "publish"
+ },
+ {
+  "id": "MR43",
+  "rule": "Caption is a proven hook-style caption (not a store listing title); no engagement-bait questions.",
+  "sources": "F78,F67,D138",
+  "date_PT": "2026-10-19",
+  "check": "auto",
+  "fn": "caption_style",
+  "fix": "free:caption",
+  "applies": "publish"
+ },
+ {
+  "id": "MR44",
+  "rule": "Nothing is posted without Omar's approval or explicit ask for that post.",
+  "sources": "security,D78",
+  "date_PT": "standing",
+  "check": "auto",
+  "fn": "publish_approval",
+  "fix": "none",
+  "applies": "publish"
+ },
+ {
+  "id": "MR45",
+  "rule": "Caption swap only at 40K views or 10K+ within an hour.",
+  "sources": "memory,D93",
+  "date_PT": "2026-10-20",
+  "check": "process",
+  "fn": "",
+  "fix": "none",
+  "applies": "publish"
+ },
+ {
+  "id": "MR46",
+  "rule": "Superseded Drive versions get trashed after a new version ships.",
+  "sources": "F60,memory",
+  "date_PT": "2026-10-19",
+  "check": "process",
+  "fn": "",
+  "fix": "none",
+  "applies": "all"
+ },
+ {
+  "id": "MR47",
+  "rule": "Every Omar fix becomes a permanent rule in this file plus an automated check or required review item.",
+  "sources": "F66,memory 2026-10-21",
+  "date_PT": "2026-10-21",
+  "check": "auto",
+  "fn": "rules_registry",
+  "fix": "none",
+  "applies": "all"
+ },
+ {
+  "id": "MR48",
+  "rule": "Never burn in captions (F04) - SUPERSEDED: on-screen cards are now required (D188); post captions live in the FB caption.",
+  "sources": "F04",
+  "date_PT": "2026-10-08",
+  "check": "superseded",
+  "fn": "",
+  "fix": "none",
+  "applies": "video"
+ }
+]

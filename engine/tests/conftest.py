@@ -1,6 +1,8 @@
 """D162 test markers for CI. Tests that read assets excluded from git (docs/MANIFEST_EXCLUDED.md) carry the
 `needs_data` marker. CI runs `pytest -m "not needs_data"`, while local runs on the box still run everything.
 The list below was found by running the suite on a clean clone, bound over /workspace/hookforge."""
+import os as _os_mg
+_os_mg.environ.setdefault("HOOKFORGE_GATE_TEST_BYPASS", "1")   # D191: legacy unit tests stage tmp fixtures; master-gate tests unset it
 import os
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 HAVE_DATA = os.path.exists(os.path.join(REPO, "private", "corpus", "corpus.csv")) and os.path.isdir(os.path.join(REPO, "out"))

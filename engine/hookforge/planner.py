@@ -213,12 +213,14 @@ def _plan_core(brief, force=False, override=None, mode=None):
         if tpl == "Vs.." and len(parts) > 1: txt = parts[1]
         if tpl.startswith("JK") and hook.get("cards") and len(hook["cards"]) > 1: txt = hook["cards"][1]
         cards.append(dict(t=round(float(s0), 2), dur=round(float(s1) - float(s0), 2), text=txt, scale=STY.text_scale(txt)))
-    if fmt == "F04" and len(hook.get("cards") or []) == 4:   # own 4-card then-vs-now (MG-01 CapCut): then1 | then2 (internal hook cut) | Vs.. (product shots) | now (lights-on reveal)
-        st = [s[1] for s in shots]; inner = next((t for t in st if 0 < t < hook_end), hook_end / 2)
+    if fmt == "F04" and len(hook.get("cards") or []) >= 2:   # D188/D191: then-vs-now = max 2 cards (then | now), never 3+
         ai = next((i for i, s in enumerate(shots) if s[0] == bd.get("activation_shot")), None)
-        reveal = st[ai + 1] if ai is not None and ai + 1 < len(st) else pay
-        bounds = [0, inner, hook_end, reveal, end]
-        cards = [dict(t=round(float(bounds[i]), 2), dur=round(float(bounds[i + 1] - bounds[i]), 2), text=hook["cards"][i], scale=STY.text_scale(hook["cards"][i])) for i in range(4)]
+        st = [s[1] for s in shots]; reveal = st[ai + 1] if ai is not None and ai + 1 < len(st) else pay
+        two = [hook["cards"][0], hook["cards"][-1]]; bounds = [0, reveal, end]
+        cards = [dict(t=round(float(bounds[i]), 2), dur=round(float(bounds[i + 1] - bounds[i]), 2), text=two[i], scale=STY.text_scale(two[i])) for i in range(2)]
+    if fmt in ("F04", "F06") and isinstance(hook, dict): hook.setdefault("format", "then-vs-now")
+    from .card_count import enforce as _cc_enforce
+    _cc_enforce(cards, "then-vs-now" if fmt in ("F04", "F06") else fmt)   # D191: planner can never emit >1 card by default
     style = plugins.text_preset()
     hooks_v = hook_variants(prof, fmt, ad, hook)
     covers = cover_frames(shots, cards, fmt, body)

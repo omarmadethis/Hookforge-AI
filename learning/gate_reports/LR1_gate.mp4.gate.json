@@ -1,0 +1,362 @@
+{
+ "video_id": "LR1",
+ "kind": "video",
+ "product": "lumarein",
+ "page": null,
+ "hook": {
+  "format": "then-vs-now",
+  "first_second_action": "rider rips duct tape and slaps a cheap LED strip onto the horse's leg in frame 0",
+  "conflict": "ridiculous DIY tape hack on a horse that fails on camera",
+  "conflict_t_s": 0.0
+ },
+ "shots": [
+  {
+   "gen": "LR1_H",
+   "t0": 0.0,
+   "t1": 4.0,
+   "role": "hook"
+  },
+  {
+   "gen": "LR1_B1a",
+   "t0": 4.0,
+   "t1": 5.5,
+   "role": "body"
+  },
+  {
+   "gen": "LR1_B1b",
+   "t0": 5.5,
+   "t1": 6.8,
+   "role": "body"
+  },
+  {
+   "gen": "LR1_B2a",
+   "t0": 6.8,
+   "t1": 8.3,
+   "role": "after"
+  },
+  {
+   "gen": "LR1_B2b",
+   "t0": 8.3,
+   "t1": 9.8,
+   "role": "after"
+  },
+  {
+   "gen": "LR1_B3a",
+   "t0": 9.8,
+   "t1": 11.3,
+   "role": "after"
+  },
+  {
+   "gen": "LR1_B3b",
+   "t0": 11.3,
+   "t1": 12.8,
+   "role": "after"
+  }
+ ],
+ "cards": [
+  {
+   "text": "The idea... 😭💡",
+   "t0": 0.0,
+   "t1": 8.3,
+   "png": "/workspace/hookforge/out/lumarein/final/.mg_LR1_gate/card0.png",
+   "why": "hook shows the rider taping a cheap LED strip to the horse leg: that is 'the idea'",
+   "shows": "rider taping LED strip horse leg",
+   "scale": 1.0,
+   "scale_max": 1.0,
+   "y": 0.69
+  },
+  {
+   "text": "The result 😍🙈",
+   "t0": 8.3,
+   "t1": 12.8,
+   "png": "/workspace/hookforge/out/lumarein/final/.mg_LR1_gate/card1.png",
+   "why": "first after shot shows the glowing horse kit lit at night: that is 'the result'",
+   "shows": "glowing horse kit lit night",
+   "scale": 1.0,
+   "scale_max": 1.0
+  }
+ ],
+ "song": {
+  "key": "rock_that_body",
+  "path": "music/rock_that_body_bep.m4a",
+  "in_s": 22.2,
+  "start_t": 0,
+  "loops": false,
+  "recreate_of": {
+   "slug": "lumarein",
+   "reel_id": "7698178513446128902"
+  }
+ },
+ "gens": [
+  {
+   "id": "LR1_H",
+   "role": "hook",
+   "res": "720p",
+   "dur": 4,
+   "model": "seedance_2_5",
+   "shots": [
+    "H"
+   ]
+  },
+  {
+   "id": "LR1_B1",
+   "role": "body",
+   "res": "720p",
+   "dur": 4,
+   "model": "seedance_2_5",
+   "shots": [
+    "B1a",
+    "B1b"
+   ]
+  },
+  {
+   "id": "LR1_B2",
+   "role": "body",
+   "res": "720p",
+   "dur": 4,
+   "model": "seedance_2_5",
+   "shots": [
+    "B2a",
+    "B2b"
+   ]
+  },
+  {
+   "id": "LR1_B3",
+   "role": "body",
+   "res": "720p",
+   "dur": 4,
+   "model": "seedance_2_5",
+   "shots": [
+    "B3a",
+    "B3b"
+   ]
+  }
+ ],
+ "frames": [
+  {
+   "id": "LR1_H",
+   "model": "gpt_image_2",
+   "refs": [
+    "refs/lumarein/product"
+   ]
+  },
+  {
+   "id": "LR1_B1",
+   "model": "gpt_image_2",
+   "refs": [
+    "refs/lumarein/product"
+   ]
+  },
+  {
+   "id": "LR1_B2",
+   "model": "gpt_image_2",
+   "refs": [
+    "refs/lumarein/product"
+   ]
+  },
+  {
+   "id": "LR1_B3",
+   "model": "gpt_image_2",
+   "refs": [
+    "refs/lumarein/product"
+   ]
+  }
+ ],
+ "prompts": [
+  "...shot on iphone 12, no warm lighting, no blur, nothing cinematic"
+ ],
+ "spend": {
+  "cap": 310.5,
+  "spent": 282.5
+ },
+ "frames_shown": true,
+ "own_globs": [
+  "out/lumarein/clips/LR1_*",
+  "out/lumarein/final/LR1_*",
+  "out/lumarein/final/.mg_LR1*"
+ ],
+ "edit": {
+  "body": "/workspace/hookforge/out/lumarein/final/LR1_body.mp4",
+  "body_gain": 0.22,
+  "W": 720,
+  "H": 1280
+ },
+ "regen": {
+  "cap_remaining": 28,
+  "cost_per_clip": 28,
+  "approved_by": "Omar",
+  "runner": null,
+  "note": "Omar approved 310.5 cap; 28 left for one reroll"
+ },
+ "caption": "Night rides just got an upgrade 😍🐴 SAY \"GALLOP\" if you need this\n#equestrian #horse #horsegirl #gallop #usa",
+ "confirm": {
+  "MR08": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "Omar approved all 8 LumaRein start frames before clips (t357u 'yeah they're good')",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR11": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "stills reviewed at 0.5 s intervals: phone-style arena, barn and field footage, no plastic AI look",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR12": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "no added grain or sharpening; only the LED bloom/trail pass on lit shots",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR13": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "US flag on the arena fence at 0-1.5 s, barn wall flag at 5.5-6.8 s, fence flag in the blue-hour shot, flag on the pole in the final field gallop",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR14": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "horse turns from camera to rider, hands and straps contact correctly, no phasing seen in sampled frames",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR15": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "rider taping, standing, facepalming; natural motion, no frozen shock face",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR16": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "sunset arena -> dusk -> blue hour -> night beach/field: chronological",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR17": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "grey padded LumaRein bands, Y chest strap and round remote consistent across body and afters",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR20": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "adult women riders only, no casting by race, no minors",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR22": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "then-vs-now 'The idea... / The result' copied from the LumaRein 2.6M reel (POC)",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR23": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "frame 0 shows the rider duct-taping a cheap LED strip on the horse leg (DIY hack conflict); by 3.5 s the strip droops to the sand and she facepalms",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR24": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "not a 3-2-1 hook (then-vs-now), spec does not apply",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR28": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "Seedance clip ambient at 0.22 under the original song, no SFX added in the edit",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR29": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "concat of trims with hard cuts, no fades, shots 1.3-1.5 s after the 4 s hook",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  },
+  "MR37": {
+   "by": "Grok Bot vision review 2026-10-21 5:40 PM PT",
+   "note": "'The idea...' sits over the tape hack; 'The result' lands on the first glowing night shot",
+   "sha256": "fdf34d9ec6ad5eccccdd43c589abd6843693d99b0ca81ba4b75216fac5ac09d9"
+  }
+ },
+ "_hints": {
+  "flag_frame_share": 0.269,
+  "song_windows": [
+   {
+    "t": 0.0,
+    "corr": 0.92,
+    "lag_s": 0.0
+   },
+   {
+    "t": 0.99,
+    "corr": 0.94,
+    "lag_s": 0.0
+   },
+   {
+    "t": 1.98,
+    "corr": 0.94,
+    "lag_s": 0.0
+   },
+   {
+    "t": 2.98,
+    "corr": 0.93,
+    "lag_s": 0.0
+   },
+   {
+    "t": 3.97,
+    "corr": 0.92,
+    "lag_s": 0.0
+   },
+   {
+    "t": 4.96,
+    "corr": 0.91,
+    "lag_s": 0.0
+   },
+   {
+    "t": 5.95,
+    "corr": 0.9,
+    "lag_s": 0.0
+   },
+   {
+    "t": 6.94,
+    "corr": 0.92,
+    "lag_s": 0.0
+   },
+   {
+    "t": 7.94,
+    "corr": 0.93,
+    "lag_s": 0.0
+   },
+   {
+    "t": 8.93,
+    "corr": 0.94,
+    "lag_s": 0.0
+   },
+   {
+    "t": 9.92,
+    "corr": 0.94,
+    "lag_s": 0.0
+   }
+  ],
+  "payoff_measured_cuts": 3,
+  "ocr": [
+   {
+    "card": "The idea... 😭💡",
+    "ocr": "The idea... - ®",
+    "match": 1.0
+   },
+   {
+    "card": "The result 😍🙈",
+    "ocr": "The result —",
+    "match": 1.0
+   },
+   {
+    "card": "The idea... 😭💡",
+    "ocr": "The idea... - ®",
+    "match": 1.0
+   },
+   {
+    "card": "The result 😍🙈",
+    "ocr": "The result |",
+    "match": 1.0
+   },
+   {
+    "card": "The idea... 😭💡",
+    "ocr": "The idea... - ®",
+    "match": 1.0
+   },
+   {
+    "card": "The result 😍🙈",
+    "ocr": "The result |",
+    "match": 1.0
+   }
+  ]
+ }
+}

@@ -54,6 +54,9 @@ def _grade(s, plan):
 
 def final_cmd(clips, plan, out_path):
     """clips: {shot_code: (file, in_s)} from generated gens (trims from plan['gens'][*]['trims']). Music is added in CapCut."""
+    if plan.get("cards") is not None or plan.get("hook"):   # D191: render refuses unless the plan-level master gate passes
+        from . import master_gate
+        master_gate.pre_render(plan)
     ins, f, parts = [], [], []
     for i, s in enumerate(plan["shots"]):
         fpath, a = clips[s["code"]]; ins += ["-i", fpath]; d = s["t1"] - s["t0"]
