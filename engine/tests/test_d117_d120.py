@@ -11,6 +11,7 @@ def test_retired_not_routable_and_corpus_kept():
     with pytest.raises(products.Retired): routing.route("merryfire")
     assert os.path.exists("/workspace/hookforge/product_profiles/merryfire.json")       # data kept
 
+@__import__("pytest").mark.owner_config
 def test_no_duplicate_channels_and_spare_purr_routed():
     assert routing.duplicate_channels() == []
     assert [p["page"] for p in routing.route("purrventure_carrier")["pages"]] == ["purrventures_fb", "purrventures2_fb"]
@@ -36,6 +37,7 @@ def test_credit_ledger(tmp_path):
         assert not L.precheck("runX", 80, cap=175)["ok"]
     finally: gates.LEDGER = old
 
+@__import__("pytest").mark.owner_config
 def test_backfill_today():
     day = datetime.date(2026, 10, 20)
     exp = round(sum(r["credits"] for r in L._rows() if r["ts_pt"].startswith(day.isoformat())), 2)   # derived from the ledger, not a stale snapshot

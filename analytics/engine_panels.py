@@ -76,7 +76,8 @@ def sections(public=False):
 def publishing_panel(public=False):
     """D103: per-page Buffer queue, approvals pending, caption swaps pending, routing map. Reads files only
     (config/buffer_routing.json, learning/publish_queue/*.json, learning/publish_queue/caption_swaps/*.json)."""
-    rc = json.load(open(os.path.join(REPO, "config", "buffer_routing.json")))
+    from hookforge.userconfig import load as _ucload
+    rc = _ucload("buffer_routing")
     qd = os.path.join(REPO, "learning", "publish_queue"); sd = os.path.join(qd, "caption_swaps")
     items = [json.load(open(f)) for f in sorted(glob.glob(os.path.join(qd, "*.json")))]
     swaps = [json.load(open(f)) for f in sorted(glob.glob(os.path.join(sd, "*.json")))]

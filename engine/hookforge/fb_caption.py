@@ -19,7 +19,8 @@ CAP_DIR = os.path.join(REPO, "learning", "captions")
 LIB_F, TAGS_F = os.path.join(CAP_DIR, "caption_library.json"), os.path.join(CAP_DIR, "hashtags_by_product.json")
 TREND_DIR, TREND_OUT = "/workspace/research/trending_captions", os.path.join(CAP_DIR, "trending_ingested.json")
 SWAP_DIR = os.path.join(REPO, "learning", "publish_queue", "caption_swaps")
-URLS_F = os.path.join(REPO, "config", "product_urls.json")
+from .userconfig import cfg_path
+URLS_F = cfg_path("product_urls")   # config/product_urls.json (gitignored) or the .example.json
 
 # D93-6 (Omar 2026-10-20, permanent): swap at 40K total views OR 10K+ views gained inside any one-hour window
 # (incl. 10K in the first hour after posting). Replaces the D93-2 1K v/h, 24K day-1 and 2h/5K rules.

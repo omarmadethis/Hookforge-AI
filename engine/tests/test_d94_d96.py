@@ -1,5 +1,6 @@
 import os, sys, json, tempfile, subprocess, datetime
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+OWNER = __import__("pytest").mark.skipif(__import__("hookforge.userconfig", fromlist=["x"]).using_example("buffer_routing") or __import__("hookforge.userconfig", fromlist=["x"]).using_example("product_urls"), reason="owner config not present (fresh clone)")
 from hookforge import routing, publish, fb_caption, snapshot_scheduler as SS, results_feed as RF
 
 def _clip(tmp, name, color):
@@ -15,6 +16,8 @@ def raises(fn, *a, exc=publish.NotAllowed, **k):
     except exc: return True
     raise AssertionError(f"expected {exc}")
 
+@OWNER
+@__import__("pytest").mark.owner_config
 def test_routing():
     tmp = _setup()
     r = routing.route("trumpglow"); assert [p["page"] for p in r["pages"]] == ["trumpglow_fb", "patriotsglow_fb"]
@@ -30,6 +33,8 @@ def test_routing():
     t = routing.next_window("trumpglow_fb", datetime.datetime(2026, 11, 2, 12, 0, tzinfo=routing.PT), queue=[])
     assert t.hour == 18 and t.day == 2
 
+@OWNER
+@__import__("pytest").mark.owner_config
 def test_prepare_fb_all_and_swap():
     tmp = _setup()
     a, b = _clip(tmp, "a.mp4", "red"), _clip(tmp, "b.mp4", "blue")

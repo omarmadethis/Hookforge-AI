@@ -27,6 +27,9 @@ PUBLISH_LOG = os.path.join(REPO, "learning", "publish_log")
 VIDEO_EXT = (".mp4", ".mov", ".m4v")
 IMAGE_EXT = (".png", ".jpg", ".jpeg", ".webp")
 ACTIVE_PRODUCTS = {"jollyglow_curtain", "jollyglow", "trumpglow", "purrventure_carrier", "purrventure", "lumarein"}
+try:   # products marked "active": true in config/products.json are active too (how a new user adds their own products)
+    ACTIVE_PRODUCTS |= {k for k, v in json.load(open(os.path.join(REPO, "config", "products.json")))["products"].items() if v.get("active")}
+except Exception: pass
 MAX_ITERS = 8
 CANDIDATE_ROOTS = [os.path.join(REPO, "out")]   # every rendered/generated video we have; + learning/footage_registry.json
 CARD_WORD_MAX = 8

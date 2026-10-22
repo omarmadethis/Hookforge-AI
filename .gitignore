@@ -50,3 +50,28 @@ learning/ref_miner/transfer.json
 learning/backup_plan.json
 learning/footage_hash_cache.json
 data/posted_media/
+
+# --- Distribution prep (2026-10-21): owner-specific config, spend/balance data, publish history, private asset sources ---
+!.env.example
+config/buffer_routing.json
+config/product_urls.json
+config/hookforge.json
+learning/spend_ledger.csv
+learning/alerts/
+learning/credit_ledger/
+learning/publish_log/
+learning/footage_registry.json
+learning/approvals/
+learning/e2e_dryrun/
+analytics/publishing_panel.html
+analytics/fb_hj/joined.pkl
+drive_layout.json
+docs/backup_drive_index.json
+assets/ASSETS.csv
+assets/_unassigned/
+assets/heatjams/product/grinch blanket reference.png
+assets/grinch_robe/box/grinch robe box.png
+learning/backup_state.json
+learning/restore_plan.json
+refs/grinch_robe/product/box_grinch robe box.png
+refs/heatjams/product/product_grinch blanket reference.png

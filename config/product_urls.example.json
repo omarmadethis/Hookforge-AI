@@ -1,0 +1,4 @@
+{
+ "_doc": "Copy to config/product_urls.json (gitignored). Product key (same as config/products.json) -> store product page. Used ONLY for the caption swap at 40K views (MR45); never put URLs in the first caption or on screen (MR34).",
+ "my_product": {"url": "https://YOUR-STORE.example/products/your-product", "source": "your store"}
+}

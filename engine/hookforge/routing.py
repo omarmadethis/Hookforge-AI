@@ -12,7 +12,8 @@ import os, json, datetime, itertools
 from zoneinfo import ZoneInfo
 from .config import REPO
 
-CFG_F = os.path.join(REPO, "config", "buffer_routing.json")
+from .userconfig import cfg_path
+CFG_F = cfg_path("buffer_routing")   # config/buffer_routing.json (gitignored) or the .example.json
 WIN_F = os.path.join(REPO, "learning", "posting_windows.json")
 PT = ZoneInfo("America/Los_Angeles")
 ACTIVE = ("AWAITING_OMAR_APPROVAL", "APPROVED", "BUFFER_DRAFT_CREATED")

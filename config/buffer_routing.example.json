@@ -1,0 +1,14 @@
+{
+ "_doc": "Copy to config/buffer_routing.json (gitignored) and fill in YOUR Buffer org + channel IDs. IDs only, never tokens. One product can route to several pages, but a single video is only ever posted to ONE page (MR19). locked=true -> never routed. plan=free -> 10 scheduled posts per Buffer account (drafts counted).",
+ "target": {"facebook": 2, "instagram": 0},
+ "accounts": {
+  "buffer1": {"namespace": "user-Buffer", "org": "YOUR_BUFFER_ORG_ID_1", "plan": "free", "max_scheduled": 10, "connected": true},
+  "buffer2": {"namespace": "user-Buffer--buffer2", "org": "YOUR_BUFFER_ORG_ID_2", "plan": "free", "max_scheduled": 10, "connected": false, "note": "optional second Buffer account (free plan = 3 channels each)"}
+ },
+ "pages": {
+  "mypage_fb": {"name": "My Product Page", "service": "facebook", "account": "buffer1", "channel": "YOUR_BUFFER_CHANNEL_ID_1", "windows": "_default", "family": "christmas_lights"},
+  "mypage2_fb": {"name": "My Second Page", "service": "facebook", "account": "buffer1", "channel": "YOUR_BUFFER_CHANNEL_ID_2", "windows": "_default", "family": "christmas_lights"}
+ },
+ "products": {"my_product": ["mypage_fb", "mypage2_fb"]},
+ "retired_products": []
+}

@@ -36,19 +36,19 @@ Full history: [docs/DECISIONS.md](DECISIONS.md) · [docs/HANDOFF.md](HANDOFF.md)
 ## 3. Account and channel IDs (IDs only — no secrets; auth is host-connector OAuth)
 | Buffer account | MCP namespace | org id | plan | connected |
 |---|---|---|---|---|
-| buffer1 | user-Buffer | 6ad7108f7a26bda7eb714973 | free (max 10 scheduled) | True |
-| buffer2 | user-Buffer--buffer2 | 6ad7d4f3d9fb9bac41dd9d22 | free (max 10 scheduled) | True |
+| buffer1 | user-Buffer | <buffer_id> | free (max 10 scheduled) | True |
+| buffer2 | user-Buffer--buffer2 | <buffer_id> | free (max 10 scheduled) | True |
 | buffer3 | None | None | free (max 10 scheduled) | False |
 
 | page | service | account | channel id | products |
 |---|---|---|---|---|
-| jollyglow_fb | facebook | buffer1 | 6ad7c7b6778b240e2f6eded2 | jollyglow_curtain |
-| patriotsglow_fb | facebook | buffer1 | 6ad7c63f778b240e2f6ed4e6 | trumpglow |
-| purrventures_fb | facebook | buffer1 | 6ad7c63f778b240e2f6ed4e5 | purrventure_carrier |
-| merryjammies_ig | instagram | buffer1 | 6ad7c950778b240e2f6f0cfd | LOCKED |
-| trumpglow_fb | facebook | buffer2 | 6ad7d610778b240e2f6f8b6c | trumpglow |
-| merryjammies_ig_b2 | instagram | buffer2 | 6ad7d94a778b240e2f6ffc72 | - |
-| purrventures2_fb | facebook | buffer2 | 6ad7e3e8778b240e2f706dfd | purrventure_carrier |
+| jollyglow_fb | facebook | buffer1 | <buffer_id> | jollyglow_curtain |
+| patriotsglow_fb | facebook | buffer1 | <buffer_id> | trumpglow |
+| purrventures_fb | facebook | buffer1 | <buffer_id> | purrventure_carrier |
+| merryjammies_ig | instagram | buffer1 | <buffer_id> | LOCKED |
+| trumpglow_fb | facebook | buffer2 | <buffer_id> | trumpglow |
+| merryjammies_ig_b2 | instagram | buffer2 | <buffer_id> | - |
+| purrventures2_fb | facebook | buffer2 | <buffer_id> | purrventure_carrier |
 
 **Higgsfield:** MCP namespaces `user-Higgsfield` (old account) and `user-Higgsfield--new-account` (live account: `user-Higgsfield--new-account`). Live runs: LIVE.enabled = `False`. Prices (get_cost): seedance_2_5 1080p 4 s = 64, 720p 4 s = 28; gpt_image_2 2k high = 6.5 / 1k high = 3.5 / 1k medium = 1.0.
 Other connectors: user-Shopify / user-Shopify--brickhood (read-only), user-Gmail (read-only), user-Google-drive, user-Slack, user-Buffer / user-Buffer--buffer2.

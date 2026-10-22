@@ -1,5 +1,6 @@
 import os, sys, json, re, csv, datetime as dt
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+OWNER = __import__("pytest").mark.skipif(__import__("hookforge.userconfig", fromlist=["x"]).using_example("buffer_routing") or __import__("hookforge.userconfig", fromlist=["x"]).using_example("product_urls"), reason="owner config not present (fresh clone)")
 from hookforge import fb_caption as F
 
 def test_library_has_poc():
@@ -32,6 +33,8 @@ def test_traction_thresholds_d93_6():
     # 30K over 2h with no <=1h window showing 10K
     assert not F.traction(dict(views=30000, posted_pt="2026-10-10 12:00", snapshot_pt="2026-10-20 12:00"), [("2026-10-20 10:00", 25000)])["swap"]
 
+@OWNER
+@__import__("pytest").mark.owner_config
 def test_swap_keeps_hashtags_and_is_approval_item(tmp_path, monkeypatch):
     monkeypatch.setattr(F, "SWAP_DIR", str(tmp_path))      # D169: no leak into later tests
     it = F.queue_swap(dict(reel_key="fb:t:x", product="grinch_robe", caption="All moms need this🎁 #christmas #mom", reason="test"))

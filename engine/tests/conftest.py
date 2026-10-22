@@ -32,11 +32,24 @@ NEEDS_DATA = {
  "test_results_feed.py::test_ly_season_prior_never_beats_own", "test_d99_d102.py::test_meta_csv_ingest",
 }
 
+# Distribution prep: tests marked owner_config need the owner's private, gitignored data (real Buffer routing,
+# product URLs, spend ledger, approvals). On a fresh clone they are skipped instead of failing.
+def _owner_data_missing():
+    import os
+    from hookforge import userconfig as _uc
+    from hookforge.config import REPO as _R
+    return (_uc.using_example("buffer_routing") or _uc.using_example("product_urls")
+            or not os.path.exists(os.path.join(_R, "learning", "spend_ledger.csv"))
+            or not os.path.isdir(os.path.join(_R, "learning", "approvals")))
+
 def pytest_collection_modifyitems(config, items):
     import pytest
     for it in items:
         mod = os.path.basename(str(it.fspath))
         if f"{mod}::{it.name.split('[')[0]}" in NEEDS_DATA or mod in DATA_MODULES: it.add_marker(pytest.mark.needs_data)
+    if _owner_data_missing():   # distribution prep: owner-only data (gitignored) -> skip, don't fail
+        for it in items:
+            if "owner_config" in it.keywords: it.add_marker(pytest.mark.skip(reason="owner-only data not present (fresh clone)"))
 
 # D171 test-isolation guard. Before every test, snapshot each loaded hookforge module's UPPER_CASE globals
 # (paths such as perf_feedback.DIR, gates.LEDGER, ab_log.LOG, SWAP_DIR, and config dicts such as LIVE, deep-copied)

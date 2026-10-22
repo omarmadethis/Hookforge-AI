@@ -24,6 +24,7 @@ def test_g19_emoji():
     # POC-based (Omar 23:30): proven + paired passes (❤️ POC-0255 2.4M, 🇺🇸 Omar cards); 😔 is never forced
     assert not w(G.g19_emoji({"text_cards": [{"text": "His last day on my truck.. ❤️🇺🇸"}]}), "G19")
     assert not b(G.g19_emoji({"text_cards": [{"text": "Last day 😔🇺🇸"}]}), "G19")   # never a block
+@__import__("pytest").mark.owner_config
 def test_g18_approved_exception():
     p = {"run_id": "jollyglow_combo", "gens": [{"id": "garage_afters", "dur": 6}]}
     assert not b(G.g18_gen_len(p), "G18") and b(G.g18_gen_len(dict(p, run_id="other")), "G18")

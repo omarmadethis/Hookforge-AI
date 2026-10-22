@@ -1,5 +1,6 @@
 import os, sys, json, struct, zlib, tempfile, datetime, time
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+OWNER = __import__("pytest").mark.skipif(__import__("hookforge.userconfig", fromlist=["x"]).using_example("buffer_routing") or __import__("hookforge.userconfig", fromlist=["x"]).using_example("product_urls"), reason="owner config not present (fresh clone)")
 from PIL import Image
 from hookforge import deliver as D, results_feed as RF, snapshot_scheduler as SS
 
@@ -42,6 +43,8 @@ def test_meta_csv_ingest():
     finally: RF.RES, RF.SNAP, RF.INBOX, SS.LOG = old
 
 
+@OWNER
+@__import__("pytest").mark.owner_config
 def test_publishing_panel():
     sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "analytics"))
     import engine_panels as E

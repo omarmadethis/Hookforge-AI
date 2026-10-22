@@ -25,13 +25,13 @@ w("## 1. Hard safety constraints (Omar, standing — override everything)\n" + "
  "Every file leaves the box via deliver.stage / verify_staged (D44d). Leave the shared-learning server deployment alone; don't touch the other worker's PurrVenture files unless asked.",
  "Report times in PT. Log every decision as a D-number in docs/DECISIONS.md."]) + "\n")
 # products
-pj = json.load(open(P("config", "products.json")))["products"]; urls = json.load(open(P("config", "product_urls.json")))
+pj = json.load(open(P("config", "products.json")))["products"]; urls = __import__("hookforge.userconfig", fromlist=["x"]).load("product_urls")
 act = [k for k, v in pj.items() if v.get("active")]; ret = [k for k, v in pj.items() if not v.get("active")]
 w("## 2. Products\n**Active (D117/D131):** " + ", ".join(f"`{k}`" for k in act) + "\n\n**Retired (FULL reference data — cuts, tags, captions, stats, sounds, hooks — no new content):** " + ", ".join(f"`{k}`" for k in ret) + "\n")
 w("| active product | product URL status |\n|---|---|")
 for k in act: u = (urls.get(k) or {}).get("url", ""); w(f"| {k} | {'PLACEHOLDER (blocks caption swaps)' if (not u or 'PLACEHOLDER' in u.upper()) else u} |")
 # IDs
-br = json.load(open(P("config", "buffer_routing.json"))); live = None
+br = __import__("hookforge.userconfig", fromlist=["x"]).load("buffer_routing"); live = None
 try:
     import sys; sys.path.insert(0, P("engine")); from hookforge.config import LIVE as live
 except Exception: pass

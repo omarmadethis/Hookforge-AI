@@ -10,3 +10,6 @@ Pillow>=10.0
 # optional (product-share-at-0s estimate in QA/backtest); everything works without it
 open_clip_torch>=2.20
 torch>=2.1
+pytest>=7.0
+jsonschema>=4.0
+requests>=2.28

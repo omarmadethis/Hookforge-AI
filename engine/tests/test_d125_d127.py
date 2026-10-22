@@ -14,6 +14,7 @@ def test_log_job_requires_id_and_reconcile(tmp_path, monkeypatch):
     r = L.reconcile([dict(display_name="Seedance", credits=-64, action="spend", created_at=t), dict(display_name="Sound Effects", credits=-1, action="spend", created_at=t)])
     assert r["matched"] == 1 and r["unledgered_credits"] == 1.0
 
+@__import__("pytest").mark.owner_config
 def test_calendar_rules():
     o = C.week(datetime.date(2026, 10, 21), write=False); s = o["slots"]
     assert {x["product"] for x in s} <= set(products.active()) and len({x["product"] for x in s}) == 3

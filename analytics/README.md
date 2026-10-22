@@ -56,7 +56,6 @@ Enrichments are joined by reel-ID suffix, else by a unique (page, views ±2) mat
 |---|---|---|
 | What to make next | Which formats to exploit or explore, per category, plus production guardrails | Fixed tier rules (below), Wilson CIs, Fisher p |
 | Per-page & per-product | Views over time per page/product; freshness decay vs product age | Bootstrap median CI, Wilson hit rate, Spearman + permutation p |
-| Views vs shares vs profile visits vs sales /1K | Store outcomes over time; orders/1K per reel and per hook family; engagement per 1K | Allocation intervals from the Shopify workstream |
 | Hook family leaderboard | FB own reels by hook family | Median (90% bootstrap CI) + hit rate (Wilson 95%), grey when n<5 |
 | Format leaderboard | FB own reels by format (taxonomy F01–F19), plus how many external organic reels reached ≥1M | Same as above |
 | First-frame features | Adjusted multipliers (team model, read not refitted) + raw scatter | Within-page permutation ρ |
@@ -89,16 +88,6 @@ Results of the 2026-10-18 build:
 
 | Check | Computed | Report | Result |
 |---|---|---|---|
-| Merry Glow orders | 33 | 33 (merryglow_REPORT) | PASS |
-| Merry Glow net sales | $3,224.61 | $3,225 | PASS |
-| Merry Glow sessions | 14,039 | 14,039 | PASS |
-| Brick Hood orders | 22 | 22 (brickhood_REPORT) | PASS |
-| Brick Hood net sales | $911.74 | $912 | PASS |
-| Brick Hood sessions (raw ShopifyQL daily, store TZ) | 958 | 958 | PASS |
-| Brick Hood sessions in `brickhood/daily_pt.csv` | 920 | 958 | INFO: known gap, see below |
-| Merry Jammies orders (sales analytics) | 948 | 948 (950 per GraphQL; 6 cancelled, 10 refunded) | PASS |
-| Merry Jammies net sales | $91,671.94 | $91,672 | PASS |
-| Merry Jammies sessions | 126,309 | 126,309 (summary_numbers.json) | PASS |
 | IG Ddii6mOKO2G plays / shares | 4,626,610 / 15,140 | same (IG note) | PASS |
 | IG DdK34IiqRx4 profile visits | 2,676 | 2,676 | PASS |
 | IG reels with full Insights | 6 | 6 | PASS |

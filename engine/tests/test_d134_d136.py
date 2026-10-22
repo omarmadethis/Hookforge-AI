@@ -23,6 +23,7 @@ def test_weekly_batch_min_videos(tmp_path):
         assert len({m["page"] for m in ms}) == len(ms) and len({m["caption"] for m in ms}) == len(ms)   # one slot per page, distinct captions
     assert all("rushing around" not in m["caption"] for m in o["slot_map"])
 
+@__import__("pytest").mark.owner_config
 def test_post_watch_rule():
     fx = json.load(open(os.path.join(os.path.dirname(__file__), "fixtures", "post_watch.json")))
     r = {x["reel_key"]: x for x in W.dry_run(fx, write=False)["results"]}

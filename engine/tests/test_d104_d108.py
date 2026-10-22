@@ -16,6 +16,7 @@ class FakeGraph:
             def __exit__(s, *a): pass
         return R(json.dumps(body).encode())
 
+@__import__("pytest").mark.owner_config
 def test_graph_caption():
     tmp = tempfile.mkdtemp(); fb_caption.SWAP_DIR = os.path.join(tmp, "s")
     it = fb_caption.queue_swap(dict(product="grinch_robe", reel_key="fb:t:9", caption="Cozy #grinch", reason="+11K/h"))
