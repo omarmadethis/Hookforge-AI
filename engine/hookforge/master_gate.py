@@ -406,9 +406,10 @@ def c_glow_trail(path, spec, stage):
     if not g:
         return [F("MR49", "glowing-light product without a declared glow spec (trail_decay/trail_opacity)", None)] if (spec.get("product") == "lumarein") else []
     out = []
-    if float(g.get("trail_decay", 1)) > 0.6: out.append(F("MR49", f"trail decay {g.get('trail_decay')} > 0.6 (trail too long)", "recompose"))
-    if float(g.get("trail_opacity", 1)) > 0.15: out.append(F("MR49", f"trail opacity {g.get('trail_opacity')} > 0.15 (trail too visible)", "recompose"))
+    if float(g.get("trail_decay", 1)) > 0.3: out.append(F("MR49", f"trail decay {g.get('trail_decay')} > 0.3 (trail too long)", "recompose"))
+    if float(g.get("trail_opacity", 1)) > 0.03: out.append(F("MR49", f"trail opacity {g.get('trail_opacity')} > 0.03 (trail too visible)", "recompose"))
     if re.search(r"long (motion[- ]blur )?(light )?trails|slow-shutter streak", " ".join(g.get("prompts", [])), re.I): out.append(F("MR49", "prompt asks for long light trails/streaks", "regen"))
+    if not re.search(r"no (light )?trails", " ".join(g.get("prompts", [])), re.I): out.append(F("MR49", "prompts must say 'no light trails, no motion streaks, no long-exposure effect'", "regen"))
     if not g.get("bloom", True): out.append(F("MR49", "glow bloom disabled - glow must stay bright", "recompose"))
     return out
 
