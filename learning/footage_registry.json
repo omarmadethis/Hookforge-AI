@@ -770,5 +770,20 @@
   "sha256": "31c11e1a2e39dc03394676f86addbb520a4a58e2ccc6988088440d87cd0f5071",
   "posted_pages": [],
   "caption": null
+ },
+ "lumarein_LR3": {
+  "path": "/workspace/hookforge/out/lumarein/lr3/LR3_gate.mp4",
+  "sha256": "ba8fd4d8eace5c753444c1b701857511efef977bc5e7761cc86fae37568785ba",
+  "posted_pages": [
+   "MinionMask"
+  ],
+  "caption": "Night trail rides just leveled up 🐎💙🇺🇸\nSAY \"SHINE\" and I'll DM you where to grab one\n#horsegirl #trailriding #equinelife",
+  "buffer_posts": [
+   "6ad986a07dadc432f73a3a75"
+  ],
+  "sent_at_utc": "2026-10-22T03:44:44Z",
+  "status": "sent",
+  "live_url": "https://facebook.com/1274580409081153_122114511111490939",
+  "hosted": "https://d2ol7oe51mr4n9.cloudfront.net/user_3J11O7VJ54EAPG9zUHebCTQAR6V/fa24edc7-51de-4cf9-aac3-8c41c8d84d53.mp4"
  }
 }

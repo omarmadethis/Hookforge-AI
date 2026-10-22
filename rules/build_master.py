@@ -53,6 +53,7 @@ RULES = [
  ("MR46","Superseded Drive versions get trashed after a new version ships.","F60,memory","2026-10-19","process","","none","all"),
  ("MR47","Every Omar fix becomes a permanent rule in this file plus an automated check or required review item.","F66,memory 2026-10-21","2026-10-21","auto","rules_registry","none","all"),
  ("MR48","Never burn in captions (F04) - SUPERSEDED: on-screen cards are now required (D188); post captions live in the FB caption.","F04","2026-10-08","superseded","","none","video"),
+ ("MR49","Glow trail / motion blur behind lights is barely visible (subtle, only slightly there) - never long smeared streaks like LR1/LR2; the glow itself stays bright, saturated and glowy (white-hot cores + halo/bloom). Post trail pass: lagfun decay <= 0.6 and trail opacity <= 0.15; prompts say 'faint, barely visible trail', never 'long light trails'.","Omar 2026-10-21 8:14 PM (LR1/LR2 trails way too much)","2026-10-21 8:14 PM","auto+manual","glow_trail","free:recompose","video"),
 ]
 def main():
     rows = [dict(id=a, rule=b, sources=c, date_PT=d, check=e, fn=f, fix=g, applies=h) for a,b,c,d,e,f,g,h in RULES]

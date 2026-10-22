@@ -392,5 +392,31 @@
    "speed": 1.0,
    "checked": "2026-10-21 17:15 PT"
   }
+ },
+ "hey_baby_pitbull": {
+  "song": "Pitbull - Hey Baby (Drop It to the Floor) feat. T-Pain",
+  "title": "Hey Baby (Drop It to the Floor)",
+  "artist": "Pitbull feat. T-Pain",
+  "file": "/workspace/hookforge/music/hey_baby_pitbull.m4a",
+  "source": "YouTube search 'Pitbull Hey Baby Drop It to the Floor feat T-Pain official audio' (yt-dlp on box, 2026-10-21 8:20 PM PT)",
+  "in_point_s": 44.07,
+  "in_point_label": "= LumaRein 171.6K + 197.1K reel t=0 (Shazam ref offset 43.79)",
+  "slug": [
+   "lumarein"
+  ],
+  "verify": {
+   "original_reel": "refs/lumarein/171600_7697804641928498433.mp4",
+   "also": "refs/lumarein/197100_7698525807777500422.mp4",
+   "shazam": [
+    "0-5s→43.80",
+    "4-9s→47.77",
+    "8-13s→51.79",
+    "our file @44.07→43.80",
+    "our file @52.07→51.76"
+   ],
+   "speed": 1.0,
+   "note": "lumarein_study.md said 'Hey Baby (DJ Ötzi style)' - wrong; Shazam = Pitbull Hey Baby (Drop It to the Floor)",
+   "checked": "2026-10-21 20:22 PT"
+  }
  }
 }

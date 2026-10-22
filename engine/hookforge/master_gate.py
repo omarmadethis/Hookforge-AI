@@ -397,6 +397,18 @@ def c_rules_registry(path, spec, stage):
     bad = [r["id"] for r in rules() if r["check"] in ("auto", "auto+manual") and r["fn"] not in CHECKS]
     return [F("MR47", f"rules without an implemented check: {bad}", None)] if bad else []
 
+def c_glow_trail(path, spec, stage):
+    """MR49 (Omar 10-21 8:14 PM): light trails barely visible; glow itself bright."""
+    g = spec.get("glow")
+    if not g:
+        return [F("MR49", "glowing-light product without a declared glow spec (trail_decay/trail_opacity)", None)] if (spec.get("product") == "lumarein") else []
+    out = []
+    if float(g.get("trail_decay", 1)) > 0.6: out.append(F("MR49", f"trail decay {g.get('trail_decay')} > 0.6 (trail too long)", "recompose"))
+    if float(g.get("trail_opacity", 1)) > 0.15: out.append(F("MR49", f"trail opacity {g.get('trail_opacity')} > 0.15 (trail too visible)", "recompose"))
+    if re.search(r"long (motion[- ]blur )?(light )?trails|slow-shutter streak", " ".join(g.get("prompts", [])), re.I): out.append(F("MR49", "prompt asks for long light trails/streaks", "regen"))
+    if not g.get("bloom", True): out.append(F("MR49", "glow bloom disabled - glow must stay bright", "recompose"))
+    return out
+
 CHECKS = {k[2:]: v for k, v in globals().items() if k.startswith("c_") and callable(v)}
 STAGES = ("final", "deliver", "publish")
 

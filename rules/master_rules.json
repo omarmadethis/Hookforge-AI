@@ -478,5 +478,15 @@
   "fn": "",
   "fix": "none",
   "applies": "video"
+ },
+ {
+  "id": "MR49",
+  "rule": "Glow trail / motion blur behind lights is barely visible (subtle, only slightly there) - never long smeared streaks like LR1/LR2; the glow itself stays bright, saturated and glowy (white-hot cores + halo/bloom). Post trail pass: lagfun decay <= 0.6 and trail opacity <= 0.15; prompts say 'faint, barely visible trail', never 'long light trails'.",
+  "sources": "Omar 2026-10-21 8:14 PM (LR1/LR2 trails way too much)",
+  "date_PT": "2026-10-21 8:14 PM",
+  "check": "auto+manual",
+  "fn": "glow_trail",
+  "fix": "free:recompose",
+  "applies": "video"
  }
 ]
