@@ -488,5 +488,25 @@
   "fn": "glow_trail",
   "fix": "free:recompose",
   "applies": "video"
+ },
+ {
+  "id": "MR50",
+  "rule": "Problem-vs-solution card pairs use 'The solution' as the second card, never 'The result' ('The problem' -> 'The solution').",
+  "sources": "Omar 2026-10-21 8:50 PM (PV4 feedback)",
+  "date_PT": "2026-10-21 8:50 PM",
+  "check": "auto",
+  "fn": "problem_solution",
+  "fix": "free:recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR51",
+  "rule": "No illogical settings for the product: every scene is a place the product/subject would actually be. PurrVentures: the cat never appears in a store or garden center - use yards, parks, patios and similar.",
+  "sources": "Omar 2026-10-21 8:50 PM (PV4 cat-in-store)",
+  "date_PT": "2026-10-21 8:50 PM",
+  "check": "manual",
+  "fn": "",
+  "fix": "regen",
+  "applies": "video"
  }
 ]

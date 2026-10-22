@@ -409,6 +409,15 @@ def c_glow_trail(path, spec, stage):
     if not g.get("bloom", True): out.append(F("MR49", "glow bloom disabled - glow must stay bright", "recompose"))
     return out
 
+def c_problem_solution(path, spec, stage):
+    """MR50 (Omar 10-21 8:50 PM): 'The problem' card is followed by 'The solution', never 'The result'."""
+    ts = [_txt(c).strip().lower() for c in spec.get("cards") or []]
+    out = []
+    for i, t in enumerate(ts):
+        if re.search(r"\bthe problem\b", t) and i + 1 < len(ts) and re.search(r"\bthe result\b", ts[i + 1]):
+            out.append(F("MR50", f"'The problem' card followed by '{ts[i+1]}' - second card must be 'The solution'", "recompose"))
+    return out
+
 CHECKS = {k[2:]: v for k, v in globals().items() if k.startswith("c_") and callable(v)}
 STAGES = ("final", "deliver", "publish")
 

@@ -1,7 +1,7 @@
 # MASTER RULES (D191) - every video and every deliverable passes these before final / shown to Omar / published
 
 Generated from rules/build_master.py. Enforced by engine/hookforge/master_gate.py (auto checks + required reviewer confirmations + auto-fix loop).
-Totals: 49 rules - auto 29, auto+manual 6, manual (reviewer must confirm) 10, process 3, superseded 1.
+Totals: 51 rules - auto 30, auto+manual 6, manual (reviewer must confirm) 11, process 3, superseded 1.
 
 | ID | Rule | Source | Date (PT) | Check | Auto-fix | Applies |
 |---|---|---|---|---|---|---|
@@ -54,3 +54,5 @@ Totals: 49 rules - auto 29, auto+manual 6, manual (reviewer must confirm) 10, pr
 | MR47 | Every Omar fix becomes a permanent rule in this file plus an automated check or required review item. | F66,memory 2026-10-21 | 2026-10-21 | auto `rules_registry` | none | all |
 | MR48 | Never burn in captions (F04) - SUPERSEDED: on-screen cards are now required (D188); post captions live in the FB caption. | F04 | 2026-10-08 | superseded | none | video |
 | MR49 | Glow trail / motion blur behind lights is barely visible (subtle, only slightly there) - never long smeared streaks like LR1/LR2; the glow itself stays bright, saturated and glowy (white-hot cores + halo/bloom). Post trail pass: lagfun decay <= 0.6 and trail opacity <= 0.15; prompts say 'faint, barely visible trail', never 'long light trails'. | Omar 2026-10-21 8:14 PM (LR1/LR2 trails way too much) | 2026-10-21 8:14 PM | auto+manual `glow_trail` | free:recompose | video |
+| MR50 | Problem-vs-solution card pairs use 'The solution' as the second card, never 'The result' ('The problem' -> 'The solution'). | Omar 2026-10-21 8:50 PM (PV4 feedback) | 2026-10-21 8:50 PM | auto `problem_solution` | free:recompose | video |
+| MR51 | No illogical settings for the product: every scene is a place the product/subject would actually be. PurrVentures: the cat never appears in a store or garden center - use yards, parks, patios and similar. | Omar 2026-10-21 8:50 PM (PV4 cat-in-store) | 2026-10-21 8:50 PM | manual | regen | video |
