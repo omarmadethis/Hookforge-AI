@@ -342,5 +342,55 @@
    "preview_at_s": 48.58,
    "tempo_correction": 1.0
   }
+ },
+ "rock_that_body": {
+  "song": "Black Eyed Peas - Rock That Body",
+  "title": "Rock That Body",
+  "artist": "Black Eyed Peas",
+  "file": "/workspace/hookforge/music/rock_that_body_bep.m4a",
+  "source": "YouTube search 'Black Eyed Peas Rock That Body official audio' (yt-dlp, 2026-10-21)",
+  "in_point_s": 22.2,
+  "in_point_label": "= LumaRein 2.6M reel t=0 (Shazam ref offset 14.65)",
+  "slug": [
+   "lumarein"
+  ],
+  "verify": {
+   "original_reel": "refs/lumarein/2600000_7698178513446128902.mp4",
+   "tiktok_music": "'original sound - LumaRein' (music id 7698178733341674261, no title)",
+   "shazam": [
+    "0-5s→14.65",
+    "4-9s→18.65",
+    "8-13s→22.64",
+    "our file @22.2→14.66"
+   ],
+   "flux_xcorr": 0.831,
+   "speed": 1.0,
+   "checked": "2026-10-21 17:15 PT"
+  }
+ },
+ "i_kissed_a_girl": {
+  "song": "Katy Perry - I Kissed A Girl",
+  "title": "I Kissed A Girl",
+  "artist": "Katy Perry",
+  "file": "/workspace/hookforge/music/i_kissed_a_girl_katyperry.m4a",
+  "source": "YouTube search 'Katy Perry I Kissed A Girl official audio' (yt-dlp, 2026-10-21)",
+  "in_point_s": 24.25,
+  "in_point_label": "= LumaRein 383.5K reel t=0 (Shazam ref offset 24.26)",
+  "slug": [
+   "lumarein"
+  ],
+  "verify": {
+   "original_reel": "refs/lumarein/383500_7698418896054783284.mp4",
+   "tiktok_music": "'original sound - LumaRein' (music id 7698419086669908743, no title)",
+   "shazam": [
+    "0-5s→24.26",
+    "4-9s→28.26",
+    "8-13s→32.26",
+    "our file @24.25→24.28"
+   ],
+   "flux_xcorr": 0.618,
+   "speed": 1.0,
+   "checked": "2026-10-21 17:15 PT"
+  }
  }
 }

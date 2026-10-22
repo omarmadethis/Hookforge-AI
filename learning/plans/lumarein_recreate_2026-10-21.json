@@ -17,7 +17,7 @@
    "id": "LR1",
    "source": "LumaRein TikTok 7698178513446128902 (2.6M)",
    "format": "F06 idea→VS→result",
-   "song": "Hey Baby (Uhh, Ahh) - DJ Ötzi, from frame 0 (proven: LumaRein 171.6K reel #4); file to fetch free",
+   "song": "Black Eyed Peas - Rock That Body @22.2 s (= original 2.6M reel t0), frame 0, no loop",
    "caption": "Night rides just got an upgrade 😍🐴 SAY \"GALLOP\" if you need this\n#equestrian #horse #horsegirl #gallop #usa",
    "cards": [
     [
@@ -109,13 +109,19 @@
     "format": "then-vs-now",
     "text": "The idea... 😭💡"
    },
-   "card_note": "D188: VS format -> max 2 cards. Kept original hook + result cards; dropped mid 'VS...' card and end SAY card (CTA lives in FB caption). Hook card holds through the install + switch-on (original's VS stretch); result card lands on the first payoff shot (beach canter), as in the original (8.6 s)."
+   "card_note": "D188: VS format -> max 2 cards. Kept original hook + result cards; dropped mid 'VS...' card and end SAY card (CTA lives in FB caption). Hook card holds through the install + switch-on (original's VS stretch); result card lands on the first payoff shot (beach canter), as in the original (8.6 s).",
+   "song_key": "rock_that_body",
+   "song_in_s": 22.2,
+   "recreate_of": {
+    "slug": "lumarein",
+    "reel_id": "7698178513446128902"
+   }
   },
   {
    "id": "LR2",
    "source": "LumaRein TikTok 7698418896054783284 (383.5K)",
    "format": "covered reveal / forbidden callout",
-   "song": "Mambo No. 5 - Lou Bega, from frame 0 (proven own: PurrVenture leaf-rake; music/mambo_no5_youtube.m4a on box)",
+   "song": "Katy Perry - I Kissed A Girl @24.25 s (= original 383.5K reel t0), frame 0, no loop",
    "caption": "Every horse girl needs this 😍✨ SAY \"GALLOP\" and I'll send the link\n#equestrian #horsegirl #horse #gallop #usa",
    "cards": [
     [
@@ -198,7 +204,13 @@
     "format": "dont-show-recipient",
     "text": "Do NOT show this to an equestrian... 😏"
    },
-   "card_note": "D188: one card for the whole video; end SAY card dropped (CTA in FB caption)."
+   "card_note": "D188: one card for the whole video; end SAY card dropped (CTA in FB caption).",
+   "song_key": "i_kissed_a_girl",
+   "song_in_s": 24.25,
+   "recreate_of": {
+    "slug": "lumarein",
+    "reel_id": "7698418896054783284"
+   }
   }
  ],
  "total": 276,

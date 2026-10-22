@@ -114,3 +114,5 @@ Enforcement key: gates.py G1–G19 (`gates.run_all`), qa.final_checks gates, spe
 - 2026-10-21 02:27 PT run trumpglow_fix_A3B3: A3+B3 passed all gates, posted (B3 also to PatriotsGlow). D182 card_visible_render fixed to measure white fill vs background (old version averaged fill+black stroke and false-blocked readable cards). B3 3-2-1 reveal made in edit (0.3 s flash) because the generated clip never pulled the cloth.
 
 | F106 | 2026-10-21 4:21 PM | ONE on-screen card per video; 2nd only for problem-vs-solution/then-vs-now or a closing 'get it from the caption below 👇' card; never 3+ | all | **D188** | card_count.gate / gates.g26_card_count / autoedit enforce (BLOCK) |
+| F107 | 2026-10-21 5:09 PM | Card emojis must be Apple iOS (existing D61 was skipped in LR1/LR2) | all | **D189** | emoji_gate.render / gates.g28 / render-path test (BLOCK) |
+| F108 | 2026-10-21 5:09 PM | Recreations use the original reel's exact song and section, frame 0, no loops | recreations | **D190** | original_song.gate / gates.g27 (BLOCK) |

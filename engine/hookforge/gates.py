@@ -400,11 +400,22 @@ def g26_card_count(plan):
     f = gate(plan.get("text_cards") or plan.get("cards") or [], fmt)
     return [R("G26", False, x) for x in f] or [R("G26", True, "card count ok (D188)")]
 
+def g27_original_song(plan):
+    """D190/F108: recreations use the original reel's song and section."""
+    from .original_song import gate
+    f = gate(plan); return [R("G27", False, x) for x in f] or [R("G27", True, "original song ok / not a recreation")]
+
+def g28_apple_emoji(plan):
+    """D189/F107: card emoji must have Apple PNG art (render via textcards only)."""
+    from .emoji_gate import gate_text
+    f = [x for c in (plan.get("text_cards") or plan.get("cards") or []) for x in gate_text(c.get("text") if isinstance(c, dict) else str(c))]
+    return [R("G28", False, x) for x in f] or [R("G28", True, "Apple emoji ok")]
+
 def run_all(plan, run_id=None, stage="plan", final_video=None, product_profile=None, audience_profile=None):
     """stage: plan (G1-G7) | video (adds G8) | final (adds final audio onset)."""
     rows = g1_song(plan, final_video if stage == "final" else None, stage) + g2_hook(plan) + g3_profiles(product_profile, audience_profile) \
         + g4_resolution(plan) + g5_quote(plan) + g6_bans(plan) + g7_poc(plan) + g9_gaze(plan) + g10_onscreen_cta(plan) + g11_opener(plan) + g12_showcase(plan) + g13_motion(plan) \
         + g14_vs_card(plan) + g15_linger(plan) + g16_models(plan) + g17_budget(plan) + g18_gen_len(plan) + g19_emoji(plan) \
-        + g20_afters(plan) + g21_vs_structure(plan) + g22_post_caption(plan) + g23_say_not_comment(plan) + g24_world(plan, product_profile) + g25_political(plan) + g26_card_count(plan)
+        + g20_afters(plan) + g21_vs_structure(plan) + g22_post_caption(plan) + g23_say_not_comment(plan) + g24_world(plan, product_profile) + g25_political(plan) + g26_card_count(plan) + g27_original_song(plan) + g28_apple_emoji(plan)
     if stage in ("video", "final"): rows += g8_frames(plan, run_id or "")
     return dict(ok=all(r["ok"] for r in rows), blocks=[r for r in rows if not r["ok"]], warns=[r for r in rows if r["level"] == "WARN"], rows=rows)

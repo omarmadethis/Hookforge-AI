@@ -39,7 +39,7 @@ def animatic_cmd(plan, out_path, w=720, h=1280):
     from .card_count import enforce as _cc; _cc(plan["text_cards"], (plan.get("hook") or {}).get("format") or plan.get("format"))   # D188
     last = "ov0"
     for k, c in enumerate(plan["text_cards"]):
-        png = os.path.join(cdir, f"card{k}.png"); render_text.render_card(c["text"], w, h, scale=c.get("scale")).save(png)
+        png = os.path.join(cdir, f"card{k}.png"); from . import emoji_gate as _EG; _EG.render(c["text"], w, h, png, scale=c.get("scale") or 1.0)   # D189 Apple emoji only
         inputs += ["-loop", "1", "-t", str(plan["duration"]), "-i", png]
         f.append(f"[{last}][{k + 1}:v]overlay=0:0:enable='between(t,{c['t']},{c['t'] + c['dur']})'[ov{k + 1}]"); last = f"ov{k + 1}"
     f.append(f"[{last}]null[ov]")

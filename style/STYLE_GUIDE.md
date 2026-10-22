@@ -76,7 +76,7 @@ No fades on any audio segment (0/171). Song volume median 1.0 (Bublé Holly Joll
 ## 6. Verification
 - **Extraction (hand check):** 16 random text rows (11%) re-read from the independent `Timelines/<uuid>/draft_info.json` copy. **16/16 match** on text, y, scale, start time, size and stroke (`verification_textrows.csv`).
 - **Font:** rendered 7 candidate fonts against the posted 152.9K frame ("Christmas 2024.."). Montserrat Medium matches the glyph shapes (double-storey a, 2 and 4) and the height/width ratio (0.0926 vs 0.0902 measured). Poppins has a single-storey a; TikTok Sans is taller (0.105).
-- **Size and position fit:** a template-matching fit on 12 posted reels gives a median size factor of 1.00 (strong matches 0.96–1.02) and a vertical offset of 0.00. Side-by-side renders (`_work/verify_*.png`) on MGS-07, MJIG-09 and MG-06 match line breaks, size, centre and stroke by eye. **Known residual:** CapCut on Mac draws Apple Color Emoji, and the box uses Noto Color Emoji (same size and slot, different art).
+- **Size and position fit:** a template-matching fit on 12 posted reels gives a median size factor of 1.00 (strong matches 0.96–1.02) and a vertical offset of 0.00. Side-by-side renders (`_work/verify_*.png`) on MGS-07, MJIG-09 and MG-06 match line breaks, size, centre and stroke by eye. **Emoji:** Apple Color Emoji only (D61/D189): render cards through engine/hookforge/emoji_gate.render, never render_text directly (Noto is banned).
 - **Draft ≠ posted text** on HJ-13 and HJ-15: those joined drafts are pre-post variants.
 
 ## 7. What the engine should apply
