@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.13"
       - name: System deps
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg libimage-exiftool-perl tesseract-ocr
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg libimage-exiftool-perl tesseract-ocr fonts-noto-color-emoji
       - name: Python deps
         run: grep -vE "^(torch|open_clip_torch)" requirements.txt > /tmp/req.txt && pip install -r /tmp/req.txt
       - name: Make the checkout visible at /workspace/hookforge (some tests use that path)

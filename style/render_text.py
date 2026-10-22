@@ -10,7 +10,9 @@ PRESET = json.load(open(os.path.join(HERE, "capcut_text_preset.json")))
 EMOJI_FONT = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
 
 def _font(px):
-    f = ImageFont.truetype(PRESET["render"]["font_file_box"], int(round(px)))
+    ff = PRESET["render"]["font_file_box"]
+    if not os.path.exists(ff): ff = os.path.join(HERE, "..", "assets", "fonts", "Montserrat-VariableFont_wght.ttf")   # vendored (OFL)
+    f = ImageFont.truetype(ff, int(round(px)))
     try: f.set_variation_by_name(PRESET["render"]["font_variation"].encode())
     except Exception: pass
     return f
