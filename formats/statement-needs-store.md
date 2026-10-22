@@ -69,13 +69,13 @@ Keyword bank: `MOM`, `CHRISTMAS`
 | 3 | Let It Snow · 0:00 | reel 0.0 | merry.made2 1.4M |
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
 Shape S: 3 gens (H1 + B1 + B2). Shape L: H1 + the 3-gen wearable or decor master.
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one continuous POV shot | HOOK |
+| H1 | hook | 720p | 4 s | one continuous POV shot | HOOK |
 | B1 | body | 720p | 4 s | S1 lid off on lap · S2 product placed | BOX→HOME, INSTALL |
 | B2 | body | 720p | 4 s | S1 switch-on macro · S2 transformed room | ACTIVATION, PAYOFF |
 

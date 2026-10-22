@@ -64,13 +64,13 @@ Keyword bank: `PERFECT`, `TREE`, `MOM`
 | 2 | Let It Snow · 0:00 | reel 0.0 | HJ 91K |
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
-4 gens: H1 box-in-hand at 1080p, then the decor master (B1 starts at BOX).
+4 gens: H1 box-in-hand at 720p, then the decor master (B1 starts at BOX).
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one shot | HOOK |
+| H1 | hook | 720p | 4 s | one shot | HOOK |
 | B1 | body | 720p | 4 s | S1 second 'before' angle · S2 box open + lift out | THEN2, BOX |
 | B2 | body | 720p | 4 s | S1 install · S2 activation, dark → lit | INSTALL, LIT 1 |
 | B3 | body | 720p | 4 s | S1 lower/closer angle + family reaction · S2 hero wide | LIT 2, LIT 3 |

@@ -20,7 +20,7 @@ NEEDS_DATA = {
  "test_d109_d112.py::test_rank_and_rationale", "test_d121_d124.py::test_digest",
  "test_d134_d136.py::test_ref_miner_transfer", "test_d134_d136.py::test_weekly_batch_min_videos",
  "test_d137_d140.py::test_weekly_clean_distinct", "test_d137_d140.py::test_price_and_lean",
- "test_d141_d145.py::test_p2_stays_archived", "test_d141_d145.py::test_lean_1080p_only_and_no_near_dupes",
+ "test_d141_d145.py::test_p2_stays_archived", "test_d141_d145.py::test_lean_reuse_and_1080p_hook_removed",
  "test_d141_d145.py::test_daily_recommends_lean", "test_d141_d145.py::test_jolly_caption",
  "test_d145_d148.py::test_lean_calls_hook_only", "test_d145_d148.py::test_jolly_hook_and_say",
  "test_d149_d151.py::test_jolly_f06_hook_8_words", "test_d153_d155.py::test_weekly_all_pass",

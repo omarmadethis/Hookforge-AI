@@ -63,13 +63,13 @@ Keyword bank: `MASK`, `SQUAD`
 | 1 | Boombastic (Shaggy) | reel 0.0 | BH 61.3K, 61.1K |
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
 4 gens. No Brick Hood clip matched in Higgsfield (hf_match: nothing above ~0.83), so the prompts are scripted.
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one POV shot | HOOK |
+| H1 | hook | 720p | 4 s | one POV shot | HOOK |
 | B1 | body | 720p | 4 s | S1 portrait · S2 skiing | WEAR, ACTION |
 | B2 | body | 720p | 4 s | S1 three friends on lift · S2 jump | GROUP, ACTION 2 |
 | B3 | body | 720p | 4 s | S1 snow angel · S2 après cheers | FUN, PAYOFF |

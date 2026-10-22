@@ -41,7 +41,7 @@ F.append({
 "music": {"picks": [{"rank": 1, "track": "Boombastic (Shaggy)", "start": "reel 0.0", "evidence": "BH 61.3K, 61.1K"}], "rules": []},
 "generation_plan": {"summary": "4 gens. No Brick Hood clip matched in Higgsfield (hf_match: nothing above ~0.83), so the prompts are scripted.",
  "generations": [
-  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "POV unbag on chairlift", "shots": "one POV shot", "feeds": "HOOK",
+  {"id": "H1", "kind": "hook", "resolution": "720p", "duration_s": 4, "title": "POV unbag on chairlift", "shots": "one POV shot", "feeds": "HOOK",
    "inputs": "<<<image_1>>> = mask design", "basis": "hooks REPORT §3 accessory first-frame spec.",
    "prompt": "POV from a chairlift seat on a bright day, blue sky and snowy slopes below. Gloved hands pull the knitted ski mask from <<<image_1>>> out of a clear bag and hold it up to the camera so it fills a third of the frame, then stretch it to show the design. Gentle chairlift sway. Natural sound only: wind, lift cable creak. No music, no text.\n" + SUFFIX},
   {"id": "B1", "kind": "body", "resolution": "720p", "duration_s": 4, "title": "WEAR | ACTION", "shots": "S1 portrait · S2 skiing", "feeds": "WEAR, ACTION", "inputs": "<<<image_1>>>", "basis": "BH 61.3K body.",

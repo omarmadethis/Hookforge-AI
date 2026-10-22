@@ -33,7 +33,7 @@ F.append({
 "music": {"picks": [{"rank": 1, "track": "All I Want for Christmas Is You · 0:00", "start": "reel 0.0", "evidence": "jinglenap 1.8M"}], "rules": ["Otherwise use the paired family's pick."]},
 "generation_plan": {"summary": "4 gens.",
  "generations": [
-  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "POV unbox", "shots": "one shot", "feeds": "HOOK", "inputs": "<<<image_1>>> product; <<<image_2>>> packaging",
+  {"id": "H1", "kind": "hook", "resolution": "720p", "duration_s": 4, "title": "POV unbox", "shots": "one shot", "feeds": "HOOK", "inputs": "<<<image_1>>> product; <<<image_2>>> packaging",
    "basis": "B-UNBOX-POV (prompt_templates) compressed into the hook; BH / zombie.crawler POV.",
    "prompt": "POV: hands hold the {brand} box from <<<image_2>>> on denim-clad knees in a festive American living room, flip the lid open within the first second and lift the {product} from <<<image_1>>> up toward the camera so it fills a third of the frame by two seconds. A golden retriever watches. Handheld phone video. Natural sound only, no music, no text.\n" + SUFFIX},
   {"id": "B1", "kind": "body", "resolution": "720p", "duration_s": 4, "title": "FIRST USE | FEATURE", "shots": "S1 place/wear · S2 feature", "feeds": "FIRST USE, FEATURE", "inputs": "<<<image_1>>>", "basis": "T5 pattern.",

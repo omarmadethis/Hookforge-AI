@@ -18,7 +18,7 @@ SOURCES = {
     "I": "Business Suite Insights (/workspace/merryglow/insights_reels.csv etc., via PLAYBOOK §2.1)",
 }
 
-PACK_RULE = ("Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); "
+PACK_RULE = ("Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); "
              "every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by "
              "'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix.")
 
@@ -122,7 +122,7 @@ def check_prompts(f):
         p = g["prompt"].rstrip()
         assert p.endswith(SUFFIX), f"{f['slug']} {g['id']} missing suffix"
         if g["kind"] == "hook":
-            assert g["resolution"] == "1080p" and g["duration_s"] == 4, f"{f['slug']} hook gen rule"
+            assert g["resolution"] == "720p" and g["duration_s"] == 4, f"{f['slug']} hook gen rule"
         else:
             assert g["resolution"] == "720p", f"{f['slug']} body res rule"
             assert "HARD CUT at 2s, no transition" in p, f"{f['slug']} {g['id']} missing hard cut"

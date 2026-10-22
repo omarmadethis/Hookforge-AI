@@ -11,7 +11,7 @@ F.append({
  "warmrobestore 'Period girls RUN don't walk to Target 🩸🙃' 834K / 29K shares: the same robe sold as cramp relief (X).",
  "obsidianrobes '“Just wear slippers”🙄' 509K; thecozybts 417K; goth.robes 1.3M; nocturne.robes0 1.3M: one product category, five tribes (external REPORT §4 #2).",
  "Internal: one robe body under women (6.6M), mom (2.7M), grandma (183K) and wife (165K) recipients.",
- "Reusing body clips is safe when the hook changes: gen c0ede3c3 sits in both the 1.4M Walmart and the 1.4M Target reels, and 13 generations were reused across 2-3 reels (PLAYBOOK §15.6). Only identical FILES collapse (6.6M → 2.2K).",
+ "HISTORICAL ONLY - footage reuse is BANNED (D180/D192), every video is fully unique. Old observation: gen c0ede3c3 sits in both the 1.4M Walmart and the 1.4M Target reels, and 13 generations were reused across 2-3 reels (PLAYBOOK §15.6). Only identical FILES collapse (6.6M → 2.2K).",
 ],
 "product_fit": [
  {"type": "Any product with a proven body on file", "fit": "PRIMARY", "evidence": "robe (4 recipients internally; 5 tribes externally)"},
@@ -32,9 +32,9 @@ F.append({
  "rules": ["Pick tribes the 35-65+ FB buyer belongs to or buys for (grandma, nurse, teacher, cat mom) before youth tribes [I, from Insights ages]."]},
 "caption": {"template": "Finally, one for us {tribe emoji}\nSAY \"{KEYWORD}\" and we'll send you the link\n#{tribe} #{product_tag}", "keywords": ["{TRIBE}", "WARM"], "rules": ["SAY not COMMENT."]},
 "music": {"picks": [{"rank": 1, "track": "Source winner's song + offset (or the next pick in that format's list, to avoid duplicate audio)", "start": "as source", "evidence": "Let It Snow on robe tribes: thecozybts 417K"}], "rules": []},
-"generation_plan": {"summary": "1 new generation (H1, 1080p). The body uses existing renders from the source winner.",
+"generation_plan": {"summary": "BANNED (D180/D192): footage reuse. Plan a full new video: H1 + B1-B3, all 720p, no existing renders.",
  "generations": [
-  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "Tribe-signalling hook",
+  {"id": "H1", "kind": "hook", "resolution": "720p", "duration_s": 4, "title": "Tribe-signalling hook",
    "shots": "one shot", "feeds": "NEW HOOK", "inputs": "<<<video_1>>> = the source winner's own hook clip; <<<image_1>>> = cast image of the tribe",
    "basis": "T3 background/cast-only swap (88K; gens 8463df4d, 633c0bb6, 00384ba0). The person swap is the one change.",
    "prompt": "Recreate <<<video_1>>> 1:1 perfectly. Do not change the camera angle and movements. There are only 2 changes you are going to make.\nChange 1: Replace the woman in <<<video_1>>> with the woman in <<<image_1>>> ({tribe styling}); the {product} stays exactly the same.\nChange 2: Remove the caption from <<<video_1>>>.\nOther than change 1 and change 2, replicate <<<video_1>>> 1:1 perfectly.\n" + SUFFIX},

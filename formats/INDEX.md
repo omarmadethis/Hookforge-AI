@@ -54,7 +54,7 @@ Each format is a full hook-plus-body recipe. Every spec (`<slug>.md` + `<slug>.j
 
 ## Generation rules (checked automatically by `_build.py`)
 
-- **Hook:** its own 4 s generation at 1080p.
+- **Hook:** its own 4 s generation at 720p (D181).
 - **Body:** 720p, with 2 shots per 4 s Seedance generation. The prompt must say `HARD CUT at 2s, no transition`.
 - **Recreates:** splice two 2 s reference segments into one 4 s `<<<video_1>>>` and add 'including its HARD CUT at 2s, no transition'. The scripted alt_prompt is the fallback:
 

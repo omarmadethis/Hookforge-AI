@@ -8,7 +8,7 @@
     "warmrobestore 'Period girls RUN don't walk to Target 🩸🙃' 834K / 29K shares: the same robe sold as cramp relief (X).",
     "obsidianrobes '“Just wear slippers”🙄' 509K; thecozybts 417K; goth.robes 1.3M; nocturne.robes0 1.3M: one product category, five tribes (external REPORT §4 #2).",
     "Internal: one robe body under women (6.6M), mom (2.7M), grandma (183K) and wife (165K) recipients.",
-    "Reusing body clips is safe when the hook changes: gen c0ede3c3 sits in both the 1.4M Walmart and the 1.4M Target reels, and 13 generations were reused across 2-3 reels (PLAYBOOK §15.6). Only identical FILES collapse (6.6M → 2.2K)."
+    "HISTORICAL ONLY - footage reuse is BANNED (D180/D192), every video is fully unique. Old observation: gen c0ede3c3 sits in both the 1.4M Walmart and the 1.4M Target reels, and 13 generations were reused across 2-3 reels (PLAYBOOK §15.6). Only identical FILES collapse (6.6M → 2.2K)."
   ],
   "product_fit": [
     {
@@ -102,12 +102,12 @@
     "rules": []
   },
   "generation_plan": {
-    "summary": "1 new generation (H1, 1080p). The body uses existing renders from the source winner.",
+    "summary": "BANNED (D180/D192): footage reuse. Plan a full new video: H1 + B1-B3, all 720p, no existing renders.",
     "generations": [
       {
         "id": "H1",
         "kind": "hook",
-        "resolution": "1080p",
+        "resolution": "720p",
         "duration_s": 4,
         "title": "Tribe-signalling hook",
         "shots": "one shot",
@@ -275,5 +275,5 @@
     "external_organic_winners": 0
   },
   "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
-  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
 }

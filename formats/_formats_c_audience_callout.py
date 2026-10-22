@@ -47,9 +47,9 @@ F.append({
   {"rank": 2, "track": "Let It Snow · 0:00 (robe default)", "start": "reel 0.0", "evidence": "robe family default (6.6M; ext robes)"},
   {"rank": 3, "track": "Last Christmas · ~2:48", "start": "reel 0.0", "evidence": "MGS 35.4K"},
  ], "rules": ["warmly, goth.robes and nocturne used original sound; no music claim beyond that."]},
-"generation_plan": {"summary": "4 gens: H1 held-for-you at 1080p, then the wearable master (or decor master).",
+"generation_plan": {"summary": "4 gens: H1 held-for-you at 720p, then the wearable master (or decor master).",
  "generations": [
-  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "Held-for-you reveal",
+  {"id": "H1", "kind": "hook", "resolution": "720p", "duration_s": 4, "title": "Held-for-you reveal",
    "shots": "one shot", "feeds": "HOOK", "inputs": "<<<image_1>>> product rolled; cast image styled for the tribe",
    "basis": "warmly 6.0M / goth.robes 1.3M hook visuals (X hook_visual); use T1 if a reference clip exists.",
    "prompt": "Vertical 9:16 iPhone video. A {tribe-styled} woman stands centred in a {tribe-matching room}, holding the rolled {product} from <<<image_1>>> at chest height toward the camera so it fills the middle third, a soft emotional smile. At 1.5 seconds she unrolls it to full length toward the lens. Locked camera, eye level, top fifth clear. Natural room sound only, no music, no text.\n" + SUFFIX},

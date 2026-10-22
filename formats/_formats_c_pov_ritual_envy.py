@@ -48,7 +48,7 @@ F.append({
  ], "rules": []},
 "generation_plan": {"summary": "4 gens. B2 is the verified MerryFires two-shot clip (4ca058a5), re-skinned.",
  "generations": [
-  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "Cozy ritual + box arrives",
+  {"id": "H1", "kind": "hook", "resolution": "720p", "duration_s": 4, "title": "Cozy ritual + box arrives",
    "shots": "one locked shot", "feeds": "HOOK", "inputs": "T8 start still: dim living room, family on couch, movie on TV, US flag",
    "basis": "MF 63K opening (hooks REPORT §3 decor alternative: 'cosy dim family couch scene with the box carried in by 1 s').",
    "prompt": "Image-to-video from the start image. A dim, cozy American living room at night, a family of four on the couch under a blanket watching a Christmas movie, a golden retriever on the rug, an American flag on the wall. Within the first second dad walks in from the left carrying the {brand} box and sets it on the coffee table; the kids sit up. Locked camera. Natural sound only: TV dialogue murmur, footsteps. No music, no text.\n" + SUFFIX,

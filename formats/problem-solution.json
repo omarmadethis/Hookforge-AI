@@ -111,12 +111,12 @@
     "rules": []
   },
   "generation_plan": {
-    "summary": "Only for a gadget/toy experiment: 3-4 gens (H1 + B1 shown; reuse unboxing-to-use B2/B3 for the rest).",
+    "summary": "Only for a gadget/toy experiment: 3-4 gens (H1 + B1 shown; generate fresh B2/B3 - never reuse footage (D180)).",
     "generations": [
       {
         "id": "H1",
         "kind": "hook",
-        "resolution": "1080p",
+        "resolution": "720p",
         "duration_s": 4,
         "title": "Problem scene with product cue",
         "shots": "one shot",
@@ -241,5 +241,5 @@
     "external_organic_winners": 1
   },
   "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
-  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
 }

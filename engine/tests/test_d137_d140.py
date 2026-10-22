@@ -10,4 +10,5 @@ def test_weekly_clean_distinct():
     assert o["repeated_captions_on_a_page"] == []
 def test_price_and_lean():
     assert gates.PRICES["still_gpt_image_2"] == 6.5
-    q = L.quote(); assert q["total_credits"] < q["standard_total"] and q["total_credits"] == 1227.0
+    import pytest
+    with pytest.raises(RuntimeError): L.write({})              # D180/D192: lean reuse plan banned

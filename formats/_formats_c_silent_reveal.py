@@ -30,7 +30,7 @@ F.append({
 "music": {"picks": [{"rank": 1, "track": "All I Want for Christmas Is You · 0:00", "start": "reel 0.0", "evidence": "sarvina450 23.7M, 2.5M"}], "rules": []},
 "generation_plan": {"summary": "3 gens.",
  "generations": [
-  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "Plug-in in the dark", "shots": "one shot", "feeds": "HOOK", "inputs": "<<<image_1>>> product; reference video of the real effect",
+  {"id": "H1", "kind": "hook", "resolution": "720p", "duration_s": 4, "title": "Plug-in in the dark", "shots": "one shot", "feeds": "HOOK", "inputs": "<<<image_1>>> product; reference video of the real effect",
    "basis": "sarvina450 hook visual; 4dabfa47 integrity guard.",
    "prompt": "Vertical 9:16 iPhone video in a dark bedroom at night. Close on a wall socket: a hand plugs in the {product} from <<<image_1>>>, and at two seconds it switches on and the first light of exactly the effect in the reference video spreads across the ceiling. Locked camera. Natural sound only: plug click, a soft hum. No music, no text. The effect is only what the real product does.\n" + SUFFIX},
   {"id": "B1", "kind": "body", "resolution": "720p", "duration_s": 4, "title": "WOW 1 | WOW 2", "shots": "two angles", "feeds": "WOW 1, WOW 2", "inputs": "room still; effect reference",

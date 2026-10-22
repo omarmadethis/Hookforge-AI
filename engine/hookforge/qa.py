@@ -39,7 +39,7 @@ def plan_checks(plan):
         if race_targeted(t): p.append(f"race-targeted hook excluded (neutral recipient framing only): {t[:40]}")
     for g in plan["gens"]:
         if g["dur"] > 5: p.append(f"gen {g['id']} {g['dur']} s > 5 s")
-        if g["id"] == "H" and g["res"] != "1080p": p.append("hook not 1080p")
+        if g["res"] != "720p": p.append(f"gen {g['id']} not 720p (D181)")
         if g["id"] != "H" and g["res"] != "720p": p.append(f"{g['id']} not 720p")
     lo, hi = EDIT["length_soft"]
     if not lo <= plan["duration"] <= hi: p.append(f"length {plan['duration']} outside {lo}-{hi}")
@@ -96,7 +96,7 @@ def reroll_decision(gen_id, judgement, attempts_so_far=0, log=True, context=""):
     f, conf = judgement.get("failure"), float(judgement.get("confidence", 0))
     absurd = f in REROLL["absurd_failures"]
     reroll = bool(REROLL["auto"] and absurd and conf >= REROLL["min_confidence"] and attempts_so_far < REROLL["max_auto_rerolls_per_shot"])
-    cost = (CREDITS["hook_1080p_4s"] if gen_id == "H" else CREDITS["body_720p_4s"]) if reroll else 0
+    cost = CREDITS["body_720p_4s"] if reroll else 0
     reason = ("absurd failure, certain" if reroll else "minor - ship and log" if f in REROLL["never_reroll"] or not absurd
               else "absurd but below confidence / re-roll cap - escalate to human")
     rec = dict(ts=datetime.datetime.now(__import__("zoneinfo").ZoneInfo("America/Los_Angeles")).isoformat(timespec="seconds"), context=context, gen=gen_id, failure=f, confidence=conf,

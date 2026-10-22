@@ -62,13 +62,13 @@ Keyword bank: `{PRODUCT}`
 - Otherwise use the paired family's pick.
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
 4 gens.
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one shot | HOOK |
+| H1 | hook | 720p | 4 s | one shot | HOOK |
 | B1 | body | 720p | 4 s | S1 place/wear · S2 feature | FIRST USE, FEATURE |
 | B2 | body | 720p | 4 s | S1 switch on · S2 reaction | ACTIVATION, REACTION |
 | B3 | body | 720p | 4 s | two payoff takes | PAYOFF |

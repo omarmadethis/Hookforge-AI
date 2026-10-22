@@ -15,7 +15,7 @@ def main(start=None):
     cal = {}
     step("calendar", lambda: cal.setdefault("c", content_calendar.week(start, write=True)), lambda c: f"{len(c['slots'])} slots from {c['start']}")
     step("daily concepts", concept_lab.daily, lambda d: f"{len(d['items'])} concepts, recommended {d['recommended_options']} ({d['recommended_credits']}/{d['innovation_budget']} cr)")
-    step("weekly + lean", lambda: concept_lab.weekly(start), lambda w: f"{w['new_videos']} videos / {w['slots']} slots, standard {w['total_credits']} cr; lean -> learning/weekly_batch/{w['start']}_lean.json")
+    step("weekly batch", lambda: concept_lab.weekly(start), lambda w: f"{w['new_videos']} videos / {w['slots']} slots, standard {w['total_credits']} cr")
     step("render queue", lambda: render_queue.build(cal.get("c") or content_calendar.week(start, write=False), write=True),
          lambda r: f"{len(r['slots'])} slots {r['summary']}")
     step("buffer preflight", buffer_preflight.run, lambda b: f"{b['passed']}/{b['slots']} payloads pass Buffer create_post schema {b['per_product']}")

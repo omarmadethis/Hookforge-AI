@@ -70,13 +70,13 @@ Keyword bank: `FIRE`, `COZY`, `LIGHTS`
 | ext | It's Beginning to Look a Lot Like Christmas | reel 0.0 | meltiemug 1.7M |
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
 4 gens. B2 is the verified MerryFires two-shot clip (4ca058a5), re-skinned.
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one locked shot | HOOK |
+| H1 | hook | 720p | 4 s | one locked shot | HOOK |
 | B1 | body | 720p | 4 s | S1 open box · S2 place product | UNBOX, INSTALL |
 | B2 | body | 720p | 4 s | S1 pour · S2 ignite + family leans in | POUR, ACT → LIT |
 | B3 | body | 720p | 4 s | S1 family s'mores · S2 hero | FAMILY, LIT hero |

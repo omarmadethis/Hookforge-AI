@@ -27,9 +27,9 @@ F.append({
 "text": {"style": "House style.", "patterns": [{"pattern": "The problem😬 → (solution)", "tag": "P (ext, IG)", "source": "tryglowmas 429K"}, {"pattern": "The Problem😕🎄 → Vs.. → The solution", "tag": "FAILED", "source": "HJ 5.6K, 2.7K; PV ~3 views"}], "rules": []},
 "caption": {"template": "Problem solved 😏\nSAY \"{KEYWORD}\" and we'll send you the link", "keywords": ["FIXED"], "rules": ["SAY not COMMENT."]},
 "music": {"picks": [{"rank": "—", "track": "No proven pick (HJ 5.6K used Last Christmas ~2:48 and flopped)", "start": "—", "evidence": "HJ 5.6K"}], "rules": []},
-"generation_plan": {"summary": "Only for a gadget/toy experiment: 3-4 gens (H1 + B1 shown; reuse unboxing-to-use B2/B3 for the rest).",
+"generation_plan": {"summary": "Only for a gadget/toy experiment: 3-4 gens (H1 + B1 shown; generate fresh B2/B3 - never reuse footage (D180)).",
  "generations": [
-  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "Problem scene with product cue", "shots": "one shot", "feeds": "HOOK", "inputs": "<<<image_1>>> product",
+  {"id": "H1", "kind": "hook", "resolution": "720p", "duration_s": 4, "title": "Problem scene with product cue", "shots": "one shot", "feeds": "HOOK", "inputs": "<<<image_1>>> product",
    "basis": "tryglowmas 429K; product-at-0 s fix from hooks REPORT §1.3.",
    "prompt": "Vertical 9:16 iPhone video at a family dinner table: two boys aim toy guns at each other across the plates and mom throws her hands up; the boxed {product} from <<<image_1>>> sits on the counter in the foreground, clearly visible from the first second. Locked camera. Natural sound only: kids yelling, cutlery. No music, no text.\n" + SUFFIX},
   {"id": "B1", "kind": "body", "resolution": "720p", "duration_s": 4, "title": "SOLUTION | USE", "shots": "reveal · use", "feeds": "SOLUTION, USE", "inputs": "<<<image_1>>>", "basis": "T5 pattern.",

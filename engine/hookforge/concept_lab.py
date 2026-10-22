@@ -61,20 +61,11 @@ def daily(day=None, products=None):
     ranked = rank(items, day or datetime.datetime.now(PT).date())      # D111: POC x season x page-gap order, not cheapest-first
     import copy
     from . import gates, runner
-    for i in items:                                   # D143: lean option = 1 start-frame still per gen, same 1080p hook + clips
-        if i.get("plan") and i.get("ready_for_approval"):
-            lp = copy.deepcopy(i["plan"])
-            for g in lp.get("gens") or []:
-                if g.get("start_frame"): g["start_frame"]["n"] = 1
-            lq = gates.quote(lp)
-            lp["quote"] = lq
-            i["lean"] = dict(option="lean_1_still", still_variants=1, credits=lq["total"], plan=lp,
-                             approval_file_draft=dict(runner.approval_template(lp, i["id"] + "_lean", credit_cap=lq["total"]), approved_by="", approved_at_pt="", approval_quote=""))
+    # D180/D192: no lean / reuse option - every concept is planned in full with unique footage, 720p hook
     opt = {}
-    for i in ranked:                                  # full if it fits, else the lean option automatically (D143)
+    for i in ranked:                                  # full plan only (D180/D192: lean option removed)
         if not i.get("ready_for_approval"): continue
         if i["credits"] <= left: rec.append(i["id"]); opt[i["id"]] = "full"; left -= i["credits"]
-        elif i.get("lean") and i["lean"]["credits"] <= left: rec.append(i["id"]); opt[i["id"]] = "lean_1_still"; left -= i["lean"]["credits"]
     for i in items:
         if i.get("id"):
             i["recommended_today"] = i["id"] in rec; i["recommended_option"] = opt.get(i["id"])
@@ -244,16 +235,10 @@ def weekly(start=None, write=True):
         json.dump(out, open(os.path.join(d, f"{cal['start']}.json"), "w"), indent=1, ensure_ascii=False, default=str)
         it = dict(id=f"weekly_batch_{cal['start']}", kind="weekly_batch", product=None, status="AWAITING_OMAR_APPROVAL",
                   created_pt=datetime.datetime.now(PT).isoformat(timespec="seconds"), credits=total, credit_cap=total, ready_for_approval=True,
-                  why=f"{out['new_videos']} new videos fill all {out['slots']} calendar slots ({cal['start']} week); each video reused across its product's pages with distinct captions",
+                  why=f"{out['new_videos']} new videos fill all {out['slots']} calendar slots ({cal['start']} week); one fully unique video per page slot (D180/D191: never the same video on 2 pages)",
                   rationale="; ".join(f"{b['product']}: {b.get('videos_needed')} videos" for b in batch), batch_file=f"learning/weekly_batch/{cal['start']}.json",
                   note="approve per video or the whole batch; each video still goes through its own approval file + runner gate")
-        from . import lean_plan                       # D143: the lean 1080p-hook plan is the recommended option when it passes D142
-        lw = lean_plan.write(out)["lean"]
-        from .unique_footage import REUSE_BANNED     # D180: lean reuse banned; standard (fully unique) is the only option
-        if not REUSE_BANNED and lw["near_duplicate_ok"]:
-            it.update(recommended_option="lean_1080p_hook", credits=lw["total_credits"], credit_cap=lw["total_credits"], standard_credits=total,
-                      lean_file=f"learning/weekly_batch/{cal['start']}_lean.json")
-        else: it.update(recommended_option="standard", lean_blocked=(["D180: clip reuse banned"] if REUSE_BANNED else []) + list(lw["near_duplicate_violations"]))
+        it.update(recommended_option="standard")      # D180/D192: lean reuse option removed; only fully unique 720p plans
         approval_queue.preserve(it, os.path.join(approval_queue.DIR, it["id"] + ".json"))   # D168 keep original times
         json.dump(it, open(os.path.join(approval_queue.DIR, it["id"] + ".json"), "w"), indent=1, ensure_ascii=False)
     return out

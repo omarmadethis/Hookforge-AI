@@ -82,13 +82,13 @@ Keyword bank: `TREE`, `LIGHTS`, `CHRISTMAS`
 | ext | AIWFCIY (jea7lous upload) / No Pique Do Natal (IG) | reel 0.0 | snowlit 3.2M; merryglow.official 5.5M |
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
-4 gens: H1 disaster 'then' at 1080p from a T8 start still of the SAME room used for the 'now'; B1-B3 decor body at 720p.
+4 gens: H1 disaster 'then' at 720p from a T8 start still of the SAME room used for the 'now'; B1-B3 decor body at 720p.
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one locked wide shot, disaster by 1-3 s | THEN |
+| H1 | hook | 720p | 4 s | one locked wide shot, disaster by 1-3 s | THEN |
 | B1 | body | 720p | 4 s | S1 second 'before' angle · S2 box open + lift out | THEN2, BOX |
 | B2 | body | 720p | 4 s | S1 install · S2 activation, dark → lit | INSTALL, LIT 1 |
 | B3 | body | 720p | 4 s | S1 lower/closer angle + family reaction · S2 hero wide | LIT 2, LIT 3 |

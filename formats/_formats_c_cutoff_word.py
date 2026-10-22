@@ -36,9 +36,9 @@ F.append({
   {"rank": 1, "track": "Last Christmas (Wham!) · ~2:48", "start": "reel 0.0", "evidence": "MG 98K (offset 171.0 s)"},
   {"rank": 2, "track": "Let It Snow · 0:00", "start": "reel 0.0", "evidence": "HJ 91K"},
  ], "rules": []},
-"generation_plan": {"summary": "4 gens: H1 box-in-hand at 1080p, then the decor master (B1 starts at BOX).",
+"generation_plan": {"summary": "4 gens: H1 box-in-hand at 720p, then the decor master (B1 starts at BOX).",
  "generations": [
-  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "Box in hand, lid opens by 2 s",
+  {"id": "H1", "kind": "hook", "resolution": "720p", "duration_s": 4, "title": "Box in hand, lid opens by 2 s",
    "shots": "one shot", "feeds": "HOOK", "inputs": "<<<image_1>>> = {brand} box; room still",
    "basis": "MG 98K opener (hand-coded WEAR_HOLD, 15% product share): the box-in-hook retention fix.",
    "prompt": "Vertical 9:16 iPhone video in a dim American living room with an unlit Christmas tree. A woman stands centred holding the {brand} box from <<<image_1>>> up at chest height toward the camera, then lifts the lid at 1.5 seconds and tilts the box so the {product} inside is visible. Locked camera, top fifth clear. Natural sound only, no music, no text.\n" + SUFFIX,

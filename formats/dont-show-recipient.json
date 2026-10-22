@@ -202,12 +202,12 @@
     ]
   },
   "generation_plan": {
-    "summary": "4 generations: 1 hook at 1080p + 3 packed body gens at 720p. One take per gen (D33: auto re-roll only on an absurd failure at >=0.9 confidence, max 1 per shot, logged with reason + cost).",
+    "summary": "4 generations: 1 hook at 720p + 3 packed body gens at 720p. One take per gen (D33: auto re-roll only on an absurd failure at >=0.9 confidence, max 1 per shot, logged with reason + cost).",
     "generations": [
       {
         "id": "H1",
         "kind": "hook",
-        "resolution": "1080p",
+        "resolution": "720p",
         "duration_s": 4,
         "title": "Product-held-big reveal (2.7M / 12.4M pattern)",
         "shots": "one continuous shot",
@@ -631,5 +631,5 @@
     "external_organic_winners": 2
   },
   "realism_suffix": "shot on iphone 12, no warm lighting, no blur, nothing cinematic, make it look as organic as possible, remove the caption and the emojis. when recreating do not make the video grainy or sharp in any way, remake it as if it was freshly refilmed 4k iphone 12 footage.",
-  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
+  "pack_rule": "Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix."
 }

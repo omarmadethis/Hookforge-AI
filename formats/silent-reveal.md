@@ -58,13 +58,13 @@ Keyword bank: `MAGIC`, `LIGHTS`
 | 1 | All I Want for Christmas Is You · 0:00 | reel 0.0 | sarvina450 23.7M, 2.5M |
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
 3 gens.
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one shot | HOOK |
+| H1 | hook | 720p | 4 s | one shot | HOOK |
 | B1 | body | 720p | 4 s | two angles | WOW 1, WOW 2 |
 | B2 | body | 720p | 4 s | escalation + hero | WOW 3, HERO |
 

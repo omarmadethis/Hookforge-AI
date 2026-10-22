@@ -36,7 +36,7 @@ def render_index(formats):
           "- **Any proven product, new tribe:** same-product-new-audience. Re-skin the hook only, never the same file (a repost of the 6.6M reel did 2.2K).",
           "- **Every format:** apply the unboxing-to-use guard rail (no box shot after 3.8 s or longer than 2.0 s).", "",
           "## Generation rules (checked automatically by `_build.py`)", "",
-          "- **Hook:** its own 4 s generation at 1080p.",
+          "- **Hook:** its own 4 s generation at 720p (D181).",
           "- **Body:** 720p, with 2 shots per 4 s Seedance generation. The prompt must say `HARD CUT at 2s, no transition`.",
           "- **Recreates:** splice two 2 s reference segments into one 4 s `<<<video_1>>>` and add 'including its HARD CUT at 2s, no transition'. The scripted alt_prompt is the fallback:",
           "", "```", "ffmpeg -i a.mp4 -i b.mp4 -filter_complex \"[0:v]trim=0:2,setpts=PTS-STARTPTS[a];[1:v]trim=0:2,setpts=PTS-STARTPTS[b];[a][b]concat=n=2:v=1[v]\" -map \"[v]\" ref.mp4", "```", "",

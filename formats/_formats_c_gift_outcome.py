@@ -33,7 +33,7 @@ F.append({
 "music": {"picks": [{"rank": 1, "track": "Christmas (Baby Please Come Home)", "start": "reel 0.0", "evidence": "ccreamyco TT 2.5M"}, {"rank": 2, "track": "Rockin' Around the Christmas Tree", "start": "reel 0.0", "evidence": "thefacetribee 1.0M"}], "rules": []},
 "generation_plan": {"summary": "4 gens.",
  "generations": [
-  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "Recipient mid-use", "shots": "one shot", "feeds": "HOOK", "inputs": "<<<image_1>>> product; cast image",
+  {"id": "H1", "kind": "hook", "resolution": "720p", "duration_s": 4, "title": "Recipient mid-use", "shots": "one shot", "feeds": "HOOK", "inputs": "<<<image_1>>> product; cast image",
    "basis": "ccreamyco outcome framing; product-hero-at-0 s rule (hooks REPORT §1.3).",
    "prompt": "Vertical 9:16 handheld iPhone video, filmed by her husband: in the kitchen at breakfast a woman is wearing the {product} from <<<image_1>>> with the hood up, sipping coffee and laughing at the camera, the {product} filling a third of the frame. Natural sound only: kitchen sounds, her laugh. No music, no text.\n" + SUFFIX},
   {"id": "B1", "kind": "body", "resolution": "720p", "duration_s": 4, "title": "USE 2 | USE 3", "shots": "two usage moments", "feeds": "USE 2, USE 3", "inputs": "<<<image_1>>>, cast", "basis": "ccreamyco usage montage.",

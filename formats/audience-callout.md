@@ -74,13 +74,13 @@ Keyword bank: `COLD`, `MINE`, `{TRIBE}`
 - warmly, goth.robes and nocturne used original sound; no music claim beyond that.
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
-4 gens: H1 held-for-you at 1080p, then the wearable master (or decor master).
+4 gens: H1 held-for-you at 720p, then the wearable master (or decor master).
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one shot | HOOK |
+| H1 | hook | 720p | 4 s | one shot | HOOK |
 | B1 | body | 720p | 4 s | S1 put-on from behind 0-2 s · S2 feature reveal 2-4 s | PUT, FEAT (first half) |
 | B2 | body | 720p | 4 s | S1 feature continued (walk/turn/sit) 0-2 s · S2 connector macro 2-4 s (use 0.7 s) | FEAT (second half), PLUG |
 | B3 | body | 720p | 4 s | S1 remote LEDs climb 0-2 s · S2 cozy payoff 2-4 s | REM, COZY |

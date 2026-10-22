@@ -83,13 +83,13 @@ Keyword bank: `GRINCH`, `CHRISTMAS`, `JK`
 - No beat drop inside 13 s on AIWFCIY; it carries the 'event' feel of the reveal.
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
-5 generations: H1 pallet at 1080p (image-to-video from a generated start still), B1-B3 at 720p. B1 packs the two halves of the hand pull.
+5 generations: H1 pallet at 720p (image-to-video from a generated start still), B1-B3 at 720p. B1 packs the two halves of the hand pull.
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one continuous push-in | HOOK |
+| H1 | hook | 720p | 4 s | one continuous push-in | HOOK |
 | B1 | body | 720p | 4 s | S1 hand reaches into stack · S2 unit pulled to lens | PULL wide, PULL close |
 | B2 | body | 720p | 4 s | S1 feature continued (walk/turn/sit) 0-2 s · S2 connector macro 2-4 s (use 0.7 s) | FEAT (second half), PLUG |
 | B3 | body | 720p | 4 s | S1 remote LEDs climb 0-2 s · S2 cozy payoff 2-4 s | REM, COZY |

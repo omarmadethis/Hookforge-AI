@@ -3,7 +3,7 @@ Plate: research/product_footage/trump_projector/tp06_hr_photo_projection_close.m
 surface, handheld, no burned-in text). Per frame: detect the lit disc (largest bright blob -> fitEllipse), smooth the
 ellipse over time (handheld follows), warp the round art into the ellipse, light it like a projector (additive light
 x surface albedo from the plate, radial falloff, slight defocus, edge vignette and the plate's colour cast), then
-crop 9:16 around the disc, 720p (F: only hooks at 1080p), clean_export (zero metadata).
+crop 9:16 around the disc, 720p (D181: every gen 720p), clean_export (zero metadata).
 Usage: python3 tools/trump_projector/composite.py [--art PATH] [--plate PATH] [--secs N]
 """
 import os, sys, argparse, subprocess, tempfile

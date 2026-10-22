@@ -9,7 +9,7 @@ L = []; w = L.append
 w(f"# RESUME — Hookforge (read this first)\nGenerated {now} by `engine/scripts/build_resume.py` from DECISIONS, OMAR_FEEDBACK_LOG, rules_core, config and the queues. "
   "Do not hand-edit; fix the sources and rerun.\n")
 w("## 0. Start of every session\n```\n/workspace/hookforge/automation/ensure.sh          # snapshot supervisor (idempotent)\n"
-  "cd /workspace/hookforge/engine && PYTHONPATH=. python3 -m hookforge.regen   # calendar, concepts, weekly+lean, render queue, Buffer preflight, digest\n"
+  "cd /workspace/hookforge/engine && PYTHONPATH=. python3 -m hookforge.regen   # calendar, concepts, weekly batch, render queue, Buffer preflight, digest\n"
   "PYTHONPATH=. python3 -m pytest -q tests   # + script tests: test_recreate_logic, test_audience_fit, test_edit_rules, test_omar_style (python3 <file>)\n```\n"
   "Full history: [docs/DECISIONS.md](DECISIONS.md) · [docs/HANDOFF.md](HANDOFF.md) · [learning/OMAR_FEEDBACK_LOG.md](../learning/OMAR_FEEDBACK_LOG.md) · audit: [docs/BLUEPRINT_2026-10-20.md](BLUEPRINT_2026-10-20.md) · excluded assets: [docs/MANIFEST_EXCLUDED.md](MANIFEST_EXCLUDED.md)\n")
 w("## 1. Hard safety constraints (Omar, standing — override everything)\n" + "\n".join("- " + x for x in [
@@ -21,7 +21,7 @@ w("## 1. Hard safety constraints (Omar, standing — override everything)\n" + "
  "No race-based casting or hooks. Cast: default women; Trump/car/patriotic products a man; cat products a woman.",
  "On-screen text (hooks + text cards) ≤ 8 words, NO exceptions (D149). FB post captions follow proven winners (not word-capped).",
  "Captions use SAY \"<KEYWORD>\", never \"Comment\" (D5/F93); the SAY rule always applies (D148).",
- "Hooks are 1080p (D141). Seedance 2.5 video only, GPT Image 2 stills only, no end frames (D22).",
+ "Every gen is 720p, hooks included (D181); no footage reuse (D180). Seedance 2.5 video only, GPT Image 2 stills only, no end frames (D22).",
  "Every file leaves the box via deliver.stage / verify_staged (D44d). Leave the shared-learning server deployment alone; don't touch the other worker's PurrVenture files unless asked.",
  "Report times in PT. Log every decision as a D-number in docs/DECISIONS.md."]) + "\n")
 # products
@@ -46,13 +46,11 @@ w(f"\n**Higgsfield:** MCP namespaces `user-Higgsfield` (old account) and `user-H
 # approval queue
 w("## 4. Approval queue (learning/approval_queue — all AWAITING_OMAR_APPROVAL, nothing approved)\n| id | kind | credits | recommended option | ready |\n|---|---|---|---|---|")
 for f in sorted(glob.glob(P("learning", "approval_queue", "*.json"))):
-    i = json.load(open(f)); w(f"| {i.get('id')} | {i.get('kind')} | {i.get('credits')} | {i.get('recommended_option') or ('lean_1_still ' + str((i.get('lean') or {}).get('credits')) if i.get('recommended_today') and i.get('lean') else '-')} | {i.get('ready_for_approval')} |")
+    i = json.load(open(f)); w(f"| {i.get('id')} | {i.get('kind')} | {i.get('credits')} | {i.get('recommended_option') or '-'} | {i.get('ready_for_approval')} |")
 w("\nArchived (never re-queue): " + ", ".join(os.path.basename(f)[:-5] for f in sorted(glob.glob(P("learning", "approval_queue", "_archive", "*.json")))) + "\n")
 w("**Approval records on file (learning/approvals):** " + ", ".join(sorted(os.path.basename(f)[:-5] for f in glob.glob(P("learning", "approvals", "*.json")))) + "\n")
 # open decisions
 w("## 5. Open decisions for Omar\n" + "\n".join("- " + x for x in [
- "Weekly batch 2026-10-21: approve lean 1080p-hook plan (1,227 cr) vs standard (2,600 cr), or per video.",
- "Daily innovation budget 175 cr < 200 cr full concept; lean (174) auto-recommended — raise budget or keep lean?",
  "298.15 cr unledgered spend on the new Higgsfield account (10-20) — needs job rows; purrventure_branding_v2 spend unknown.",
  "trumpglow + purrventure product URLs are PLACEHOLDER (blocks traction caption swaps) — read-only Shopify lookup or Omar to supply.",
  "SAY \"VOTE\" near the midterms carries a PL5 WARN — keep the keyword or switch (e.g. SAY \"USA\")?",
@@ -60,8 +58,8 @@ w("## 5. Open decisions for Omar\n" + "\n".join("- " + x for x in [
  "No public video host for Buffer asset URLs yet (needed before the first real draft push).",
  "GitHub: push once auth exists; repo should be PRIVATE (config/buffer_routing.json carries org/channel IDs, D10)."]) + "\n")
 w("## 6. Next steps\n" + "\n".join(f"{n}. {x}" for n, x in enumerate([
- "Get Omar's decision on the weekly batch (lean vs standard) and today's concept; write learning/approvals/<run>.json from the chat approval (runner gate needs plan sha256 + cap).",
- "Live run via runner (anchor = build_calls_lean 'anchor' 174 cr; extras = 'extra' 70.5 cr), then lean_edit.build + gate_built + reveal check per video.",
+ "Get Omar's decision on the weekly batch (fully unique videos, 720p) and today's concept; write learning/approvals/<run>.json from the chat approval (runner gate needs plan sha256 + cap).",
+ "Live run via runner, every video planned in full (unique footage, 720p gens), then master_gate.ensure on each final (D191).",
  "Stage renders with deliver.stage/verify_staged, get public URLs, rerun buffer_preflight with real URLs, then publish.prepare → Omar approve → Buffer drafts.",
  "Fill PLACEHOLDER product URLs; reconcile the 298.15 cr; set META_TOKEN via a Secure Form/handoff so the snapshot loop gets data.",
  "Migration plan: docs/BLUEPRINT_2026-10-20.md (commit → container → read-only jobs → approvals UI → Buffer → generation)."], 1)) + "\n")

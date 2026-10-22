@@ -9,7 +9,7 @@ Keep a proven body's generations and replace only the hook generation and text w
 - warmrobestore 'Period girls RUN don't walk to Target 🩸🙃' 834K / 29K shares: the same robe sold as cramp relief (X).
 - obsidianrobes '“Just wear slippers”🙄' 509K; thecozybts 417K; goth.robes 1.3M; nocturne.robes0 1.3M: one product category, five tribes (external REPORT §4 #2).
 - Internal: one robe body under women (6.6M), mom (2.7M), grandma (183K) and wife (165K) recipients.
-- Reusing body clips is safe when the hook changes: gen c0ede3c3 sits in both the 1.4M Walmart and the 1.4M Target reels, and 13 generations were reused across 2-3 reels (PLAYBOOK §15.6). Only identical FILES collapse (6.6M → 2.2K).
+- HISTORICAL ONLY - footage reuse is BANNED (D180/D192), every video is fully unique. Old observation: gen c0ede3c3 sits in both the 1.4M Walmart and the 1.4M Target reels, and 13 generations were reused across 2-3 reels (PLAYBOOK §15.6). Only identical FILES collapse (6.6M → 2.2K).
 
 ## 2. Product fit
 | Product type | Fit | Evidence |
@@ -61,13 +61,13 @@ Keyword bank: `{TRIBE}`, `WARM`
 | 1 | Source winner's song + offset (or the next pick in that format's list, to avoid duplicate audio) | as source | Let It Snow on robe tribes: thecozybts 417K |
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
-1 new generation (H1, 1080p). The body uses existing renders from the source winner.
+BANNED (D180/D192): footage reuse. Plan a full new video: H1 + B1-B3, all 720p, no existing renders.
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one shot | NEW HOOK |
+| H1 | hook | 720p | 4 s | one shot | NEW HOOK |
 
 ### H1 · Tribe-signalling hook
 Inputs: <<<video_1>>> = the source winner's own hook clip; <<<image_1>>> = cast image of the tribe  

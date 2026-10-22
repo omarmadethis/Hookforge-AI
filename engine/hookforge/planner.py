@@ -165,7 +165,7 @@ def _plan_core(brief, force=False, override=None, mode=None):
     hook_prompt = P.finish(P.fill(ad.get("hook_prompt") or F["hook_prompt_original"], ctx), us_cues[:1])
     hook_still = P.still(P.fill(ad.get("startframe") or F["startframe_prompt"], ctx), us_cues)
     gens.append(dict(id="H", model="seedance_2_5", res="1080p", dur=4, shots=[s[0] for s in hook_shots], prompt=hook_prompt,
-                     start_frame=dict(model="gpt_image_2", prompt=hook_still), credits=CREDITS["hook_1080p_4s"] + CREDITS["still_gpt_image_2"]))
+                     start_frame=dict(model="gpt_image_2", prompt=hook_still), credits=CREDITS["body_720p_4s"] + CREDITS["still_gpt_image_2"]))
     for gid in sorted({s[4] for s in shots if s[4] != "H"}):
         ss = [s for s in shots if s[4] == gid]
         d1, d2 = ss[0][2] - ss[0][1], ss[1][2] - ss[1][1]
@@ -283,7 +283,7 @@ def _plan_core(brief, force=False, override=None, mode=None):
 
 
 def plan(brief, force=False, override=None, mode=None):
-    """D69: every plan leaves the planner with G4 resolution enforced (hook 1080p, rest 720p), a per-output quote (G5)
+    """D69: every plan leaves the planner with G4 resolution enforced (every gen 720p, D181), a per-output quote (G5)
     and the G1-G7 gate report attached. plan['gates']['ok'] False = cannot proceed to quote/approval."""
     from . import product_poc                         # D84 POC defaults (format/world) before planning
     override = product_poc.prepare(brief, override)

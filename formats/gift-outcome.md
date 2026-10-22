@@ -61,13 +61,13 @@ Keyword bank: `WIFE`, `GIFT`
 | 2 | Rockin' Around the Christmas Tree | reel 0.0 | thefacetribee 1.0M |
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
 4 gens.
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one shot | HOOK |
+| H1 | hook | 720p | 4 s | one shot | HOOK |
 | B1 | body | 720p | 4 s | two usage moments | USE 2, USE 3 |
 | B2 | body | 720p | 4 s | remote macro · funny use | ACTIVATION, USE 4 |
 | B3 | body | 720p | 4 s | two payoff takes | PAYOFF |

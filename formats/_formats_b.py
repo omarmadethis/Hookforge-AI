@@ -49,9 +49,9 @@ F.append({
   {"rank": 2, "track": "Last Christmas (Wham!) · ~2:48", "start": "reel 0.0 under the VO", "evidence": "524K (offset 168.1 s), 147K"},
   {"rank": 3, "track": "Jingle Bells (Viibez) · 0:00 (carries the countdown)", "start": "reel 0.0", "evidence": "112K, 98K"},
  ], "rules": ["Keep VO intelligible over music: duck music −8 to −10 dB until the first cut [I]."]},
-"generation_plan": {"summary": "4 gens: H1 (1080p, native audio ON, 3-4 rolls: countdown timing is the most failure-prone part), then the wearable body at 720p.",
+"generation_plan": {"summary": "4 gens: H1 (720p, native audio ON, 3-4 rolls: countdown timing is the most failure-prone part), then the wearable body at 720p.",
  "generations": [
-  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "Tray / muffin-tin 3-2-1",
+  {"id": "H1", "kind": "hook", "resolution": "720p", "duration_s": 4, "title": "Tray / muffin-tin 3-2-1",
    "shots": "one continuous shot", "feeds": "HOOK",
    "inputs": "<<<video_1>>> = viral muffin-tin / tray 3-2-1 trend clip; <<<image_1>>> = folded product; cast + room images optional",
    "basis": "Verified T6 trend-beat scripting [696efce7, ee9d5b8a, 717982da, a54d9455]; the 524K opener copies a viral muffin-tin trend clip (PLAYBOOK §7.1).",
@@ -137,7 +137,7 @@ F.append({
  ], "rules": []},
 "generation_plan": {"summary": "Shape S: 3 gens (H1 + B1 + B2). Shape L: H1 + the 3-gen wearable or decor master.",
  "generations": [
-  {"id": "H1", "kind": "hook", "resolution": "1080p", "duration_s": 4, "title": "POV shelf grab",
+  {"id": "H1", "kind": "hook", "resolution": "720p", "duration_s": 4, "title": "POV shelf grab",
    "shots": "one continuous POV shot", "feeds": "HOOK",
    "inputs": "start still (T8): red store shelf of {brand} boxes, US flag overhead; <<<image_1>>> = box art",
    "basis": "H-STORE-POV (326K/87K hook family) + hollyglow 5.2M visual.",

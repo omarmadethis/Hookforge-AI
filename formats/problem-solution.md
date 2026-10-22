@@ -58,13 +58,13 @@ Keyword bank: `FIXED`
 | — | No proven pick (HJ 5.6K used Last Christmas ~2:48 and flopped) | — | HJ 5.6K |
 
 ## 7. Higgsfield generation plan (Seedance 2.5)
-_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at full resolution (1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
+_Omar rule 2026-10-18 19:49 PT: hook = its own single 4 s generation at 720p (D181; was 1080p); every other generation 720p; body shots packed 2 per 4 s Seedance 2.5 generation, joined by 'HARD CUT at 2s, no transition'. Every prompt ends with the iPhone 12 realism suffix._
 
-Only for a gadget/toy experiment: 3-4 gens (H1 + B1 shown; reuse unboxing-to-use B2/B3 for the rest).
+Only for a gadget/toy experiment: 3-4 gens (H1 + B1 shown; generate fresh B2/B3 - never reuse footage (D180)).
 
 | Gen | Kind | Res | Len | Shots inside | Feeds timing rows |
 |---|---|---|---|---|---|
-| H1 | hook | 1080p | 4 s | one shot | HOOK |
+| H1 | hook | 720p | 4 s | one shot | HOOK |
 | B1 | body | 720p | 4 s | reveal · use | SOLUTION, USE |
 
 ### H1 · Problem scene with product cue

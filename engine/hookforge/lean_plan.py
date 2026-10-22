@@ -9,7 +9,7 @@ from . import gates
 P = gates.PRICES
 FPS = 24; CLIP = 4 * FPS            # every gen is a 4 s clip
 MAX_SHARED = 0.50
-HOOK_RES = "1080p"                  # Omar: 1080p hooks only
+HOOK_RES = "720p"                   # D181: hooks 720p (lean plan itself is BANNED, D180/D192)
 
 def costs(still_variants=1):
     st = P["still_gpt_image_2"] * still_variants
@@ -104,7 +104,7 @@ def quote(weekly=None, still_variants=1, reveal_s=None):
     c = costs(still_variants)
     per = {p: c["anchor"] + (k - 1) * c["extra"] for p, k in n.items()}
     edits, worst = edit_plan(w["slot_map"], reveal_s); bad = check(w["slot_map"], edits)
-    return {"option": "lean_1080p_hook", "hook_res": HOOK_RES, "still_variants": still_variants, "videos": sum(n.values()),
+    return {"option": "lean_BANNED_D180", "hook_res": HOOK_RES, "still_variants": still_variants, "videos": sum(n.values()),
             "slots": len(w["slot_map"]), "per_product": per, "total_credits": round(sum(per.values()), 1),
             "standard_total": w["total_credits"],
             "edits": {v: [dict(clip=cl, in_s=round(a / FPS, 2), out_s=round(b / FPS, 2)) for cl, a, b in e] if e else None for v, e in edits.items()},
@@ -112,6 +112,7 @@ def quote(weekly=None, still_variants=1, reveal_s=None):
             "note": "every video keeps its own hook clip + caption (D139); bodies re-ordered/re-trimmed per video (D142)"}
 
 def write(weekly=None):
+    raise RuntimeError("BLOCK D180/D192: the lean reuse plan (lean_1080p_hook) is permanently banned - plan every video in full")
     from . import concept_lab
     from .config import REPO
     w = weekly or concept_lab.weekly(write=False)

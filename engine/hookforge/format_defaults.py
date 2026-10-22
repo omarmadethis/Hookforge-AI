@@ -235,7 +235,7 @@ FORMATS = {
   hook_prompt_recreate=("KEEP THE EXACT SAME EVERYTHING 1:1. THE ONLY THING YOU ARE DOING IS CHANGING THE {person_or_background} IN <<<video_1>>> TO THE ONE IN <<<image_1>>>."),
   startframe_prompt="(reuse the proven start frame; T9 edit pass: 'Edit this photo. Keep everything exactly the same... Only change {one thing}.')",
   music=[("same song/section as the proven reel", None)], captions=["Get yours👉{url}"], say_keywords=["{TRIBE}"],
-  explore=["one new tribe per day per product (cheapest experiment: 1 hook gen, body reused)"], kill_rule="tribe dead after 3 renders under page median",
+  explore=["one new tribe per day per product (fresh hook + fresh body gens; no footage reuse, D180)"], kill_rule="tribe dead after 3 renders under page median",
 ),
 "F09": dict(
   title="Gift Outcome", tier="B",
