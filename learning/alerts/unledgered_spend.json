@@ -1,53 +1,274 @@
 {
- "checked_pt": "2026-10-21T15:19:26-07:00",
+ "checked_pt": "2026-10-21T19:24:05-07:00",
  "account": "user-Higgsfield--new-account",
- "flag": false,
+ "flag": true,
  "threshold": 20.0,
- "new_unledgered_credits": 0,
- "new_unaccounted_credits": 0,
- "new_external_credits": 0,
- "new_by_type": {},
- "new_by_model": {},
- "window_by_model": {
+ "new_unledgered_credits": 90.0,
+ "new_unaccounted_credits": 90.0,
+ "new_external_credits": 148.5,
+ "new_by_type": {
+  "GPT Image 2.5 Flare": 148.5,
+  "Seedance 2.5": 90.0
+ },
+ "new_by_model": {
   "GPT Image 2.5 Flare": {
    "model": "other",
    "hookforge": 0.0,
    "hookforge_unaccounted": 0.0,
-   "external": 21.75,
-   "n": 12
+   "external": 148.5,
+   "n": 39
+  },
+  "Seedance 2.5": {
+   "model": "seedance_2_5",
+   "hookforge": 0.0,
+   "hookforge_unaccounted": 90.0,
+   "external": 0.0,
+   "n": 6
+  }
+ },
+ "window_by_model": {
+  "Seedance 2.5": {
+   "model": "seedance_2_5",
+   "hookforge": 660.0,
+   "hookforge_unaccounted": 90.0,
+   "external": 0.0,
+   "n": 27
+  },
+  "GPT Image 2.0": {
+   "model": "gpt_image_2",
+   "hookforge": 108.0,
+   "hookforge_unaccounted": 0.0,
+   "external": 0.0,
+   "n": 20
   },
   "Sound Effects": {
    "model": "other",
    "hookforge": 0.0,
    "hookforge_unaccounted": 0.0,
-   "external": 5.0,
-   "n": 9
+   "external": 4.39,
+   "n": 10
   },
-  "Text to Music": {
+  "GPT Image 2.5 Flare": {
    "model": "other",
    "hookforge": 0.0,
    "hookforge_unaccounted": 0.0,
-   "external": 22.75,
-   "n": 35
-  },
-  "Seedance 2.5": {
-   "model": "seedance_2_5",
-   "hookforge": 512.0,
-   "hookforge_unaccounted": 296.0,
-   "external": 0.0,
-   "n": 25
-  },
-  "GPT Image 2.0": {
-   "model": "gpt_image_2",
-   "hookforge": 110.5,
-   "hookforge_unaccounted": 0.0,
-   "external": 0.0,
-   "n": 17
+   "external": 148.5,
+   "n": 39
   }
  },
- "new_items": [],
- "new_external_items": [],
- "cumulative_unledgered_in_window": 345.5,
+ "new_items": [
+  {
+   "when_pt": "2026-10-21T19:07:28-07:00",
+   "what": "Seedance 2.5",
+   "credits": 15.0,
+   "created_at": "2026-10-22T02:07:28.714613Z",
+   "model": "seedance_2_5",
+   "tag": "hookforge_unaccounted"
+  },
+  {
+   "when_pt": "2026-10-21T19:07:33-07:00",
+   "what": "Seedance 2.5",
+   "credits": 15.0,
+   "created_at": "2026-10-22T02:07:33.852741Z",
+   "model": "seedance_2_5",
+   "tag": "hookforge_unaccounted"
+  },
+  {
+   "when_pt": "2026-10-21T19:08:17-07:00",
+   "what": "Seedance 2.5",
+   "credits": 15.0,
+   "created_at": "2026-10-22T02:08:17.167742Z",
+   "model": "seedance_2_5",
+   "tag": "hookforge_unaccounted"
+  },
+  {
+   "when_pt": "2026-10-21T19:08:38-07:00",
+   "what": "Seedance 2.5",
+   "credits": 15.0,
+   "created_at": "2026-10-22T02:08:38.574003Z",
+   "model": "seedance_2_5",
+   "tag": "hookforge_unaccounted"
+  },
+  {
+   "when_pt": "2026-10-21T19:08:41-07:00",
+   "what": "Seedance 2.5",
+   "credits": 15.0,
+   "created_at": "2026-10-22T02:08:41.320906Z",
+   "model": "seedance_2_5",
+   "tag": "hookforge_unaccounted"
+  },
+  {
+   "when_pt": "2026-10-21T19:09:40-07:00",
+   "what": "Seedance 2.5",
+   "credits": 15.0,
+   "created_at": "2026-10-22T02:09:40.291971Z",
+   "model": "seedance_2_5",
+   "tag": "hookforge_unaccounted"
+  }
+ ],
+ "new_external_items": [
+  {
+   "when_pt": "2026-10-21T19:06:10-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:06:10.691954Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:06:43-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:06:43.109603Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:06:54-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:06:54.243473Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:06:58-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:06:58.252439Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:07:01-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:07:01.847374Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:07:43-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:07:43.157910Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:07:59-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:07:59.454635Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:08:03-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:08:03.369594Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:08:59-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:08:59.847629Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:11:00-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:11:00.940602Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:12:02-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:12:02.951475Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:12:17-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:12:17.082638Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:12:24-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:12:24.216775Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:12:28-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:12:28.119867Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:12:42-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:12:42.120466Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:12:57-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:12:57.890427Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:13:08-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:13:08.931959Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:13:36-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:13:36.646177Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:13:59-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:13:59.584425Z",
+   "model": "other",
+   "tag": "external"
+  },
+  {
+   "when_pt": "2026-10-21T19:14:20-07:00",
+   "what": "GPT Image 2.5 Flare",
+   "credits": 1.5,
+   "created_at": "2026-10-22T02:14:20.079161Z",
+   "model": "other",
+   "tag": "external"
+  }
+ ],
+ "cumulative_unledgered_in_window": 242.89,
  "baseline": false,
- "note": "ok"
+ "note": "NEW HOOKFORGE-MODEL SPEND NOT IN LEDGER > 20 cr since last check - surface to Omar"
 }
