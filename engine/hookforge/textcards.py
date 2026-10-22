@@ -16,7 +16,10 @@ sys.path.insert(0, os.path.join(REPO, "style"))
 import render_text as RT
 EDIR = os.path.join(REPO, "assets", "emoji_apple"); E160 = os.path.join(EDIR, "160"); ETTF = os.path.join(EDIR, "AppleColorEmoji-Linux.ttf")
 SRC160 = "https://raw.githubusercontent.com/iamcal/emoji-data/master/img-apple-160/{}"
-MONT = "/usr/share/fonts/truetype/sand-box/google/Montserrat/Montserrat-VariableFont_wght.ttf"
+MONT = next((p for p in (os.environ.get("HOOKFORGE_CARD_FONT"),   # card font: Montserrat (OFL, vendored in assets/fonts)
+                          os.path.join(REPO, "assets", "fonts", "Montserrat-VariableFont_wght.ttf"),
+                          "/usr/share/fonts/truetype/sand-box/google/Montserrat/Montserrat-VariableFont_wght.ttf") if p and os.path.exists(p)),
+            os.path.join(REPO, "assets", "fonts", "Montserrat-VariableFont_wght.ttf"))
 CAL = dict(weight=560, font_px_per_W=0.081, stroke_per_px=0.091, transform_y=0.576, emoji_h_em=1.0)
 _IDX = None
 

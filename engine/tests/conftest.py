@@ -34,6 +34,12 @@ NEEDS_DATA = {
 
 # Distribution prep: tests marked owner_config need the owner's private, gitignored data (real Buffer routing,
 # product URLs, spend ledger, approvals). On a fresh clone they are skipped instead of failing.
+# Distribution prep: tests that read files outside the repo (/workspace/research, /workspace/merryglow) or
+# gitignored owner data; and tests that need the optional torch/open_clip stack.
+NEEDS_DATA |= {"test_ly_season_d92.py::test_load_drops_paid", "test_ly_season_d92.py::test_concepts_low_conf",
+               "test_ly_season_d92.py::test_format_prior_discounted", "test_results_feed.py::test_csv_exports_parse"}
+NEEDS_TORCH = {"test_d104_d108.py::test_cast_crops_pass", "test_d109_d112.py::test_resourced_cast_refs", "test_ref_sanity_d100.py::test_ref_sanity"}
+
 def _owner_data_missing():
     import os
     from hookforge import userconfig as _uc
@@ -47,6 +53,11 @@ def pytest_collection_modifyitems(config, items):
     for it in items:
         mod = os.path.basename(str(it.fspath))
         if f"{mod}::{it.name.split('[')[0]}" in NEEDS_DATA or mod in DATA_MODULES: it.add_marker(pytest.mark.needs_data)
+    try: import torch  # noqa: F401
+    except Exception:
+        for it in items:
+            if f"{os.path.basename(str(it.fspath))}::{it.name.split('[')[0]}" in NEEDS_TORCH:
+                it.add_marker(pytest.mark.skip(reason="optional torch/open_clip not installed"))
     if _owner_data_missing():   # distribution prep: owner-only data (gitignored) -> skip, don't fail
         for it in items:
             if "owner_config" in it.keywords: it.add_marker(pytest.mark.skip(reason="owner-only data not present (fresh clone)"))

@@ -12,7 +12,7 @@ From zero to a published, gate-passed reel. Budget about an hour for setup, then
 | tesseract-ocr | card OCR check (MR39) | `apt install tesseract-ocr` / `brew install tesseract` |
 | Python packages | see `requirements.txt` | `pip install -r requirements.txt` (torch/open_clip are optional and large; skip them if you like) |
 | Apple iOS emoji PNGs | cards must use Apple emoji (MR35) | shipped in `assets/emoji_apple/160/` (see 1.1) |
-| A fonts setup with a bold sans (e.g. DejaVu, Liberation) | card text rendering | usually present; `apt install fonts-dejavu` |
+| Montserrat font | card text | vendored in `assets/fonts/` (OFL) |
 
 Clone and make the repo reachable at `/workspace/hookforge` (several build scripts and tests use that path):
 
@@ -25,13 +25,15 @@ python3 tools/doctor.py
 
 `tools/doctor.py` checks everything below and ends with `READY` or tells you exactly what to fix. It never prints secret values.
 
-### 1.1 Apple emoji
-Cards are rendered with Apple's iOS emoji art, never Noto or system emoji; the gate pixel-checks this. The repo ships
-the PNGs we have used (160 px, file name = lowercase codepoints joined by `-`, e.g. `1f1fa-1f1f8` for 🇺🇸 is two
-files `1f1fa.png` and `1f1f8.png` for the regional indicators, `2744-fe0f.png` for ❄️). To use an emoji that is not
-there yet, add its 160 px Apple PNG under the same naming (for example rendered from an Apple Color Emoji font, which
-you supply yourself as `assets/emoji_apple/AppleColorEmoji-Linux.ttf`; it is gitignored). A card with an emoji that
-has no Apple PNG fails the gate.
+### 1.1 Apple emoji and the card font
+Cards are rendered with Apple's iOS emoji art, never Noto or system emoji; the gate pixel-checks this (MR35).
+The repo ships the 160 px Apple PNGs already used (`assets/emoji_apple/160/`, file name = lowercase codepoint,
+e.g. `1f1fa.png` + `1f1f8.png` for 🇺🇸, `2744-fe0f.png` for ❄️). A new emoji is fetched automatically the first
+time a card uses it, from the `iamcal/emoji-data` repo's `img-apple-160/` folder, so the box needs internet then.
+Commit newly fetched PNGs so builds stay offline-safe.
+
+The card font is Montserrat (SIL Open Font License), vendored at `assets/fonts/`. Override it with
+`HOOKFORGE_CARD_FONT=/path/to/font.ttf` if you must, but the calibrated card style assumes Montserrat.
 
 ## 2. Accounts
 

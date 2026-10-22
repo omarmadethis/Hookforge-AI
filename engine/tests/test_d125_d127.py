@@ -5,6 +5,7 @@ def test_queue_clean():
     ids = [i["id"] for i in Q.pending()]
     assert "pv_P2_payoff_redo" not in ids and all(products.is_active(i["product"]) for i in Q.pending())
 
+@__import__("pytest").mark.owner_config
 def test_log_job_requires_id_and_reconcile(tmp_path, monkeypatch):
     from hookforge import gates; monkeypatch.setattr(gates, "LEDGER", str(tmp_path / "l.csv"))
     import pytest

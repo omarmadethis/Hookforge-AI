@@ -23,6 +23,7 @@ def test_no_fake_say():
     t = fb_caption.generate("grinchmelt_mug", {}, platform="facebook")["text"]
     assert "SAY about" not in t
 
+@__import__("pytest").mark.owner_config
 def test_e2e_summary():
     s = json.load(open("/workspace/hookforge/learning/e2e_dryrun/2026-10-20/SUMMARY.json"))
     assert len(s["products"]) == 3 and all(v.startswith("OK") for v in s["products"].values())
