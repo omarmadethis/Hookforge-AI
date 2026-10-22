@@ -518,5 +518,45 @@
   "fn": "vs_structure",
   "fix": "regen",
   "applies": "video"
+ },
+ {
+  "id": "MR53",
+  "rule": "Barn Glow / LumaRein afters ALWAYS include multiple glowing horses: at least one after shot with 2+ horses wearing the product (spec shots[].horses, confirmed on the render).",
+  "sources": "Omar 2026-10-22 11:43 AM PT (LR4 had only single-horse afters)",
+  "date_PT": "2026-10-22 11:43 AM",
+  "check": "auto+manual",
+  "fn": "multi_horse",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR54",
+  "rule": "Assembly / VS segments are never rushed: the product assembly reads clearly, >= 2.0 s on screen and >= the reference's assembly length (spec.reference.assembly_s) when recreating.",
+  "sources": "Omar 2026-10-22 11:43 AM PT",
+  "date_PT": "2026-10-22 11:43 AM",
+  "check": "auto",
+  "fn": "vs_duration",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR55",
+  "rule": "The song's beat drop lands exactly on the first frame of the afters (+-0.1 s): drop detected by onset/energy analysis of the used song section; align song in_s (or the cut) so the drop hits the after cut.",
+  "sources": "Omar 2026-10-22 11:43 AM PT",
+  "date_PT": "2026-10-22 11:43 AM",
+  "check": "auto",
+  "fn": "drop_on_after",
+  "fix": "recompose",
+  "applies": "video"
+ },
+ {
+  "id": "MR56",
+  "rule": "Barn Glow afters = EXACTLY three back-to-back cinematic cuts of the glowing horses running, in relevant settings only (farm, barn in the background, occasionally a beach); never irrelevant places. With MR53, at least one of the three shows multiple horses. Spec after shots carry setting + action.",
+  "sources": "Omar 2026-10-22 11:44 AM PT",
+  "date_PT": "2026-10-22 11:44 AM",
+  "check": "auto+manual",
+  "fn": "afters_cinematic",
+  "fix": "regen",
+  "applies": "video"
  }
 ]

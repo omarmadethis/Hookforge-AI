@@ -434,6 +434,77 @@ def c_vs_structure(path, spec, stage):
     if vs0 is not None and (vc is None or abs(vc.get("t0", -9) - vs0) > 0.05): out.append(F("MR52", "VS card must start on the first VS (assembly) shot", "recompose"))
     return out
 
+def _is_glow_horse(spec): return (spec.get("product") or "").lower() in ("lumarein", "barnglow", "barn glow") or "barn glow" in (spec.get("page") or "").lower()
+
+def c_multi_horse(path, spec, stage):
+    """MR53 (Omar 10-22 7:43 PM BST): LumaRein/Barn Glow afters always include >= 1 after shot with >= 2 horses wearing the product.
+    Spec after shots carry horses=<n lit horses>; a reviewer confirms it on the render (manual half)."""
+    if not _is_glow_horse(spec): return []
+    af = [s for s in spec.get("shots") or [] if s.get("role") == "after"]
+    if not af: return [F("MR53", "no after shots in spec - cannot verify multiple glowing horses", "regen")]
+    if not any(int(s.get("horses") or 0) >= 2 for s in af):
+        return [F("MR53", "no after shot shows 2+ horses wearing the glowing product (set shots[].horses, regen a multi-horse after)", "regen")]
+    return []
+
+def c_vs_duration(path, spec, stage):
+    """MR54 (Omar 10-22 7:43 PM BST): the assembly / VS segment is never rushed: >= 2.0 s on screen,
+    and >= the reference's assembly length (spec.reference.assembly_s) minus 0.2 s when known."""
+    vs = [s for s in spec.get("shots") or [] if s.get("role") == "vs"]
+    if not vs: return []
+    d = sum(float(s["t1"]) - float(s["t0"]) for s in vs); need = 2.0
+    ref = (spec.get("reference") or {}).get("assembly_s")
+    if ref: need = max(need, float(ref) - 0.2)
+    return [F("MR54", f"assembly/VS segment is {d:.2f}s on screen, need >= {need:.2f}s (not rushed)", "regen")] if d < need - 1e-6 else []
+
+def song_drop(song_path, in_s, dur, sr=22050):
+    """Beat-drop time (s, in song time) within [in_s, in_s+dur]: largest jump of short-term RMS energy
+    (mean of next 0.5 s / mean of previous 1.0 s) at an onset, refined to the strongest onset within 60 ms."""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{max(0, in_s - 1.2):.3f}", "-t", f"{dur + 1.8:.3f}", "-i", song_path,
+                          "-ac", "1", "-ar", str(sr), "-f", "f32le", "-"], capture_output=True).stdout
+    x = np.frombuffer(raw, dtype=np.float32); off = max(0, in_s - 1.2); hop = int(sr * 0.01); win = int(sr * 0.05)
+    n = (len(x) - win) // hop
+    if n < 200: raise ValueError("song section too short to analyse")
+    rms = np.array([np.sqrt(np.mean(x[i * hop:i * hop + win] ** 2)) + 1e-6 for i in range(n)])
+    on = np.maximum(0, np.diff(rms, prepend=rms[0]))
+    best, bt = 0, None
+    for i in range(100, n - 50):
+        t = off + i * 0.01
+        if t < in_s or t > in_s + dur: continue
+        r = rms[i:i + 50].mean() / rms[i - 100:i].mean()
+        if r > best: best, bt = r, i
+    j = bt - 6 + int(np.argmax(on[bt - 6:bt + 7]))
+    return round(off + j * 0.01 + 0.025, 3), round(float(best), 2)
+
+def c_drop_on_after(path, spec, stage):
+    """MR55 (Omar 10-22 7:43 PM BST): the song's beat drop lands on the first frame of the afters (+-0.1 s).
+    Drop detected by onset/energy analysis of the song section actually used (song.path, in_s, start_t)."""
+    sh = spec.get("shots") or []; a0 = next((float(s["t0"]) for s in sh if s.get("role") == "after"), None)
+    sg = spec.get("song") or {}
+    if a0 is None or not sg.get("path"): return []
+    sp = sg["path"] if os.path.isabs(sg["path"]) else os.path.join(REPO, sg["path"])
+    dur = float(sh[-1]["t1"]) if sh else 15.0; in_s = float(sg.get("in_s", 0)); st = float(sg.get("start_t", 0))
+    d, ratio = song_drop(sp, in_s, dur)
+    vt = d - in_s + st; spec.setdefault("_hints", {})["song_drop"] = dict(song_t=d, video_t=round(vt, 3), energy_ratio=ratio, after_t0=a0)
+    if abs(vt - a0) > 0.1:
+        return [F("MR55", f"beat drop at video {vt:.2f}s (song {d:.2f}s, x{ratio}) but afters start at {a0:.2f}s - shift song in_s by {vt - a0:+.2f}s or re-time the cut (tolerance 0.1 s)", "recompose", dict(drop_video_t=vt, after_t0=a0, suggest_in_s=round(in_s + (vt - a0), 3)))]
+    return []
+
+GLOW_AFTER_SETTINGS = ("farm", "barn", "beach", "pasture", "paddock", "ranch")
+def c_afters_cinematic(path, spec, stage):
+    """MR56 (Omar 10-22 7:44 PM BST): Barn Glow afters = EXACTLY 3 back-to-back cinematic cuts of the glowing horses running,
+    in relevant settings (farm / barn in background / occasionally beach). Spec after shots carry setting=<word> and action='running';
+    with MR53 at least one of the 3 shows 2+ horses. Reviewer confirms the cinematic look + setting on the render (manual half)."""
+    if not _is_glow_horse(spec): return []
+    sh = spec.get("shots") or []; idx = [i for i, s in enumerate(sh) if s.get("role") == "after"]; out = []
+    if len(idx) != 3: out.append(F("MR56", f"afters have {len(idx)} cuts, need exactly 3 back-to-back cinematic cuts", "regen"))
+    if idx and idx != list(range(idx[0], idx[0] + len(idx))): out.append(F("MR56", "after cuts are not back-to-back", "recompose"))
+    for i in idx:
+        st = (sh[i].get("setting") or "").lower(); act = (sh[i].get("action") or "").lower()
+        if not any(w in st for w in GLOW_AFTER_SETTINGS): out.append(F("MR56", f"after shot {i} setting '{st or '?'}' is not farm/barn/beach (irrelevant place)", "regen"))
+        if "run" not in act and "gallop" not in act: out.append(F("MR56", f"after shot {i} action '{act or '?'}' - glowing horses must be running", "regen"))
+    return out
+
 CHECKS = {k[2:]: v for k, v in globals().items() if k.startswith("c_") and callable(v)}
 STAGES = ("final", "deliver", "publish")
 
