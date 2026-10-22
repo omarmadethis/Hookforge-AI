@@ -13,7 +13,9 @@ def _texts(cards): return [(c.get("text") if isinstance(c, dict) else str(c)) or
 def allowed(cards, hook_format=None):
     t = _texts(cards)
     if len(t) <= 1: return True, ""
-    if len(t) >= 3: return False, f"{len(t)} cards; never 3+ (D188)"
+    if len(t) == 3 and VS_RE.search(t[1]) and not VS_RE.search(t[0]) and not VS_RE.search(t[2]):
+        return True, "3 cards ok: MR52 idea / VS / result structure"
+    if len(t) >= 3: return False, f"{len(t)} cards; never 3+ (D188) except MR52 idea/VS/result"
     vs = (hook_format in VS_FORMATS) or any(VS_RE.search(x) for x in t)
     closing = bool(CLOSING_RE.search(t[-1]))
     if vs or closing: return True, "2nd card ok: " + ("VS/then-vs-now format" if vs else "closing caption-below card")

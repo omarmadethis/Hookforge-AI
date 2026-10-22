@@ -301,7 +301,7 @@
  },
  {
   "id": "MR31",
-  "rule": "ONE on-screen card by default; a 2nd only for a problem-vs-solution / then-vs-now hook or a closing 'get it from the caption below 👇' card; never 3+.",
+  "rule": "ONE on-screen card by default; a 2nd only for a problem-vs-solution / then-vs-now hook or a closing 'get it from the caption below 👇' card; 3 cards ONLY for the MR52 idea / VS / result structure (VS on the middle card); never 4+.",
   "sources": "F106,D188,memory",
   "date_PT": "2026-10-21 4:21 PM",
   "check": "auto",
@@ -481,12 +481,12 @@
  },
  {
   "id": "MR49",
-  "rule": "Glow trail / motion blur behind lights is barely visible (subtle, only slightly there) - never long smeared streaks like LR1/LR2; the glow itself stays bright, saturated and glowy (white-hot cores + halo/bloom). Post trail pass: lagfun decay <= 0.6 and trail opacity <= 0.15; prompts say 'faint, barely visible trail', never 'long light trails'.",
-  "sources": "Omar 2026-10-21 8:14 PM (LR1/LR2 trails way too much)",
-  "date_PT": "2026-10-21 8:14 PM",
+  "rule": "Glow trail / motion blur behind lights is EXTREMELY minimal, close to none: no streaks behind the horse at all, only the bright glow on the product itself (white-hot cores + halo/bloom). Post trail pass: lagfun decay <= 0.3 and trail opacity <= 0.03 (default 0 = no trail pass); prompts must say 'no light trails, no motion streaks, no long-exposure effect' and never ask for trails; any clip with visible streaks is rejected.",
+  "sources": "Omar 2026-10-21 8:14 PM (LR1/LR2 trails way too much); tightened Omar 2026-10-22 10:37 AM (frame with long leg streaks: ~3% or zero)",
+  "date_PT": "2026-10-22 10:37 AM",
   "check": "auto+manual",
   "fn": "glow_trail",
-  "fix": "free:recompose",
+  "fix": "regen",
   "applies": "video"
  },
  {
@@ -506,6 +506,16 @@
   "date_PT": "2026-10-21 8:50 PM",
   "check": "manual",
   "fn": "",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR52",
+  "rule": "VS / idea-vs-result videos have 3 parts in order: (1) HOOK = the problem, only the makeshift janky version (duct tape etc.); (2) VS = a separate segment right after the hook showing the product being ASSEMBLED / put on the horse, the VS card starts here; (3) RESULT = the afters, riding with the bright glow, >= 2 hard cuts. Never skip the VS assembly segment. Spec shots carry role hook/vs/after.",
+  "sources": "Omar 2026-10-22 10:38 AM",
+  "date_PT": "2026-10-22 10:38 AM",
+  "check": "auto",
+  "fn": "vs_structure",
   "fix": "regen",
   "applies": "video"
  }

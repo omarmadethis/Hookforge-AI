@@ -422,6 +422,18 @@ def c_problem_solution(path, spec, stage):
             out.append(F("MR50", f"'The problem' card followed by '{ts[i+1]}' - second card must be 'The solution'", "recompose"))
     return out
 
+def c_vs_structure(path, spec, stage):
+    """MR52 (Omar 10-22 10:38 AM): VS videos = hook(problem) -> vs(assembly) -> after(>=3 shots)."""
+    cs = spec.get("cards") or []; sh = spec.get("shots") or []
+    if not any(VS_RE.search(_txt(c)) for c in cs) and _fmt(spec) not in ("then-vs-now", "problem-solution", "idea-vs-result"): return []
+    roles = [s.get("role") for s in sh]; out = []
+    order = [r for i, r in enumerate(roles) if i == 0 or roles[i - 1] != r]
+    if order != ["hook", "vs", "after"]: out.append(F("MR52", f"segment order {order} != hook -> vs -> after (VS assembly segment required)", "regen"))
+    if roles.count("after") < 3: out.append(F("MR52", f"result has {roles.count('after')} shots (< 3 = fewer than 2 hard cuts)", "regen"))
+    vs0 = next((s["t0"] for s in sh if s.get("role") == "vs"), None); vc = next((c for c in cs if VS_RE.search(_txt(c))), None)
+    if vs0 is not None and (vc is None or abs(vc.get("t0", -9) - vs0) > 0.05): out.append(F("MR52", "VS card must start on the first VS (assembly) shot", "recompose"))
+    return out
+
 CHECKS = {k[2:]: v for k, v in globals().items() if k.startswith("c_") and callable(v)}
 STAGES = ("final", "deliver", "publish")
 
