@@ -77,7 +77,8 @@ def c_res_720(path, spec, stage):
     if v and (min(v[0]["width"], v[0]["height"]) != 720 or max(v[0]["width"], v[0]["height"]) != 1280):
         f.append(F("MR03", f"final is {v[0]['width']}x{v[0]['height']}, not 720x1280", "recompose"))
     for g in spec.get("gens", []):
-        if str(g.get("res", "720p")) != "720p": f.append(F("MR03", f"gen {g.get('id')} is {g.get('res')} (all gens 720p, D181)", "regen", dict(gen=g.get("id"))))
+        kl = "kling" in str(g.get("model", "")).lower()   # MR60: Kling 4.0 gens are 1080p 9:16
+        if str(g.get("res", "720p")) != ("1080p" if kl else "720p"): f.append(F("MR03", f"gen {g.get('id')} is {g.get('res')} (Kling 4.0 gens 1080p per MR60; legacy Seedance gens 720p, D181)", "regen", dict(gen=g.get("id"))))
     return f
 
 def c_gen_packing(path, spec, stage):
@@ -100,7 +101,8 @@ def c_gen_models(path, spec, stage):
     f = []
     for g in spec.get("gens", []):
         m = str(g.get("model", "seedance_2_5")).lower()
-        if "seedance" not in m or "kling" in m: f.append(F("MR06", f"gen {g.get('id')} model {m} (Seedance 2.5 only)", "regen", dict(gen=g.get("id"))))
+        # MR60 (2026-10-23): Kling 4.0 (kling4_0) is the default/required model; legacy Seedance 2.5 specs still validate (already-posted videos).
+        if not (m.replace("-", "_").replace(".", "_") in ("kling4_0", "kling_4_0") or "seedance" in m): f.append(F("MR06", f"gen {g.get('id')} model {m} (MR60: Kling 4.0 `kling4_0` for all new videos)", "regen", dict(gen=g.get("id"))))
         if g.get("end_frame"): f.append(F("MR06", f"gen {g.get('id')} used an end frame (start frames only)", "regen", dict(gen=g.get("id"))))
     return f
 

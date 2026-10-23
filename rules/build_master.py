@@ -1,4 +1,5 @@
-"""Source of truth for MASTER_RULES (D191). Edit RULES here, then `python3 rules/build_master.py` regenerates
+"""STALE since MR52: rules/master_rules.json is now the source of truth (MR52-MR60 were added directly to the JSON). Do NOT run this script (it would drop MR52+) until they are ported.
+Original doc: Source of truth for MASTER_RULES (D191). Edit RULES here, then `python3 rules/build_master.py` regenerates
 rules/master_rules.json + rules/MASTER_RULES.md. master_gate.py loads the JSON; tests fail if a rule has no check."""
 import json, os
 H = os.path.dirname(os.path.abspath(__file__))

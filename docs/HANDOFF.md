@@ -1,4 +1,5 @@
-# Hookforge v3: HANDOFF (read this first)
+# Hookforge v3: HANDOFF (history; CURRENT STATE is in the repo-root HANDOFF.md, read that first)
+> NOTE 2026-10-23: the "Seedance 2.5 only / no Kling / 720p" hard rule below is superseded by MR60 (Kling 4.0, 1080p 9:16). See ../HANDOFF.md and rules/master_rules.json.
 Last updated: 2026-10-18 8:32 PM PT · Owner: lead architect (Grok Bot executor). This document is meant to let any AI or engineer continue the build mid-way.
 
 ## Mission

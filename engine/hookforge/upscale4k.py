@@ -14,7 +14,7 @@ cap (spec.spend.upscale_credits; MR09 counts it) and replace it with the measure
 import json, os, re, subprocess, shutil
 from . import master_gate as MG, deliver
 
-UPSCALE_RESERVE_CREDITS = 30      # PROVISIONAL: ByteDance 4K / Topaz 2160p of a ~13 s 720x1280 clip; Higgsfield publishes ranges only (ByteDance 3-277, Topaz 4-96). Replace after the first measured job.
+UPSCALE_RESERVE_CREDITS = 5       # PROVISIONAL (Omar 2026-10-23: upscale should cost <= 5 cr/video; lowered from 30). Measure on the first real job; if the charge is > 5 tell Omar before a 2nd upscale. Earlier note: ByteDance 4K / Topaz 2160p of a ~13 s 720x1280 clip; Higgsfield publishes ranges only (ByteDance 3-277, Topaz 4-96). Replace after the first measured job.
 LEN_TOL_S = 0.10                  # upscaled length must match the gated video within this
 AUDIO_MIN_CORR = 0.97
 SSIM_MIN = 0.80                   # luma structure vs the gated master scaled to the same size: the upscaler must not re-imagine the video

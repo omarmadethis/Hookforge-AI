@@ -231,7 +231,7 @@ def test_mr59_finish_strips_verifies_binds_and_passes(tmp_path):
     assert not MG.CHECKS["final_4k"](src, {"_post_file": out}, "publish")
     assert MG.require(out, stage="deliver") is True  # 4K file validated via its binding to the gated source's PASS report
     p = U.plan(src); assert p["tool"] == "upscale_video" and p["params"] == dict(provider="bytedance", video_id=p["params"]["video_id"], width=720, height=1280, fps=30, resolution="4k", preset="ugc")
-    assert p["reserve_credits"] == U.UPSCALE_RESERVE_CREDITS
+    assert p["reserve_credits"] == U.UPSCALE_RESERVE_CREDITS == 5   # Omar 2026-10-23: <= 5 cr per upscale (provisional)
     open(out, "ab").write(b"x")                      # file touched after verification -> stale
     assert any("stale" in x["msg"] for x in MG.CHECKS["final_4k"](src, {"_post_file": out}, "publish"))
 

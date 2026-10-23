@@ -1,8 +1,10 @@
 # Hookforge
 
+> **Taking over from another assistant? Read [HANDOFF.md](HANDOFF.md) first.** Current state, rules pointer (MR01-MR60), accounts, open items.
+
 Hookforge is an engine for making organic Facebook and Instagram Reels that sell a physical product. It copies
 **proven** viral reels (their hook, pacing, card wording and exact song section), regenerates them with AI video
-for your product, checks every file against a 51-rule quality gate, and publishes one unique video per page
+for your product, checks every file against a 60-rule quality gate (`rules/master_rules.json`), and publishes one unique video per page
 through Buffer.
 
 It was built and battle-tested on real product pages (Christmas lights, a projector, a cat carrier, LED horse
@@ -12,8 +14,8 @@ tack). Every rule in it exists because a video failed or the owner had to say th
 
 ```
  research ──> plan ──> start frames ──> generation ──> edit ──> MASTER GATE ──> publish ──> learn
- (proven      (POC    (GPT Image,      (Seedance 2.5   (cuts,    (51 rules,      (Buffer,    (views feed
-  originals)   format)  refs attached)  720p, 4 s gens) cards,    auto-fix loop)  1 page per  back into
+ (proven      (POC    (GPT Image,      (Kling 4.0      (cuts,    (51 rules,      (Buffer,    (views feed
+  originals)   format)  refs attached)  1080p, 5 s)    cards,    auto-fix loop)  1 page per  back into
                                                         song)                     video)      the rules)
 ```
 
@@ -25,7 +27,7 @@ tack). Every rule in it exists because a video failed or the owner had to say th
    The plan states the credit cost and needs the owner's approval and cap before any spend.
 3. **Start frames.** One still per generation with GPT Image, product and cast reference photos always attached.
    Frames are shown to the owner before clips are generated.
-4. **Generation.** Seedance 2.5 on Higgsfield, start-frame image-to-video, 720p. The hook is its own 4 s
+4. **Generation.** Since MR60 (2026-10-23): Kling 4.0 (`kling4_0`) on Higgsfield, 1080p 9:16, 3-30 s (5 s is enough); older builds used Seedance 2.5 / 720p. The hook is its own
    generation; body shots are packed 2 per 4 s generation with a hard cut at ~2 s. Every prompt ends with the
    iPhone 12 realism suffix.
 5. **Edit.** Hard cuts only, payoff of >= 2 cuts, song from frame 0 with no loops, card visible from its shot's

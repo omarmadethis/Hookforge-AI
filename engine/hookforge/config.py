@@ -43,6 +43,8 @@ SHOTS_PER_BODY_GEN = 2
 # Inferred 2026-10-18 from the read-only Higgsfield transaction history (new account): Seedance 2.5 spends of 28 (x8, batches of 4 =
 # body 720p 4 s), 64 (x6 = 1080p 4 s), 80 (1080p 5 s), 128 (1080p 8 s) => ~7 cr/s at 720p, ~16 cr/s at 1080p; GPT Image 2.0 = 1/image (D72; the old 6.5 figure was wrong).
 # Reference-video (recreate) gens may bill differently - confirm on the first live run.
+# MR60 (2026-10-23): default video model is Kling 4.0 (kling4_0), 1080p 9:16. ESTIMATE ~1 cr/s, verified only against ONE data point (Omar's Barn Glow afters gen: 10 cr for 10 s). Confirm from `transactions` after each gen.
+VIDEO_MODEL_DEFAULT, VIDEO_RES_DEFAULT, KLING_CR_PER_S_EST = "kling4_0", "1080p", 1.0
 CREDITS = {"hook_1080p_4s": 64, "body_720p_4s": 28, "still_gpt_image_2": 1.0, "per_s_720p": 7, "per_s_1080p": 16,
            "source": "inferred from Higgsfield transactions 2026-10-18 (read-only)"}
 # --- LIVE generation gate (Omar 2026-10-18 10:35 PM PT): DISABLED. Nothing is submitted unless enabled=True AND a valid, unexpired,

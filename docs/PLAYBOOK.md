@@ -43,7 +43,7 @@ Ranked by evidence in `formats/INDEX.md`; each has a full recipe (timing, card p
 
 ## 3. Production spec (what the gate enforces)
 
-- **Generation:** Seedance 2.5 via Higgsfield, start frames only (GPT Image, refs always attached), **720p**, 4 s gens.
+- **Generation (MR60, 2026-10-23):** **Kling 4.0** (`kling4_0`) via Higgsfield for ALL new videos, **1080p 9:16**, 3-30 s (5 s clips are enough if they show everything); modes text-to-video / image-to-video / reference-to-video / video-edit. Cost ESTIMATE ~1 cr/s (only data point: Omar's Barn Glow afters gen = 10 cr for 10 s; confirm from `transactions`). Start frames only (GPT Image, refs always attached). Legacy Seedance 2.5 / 720p applies only to already-built videos. Then MR59: gated master -> 4K upscale -> post.
   Hook = its own gen; body = 2 shots per gen joined by a hard cut at ~2 s. Show frames before clip spend.
 - **Length/pace:** 10-14 s, hard cuts only, a new angle every ~1.4-2 s, no fades or lingering shots.
 - **Payoff:** at least 2 hard cuts (3+ shots), none longer than 1.5 s; end on the most rewarding image (peak-end).
@@ -74,7 +74,7 @@ The 4K file is what gets posted and hosted (Buffer `video_url`); the 720p master
    without a valid binding to a sha-matching PASS report, and any upscaled file that is not metadata-clean.
 
 **Cost:** `upscale_video` has no cost preflight and Higgsfield publishes ranges only (ByteDance 3-277 cr, Topaz 4-96 cr by length/resolution).
-Reserve **30 credits per video (provisional)** in the plan/cap (`spec.spend.upscale_credits`, counted by MR09); after the first real job read the
+Reserve **5 credits per video (provisional; Omar: it should cost <= 5 cr, MR59 reserve lowered from 30 on 2026-10-23)** in the plan/cap (`spec.spend.upscale_credits`, counted by MR09); after the first real job read the
 exact charge from `transactions` and record it (`upscale4k.record_cost`) and update `UPSCALE_RESERVE_CREDITS`. Failed upscales are refunded by Higgsfield.
 
 ## 4. Captions
