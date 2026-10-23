@@ -54,8 +54,12 @@ def test_card_rules_and_free_text_fixes():
 def test_vs_two_cards_allowed_three_blocked():
     two = dict(hook=dict(format="then-vs-now"), cards=[dict(text="The idea... 😭💡"), dict(text="The result 😍🙈")])
     assert not MG.CHECKS["card_count"](None, two, "final")
-    three = dict(hook=dict(format="then-vs-now"), cards=[dict(text="Then"), dict(text="Vs..."), dict(text="Now")])
-    assert MG.CHECKS["card_count"](None, three, "final")
+    three_ok = dict(hook=dict(format="then-vs-now"), cards=[dict(text="The idea... 😭💡"), dict(text="Vs..."), dict(text="The result 😍")])
+    assert not MG.CHECKS["card_count"](None, three_ok, "final")        # MR52 idea / VS / result: VS on the MIDDLE card only
+    for bad in (dict(hook=dict(format="then-vs-now"), cards=[dict(text="Then"), dict(text="Now"), dict(text="Later")]),                 # 3 cards without VS in the middle
+                dict(hook=dict(format="then-vs-now"), cards=[dict(text="Vs..."), dict(text="Then"), dict(text="Now")]),              # VS on the first card
+                dict(hook=dict(format="then-vs-now"), cards=[dict(text="Idea"), dict(text="Vs..."), dict(text="Result"), dict(text="More")]),):   # 4+ cards
+        assert MG.CHECKS["card_count"](None, bad, "final")
 
 def test_caption_fixes_say_and_dedupe(tmp_path):
     open(os.path.join(MG.PUBLISH_LOG, "x.md"), "w").write("Jolly Glow post\nCaption (exact payload): Our street was NOT ready for this 😏🇺🇸 / #x\n")

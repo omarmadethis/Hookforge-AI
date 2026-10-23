@@ -487,7 +487,9 @@ def c_drop_on_after(path, spec, stage):
     d, ratio = song_drop(sp, in_s, dur)
     vt = d - in_s + st; spec.setdefault("_hints", {})["song_drop"] = dict(song_t=d, video_t=round(vt, 3), energy_ratio=ratio, after_t0=a0)
     if abs(vt - a0) > 0.1:
-        return [F("MR55", f"beat drop at video {vt:.2f}s (song {d:.2f}s, x{ratio}) but afters start at {a0:.2f}s - shift song in_s by {vt - a0:+.2f}s or re-time the cut (tolerance 0.1 s)", "recompose", dict(drop_video_t=vt, after_t0=a0, suggest_in_s=round(in_s + (vt - a0), 3)))]
+        # free auto-fix only when the song section is ours to shift; a verified recreation song section (MR26) is fixed, so the CUT must be re-timed by hand
+        fixable = not sg.get("recreate_of") and in_s + (vt - a0) >= 0
+        return [F("MR55", f"beat drop at video {vt:.2f}s (song {d:.2f}s, x{ratio}) but afters start at {a0:.2f}s - shift song in_s by {vt - a0:+.2f}s or re-time the cut (tolerance 0.1 s)", "recompose" if fixable else None, dict(drop_video_t=vt, after_t0=a0, suggest_in_s=round(in_s + (vt - a0), 3)))]
     return []
 
 GLOW_AFTER_SETTINGS = ("farm", "barn", "beach", "pasture", "paddock", "ranch", "field", "countryside", "meadow", "hills")   # MR57 adds the dark rolling field + twilight countryside
@@ -724,6 +726,13 @@ def recompose(path, spec):
                     "-fflags", "+bitexact", "-flags:v", "+bitexact", "-flags:a", "+bitexact", "-metadata", "encoder=", "-movflags", "+faststart", tmp], check=True)
     clean = path + ".mgclean.mp4"; deliver.sanitize(tmp, clean); os.remove(tmp); os.replace(clean, path); return True
 
+def fix_song_drop(spec, fails):
+    """MR55 auto-fix (free): move the song start (in_s) so the detected beat drop lands on the first after frame. Without this the 'recompose' fix
+    re-edits with the same in_s and the loop can never converge."""
+    n = next((f["data"]["suggest_in_s"] for f in fails if f["rule"] == "MR55" and f["fix"] == "recompose" and f.get("data")), None)
+    if n is None or n < 0: return False
+    spec.setdefault("song", {})["in_s"] = n; return True
+
 def fix_caption(spec, fails):
     from . import publish
     c = spec.get("caption") or ""; o = c; kw = spec.get("say_keyword") or "LINK"
@@ -748,6 +757,7 @@ def ensure(path, spec=None, stage="final", max_iters=MAX_ITERS, log=print):
         if "caption" in fixes and fix_caption(spec, r["failures"]): did.append("caption")
         if "recompose" in fixes:
             repair_cards(spec, r["failures"])
+            if fix_song_drop(spec, r["failures"]): did.append("song_drop")
             if recompose(path, spec): did.append("recompose")
         if did: log(f"[master_gate] iter {it}: free fixes {did}"); continue
         if "regen" in fixes:
