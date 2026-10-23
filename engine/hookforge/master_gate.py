@@ -118,7 +118,8 @@ def c_spend_cap(path, spec, stage):
     s = spec.get("spend") or {}
     if not s: return []
     if s.get("cap") is None: return [F("MR09", "no approved credit cap recorded", None)]
-    return [F("MR09", f"spent {s.get('spent')} > approved cap {s['cap']}", None)] if float(s.get("spent", 0)) > float(s["cap"]) + 1e-6 else []
+    tot = float(s.get("spent", 0)) + float(s.get("upscale_credits", 0))   # MR59: the 4K upscale is part of the video's spend
+    return [F("MR09", f"spent {s.get('spent')} + 4K upscale {s.get('upscale_credits', 0)} = {tot:g} > approved cap {s['cap']}", None)] if tot > float(s["cap"]) + 1e-6 else []
 
 def c_realism_suffix(path, spec, stage):
     return [F("MR10", f"prompt without iPhone realism suffix: {p[:60]}...", "regen") for p in spec.get("prompts", []) if "iphone" not in p.lower()]
@@ -584,6 +585,44 @@ def c_phone_look(path, spec, stage):
         if m: out.append(F("MR58", f"{nm} prompt has cinematic/polished wording '{m.group(0)}'", "regen"))
     return out
 
+# ---- MR59 (Omar 10-23): the file that is POSTED is the 4K Higgsfield upscale of the gated video (final step, after every gate passes) ----
+UP_SHORT, UP_LONG = 2160, 3840
+def upscale_record_path(p): return p + ".UPSCALE.json"
+def video_dims(path):
+    v = [s for s in _ffprobe(path).get("streams", []) if s.get("codec_type") == "video"]
+    return (int(v[0]["width"]), int(v[0]["height"])) if v else (0, 0)
+def is_4k(path):
+    w, h = video_dims(path); return min(w, h) >= UP_SHORT and max(w, h) >= UP_LONG
+def upscale_problems(up):
+    """Everything MR59 requires of a to-be-posted file `up`: >= 2160x3840, metadata-clean, a .UPSCALE.json bound to THIS file and to a
+    sha-matching PASS report of the gated source, with the post-upscale verification (audio/length/cards/visuals unchanged) all true."""
+    from . import deliver
+    w, h = video_dims(up); out = []
+    if not (min(w, h) >= UP_SHORT and max(w, h) >= UP_LONG): out.append(f"file is {w}x{h}, below 4K (need >= {UP_SHORT}x{UP_LONG}): upscale the gated video to 4K in Higgsfield first")
+    rp = upscale_record_path(up)
+    if not os.path.exists(rp): return out + ["no .UPSCALE.json: the posted file must be the Higgsfield 4K upscale of the gated video"]
+    rec = json.load(open(rp))
+    if rec.get("upscaled_sha256") != sha(up): out.append("upscale record is stale (file changed after the upscale was verified)")
+    src = rec.get("source")
+    if not (src and os.path.exists(src)): return out + ["upscale source (gated video) is missing"]
+    if rec.get("source_sha256") != sha(src): out.append("gated source changed after the upscale (re-gate, then re-upscale)")
+    pj = report_paths(src)[0]
+    try: rep = json.load(open(pj))
+    except Exception: rep = {}
+    if rep.get("status") != "PASS" or rep.get("sha256") != rec.get("source_sha256"): out.append("gated source has no matching master-gate PASS report (upscale only AFTER the gate passes)")
+    if rec.get("provider") not in ("bytedance", "topaz") or rec.get("resolution") not in ("4k", "2160p"): out.append("upscale record is not a Higgsfield 4K job (provider bytedance|topaz, resolution 4k|2160p)")
+    v = rec.get("verify") or {}
+    bad = [k for k in ("dims_4k", "length_unchanged", "audio_unchanged", "cards_unchanged", "visuals_unchanged", "metadata_clean") if v.get(k) is not True]
+    if bad: out.append(f"post-upscale verification not passed: {bad}")
+    pr = deliver.scan(up)
+    if pr: out.append("upscaled file metadata/trace (MR01): " + "; ".join(pr)[:300])
+    return out
+def c_final_4k(path, spec, stage):
+    """MR59 (publish only): the file being posted (spec['_post_file'], else `path`) must be the verified 4K upscale of the gated video."""
+    tgt = spec.get("_post_file") or path
+    if not tgt: return []
+    return [F("MR59", m, None) for m in upscale_problems(tgt)]
+
 CHECKS = {k[2:]: v for k, v in globals().items() if k.startswith("c_") and callable(v)}
 STAGES = ("final", "deliver", "publish")
 
@@ -806,6 +845,16 @@ def require(path, stage="deliver", spec=None):
     if kind != "video":
         r = ensure(path, spec if spec is not None else load_spec(path), stage, log=lambda *_: None)
         if r["status"] != "PASS": raise GateRefused(f"{path}: master gate {r['status']}: {[f['msg'] for f in r['failures']] + [m['rule'] for m in r['manual_missing']]}")
+        return True
+    if os.path.exists(upscale_record_path(path)) and not os.path.exists(report_paths(path)[0]):
+        # MR59: a 4K upscaled file carries no PASS report of its own; it is valid only through its binding to the gated source's PASS report.
+        probs = upscale_problems(path)
+        if probs: raise GateRefused(f"{path}: MR59 {probs}")
+        src = json.load(open(upscale_record_path(path)))["source"]
+        if stage != "publish": return True
+        sp = dict(load_spec(src)); sp.update({k: v for k, v in (spec or {}).items() if v}); sp["_post_file"] = path
+        r = ensure(src, sp, "publish", log=lambda *_: None)
+        if r["status"] != "PASS": raise GateRefused(f"{path}: publish gate {r['status']}: {[f['msg'] for f in r['failures']] + [m['rule'] for m in r['manual_missing']]}")
         return True
     pj = report_paths(path)[0]
     if not os.path.exists(pj): raise GateRefused(f"{path}: no master-gate PASS report - run master_gate.ensure(path, spec) first (D191)")

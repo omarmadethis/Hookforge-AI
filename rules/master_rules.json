@@ -578,5 +578,15 @@
   "fn": "phone_look",
   "fix": "regen",
   "applies": "video"
+ },
+ {
+  "id": "MR59",
+  "rule": "FINAL STEP, after every other gate passes and immediately before posting: every finished video is UPSCALED TO 4K in Higgsfield (upscale_video: provider bytedance, resolution 4k, preset ugc, fps 30, source width/height passed; Topaz 2160p only as a fallback). The file that is posted (and any hosted/Buffer video_url copy) MUST be that 4K upscaled output of the gated video: 2160 px on the short side (2160x3840 for vertical), nothing below 4K. Order: build -> full master gate PASS (720x1280, MR03 unchanged for the gated master) -> upscale to 4K -> download -> re-strip ALL metadata on the upscaled file (MR01) -> verify it against the gated source: audio unchanged, length unchanged (+-0.1 s), card text unchanged (OCR) and visuals unchanged (SSIM) -> bind it to the gated source in <file>.UPSCALE.json -> post. The publish step refuses any file below 4K, any file without a valid .UPSCALE.json binding to a sha-matching PASS report, and any upscaled file that is not metadata-clean. The upscale credit cost counts toward the video's approved spend cap (spend.upscale_credits; reserve 30 cr provisional until the first measured job - Higgsfield has no cost preflight for upscale_video). Never upscale or post before the gate passes; never post the 720p master.",
+  "sources": "Omar 2026-10-23 (MR59: upscale finished videos to 4K in Higgsfield as the final step before posting)",
+  "date_PT": "2026-10-23",
+  "check": "auto",
+  "fn": "final_4k",
+  "fix": "none",
+  "applies": "publish"
  }
 ]

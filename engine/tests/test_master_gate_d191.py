@@ -198,3 +198,58 @@ def test_mr58_template_spec_passes_and_fails(tmp_path):
     t = _mr58_spec(tmp_path); del t["shots"][0]["prompt"]; assert any("no recorded prompt" in m for m in f(t))
     t = _mr58_spec(tmp_path); t["phone_look"]["no_gimbal"] = False; assert any("phone_look" in m for m in f(t))
     t = _mr58_spec(tmp_path); t["frames"][0]["prompt"] = "woman in tack shop, cinematic"; assert any("frame T9_H" in m for m in f(t))
+
+# ---- MR59 final step: posted file = verified 4K Higgsfield upscale of the gated video (Omar 10-23) ----
+def _mr59_src(tmp_path):
+    src = str(tmp_path / "g.mp4")
+    _ff("-f", "lavfi", "-i", "testsrc2=s=720x1280:r=30:d=3", "-f", "lavfi", "-i", "sine=f=440:d=3", "-shortest", "-pix_fmt", "yuv420p", "-c:a", "aac", src)
+    MG.fix_sanitize(src, {}); MG.write_report(src, {}, dict(status="PASS", checked=[], failures=[], manual_missing=[]), "final"); return src
+
+def _mr59_raw(tmp_path, src, vf="scale=2160:3840:flags=lanczos"):
+    raw = str(tmp_path / "raw.mp4")   # stands in for the Higgsfield download (carries encoder metadata like a real download)
+    _ff("-i", src, "-vf", vf, "-c:v", "libx264", "-crf", "20", "-c:a", "copy", "-metadata", "comment=higgsfield", raw); return raw
+
+def test_mr59_rule_registered_and_publish_only():
+    r = next(x for x in MG.rules() if x["id"] == "MR59")
+    assert r["fn"] == "final_4k" and r["applies"] == "publish" and r["check"] == "auto" and "final_4k" in MG.CHECKS
+    assert not MG.applicable(r, "video", "final") and MG.applicable(r, "video", "publish")
+
+def test_mr59_refuses_below_4k_and_unbound(tmp_path):
+    src = _mr59_src(tmp_path)
+    f = MG.CHECKS["final_4k"](src, {}, "publish")
+    assert f and any("below 4K" in x["msg"] for x in f) and all(x["rule"] == "MR59" for x in f)
+    raw = _mr59_raw(tmp_path, src)                   # 4K but never verified/bound -> still refused
+    assert any(".UPSCALE.json" in x["msg"] for x in MG.CHECKS["final_4k"](raw, {}, "publish"))
+
+def test_mr59_finish_strips_verifies_binds_and_passes(tmp_path):
+    from hookforge import upscale4k as U, deliver
+    src = _mr59_src(tmp_path); raw = _mr59_raw(tmp_path, src)
+    assert deliver.scan(raw)                         # the download has metadata
+    out = U.finish(src, raw, credits=None)
+    assert out.endswith("_4k.mp4") and MG.is_4k(out) and MG.video_dims(out) == (2160, 3840) and not deliver.scan(out)
+    rec = json.load(open(MG.upscale_record_path(out))); assert all(rec["verify"].values()), rec["why"]
+    assert not MG.CHECKS["final_4k"](src, {"_post_file": out}, "publish")
+    assert MG.require(out, stage="deliver") is True  # 4K file validated via its binding to the gated source's PASS report
+    p = U.plan(src); assert p["tool"] == "upscale_video" and p["params"] == dict(provider="bytedance", video_id=p["params"]["video_id"], width=720, height=1280, fps=30, resolution="4k", preset="ugc")
+    assert p["reserve_credits"] == U.UPSCALE_RESERVE_CREDITS
+    open(out, "ab").write(b"x")                      # file touched after verification -> stale
+    assert any("stale" in x["msg"] for x in MG.CHECKS["final_4k"](src, {"_post_file": out}, "publish"))
+
+def test_mr59_verification_catches_changed_audio_length_and_gate_order(tmp_path):
+    from hookforge import upscale4k as U
+    src = _mr59_src(tmp_path)
+    bad = str(tmp_path / "bad.mp4")
+    _ff("-i", _mr59_raw(tmp_path, src), "-af", "volume=0", "-c:v", "copy", bad)
+    try: U.finish(src, bad, out=str(tmp_path / "o1_4k.mp4")); assert False
+    except MG.GateRefused as e: assert "audio_unchanged" in str(e)
+    short = str(tmp_path / "short.mp4"); _ff("-i", _mr59_raw(tmp_path, src), "-t", "2", "-c", "copy", short)
+    try: U.finish(src, short, out=str(tmp_path / "o2_4k.mp4")); assert False
+    except MG.GateRefused as e: assert "length_unchanged" in str(e)
+    for p in MG.report_paths(src): os.remove(p)      # upscale only AFTER the gate passed
+    try: U.finish(src, _mr59_raw(tmp_path, src), out=str(tmp_path / "o3_4k.mp4")); assert False
+    except (MG.GateRefused, FileNotFoundError): pass
+
+def test_mr59_upscale_counts_toward_spend_cap():
+    sp = dict(spend=dict(cap=160, spent=140, upscale_credits=30))
+    assert any("4K upscale" in x["msg"] for x in MG.CHECKS["spend_cap"](None, sp, "final"))
+    sp["spend"]["upscale_credits"] = 20; assert not MG.CHECKS["spend_cap"](None, sp, "final")

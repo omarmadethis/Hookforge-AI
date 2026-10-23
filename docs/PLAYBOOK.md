@@ -55,8 +55,27 @@ Ranked by evidence in `formats/INDEX.md`; each has a full recipe (timing, card p
   time of day, a US flag where plausible, correct gaze and physics, product exactly matching the real one.
 - **Glow products:** lights bright and glowy (white-hot cores, saturated halo, bloom, spill, reflections) but the
   motion trail barely visible (MR49: lagfun decay <= 0.6, trail opacity <= 0.15).
-- **Files:** zero metadata on everything (videos AND images), 720x1280 export.
+- **Files:** zero metadata on everything (videos AND images), 720x1280 export for the gated master.
   *(Superseded: the old 1440x2560@30 export and 1080p hooks.)*
+
+### 3b. Final step: 4K upscale (MR59, Omar 2026-10-23)
+
+After every gate passes and immediately before posting, upscale the gated 720x1280 video to **4K (2160x3840)** in Higgsfield.
+The 4K file is what gets posted and hosted (Buffer `video_url`); the 720p master is never posted. Order:
+
+1. Master gate PASS on the 720x1280 file (nothing about the build changes; MR03 still describes the gated master).
+2. Plan: `python3 tools/lumarein/upscale_4k.py plan <gated.mp4>` prints the exact call (connector `user-Higgsfield--new-account`,
+   tool `upscale_video`: `provider=bytedance, resolution=4k, preset=ugc, fps=30, width=720, height=1280, video_id=<uploaded media_id>`;
+   Topaz `resolution=2160p` only as a fallback). Upload the gated mp4 with `media_upload`/`media_confirm` to get the `video_id`.
+3. Run `upscale_video` (within the spend cap, see cost below), wait with `jobs_wait`, download the result.
+4. `python3 tools/lumarein/upscale_4k.py finish <gated.mp4> <download.mp4> [job_id] [credits]` re-strips ALL metadata (MR01), then checks
+   audio, length (+-0.1 s), card text (OCR) and visuals are unchanged vs the gated video, and writes `<name>_4k.mp4` + `.UPSCALE.json`.
+5. Post/host ONLY `<name>_4k.mp4`: `publish.prepare` -> `master_gate.require(..., stage="publish")` refuses anything below 4K, any file
+   without a valid binding to a sha-matching PASS report, and any upscaled file that is not metadata-clean.
+
+**Cost:** `upscale_video` has no cost preflight and Higgsfield publishes ranges only (ByteDance 3-277 cr, Topaz 4-96 cr by length/resolution).
+Reserve **30 credits per video (provisional)** in the plan/cap (`spec.spend.upscale_credits`, counted by MR09); after the first real job read the
+exact charge from `transactions` and record it (`upscale4k.record_cost`) and update `UPSCALE_RESERVE_CREDITS`. Failed upscales are refunded by Higgsfield.
 
 ## 4. Captions
 
@@ -69,6 +88,7 @@ Ranked by evidence in `formats/INDEX.md`; each has a full recipe (timing, card p
 
 ## 5. Posting
 
+- **Always post the 4K upscale (MR59)**, produced as the last step after the gate passes (section 3b).
 - 6 PM-4 AM local: night posts had ~3x the views (n=75, p~0.02); weekends also stronger.
 - 2-3 posts/day per page, each a NEW video; keep >= 6 h between posts on a page.
 - Retire a hook family after 2 posts under 0.2x the page median for that product.
