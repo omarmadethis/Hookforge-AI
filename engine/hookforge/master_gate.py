@@ -490,7 +490,7 @@ def c_drop_on_after(path, spec, stage):
         return [F("MR55", f"beat drop at video {vt:.2f}s (song {d:.2f}s, x{ratio}) but afters start at {a0:.2f}s - shift song in_s by {vt - a0:+.2f}s or re-time the cut (tolerance 0.1 s)", "recompose", dict(drop_video_t=vt, after_t0=a0, suggest_in_s=round(in_s + (vt - a0), 3)))]
     return []
 
-GLOW_AFTER_SETTINGS = ("farm", "barn", "beach", "pasture", "paddock", "ranch")
+GLOW_AFTER_SETTINGS = ("farm", "barn", "beach", "pasture", "paddock", "ranch", "field", "countryside", "meadow", "hills")   # MR57 adds the dark rolling field + twilight countryside
 def c_afters_cinematic(path, spec, stage):
     """MR56 (Omar 10-22 7:44 PM BST): Barn Glow afters = EXACTLY 3 back-to-back cinematic cuts of the glowing horses running,
     in relevant settings (farm / barn in background / occasionally beach). Spec after shots carry setting=<word> and action='running';
@@ -503,6 +503,83 @@ def c_afters_cinematic(path, spec, stage):
         st = (sh[i].get("setting") or "").lower(); act = (sh[i].get("action") or "").lower()
         if not any(w in st for w in GLOW_AFTER_SETTINGS): out.append(F("MR56", f"after shot {i} setting '{st or '?'}' is not farm/barn/beach (irrelevant place)", "regen"))
         if "run" not in act and "gallop" not in act: out.append(F("MR56", f"after shot {i} action '{act or '?'}' - glowing horses must be running", "regen"))
+    return out
+
+# ---- MR57 (Omar 10-22 6:55 PM PT): Barn Glow afters = 3 FAST cuts in the reference style: side tracking beach gallop -> rider POV gallop -> 2-horse high tracking ----
+AFTER_STYLES = ("side_tracking", "rider_pov", "high_two_horse")        # fixed order = ref/afters_ref_pov.mp4 (beach 8.07-10.0, POV 10.0-11.9, two horses 11.9-14.4)
+AFTER_FAST = re.compile(r"\b(fast|very fast|rapid|speed|sprint|flat[- ]out|full gallop|aggressive|whip)\b", re.I)
+AFTER_SLOW = re.compile(r"slow[- ]?mo(tion)?|slowly|slow motion|floaty|floating|gentle|calm|graceful|dreamy|\bcanter\b|\btrot\b|\bwalk(ing)?\b|\bsteady\b|serene", re.I)
+AFTER_MOTION_FLOOR = dict(side_tracking=4.0, rider_pov=6.5, high_two_horse=3.2)   # mean |frame diff| @15 fps, 90x160 gray; ~75% of the reference's own shot (5.5 / 8.6 / 4.3)
+POV_FLAGS = dict(hands=0, reins=False, lead_rider=True, collar_glow=True, edge_blur=True)
+def after_motion(path, t0, t1, trim=0.15, fps_s=15):
+    """Mean absolute frame difference (speed proxy, resolution-independent) over [t0+trim, t1-trim]; None if unreadable / too short."""
+    import numpy as np
+    try: import cv2
+    except Exception: return None
+    c = cv2.VideoCapture(path); fps = c.get(5) or 30; step = max(1, round(fps / fps_s)); prev = None; i = 0; d = []
+    while True:
+        ok, f = c.read()
+        if not ok: break
+        t = i / fps; i += 1
+        if t < t0 + trim or t > t1 - trim: prev = None; continue
+        if i % step: continue
+        g = cv2.cvtColor(cv2.resize(f, (90, 160)), cv2.COLOR_BGR2GRAY)
+        if prev is not None: d.append(float(np.abs(g.astype(float) - prev).mean()))
+        prev = g
+    return round(float(np.mean(d)), 2) if len(d) >= 3 else None
+def c_afters_style(path, spec, stage):
+    """MR57: spec check + render speed screen. After shots (exactly 3, MR56) carry style in AFTER_STYLES order, a prompt asking for fast gallop /
+    aggressive camera (no slow/floaty wording), the POV shot (rider_pov) carries POV_FLAGS (no hands/reins, lead glowing rider, glowing collar, edge blur),
+    the high_two_horse shot has 2 horses (blue + green). Frame-diff speed per shot must reach the floor for its style (rejects slow-motion/floaty clips).
+    Reviewer sign-off (manual half): the render really looks like the reference cuts and never slow/stiff."""
+    if not _is_glow_horse(spec): return []
+    sh = spec.get("shots") or []; af = [s for s in sh if s.get("role") == "after"]
+    if not af: return []                                       # MR56/MR53 report missing afters
+    out = []; styles = [s.get("style") for s in af]
+    if styles != list(AFTER_STYLES): out.append(F("MR57", f"after styles {styles} != {list(AFTER_STYLES)} (side tracking beach gallop, rider POV gallop, 2-horse high tracking)", "regen"))
+    for i, s in enumerate(af):
+        st = s.get("style") or "?"; pr = s.get("prompt") or ""; nm = s.get("gen") or f"after{i}"
+        if not pr: out.append(F("MR57", f"{nm} ({st}): no prompt recorded in spec shot.prompt", "regen")); continue
+        if not AFTER_FAST.search(pr): out.append(F("MR57", f"{nm} ({st}) prompt lacks fast-gallop / aggressive-camera wording", "regen"))
+        m = AFTER_SLOW.search(pr)
+        if m: out.append(F("MR57", f"{nm} ({st}) prompt has slow/floaty wording '{m.group(0)}'", "regen"))
+        if st == "rider_pov":
+            if not re.search(r"first[- ]person|\bPOV\b", pr, re.I) or not re.search(r"hand-?held", pr, re.I) or not re.search(r"shake", pr, re.I): out.append(F("MR57", f"{nm} POV prompt needs first-person POV + handheld + shake wording", "regen"))
+            pv = s.get("pov") or {}; bad = [k for k, v in POV_FLAGS.items() if pv.get(k) != v]
+            if bad: out.append(F("MR57", f"{nm} POV flags wrong/missing {bad} (need {POV_FLAGS})", "regen"))
+        if st == "high_two_horse":
+            if int(s.get("horses") or 0) != 2 or sorted(c.lower() for c in s.get("colors") or []) != ["blue", "green"]: out.append(F("MR57", f"{nm} two-horse shot needs horses=2 and colors [blue, green]", "regen"))
+        if st == "side_tracking" and not re.search(r"beach", (s.get("setting") or ""), re.I): out.append(F("MR57", f"{nm} side tracking shot must be on a beach at night", "regen"))
+        if st in AFTER_MOTION_FLOOR and path and os.path.exists(path) and s.get("t0") is not None and s.get("t1") is not None:
+            v = after_motion(path, float(s["t0"]), float(s["t1"])); spec.setdefault("_hints", {}).setdefault("after_motion", {})[nm] = v
+            if v is not None and v < AFTER_MOTION_FLOOR[st]: out.append(F("MR57", f"{nm} ({st}) looks slow/floaty: motion {v} < {AFTER_MOTION_FLOOR[st]}", "regen"))
+    return out
+
+# ---- MR58 (Omar 10-22 7:00 PM PT, extends MR57): ALL Barn Glow footage (hook, assembly, afters) looks like GENUINE handheld iPhone video ----
+PHONE_REQ = (("iphone", r"\bshot on iphone\b"), ("handheld", r"\bhand-?held\b"), ("real phone video", r"\breal phone video\b"), ("authentic", r"\bauthentic\b"), ("unedited look", r"\bunedited\b"))
+PHONE_BAN = re.compile(r"\bcinematic\b|\bfilmic\b|\bfilm look\b|\bgimbal\b|\bsmooth(ly)?\b|\bpolished\b|\bglossy\b|\b3d\b|\brender(ed|ing)?\b|\bstudio\b|\bhyper-?real(istic)?\b|\bultra[- ]?(hd|sharp|clean)\b|\b(4|8)k\b|\bperfect(ly)?\b|\bcgi\b|\bmovie\b|\bdrone shot\b", re.I)
+PHONE_FLAGS = dict(handheld=True, vertical=True, sensor_noise=True, imperfect_autofocus=True, imperfect_exposure=True, real_lighting=True, no_gimbal=True, no_ai_sheen=True, no_plastic_skin=True, no_3d_glow=True)
+def _phone_prompts(spec):
+    out = [(f"spec.prompts[{i}]", p) for i, p in enumerate(spec.get("prompts") or []) if isinstance(p, str)]
+    for i, s in enumerate(spec.get("shots") or []):
+        if s.get("prompt"): out.append((f"shot {s.get('gen') or i}", s["prompt"]))
+    for f in spec.get("frames") or []:
+        if f.get("prompt"): out.append((f"frame {f.get('id')}", f["prompt"]))
+    return out
+def c_phone_look(path, spec, stage):
+    """MR58: spec declares phone_look flags (PHONE_FLAGS), EVERY shot (hook/vs/body/after) has a generator prompt, and every Seedance / image prompt carries the
+    'shot on iPhone, handheld, real phone video, authentic, unedited look' language and none carries cinematic/gimbal/polished/glossy/3D wording.
+    Manual half: reviewer signs off that each clip looks like real phone footage and none looks AI-generated (reject and regen otherwise). MR49 + MR01 still apply."""
+    if not _is_glow_horse(spec): return []
+    out = []; pl = spec.get("phone_look") or {}; bad = [k for k, v in PHONE_FLAGS.items() if pl.get(k) != v]
+    if bad: out.append(F("MR58", f"spec.phone_look missing/false flags {bad}", "regen"))
+    for i, s in enumerate(spec.get("shots") or []):
+        if not s.get("prompt"): out.append(F("MR58", f"shot {s.get('gen') or i} ({s.get('role')}) has no recorded prompt (shots[].prompt) - cannot verify phone-video language", "regen"))
+    for nm, pr in _phone_prompts(spec):
+        miss = [k for k, rx in PHONE_REQ if not re.search(rx.replace("real phone video", "real phone (video|photo)") if nm.startswith("frame") else rx, pr, re.I)]
+        if miss: out.append(F("MR58", f"{nm} prompt lacks phone-video language {miss}", "regen"))
+        m = PHONE_BAN.search(pr)
+        if m: out.append(F("MR58", f"{nm} prompt has cinematic/polished wording '{m.group(0)}'", "regen"))
     return out
 
 CHECKS = {k[2:]: v for k, v in globals().items() if k.startswith("c_") and callable(v)}

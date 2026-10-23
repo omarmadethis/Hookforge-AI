@@ -558,5 +558,25 @@
   "fn": "afters_cinematic",
   "fix": "regen",
   "applies": "video"
+ },
+ {
+  "id": "MR57",
+  "rule": "Barn Glow afters = EXACTLY 3 FAST, realistic-feeling cuts in this order and style (ref/afters_ref_pov.mp4): (1) side tracking shot of a glowing rider galloping on a beach at night, camera moving very fast to keep pace; (2) FIRST-PERSON RIDER POV gallop - horse's neck, mane and ears stretching forward over a dark rolling field at night, glowing collar/strap, aggressive handheld shake, extremely fast forward speed, edge blur, NO hands or reins, another glowing rider ahead (ALWAYS include this shot); (3) 2-horse side-by-side shot (blue + green), high tracking angle across a twilight countryside. Never slow or floaty: prompts use fast gallop + aggressive camera wording (no slow/floaty words), render motion must reach the per-style speed floor, slow-motion-looking or stiff clips are rejected. Keep MR49 (near-zero trails) and MR53/55/56; only characters, colors and settings change. Spec after shots carry style (side_tracking|rider_pov|high_two_horse), prompt, pov flags, horses/colors.",
+  "sources": "Omar 2026-10-22 6:55 PM PT (afters reference breakdown)",
+  "date_PT": "2026-10-22 6:55 PM",
+  "check": "auto+manual",
+  "fn": "afters_style",
+  "fix": "regen",
+  "applies": "video"
+ },
+ {
+  "id": "MR58",
+  "rule": "ALL Barn Glow / LumaRein footage (hook, VS assembly and afters) looks like GENUINE handheld iPhone video, like the competitor's: vertical, slight handheld shake, real phone-sensor noise and grain in low light, slightly imperfect autofocus and exposure, usual phone dynamic range and sharpening, real-world lighting; NO cinematic or polished AI sheen, no plastic skin, no perfectly smooth gimbal motion, no glossy 3D-render glow. Every Seedance and image prompt carries 'shot on iPhone, handheld, real phone video, authentic, unedited look' language and never cinematic wording; spec.phone_look flags + shots[].prompt are checked; reviewer signs off that every clip looks like real phone footage - any clip that looks AI-generated is rejected and regenerated. Extends MR57; keep MR49 (near-zero trails) and MR01 (zero metadata). Footage look only: our own post grade still adds no grain/sharpening (MR12). For Barn Glow this overrides the 'not grainy/sharp, nothing cinematic' tail of the generic iPhone-12 suffix (the iPhone/realism wording still satisfies MR10).",
+  "sources": "Omar 2026-10-22 7:00 PM PT (genuine handheld iPhone look, extends MR57)",
+  "date_PT": "2026-10-22 7:00 PM",
+  "check": "auto+manual",
+  "fn": "phone_look",
+  "fix": "regen",
+  "applies": "video"
  }
 ]

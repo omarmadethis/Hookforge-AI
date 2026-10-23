@@ -137,3 +137,60 @@ def test_planner_defaults_one_card():
     src = open(FD.__file__).read()
     tc = " ".join(re.findall(r"text_cards=\[[^\n]*?\]", src))
     assert "JK" not in tc and "Vs" not in tc and all(len(re.findall(r"\(", m)) <= 2 for m in re.findall(r"text_cards=\[[^\n]*?\]", src))
+
+# ---- MR57 Barn Glow afters style (Omar 10-22 6:55 PM PT) ----
+def _mr57_spec(tmp_path=None):
+    import sys, copy
+    sys.path.insert(0, os.path.join(MG.REPO, "tools", "lumarein"))
+    from barnglow_afters import after_shots
+    return dict(product="lumarein", page="Barn Glow", shots=after_shots([8.85, 10.35, 11.85], 13.35, ["A1", "A2", "A3"]))
+
+def test_mr57_template_passes_and_rule_registered():
+    spec = _mr57_spec()
+    assert next(r for r in MG.rules() if r["id"] == "MR57")["fn"] == "afters_style"
+    assert not MG.CHECKS["afters_style"](None, spec, "final")
+    assert not MG.CHECKS["afters_cinematic"](None, spec, "final") and not MG.CHECKS["multi_horse"](None, spec, "final")
+    assert not MG.CHECKS["afters_style"](None, dict(product="jollyglow", shots=[dict(role="after")]), "final")   # other pages unaffected
+
+def test_mr57_spec_failures():
+    f = lambda sp: [x["msg"] for x in MG.CHECKS["afters_style"](None, sp, "final")]
+    s = _mr57_spec(); s["shots"][1], s["shots"][2] = s["shots"][2], s["shots"][1]; assert any("after styles" in m for m in f(s))   # POV must be shot 2
+    s = _mr57_spec(); s["shots"][0]["prompt"] += ", in slow motion"; assert any("slow/floaty" in m for m in f(s))
+    s = _mr57_spec(); s["shots"][0]["prompt"] = "a horse on a beach, shot on iphone"; assert any("fast-gallop" in m for m in f(s))
+    s = _mr57_spec(); s["shots"][1]["pov"]["hands"] = 1; assert any("POV flags" in m for m in f(s))
+    s = _mr57_spec(); s["shots"][1]["prompt"] = s["shots"][1]["prompt"].replace("handheld", "static"); assert any("POV prompt" in m for m in f(s))
+    s = _mr57_spec(); s["shots"][2]["colors"] = ["red", "green"]; assert any("two-horse" in m for m in f(s))
+    s = _mr57_spec(); del s["shots"][1]; assert any("after styles" in m for m in f(s))
+
+def test_mr57_rejects_slow_render(tmp_path):
+    spec = _mr57_spec(); slow = str(tmp_path / "slow.mp4"); fast = str(tmp_path / "fast.mp4")
+    _ff("-f", "lavfi", "-i", "color=c=gray:s=180x320:r=30:d=14", "-pix_fmt", "yuv420p", slow)
+    _ff("-f", "lavfi", "-i", "color=c=gray:s=180x320:r=30:d=14", "-vf", "noise=alls=40:allf=t", "-pix_fmt", "yuv420p", fast)
+    assert not MG.CHECKS["afters_style"](fast, _mr57_spec(), "final")
+    bad = MG.CHECKS["afters_style"](slow, spec, "final")
+    assert len(bad) == 3 and all("slow/floaty" in x["msg"] for x in bad)
+
+# ---- MR58 genuine handheld iPhone look (Omar 10-22 7:00 PM PT, extends MR57) ----
+def _mr58_spec(tmp_path):
+    import json as _j, subprocess as _sp, sys
+    d = tmp_path / "bg"; d.mkdir(exist_ok=True)
+    _j.dump(dict(shot_t0=[0, 3.65, 5.15, 6.65, 8.85, 10.35, 11.85, 13.35], cards=[dict(text="x", t0=0, t1=13.35, png="x.png", scale=0.7, y=0.88)]), open(d / "T9_build.json", "w"))
+    _j.dump(dict(video_id="T9", dir=str(d), hook=dict(format="audience-callout", first_second_action="a", conflict="b"), caption="c", say_keyword="K",
+                 song=dict(key="k", path="music/x.m4a", in_s=1.0, reel_id="1"), spend=dict(cap=150, spent=100), pre_roles=["hook", "body", "body"],
+                 pre_gens=["T9_H", "T9_B1a", "T9_B1b"], after_gens=["T9_A1a", "T9_A1b", "T9_A2a"], approval_quote="test quote here",
+                 pre_prompts=["woman in a tack shop gasps and points", "she straps a glow band on a bay horse", "the remote clicks and the lights come on"],
+                 frame_prompts={"T9_H": "woman in tack shop", "T9_B1": "bay horse in stable", "T9_A1": "beach at night", "T9_A2": "field"}), open(d / "c.json", "w"))
+    _sp.run([sys.executable, os.path.join(MG.REPO, "tools", "lumarein", "make_spec_barnglow.py"), str(d / "c.json")], check=True, capture_output=True)
+    return json.load(open(d / "T9_clean.mp4.gate.json"))
+
+def test_mr58_template_spec_passes_and_fails(tmp_path):
+    f = lambda sp: [x["msg"] for x in MG.CHECKS["phone_look"](None, sp, "final")]
+    s = _mr58_spec(tmp_path); assert next(r for r in MG.rules() if r["id"] == "MR58")["fn"] == "phone_look"
+    assert not f(s) and not MG.CHECKS["afters_style"](None, s, "final")
+    assert not MG.CHECKS["phone_look"](None, dict(product="jollyglow", shots=[dict(role="after")]), "final")
+    for bad_word in ("cinematic", "gimbal", "smooth slow", "glossy 3D render", "polished"):
+        t = _mr58_spec(tmp_path); t["shots"][0]["prompt"] += ", " + bad_word; assert any("cinematic/polished" in m for m in f(t)), bad_word
+    t = _mr58_spec(tmp_path); t["shots"][2]["prompt"] = "bay horse in stable, shot on iphone"; assert any("lacks phone-video" in m for m in f(t))
+    t = _mr58_spec(tmp_path); del t["shots"][0]["prompt"]; assert any("no recorded prompt" in m for m in f(t))
+    t = _mr58_spec(tmp_path); t["phone_look"]["no_gimbal"] = False; assert any("phone_look" in m for m in f(t))
+    t = _mr58_spec(tmp_path); t["frames"][0]["prompt"] = "woman in tack shop, cinematic"; assert any("frame T9_H" in m for m in f(t))

@@ -4,7 +4,7 @@ Generated from `rules/master_rules.json` by `tools/build_rules_doc.py`; do not e
 (`engine/hookforge/master_gate.py`) enforces these on every file before it is shown to anyone or published.
 The machine table with sources is `rules/MASTER_RULES.md`.
 
-**51 rules.** How each is checked: *automatic* (the gate measures it), *reviewer sign-off* (a human or
+**58 rules.** How each is checked: *automatic* (the gate measures it), *reviewer sign-off* (a human or
 vision reviewer confirms it in the spec's `confirm` block), *process* (a habit, not a file check).
 
 **Fix order when a check fails:** free fixes first (strip metadata, re-edit cards, re-lay the song, rewrite the
@@ -59,8 +59,8 @@ otherwise the gate stops at `NEEDS_REGEN_WITHIN_CAP` with the plan. Nothing ship
   _Check:_ reviewer sign-off. _Fix:_ regenerate footage (within the approved credit cap). _Applies to:_ video.
 - **MR20** No race-based casting; never sexualize or feature minors; exclude FEMBOY child content.  
   _Check:_ reviewer sign-off. _Fix:_ regenerate footage (within the approved credit cap). _Applies to:_ video.
-- **MR49** Glow trail / motion blur behind lights is barely visible (subtle, only slightly there) - never long smeared streaks like LR1/LR2; the glow itself stays bright, saturated and glowy (white-hot cores + halo/bloom). Post trail pass: lagfun decay <= 0.6 and trail opacity <= 0.15; prompts say 'faint, barely visible trail', never 'long light trails'.  
-  _Check:_ automatic + reviewer sign-off (`glow_trail`). _Fix:_ free fix: recompose. _Applies to:_ video.
+- **MR49** Glow trail / motion blur behind lights is EXTREMELY minimal, close to none: no streaks behind the horse at all, only the bright glow on the product itself (white-hot cores + halo/bloom). Post trail pass: lagfun decay <= 0.3 and trail opacity <= 0.03 (default 0 = no trail pass); prompts must say 'no light trails, no motion streaks, no long-exposure effect' and never ask for trails; any clip with visible streaks is rejected.  
+  _Check:_ automatic + reviewer sign-off (`glow_trail`). _Fix:_ regenerate footage (within the approved credit cap). _Applies to:_ video.
 - **MR51** No illogical settings for the product: every scene is a place the product/subject would actually be. PurrVentures: the cat never appears in a store or garden center - use yards, parks, patios and similar.  
   _Check:_ reviewer sign-off. _Fix:_ regenerate footage (within the approved credit cap). _Applies to:_ video.
 
@@ -99,7 +99,7 @@ otherwise the gate stops at `NEEDS_REGEN_WITHIN_CAP` with the plan. Nothing ship
 
 - **MR29** Straight hard cuts only: no fades, no jump cut inside one take, no lingering boring shot.  
   _Check:_ reviewer sign-off. _Fix:_ free fix: recompose. _Applies to:_ video.
-- **MR31** ONE on-screen card by default; a 2nd only for a problem-vs-solution / then-vs-now hook or a closing 'get it from the caption below 👇' card; never 3+.  
+- **MR31** ONE on-screen card by default; a 2nd only for a problem-vs-solution / then-vs-now hook or a closing 'get it from the caption below 👇' card; 3 cards ONLY for the MR52 idea / VS / result structure (VS on the middle card); never 4+.  
   _Check:_ automatic (`card_count`). _Fix:_ free fix: recompose. _Applies to:_ video.
 - **MR32** Every card is <= 8 words.  
   _Check:_ automatic (`card_words`). _Fix:_ free fix: recompose. _Applies to:_ video.
@@ -139,3 +139,17 @@ otherwise the gate stops at `NEEDS_REGEN_WITHIN_CAP` with the plan. Nothing ship
 
 - **MR48** Never burn in captions (F04) - SUPERSEDED: on-screen cards are now required (D188); post captions live in the FB caption.  
   _Check:_ SUPERSEDED.
+- **MR52** VS / idea-vs-result videos have 3 parts in order: (1) HOOK = the problem, only the makeshift janky version (duct tape etc.); (2) VS = a separate segment right after the hook showing the product being ASSEMBLED / put on the horse, the VS card starts here; (3) RESULT = the afters, riding with the bright glow, >= 2 hard cuts. Never skip the VS assembly segment. Spec shots carry role hook/vs/after.  
+  _Check:_ automatic.
+- **MR53** Barn Glow / LumaRein afters ALWAYS include multiple glowing horses: at least one after shot with 2+ horses wearing the product (spec shots[].horses, confirmed on the render).  
+  _Check:_ automatic + reviewer sign-off.
+- **MR54** Assembly / VS segments are never rushed: the product assembly reads clearly, >= 2.0 s on screen and >= the reference's assembly length (spec.reference.assembly_s) when recreating.  
+  _Check:_ automatic.
+- **MR55** The song's beat drop lands exactly on the first frame of the afters (+-0.1 s): drop detected by onset/energy analysis of the used song section; align song in_s (or the cut) so the drop hits the after cut.  
+  _Check:_ automatic.
+- **MR56** Barn Glow afters = EXACTLY three back-to-back cinematic cuts of the glowing horses running, in relevant settings only (farm, barn in the background, occasionally a beach); never irrelevant places. With MR53, at least one of the three shows multiple horses. Spec after shots carry setting + action.  
+  _Check:_ automatic + reviewer sign-off.
+- **MR57** Barn Glow afters = EXACTLY 3 FAST, realistic-feeling cuts in this order and style (ref/afters_ref_pov.mp4): (1) side tracking shot of a glowing rider galloping on a beach at night, camera moving very fast to keep pace; (2) FIRST-PERSON RIDER POV gallop - horse's neck, mane and ears stretching forward over a dark rolling field at night, glowing collar/strap, aggressive handheld shake, extremely fast forward speed, edge blur, NO hands or reins, another glowing rider ahead (ALWAYS include this shot); (3) 2-horse side-by-side shot (blue + green), high tracking angle across a twilight countryside. Never slow or floaty: prompts use fast gallop + aggressive camera wording (no slow/floaty words), render motion must reach the per-style speed floor, slow-motion-looking or stiff clips are rejected. Keep MR49 (near-zero trails) and MR53/55/56; only characters, colors and settings change. Spec after shots carry style (side_tracking|rider_pov|high_two_horse), prompt, pov flags, horses/colors.  
+  _Check:_ automatic + reviewer sign-off.
+- **MR58** ALL Barn Glow / LumaRein footage (hook, VS assembly and afters) looks like GENUINE handheld iPhone video, like the competitor's: vertical, slight handheld shake, real phone-sensor noise and grain in low light, slightly imperfect autofocus and exposure, usual phone dynamic range and sharpening, real-world lighting; NO cinematic or polished AI sheen, no plastic skin, no perfectly smooth gimbal motion, no glossy 3D-render glow. Every Seedance and image prompt carries 'shot on iPhone, handheld, real phone video, authentic, unedited look' language and never cinematic wording; spec.phone_look flags + shots[].prompt are checked; reviewer signs off that every clip looks like real phone footage - any clip that looks AI-generated is rejected and regenerated. Extends MR57; keep MR49 (near-zero trails) and MR01 (zero metadata). Footage look only: our own post grade still adds no grain/sharpening (MR12). For Barn Glow this overrides the 'not grainy/sharp, nothing cinematic' tail of the generic iPhone-12 suffix (the iPhone/realism wording still satisfies MR10).  
+  _Check:_ automatic + reviewer sign-off.
