@@ -7,7 +7,8 @@ from hookforge.userconfig import load as _ucload
 PAGES = {p["channel"]: p.get("name", k) for k, p in _ucload("buffer_routing")["pages"].items() if p.get("channel")}   # Buffer channel id -> page name
 LABELS = {"40c278e4": "trumpglow_TG4_wife_said_no", "29ab437b": "purrventure_PV4_garden_escape", "e2838451": "trumpglow_TG5_gas_2022_vs_2026", "267d0f3b": "jollyglow_G01", "5e903e04": "purrventure_P1_pool_skim", "8358a228": "purrventure_P2_hedge_trim", "6c9911ec": "trumpglow_B3",
           "45972879": "trumpglow_A3", "d7462f5e": "purrventure_P3_leaf_rake", "bd8b0d18": "jollyglow_F06_v2", "6ad7c7cd100c30fd2be358c4": "jollyglow_combo_walmart",
-          "6ada55cf399af6f1f72d42b4": "lumarein_LR4", "6ada55d577984f39b2b1376f": "lumarein_LR5", "6adabcc2cc1b7cdc08c5db24": "lumarein_LR6"}
+          "6ada55cf399af6f1f72d42b4": "lumarein_LR4", "6ada55d577984f39b2b1376f": "lumarein_LR5", "6adabcc2cc1b7cdc08c5db24": "lumarein_LR6",
+          "6adb75e491ffb6bdb08d5b7b": "lumarein_LR7_barnglow", "6adb780c91ffb6bdb08e447f": "lumarein_LR8_minionmask"}
 D = os.path.join(MG.REPO, "data", "posted_media")
 def posts(f):
     t = open(f).read(); d = json.JSONDecoder().raw_decode(t[t.find("{"):])[0]
